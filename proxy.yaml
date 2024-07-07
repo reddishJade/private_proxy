@@ -1,85 +1,87 @@
-# 基本配置
-# 订阅更新以及延迟测试
-p:
-  type: http
-  interval: 3600
-  health-check:
-    enable: true
-    url: https://www.gstatic.com/generate_204
-    interval: 300
+# 订阅更新以及延迟测试配置
+p: &p {
+    type: http,
+    interval: 3600, # 订阅更新间隔时间，单位为秒
+    health-check: {
+        enable: true, # 启用健康检查
+        url: http://www.apple.com/library/test/success.html, # 健康检查URL
+        interval: 300, # 健康检查间隔时间，单位为秒
+      },
+  }
 
-# 代理商提供配置
+# 订阅提供者配置
 proxy-providers:
   provider:
-    type: http
-    interval: 3600
-    health-check:
-      enable: true
-      url: https://www.gstatic.com/generate_204
-      interval: 300
-    url: https://967go.no-mad-world.club/link/cNIKJy4BAuYFBRA0?clash=3&extend=1
+    <<: *p
+    url: "xxxxx"
 
-# 网络设置
-ipv6: true
-allow-lan: true
-mixed-port: 7890
-unified-delay: false
-tcp-concurrent: true
+ipv6: true # 启用IPv6支持
+allow-lan: true # 允许局域网访问
+mixed-port: 7890 # 混合端口
+unified-delay: false # 不统一延迟
+tcp-concurrent: true # 启用TCP并发连接
+external-controller: 127.0.0.1:9090 # 外部控制器地址和端口
+external-ui: ui # 外部UI目录
+external-ui-url: "https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-pages.zip" # 外部UI下载地址
 
-# 外部控制器和UI
-external-controller: 127.0.0.1:9090
-external-ui: ui
-external-ui-url: https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-pages.zip
-
-# 其他配置
-find-process-mode: strict
-global-client-fingerprint: chrome
+find-process-mode: strict # 进程查找模式设为严格
+global-client-fingerprint: chrome # 全局客户端指纹设置为Chrome
 
 profile:
-  store-selected: true
-  store-fake-ip: true
+  store-selected: true # 存储选定的配置
+  store-fake-ip: true # 存储假IP
 
+# 嗅探器配置
 sniffer:
-  enable: true
+  enable: true # 启用嗅探器
   sniff:
     HTTP:
-      ports: [80, "8080-8880"]
-      override-destination: true
+      ports: [80, 8080-8880] # HTTP嗅探端口范围
+      override-destination: true # 覆盖目标地址
     TLS:
-      ports: [443, 8443]
+      ports: [443, 8443] # TLS嗅探端口
     QUIC:
-      ports: [443, 8443]
-  skip-domain: ["Mijia Cloud"]
+      ports: [443, 8443] # QUIC嗅探端口
+  skip-domain:
+    - "Mijia Cloud" # 跳过的域名
 
+# TUN模式配置
 tun:
-  enable: true
-  stack: mixed
-  dns-hijack: ["any:53"]
-  auto-route: true
-  auto-detect-interface: true
+  enable: true # 启用TUN模式
+  stack: mixed # 混合协议栈
+  dns-hijack:
+    - "any:53" # 劫持DNS端口
+  auto-route: true # 自动路由
+  auto-detect-interface: true # 自动检测网络接口
 
+# DNS配置
 dns:
-  enable: true
-  listen: ":1053"
-  ipv6: true
-  enhanced-mode: fake-ip
-  fake-ip-range: "28.0.0.1/8"
-  fake-ip-filter: ["*", "+.lan", "+.local"]
-  default-nameserver: ["223.5.5.5"]
-  nameserver: ["https://doh.pub/dns-query", "https://dns.alidns.com/dns-query"]
-  proxy-server-nameserver: ["https://doh.pub/dns-query"]
+  enable: true # 启用DNS
+  listen: :1053 # DNS监听端口
+  ipv6: true # 启用IPv6
+  enhanced-mode: fake-ip # 增强模式设置为假IP
+  fake-ip-range: 28.0.0.1/8 # 假IP范围
+  fake-ip-filter:
+    - "*" # 过滤所有域名
+    - "+.lan" # 过滤局域网域名
+    - "+.local" # 过滤本地域名
+  default-nameserver:
+    - 223.5.5.5 # 默认DNS服务器
+  nameserver:
+    - https://doh.pub/dns-query # DoH服务器
+    - https://dns.alidns.com/dns-query # 阿里DNS服务器
+  proxy-server-nameserver:
+    - https://doh.pub/dns-query # 代理服务器使用的DoH服务器
   nameserver-policy:
-    rule-set:cn_domain,private:
-      ["https://doh.pub/dns-query", "https://dns.alidns.com/dns-query"]
-    rule-set:geolocation-!cn:
-      [
-        "https://dns.cloudflare.com/dns-query#dns",
-        "https://dns.google/dns-query#dns",
-      ]
-
+    "rule-set:cn_domain,private":
+      - https://doh.pub/dns-query
+      - https://dns.alidns.com/dns-query
+    "rule-set:geolocation-!cn":
+      - "https://dns.cloudflare.com/dns-query#dns"
+      - "https://dns.google/dns-query#dns"
 # 代理
 proxies:
-  - name: Direct
+  - name: "Direct"
     type: direct
     udp: true
 
@@ -91,7 +93,7 @@ proxy-groups:
       proxies:
         [
           自动选择,
-          DIRECT,
+          Direct,
           香港节点,
           台湾节点,
           日本节点,
@@ -176,60 +178,30 @@ proxy-groups:
       icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Global.png,
     }
 
+rules:
+  - RULE-SET,applications,DIRECT
+  - DOMAIN,clash.razord.top,DIRECT
+  - DOMAIN,yacd.haishan.me,DIRECT
+  - RULE-SET,private,DIRECT
+  - RULE-SET,reject,REJECT
+  - RULE-SET,icloud,DIRECT
+  - RULE-SET,apple,DIRECT
+  - RULE-SET,google,Proxy
+  - RULE-SET,proxy,Proxy
+  - RULE-SET,direct,DIRECT
+  - RULE-SET,lancidr,DIRECT
+  - RULE-SET,cncidr,DIRECT
+  - RULE-SET,telegramcidr,Proxy
+  - GEOIP,LAN,DIRECT
+  - GEOIP,CN,DIRECT
+  - MATCH,Proxy
+
 rule-anchor:
   ip: &ip { type: http, interval: 86400, behavior: ipcidr, format: yaml }
   domain:
     &domain { type: http, interval: 86400, behavior: domain, format: yaml }
 
-# 规则源
 rule-providers:
-  Direct:
-    {
-      type: http,
-      behavior: classical,
-      url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Direct/Direct.yaml",
-      path: ./ruleset/Direct.yaml,
-      interval: 86400,
-    }
-  AD:
-    type: http
-    behavior: domain
-    url: "https://raw.githubusercontent.com/earoftoast/clash-rules/main/AD.yaml"
-    path: ./rules/AD.yaml
-    interval: 86400
-
-  EasyList:
-    type: http
-    behavior: domain
-    url: "https://raw.githubusercontent.com/earoftoast/clash-rules/main/EasyList.yaml"
-    path: ./rules/EasyList.yaml
-    interval: 86400
-
-  EasyListChina:
-    type: http
-    behavior: domain
-    url: "https://raw.githubusercontent.com/earoftoast/clash-rules/main/EasyListChina.yaml"
-    path: ./rules/EasyListChina.yaml
-    interval: 86400
-
-  EasyPrivacy:
-    type: http
-    behavior: domain
-    url: "https://raw.githubusercontent.com/earoftoast/clash-rules/main/EasyPrivacy.yaml"
-    path: ./rules/EasyPrivacy.yaml
-    interval: 86400
-
-  ProgramAD:
-    type: http
-    behavior: domain
-    url: "https://raw.githubusercontent.com/earoftoast/clash-rules/main/ProgramAD.yaml"
-    path: ./rules/ProgramAD.yaml
-    interval: 86400
-
-  private:
-    <<: *domain
-    url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/private.yaml"
-
   cn_domain:
     <<: *domain
     url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/cn.yaml"
@@ -238,195 +210,93 @@ rule-providers:
     <<: *domain
     url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/geolocation-!cn.yaml"
 
-  Apple:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Apple/Apple.yaml"
-    path: ./rules/Apple.yaml
-    interval: 86400
-
-  Bahamut:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Bahamut/Bahamut.yaml"
-    path: ./rules/Bahamut.yaml
-    interval: 86400
-
-  China:
+  reject:
     type: http
     behavior: domain
-    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaMaxNoMedia/ChinaMaxNoMedia_Classical.yaml"
-    path: ./rules/China.yaml
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/reject.txt"
+    path: ./ruleset/reject.yaml
     interval: 86400
 
-  ChinaMedia:
+  icloud:
     type: http
     behavior: domain
-    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaMedia/ChinaMedia.yaml"
-    path: ./rules/ChinaMedia.yaml
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/icloud.txt"
+    path: ./ruleset/icloud.yaml
     interval: 86400
 
-  Claude:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Claude/Claude.yaml"
-    path: ./rules/Claude.yaml
-    interval: 86400
-
-  Emby:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Emby/Emby.yaml"
-    path: ./rules/Emby.yaml
-    interval: 86400
-
-  Game:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Game/Game.yaml"
-    path: ./rules/Game.yaml
-    interval: 86400
-
-  Gemini:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Gemini/Gemini.yaml"
-    path: ./rules/Gemini.yaml
-    interval: 86400
-
-  GitHub:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GitHub/GitHub.yaml"
-    path: ./rules/GitHub.yaml
-    interval: 86400
-
-  GlobalMedia:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GlobalMedia/GlobalMedia_Classical.yaml"
-    path: ./rules/GlobalMedia.yaml
-    interval: 86400
-
-  Google:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Google/Google.yaml"
-    path: ./rules/Google.yaml
-    interval: 86400
-
-  GoogleFCM:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GoogleFCM/GoogleFCM.yaml"
-    path: ./rules/GoogleFCM.yaml
-    interval: 86400
-
-  Microsoft:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Microsoft/Microsoft.yaml"
-    path: ./rules/Microsoft.yaml
-    interval: 86400
-
-  OpenAI:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/OpenAI/OpenAI.yaml"
-    path: ./rules/OpenAI.yaml
-    interval: 86400
-
-  ProxyLite:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ProxyLite/ProxyLite.yaml"
-    path: ./rules/ProxyLite.yaml
-    interval: 86400
-
-  Samsung:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Samsung/Samsung.yaml"
-    path: ./rules/Samsung.yaml
-    interval: 86400
-
-  Spotify:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Spotify/Spotify.yaml"
-    path: ./rules/Spotify.yaml
-    interval: 86400
-
-  Telegram:
-    {
-      type: http,
-      behavior: classical,
-      url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Telegram/Telegram.yaml",
-      path: ./ruleset/telegram.yaml,
-      interval: 86400,
-    }
-
-  TikTok:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TikTok/TikTok.yaml"
-    path: ./rules/TikTok.yaml
-    interval: 86400
-
-  Twitch:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Twitch/Twitch.yaml"
-    path: ./rules/Twitch.yaml
-    interval: 86400
-
-  YouTube:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/YouTube/YouTube.yaml"
-    path: ./rules/YouTube.yaml
-    interval: 86400
-
-  秋风广告规则:
+  apple:
     type: http
     behavior: domain
-    format: yaml
-    path: ./rules/AWAvenue-Ads-Rule-Clash.yaml
-    #此处“/rule_providers”自行参考
-    url: "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main//Filters/AWAvenue-Ads-Rule-Clash.yaml"
-    interval: 60480
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/apple.txt"
+    path: ./ruleset/apple.yaml
+    interval: 86400
 
-# 规则
-rules:
-  - RULE-SET,Direct,DIRECT
-  - RULE-SET,AD,REJECT
-  - RULE-SET,EasyList,REJECT
-  - RULE-SET,EasyListChina,REJECT
-  - RULE-SET,EasyPrivacy,REJECT
-  - RULE-SET,ProgramAD,REJECT
-  - RULE-SET,Apple,Proxy
-  - RULE-SET,Bahamut,Proxy
-  - RULE-SET,China,DIRECT
-  - RULE-SET,ChinaMedia,DIRECT
-  - RULE-SET,Claude,Proxy
-  - RULE-SET,Emby,Proxy
-  - RULE-SET,Game,Proxy
-  - RULE-SET,Gemini,Proxy
-  - RULE-SET,GitHub,Proxy
-  - RULE-SET,GlobalMedia,Proxy
-  - RULE-SET,Google,Proxy
-  - RULE-SET,GoogleFCM,Proxy
-  - RULE-SET,Microsoft,Proxy
-  - RULE-SET,OpenAI,Proxy
-  - RULE-SET,ProxyLite,Proxy
-  - RULE-SET,Samsung,DIRECT
-  - RULE-SET,Spotify,Proxy
-  - RULE-SET,Telegram,Telegram
-  - RULE-SET,TikTok,Proxy
-  - RULE-SET,Twitch,Proxy
-  - RULE-SET,YouTube,Proxy
-  - RULE-SET,private,DIRECT
-  - RULE-SET,cn_domain,DIRECT
-  - RULE-SET,geolocation-!cn,Proxy
-  - RULE-SET,秋风广告规则,REJECT
-  - MATCH,漏网之鱼
+  google:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/google.txt"
+    path: ./ruleset/google.yaml
+    interval: 86400
+
+  proxy:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/proxy.txt"
+    path: ./ruleset/proxy.yaml
+    interval: 86400
+
+  direct:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/direct.txt"
+    path: ./ruleset/direct.yaml
+    interval: 86400
+
+  private:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/private.txt"
+    path: ./ruleset/private.yaml
+    interval: 86400
+
+  gfw:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/gfw.txt"
+    path: ./ruleset/gfw.yaml
+    interval: 86400
+
+  tld-not-cn:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/tld-not-cn.txt"
+    path: ./ruleset/tld-not-cn.yaml
+    interval: 86400
+
+  telegramcidr:
+    type: http
+    behavior: ipcidr
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/telegramcidr.txt"
+    path: ./ruleset/telegramcidr.yaml
+    interval: 86400
+
+  cncidr:
+    type: http
+    behavior: ipcidr
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/cncidr.txt"
+    path: ./ruleset/cncidr.yaml
+    interval: 86400
+
+  lancidr:
+    type: http
+    behavior: ipcidr
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/lancidr.txt"
+    path: ./ruleset/lancidr.yaml
+    interval: 86400
+
+  applications:
+    type: http
+    behavior: classical
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/applications.txt"
+    path: ./ruleset/applications.yaml
+    interval: 86400
