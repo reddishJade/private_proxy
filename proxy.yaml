@@ -145,6 +145,14 @@ proxy-groups:
       proxies: [Direct, 节点选择],
       icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/DomesticMedia.png,
     }
+
+  - {
+      name: ForeignMedia,
+      type: select,
+      proxies: [节点选择, Direct],
+      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/ForeignMedia.png,
+    }
+    
   - {
       name: Game,
       type: select,
@@ -162,12 +170,6 @@ proxy-groups:
       type: select,
       proxies: [节点选择, Direct],
       icon: https://fastly.jsdelivr.net/gh/clash-verge-rev/clash-verge-rev.github.io@main/docs/assets/icons/google.svg,
-    }
-  - {
-      name: ForeignMedia,
-      type: select,
-      proxies: [节点选择, Direct],
-      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/ForeignMedia.png,
     }
   - {
       name: Microsoft,
@@ -254,12 +256,47 @@ rule-providers:
       interval: 86400,
     }
 
-  AWAvenue:
+  # AWAvenue:
+  #   type: http
+  #   behavior: domain
+  #   format: yaml
+  #   path: ./ruleset/AWAvenue-Ads-Rule-Clash.yaml
+  #   url: "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main//Filters/AWAvenue-Ads-Rule-Clash.yaml"
+  #   interval: 86400
+
+  AD:
     type: http
     behavior: domain
-    format: yaml
-    path: ./ruleset/AWAvenue-Ads-Rule-Clash.yaml
-    url: "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main//Filters/AWAvenue-Ads-Rule-Clash.yaml"
+    url: "https://raw.githubusercontent.com/earoftoast/clash-rules/main/AD.yaml"
+    path: ./rules/AD.yaml
+    interval: 86400
+    
+  EasyList:
+    type: http
+    behavior: domain
+    url: "https://raw.githubusercontent.com/earoftoast/clash-rules/main/EasyList.yaml"
+    path: ./rules/EasyList.yaml
+    interval: 86400
+    
+  EasyListChina:
+    type: http
+    behavior: domain
+    url: "https://raw.githubusercontent.com/earoftoast/clash-rules/main/EasyListChina.yaml"
+    path: ./rules/EasyListChina.yaml
+    interval: 86400
+
+  EasyPrivacy:
+    type: http
+    behavior: domain
+    url: "https://raw.githubusercontent.com/earoftoast/clash-rules/main/EasyPrivacy.yaml"
+    path: ./rules/EasyPrivacy.yaml
+    interval: 86400
+
+  ProgramAD:
+    type: http
+    behavior: domain
+    url: "https://raw.githubusercontent.com/earoftoast/clash-rules/main/ProgramAD.yaml"
+    path: ./rules/ProgramAD.yaml
     interval: 86400
 
   private:
@@ -426,7 +463,12 @@ rule-providers:
 # 规则
 rules:
   - RULE-SET,Direct,DIRECT
-  - RULE-SET,AWAvenue,REJECT
+  # - RULE-SET,AWAvenue,REJECT
+  - RULE-SET,AD,REJECT
+  - RULE-SET,EasyList,REJECT
+  - RULE-SET,EasyListChina,REJECT
+  - RULE-SET,EasyPrivacy,REJECT
+  - RULE-SET,ProgramAD,REJECT
   - RULE-SET,Apple,Apple
   - RULE-SET,Bahamut,ForeignMedia
   - RULE-SET,China,China
