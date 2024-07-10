@@ -256,13 +256,13 @@ rule-providers:
       interval: 86400,
     }
 
-  # AWAvenue:
-  #   type: http
-  #   behavior: domain
-  #   format: yaml
-  #   path: ./ruleset/AWAvenue-Ads-Rule-Clash.yaml
-  #   url: "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main//Filters/AWAvenue-Ads-Rule-Clash.yaml"
-  #   interval: 86400
+  AWAvenue:
+    type: http
+    behavior: domain
+    format: yaml
+    path: ./ruleset/AWAvenue-Ads-Rule-Clash.yaml
+    url: "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main//Filters/AWAvenue-Ads-Rule-Clash.yaml"
+    interval: 86400
 
   AD:
     type: http
@@ -463,7 +463,7 @@ rule-providers:
 # 规则
 rules:
   - RULE-SET,Direct,DIRECT
-  # - RULE-SET,AWAvenue,REJECT
+  - RULE-SET,AWAvenue,REJECT
   - RULE-SET,AD,REJECT
   - RULE-SET,EasyList,REJECT
   - RULE-SET,EasyListChina,REJECT
