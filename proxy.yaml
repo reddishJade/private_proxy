@@ -463,12 +463,19 @@ rule-providers:
 # 规则
 rules:
   - RULE-SET,Direct,DIRECT
-  - RULE-SET,AD,REJECT
-  - RULE-SET,EasyList,REJECT
-  - RULE-SET,EasyListChina,REJECT
-  - RULE-SET,EasyPrivacy,REJECT
-  - RULE-SET,ProgramAD,REJECT
+
+  # - RULE-SET,AD,REJECT
+  # - RULE-SET,EasyList,REJECT
+  # - RULE-SET,EasyListChina,REJECT
+  # - RULE-SET,EasyPrivacy,REJECT
+  # - RULE-SET,ProgramAD,REJECT
   - RULE-SET,AWAvenue-Ads-Rule-Clash,REJECT
+
+  - DOMAIN-SUFFIX,stream1.misakaf.org,ForeignMedia
+  - DOMAIN-SUFFIX,stream2.misakaf.org,ForeignMedia
+  - DOMAIN-SUFFIX,stream3.misakaf.org,ForeignMedia
+  - DOMAIN-SUFFIX,stream4.misakaf.org,ForeignMedia
+
   - RULE-SET,Apple,Apple
   - RULE-SET,Bahamut,ForeignMedia
   - RULE-SET,China,China
