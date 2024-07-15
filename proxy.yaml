@@ -87,7 +87,45 @@ proxies:
   - name: "Direct"
     type: direct
     udp: true
-
+  - {name: 🇭🇰 香港Y01, server: 2j64p-g03.hk01-ae5.entry.v50307shvkaa.art, port: 19273, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 77e651f0-f851-3a66-ac2f-d19da351be5f, tfo: true, udp: true}
+  - {name: 🇯🇵 日本Y01 | x0.8, server: p1qjq-g03.jp01-ae5.entry.v50307shvkaa.art, port: 474, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 77e651f0-f851-3a66-ac2f-d19da351be5f, tfo: true, udp: true}
+  - {name: 🇭🇰 香港Y02 | IEPL, server: g20y5-g03.hk02-ae5.entry.v50307shvkaa.art, port: 14561, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 77e651f0-f851-3a66-ac2f-d19da351be5f, tfo: true, udp: true}
+  - {name: 🇯🇵 日本Y02 | x0.8, server: 2pu7e-g03.jp02-ae5.entry.v50307shvkaa.art, port: 484, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 77e651f0-f851-3a66-ac2f-d19da351be5f, tfo: true, udp: true}
+  - {name: 🇭🇰 香港Y03 | IEPL, server: n1ag7-g03.hk03-ae5.entry.v50307shvkaa.art, port: 761, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 77e651f0-f851-3a66-ac2f-d19da351be5f, tfo: true, udp: true}
+  - {name: 🇯🇵 日本Y03 | x0.8, server: b1wpo-g03.jp03-ae5.entry.v50307shvkaa.art, port: 489, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 77e651f0-f851-3a66-ac2f-d19da351be5f, tfo: true, udp: true}
+  - {name: 🇭🇰 香港Y04 | IEPL, server: 299md-g03.hk04-ae5.entry.v50307shvkaa.art, port: 805, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 77e651f0-f851-3a66-ac2f-d19da351be5f, tfo: true, udp: true}
+  - {name: 🇯🇵 日本Y04 | x0.8, server: mywwy-g03.jp04-ae5.entry.v50307shvkaa.art, port: 494, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 77e651f0-f851-3a66-ac2f-d19da351be5f, tfo: true, udp: true}
+  - {name: 🇭🇰 香港Y05 | IEPL, server: 1kbh1-g03.hk05-ae5.entry.v50307shvkaa.art, port: 1813, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 77e651f0-f851-3a66-ac2f-d19da351be5f, tfo: true, udp: true}
+  - {name: 🇯🇵 日本Y05 | 下载专用 | x0.01, server: vbd1r-g03.jp05-vm5.entry.rtysjur.quest, port: 64656, client-fingerprint: chrome, type: vmess, uuid: 77e651f0-f851-3a66-ac2f-d19da351be5f, alterId: 1, cipher: auto, tls: false, tfo: true, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港Y06 | x0.8, server: 9agsn-g03.hk06-ae5.entry.v50307shvkaa.art, port: 1414, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 77e651f0-f851-3a66-ac2f-d19da351be5f, tfo: true, udp: true}
+  - {name: 🇯🇵 日本Y06 | 下载专用 | x0.01, server: yg7tt-g03.jp06-vm5.entry.rtysjur.quest, port: 664, client-fingerprint: chrome, type: vmess, uuid: 77e651f0-f851-3a66-ac2f-d19da351be5f, alterId: 1, cipher: auto, tls: false, tfo: true, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港Y07 | x0.8, server: tx6ke-g03.hk07-ae5.entry.v50307shvkaa.art, port: 1421, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 77e651f0-f851-3a66-ac2f-d19da351be5f, tfo: true, udp: true}
+  - {name: 🇯🇵 日本Y07 | x0.8, server: lc01l-g03.jp07-ae5.entry.v50307shvkaa.art, port: 14006, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 77e651f0-f851-3a66-ac2f-d19da351be5f, tfo: true, udp: true}
+  - {name: 🇭🇰 香港Y08 | x0.8, server: roz7m-g03.hk08-ae5.entry.v50307shvkaa.art, port: 18644, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 77e651f0-f851-3a66-ac2f-d19da351be5f, tfo: true, udp: true}
+  - {name: 🇯🇵 日本Y08 | x0.8, server: f0xky-g03.jp08-ae5.entry.v50307shvkaa.art, port: 12544, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 77e651f0-f851-3a66-ac2f-d19da351be5f, tfo: true, udp: true}
+  - {name: 🇭🇰 香港Y09 | IEPL, server: x8egj-g03.hk09-vm5.entry.v50307shvkaa.art, port: 15266, client-fingerprint: chrome, type: vmess, uuid: 77e651f0-f851-3a66-ac2f-d19da351be5f, alterId: 1, cipher: auto, tls: false, tfo: true, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本Y09 | x0.8, server: ma9hg-g03.jp09-ae5.entry.v50307shvkaa.art, port: 11159, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 77e651f0-f851-3a66-ac2f-d19da351be5f, tfo: true, udp: true}
+  - {name: 🇭🇰 香港Y10 | IEPL, server: 0d9t0-g03.hk10-vm5.entry.v50307shvkaa.art, port: 13484, client-fingerprint: chrome, type: vmess, uuid: 77e651f0-f851-3a66-ac2f-d19da351be5f, alterId: 1, cipher: auto, tls: false, tfo: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: bgp-01-10.entry-0.chinasnow.net}}, udp: true}
+  - {name: 🇯🇵 日本Y10 | x0.8, server: 8wsr4-g03.jp10-ae5.entry.v50307shvkaa.art, port: 16525, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 77e651f0-f851-3a66-ac2f-d19da351be5f, tfo: true, udp: true}
+  - {name: 🇭🇰 香港Y11 | IEPL, server: rmhqw-g03.hk11-vm5.entry.v50307shvkaa.art, port: 576, client-fingerprint: chrome, type: vmess, uuid: 77e651f0-f851-3a66-ac2f-d19da351be5f, alterId: 1, cipher: auto, tls: false, tfo: true, skip-cert-verify: false, network: ws, ws-opts: {path: /tutorial/iphone13.m3u8, headers: {Host: bgp-01-11.entry-0.chinasnow.net}}, udp: true}
+  - {name: 🇯🇵 日本Y11 | x0.8, server: oclo8-g03.jp11-ae5.entry.v50307shvkaa.art, port: 17742, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 77e651f0-f851-3a66-ac2f-d19da351be5f, tfo: true, udp: true}
+  - {name: 🇯🇵 日本Y12 | IEPL | 测试, server: 94nvj-g03.jp12-ae5.entry.v50307shvkaa.art, port: 499, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 77e651f0-f851-3a66-ac2f-d19da351be5f, tfo: true, udp: true}
+  - {name: 🇸🇬 新加坡Y01, server: i956t-g03.sg01-ae5.entry.v50307shvkaa.art, port: 20001, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 77e651f0-f851-3a66-ac2f-d19da351be5f, tfo: true, udp: true}
+  - {name: 🇸🇬 新加坡Y02, server: 3f1m2-g03.sg02-ae5.entry.v50307shvkaa.art, port: 20076, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 77e651f0-f851-3a66-ac2f-d19da351be5f, tfo: true, udp: true}
+  - {name: 🇹🇼 台湾Y01 | IEPL | x2, server: uc19g-g03.tw01-ae5.entry.v50307shvkaa.art, port: 20006, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 77e651f0-f851-3a66-ac2f-d19da351be5f, tfo: true, udp: true}
+  - {name: 🇺🇸 美国Y01, server: v82rp-g03.us01-ae5.entry.v50307shvkaa.art, port: 20011, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 77e651f0-f851-3a66-ac2f-d19da351be5f, tfo: true, udp: true}
+  - {name: 🇺🇸 美国Y02, server: t0ynl-g03.us02-ae5.entry.v50307shvkaa.art, port: 20016, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 77e651f0-f851-3a66-ac2f-d19da351be5f, tfo: true, udp: true}
+  - {name: 🇬🇧 英国Y01, server: opt97-g03.gb01-ae5.entry.v50307shvkaa.art, port: 20021, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 77e651f0-f851-3a66-ac2f-d19da351be5f, tfo: true, udp: true}
+  - {name: 🇦🇷 阿根廷Y01, server: rdh6s-g03.ar01-ae5.entry.v50307shvkaa.art, port: 20026, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 77e651f0-f851-3a66-ac2f-d19da351be5f, tfo: true, udp: true}
+  - {name: 🇷🇺 俄罗斯Y01, server: w92o7-g03.ru01-ae5.entry.v50307shvkaa.art, port: 20031, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 77e651f0-f851-3a66-ac2f-d19da351be5f, tfo: true, udp: true}
+  - {name: 🇹🇷 土耳其Y01, server: zgnf5-g03.tr01-ae5.entry.v50307shvkaa.art, port: 20036, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 77e651f0-f851-3a66-ac2f-d19da351be5f, tfo: true, udp: true}
+  - {name: 🇰🇷 韩国Y01, server: 7zza4-g03.kr01-ae5.entry.v50307shvkaa.art, port: 20041, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 77e651f0-f851-3a66-ac2f-d19da351be5f, tfo: true, udp: true}
+  - {name: 🇮🇳 印度Y01, server: nw3aq-g03.in01-ae5.entry.v50307shvkaa.art, port: 20046, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 77e651f0-f851-3a66-ac2f-d19da351be5f, tfo: true, udp: true}
+  - {name: 🇩🇪 德国Y01, server: 9hxl9-g03.de01-ae5.entry.v50307shvkaa.art, port: 20051, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 77e651f0-f851-3a66-ac2f-d19da351be5f, tfo: true, udp: true}
+  - {name: 🇨🇦 加拿大Y01, server: sm3hu-g03.ca01-ae5.entry.v50307shvkaa.art, port: 20056, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 77e651f0-f851-3a66-ac2f-d19da351be5f, tfo: true, udp: true}
+  - {name: 🇦🇺 澳大利亚Y01, server: mbvsm-g03.au01-ae5.entry.v50307shvkaa.art, port: 20061, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 77e651f0-f851-3a66-ac2f-d19da351be5f, tfo: true, udp: true}
+  - {name: 🇫🇷 法国Y01, server: aelxl-g03.fr01-ae5.entry.v50307shvkaa.art, port: 20066, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 77e651f0-f851-3a66-ac2f-d19da351be5f, tfo: true, udp: true}
+  - {name: 🇺🇦 乌克兰Y01, server: ci8b3-g03.ua01-ae5.entry.v50307shvkaa.art, port: 20071, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 77e651f0-f851-3a66-ac2f-d19da351be5f, tfo: true, udp: true}
 # 代理组
 proxy-groups:
   - {
@@ -107,22 +145,111 @@ proxy-groups:
         ],
       icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Rocket.png,
     }
-  - {
-      name: 手动选择,
-      type: select,
-      include-all-providers: true,
-      exclude-filter: "免费",
-      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Domestic.png,
-    }
-  - {
-      name: 自动选择,
-      type: url-test,
-      include-all-providers: true,
-      exclude-filter: "免费",
-      tolerance: 10,
-      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Auto.png,
-    }
+  # - {
+  #     name: 手动选择,
+  #     type: select,
+  #     include-all-providers: true,
+  #     exclude-filter: "免费",
+  #     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Domestic.png,
+  #   }
+  # - {
+  #     name: 自动选择,
+  #     type: url-test,
+  #     include-all-providers: true,
+  #     exclude-filter: "免费",
+  #     tolerance: 10,
+  #     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Auto.png,
+  #   }
+  - name: 手动选择
+    type: select
+    proxies:
+      - 🇭🇰 香港Y01
+      - 🇯🇵 日本Y01 | x0.8
+      - 🇭🇰 香港Y02 | IEPL
+      - 🇯🇵 日本Y02 | x0.8
+      - 🇭🇰 香港Y03 | IEPL
+      - 🇯🇵 日本Y03 | x0.8
+      - 🇭🇰 香港Y04 | IEPL
+      - 🇯🇵 日本Y04 | x0.8
+      - 🇭🇰 香港Y05 | IEPL
+      - 🇯🇵 日本Y05 | 下载专用 | x0.01
+      - 🇭🇰 香港Y06 | x0.8
+      - 🇯🇵 日本Y06 | 下载专用 | x0.01
+      - 🇭🇰 香港Y07 | x0.8
+      - 🇯🇵 日本Y07 | x0.8
+      - 🇭🇰 香港Y08 | x0.8
+      - 🇯🇵 日本Y08 | x0.8
+      - 🇭🇰 香港Y09 | IEPL
+      - 🇯🇵 日本Y09 | x0.8
+      - 🇭🇰 香港Y10 | IEPL
+      - 🇯🇵 日本Y10 | x0.8
+      - 🇭🇰 香港Y11 | IEPL
+      - 🇯🇵 日本Y11 | x0.8
+      - 🇯🇵 日本Y12 | IEPL | 测试
+      - 🇸🇬 新加坡Y01
+      - 🇸🇬 新加坡Y02
+      - 🇹🇼 台湾Y01 | IEPL | x2
+      - 🇺🇸 美国Y01
+      - 🇺🇸 美国Y02
+      - 🇬🇧 英国Y01
+      - 🇦🇷 阿根廷Y01
+      - 🇷🇺 俄罗斯Y01
+      - 🇹🇷 土耳其Y01
+      - 🇰🇷 韩国Y01
+      - 🇮🇳 印度Y01
+      - 🇩🇪 德国Y01
+      - 🇨🇦 加拿大Y01
+      - 🇦🇺 澳大利亚Y01
+      - 🇫🇷 法国Y01
+      - 🇺🇦 乌克兰Y01
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Domestic.png
 
+  - name: 自动选择
+    type: url-test
+    # url: http://www.gstatic.com/generate_204
+    # interval: 300
+    # tolerance: 200
+    proxies:
+      - 🇭🇰 香港Y01
+      - 🇯🇵 日本Y01 | x0.8
+      - 🇭🇰 香港Y02 | IEPL
+      - 🇯🇵 日本Y02 | x0.8
+      - 🇭🇰 香港Y03 | IEPL
+      - 🇯🇵 日本Y03 | x0.8
+      - 🇭🇰 香港Y04 | IEPL
+      - 🇯🇵 日本Y04 | x0.8
+      - 🇭🇰 香港Y05 | IEPL
+      - 🇯🇵 日本Y05 | 下载专用 | x0.01
+      - 🇭🇰 香港Y06 | x0.8
+      - 🇯🇵 日本Y06 | 下载专用 | x0.01
+      - 🇭🇰 香港Y07 | x0.8
+      - 🇯🇵 日本Y07 | x0.8
+      - 🇭🇰 香港Y08 | x0.8
+      - 🇯🇵 日本Y08 | x0.8
+      - 🇭🇰 香港Y09 | IEPL
+      - 🇯🇵 日本Y09 | x0.8
+      - 🇭🇰 香港Y10 | IEPL
+      - 🇯🇵 日本Y10 | x0.8
+      - 🇭🇰 香港Y11 | IEPL
+      - 🇯🇵 日本Y11 | x0.8
+      - 🇯🇵 日本Y12 | IEPL | 测试
+      - 🇸🇬 新加坡Y01
+      - 🇸🇬 新加坡Y02
+      - 🇹🇼 台湾Y01 | IEPL | x2
+      - 🇺🇸 美国Y01
+      - 🇺🇸 美国Y02
+      - 🇬🇧 英国Y01
+      - 🇦🇷 阿根廷Y01
+      - 🇷🇺 俄罗斯Y01
+      - 🇹🇷 土耳其Y01
+      - 🇰🇷 韩国Y01
+      - 🇮🇳 印度Y01
+      - 🇩🇪 德国Y01
+      - 🇨🇦 加拿大Y01
+      - 🇦🇺 澳大利亚Y01
+      - 🇫🇷 法国Y01
+      - 🇺🇦 乌克兰Y01
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Auto.png
   - {
       name: AI,
       type: select,
@@ -199,42 +326,93 @@ proxy-groups:
     }
 
   #地区分组
-  - {
-      name: 香港节点,
-      type: url-test,
-      include-all-providers: true,
-      filter: "(?i)港|hk|hongkong|hong kong",
-      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Hong_Kong.png,
-    }
-  - {
-      name: 台湾节点,
-      type: url-test,
-      include-all-providers: true,
-      filter: "(?i)台|tw|taiwan",
-      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Taiwan.png,
-    }
-  - {
-      name: 日本节点,
-      type: url-test,
-      include-all-providers: true,
-      filter: "(?i)(日|jp|japan)",
-      exclude-filter: "免费",
-      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Japan.png,
-    }
-  - {
-      name: 新加坡节点,
-      type: url-test,
-      include-all-providers: true,
-      filter: "(?i)(新|sg|singapore)",
-      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Singapore.png,
-    }
-  - {
-      name: 美国节点,
-      type: url-test,
-      include-all-providers: true,
-      filter: "(?i)美|us|unitedstates|united states",
-      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/United_States.png,
-    }
+  # - {
+  #     name: 香港节点,
+  #     type: url-test,
+  #     include-all-providers: true,
+  #     filter: "(?i)港|hk|hongkong|hong kong",
+  #     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Hong_Kong.png,
+  #   }
+  - name: 香港节点
+    type: url-test
+    proxies:
+      - 🇭🇰 香港Y01
+      - 🇭🇰 香港Y02 | IEPL
+      - 🇭🇰 香港Y03 | IEPL
+      - 🇭🇰 香港Y04 | IEPL
+      - 🇭🇰 香港Y05 | IEPL
+      - 🇭🇰 香港Y06 | x0.8
+      - 🇭🇰 香港Y07 | x0.8
+      - 🇭🇰 香港Y08 | x0.8
+      - 🇭🇰 香港Y09 | IEPL
+      - 🇭🇰 香港Y10 | IEPL
+      - 🇭🇰 香港Y11 | IEPL
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Hong_Kong.png
+
+  # - {
+  #     name: 台湾节点,
+  #     type: url-test,
+  #     include-all-providers: true,
+  #     filter: "(?i)台|tw|taiwan",
+  #     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Taiwan.png,
+  #   }
+  - name: 台湾节点
+    type: select
+    proxies:
+      - 🇹🇼 台湾Y01 | IEPL | x2
+
+  # - {
+  #     name: 日本节点,
+  #     type: url-test,
+  #     include-all-providers: true,
+  #     filter: "(?i)(日|jp|japan)",
+  #     exclude-filter: "免费",
+  #     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Japan.png,
+  #   }
+  - name: 日本节点
+    type: url-test
+    proxies:
+      - 🇯🇵 日本Y01 | x0.8
+      - 🇯🇵 日本Y02 | x0.8
+      - 🇯🇵 日本Y03 | x0.8
+      - 🇯🇵 日本Y04 | x0.8
+      - 🇯🇵 日本Y05 | 下载专用 | x0.01
+      - 🇯🇵 日本Y06 | 下载专用 | x0.01
+      - 🇯🇵 日本Y07 | x0.8
+      - 🇯🇵 日本Y08 | x0.8
+      - 🇯🇵 日本Y09 | x0.8
+      - 🇯🇵 日本Y10 | x0.8
+      - 🇯🇵 日本Y11 | x0.8
+      - 🇯🇵 日本Y12 | IEPL | 测试
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Japan.png
+
+  # - {
+  #     name: 新加坡节点,
+  #     type: url-test,
+  #     include-all-providers: true,
+  #     filter: "(?i)(新|sg|singapore)",
+  #     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Singapore.png,
+  #   }
+  - name: 新加坡节点
+    type: url-test
+    proxies:
+      - 🇸🇬 新加坡Y01
+      - 🇸🇬 新加坡Y02
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Singapore.png
+
+  # - {
+  #     name: 美国节点,
+  #     type: url-test,
+  #     include-all-providers: true,
+  #     filter: "(?i)美|us|unitedstates|united states",
+  #     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/United_States.png,
+  #   }
+  - name: 美国节点
+    type: url-test
+    proxies:
+      - 🇺🇸 美国Y01
+      - 🇺🇸 美国Y02
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/United_States.png
   - {
       name: 其它地区,
       type: select,
@@ -472,6 +650,7 @@ rules:
   # - RULE-SET,EasyListChina,REJECT
   # - RULE-SET,EasyPrivacy,REJECT
   # - RULE-SET,ProgramAD,REJECT
+  
   - RULE-SET,AWAvenue-Ads-Rule-Clash,REJECT
 
   - DOMAIN-SUFFIX,stream1.misakaf.org,ForeignMedia
