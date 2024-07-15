@@ -360,6 +360,7 @@ proxy-groups:
     type: select
     proxies:
       - 🇹🇼 台湾Y01 | IEPL | x2
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Taiwan.png
 
   # - {
   #     name: 日本节点,
