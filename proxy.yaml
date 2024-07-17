@@ -496,6 +496,9 @@ proxy-groups:
       - 🇭🇰 香港Y09 | IEPL
       - 🇭🇰 香港Y10 | IEPL
       - 🇭🇰 香港Y11 | IEPL
+    interval: 300
+    tolerance: 50
+    lazy: true
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Hong_Kong.png
 
   # - {
@@ -509,6 +512,7 @@ proxy-groups:
     type: select
     proxies:
       - 🇹🇼 台湾Y01 | IEPL | x2
+    disable-udp: true
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Taiwan.png
 
   # - {
@@ -534,6 +538,9 @@ proxy-groups:
       - 🇯🇵 日本Y10 | x0.8
       - 🇯🇵 日本Y11 | x0.8
       - 🇯🇵 日本Y12 | IEPL | 测试
+    interval: 300
+    tolerance: 50
+    lazy: true
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Japan.png
 
   # - {
@@ -548,6 +555,9 @@ proxy-groups:
     proxies:
       - 🇸🇬 新加坡Y01
       - 🇸🇬 新加坡Y02
+    interval: 300
+    tolerance: 50
+    lazy: true
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Singapore.png
 
   # - {
@@ -562,6 +572,9 @@ proxy-groups:
     proxies:
       - 🇺🇸 美国Y01
       - 🇺🇸 美国Y02
+    interval: 300
+    tolerance: 50
+    lazy: true
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/United_States.png
   - {
       name: 其它地区,
