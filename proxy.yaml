@@ -135,13 +135,16 @@ proxy-groups:
         [
           自动选择,
           手动选择,
+          自动回退,
+          Direct,
+          负载均衡-散列,
+          负载均衡-轮询,
           香港节点,
           台湾节点,
           日本节点,
           新加坡节点,
           美国节点,
           其它地区,
-          Direct,
         ],
       icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Rocket.png,
     }
@@ -160,7 +163,7 @@ proxy-groups:
   #     tolerance: 10,
   #     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Auto.png,
   #   }
-  - name: 手动选择
+  - name: "手动选择"
     type: select
     proxies:
       - 🇭🇰 香港Y01
@@ -202,9 +205,10 @@ proxy-groups:
       - 🇦🇺 澳大利亚Y01
       - 🇫🇷 法国Y01
       - 🇺🇦 乌克兰Y01
+    disable-udp: true
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Domestic.png
 
-  - name: 自动选择
+  - name: "自动选择"
     type: url-test
     # url: http://www.gstatic.com/generate_204
     # interval: 300
@@ -249,7 +253,154 @@ proxy-groups:
       - 🇦🇺 澳大利亚Y01
       - 🇫🇷 法国Y01
       - 🇺🇦 乌克兰Y01
+    interval: 300
+    tolerance: 50
+    lazy: true
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Auto.png
+
+  - name: "自动回退"
+    type: fallback
+    proxies:
+      - 🇭🇰 香港Y01
+      - 🇯🇵 日本Y01 | x0.8
+      - 🇭🇰 香港Y02 | IEPL
+      - 🇯🇵 日本Y02 | x0.8
+      - 🇭🇰 香港Y03 | IEPL
+      - 🇯🇵 日本Y03 | x0.8
+      - 🇭🇰 香港Y04 | IEPL
+      - 🇯🇵 日本Y04 | x0.8
+      - 🇭🇰 香港Y05 | IEPL
+      - 🇯🇵 日本Y05 | 下载专用 | x0.01
+      - 🇭🇰 香港Y06 | x0.8
+      - 🇯🇵 日本Y06 | 下载专用 | x0.01
+      - 🇭🇰 香港Y07 | x0.8
+      - 🇯🇵 日本Y07 | x0.8
+      - 🇭🇰 香港Y08 | x0.8
+      - 🇯🇵 日本Y08 | x0.8
+      - 🇭🇰 香港Y09 | IEPL
+      - 🇯🇵 日本Y09 | x0.8
+      - 🇭🇰 香港Y10 | IEPL
+      - 🇯🇵 日本Y10 | x0.8
+      - 🇭🇰 香港Y11 | IEPL
+      - 🇯🇵 日本Y11 | x0.8
+      - 🇯🇵 日本Y12 | IEPL | 测试
+      - 🇸🇬 新加坡Y01
+      - 🇸🇬 新加坡Y02
+      - 🇹🇼 台湾Y01 | IEPL | x2
+      - 🇺🇸 美国Y01
+      - 🇺🇸 美国Y02
+      - 🇬🇧 英国Y01
+      - 🇦🇷 阿根廷Y01
+      - 🇷🇺 俄罗斯Y01
+      - 🇹🇷 土耳其Y01
+      - 🇰🇷 韩国Y01
+      - 🇮🇳 印度Y01
+      - 🇩🇪 德国Y01
+      - 🇨🇦 加拿大Y01
+      - 🇦🇺 澳大利亚Y01
+      - 🇫🇷 法国Y01
+      - 🇺🇦 乌克兰Y01
+    url: 'https://www.gstatic.com/generate_204'
+    interval: 300
+    lazy: true
+    icon: https://clash-verge-rev.github.io/assets/icons/ambulance.svg
+
+  - name: "负载均衡-散列"
+    type: load-balance
+    proxies:
+      - 🇭🇰 香港Y01
+      - 🇯🇵 日本Y01 | x0.8
+      - 🇭🇰 香港Y02 | IEPL
+      - 🇯🇵 日本Y02 | x0.8
+      - 🇭🇰 香港Y03 | IEPL
+      - 🇯🇵 日本Y03 | x0.8
+      - 🇭🇰 香港Y04 | IEPL
+      - 🇯🇵 日本Y04 | x0.8
+      - 🇭🇰 香港Y05 | IEPL
+      - 🇯🇵 日本Y05 | 下载专用 | x0.01
+      - 🇭🇰 香港Y06 | x0.8
+      - 🇯🇵 日本Y06 | 下载专用 | x0.01
+      - 🇭🇰 香港Y07 | x0.8
+      - 🇯🇵 日本Y07 | x0.8
+      - 🇭🇰 香港Y08 | x0.8
+      - 🇯🇵 日本Y08 | x0.8
+      - 🇭🇰 香港Y09 | IEPL
+      - 🇯🇵 日本Y09 | x0.8
+      - 🇭🇰 香港Y10 | IEPL
+      - 🇯🇵 日本Y10 | x0.8
+      - 🇭🇰 香港Y11 | IEPL
+      - 🇯🇵 日本Y11 | x0.8
+      - 🇯🇵 日本Y12 | IEPL | 测试
+      - 🇸🇬 新加坡Y01
+      - 🇸🇬 新加坡Y02
+      - 🇹🇼 台湾Y01 | IEPL | x2
+      - 🇺🇸 美国Y01
+      - 🇺🇸 美国Y02
+      - 🇬🇧 英国Y01
+      - 🇦🇷 阿根廷Y01
+      - 🇷🇺 俄罗斯Y01
+      - 🇹🇷 土耳其Y01
+      - 🇰🇷 韩国Y01
+      - 🇮🇳 印度Y01
+      - 🇩🇪 德国Y01
+      - 🇨🇦 加拿大Y01
+      - 🇦🇺 澳大利亚Y01
+      - 🇫🇷 法国Y01
+      - 🇺🇦 乌克兰Y01
+    url: 'https://www.gstatic.com/generate_204'
+    interval: 300
+    lazy: true
+    strategy: consistent-hashing
+    icon: https://clash-verge-rev.github.io/assets/icons/merry_go.svg
+
+  - name: "负载均衡-轮询"
+    type: load-balance
+    proxies:
+      - 🇭🇰 香港Y01
+      - 🇯🇵 日本Y01 | x0.8
+      - 🇭🇰 香港Y02 | IEPL
+      - 🇯🇵 日本Y02 | x0.8
+      - 🇭🇰 香港Y03 | IEPL
+      - 🇯🇵 日本Y03 | x0.8
+      - 🇭🇰 香港Y04 | IEPL
+      - 🇯🇵 日本Y04 | x0.8
+      - 🇭🇰 香港Y05 | IEPL
+      - 🇯🇵 日本Y05 | 下载专用 | x0.01
+      - 🇭🇰 香港Y06 | x0.8
+      - 🇯🇵 日本Y06 | 下载专用 | x0.01
+      - 🇭🇰 香港Y07 | x0.8
+      - 🇯🇵 日本Y07 | x0.8
+      - 🇭🇰 香港Y08 | x0.8
+      - 🇯🇵 日本Y08 | x0.8
+      - 🇭🇰 香港Y09 | IEPL
+      - 🇯🇵 日本Y09 | x0.8
+      - 🇭🇰 香港Y10 | IEPL
+      - 🇯🇵 日本Y10 | x0.8
+      - 🇭🇰 香港Y11 | IEPL
+      - 🇯🇵 日本Y11 | x0.8
+      - 🇯🇵 日本Y12 | IEPL | 测试
+      - 🇸🇬 新加坡Y01
+      - 🇸🇬 新加坡Y02
+      - 🇹🇼 台湾Y01 | IEPL | x2
+      - 🇺🇸 美国Y01
+      - 🇺🇸 美国Y02
+      - 🇬🇧 英国Y01
+      - 🇦🇷 阿根廷Y01
+      - 🇷🇺 俄罗斯Y01
+      - 🇹🇷 土耳其Y01
+      - 🇰🇷 韩国Y01
+      - 🇮🇳 印度Y01
+      - 🇩🇪 德国Y01
+      - 🇨🇦 加拿大Y01
+      - 🇦🇺 澳大利亚Y01
+      - 🇫🇷 法国Y01
+      - 🇺🇦 乌克兰Y01
+    url: 'https://www.gstatic.com/generate_204'
+    interval: 300
+    lazy: true
+    strategy: round-robin
+    icon: https://clash-verge-rev.github.io/assets/icons/balance.svg
+
   - {
       name: AI,
       type: select,
@@ -274,18 +425,16 @@ proxy-groups:
       proxies: [Direct, 节点选择],
       icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/DomesticMedia.png,
     }
-
   - {
       name: ForeignMedia,
       type: select,
       proxies: [节点选择, Direct, 香港节点, 日本节点],
       icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/ForeignMedia.png,
     }
-
   - {
       name: Game,
       type: select,
-      proxies: [香港节点, 其它地区, 手动选择, Direct],
+      proxies: [负载均衡-散列, 自动回退, 手动选择, Direct, 香港节点, 其它地区],
       icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Game.png,
     }
   - {
@@ -315,7 +464,7 @@ proxy-groups:
   - {
       name: Telegram,
       type: select,
-      proxies: [手动选择],
+      proxies: [手动选择, 自动回退],
       icon: https://clash-verge-rev.github.io/assets/icons/telegram.svg,
     }
   - {
@@ -488,6 +637,10 @@ rule-providers:
   cn_domain:
     <<: *domain
     url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/cn.yaml"
+
+  cn_ip:
+    <<: *ip
+    url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/cn.yaml"
 
   geolocation-!cn:
     <<: *domain
@@ -680,6 +833,16 @@ rules:
   - RULE-SET,TikTok,ForeignMedia
   - RULE-SET,Twitch,ForeignMedia
   - RULE-SET,YouTube,ForeignMedia
-  - RULE-SET,cn_domain,China
-  - RULE-SET,geolocation-!cn,Global
+  - RULE-SET,cn_domain,China,no-resolve
+  - RULE-SET,geolocation-!cn,Global,no-resolve
+
+  - RULE-SET,cn_ip,China,no-resolve
+
   - MATCH,漏网之鱼
+
+ntp:
+  enable: true
+  write-to-system: true
+  server: time.apple.com
+  port: 123
+  interval: 30
