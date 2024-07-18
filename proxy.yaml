@@ -242,17 +242,6 @@ proxy-groups:
       - 🇹🇼 台湾Y01 | IEPL | x2
       - 🇺🇸 美国Y01
       - 🇺🇸 美国Y02
-      - 🇬🇧 英国Y01
-      - 🇦🇷 阿根廷Y01
-      - 🇷🇺 俄罗斯Y01
-      - 🇹🇷 土耳其Y01
-      - 🇰🇷 韩国Y01
-      - 🇮🇳 印度Y01
-      - 🇩🇪 德国Y01
-      - 🇨🇦 加拿大Y01
-      - 🇦🇺 澳大利亚Y01
-      - 🇫🇷 法国Y01
-      - 🇺🇦 乌克兰Y01
     interval: 300
     tolerance: 50
     lazy: true
@@ -262,44 +251,28 @@ proxy-groups:
     type: fallback
     proxies:
       - 🇭🇰 香港Y01
-      - 🇯🇵 日本Y01 | x0.8
       - 🇭🇰 香港Y02 | IEPL
-      - 🇯🇵 日本Y02 | x0.8
       - 🇭🇰 香港Y03 | IEPL
-      - 🇯🇵 日本Y03 | x0.8
       - 🇭🇰 香港Y04 | IEPL
-      - 🇯🇵 日本Y04 | x0.8
       - 🇭🇰 香港Y05 | IEPL
-      - 🇯🇵 日本Y05 | 下载专用 | x0.01
       - 🇭🇰 香港Y06 | x0.8
-      - 🇯🇵 日本Y06 | 下载专用 | x0.01
       - 🇭🇰 香港Y07 | x0.8
-      - 🇯🇵 日本Y07 | x0.8
       - 🇭🇰 香港Y08 | x0.8
-      - 🇯🇵 日本Y08 | x0.8
       - 🇭🇰 香港Y09 | IEPL
-      - 🇯🇵 日本Y09 | x0.8
       - 🇭🇰 香港Y10 | IEPL
-      - 🇯🇵 日本Y10 | x0.8
       - 🇭🇰 香港Y11 | IEPL
+      - 🇯🇵 日本Y01 | x0.8
+      - 🇯🇵 日本Y02 | x0.8
+      - 🇯🇵 日本Y03 | x0.8
+      - 🇯🇵 日本Y04 | x0.8
+      - 🇯🇵 日本Y05 | 下载专用 | x0.01
+      - 🇯🇵 日本Y06 | 下载专用 | x0.01
+      - 🇯🇵 日本Y07 | x0.8
+      - 🇯🇵 日本Y08 | x0.8
+      - 🇯🇵 日本Y09 | x0.8
+      - 🇯🇵 日本Y10 | x0.8
       - 🇯🇵 日本Y11 | x0.8
       - 🇯🇵 日本Y12 | IEPL | 测试
-      - 🇸🇬 新加坡Y01
-      - 🇸🇬 新加坡Y02
-      - 🇹🇼 台湾Y01 | IEPL | x2
-      - 🇺🇸 美国Y01
-      - 🇺🇸 美国Y02
-      - 🇬🇧 英国Y01
-      - 🇦🇷 阿根廷Y01
-      - 🇷🇺 俄罗斯Y01
-      - 🇹🇷 土耳其Y01
-      - 🇰🇷 韩国Y01
-      - 🇮🇳 印度Y01
-      - 🇩🇪 德国Y01
-      - 🇨🇦 加拿大Y01
-      - 🇦🇺 澳大利亚Y01
-      - 🇫🇷 法国Y01
-      - 🇺🇦 乌克兰Y01
     url: 'https://www.gstatic.com/generate_204'
     interval: 300
     lazy: true
@@ -309,44 +282,28 @@ proxy-groups:
     type: load-balance
     proxies:
       - 🇭🇰 香港Y01
-      - 🇯🇵 日本Y01 | x0.8
       - 🇭🇰 香港Y02 | IEPL
-      - 🇯🇵 日本Y02 | x0.8
       - 🇭🇰 香港Y03 | IEPL
-      - 🇯🇵 日本Y03 | x0.8
       - 🇭🇰 香港Y04 | IEPL
-      - 🇯🇵 日本Y04 | x0.8
       - 🇭🇰 香港Y05 | IEPL
-      - 🇯🇵 日本Y05 | 下载专用 | x0.01
       - 🇭🇰 香港Y06 | x0.8
-      - 🇯🇵 日本Y06 | 下载专用 | x0.01
       - 🇭🇰 香港Y07 | x0.8
-      - 🇯🇵 日本Y07 | x0.8
       - 🇭🇰 香港Y08 | x0.8
-      - 🇯🇵 日本Y08 | x0.8
       - 🇭🇰 香港Y09 | IEPL
-      - 🇯🇵 日本Y09 | x0.8
       - 🇭🇰 香港Y10 | IEPL
-      - 🇯🇵 日本Y10 | x0.8
       - 🇭🇰 香港Y11 | IEPL
+      - 🇯🇵 日本Y01 | x0.8
+      - 🇯🇵 日本Y02 | x0.8
+      - 🇯🇵 日本Y03 | x0.8
+      - 🇯🇵 日本Y04 | x0.8
+      - 🇯🇵 日本Y05 | 下载专用 | x0.01
+      - 🇯🇵 日本Y06 | 下载专用 | x0.01
+      - 🇯🇵 日本Y07 | x0.8
+      - 🇯🇵 日本Y08 | x0.8
+      - 🇯🇵 日本Y09 | x0.8
+      - 🇯🇵 日本Y10 | x0.8
       - 🇯🇵 日本Y11 | x0.8
       - 🇯🇵 日本Y12 | IEPL | 测试
-      - 🇸🇬 新加坡Y01
-      - 🇸🇬 新加坡Y02
-      - 🇹🇼 台湾Y01 | IEPL | x2
-      - 🇺🇸 美国Y01
-      - 🇺🇸 美国Y02
-      - 🇬🇧 英国Y01
-      - 🇦🇷 阿根廷Y01
-      - 🇷🇺 俄罗斯Y01
-      - 🇹🇷 土耳其Y01
-      - 🇰🇷 韩国Y01
-      - 🇮🇳 印度Y01
-      - 🇩🇪 德国Y01
-      - 🇨🇦 加拿大Y01
-      - 🇦🇺 澳大利亚Y01
-      - 🇫🇷 法国Y01
-      - 🇺🇦 乌克兰Y01
     url: 'https://www.gstatic.com/generate_204'
     interval: 300
     lazy: true
@@ -357,44 +314,28 @@ proxy-groups:
     type: load-balance
     proxies:
       - 🇭🇰 香港Y01
-      - 🇯🇵 日本Y01 | x0.8
       - 🇭🇰 香港Y02 | IEPL
-      - 🇯🇵 日本Y02 | x0.8
       - 🇭🇰 香港Y03 | IEPL
-      - 🇯🇵 日本Y03 | x0.8
       - 🇭🇰 香港Y04 | IEPL
-      - 🇯🇵 日本Y04 | x0.8
       - 🇭🇰 香港Y05 | IEPL
-      - 🇯🇵 日本Y05 | 下载专用 | x0.01
       - 🇭🇰 香港Y06 | x0.8
-      - 🇯🇵 日本Y06 | 下载专用 | x0.01
       - 🇭🇰 香港Y07 | x0.8
-      - 🇯🇵 日本Y07 | x0.8
       - 🇭🇰 香港Y08 | x0.8
-      - 🇯🇵 日本Y08 | x0.8
       - 🇭🇰 香港Y09 | IEPL
-      - 🇯🇵 日本Y09 | x0.8
       - 🇭🇰 香港Y10 | IEPL
-      - 🇯🇵 日本Y10 | x0.8
       - 🇭🇰 香港Y11 | IEPL
+      - 🇯🇵 日本Y01 | x0.8
+      - 🇯🇵 日本Y02 | x0.8
+      - 🇯🇵 日本Y03 | x0.8
+      - 🇯🇵 日本Y04 | x0.8
+      - 🇯🇵 日本Y05 | 下载专用 | x0.01
+      - 🇯🇵 日本Y06 | 下载专用 | x0.01
+      - 🇯🇵 日本Y07 | x0.8
+      - 🇯🇵 日本Y08 | x0.8
+      - 🇯🇵 日本Y09 | x0.8
+      - 🇯🇵 日本Y10 | x0.8
       - 🇯🇵 日本Y11 | x0.8
       - 🇯🇵 日本Y12 | IEPL | 测试
-      - 🇸🇬 新加坡Y01
-      - 🇸🇬 新加坡Y02
-      - 🇹🇼 台湾Y01 | IEPL | x2
-      - 🇺🇸 美国Y01
-      - 🇺🇸 美国Y02
-      - 🇬🇧 英国Y01
-      - 🇦🇷 阿根廷Y01
-      - 🇷🇺 俄罗斯Y01
-      - 🇹🇷 土耳其Y01
-      - 🇰🇷 韩国Y01
-      - 🇮🇳 印度Y01
-      - 🇩🇪 德国Y01
-      - 🇨🇦 加拿大Y01
-      - 🇦🇺 澳大利亚Y01
-      - 🇫🇷 法国Y01
-      - 🇺🇦 乌克兰Y01
     url: 'https://www.gstatic.com/generate_204'
     interval: 300
     lazy: true
@@ -608,40 +549,40 @@ rule-providers:
     url: "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main//Filters/AWAvenue-Ads-Rule-Clash.yaml"
     interval: 86400
 
-  AD:
-    type: http
-    behavior: domain
-    url: "https://raw.githubusercontent.com/earoftoast/clash-rules/main/AD.yaml"
-    path: ./rules/AD.yaml
-    interval: 86400
+  # AD:
+  #   type: http
+  #   behavior: domain
+  #   url: "https://raw.githubusercontent.com/earoftoast/clash-rules/main/AD.yaml"
+  #   path: ./rules/AD.yaml
+  #   interval: 86400
 
-  EasyList:
-    type: http
-    behavior: domain
-    url: "https://raw.githubusercontent.com/earoftoast/clash-rules/main/EasyList.yaml"
-    path: ./rules/EasyList.yaml
-    interval: 86400
+  # EasyList:
+  #   type: http
+  #   behavior: domain
+  #   url: "https://raw.githubusercontent.com/earoftoast/clash-rules/main/EasyList.yaml"
+  #   path: ./rules/EasyList.yaml
+  #   interval: 86400
 
-  EasyListChina:
-    type: http
-    behavior: domain
-    url: "https://raw.githubusercontent.com/earoftoast/clash-rules/main/EasyListChina.yaml"
-    path: ./rules/EasyListChina.yaml
-    interval: 86400
+  # EasyListChina:
+  #   type: http
+  #   behavior: domain
+  #   url: "https://raw.githubusercontent.com/earoftoast/clash-rules/main/EasyListChina.yaml"
+  #   path: ./rules/EasyListChina.yaml
+  #   interval: 86400
 
-  EasyPrivacy:
-    type: http
-    behavior: domain
-    url: "https://raw.githubusercontent.com/earoftoast/clash-rules/main/EasyPrivacy.yaml"
-    path: ./rules/EasyPrivacy.yaml
-    interval: 86400
+  # EasyPrivacy:
+  #   type: http
+  #   behavior: domain
+  #   url: "https://raw.githubusercontent.com/earoftoast/clash-rules/main/EasyPrivacy.yaml"
+  #   path: ./rules/EasyPrivacy.yaml
+  #   interval: 86400
 
-  ProgramAD:
-    type: http
-    behavior: domain
-    url: "https://raw.githubusercontent.com/earoftoast/clash-rules/main/ProgramAD.yaml"
-    path: ./rules/ProgramAD.yaml
-    interval: 86400
+  # ProgramAD:
+  #   type: http
+  #   behavior: domain
+  #   url: "https://raw.githubusercontent.com/earoftoast/clash-rules/main/ProgramAD.yaml"
+  #   path: ./rules/ProgramAD.yaml
+  #   interval: 86400
 
   private:
     <<: *domain
@@ -810,6 +751,7 @@ rule-providers:
 
 # 规则
 rules:
+  - GEOIP,lan,DIRECT,no-resolve
   - RULE-SET,Direct,DIRECT
 
   # - RULE-SET,AD,REJECT
@@ -817,7 +759,6 @@ rules:
   # - RULE-SET,EasyListChina,REJECT
   # - RULE-SET,EasyPrivacy,REJECT
   # - RULE-SET,ProgramAD,REJECT
-  
   - RULE-SET,AWAvenue-Ads-Rule-Clash,REJECT
 
   - DOMAIN-SUFFIX,stream1.misakaf.org,ForeignMedia
@@ -846,10 +787,10 @@ rules:
   - RULE-SET,TikTok,ForeignMedia
   - RULE-SET,Twitch,ForeignMedia
   - RULE-SET,YouTube,ForeignMedia
-  - RULE-SET,cn_domain,China,no-resolve
-  - RULE-SET,geolocation-!cn,Global,no-resolve
+  - RULE-SET,cn_domain,China
+  - RULE-SET,geolocation-!cn,Global
 
-  - RULE-SET,cn_ip,China,no-resolve
+  - RULE-SET,cn_ip,China
 
   - MATCH,漏网之鱼
 
