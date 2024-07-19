@@ -1,13 +1,15 @@
+# 订阅更新以及延迟测试配置
 p: &p {
     type: http,
-    interval: 86400, 
+    interval: 86400, # 订阅更新间隔时间，单位为秒
     health-check: {
-        enable: true, 
+        enable: true, # 启用健康检查
         url: http://www.apple.com/library/test/success.html, # 健康检查URL
-        interval: 600, 
+        interval: 600, # 健康检查间隔时间，单位为秒
       },
   }
 
+# 订阅提供者配置
 proxy-providers:
   provider:
     <<: *p
