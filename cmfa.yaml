@@ -178,9 +178,9 @@ proxies:
     udp: true
 
 proxy-groups:
-  - {name: 🚀 节点选择, type: select, proxies: [自动选择, 手动选择, 🇭🇰 香港节点, 🇹🇼 台湾节点, 🇯🇵 日本节点, 🇸🇬 新加坡节点, 🇺🇸 美国节点]}
-  - {name: 自动选择, type: url-test, include-all-providers: true, tolerance: 10}
-  - {name: 手动选择, type: select , include-all-providers: true}
+  - {name: 🚀 节点选择, type: select, proxies: [♻️ 自动选择, 🚀 手动选择, 🇭🇰 香港节点, 🇹🇼 台湾节点, 🇯🇵 日本节点, 🇸🇬 新加坡节点, 🇺🇸 美国节点]}
+  - {name: ♻️ 自动选择, type: url-test, include-all-providers: true, tolerance: 10}
+  - {name: 🚀 手动选择, type: select , include-all-providers: true}
   - {name: 🪜 代理域名, type: select, proxies: [🚀 节点选择, 🎯 全球直连]}
   - {name: 🐟 漏网之鱼, type: select, proxies: [🚀 节点选择, 🎯 全球直连]}
   - {name: 📈 网络测试, type: select, proxies: [🎯 全球直连, 🇭🇰 香港节点, 🇹🇼 台湾节点, 🇯🇵 日本节点, 🇸🇬 新加坡节点, 🇺🇸 美国节点]}
@@ -198,7 +198,7 @@ proxy-groups:
   - {name: 🎯 全球直连, type: select, proxies: [DIRECT]}
 
   - {name: 🇭🇰 香港节点, type: url-test , include-all-providers: true, filter: "(?i)港|hk"}
-  - {name: 🇹🇼 台湾节点, type: url-test , include-all-providers: true, filter: "(?i)台|tw"}
+  - {name: 🇹🇼 台湾节点, type: select , include-all-providers: true, filter: "(?i)台|tw"}
   - {name: 🇯🇵 日本节点, type: url-test , include-all-providers: true, filter: "(?i)日|jp"}
   - {name: 🇸🇬 新加坡节点, type: url-test , include-all-providers: true, filter: "(?i)(新|sg)"}
   - {name: 🇺🇸 美国节点, type: url-test , include-all-providers: true, filter: "(?i)美|us"}
