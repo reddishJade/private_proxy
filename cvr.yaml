@@ -1,18 +1,11 @@
-# 锚点 start #
-# 策略组相关
-# pr: &pr {type: select, proxies: [默认,香港,台湾,日本,新加坡,美国,其它地区,全部节点,自动选择,直连]}
-
 #订阅更新以及延迟测试
 p: &p {type: http, interval: 3600, health-check: {enable: true, url: https://www.gstatic.com/generate_204, interval: 300}}
-
-# 锚点 end #
 
 # 订阅
 proxy-providers:
   provider:
     <<: *p
     url: "https://967go.no-mad-world.club/link/cNIKJy4BAuYFBRA0?clash=3&extend=1"
-
 
 ipv6: true
 allow-lan: true
@@ -632,12 +625,15 @@ rules:
   - RULE-SET,games-cn,Game
   - RULE-SET,ai,AI
   - RULE-SET,networktest,NetworkTest
-  - RULE-SET,proxy,节点选择
+  - RULE-SET,proxy,Global
   - RULE-SET,cn,DIRECT
   - RULE-SET,telegramip,Telegram,no-resolve
   - RULE-SET,privateip,DIRECT,no-resolve
   - RULE-SET,cnip,DIRECT
-  - MATCH,节点选择
+  - RULE-SET,cn_domain,China
+  - RULE-SET,geolocation-!cn,Global
+  - RULE-SET,cn_ip,China
+  - MATCH,漏网之鱼
 
 ntp:
   enable: true
