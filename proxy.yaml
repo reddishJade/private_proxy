@@ -137,8 +137,7 @@ proxy-groups:
           手动选择,
           自动回退,
           Direct,
-          负载均衡-散列,
-          负载均衡-轮询,
+          负载均衡,
           香港节点,
           台湾节点,
           日本节点,
@@ -278,7 +277,7 @@ proxy-groups:
     lazy: true
     icon: https://clash-verge-rev.github.io/assets/icons/ambulance.svg
 
-  - name: "负载均衡-散列"
+  - name: "负载均衡"
     type: load-balance
     proxies:
       - 🇭🇰 香港Y01
@@ -307,40 +306,9 @@ proxy-groups:
     url: 'https://www.gstatic.com/generate_204'
     interval: 300
     lazy: true
-    strategy: consistent-hashing
+    # strategy: consistent-hashing
+    # strategy: round-robin
     icon: https://clash-verge-rev.github.io/assets/icons/merry_go.svg
-
-  - name: "负载均衡-轮询"
-    type: load-balance
-    proxies:
-      - 🇭🇰 香港Y01
-      - 🇭🇰 香港Y02 | IEPL
-      - 🇭🇰 香港Y03 | IEPL
-      - 🇭🇰 香港Y04 | IEPL
-      - 🇭🇰 香港Y05 | IEPL
-      - 🇭🇰 香港Y06 | x0.8
-      - 🇭🇰 香港Y07 | x0.8
-      - 🇭🇰 香港Y08 | x0.8
-      - 🇭🇰 香港Y09 | IEPL
-      - 🇭🇰 香港Y10 | IEPL
-      - 🇭🇰 香港Y11 | IEPL
-      - 🇯🇵 日本Y01 | x0.8
-      - 🇯🇵 日本Y02 | x0.8
-      - 🇯🇵 日本Y03 | x0.8
-      - 🇯🇵 日本Y04 | x0.8
-      - 🇯🇵 日本Y05 | 下载专用 | x0.01
-      - 🇯🇵 日本Y06 | 下载专用 | x0.01
-      - 🇯🇵 日本Y07 | x0.8
-      - 🇯🇵 日本Y08 | x0.8
-      - 🇯🇵 日本Y09 | x0.8
-      - 🇯🇵 日本Y10 | x0.8
-      - 🇯🇵 日本Y11 | x0.8
-      - 🇯🇵 日本Y12 | IEPL | 测试
-    url: 'https://www.gstatic.com/generate_204'
-    interval: 300
-    lazy: true
-    strategy: round-robin
-    icon: https://clash-verge-rev.github.io/assets/icons/balance.svg
 
   - {
       name: AI,
@@ -375,7 +343,7 @@ proxy-groups:
   - {
       name: Game,
       type: select,
-      proxies: [负载均衡-散列, 自动回退, 手动选择, Direct, 香港节点, 其它地区],
+      proxies: [手动选择, 自动回退, 负载均衡, Direct, 香港节点, 其它地区],
       icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Game.png,
     }
   - {
