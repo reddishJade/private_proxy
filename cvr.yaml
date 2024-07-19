@@ -1,8 +1,10 @@
-p: &p {
+p:
+  &p {
     type: http,
     interval: 3600,
     exclude-filter: "免费",
-    health-check: {
+    health-check:
+      {
         enable: true,
         url: http://www.apple.com/library/test/success.html,
         interval: 300,
@@ -15,31 +17,101 @@ proxy-providers:
     url: "https://967go.no-mad-world.club/link/cNIKJy4BAuYFBRA0?clash=3&extend=1"
 
 proxy-groups:
-  - {name: 🚀 节点选择, type: select, proxies: [♻️ 自动选择, 🚀 手动选择, 🇭🇰 香港节点, 🇹🇼 台湾节点, 🇯🇵 日本节点, 🇸🇬 新加坡节点, 🇺🇸 美国节点]}
-  - {name: ♻️ 自动选择, type: url-test, include-all-providers: true, tolerance: 10, lazy: true}
-  - {name: 🚀 手动选择, type: select, include-all-providers: true}
-  - {name: 🪜 代理域名, type: select, proxies: [🚀 节点选择, 🎯 全球直连]}
-  - {name: 🐟 漏网之鱼, type: select, proxies: [🚀 节点选择, 🎯 全球直连]}
-  - {name: 📈 网络测试, type: select, proxies: [🎯 全球直连, 🇭🇰 香港节点, 🇹🇼 台湾节点, 🇯🇵 日本节点, 🇸🇬 新加坡节点, 🇺🇸 美国节点]}
-  - {name: 🤖 人工智能, type: select, proxies: [🇭🇰 香港节点, 🇯🇵 日本节点]}
-  - {name: 🎮 游戏服务, type: select, proxies: [🚀 节点选择, 🇭🇰 香港节点, 🌐 其它地区, 🎯 全球直连]}
-  - {name: 🪟 微软服务, type: select, proxies: [🚀 节点选择, 🎯 全球直连]}
-  - {name: 🇬 谷歌服务, type: select, proxies: [🚀 节点选择, 🎯 全球直连]}
-  - {name: 🍎 苹果服务, type: select, proxies: [🚀 节点选择, 🎯 全球直连]}
-  - {name: 📲 电报消息, type: select, proxies: [🚀 节点选择]}
-  - {name: 🇨🇳 直连域名, type: select, proxies: [🎯 全球直连, 🚀 节点选择]}
-  - {name: 🇨🇳 直连 IP, type: select, proxies: [🎯 全球直连, 🚀 节点选择]}
-  - {name: 🖥️ 直连软件, type: select, proxies: [🎯 全球直连]}
-  - {name: 🔒 私有网络, type: select, proxies: [🎯 全球直连]}
-  - {name: 🛑 广告拦截, type: select, proxies: [REJECT]}
-  - {name: 🎯 全球直连, type: select, proxies: [DIRECT]}
+  - {
+      name: 🚀 节点选择,
+      type: select,
+      proxies:
+        [
+          ♻️ 自动选择,
+          🚀 手动选择,
+          🇭🇰 香港节点,
+          🇹🇼 台湾节点,
+          🇯🇵 日本节点,
+          🇸🇬 新加坡节点,
+          🇺🇸 美国节点,
+        ],
+    }
+  - {
+      name: ♻️ 自动选择,
+      type: url-test,
+      include-all-providers: true,
+      tolerance: 10,
+      lazy: true,
+    }
+  - { name: 🚀 手动选择, type: select, include-all-providers: true }
+  - { name: 🪜 代理域名, type: select, proxies: [🚀 节点选择, 🎯 全球直连] }
+  - { name: 🐟 漏网之鱼, type: select, proxies: [🚀 节点选择, 🎯 全球直连] }
+  - {
+      name: 📈 网络测试,
+      type: select,
+      proxies:
+        [
+          🎯 全球直连,
+          🇭🇰 香港节点,
+          🇹🇼 台湾节点,
+          🇯🇵 日本节点,
+          🇸🇬 新加坡节点,
+          🇺🇸 美国节点,
+        ],
+    }
+  - { name: 🤖 人工智能, type: select, proxies: [🇭🇰 香港节点, 🇯🇵 日本节点] }
+  - {
+      name: 🎮 游戏服务,
+      type: select,
+      proxies: [🚀 节点选择, 🇭🇰 香港节点, 🌐 其它地区, 🎯 全球直连],
+    }
+  - { name: 🪟 微软服务, type: select, proxies: [🚀 节点选择, 🎯 全球直连] }
+  - { name: 🇬 谷歌服务, type: select, proxies: [🚀 节点选择, 🎯 全球直连] }
+  - { name: 🍎 苹果服务, type: select, proxies: [🚀 节点选择, 🎯 全球直连] }
+  - { name: 📲 电报消息, type: select, proxies: [🚀 节点选择] }
+  - { name: 🇨🇳 直连域名, type: select, proxies: [🎯 全球直连, 🚀 节点选择] }
+  - { name: 🇨🇳 直连 IP, type: select, proxies: [🎯 全球直连, 🚀 节点选择] }
+  - { name: 🖥️ 直连软件, type: select, proxies: [🎯 全球直连] }
+  - { name: 🔒 私有网络, type: select, proxies: [🎯 全球直连] }
+  - { name: 🛑 广告拦截, type: select, proxies: [REJECT] }
+  - { name: 🎯 全球直连, type: select, proxies: [DIRECT] }
 
-  - {name: 🇭🇰 香港节点, type: url-test , include-all-providers: true, filter: "(?i)港|hk", lazy: true}
-  - {name: 🇹🇼 台湾节点, type: select , include-all-providers: true, filter: "(?i)台|tw", disable-udp: true}
-  - {name: 🇯🇵 日本节点, type: url-test , include-all-providers: true, filter: "(?i)日|jp", lazy: true}
-  - {name: 🇸🇬 新加坡节点, type: url-test , include-all-providers: true, filter: "(?i)(新|sg)", lazy: true}
-  - {name: 🇺🇸 美国节点, type: url-test , include-all-providers: true, filter: "(?i)美|us", lazy: true}
-  - {name: 🌐 其它地区, type: select , include-all-providers: true, filter: "(?i)^(?!.*(?:🇭🇰|🇯🇵|🇺🇸|🇸🇬|🇨🇳|港|hk|hongkong|台|tw|taiwan|日|jp|japan|新|sg|singapore|美|us|unitedstates)).*"}
+  - {
+      name: 🇭🇰 香港节点,
+      type: url-test,
+      include-all-providers: true,
+      filter: "(?i)港|hk",
+      lazy: true,
+    }
+  - {
+      name: 🇹🇼 台湾节点,
+      type: select,
+      include-all-providers: true,
+      filter: "(?i)台|tw",
+      disable-udp: true,
+    }
+  - {
+      name: 🇯🇵 日本节点,
+      type: url-test,
+      include-all-providers: true,
+      filter: "(?i)日|jp",
+      lazy: true,
+    }
+  - {
+      name: 🇸🇬 新加坡节点,
+      type: url-test,
+      include-all-providers: true,
+      filter: "(?i)(新|sg)",
+      lazy: true,
+    }
+  - {
+      name: 🇺🇸 美国节点,
+      type: url-test,
+      include-all-providers: true,
+      filter: "(?i)美|us",
+      lazy: true,
+    }
+  - {
+      name: 🌐 其它地区,
+      type: select,
+      include-all-providers: true,
+      filter: "(?i)^(?!.*(?:🇭🇰|🇯🇵|🇺🇸|🇸🇬|🇨🇳|港|hk|hongkong|台|tw|taiwan|日|jp|japan|新|sg|singapore|美|us|unitedstates)).*",
+    }
 
 rule-providers:
   ads:
