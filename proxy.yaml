@@ -136,7 +136,6 @@ proxy-groups:
           自动选择,
           手动选择,
           自动回退,
-          Direct,
           负载均衡,
           香港节点,
           台湾节点,
@@ -144,6 +143,7 @@ proxy-groups:
           新加坡节点,
           美国节点,
           其它地区,
+          Direct,
         ],
       icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Rocket.png,
     }
