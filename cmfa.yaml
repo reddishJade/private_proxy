@@ -3,7 +3,7 @@ p: &p {
     interval: 86400
     health-check: {
         enable: true,
-        url: https://www.gstatic.com/generate_204
+        url: https://www.gstatic.com/generate_204,
         interval: 600
       },
   }
@@ -11,7 +11,7 @@ p: &p {
 proxy-providers:
   provider:
     <<: *p
-    url: "https://967go.no-mad-world.club/link/cNIKJy4BAuYFBRA0?clash=3&extend=1"
+    url: "https://967go.no-mad-world.club/link/cNIKJy4BAuYFBRA0?clash=3"
 
 mode: rule
 ipv6: true
