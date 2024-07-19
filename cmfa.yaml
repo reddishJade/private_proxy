@@ -1,11 +1,10 @@
 proxy-providers:
   🛫 airplane:
     type: http
-    # 修改为你的 Clash 订阅链接
-    url: "https://967go.no-mad-world.club/link/cNIKJy4BAuYFBRA0?clash=3&extend=1"
+    url: "https://967go.no-mad-world.club/link/cNIKJy4BAuYFBRA0?clash=3"
     path: ./proxies/airport.yaml
     interval: 86400
-    filter: "香港|台湾|日本|新加坡|美国"
+    filter: "港|台|日|新|美"
     health-check:
       enable: true
       url: https://www.gstatic.com/generate_204
@@ -192,11 +191,11 @@ proxy-groups:
   - {name: 🛑 广告拦截, type: select, proxies: [REJECT]}
   - {name: 🎯 全球直连, type: select, proxies: [DIRECT]}
 
-  - {name: 🇭🇰 香港节点, type: url-test, tolerance: 50, include-all-providers: true, filter: "香港"}
-  - {name: 🇹🇼 台湾节点, type: select, tolerance: 50, include-all-providers: true, filter: "台湾"}
-  - {name: 🇯🇵 日本节点, type: url-test, tolerance: 50, include-all-providers: true, filter: "日本"}
-  - {name: 🇸🇬 新加坡节点, type: url-test, tolerance: 50, include-all-providers: true, filter: "新加坡"}
-  - {name: 🇺🇸 美国节点, type: url-test, tolerance: 50, include-all-providers: true, filter: "美国"}
+  - {name: 🇭🇰 香港节点, type: url-test, tolerance: 50, include-all-providers: true, filter: "港"}
+  - {name: 🇹🇼 台湾节点, type: select, tolerance: 50, include-all-providers: true, filter: "台"}
+  - {name: 🇯🇵 日本节点, type: url-test, tolerance: 50, include-all-providers: true, filter: "日"}
+  - {name: 🇸🇬 新加坡节点, type: url-test, tolerance: 50, include-all-providers: true, filter: "新"}
+  - {name: 🇺🇸 美国节点, type: url-test, tolerance: 50, include-all-providers: true, filter: "美"}
 
 rule-providers:
   ads:
