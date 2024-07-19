@@ -1,14 +1,17 @@
+p: &p {
+    type: http,
+    interval: 3600, # 订阅更新间隔时间，单位为秒
+    health-check: {
+        enable: true, # 启用健康检查
+        url: http://www.apple.com/library/test/success.html, # 健康检查URL
+        interval: 300, # 健康检查间隔时间，单位为秒
+      },
+  }
+
 proxy-providers:
-  🛫 airplane:
-    type: http
-    url: "https://967go.no-mad-world.club/link/cNIKJy4BAuYFBRA0?clash=3"
-    path: ./proxies/airport.yaml
-    interval: 86400
-    filter: "港|台|日|新|美"
-    health-check:
-      enable: true
-      url: https://www.gstatic.com/generate_204
-      interval: 600
+  provider:
+    <<: *p
+    url: "https://967go.no-mad-world.club/link/cNIKJy4BAuYFBRA0?clash=3&extend=1"
 
 mode: rule
 ipv6: true
@@ -173,8 +176,10 @@ proxies:
     udp: true
 
 proxy-groups:
-  - {name: 🚀 节点选择, type: select, proxies: [🇭🇰 香港节点, 🇹🇼 台湾节点, 🇯🇵 日本节点, 🇸🇬 新加坡节点, 🇺🇸 美国节点]}
-  # 若机场的 UDP 质量不是很好，导致某游戏无法登录或进入房间，可以添加 `disable-udp: true` 配置项解决
+  - {name: 🚀 节点选择, type: select, proxies: [自动选择, 手动选择🇭🇰 香港节点, 🇹🇼 台湾节点, 🇯🇵 日本节点, 🇸🇬 新加坡节点, 🇺🇸 美国节点]}
+  - {name: 自动选择, type: url-test, include-all-providers: true, tolerance: 10}
+  - {name: 手动选择, type: select , include-all-providers: true}
+  - {name: 🪜 代理域名, type: select, proxies: [🚀 节点选择, 🎯 全球直连]}
   - {name: 🐟 漏网之鱼, type: select, proxies: [🚀 节点选择, 🎯 全球直连]}
   - {name: 📈 网络测试, type: select, proxies: [🎯 全球直连, 🇭🇰 香港节点, 🇹🇼 台湾节点, 🇯🇵 日本节点, 🇸🇬 新加坡节点, 🇺🇸 美国节点]}
   - {name: 🤖 人工智能, type: select, proxies: [🇭🇰 香港节点, 🇯🇵 日本节点]}
@@ -182,20 +187,19 @@ proxy-groups:
   - {name: 🪟 微软服务, type: select, proxies: [🚀 节点选择, 🎯 全球直连]}
   - {name: 🇬 谷歌服务, type: select, proxies: [🚀 节点选择, 🎯 全球直连]}
   - {name: 🍎 苹果服务, type: select, proxies: [🚀 节点选择, 🎯 全球直连]}
+  - {name: 📲 电报消息, type: select, proxies: [🚀 节点选择]}
   - {name: 🇨🇳 直连域名, type: select, proxies: [🎯 全球直连, 🚀 节点选择]}
   - {name: 🇨🇳 直连 IP, type: select, proxies: [🎯 全球直连, 🚀 节点选择]}
-  - {name: 🪜 代理域名, type: select, proxies: [🚀 节点选择, 🎯 全球直连]}
-  - {name: 📲 电报消息, type: select, proxies: [🚀 节点选择]}
   - {name: 🖥️ 直连软件, type: select, proxies: [🎯 全球直连]}
   - {name: 🔒 私有网络, type: select, proxies: [🎯 全球直连]}
   - {name: 🛑 广告拦截, type: select, proxies: [REJECT]}
   - {name: 🎯 全球直连, type: select, proxies: [DIRECT]}
 
-  - {name: 🇭🇰 香港节点, type: url-test, tolerance: 50, include-all-providers: true, filter: "港"}
-  - {name: 🇹🇼 台湾节点, type: select, tolerance: 50, include-all-providers: true, filter: "台"}
-  - {name: 🇯🇵 日本节点, type: url-test, tolerance: 50, include-all-providers: true, filter: "日"}
-  - {name: 🇸🇬 新加坡节点, type: url-test, tolerance: 50, include-all-providers: true, filter: "新"}
-  - {name: 🇺🇸 美国节点, type: url-test, tolerance: 50, include-all-providers: true, filter: "美"}
+  - {name: 🇭🇰 香港节点, type: url-test , include-all-providers: true, filter: "(?i)港|hk"}
+  - {name: 🇹🇼 台湾节点, type: url-test , include-all-providers: true, filter: "(?i)台|tw"}
+  - {name: 🇯🇵 日本节点, type: url-test , include-all-providers: true, filter: "(?i)日|jp"}
+  - {name: 🇸🇬 新加坡节点, type: url-test , include-all-providers: true, filter: "(?i)(新|sg)"}
+  - {name: 🇺🇸 美国节点, type: url-test , include-all-providers: true, filter: "(?i)美|us"}
 
 rule-providers:
   ads:
