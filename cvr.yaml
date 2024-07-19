@@ -1,6 +1,6 @@
 # 锚点 start #
 # 策略组相关
-pr: &pr {type: select, proxies: [默认,香港,台湾,日本,新加坡,美国,其它地区,全部节点,自动选择,直连]}
+# pr: &pr {type: select, proxies: [默认,香港,台湾,日本,新加坡,美国,其它地区,全部节点,自动选择,直连]}
 
 #订阅更新以及延迟测试
 p: &p {type: http, interval: 3600, health-check: {enable: true, url: https://www.gstatic.com/generate_204, interval: 300}}
@@ -637,7 +637,7 @@ rules:
   - RULE-SET,telegramip,Telegram,no-resolve
   - RULE-SET,privateip,DIRECT,no-resolve
   - RULE-SET,cnip,DIRECT
-  - MATCH,🐟 漏网之鱼
+  - MATCH,节点选择
 
 ntp:
   enable: true
