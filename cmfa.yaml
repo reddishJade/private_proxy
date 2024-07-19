@@ -1,10 +1,10 @@
 p: &p {
     type: http,
-    interval: 86400,
+    interval: 86400, 
     health-check: {
-        enable: true,
-        url: https://www.gstatic.com/generate_204,
-        interval: 600
+        enable: true, 
+        url: http://www.apple.com/library/test/success.html, # 健康检查URL
+        interval: 600, 
       },
   }
 
