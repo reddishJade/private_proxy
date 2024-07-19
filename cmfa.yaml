@@ -1,13 +1,17 @@
-proxy-providers:
-  airport:
-    type: http
-    url: "https://967go.no-mad-world.club/link/cNIKJy4BAuYFBRA0?clash=3"
-    path: ./proxies/airport.yaml
+p: &p {
+    type: http,
     interval: 86400
-    health-check:
-      enable: true
-      url: https://www.gstatic.com/generate_204
-      interval: 600
+    health-check: {
+        enable: true,
+        url: https://www.gstatic.com/generate_204
+        interval: 600
+      },
+  }
+
+proxy-providers:
+  provider:
+    <<: *p
+    url: "https://967go.no-mad-world.club/link/cNIKJy4BAuYFBRA0?clash=3&extend=1"
 
 mode: rule
 ipv6: true
