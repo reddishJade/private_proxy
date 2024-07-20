@@ -177,10 +177,10 @@ dns:
     - https://doh.pub/dns-query
     - https://dns.alidns.com/dns-query
 
-proxies:
-  - name: "Direct"
-    type: direct
-    udp: true
+# proxies:
+#   - name: "Direct"
+#     type: DIRECT
+#     udp: true
 
 proxy-groups:
   - {
@@ -195,6 +195,7 @@ proxy-groups:
           🇯🇵 日本节点,
           🇸🇬 新加坡节点,
           🇺🇸 美国节点,
+          🎯 全球直连,
         ],
     }
   - {
