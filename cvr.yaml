@@ -239,25 +239,24 @@ rules:
   - RULE-SET,telegramip,📲 电报消息,no-resolve
   - RULE-SET,privateip,🔒 私有网络,no-resolve
   - RULE-SET,cnip,🇨🇳 直连 IP
-  - DOMAIN-SUFFIX,steamserver.net,🖥️ 直连软件
-  - DOMAIN-SUFFIX,cm.steampowered.com,🖥️ 直连软件
-  - DOMAIN,steambroadcast.akamaized.net,🎮 游戏服务
-  - DOMAIN,steamcdn-a.akamaihd.net,🎮 游戏服务
-  - DOMAIN,steamcommunity-a.akamaihd.net,🎮 游戏服务
-  - DOMAIN,steampipe.akamaized.net,🎮 游戏服务
-  - DOMAIN,steamstore-a.akamaihd.net,🎮 游戏服务
-  - DOMAIN,steamusercontent-a.akamaihd.net,🎮 游戏服务
-  - DOMAIN,steamuserimages-a.akamaihd.net,🎮 游戏服务
-  - DOMAIN-SUFFIX,fanatical.com,🎮 游戏服务
-  - DOMAIN-SUFFIX,humblebundle.com,🎮 游戏服务
-  - DOMAIN-SUFFIX,playartifact.com,🎮 游戏服务
-  - DOMAIN-SUFFIX,steam-chat.com,🎮 游戏服务
+  # Steam 登录和下载服务使用直连
+  - DOMAIN-SUFFIX,steampowered.com,DIRECT
+  - DOMAIN-SUFFIX,steamcommunity.com,DIRECT
+  - DOMAIN-SUFFIX,steamcontent.com,DIRECT
+  - DOMAIN-SUFFIX,steamcdn-a.akamaihd.net,DIRECT
+  - IP-CIDR,198.105.244.0/24,DIRECT
+  - IP-CIDR,203.77.188.0/24,DIRECT
+  - IP-CIDR,208.64.200.0/24,DIRECT
+  - IP-CIDR,208.78.164.0/24,DIRECT
+  - IP-CIDR,208.94.26.0/24,DIRECT
+  - IP-CIDR,208.95.176.0/24,DIRECT
+  - IP-CIDR,216.52.148.0/24,DIRECT
+  # 其他 Steam 服务使用代理
   - DOMAIN-SUFFIX,steamcommunity.com,🎮 游戏服务
-  - DOMAIN-SUFFIX,steamgames.com,🎮 游戏服务
   - DOMAIN-SUFFIX,steampowered.com,🎮 游戏服务
-  - DOMAIN-SUFFIX,steamstat.us,🎮 游戏服务
   - DOMAIN-SUFFIX,steamstatic.com,🎮 游戏服务
-  - DOMAIN-SUFFIX,underlords.com,🎮 游戏服务
-  - DOMAIN-SUFFIX,valvesoftware.com,🎮 游戏服务
+  - DOMAIN-SUFFIX,steamusercontent.com,🎮 游戏服务
   - RULE-SET,games-cn,🎮 游戏服务
+  # 其他流量规则
+  - GEOIP,CN,DIRECT
   - MATCH,🐟 漏网之鱼
