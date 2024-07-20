@@ -232,7 +232,6 @@ rules:
   - RULE-SET,microsoft-cn,🪟 微软服务
   - RULE-SET,apple-cn,🍎 苹果服务
   - RULE-SET,google-cn,🇬 谷歌服务
-  - RULE-SET,games-cn,🎮 游戏服务
   - RULE-SET,ai,🤖 人工智能
   - RULE-SET,networktest,📈 网络测试
   - RULE-SET,proxy,🪜 代理域名
@@ -240,4 +239,25 @@ rules:
   - RULE-SET,telegramip,📲 电报消息,no-resolve
   - RULE-SET,privateip,🔒 私有网络,no-resolve
   - RULE-SET,cnip,🇨🇳 直连 IP
+  - DOMAIN-SUFFIX,steamserver.net,🖥️ 直连软件
+  - DOMAIN-SUFFIX,cm.steampowered.com,🖥️ 直连软件
+  - DOMAIN,steambroadcast.akamaized.net,🎮 游戏服务
+  - DOMAIN,steamcdn-a.akamaihd.net,🎮 游戏服务
+  - DOMAIN,steamcommunity-a.akamaihd.net,🎮 游戏服务
+  - DOMAIN,steampipe.akamaized.net,🎮 游戏服务
+  - DOMAIN,steamstore-a.akamaihd.net,🎮 游戏服务
+  - DOMAIN,steamusercontent-a.akamaihd.net,🎮 游戏服务
+  - DOMAIN,steamuserimages-a.akamaihd.net,🎮 游戏服务
+  - DOMAIN-SUFFIX,fanatical.com,🎮 游戏服务
+  - DOMAIN-SUFFIX,humblebundle.com,🎮 游戏服务
+  - DOMAIN-SUFFIX,playartifact.com,🎮 游戏服务
+  - DOMAIN-SUFFIX,steam-chat.com,🎮 游戏服务
+  - DOMAIN-SUFFIX,steamcommunity.com,🎮 游戏服务
+  - DOMAIN-SUFFIX,steamgames.com,🎮 游戏服务
+  - DOMAIN-SUFFIX,steampowered.com,🎮 游戏服务
+  - DOMAIN-SUFFIX,steamstat.us,🎮 游戏服务
+  - DOMAIN-SUFFIX,steamstatic.com,🎮 游戏服务
+  - DOMAIN-SUFFIX,underlords.com,🎮 游戏服务
+  - DOMAIN-SUFFIX,valvesoftware.com,🎮 游戏服务
+  - RULE-SET,games-cn,🎮 游戏服务
   - MATCH,🐟 漏网之鱼
