@@ -23,13 +23,15 @@ proxy-groups:
       proxies:
         - '♻️ 自动选择'
         - '🚀 手动选择'
+        - '🔯 故障转移'
+        - '🔮 负载均衡'
         - '🇭🇰 香港节点'
         - '🇹🇼 台湾节点'
         - '🇯🇵 日本节点'
         - '🇸🇬 新加坡节点'
         - '🇺🇸 美国节点'
         - '🌐 其它地区'
-        - 'DIRECT'
+        - '🎯 全球直连'
     }
   - {
       name: ♻️ 自动选择,
@@ -39,6 +41,18 @@ proxy-groups:
       lazy: true,
     }
   - { name: 🚀 手动选择, type: select, include-all-providers: true }
+  - type: 'load-balance'
+    name: '🔮 负载均衡'
+    proxies:
+      - '🇭🇰 香港节点'
+      - '🇯🇵 日本节点'
+      - '🇺🇸 美国节点'
+      - '🎯 全球直连'
+  - type: 'fallback'
+    name: '🔯 故障转移'
+    proxies:
+      - '🇭🇰 香港节点'
+      - '🇯🇵 日本节点'
   - { name: 🪜 代理域名, type: select, proxies: [🚀 节点选择, 🎯 全球直连] }
   - { name: 🐟 漏网之鱼, type: select, proxies: [🚀 节点选择, 🎯 全球直连] }
   - {
