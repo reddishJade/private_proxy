@@ -21,38 +21,23 @@ proxy-groups:
       name: 🚀 节点选择,
       type: select,
       proxies:
-        - '♻️ 自动选择'
-        - '🚀 手动选择'
-        - '🔯 故障转移'
-        - '🔮 负载均衡'
-        - '🇭🇰 香港节点'
-        - '🇹🇼 台湾节点'
-        - '🇯🇵 日本节点'
-        - '🇸🇬 新加坡节点'
-        - '🇺🇸 美国节点'
-        - '🌐 其它地区'
-        - '🎯 全球直连'
+        [
+          ♻️ 自动选择,
+          🚀 手动选择,
+          🇭🇰 香港节点,
+          🇹🇼 台湾节点,
+          🇯🇵 日本节点,
+          🇸🇬 新加坡节点,
+          🇺🇸 美国节点,
+        ],
     }
   - {
       name: ♻️ 自动选择,
       type: url-test,
       include-all-providers: true,
       tolerance: 10,
-      lazy: true,
     }
   - { name: 🚀 手动选择, type: select, include-all-providers: true }
-  - type: 'load-balance'
-    name: '🔮 负载均衡'
-    proxies:
-      - '🇭🇰 香港节点'
-      - '🇯🇵 日本节点'
-      - '🇺🇸 美国节点'
-      - '🎯 全球直连'
-  - type: 'fallback'
-    name: '🔯 故障转移'
-    proxies:
-      - '🇭🇰 香港节点'
-      - '🇯🇵 日本节点'
   - { name: 🪜 代理域名, type: select, proxies: [🚀 节点选择, 🎯 全球直连] }
   - { name: 🐟 漏网之鱼, type: select, proxies: [🚀 节点选择, 🎯 全球直连] }
   - {
@@ -72,7 +57,7 @@ proxy-groups:
   - {
       name: 🎮 游戏服务,
       type: select,
-      proxies: [🚀 节点选择, 🇭🇰 香港节点, 🌐 其它地区, 🎯 全球直连],
+      proxies: [🚀 节点选择, 🌐 其它地区, 🎯 全球直连],
     }
   - { name: 🪟 微软服务, type: select, proxies: [🚀 节点选择, 🎯 全球直连] }
   - { name: 🇬 谷歌服务, type: select, proxies: [🚀 节点选择, 🎯 全球直连] }
