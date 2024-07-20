@@ -257,6 +257,5 @@ rules:
   - DOMAIN-SUFFIX,steamstatic.com,🎮 游戏服务
   - DOMAIN-SUFFIX,steamusercontent.com,🎮 游戏服务
   - RULE-SET,games-cn,🎮 游戏服务
-  # 其他流量规则
-  - GEOIP,CN,DIRECT
+  
   - MATCH,🐟 漏网之鱼
