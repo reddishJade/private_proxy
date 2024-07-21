@@ -27,6 +27,12 @@ external-controller: 127.0.0.1:9090 # 外部控制器地址和端口
 external-ui: ui # 外部UI目录
 external-ui-url: "https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-pages.zip" # 外部UI下载地址
 
+geodata-mode: true
+geox-url:
+  geoip: "https://mirror.ghproxy.com/https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geoip-lite.dat"
+  geosite: "https://mirror.ghproxy.com/https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geosite.dat"
+  mmdb: "https://mirror.ghproxy.com/https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/country-lite.mmdb"
+
 find-process-mode: strict # 进程查找模式设为严格
 global-client-fingerprint: chrome # 全局客户端指纹设置为Chrome
 
@@ -68,18 +74,16 @@ dns:
     - "*" # 过滤所有域名
     - "+.lan" # 过滤局域网域名
     - "+.local" # 过滤本地域名
-  default-nameserver:
-    - 223.5.5.5 # 默认DNS服务器
   nameserver:
-    - https://doh.pub/dns-query # DoH服务器
-    - https://dns.alidns.com/dns-query # 阿里DNS服务器
+    - https://doh.pub/dns-query
+    - https://dns.alidns.com/dns-query
   proxy-server-nameserver:
-    - https://doh.pub/dns-query # 代理服务器使用的DoH服务器
+    - https://doh.pub/dns-query
   nameserver-policy:
-    "rule-set:cn_domain,private":
+    "geosite:cn,private":
       - https://doh.pub/dns-query
       - https://dns.alidns.com/dns-query
-    "rule-set:geolocation-!cn":
+    "geosite:geolocation-!cn":
       - "https://dns.cloudflare.com/dns-query#dns"
       - "https://dns.google/dns-query#dns"
 # 代理
@@ -552,21 +556,21 @@ rule-providers:
   #   path: ./rules/ProgramAD.yaml
   #   interval: 86400
 
-  private:
-    <<: *domain
-    url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/private.yaml"
+  # private:
+  #   <<: *domain
+  #   url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/private.yaml"
 
-  cn_domain:
-    <<: *domain
-    url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/cn.yaml"
+  # cn_domain:
+  #   <<: *domain
+  #   url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/cn.yaml"
 
-  cn_ip:
-    <<: *ip
-    url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/cn.yaml"
+  # cn_ip:
+  #   <<: *ip
+  #   url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/cn.yaml"
 
-  geolocation-!cn:
-    <<: *domain
-    url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/geolocation-!cn.yaml"
+  # geolocation-!cn:
+  #   <<: *domain
+  #   url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/geolocation-!cn.yaml"
 
   Apple:
     type: http
@@ -755,10 +759,10 @@ rules:
   - RULE-SET,TikTok,ForeignMedia
   - RULE-SET,Twitch,ForeignMedia
   - RULE-SET,YouTube,ForeignMedia
-  - RULE-SET,cn_domain,China
-  - RULE-SET,geolocation-!cn,Global
+  - GEOSITE,CN,China
+  - GEOSITE,geolocation-!cn,Global
 
-  - RULE-SET,cn_ip,China
+  - GEOIP,CN,China
 
   - MATCH,漏网之鱼
 
