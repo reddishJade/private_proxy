@@ -244,14 +244,15 @@ rules:
   - RULE-SET,ai,🤖 人工智能
   - RULE-SET,networktest,📈 网络测试
   - RULE-SET,proxy,🪜 代理域名
-  - RULE-SET,cn,🇨🇳 直连域名
-  - RULE-SET,telegramip,📲 电报消息,no-resolve
-  - RULE-SET,privateip,🔒 私有网络,no-resolve
-  - RULE-SET,cnip,🇨🇳 直连 IP
   - DOMAIN,steamcdn-a.akamaihd.net,🇨🇳 直连域名
   - DOMAIN-SUFFIX,steamserver.net,🇨🇳 直连域名
   - DOMAIN,steamcdn-a.akamaihd.net,🇨🇳 直连域名
   - DOMAIN-SUFFIX,steamserver.net,🇨🇳 直连域名
   - RULE-SET,GameDownloadCN,🇨🇳 直连域名
   - RULE-SET,games-cn,🎮 游戏服务
+  - RULE-SET,cn,🇨🇳 直连域名
+  - RULE-SET,telegramip,📲 电报消息,no-resolve
+  - RULE-SET,privateip,🔒 私有网络,no-resolve
+  - RULE-SET,cnip,🇨🇳 直连 IP
+
   - MATCH,🐟 漏网之鱼
