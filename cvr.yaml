@@ -235,23 +235,31 @@ rule-providers:
     interval: 86400
 
 rules:
-  - RULE-SET,ads,🛑 广告拦截
-  - RULE-SET,applications,🖥️ 直连软件
+  # 直连规则
   - RULE-SET,private,🔒 私有网络
-  - RULE-SET,microsoft-cn,🪟 微软服务
-  - RULE-SET,apple-cn,🍎 苹果服务
-  - RULE-SET,google-cn,🇬 谷歌服务
-  - RULE-SET,ai,🤖 人工智能
-  - RULE-SET,networktest,📈 网络测试
-  - RULE-SET,proxy,🪜 代理域名
+  - RULE-SET,privateip,🔒 私有网络,no-resolve
+  - RULE-SET,applications,🖥️ 直连软件
   - DOMAIN-SUFFIX,steamserver.net,🇨🇳 直连域名
   - DOMAIN-SUFFIX,cm.steampowered.com,🇨🇳 直连域名
   - DOMAIN,steamcdn-a.akamaihd.net,🇨🇳 直连域名
   - RULE-SET,GameDownloadCN,🇨🇳 直连域名
-  - RULE-SET,games-cn,🎮 游戏服务
   - RULE-SET,cn,🇨🇳 直连域名
-  - RULE-SET,telegramip,📲 电报消息,no-resolve
-  - RULE-SET,privateip,🔒 私有网络,no-resolve
   - RULE-SET,cnip,🇨🇳 直连 IP
 
+  # 特定服务规则
+  - RULE-SET,apple-cn,🍎 苹果服务
+  - RULE-SET,microsoft-cn,🪟 微软服务
+  - RULE-SET,google-cn,🇬 谷歌服务
+  - RULE-SET,games-cn,🎮 游戏服务
+  - RULE-SET,ai,🤖 人工智能
+  - RULE-SET,networktest,📈 网络测试
+  - RULE-SET,telegramip,📲 电报消息,no-resolve
+
+  # 广告拦截规则
+  - RULE-SET,ads,🛑 广告拦截
+
+  # 代理规则
+  - RULE-SET,proxy,🪜 代理域名
+
+  # 兜底规则
   - MATCH,🐟 漏网之鱼
