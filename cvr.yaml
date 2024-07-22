@@ -244,10 +244,9 @@ rules:
   - RULE-SET,ai,🤖 人工智能
   - RULE-SET,networktest,📈 网络测试
   - RULE-SET,proxy,🪜 代理域名
-  - DOMAIN,steamcdn-a.akamaihd.net,🇨🇳 直连域名
   - DOMAIN-SUFFIX,steamserver.net,🇨🇳 直连域名
+  - DOMAIN-SUFFIX,cm.steampowered.com,🇨🇳 直连域名
   - DOMAIN,steamcdn-a.akamaihd.net,🇨🇳 直连域名
-  - DOMAIN-SUFFIX,steamserver.net,🇨🇳 直连域名
   - RULE-SET,GameDownloadCN,🇨🇳 直连域名
   - RULE-SET,games-cn,🎮 游戏服务
   - RULE-SET,cn,🇨🇳 直连域名
