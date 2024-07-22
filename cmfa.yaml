@@ -283,6 +283,14 @@ rule-providers:
     url: "https://raw.githubusercontent.com/DustinWin/ruleset_geodata/clash-ruleset/ads.list"
     interval: 86400
 
+  AWAvenue-Ads-Rule-Clash:
+    type: http
+    behavior: domain
+    format: yaml
+    path: ./rules/AWAvenue-Ads-Rule-Clash.yaml
+    url: "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main//Filters/AWAvenue-Ads-Rule-Clash.yaml"
+    interval: 86400
+
   applications:
     type: http
     behavior: classical
@@ -389,6 +397,7 @@ rule-providers:
 
 rules:
   - RULE-SET,ads,🛑 广告拦截
+  - RULE-SET,AWAvenue-Ads-Rule-Clash,🛑 广告拦截
   - RULE-SET,applications,🖥️ 直连软件
   - RULE-SET,private,🔒 私有网络
   - RULE-SET,microsoft-cn,🪟 微软服务
