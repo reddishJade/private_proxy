@@ -291,7 +291,7 @@ proxy-groups:
       name: 自动回退,
       type: fallback,
       include-all-providers: true,
-      filter: "(?i)港|日",
+      filter: "(?i)港",
       tolerance: 10,
       lazy: true,
       icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Available.png,
