@@ -1,6 +1,3 @@
-# 分组
-# pr: &pr { type: select, proxies: [节点选择,DIRECT,香港节点,台湾节点,日本节点,新加坡节点,美国节点,其它地区] }
-
 # 延迟检测 URL
 p:
   &p {
@@ -14,14 +11,17 @@ p:
         interval: 300,
       },
   }
-
 # 订阅链接
 # 对于订阅来说,path 为选填项，但建议启用
 # 本地配置可以只填 path
 proxy-providers:
   iKuuu:
-    <<: *p
+    type: http
     url: "https://fkvvn.no-mad-world.club/link/cNIKJy4BAuYFBRA0?clash=3"
+    health-check:
+      enable: true
+      url: http://www.apple.com/library/test/success.html
+      interval: 300
 
 mode: rule
 # ipv6 支持
@@ -88,6 +88,7 @@ sniffer:
     - "Mijia Cloud"
     - "+.push.apple.com"
 
+
 # tun 模式
 tun:
   enable: true
@@ -124,10 +125,11 @@ dns:
       - "https://dns.cloudflare.com/dns-query"
       - "https://dns.google/dns-query"
 
-# proxies: 
-#   - name: "全局直连"
-#     type: direct
-#     udp: true
+
+proxies: 
+  - name: "全局直连"
+    type: direct
+    udp: true
 
 proxy-groups:
   - {
@@ -143,7 +145,7 @@ proxy-groups:
           新加坡节点,
           美国节点,
           其它地区,
-          DIRECT,
+          全局直连,
         ],
       icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Rocket.png,
     }
@@ -174,37 +176,37 @@ proxy-groups:
   - {
       name: Apple,
       type: select,
-      proxies: [节点选择, DIRECT, 香港节点, 日本节点],
+      proxies: [节点选择, 全局直连, 香港节点, 日本节点],
       icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/apple.png,
     }
   - {
       name: Game,
       type: select,
-      proxies: [节点选择, DIRECT, 香港节点, 日本节点],
+      proxies: [节点选择, 全局直连, 香港节点, 日本节点],
       icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Game.png,
     }
   - {
       name: Global,
       type: select,
-      proxies: [节点选择, DIRECT, 香港节点, 日本节点],
+      proxies: [节点选择, 全局直连, 香港节点, 日本节点],
       icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Global.png,
     }
   - {
       name: Google,
       type: select,
-      proxies: [节点选择, DIRECT, 香港节点, 日本节点],
+      proxies: [节点选择, 全局直连, 香港节点, 日本节点],
       icon: https://fastly.jsdelivr.net/gh/clash-verge-rev/clash-verge-rev.github.io@main/docs/assets/icons/google.svg,
     }
   - {
       name: Microsoft,
       type: select,
-      proxies: [节点选择, DIRECT, 香港节点, 日本节点],
+      proxies: [节点选择, 全局直连, 香港节点, 日本节点],
       icon: https://clash-verge-rev.github.io/assets/icons/microsoft.svg,
     }
   - {
       name: Music,
       type: select,
-      proxies: [节点选择, DIRECT, 香港节点, 美国节点],
+      proxies: [节点选择, 全局直连, 香港节点, 美国节点],
       icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Apple_Music.png,
     }
   - {
@@ -271,10 +273,7 @@ proxy-groups:
     }
   # - { name: 全部节点, <<: *use }
 
-
-规则订阅
 rule-providers:
-
   cn:
     behavior: domain
     interval: 86400
@@ -334,24 +333,23 @@ rule-providers:
     path: ./rules/Microsoft.yaml
     interval: 86400
 
-  streaming:
+  Streaming:
     type: http
     behavior: domain
     url: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GlobalMedia/GlobalMedia_Domain.yaml"
     path: ./ruleset/globalmedia.yaml
     interval: 86400
-  
-  steam:
+
+  Steam:
     type: http
     behavior: classical
-    url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Steam/Steam.yaml'
+    url: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Steam/Steam.yaml"
     path: ./ruleset/steam.yaml
     interval: 86400
-
-  steamCN:
+  SteamCN:
     type: http
     behavior: classical
-    url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/SteamCN/SteamCN.yaml'
+    url: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/SteamCN/SteamCN.yaml"
     path: ./ruleset/steamCN.yaml
     interval: 86400
 
@@ -363,9 +361,9 @@ rules:
   - GEOSITE,private,DIRECT
   # 若需禁用 QUIC 请取消注释 QUIC 两条规则
   # 防止 🎥 油管视频 等使用 QUIC 导致速度不佳, 禁用 443 端口 UDP 流量（不包括国内）
-  - AND,(AND,(DST-PORT,443),(NETWORK,UDP)),(NOT,((GEOSITE,cn))),REJECT # quic
-  - RULE-SET,claude,AI
-  - RULE-SET,gemini,AI
+  # - AND,(AND,(DST-PORT,443),(NETWORK,UDP)),(NOT,((GEOSITE,cn))),REJECT # quic
+  - RULE-SET,Claude,AI
+  - RULE-SET,Gemini,AI
   - GEOSITE,openai,AI
   - GEOSITE,apple,Apple
   - GEOSITE,apple-cn,DIRECT
@@ -378,16 +376,16 @@ rules:
   - RULE-SET,Microsoft,Microsoft
   - GEOSITE,spotify,Music
   - GEOSITE,telegram,Telegram
-  - RULE-SET,steamCN,DIRECT
+  - RULE-SET,SteamCN,DIRECT
   - GEOSITE,category-games@cn,DIRECT
   - RULE-SET,GameDownloadCN,DIRECT
-  - RULE-SET,steam,Game
+  - RULE-SET,Steam,Game
   - DOMAIN-SUFFIX,stream1.misakaf.org,Global
   - DOMAIN-SUFFIX,stream2.misakaf.org,Global
   - DOMAIN-SUFFIX,stream3.misakaf.org,Global
   - DOMAIN-SUFFIX,stream4.misakaf.org,Global
   - RULE-SET,Emby,Global
-  - RULE-SET,streaming,Global
+  - RULE-SET,Streaming,Global
   - GEOSITE,geolocation-!cn,Global
   - GEOSITE,cn,DIRECT
   - GEOIP,private,DIRECT,no-resolve
