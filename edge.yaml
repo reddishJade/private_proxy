@@ -2,6 +2,7 @@ proxy-providers:
   iKuuu:
     url: "https://967go.no-mad-world.club/link/cNIKJy4BAuYFBRA0?clash=3"
     type: http
+    exclude-filter: "免费"
     interval: 86400
     health-check: {enable: true,url: "https://www.gstatic.com/generate_204", interval: 300}
     # override:
@@ -528,6 +529,9 @@ rules:
   - RULE-SET,Direct,DIRECT
   - RULE-SET,cn,DIRECT
   - GEOSITE,private,DIRECT
+  - DOMAIN, clash.razord.top, DIRECT 
+  - DOMAIN, yacd.haishan.me, DIRECT 
+  - DOMAIN, clash.mereith.com, DIRECT 
   - GEOSITE,apple-cn,DIRECT
   - GEOSITE,google-cn,DIRECT
   - GEOSITE,microsoft@cn,DIRECT
@@ -535,7 +539,7 @@ rules:
   - GEOSITE,category-games@cn,DIRECT
   - RULE-SET,GameDownloadCN,DIRECT
   # 广告拦截
-  - GEOSITE,category-ads-all,REJECT
+  # - GEOSITE,category-ads-all,REJECT
   - RULE-SET,AWAvenue-Ads-Rule-Clash,REJECT
   # AI 服务
   - RULE-SET,Claude,AI
