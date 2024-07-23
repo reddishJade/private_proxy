@@ -4,8 +4,8 @@ proxy-providers:
     type: http
     interval: 86400
     health-check: {enable: true,url: "https://www.gstatic.com/generate_204", interval: 300}
-    override:
-      additional-prefix: "[iKuuu]"
+    # override:
+    #   additional-prefix: "[iKuuu]"
 
 mode: rule
 # ipv6 支持
