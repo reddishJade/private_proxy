@@ -264,7 +264,8 @@ proxy-groups:
     }
   - {
       name: 其它地区,
-      <<: *use,
+      type: select,
+      include-all-providers: true,
       filter: "(?i)^(?!.*(?:🇭🇰|🇯🇵|🇺🇸|🇸🇬|🇨🇳|港|hk|hongkong|台|tw|taiwan|日|jp|japan|新|sg|singapore|美|us|unitedstates)).*",
       icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Global.png,
     }
