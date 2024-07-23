@@ -1,5 +1,5 @@
 # 分组
-pr: &pr { type: select, proxies: [节点选择,DIRECT,香港节点,台湾节点,日本节点,新加坡节点,美国节点,其它地区] }
+# pr: &pr { type: select, proxies: [节点选择,DIRECT,香港节点,台湾节点,日本节点,新加坡节点,美国节点,其它地区] }
 
 # 延迟检测 URL
 p:
@@ -262,12 +262,12 @@ proxy-groups:
       lazy: true,
       icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/United_States.png,
     }
-  - {
-      name: 其它地区,
-      <<: *use,
-      filter: "(?i)^(?!.*(?:🇭🇰|🇯🇵|🇺🇸|🇸🇬|🇨🇳|港|hk|hongkong|台|tw|taiwan|日|jp|japan|新|sg|singapore|美|us|unitedstates)).*",
-      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Global.png,
-    }
+  # - {
+  #     name: 其它地区,
+  #     <<: *use,
+  #     filter: "(?i)^(?!.*(?:🇭🇰|🇯🇵|🇺🇸|🇸🇬|🇨🇳|港|hk|hongkong|台|tw|taiwan|日|jp|japan|新|sg|singapore|美|us|unitedstates)).*",
+  #     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Global.png,
+  #   }
   # - { name: 全部节点, <<: *use }
 
 
@@ -354,45 +354,45 @@ rule-providers:
     path: ./ruleset/steamCN.yaml
     interval: 86400
 
-rules:
-  - RULE-SET,Direct,DIRECT
-  - RULE-SET,cn,DIRECT
-  - GEOSITE,category-ads-all,REJECT
-  - RULE-SET,AWAvenue-Ads-Rule-Clash,REJECT
-  - GEOSITE,private,DIRECT
-  # 若需禁用 QUIC 请取消注释 QUIC 两条规则
-  # 防止 🎥 油管视频 等使用 QUIC 导致速度不佳, 禁用 443 端口 UDP 流量（不包括国内）
-  - AND,(AND,(DST-PORT,443),(NETWORK,UDP)),(NOT,((GEOSITE,cn))),REJECT # quic
-  - RULE-SET,claude,AI
-  - RULE-SET,gemini,AI
-  - GEOSITE,openai,AI
-  - GEOSITE,apple,Apple
-  - GEOSITE,apple-cn,DIRECT
-  - GEOSITE,category-scholar-!cn,Global
-  - GEOSITE,google,Google
-  - GEOSITE,google-cn,DIRECT
-  - GEOSITE,github,Microsoft
-  - GEOSITE,onedrive,Microsoft
-  - GEOSITE,microsoft@cn,DIRECT
-  - RULE-SET,Microsoft,Microsoft
-  - GEOSITE,spotify,Music
-  - GEOSITE,telegram,Telegram
-  - RULE-SET,steamCN,DIRECT
-  - GEOSITE,category-games@cn,DIRECT
-  - RULE-SET,GameDownloadCN,DIRECT
-  - RULE-SET,steam,Game
-  - DOMAIN-SUFFIX,stream1.misakaf.org,Global
-  - DOMAIN-SUFFIX,stream2.misakaf.org,Global
-  - DOMAIN-SUFFIX,stream3.misakaf.org,Global
-  - DOMAIN-SUFFIX,stream4.misakaf.org,Global
-  - RULE-SET,Emby,Global
-  - RULE-SET,streaming,Global
-  - GEOSITE,geolocation-!cn,Global
-  - GEOSITE,cn,DIRECT
-  - GEOIP,private,DIRECT,no-resolve
-  - GEOIP,google,Google,no-resolve
-  - GEOIP,telegram,Telegram,no-resolve
-  - GEOIP,lan,DIRECT,no-resolve
-  - GEOIP,CN,DIRECT
-  - DST-PORT,80/8080/443/8443,Global
-  - MATCH,漏网之鱼
+# rules:
+#   - RULE-SET,Direct,DIRECT
+#   - RULE-SET,cn,DIRECT
+#   - GEOSITE,category-ads-all,REJECT
+#   - RULE-SET,AWAvenue-Ads-Rule-Clash,REJECT
+#   - GEOSITE,private,DIRECT
+#   # 若需禁用 QUIC 请取消注释 QUIC 两条规则
+#   # 防止 🎥 油管视频 等使用 QUIC 导致速度不佳, 禁用 443 端口 UDP 流量（不包括国内）
+#   - AND,(AND,(DST-PORT,443),(NETWORK,UDP)),(NOT,((GEOSITE,cn))),REJECT # quic
+#   - RULE-SET,claude,AI
+#   - RULE-SET,gemini,AI
+#   - GEOSITE,openai,AI
+#   - GEOSITE,apple,Apple
+#   - GEOSITE,apple-cn,DIRECT
+#   - GEOSITE,category-scholar-!cn,Global
+#   - GEOSITE,google,Google
+#   - GEOSITE,google-cn,DIRECT
+#   - GEOSITE,github,Microsoft
+#   - GEOSITE,onedrive,Microsoft
+#   - GEOSITE,microsoft@cn,DIRECT
+#   - RULE-SET,Microsoft,Microsoft
+#   - GEOSITE,spotify,Music
+#   - GEOSITE,telegram,Telegram
+#   - RULE-SET,steamCN,DIRECT
+#   - GEOSITE,category-games@cn,DIRECT
+#   - RULE-SET,GameDownloadCN,DIRECT
+#   - RULE-SET,steam,Game
+#   - DOMAIN-SUFFIX,stream1.misakaf.org,Global
+#   - DOMAIN-SUFFIX,stream2.misakaf.org,Global
+#   - DOMAIN-SUFFIX,stream3.misakaf.org,Global
+#   - DOMAIN-SUFFIX,stream4.misakaf.org,Global
+#   - RULE-SET,Emby,Global
+#   - RULE-SET,streaming,Global
+#   - GEOSITE,geolocation-!cn,Global
+#   - GEOSITE,cn,DIRECT
+#   - GEOIP,private,DIRECT,no-resolve
+#   - GEOIP,google,Google,no-resolve
+#   - GEOIP,telegram,Telegram,no-resolve
+#   - GEOIP,lan,DIRECT,no-resolve
+#   - GEOIP,CN,DIRECT
+#   - DST-PORT,80/8080/443/8443,Global
+#   - MATCH,漏网之鱼
