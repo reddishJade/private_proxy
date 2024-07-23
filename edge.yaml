@@ -1,0 +1,407 @@
+# 分组
+pr: &pr {type: select, proxies: [节点选择,全局直连,香港节点,台湾节点,日本节点,新加坡节点,美国节点,其它地区]}
+
+# 延迟检测 URL
+p:
+  &p {
+    type: http,
+    interval: 3600,
+    exclude-filter: "免费",
+    health-check:
+      {
+        enable: true,
+        url: http://cp.cloudflare.com/,
+        interval: 300,
+      },
+  }
+
+# 订阅名
+use: &use
+  type: select
+  use:
+    - iKuuu
+
+# 订阅链接
+# 对于订阅来说,path 为选填项，但建议启用
+# 本地配置可以只填 path
+proxy-providers:
+  iKuuu:
+    <<: *p
+    url: "https://967go.no-mad-world.club/link/cNIKJy4BAuYFBRA0?clash=3"
+
+mode: rule
+# ipv6 支持
+ipv6: true
+log-level: info
+# 允许局域网连接
+allow-lan: true
+# socks5/http 端口
+mixed-port: 7890
+socks-port: 7891
+# Meta 内核特性 https://wiki.metacubex.one/config/general
+# 统一延迟
+# 更换延迟计算方式,去除握手等额外延迟
+unified-delay: true
+# TCP 并发
+# 同时对所有ip进行连接,返回延迟最低的地址
+tcp-concurrent: true
+# 外部控制端口
+external-controller: :9090
+external-ui: ui
+external-ui-url: "https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-pages.zip"
+
+
+geodata-mode: true
+# Geo 数据库下载地址
+# 使用 FastGit 代理 (https://fgit.cf)
+# 源地址 https://github.com/MetaCubeX/meta-rules-dat
+# 可以更换镜像站但不要更换其他数据库，可能导致无法启动
+geox-url:
+  geoip: "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geoip-lite.dat"
+  geosite: "https://hub.gitmirror.com/https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geosite.dat"
+  mmdb: "https://hub.gitmirror.com/https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/country.mmdb"
+  asn: "https://mirror.ghproxy.com/https://github.com/xishang0128/geoip/releases/download/latest/GeoLite2-ASN.mmdb"
+
+# 进程匹配模式
+# 路由器上请设置为 off
+# always 开启，强制匹配所有进程
+# strict 默认，由 Clash 判断是否开启
+# off 不匹配进程，推荐在路由器上使用此模式
+find-process-mode: strict
+
+# 缓解移动设备耗电问题
+# https://github.com/vernesong/OpenClash/issues/2614
+keep-alive-interval: 30
+
+# 全局客户端指纹
+global-client-fingerprint: random # 随机指纹
+
+# 缓存
+profile:
+  store-selected: true
+
+
+# 域名嗅探
+sniffer:
+  enable: true
+  sniff:
+    TLS:
+      ports: [443, 8443]
+    HTTP:
+      ports: [80, 8080-8880]
+      override-destination: true
+    QUIC:
+      ports: [443, 8443]
+  skip-domain:
+    - "Mijia Cloud"
+    - "+.push.apple.com"
+
+# tun 模式
+tun:
+  enable: true
+  stack: system  # or 'gvisor'
+  dns-hijack:
+    - "any:53"
+    - "tcp://any:53"
+  auto-route: true
+  auto-redirect: true
+  auto-detect-interface: true
+
+dns:
+  enable: true
+  ipv6: true
+  listen: :23453
+  enhanced-mode: fake-ip
+  fake-ip-filter:
+    - "*"
+    - "+.lan"
+    - "+.local"
+    - "+.market.xiaomi.com"
+  prefer-h3: true
+  nameserver:
+    - https://120.53.53.53/dns-query
+    - https://223.5.5.5/dns-query
+  proxy-server-nameserver:
+    - https://120.53.53.53/dns-query
+    - https://223.5.5.5/dns-query
+  nameserver-policy:
+    "geosite:cn,private":
+      - https://120.53.53.53/dns-query
+      - https://223.5.5.5/dns-query
+    "geosite:geolocation-!cn":
+      - "https://dns.cloudflare.com/dns-query"
+      - "https://dns.google/dns-query"
+
+# proxies: 
+#   - name: "全局直连"
+#     type: direct
+#     udp: true
+
+proxy-groups:
+  - {
+      name: 节点选择,
+      type: select,
+      proxies:
+        [
+          自动选择,
+          手动选择,
+          香港节点,
+          台湾节点,
+          日本节点,
+          新加坡节点,
+          美国节点,
+          其它地区,
+          DIRECT,
+        ],
+      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Rocket.png,
+    }
+  # 这里的 dns 指海外解析 dns 走的节点，一般跟随🚀 节点选择即可
+  - { name: dns, <<: *pr }
+
+  - {
+      name: AI,
+      type: select,
+      proxies: [日本节点, 香港节点],
+      icon: https://clash-verge-rev.github.io/assets/icons/chatgpt.svg,
+    }
+  # 🍎 苹果服务 推荐走全局直连
+  - { name: Apple, <<: *pr, icon: https://clash-verge-rev.github.io/assets/icons/apple.svg }
+  - {
+      name: Game,
+      <<: *pr,
+      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Game.png,
+    }
+  - {
+      name: Global,
+      <<: *pr,
+      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Global.png,
+    }
+  - {
+      name: Google,
+      <<: *pr,
+      icon: https://fastly.jsdelivr.net/gh/clash-verge-rev/clash-verge-rev.github.io@main/docs/assets/icons/google.svg,
+    }
+  - {
+      name: Microsoft,
+      <<: *pr,
+      icon: https://clash-verge-rev.github.io/assets/icons/microsoft.svg,
+    }
+  - {
+      name: Music,
+      type: select,
+      proxies: [节点选择, DIRECT, 香港节点, 美国节点],
+      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Apple_Music.png,
+    }
+  - {
+      name: Telegram,
+      type: select,
+      proxies: [节点选择, 手动选择],
+      icon: https://clash-verge-rev.github.io/assets/icons/telegram.svg,
+    }
+  - {
+      name: 漏网之鱼,
+      type: select,
+      proxies: [节点选择, DIRECT],
+      icon: https://clash-verge-rev.github.io/assets/icons/fish.svg,
+    }
+
+  # 分隔,下面是地区分组
+  # - { name: 🇭🇰 香港节点, <<: *use, filter: "(?i)港|hk|hongkong|hong kong" }
+  - {
+      name: 香港节点,
+      type: url-test,
+      include-all-providers: true,
+      filter: "(?i)港|hk",
+      lazy: true,
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Hong_Kong.png
+    }
+  - {
+      name: 台湾节点,
+      type: select,
+      include-all-providers: true,
+      filter: "(?i)台|tw",
+      disable-udp: true,
+      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Taiwan.png,
+    }
+  - {
+      name: 日本节点,
+      type: url-test,
+      include-all-providers: true,
+      filter: "(?i)日|jp",
+      lazy: true,
+      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Japan.png,
+    }
+  - {
+      name: 新加坡节点,
+      type: url-test,
+      include-all-providers: true,
+      filter: "(?i)(新|sg)",
+      lazy: true,
+      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Singapore.png,
+    }
+  - {
+      name: 美国节点,
+      type: url-test,
+      include-all-providers: true,
+      filter: "(?i)美|us",
+      lazy: true,
+      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/United_States.png,
+    }
+  - {
+      name: 其它地区,
+      <<: *use,
+      filter: "(?i)^(?!.*(?:🇭🇰|🇯🇵|🇺🇸|🇸🇬|🇨🇳|港|hk|hongkong|台|tw|taiwan|日|jp|japan|新|sg|singapore|美|us|unitedstates)).*",
+      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Global.png,
+    }
+  # - { name: 全部节点, <<: *use }
+  - {
+      name: 手动选择,
+      type: select,
+      # include-all-providers: true,
+      <<: *use
+      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Domestic.png,
+    }
+  - {
+      name: 自动选择,
+      type: url-test,
+      include-all-providers: true,
+      tolerance: 10,
+      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Auto.png,
+    }
+
+# 规则订阅
+rule-providers:
+
+  cn:
+    behavior: domain
+    interval: 86400
+    path: ./provider/rule-set/cn_domain.yaml
+    type: http
+    url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/cn.yaml"
+
+  Direct:
+    {
+      type: http,
+      behavior: classical,
+      url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Direct/Direct.yaml",
+      path: ./rules/Direct.yaml,
+      interval: 86400,
+    }
+
+  AWAvenue-Ads-Rule-Clash:
+    type: http
+    behavior: domain
+    format: yaml
+    path: ./rules/AWAvenue-Ads-Rule-Clash.yaml
+    url: "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main//Filters/AWAvenue-Ads-Rule-Clash.yaml"
+    interval: 86400
+
+  Claude:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Claude/Claude.yaml"
+    path: ./rules/Claude.yaml
+    interval: 86400
+
+  Emby:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Emby/Emby.yaml"
+    path: ./rules/Emby.yaml
+    interval: 86400
+
+  GameDownloadCN:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Game/GameDownloadCN/GameDownloadCN.yaml"
+    path: ./rules/GameDownloadCN.yaml
+    interval: 86400
+
+  Gemini:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Gemini/Gemini.yaml"
+    path: ./rules/Gemini.yaml
+    interval: 86400
+
+  Microsoft:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Microsoft/Microsoft.yaml"
+    path: ./rules/Microsoft.yaml
+    interval: 86400
+
+  streaming:
+    type: http
+    behavior: domain
+    url: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GlobalMedia/GlobalMedia_Domain.yaml"
+    path: ./ruleset/globalmedia.yaml
+    interval: 86400
+  
+  steam:
+    type: http
+    behavior: classical
+    url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Steam/Steam.yaml'
+    path: ./ruleset/steam.yaml
+    interval: 86400
+
+  steamCN:
+    type: http
+    behavior: classical
+    url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/SteamCN/SteamCN.yaml'
+    path: ./ruleset/steamCN.yaml
+    interval: 86400
+
+rules:
+  - RULE-SET,Direct,DIRECT
+  - RULE-SET,cn,DIRECT
+  - GEOSITE,category-ads-all,REJECT
+  - RULE-SET,AWAvenue-Ads-Rule-Clash,REJECT
+  - GEOSITE,private,DIRECT
+
+  # 若需禁用 QUIC 请取消注释 QUIC 两条规则
+  # 防止 🎥 油管视频 等使用 QUIC 导致速度不佳, 禁用 443 端口 UDP 流量（不包括国内）
+
+  - AND,(AND,(DST-PORT,443),(NETWORK,UDP)),(NOT,((GEOSITE,cn))),REJECT # quic
+
+
+  - RULE-SET,claude,AI
+  - RULE-SET,gemini,AI
+  - GEOSITE,openai,AI
+  - GEOSITE,apple,Apple
+  - GEOSITE,apple-cn,DIRECT
+  - GEOSITE,category-scholar-!cn,Global
+  - GEOSITE,google,Google
+  - GEOSITE,google-cn,DIRECT
+  - GEOSITE,github,Microsoft
+  - GEOSITE,onedrive,Microsoft
+  - GEOSITE,microsoft@cn,DIRECT
+  - RULE-SET,Microsoft,Microsoft
+  - GEOSITE,spotify,Music
+  - GEOSITE,telegram,Telegram
+
+  - RULE-SET,steamCN,DIRECT
+  - GEOSITE,category-games@cn,DIRECT
+  - RULE-SET,GameDownloadCN,DIRECT
+  - RULE-SET,steam,Game
+
+  - DOMAIN-SUFFIX,stream1.misakaf.org,Global
+  - DOMAIN-SUFFIX,stream2.misakaf.org,Global
+  - DOMAIN-SUFFIX,stream3.misakaf.org,Global
+  - DOMAIN-SUFFIX,stream4.misakaf.org,Global
+  - RULE-SET,Emby,Global
+  - RULE-SET,streaming,Global
+
+  - GEOSITE,geolocation-!cn,Global
+  - GEOSITE,cn,DIRECT
+
+  - AND,(AND,(DST-PORT,443),(NETWORK,UDP)),(NOT,((GEOIP,CN))),REJECT # quic
+
+  - GEOIP,private,DIRECT,no-resolve
+  - GEOIP,google,Google,no-resolve
+  - GEOIP,telegram,Telegram,no-resolve
+  - GEOIP,lan,DIRECT,no-resolve
+  - GEOIP,CN,DIRECT
+  - DST-PORT,80/8080/443/8443,Global
+
+  - MATCH,漏网之鱼
