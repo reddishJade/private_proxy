@@ -1,3 +1,20 @@
+# 策略组相关
+pr:
+  &pr {
+    type: select,
+    proxies:
+      [
+        节点选择,
+        全局直连,
+        香港节点,
+        台湾节点,
+        日本节点,
+        新加坡节点,
+        美国节点,
+        其它地区,
+      ],
+  }
+
 # 延迟检测 URL
 p:
   &p {
@@ -11,17 +28,14 @@ p:
         interval: 300,
       },
   }
+
 # 订阅链接
 # 对于订阅来说,path 为选填项，但建议启用
 # 本地配置可以只填 path
 proxy-providers:
   iKuuu:
-    type: http
-    url: "https://fkvvn.no-mad-world.club/link/cNIKJy4BAuYFBRA0?clash=3"
-    health-check:
-      enable: true
-      url: http://www.apple.com/library/test/success.html
-      interval: 300
+    <<: *p
+    url: "https://967go.no-mad-world.club/link/cNIKJy4BAuYFBRA0?clash=3&extend=1"
 
 mode: rule
 # ipv6 支持
@@ -88,11 +102,10 @@ sniffer:
     - "Mijia Cloud"
     - "+.push.apple.com"
 
-
 # tun 模式
 tun:
   enable: true
-  stack: system  # or 'gvisor'
+  stack: system # or 'gvisor'
   dns-hijack:
     - "any:53"
     - "tcp://any:53"
@@ -125,8 +138,7 @@ dns:
       - "https://dns.cloudflare.com/dns-query"
       - "https://dns.google/dns-query"
 
-
-proxies: 
+proxies:
   - name: "全局直连"
     type: direct
     udp: true
@@ -137,7 +149,7 @@ proxy-groups:
       type: select,
       proxies:
         [
-          自动选择,
+          自动回退,
           手动选择,
           香港节点,
           台湾节点,
@@ -150,7 +162,11 @@ proxy-groups:
       icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Rocket.png,
     }
   # 这里的 dns 指海外解析 dns 走的节点，一般跟随🚀 节点选择即可
-  # - { name: dns, <<: *pr }
+  - {
+      name: dns,
+      <<: *pr,
+      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Area.png,
+    }
 
   - {
       name: 手动选择,
@@ -159,11 +175,13 @@ proxy-groups:
       icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Domestic.png,
     }
   - {
-      name: 自动选择,
-      type: url-test,
+      name: 自动回退,
+      type: fallback,
       include-all-providers: true,
+      filter: "(?i)港|日",
       tolerance: 10,
-      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Auto.png,
+      lazy: true,
+      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Available.png,
     }
 
   - {
@@ -177,7 +195,7 @@ proxy-groups:
       name: Apple,
       type: select,
       proxies: [节点选择, 全局直连, 香港节点, 日本节点],
-      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/apple.png,
+      icon: https://clash-verge-rev.github.io/assets/icons/apple.svg,
     }
   - {
       name: Game,
@@ -230,7 +248,7 @@ proxy-groups:
       include-all-providers: true,
       filter: "(?i)港|hk",
       lazy: true,
-    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Hong_Kong.png
+      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Hong_Kong.png,
     }
   - {
       name: 台湾节点,
@@ -269,7 +287,7 @@ proxy-groups:
       type: select,
       include-all-providers: true,
       filter: "(?i)^(?!.*(?:🇭🇰|🇯🇵|🇺🇸|🇸🇬|🇨🇳|港|hk|hongkong|台|tw|taiwan|日|jp|japan|新|sg|singapore|美|us|unitedstates)).*",
-      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Global.png,
+      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Filter.png,
     }
   # - { name: 全部节点, <<: *use }
 
