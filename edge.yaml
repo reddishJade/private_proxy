@@ -1,5 +1,5 @@
 # 分组
-pr: &pr {type: select, proxies: [节点选择,全局直连,香港节点,台湾节点,日本节点,新加坡节点,美国节点,其它地区]}
+pr: &pr { type: select, proxies: [节点选择,DIRECT,香港节点,台湾节点,日本节点,新加坡节点,美国节点,其它地区] }
 
 # 延迟检测 URL
 p:
@@ -27,7 +27,7 @@ use: &use
 proxy-providers:
   iKuuu:
     <<: *p
-    url: "https://967go.no-mad-world.club/link/cNIKJy4BAuYFBRA0?clash=3"
+    url: "https://fkvvn.no-mad-world.club/link/cNIKJy4BAuYFBRA0?clash=3"
 
 mode: rule
 # ipv6 支持
@@ -165,7 +165,11 @@ proxy-groups:
       icon: https://clash-verge-rev.github.io/assets/icons/chatgpt.svg,
     }
   # 🍎 苹果服务 推荐走全局直连
-  - { name: Apple, <<: *pr, icon: https://clash-verge-rev.github.io/assets/icons/apple.svg }
+  - {
+      name: Apple,
+      <<: *pr,
+      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/apple.png,
+    }
   - {
       name: Game,
       <<: *pr,
@@ -394,8 +398,6 @@ rules:
 
   - GEOSITE,geolocation-!cn,Global
   - GEOSITE,cn,DIRECT
-
-  - AND,(AND,(DST-PORT,443),(NETWORK,UDP)),(NOT,((GEOIP,CN))),REJECT # quic
 
   - GEOIP,private,DIRECT,no-resolve
   - GEOIP,google,Google,no-resolve
