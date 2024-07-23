@@ -15,12 +15,6 @@ p:
       },
   }
 
-# 订阅名
-use: &use
-  type: select
-  use:
-    - iKuuu
-
 # 订阅链接
 # 对于订阅来说,path 为选填项，但建议启用
 # 本地配置可以只填 path
@@ -50,7 +44,6 @@ external-controller: :9090
 external-ui: ui
 external-ui-url: "https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-pages.zip"
 
-
 geodata-mode: true
 # Geo 数据库下载地址
 # 使用 FastGit 代理 (https://fgit.cf)
@@ -79,7 +72,6 @@ global-client-fingerprint: random # 随机指纹
 # 缓存
 profile:
   store-selected: true
-
 
 # 域名嗅探
 sniffer:
@@ -156,7 +148,21 @@ proxy-groups:
       icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Rocket.png,
     }
   # 这里的 dns 指海外解析 dns 走的节点，一般跟随🚀 节点选择即可
-  - { name: dns, <<: *pr }
+  # - { name: dns, <<: *pr }
+
+  - {
+      name: 手动选择,
+      type: select,
+      include-all-providers: true,
+      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Domestic.png,
+    }
+  - {
+      name: 自动选择,
+      type: url-test,
+      include-all-providers: true,
+      tolerance: 10,
+      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Auto.png,
+    }
 
   - {
       name: AI,
@@ -167,27 +173,32 @@ proxy-groups:
   # 🍎服务 推荐走全局直连
   - {
       name: Apple,
-      <<: *pr,
+      type: select,
+      proxies: [节点选择, Direct, 香港节点, 日本节点],
       icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/apple.png,
     }
   - {
       name: Game,
-      <<: *pr,
+      type: select,
+      proxies: [节点选择, Direct, 香港节点, 日本节点],
       icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Game.png,
     }
   - {
       name: Global,
-      <<: *pr,
+      type: select,
+      proxies: [节点选择, Direct, 香港节点, 日本节点],
       icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Global.png,
     }
   - {
       name: Google,
-      <<: *pr,
+      type: select,
+      proxies: [节点选择, Direct, 香港节点, 日本节点],
       icon: https://fastly.jsdelivr.net/gh/clash-verge-rev/clash-verge-rev.github.io@main/docs/assets/icons/google.svg,
     }
   - {
       name: Microsoft,
-      <<: *pr,
+      type: select,
+      proxies: [节点选择, Direct, 香港节点, 日本节点],
       icon: https://clash-verge-rev.github.io/assets/icons/microsoft.svg,
     }
   - {
@@ -258,20 +269,7 @@ proxy-groups:
       icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Global.png,
     }
   # - { name: 全部节点, <<: *use }
-  - {
-      name: 手动选择,
-      type: select,
-      # include-all-providers: true,
-      <<: *use
-      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Domestic.png,
-    }
-  - {
-      name: 自动选择,
-      type: url-test,
-      include-all-providers: true,
-      tolerance: 10,
-      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Auto.png,
-    }
+
 
 # 规则订阅
 rule-providers:
@@ -398,4 +396,3 @@ rules:
   - GEOIP,CN,DIRECT
   - DST-PORT,80/8080/443/8443,Global
   - MATCH,漏网之鱼
-
