@@ -174,31 +174,31 @@ proxy-groups:
   - {
       name: Apple,
       type: select,
-      proxies: [节点选择, Direct, 香港节点, 日本节点],
+      proxies: [节点选择, DIRECT, 香港节点, 日本节点],
       icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/apple.png,
     }
   - {
       name: Game,
       type: select,
-      proxies: [节点选择, Direct, 香港节点, 日本节点],
+      proxies: [节点选择, DIRECT, 香港节点, 日本节点],
       icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Game.png,
     }
   - {
       name: Global,
       type: select,
-      proxies: [节点选择, Direct, 香港节点, 日本节点],
+      proxies: [节点选择, DIRECT, 香港节点, 日本节点],
       icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Global.png,
     }
   - {
       name: Google,
       type: select,
-      proxies: [节点选择, Direct, 香港节点, 日本节点],
+      proxies: [节点选择, DIRECT, 香港节点, 日本节点],
       icon: https://fastly.jsdelivr.net/gh/clash-verge-rev/clash-verge-rev.github.io@main/docs/assets/icons/google.svg,
     }
   - {
       name: Microsoft,
       type: select,
-      proxies: [节点选择, Direct, 香港节点, 日本节点],
+      proxies: [节点选择, DIRECT, 香港节点, 日本节点],
       icon: https://clash-verge-rev.github.io/assets/icons/microsoft.svg,
     }
   - {
@@ -216,7 +216,7 @@ proxy-groups:
   - {
       name: 漏网之鱼,
       type: select,
-      proxies: [节点选择, DIRECT],
+      proxies: [节点选择, 全局直连],
       icon: https://clash-verge-rev.github.io/assets/icons/fish.svg,
     }
 
@@ -262,137 +262,137 @@ proxy-groups:
       lazy: true,
       icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/United_States.png,
     }
-  # - {
-  #     name: 其它地区,
-  #     <<: *use,
-  #     filter: "(?i)^(?!.*(?:🇭🇰|🇯🇵|🇺🇸|🇸🇬|🇨🇳|港|hk|hongkong|台|tw|taiwan|日|jp|japan|新|sg|singapore|美|us|unitedstates)).*",
-  #     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Global.png,
-  #   }
+  - {
+      name: 其它地区,
+      <<: *use,
+      filter: "(?i)^(?!.*(?:🇭🇰|🇯🇵|🇺🇸|🇸🇬|🇨🇳|港|hk|hongkong|台|tw|taiwan|日|jp|japan|新|sg|singapore|美|us|unitedstates)).*",
+      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Global.png,
+    }
   # - { name: 全部节点, <<: *use }
 
 
-# 规则订阅
-# rule-providers:
+规则订阅
+rule-providers:
 
-#   cn:
-#     behavior: domain
-#     interval: 86400
-#     path: ./provider/rule-set/cn_domain.yaml
-#     type: http
-#     url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/cn.yaml"
+  cn:
+    behavior: domain
+    interval: 86400
+    path: ./provider/rule-set/cn_domain.yaml
+    type: http
+    url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/cn.yaml"
 
-#   Direct:
-#     {
-#       type: http,
-#       behavior: classical,
-#       url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Direct/Direct.yaml",
-#       path: ./rules/Direct.yaml,
-#       interval: 86400,
-#     }
+  Direct:
+    {
+      type: http,
+      behavior: classical,
+      url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Direct/Direct.yaml",
+      path: ./rules/Direct.yaml,
+      interval: 86400,
+    }
 
-#   AWAvenue-Ads-Rule-Clash:
-#     type: http
-#     behavior: domain
-#     format: yaml
-#     path: ./rules/AWAvenue-Ads-Rule-Clash.yaml
-#     url: "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main//Filters/AWAvenue-Ads-Rule-Clash.yaml"
-#     interval: 86400
+  AWAvenue-Ads-Rule-Clash:
+    type: http
+    behavior: domain
+    format: yaml
+    path: ./rules/AWAvenue-Ads-Rule-Clash.yaml
+    url: "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main//Filters/AWAvenue-Ads-Rule-Clash.yaml"
+    interval: 86400
 
-#   Claude:
-#     type: http
-#     behavior: classical
-#     url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Claude/Claude.yaml"
-#     path: ./rules/Claude.yaml
-#     interval: 86400
+  Claude:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Claude/Claude.yaml"
+    path: ./rules/Claude.yaml
+    interval: 86400
 
-#   Emby:
-#     type: http
-#     behavior: classical
-#     url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Emby/Emby.yaml"
-#     path: ./rules/Emby.yaml
-#     interval: 86400
+  Emby:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Emby/Emby.yaml"
+    path: ./rules/Emby.yaml
+    interval: 86400
 
-#   GameDownloadCN:
-#     type: http
-#     behavior: classical
-#     url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Game/GameDownloadCN/GameDownloadCN.yaml"
-#     path: ./rules/GameDownloadCN.yaml
-#     interval: 86400
+  GameDownloadCN:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Game/GameDownloadCN/GameDownloadCN.yaml"
+    path: ./rules/GameDownloadCN.yaml
+    interval: 86400
 
-#   Gemini:
-#     type: http
-#     behavior: classical
-#     url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Gemini/Gemini.yaml"
-#     path: ./rules/Gemini.yaml
-#     interval: 86400
+  Gemini:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Gemini/Gemini.yaml"
+    path: ./rules/Gemini.yaml
+    interval: 86400
 
-#   Microsoft:
-#     type: http
-#     behavior: classical
-#     url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Microsoft/Microsoft.yaml"
-#     path: ./rules/Microsoft.yaml
-#     interval: 86400
+  Microsoft:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Microsoft/Microsoft.yaml"
+    path: ./rules/Microsoft.yaml
+    interval: 86400
 
-#   streaming:
-#     type: http
-#     behavior: domain
-#     url: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GlobalMedia/GlobalMedia_Domain.yaml"
-#     path: ./ruleset/globalmedia.yaml
-#     interval: 86400
+  streaming:
+    type: http
+    behavior: domain
+    url: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GlobalMedia/GlobalMedia_Domain.yaml"
+    path: ./ruleset/globalmedia.yaml
+    interval: 86400
   
-#   steam:
-#     type: http
-#     behavior: classical
-#     url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Steam/Steam.yaml'
-#     path: ./ruleset/steam.yaml
-#     interval: 86400
+  steam:
+    type: http
+    behavior: classical
+    url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Steam/Steam.yaml'
+    path: ./ruleset/steam.yaml
+    interval: 86400
 
-#   steamCN:
-#     type: http
-#     behavior: classical
-#     url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/SteamCN/SteamCN.yaml'
-#     path: ./ruleset/steamCN.yaml
-#     interval: 86400
+  steamCN:
+    type: http
+    behavior: classical
+    url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/SteamCN/SteamCN.yaml'
+    path: ./ruleset/steamCN.yaml
+    interval: 86400
 
-# rules:
-#   - RULE-SET,Direct,DIRECT
-#   - RULE-SET,cn,DIRECT
-#   - GEOSITE,category-ads-all,REJECT
-#   - RULE-SET,AWAvenue-Ads-Rule-Clash,REJECT
-#   - GEOSITE,private,DIRECT
-#   # 若需禁用 QUIC 请取消注释 QUIC 两条规则
-#   # 防止 🎥 油管视频 等使用 QUIC 导致速度不佳, 禁用 443 端口 UDP 流量（不包括国内）
-#   - AND,(AND,(DST-PORT,443),(NETWORK,UDP)),(NOT,((GEOSITE,cn))),REJECT # quic
-#   - RULE-SET,claude,AI
-#   - RULE-SET,gemini,AI
-#   - GEOSITE,openai,AI
-#   - GEOSITE,apple,Apple
-#   - GEOSITE,apple-cn,DIRECT
-#   - GEOSITE,category-scholar-!cn,Global
-#   - GEOSITE,google,Google
-#   - GEOSITE,google-cn,DIRECT
-#   - GEOSITE,github,Microsoft
-#   - GEOSITE,onedrive,Microsoft
-#   - GEOSITE,microsoft@cn,DIRECT
-#   - RULE-SET,Microsoft,Microsoft
-#   - GEOSITE,spotify,Music
-#   - GEOSITE,telegram,Telegram
-#   - RULE-SET,steamCN,DIRECT
-#   - GEOSITE,category-games@cn,DIRECT
-#   - RULE-SET,GameDownloadCN,DIRECT
-#   - RULE-SET,steam,Game
-#   - DOMAIN-SUFFIX,stream1.misakaf.org,Global
-#   - DOMAIN-SUFFIX,stream2.misakaf.org,Global
-#   - DOMAIN-SUFFIX,stream3.misakaf.org,Global
-#   - DOMAIN-SUFFIX,stream4.misakaf.org,Global
-#   - RULE-SET,Emby,Global
-#   - RULE-SET,streaming,Global
-#   - GEOSITE,geolocation-!cn,Global
-#   - GEOSITE,cn,DIRECT
-#   - GEOIP,private,DIRECT,no-resolve
-#   - GEOIP,google,Google,no-resolve
-#   - GEOIP,telegram,Telegram,no-resolve
-#   - GEOIP,lan,DIRECT,no-resolve
-#   - GEOIP,CN,DIRECT
-#   - DST-PORT,80/8080/443/8443,Global
-#   - MATCH,漏网之鱼
+rules:
+  - RULE-SET,Direct,DIRECT
+  - RULE-SET,cn,DIRECT
+  - GEOSITE,category-ads-all,REJECT
+  - RULE-SET,AWAvenue-Ads-Rule-Clash,REJECT
+  - GEOSITE,private,DIRECT
+  # 若需禁用 QUIC 请取消注释 QUIC 两条规则
+  # 防止 🎥 油管视频 等使用 QUIC 导致速度不佳, 禁用 443 端口 UDP 流量（不包括国内）
+  - AND,(AND,(DST-PORT,443),(NETWORK,UDP)),(NOT,((GEOSITE,cn))),REJECT # quic
+  - RULE-SET,claude,AI
+  - RULE-SET,gemini,AI
+  - GEOSITE,openai,AI
+  - GEOSITE,apple,Apple
+  - GEOSITE,apple-cn,DIRECT
+  - GEOSITE,category-scholar-!cn,Global
+  - GEOSITE,google,Google
+  - GEOSITE,google-cn,DIRECT
+  - GEOSITE,github,Microsoft
+  - GEOSITE,onedrive,Microsoft
+  - GEOSITE,microsoft@cn,DIRECT
+  - RULE-SET,Microsoft,Microsoft
+  - GEOSITE,spotify,Music
+  - GEOSITE,telegram,Telegram
+  - RULE-SET,steamCN,DIRECT
+  - GEOSITE,category-games@cn,DIRECT
+  - RULE-SET,GameDownloadCN,DIRECT
+  - RULE-SET,steam,Game
+  - DOMAIN-SUFFIX,stream1.misakaf.org,Global
+  - DOMAIN-SUFFIX,stream2.misakaf.org,Global
+  - DOMAIN-SUFFIX,stream3.misakaf.org,Global
+  - DOMAIN-SUFFIX,stream4.misakaf.org,Global
+  - RULE-SET,Emby,Global
+  - RULE-SET,streaming,Global
+  - GEOSITE,geolocation-!cn,Global
+  - GEOSITE,cn,DIRECT
+  - GEOIP,private,DIRECT,no-resolve
+  - GEOIP,google,Google,no-resolve
+  - GEOIP,telegram,Telegram,no-resolve
+  - GEOIP,lan,DIRECT,no-resolve
+  - GEOIP,CN,DIRECT
+  - DST-PORT,80/8080/443/8443,Global
+  - MATCH,漏网之鱼
