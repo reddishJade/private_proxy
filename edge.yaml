@@ -197,28 +197,11 @@ dns:
     - 119.29.29.29
     - 223.5.5.5
 
-  # 主要DNS服务器
-  nameserver:
-    - https://doh.pub/dns-query
-    - https://dns.alidns.com/dns-query
-
-  # 备用DNS服务器（通常是国外的）
-  fallback:
-    - https://cloudflare-dns.com/dns-query
-    - https://dns.google/dns-query
-
-  # 控制何时使用备用DNS
-  fallback-filter:
-    geoip: true
-    geoip-code: CN
-    ipcidr:
-      - 240.0.0.0/4
-
   # 特定域名的DNS策略
   nameserver-policy:
     "geosite:cn,private":
-      - https://120.53.53.53/dns-query
-      - https://223.5.5.5/dns-query
+      - https://doh.pub/dns-query
+      - https://dns.alidns.com/dns-query
     "geosite:geolocation-!cn":
       - "https://dns.cloudflare.com/dns-query"
       - "https://dns.google/dns-query"
@@ -236,10 +219,8 @@ hosts:
   'dl.google.com': 180.163.151.161
   'dl.l.google.com': 180.163.150.33
 
-proxies:
-  - name: "全局直连"
-    type: direct
-    udp: true
+# proxies:
+
 
 proxy-groups:
   - {
@@ -255,7 +236,7 @@ proxy-groups:
           新加坡节点,
           美国节点,
           其它地区,
-          全局直连,
+          DIRECT,
         ],
       icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Rocket.png,
     }
@@ -267,7 +248,7 @@ proxy-groups:
         [
           节点选择,
           手动选择,
-          全局直连,
+          DIRECT,
         ],
       icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Area.png,
     }
@@ -298,37 +279,37 @@ proxy-groups:
   - {
       name: Apple,
       type: select,
-      proxies: [节点选择, 全局直连, 香港节点, 日本节点],
+      proxies: [节点选择, DIRECT, 香港节点, 日本节点],
       icon: https://clash-verge-rev.github.io/assets/icons/apple.svg,
     }
   - {
       name: Game,
       type: select,
-      proxies: [节点选择, 全局直连, 香港节点, 日本节点],
+      proxies: [节点选择, DIRECT, 香港节点, 日本节点],
       icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Game.png,
     }
   - {
       name: Global,
       type: select,
-      proxies: [节点选择, 全局直连, 香港节点, 日本节点],
+      proxies: [节点选择, DIRECT, 香港节点, 日本节点],
       icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Global.png,
     }
   - {
       name: Google,
       type: select,
-      proxies: [节点选择, 全局直连, 香港节点, 日本节点],
+      proxies: [节点选择, DIRECT, 香港节点, 日本节点],
       icon: https://fastly.jsdelivr.net/gh/clash-verge-rev/clash-verge-rev.github.io@main/docs/assets/icons/google.svg,
     }
   - {
       name: Microsoft,
       type: select,
-      proxies: [节点选择, 全局直连, 香港节点, 日本节点],
+      proxies: [节点选择, DIRECT, 香港节点, 日本节点],
       icon: https://clash-verge-rev.github.io/assets/icons/microsoft.svg,
     }
   - {
       name: Music,
       type: select,
-      proxies: [节点选择, 全局直连, 香港节点, 美国节点],
+      proxies: [节点选择, DIRECT, 香港节点, 美国节点],
       icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Apple_Music.png,
     }
   - {
@@ -340,7 +321,7 @@ proxy-groups:
   - {
       name: 漏网之鱼,
       type: select,
-      proxies: [节点选择, 全局直连],
+      proxies: [节点选择, DIRECT],
       icon: https://clash-verge-rev.github.io/assets/icons/fish.svg,
     }
 
@@ -396,12 +377,6 @@ proxy-groups:
   # - { name: 全部节点, <<: *use }
 
 rule-providers:
-  cn:
-    behavior: domain
-    interval: 86400
-    path: ./provider/rule-set/cn_domain.yaml
-    type: http
-    url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/cn.yaml"
 
   Direct:
     {
@@ -434,11 +409,25 @@ rule-providers:
     path: ./rules/Claude.yaml
     interval: 86400
 
+  Cloudflarecn:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Cloudflarecn/Cloudflarecn.yaml"
+    path: ./rules/Cloudflarecn.yaml
+    interval: 86400
+
   Emby:
     type: http
     behavior: classical
     url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Emby/Emby.yaml"
     path: ./rules/Emby.yaml
+    interval: 86400
+
+  Game:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Game/Game.yaml"
+    path: ./rules/Game.yaml
     interval: 86400
 
   GameDownloadCN:
@@ -486,16 +475,10 @@ rule-providers:
   Streaming:
     type: http
     behavior: domain
-    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GlobalMedia/GlobalMedia_Domain.yaml"
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GlobalMedia/GlobalMedia_Classical.yaml"
     path: ./rules/globalmedia.yaml
     interval: 86400
 
-  Steam:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Steam/Steam.yaml"
-    path: ./rules/steam.yaml
-    interval: 86400
   SteamCN:
     type: http
     behavior: classical
@@ -527,16 +510,12 @@ rule-providers:
 rules:
   # 直连规则
   - RULE-SET,Direct,DIRECT
-  - RULE-SET,cn,DIRECT
   - GEOSITE,private,DIRECT
   - DOMAIN, clash.razord.top, DIRECT 
   - DOMAIN, yacd.haishan.me, DIRECT 
   - DOMAIN, clash.mereith.com, DIRECT 
-  - GEOSITE,apple-cn,DIRECT
-  - GEOSITE,google-cn,DIRECT
-  - GEOSITE,microsoft@cn,DIRECT
+  - RULE-SET,Cloudflarecn,DIRECT
   - RULE-SET,SteamCN,DIRECT
-  - GEOSITE,category-games@cn,DIRECT
   - RULE-SET,GameDownloadCN,DIRECT
   # 广告拦截
   # - GEOSITE,category-ads-all,REJECT
@@ -553,26 +532,20 @@ rules:
   - RULE-SET,Spotify,Music
   - RULE-SET,Tidal,Music
   - RULE-SET,Telegram,Telegram
-  - RULE-SET,Steam,Game
+  - RULE-SET,Game,Game
   # 流媒体服务
-  - DOMAIN-SUFFIX,stream1.misakaf.org,Global
-  - DOMAIN-SUFFIX,stream2.misakaf.org,Global
-  - DOMAIN-SUFFIX,stream3.misakaf.org,Global
-  - DOMAIN-SUFFIX,stream4.misakaf.org,Global
+  - DOMAIN-SUFFIX,misakaf.org,Global
   - RULE-SET,Emby,Global
   - RULE-SET,Streaming,Global
   # 学术网站
-  - GEOSITE,category-scholar-!cn,Global
+  # - GEOSITE,category-scholar-!cn,Global
   # 全局代理
-  - GEOSITE,geolocation-!cn,Global
+  # - GEOSITE,geolocation-!cn,Global
   # GeoIP 规则
   - GEOIP,private,DIRECT,no-resolve
-  - GEOIP,google,Google,no-resolve
-  - GEOIP,telegram,Telegram,no-resolve
-  - GEOIP,lan,DIRECT,no-resolve
   - GEOIP,CN,DIRECT
   # 常用端口
-  - DST-PORT,80/8080/443/8443,Global
+  # - DST-PORT,80/8080/443/8443,Global
   # 默认规则
   - MATCH,漏网之鱼
 
