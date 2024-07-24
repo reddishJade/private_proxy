@@ -398,7 +398,7 @@ rule-providers:
   Apple:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Apple/Apple.yaml"
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Apple/Apple_Classical.yaml"
     path: ./rules/Apple.yaml
     interval: 86400
 
@@ -504,7 +504,7 @@ rule-providers:
     type: http
     behavior: classical
     url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Telegram/Telegram.yaml"
-    path: ./rules/telegram.yaml
+    path: ./rules/Telegram.yaml
     interval: 86400
 
 rules:
