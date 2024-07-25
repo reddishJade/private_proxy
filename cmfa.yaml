@@ -11,7 +11,7 @@ p: &p {
 proxy-providers:
   provider:
     <<: *p
-    url: "https://967go.no-mad-world.club/link/cNIKJy4BAuYFBRA0?clash=3&extend=1"
+    url: "https://0m8o1.no-mad-world.club/link/IfcsbApFztIF7bVo?clash=3"
 
 mode: rule
 ipv6: true
