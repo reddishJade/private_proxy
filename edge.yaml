@@ -10,56 +10,26 @@ proxy-providers:
         url: "https://www.gstatic.com/generate_204",
         interval: 300,
       }
-    # override:
-    #   additional-prefix: "[iKuuu]"
 
 mode: rule
-# ipv6 支持
 ipv6: true
 log-level: error
-# 允许局域网连接
 allow-lan: true
-# socks5/http 端口
 mixed-port: 7890
 socks-port: 7891
-# Meta 内核特性 https://wiki.metacubex.one/config/general
-# 统一延迟
-# 更换延迟计算方式,去除握手等额外延迟
 unified-delay: true
-# TCP 并发
-# 同时对所有ip进行连接,返回延迟最低的地址
 tcp-concurrent: true
-# 外部控制端口
 external-controller: 127.0.0.1:9090
 external-ui: ui
 external-ui-url: "https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-pages.zip"
-
-geodata-mode: true
-# # Geo 数据库下载地址
-# # 使用 FastGit 代理 (https://fgit.cf)
-# # 源地址 https://github.com/MetaCubeX/meta-rules-dat
-# # 可以更换镜像站但不要更换其他数据库，可能导致无法启动
-# geox-url:
-#   geoip: "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geoip.dat"
-#   geosite: "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geosite.dat"
-#   mmdb: "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/country.mmdb"
-#   asn: "https://github.com/xishang0128/geoip/releases/download/latest/GeoLite2-ASN.mmdb"
-
-# 进程匹配模式
-# 路由器上请设置为 off
-# always 开启，强制匹配所有进程
-# strict 默认，由 Clash 判断是否开启
-# off 不匹配进程，推荐在路由器上使用此模式
+# geodata-mode: true
 find-process-mode: strict
-
 # 缓解移动设备耗电问题
 # https://github.com/vernesong/OpenClash/issues/2614
 keep-alive-interval: 30
-
-# 全局客户端指纹
 global-client-fingerprint: random # 随机指纹
 
-# 缓存
+
 profile:
   store-selected: true
   # 储存 API 对策略组的选择，以供下次启动时使用
@@ -84,7 +54,7 @@ sniffer:
 # tun 模式
 tun:
   enable: true
-  stack: mixed
+  stack: system
   # stack: system # or 'gvisor'
   dns-hijack:
     - "any:53"
@@ -100,8 +70,6 @@ dns:
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
   use-hosts: true
-
-  # Fake-IP过滤列表,防止特定域名使用Fake-IP
   fake-ip-filter:
     - "*"
     - "*.lan"
@@ -222,22 +190,10 @@ dns:
     - "+.uu.163.com"
     - "ps.res.netease.com"
     - "+.oray.com"
-
   prefer-h3: true # 优先使用HTTP/3进行DNS查询
-
-  # 默认DNS服务器
-  default-nameserver:
-    - 119.29.29.29
-    - 223.5.5.5
-
-  # 特定域名的DNS策略
-  nameserver-policy:
-    "geosite:cn,private":
-      - https://doh.pub/dns-query
-      - https://dns.alidns.com/dns-query
-    "geosite:geolocation-!cn":
-      - "https://dns.cloudflare.com/dns-query"
-      - "https://dns.google/dns-query"
+  nameserver:
+    - https://doh.pub/dns-query
+    - https://dns.alidns.com/dns-query
 
 hosts:
   "mtalk.google.com": 142.250.157.188
@@ -537,7 +493,6 @@ rule-providers:
 rules:
   # 若需禁用 QUIC 请取消注释 QUIC 两条规则
   # 防止 YouTube 等使用 QUIC 导致速度不佳, 禁用 443 端口 UDP 流量（不包括国内）
-
   # - AND,(AND,(DST-PORT,443),(NETWORK,UDP)),(NOT,((GEOSITE,cn))),REJECT # quic
 
   # 直连规则
@@ -577,13 +532,6 @@ rules:
   - GEOIP,private,DIRECT,no-resolve
   - GEOIP,CN,DIRECT
   # 常用端口
-  # - DST-PORT,80/8080/443/8443,Global
+  - DST-PORT,80/8080/443/8443,Global
   # 默认规则
   - MATCH,漏网之鱼
-
-ntp:
-  enable: true
-  write-to-system: true
-  server: time.apple.com
-  port: 123
-  interval: 30
