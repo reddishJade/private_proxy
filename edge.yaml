@@ -2,7 +2,7 @@ proxy-providers:
   iKuuu:
     url: "https://0m8o1.no-mad-world.club/link/IfcsbApFztIF7bVo?clash=3"
     type: http
-    exclude-filter: "免费"
+    exclude-filter: "免费|下载"
     interval: 86400
     health-check:
       {
@@ -268,7 +268,7 @@ proxy-groups:
   - {
       name: Game,
       type: select,
-      proxies: [节点选择, DIRECT, 香港节点, 日本节点],
+      proxies: [手动选择, DIRECT, 香港节点, 日本节点],
       icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Game.png,
     }
   - {
