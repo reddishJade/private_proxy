@@ -26,7 +26,7 @@ external-ui-url: "https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-
 find-process-mode: strict
 # 缓解移动设备耗电问题
 keep-alive-interval: 30
-global-client-fingerprint: random # 随机指纹
+global-client-fingerprint: random
 
 
 profile:
