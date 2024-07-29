@@ -286,13 +286,6 @@ proxy-groups:
       icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Apple_Music.png,
     }
   - {
-      name: Download,
-      type: url-test,
-      include-all-providers: true,
-      filter: "(?i)下载",
-      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Download.png,
-    }
-  - {
       name: Telegram,
       type: select,
       proxies: [节点选择, 手动选择],
@@ -565,6 +558,8 @@ rules:
   # - GEOSITE,private,DIRECT
   - RULE-SET,CloudflareCN,DIRECT
   - RULE-SET,SteamCN,DIRECT
+  - RULE-SET,GameDownloadCN,DIRECT
+  - RULE-SET,networktest,DIRECT
   # 广告拦截
   # - GEOSITE,category-ads-all,REJECT
   - RULE-SET,AWAvenue-Ads-Rule-Clash,REJECT
@@ -575,13 +570,11 @@ rules:
   # 特定服务规则
   - RULE-SET,apple-cn,Apple
   - RULE-SET,Apple,Apple
-  - RULE-SET,GameDownloadCN,Download
   - RULE-SET,google-cn,Google
   - RULE-SET,Google,Google
   - RULE-SET,GoogleFCM,Google
   - RULE-SET,microsoft-cn,Microsoft
   - RULE-SET,Microsoft,Microsoft
-  - RULE-SET,networktest,Download
   - RULE-SET,Spotify,Music
   - RULE-SET,Tidal,Music
   - RULE-SET,Telegram,Telegram
