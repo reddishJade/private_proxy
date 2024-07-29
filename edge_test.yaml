@@ -25,18 +25,14 @@ external-ui-url: "https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-
 # geodata-mode: true
 find-process-mode: strict
 # 缓解移动设备耗电问题
-# https://github.com/vernesong/OpenClash/issues/2614
 keep-alive-interval: 30
 global-client-fingerprint: random # 随机指纹
 
 
 profile:
   store-selected: true
-  # 储存 API 对策略组的选择，以供下次启动时使用
   store-fake-ip: true
-  # 储存 fakeip 映射表，域名再次发生连接时，使用原有映射地址
 
-# 域名嗅探
 sniffer:
   enable: true
   sniff:
@@ -51,7 +47,6 @@ sniffer:
     - "Mijia Cloud"
     - "+.push.apple.com"
 
-# tun 模式
 tun:
   enable: true
   stack: system
@@ -248,7 +243,6 @@ proxy-groups:
       proxies: [日本节点, 香港节点],
       icon: https://clash-verge-rev.github.io/assets/icons/chatgpt.svg,
     }
-  # 🍎服务 推荐走全局直连
   - {
       name: Apple,
       type: select,
@@ -479,14 +473,6 @@ rule-providers:
     path: ./rules/Microsoft.yaml
     interval: 86400
 
-  networktest:
-    type: http
-    behavior: classical
-    format: text
-    path: ./rules/networktest.list
-    url: "https://raw.githubusercontent.com/DustinWin/ruleset_geodata/clash-ruleset/networktest.list"
-    interval: 86400
-
   proxy:
     type: http
     behavior: domain
@@ -559,7 +545,6 @@ rules:
   - RULE-SET,CloudflareCN,DIRECT
   - RULE-SET,SteamCN,DIRECT
   - RULE-SET,GameDownloadCN,DIRECT
-  - RULE-SET,networktest,DIRECT
   # 广告拦截
   # - GEOSITE,category-ads-all,REJECT
   - RULE-SET,AWAvenue-Ads-Rule-Clash,REJECT
