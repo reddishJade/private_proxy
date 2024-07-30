@@ -213,13 +213,6 @@ proxy-groups:
         ],
       icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Rocket.png,
     }
-  # 这里的 dns 指海外解析 dns 走的节点，一般跟随🚀 节点选择即可
-  - {
-      name: dns,
-      type: select,
-      proxies: [节点选择, 手动选择, DIRECT],
-      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Area.png,
-    }
 
   - {
       name: 手动选择,
@@ -292,7 +285,7 @@ proxy-groups:
       icon: https://clash-verge-rev.github.io/assets/icons/fish.svg,
     }
 
-  # 分隔,下面是地区分组
+  # 地区分组
   # - { name: 🇭🇰 香港节点, <<: *use, filter: "(?i)港|hk|hongkong|hong kong" }
   - {
       name: 香港节点,
@@ -345,14 +338,6 @@ proxy-groups:
   # - { name: 全部节点, <<: *use }
 
 rule-providers:
-  # provider1:
-  #   type: http / file
-  #   behavior: domain / ipcidr / classical
-  #   url: "https://example.com/rules/provider1.yaml"
-  #   format: text / yaml
-  #   path: ./ruleset/provider1.yaml
-  #   interval: 86400
-  #   proxy: 代理
 
   applications:
     type: http
@@ -370,16 +355,10 @@ rule-providers:
     url: "https://raw.githubusercontent.com/DustinWin/ruleset_geodata/clash-ruleset/private.list"
     interval: 86400
 
-  # Direct:
-  #   type: http
-  #   behavior: classical
-  #   url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Direct/Direct.yaml"
-  #   path: ./rules/Direct.yaml,
-  #   interval: 86400
-
   AWAvenue-Ads-Rule-Clash:
     type: http
     behavior: domain
+    format: yaml
     url: "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main//Filters/AWAvenue-Ads-Rule-Clash.yaml"
     path: ./rules/AWAvenue-Ads-Rule-Clash.yaml
     interval: 86400
@@ -399,7 +378,7 @@ rule-providers:
     path: ./rules/Apple.yaml
     interval: 86400
 
-  apple-cn:
+  AppleCN:
     type: http
     behavior: domain
     format: text
@@ -414,7 +393,7 @@ rule-providers:
     path: ./rules/CloudflareCN.yaml
     interval: 86400
 
-  cn:
+  China:
     type: http
     behavior: domain
     format: text
@@ -436,7 +415,7 @@ rule-providers:
     path: ./rules/Game.yaml
     interval: 86400
 
-  google-cn:
+  GoogleCN:
     type: http
     behavior: domain
     format: text
@@ -458,7 +437,7 @@ rule-providers:
     path: ./rules/GoogleFCM.yaml
     interval: 86400
 
-  microsoft-cn:
+  MicrosoftCN:
     type: http
     behavior: domain
     format: text
@@ -473,7 +452,7 @@ rule-providers:
     path: ./rules/Microsoft.yaml
     interval: 86400
 
-  proxy:
+  Proxy:
     type: http
     behavior: domain
     format: text
@@ -538,11 +517,12 @@ rules:
   # - AND,(AND,(DST-PORT,443),(NETWORK,UDP)),(NOT,((GEOSITE,cn))),REJECT # quic
 
   # 直连规则
-  # - RULE-SET,Direct,DIRECT
-  - RULE-SET,applications,DIRECT
   - RULE-SET,private,DIRECT
-  # - GEOSITE,private,DIRECT
+  - RULE-SET,applications,DIRECT
+  - RULE-SET,AppleCN,DIRECT
   - RULE-SET,CloudflareCN,DIRECT
+  - RULE-SET,GoogleCN,DIRECT
+  - RULE-SET,MicrosoftCN,DIRECT
   - RULE-SET,SteamCN,DIRECT
   - RULE-SET,GameDownloadCN,DIRECT
   # 广告拦截
@@ -553,12 +533,9 @@ rules:
   - DOMAIN-SUFFIX,genspark.ai,AI
   - DOMAIN-SUFFIX,perplexity.ai,AI
   # 特定服务规则
-  - RULE-SET,apple-cn,Apple
   - RULE-SET,Apple,Apple
-  - RULE-SET,google-cn,Google
   - RULE-SET,Google,Google
   - RULE-SET,GoogleFCM,Google
-  - RULE-SET,microsoft-cn,Microsoft
   - RULE-SET,Microsoft,Microsoft
   - RULE-SET,Spotify,Music
   - RULE-SET,Tidal,Music
@@ -569,8 +546,8 @@ rules:
   - RULE-SET,Streaming,Global
   # 区域代理
   # - GEOSITE,geolocation-!cn,Global
-  - RULE-SET,proxy,Global
-  - RULE-SET,cn,DIRECT
+  - RULE-SET,Proxy,Global
+  - RULE-SET,China,DIRECT
   # - AND,(AND,(DST-PORT,443),(NETWORK,UDP)),(NOT,((GEOSITE,cn))),REJECT # quic
 
   # IP 规则
@@ -580,5 +557,5 @@ rules:
   - RULE-SET,cnip,DIRECT
   # 常用端口
   # - DST-PORT,80/8080/443/8443,Global
-  # 默认规则
+
   - MATCH,漏网之鱼
