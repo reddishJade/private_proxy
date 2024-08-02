@@ -2,7 +2,7 @@ proxy-providers:
   iKuuu:
     url: "https://0m8o1.no-mad-world.club/link/IfcsbApFztIF7bVo?clash=3"
     type: http
-    exclude-filter: "免费|下载"
+    exclude-filter: "免费"
     interval: 86400
     health-check:
       {
@@ -25,18 +25,14 @@ external-ui-url: "https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-
 # geodata-mode: true
 find-process-mode: strict
 # 缓解移动设备耗电问题
-# https://github.com/vernesong/OpenClash/issues/2614
 keep-alive-interval: 30
-global-client-fingerprint: random # 随机指纹
+global-client-fingerprint: random
 
 
 profile:
   store-selected: true
-  # 储存 API 对策略组的选择，以供下次启动时使用
   store-fake-ip: true
-  # 储存 fakeip 映射表，域名再次发生连接时，使用原有映射地址
 
-# 域名嗅探
 sniffer:
   enable: true
   sniff:
@@ -51,7 +47,6 @@ sniffer:
     - "Mijia Cloud"
     - "+.push.apple.com"
 
-# tun 模式
 tun:
   enable: true
   stack: system
@@ -71,7 +66,7 @@ dns:
   fake-ip-range: 198.18.0.1/16
   use-hosts: true
   fake-ip-filter:
-    - "*"
+    # LAN
     - "*.lan"
     - "*.localdomain"
     - "*.example"
@@ -80,6 +75,7 @@ dns:
     - "*.test"
     - "*.local"
     - "*.home.arpa"
+    # 放行NTP服务
     - "time.*.com"
     - "time.*.gov"
     - "time.*.edu.cn"
@@ -104,93 +100,82 @@ dns:
     - "*.ntp.org.cn"
     - "+.pool.ntp.org"
     - "time1.cloud.tencent.com"
+    # 放行网易云音乐
     - "music.163.com"
     - "*.music.163.com"
     - "*.126.net"
-    - "musicapi.taihe.com"
-    - "music.taihe.com"
-    - "songsearch.kugou.com"
-    - "trackercdn.kugou.com"
-    - "*.kuwo.cn"
-    - "api-jooxtt.sanook.com"
-    - "api.joox.com"
-    - "joox.com"
-    - "y.qq.com"
-    - "*.y.qq.com"
-    - "streamoc.music.tc.qq.com"
-    - "mobileoc.music.tc.qq.com"
-    - "isure.stream.qqmusic.qq.com"
-    - "dl.stream.qqmusic.qq.com"
-    - "aqqmusic.tc.qq.com"
-    - "amobile.music.tc.qq.com"
-    - "*.xiami.com"
-    - "*.music.migu.cn"
-    - "music.migu.cn"
+    # win10本地连接检测
     - "+.msftconnecttest.com"
     - "+.msftncsi.com"
+    # QQ登录
     - "localhost.ptlogin2.qq.com"
     - "localhost.sec.qq.com"
     - "+.qq.com"
     - "+.tencent.com"
+    # Game
+    # Steam
     - "+.steamcontent.com"
+    # Nintendo Switch
     - "+.srv.nintendo.net"
     - "*.n.n.srv.nintendo.net"
     - "+.cdn.nintendo.net"
+    # Sony PlayStation
     - "+.stun.playstation.net"
+    # Microsoft Xbox
     - "xbox.*.*.microsoft.com"
     - "*.*.xboxlive.com"
     - "xbox.*.microsoft.com"
     - "xnotify.xboxlive.com"
-    - "+.battlenet.com.cn"
-    - "+.wotgame.cn"
-    - "+.wggames.cn"
-    - "+.wowsgame.cn"
-    - "+.wargaming.net"
-    - "proxy.golang.org"
+    # STUN
     - "stun.*.*"
     - "stun.*.*.*"
     - "+.stun.*.*"
     - "+.stun.*.*.*"
     - "+.stun.*.*.*.*"
     - "+.stun.*.*.*.*.*"
-    - "heartbeat.belkin.com"
-    - "*.linksys.com"
-    - "*.linksyssmartwifi.com"
-    - "*.router.asus.com"
+    # Apple Software Update Service
     - "mesu.apple.com"
     - "swscan.apple.com"
     - "swquery.apple.com"
     - "swdownload.apple.com"
     - "swcdn.apple.com"
     - "swdist.apple.com"
+    # Google
     - "lens.l.google.com"
     - "stun.l.google.com"
     - "na.b.g-tun.com"
+    # Netflix
     - "+.nflxvideo.net"
+    # FinalFantasy XIV Worldwide Server & CN Server
     - "*.square-enix.com"
     - "*.finalfantasyxiv.com"
     - "*.ffxiv.com"
     - "*.ff14.sdo.com"
     - "ff.dorado.sdo.com"
+    # Bilibili
     - "*.mcdn.bilivideo.cn"
+    # Disney Plus
     - "+.media.dssott.com"
-    - "shark007.net"
+    # Mijia
     - "Mijia Cloud"
+    # Xiaomi
     - "weatherapi.market.xiaomi.com"
-    - "+.cmbchina.com"
-    - "+.cmbimg.com"
+    # AdGuard
     - "adguardteam.github.io"
     - "adrules.top"
     - "anti-ad.net"
     - "local.adguard.org"
     - "static.adtidy.org"
+    # 迅雷
     - "+.sandai.net"
     - "+.n0808.com"
-    - "+.3gppnetwork.org"
+    # UU Plugin
     - "+.uu.163.com"
     - "ps.res.netease.com"
+    # 向日葵远程控制
     - "+.oray.com"
-  prefer-h3: true # 优先使用HTTP/3进行DNS查询
+    - "+.orayimg.com"
+  prefer-h3: true
   nameserver:
     - https://doh.pub/dns-query
     - https://dns.alidns.com/dns-query
@@ -228,13 +213,6 @@ proxy-groups:
         ],
       icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Rocket.png,
     }
-  # 这里的 dns 指海外解析 dns 走的节点，一般跟随🚀 节点选择即可
-  - {
-      name: dns,
-      type: select,
-      proxies: [节点选择, 手动选择, DIRECT],
-      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Area.png,
-    }
 
   - {
       name: 手动选择,
@@ -258,7 +236,6 @@ proxy-groups:
       proxies: [日本节点, 香港节点],
       icon: https://clash-verge-rev.github.io/assets/icons/chatgpt.svg,
     }
-  # 🍎服务 推荐走全局直连
   - {
       name: Apple,
       type: select,
@@ -308,7 +285,7 @@ proxy-groups:
       icon: https://clash-verge-rev.github.io/assets/icons/fish.svg,
     }
 
-  # 分隔,下面是地区分组
+  # 地区分组
   # - { name: 🇭🇰 香港节点, <<: *use, filter: "(?i)港|hk|hongkong|hong kong" }
   - {
       name: 香港节点,
@@ -331,6 +308,7 @@ proxy-groups:
       type: url-test,
       include-all-providers: true,
       filter: "(?i)日|jp",
+      exclude-filter: "下载",
       lazy: true,
       icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Japan.png,
     }
@@ -360,38 +338,30 @@ proxy-groups:
   # - { name: 全部节点, <<: *use }
 
 rule-providers:
-  # provider1:
-  #   type: http / file
-  #   behavior: domain / ipcidr / classical
-  #   url: "https://example.com/rules/provider1.yaml"
-  #   format: text / yaml
-  #   path: ./ruleset/provider1.yaml
-  #   interval: 86400
-  #   proxy: 代理
 
-  Direct:
+  applications:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Direct/Direct.yaml"
-    path: ./rules/Direct.yaml,
+    format: text
+    path: ./rules/applications.list
+    url: "https://raw.githubusercontent.com/DustinWin/ruleset_geodata/clash-ruleset/applications.list"
     interval: 86400
-    proxy: DIRECT
+
+  private:
+    type: http
+    behavior: domain
+    format: text
+    path: ./rules/private.list
+    url: "https://raw.githubusercontent.com/DustinWin/ruleset_geodata/clash-ruleset/private.list"
+    interval: 86400
 
   AWAvenue-Ads-Rule-Clash:
     type: http
     behavior: domain
+    format: yaml
     url: "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main//Filters/AWAvenue-Ads-Rule-Clash.yaml"
     path: ./rules/AWAvenue-Ads-Rule-Clash.yaml
     interval: 86400
-    proxy: DIRECT
-
-  Apple:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Apple/Apple_Classical.yaml"
-    path: ./rules/Apple.yaml
-    interval: 86400
-    proxy: DIRECT
 
   AI:
     type: http
@@ -400,7 +370,21 @@ rule-providers:
     url: "https://raw.githubusercontent.com/DustinWin/ruleset_geodata/clash-ruleset/ai.list"
     path: ./rules/AI.list
     interval: 86400
-    proxy: DIRECT
+
+  Apple:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Apple/Apple_Classical.yaml"
+    path: ./rules/Apple.yaml
+    interval: 86400
+
+  AppleCN:
+    type: http
+    behavior: domain
+    format: text
+    path: ./rules/apple-cn.list
+    url: "https://raw.githubusercontent.com/DustinWin/ruleset_geodata/clash-ruleset/apple-cn.list"
+    interval: 86400
 
   CloudflareCN:
     type: http
@@ -408,15 +392,14 @@ rule-providers:
     url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Cloudflarecn/Cloudflarecn.yaml"
     path: ./rules/CloudflareCN.yaml
     interval: 86400
-    proxy: DIRECT
 
-  Game:
+  China:
     type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Game/Game.yaml"
-    path: ./rules/Game.yaml
+    behavior: domain
+    format: text
+    path: ./rules/cn.list
+    url: "https://raw.githubusercontent.com/DustinWin/ruleset_geodata/clash-ruleset/cn.list"
     interval: 86400
-    proxy: DIRECT
 
   GameDownloadCN:
     type: http
@@ -424,7 +407,21 @@ rule-providers:
     url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Game/GameDownloadCN/GameDownloadCN.yaml"
     path: ./rules/GameDownloadCN.yaml
     interval: 86400
-    proxy: DIRECT
+
+  Game:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Game/Game.yaml"
+    path: ./rules/Game.yaml
+    interval: 86400
+
+  GoogleCN:
+    type: http
+    behavior: domain
+    format: text
+    path: ./rules/google-cn.list
+    url: "https://raw.githubusercontent.com/DustinWin/ruleset_geodata/clash-ruleset/google-cn.list"
+    interval: 86400
 
   Google:
     type: http
@@ -432,7 +429,6 @@ rule-providers:
     url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Google/Google.yaml"
     path: ./rules/Google.yaml
     interval: 86400
-    proxy: DIRECT
 
   GoogleFCM:
     type: http
@@ -440,7 +436,14 @@ rule-providers:
     url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GoogleFCM/GoogleFCM.yaml"
     path: ./rules/GoogleFCM.yaml
     interval: 86400
-    proxy: DIRECT
+
+  MicrosoftCN:
+    type: http
+    behavior: domain
+    format: text
+    path: ./rules/microsoft-cn.list
+    url: "https://raw.githubusercontent.com/DustinWin/ruleset_geodata/clash-ruleset/microsoft-cn.list"
+    interval: 86400
 
   Microsoft:
     type: http
@@ -448,7 +451,14 @@ rule-providers:
     url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Microsoft/Microsoft.yaml"
     path: ./rules/Microsoft.yaml
     interval: 86400
-    proxy: DIRECT
+
+  Proxy:
+    type: http
+    behavior: domain
+    format: text
+    path: ./rules/proxy.list
+    url: "https://raw.githubusercontent.com/DustinWin/ruleset_geodata/clash-ruleset/proxy.list"
+    interval: 86400
 
   Streaming:
     type: http
@@ -456,7 +466,6 @@ rule-providers:
     url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GlobalMedia/GlobalMedia_Classical.yaml"
     path: ./rules/Streaming.yaml
     interval: 86400
-    proxy: DIRECT
 
   SteamCN:
     type: http
@@ -464,7 +473,6 @@ rule-providers:
     url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/SteamCN/SteamCN.yaml"
     path: ./rules/steamCN.yaml
     interval: 86400
-    proxy: DIRECT
 
   Spotify:
     type: http
@@ -472,7 +480,6 @@ rule-providers:
     url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Spotify/Spotify.yaml"
     path: ./rules/Spotify.yaml
     interval: 86400
-    proxy: DIRECT
 
   Tidal:
     type: http
@@ -480,7 +487,6 @@ rule-providers:
     url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TIDAL/TIDAL.yaml"
     path: ./rules/Tidal.yaml
     interval: 86400
-    proxy: DIRECT
 
   Telegram:
     type: http
@@ -488,7 +494,22 @@ rule-providers:
     url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Telegram/Telegram.yaml"
     path: ./rules/Telegram.yaml
     interval: 86400
-    proxy: DIRECT
+
+  privateip:
+    type: http
+    behavior: ipcidr
+    format: text
+    path: ./rules/privateip.list
+    url: "https://raw.githubusercontent.com/DustinWin/ruleset_geodata/clash-ruleset/privateip.list"
+    interval: 86400
+
+  cnip:
+    type: http
+    behavior: ipcidr
+    format: text
+    path: ./rules/cnip.list
+    url: "https://raw.githubusercontent.com/DustinWin/ruleset_geodata/clash-ruleset/cnip.list"
+    interval: 86400
 
 rules:
   # 若需禁用 QUIC 请取消注释 QUIC 两条规则
@@ -496,12 +517,12 @@ rules:
   # - AND,(AND,(DST-PORT,443),(NETWORK,UDP)),(NOT,((GEOSITE,cn))),REJECT # quic
 
   # 直连规则
-  - RULE-SET,Direct,DIRECT
-  - GEOSITE,private,DIRECT
-  - DOMAIN, clash.razord.top, DIRECT
-  - DOMAIN, yacd.haishan.me, DIRECT
-  - DOMAIN, clash.mereith.com, DIRECT
+  - RULE-SET,private,DIRECT
+  - RULE-SET,applications,DIRECT
+  - RULE-SET,AppleCN,DIRECT
   - RULE-SET,CloudflareCN,DIRECT
+  - RULE-SET,GoogleCN,DIRECT
+  - RULE-SET,MicrosoftCN,DIRECT
   - RULE-SET,SteamCN,DIRECT
   - RULE-SET,GameDownloadCN,DIRECT
   # 广告拦截
@@ -523,15 +544,18 @@ rules:
   # 流媒体服务
   - DOMAIN-SUFFIX,misakaf.org,Global
   - RULE-SET,Streaming,Global
-  # 全局代理
+  # 区域代理
   # - GEOSITE,geolocation-!cn,Global
-
+  - RULE-SET,Proxy,Global
+  - RULE-SET,China,DIRECT
   # - AND,(AND,(DST-PORT,443),(NETWORK,UDP)),(NOT,((GEOSITE,cn))),REJECT # quic
 
-  # GeoIP 规则
-  - GEOIP,private,DIRECT,no-resolve
-  - GEOIP,CN,DIRECT
+  # IP 规则
+  # - GEOIP,private,DIRECT,no-resolve
+  # - GEOIP,CN,DIRECT
+  - RULE-SET,privateip,DIRECT,no-resolve
+  - RULE-SET,cnip,DIRECT
   # 常用端口
-  - DST-PORT,80/8080/443/8443,Global
-  # 默认规则
+  # - DST-PORT,80/8080/443/8443,Global
+
   - MATCH,漏网之鱼
