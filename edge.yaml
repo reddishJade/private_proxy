@@ -339,6 +339,14 @@ proxy-groups:
 
 rule-providers:
 
+  adblock:
+    type: http
+    behavior: domain
+    format: yaml
+    url: https://cdn.jsdelivr.net/gh/REIJI007/AdBlock_Rule_For_Clash@main/adblock_reject.yaml
+    path: ./ruleset/adblock_reject.yaml
+    interval: 86400
+
   applications:
     type: http
     behavior: classical
@@ -353,14 +361,6 @@ rule-providers:
     format: text
     path: ./rules/private.list
     url: "https://raw.githubusercontent.com/DustinWin/ruleset_geodata/clash-ruleset/private.list"
-    interval: 86400
-
-  AWAvenue-Ads-Rule-Clash:
-    type: http
-    behavior: domain
-    format: yaml
-    url: "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main//Filters/AWAvenue-Ads-Rule-Clash.yaml"
-    path: ./rules/AWAvenue-Ads-Rule-Clash.yaml
     interval: 86400
 
   AI:
@@ -527,7 +527,7 @@ rules:
   - RULE-SET,GameDownloadCN,DIRECT
   # 广告拦截
   # - GEOSITE,category-ads-all,REJECT
-  - RULE-SET,AWAvenue-Ads-Rule-Clash,REJECT
+    - RULE-SET,adblock,REJECT
   # AI 服务
   - RULE-SET,AI,AI
   - DOMAIN-SUFFIX,genspark.ai,AI
