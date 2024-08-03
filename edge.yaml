@@ -24,10 +24,7 @@ external-ui: ui
 external-ui-url: "https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-pages.zip"
 # geodata-mode: true
 find-process-mode: strict
-# 缓解移动设备耗电问题
-keep-alive-interval: 30
 global-client-fingerprint: random
-
 
 profile:
   store-selected: true
@@ -66,115 +63,9 @@ dns:
   fake-ip-range: 198.18.0.1/16
   use-hosts: true
   fake-ip-filter:
-    # LAN
-    - "*.lan"
-    - "*.localdomain"
-    - "*.example"
-    - "*.invalid"
-    - "*.localhost"
-    - "*.test"
-    - "*.local"
-    - "*.home.arpa"
-    # 放行NTP服务
-    - "time.*.com"
-    - "time.*.gov"
-    - "time.*.edu.cn"
-    - "time.*.apple.com"
-    - "time-ios.apple.com"
-    - "time1.*.com"
-    - "time2.*.com"
-    - "time3.*.com"
-    - "time4.*.com"
-    - "time5.*.com"
-    - "time6.*.com"
-    - "time7.*.com"
-    - "ntp.*.com"
-    - "ntp1.*.com"
-    - "ntp2.*.com"
-    - "ntp3.*.com"
-    - "ntp4.*.com"
-    - "ntp5.*.com"
-    - "ntp6.*.com"
-    - "ntp7.*.com"
-    - "*.time.edu.cn"
-    - "*.ntp.org.cn"
-    - "+.pool.ntp.org"
-    - "time1.cloud.tencent.com"
-    # 放行网易云音乐
-    - "music.163.com"
-    - "*.music.163.com"
-    - "*.126.net"
-    # win10本地连接检测
-    - "+.msftconnecttest.com"
-    - "+.msftncsi.com"
-    # QQ登录
-    - "localhost.ptlogin2.qq.com"
-    - "localhost.sec.qq.com"
-    - "+.qq.com"
-    - "+.tencent.com"
-    # Game
-    # Steam
-    - "+.steamcontent.com"
-    # Nintendo Switch
-    - "+.srv.nintendo.net"
-    - "*.n.n.srv.nintendo.net"
-    - "+.cdn.nintendo.net"
-    # Sony PlayStation
-    - "+.stun.playstation.net"
-    # Microsoft Xbox
-    - "xbox.*.*.microsoft.com"
-    - "*.*.xboxlive.com"
-    - "xbox.*.microsoft.com"
-    - "xnotify.xboxlive.com"
-    # STUN
-    - "stun.*.*"
-    - "stun.*.*.*"
-    - "+.stun.*.*"
-    - "+.stun.*.*.*"
-    - "+.stun.*.*.*.*"
-    - "+.stun.*.*.*.*.*"
-    # Apple Software Update Service
-    - "mesu.apple.com"
-    - "swscan.apple.com"
-    - "swquery.apple.com"
-    - "swdownload.apple.com"
-    - "swcdn.apple.com"
-    - "swdist.apple.com"
-    # Google
-    - "lens.l.google.com"
-    - "stun.l.google.com"
-    - "na.b.g-tun.com"
-    # Netflix
-    - "+.nflxvideo.net"
-    # FinalFantasy XIV Worldwide Server & CN Server
-    - "*.square-enix.com"
-    - "*.finalfantasyxiv.com"
-    - "*.ffxiv.com"
-    - "*.ff14.sdo.com"
-    - "ff.dorado.sdo.com"
-    # Bilibili
-    - "*.mcdn.bilivideo.cn"
-    # Disney Plus
-    - "+.media.dssott.com"
-    # Mijia
-    - "Mijia Cloud"
-    # Xiaomi
-    - "weatherapi.market.xiaomi.com"
-    # AdGuard
-    - "adguardteam.github.io"
-    - "adrules.top"
-    - "anti-ad.net"
-    - "local.adguard.org"
-    - "static.adtidy.org"
-    # 迅雷
-    - "+.sandai.net"
-    - "+.n0808.com"
-    # UU Plugin
-    - "+.uu.163.com"
-    - "ps.res.netease.com"
-    # 向日葵远程控制
-    - "+.oray.com"
-    - "+.orayimg.com"
+    - "*"
+    - "+.lan"
+    - "+.local"
   prefer-h3: true
   nameserver:
     - https://doh.pub/dns-query
@@ -211,14 +102,14 @@ proxy-groups:
           其它地区,
           DIRECT,
         ],
-      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Rocket.png,
+      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Proxy.png,
     }
 
   - {
       name: 手动选择,
       type: select,
       include-all-providers: true,
-      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Domestic.png,
+      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Filter.png,
     }
   - {
       name: 自动回退,
@@ -239,38 +130,20 @@ proxy-groups:
   - {
       name: Apple,
       type: select,
-      proxies: [节点选择, DIRECT, 香港节点, 日本节点],
+      proxies: [DIRECT, 节点选择],
       icon: https://clash-verge-rev.github.io/assets/icons/apple.svg,
-    }
-  - {
-      name: Game,
-      type: select,
-      proxies: [手动选择, DIRECT, 香港节点, 日本节点],
-      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Game.png,
-    }
-  - {
-      name: Global,
-      type: select,
-      proxies: [节点选择, DIRECT, 香港节点, 日本节点],
-      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Global.png,
     }
   - {
       name: Google,
       type: select,
-      proxies: [节点选择, DIRECT, 香港节点, 日本节点],
+      proxies: [节点选择, DIRECT],
       icon: https://fastly.jsdelivr.net/gh/clash-verge-rev/clash-verge-rev.github.io@main/docs/assets/icons/google.svg,
     }
   - {
       name: Microsoft,
       type: select,
-      proxies: [节点选择, DIRECT, 香港节点, 日本节点],
+      proxies: [节点选择, DIRECT],
       icon: https://clash-verge-rev.github.io/assets/icons/microsoft.svg,
-    }
-  - {
-      name: Music,
-      type: select,
-      proxies: [节点选择, DIRECT, 香港节点, 美国节点],
-      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Apple_Music.png,
     }
   - {
       name: Telegram,
@@ -279,10 +152,46 @@ proxy-groups:
       icon: https://clash-verge-rev.github.io/assets/icons/telegram.svg,
     }
   - {
-      name: 漏网之鱼,
+      name: Game,
+      type: select,
+      proxies: [DIRECT, 节点选择],
+      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Game.png,
+    }
+  - {
+      name: Streaming,
+      type: select,
+      proxies: [节点选择, DIRECT, 香港节点, 美国节点],
+      icon: https://clash-verge-rev.github.io/assets/icons/youtube.svg,
+    }
+  - {
+      name: Music,
+      type: select,
+      proxies: [节点选择, DIRECT, 香港节点, 美国节点],
+      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Spotify.png,
+    }
+  - {
+      name: Global,
       type: select,
       proxies: [节点选择, DIRECT],
-      icon: https://clash-verge-rev.github.io/assets/icons/fish.svg,
+      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Global.png,
+    }
+  - {
+      name: Domestic,
+      type: select,
+      proxies: [DIRECT, 节点选择],
+      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Domestic.png,
+    }
+  - {
+      name: Private,
+      type: select,
+      proxies: [DIRECT, 节点选择],
+      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Lock.png,
+    }
+  - {
+      name: Final,
+      type: select,
+      proxies: [节点选择, DIRECT],
+      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Final.png,
     }
 
   # 地区分组
@@ -333,18 +242,18 @@ proxy-groups:
       type: select,
       include-all-providers: true,
       filter: "(?i)^(?!.*(?:🇭🇰|🇯🇵|🇺🇸|🇸🇬|🇨🇳|港|hk|hongkong|台|tw|taiwan|日|jp|japan|新|sg|singapore|美|us|unitedstates)).*",
-      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Filter.png,
+      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Airport.png,
     }
+
   # - { name: 全部节点, <<: *use }
 
 rule-providers:
-
-  adblock:
+  ads:
     type: http
     behavior: domain
-    format: yaml
-    url: https://cdn.jsdelivr.net/gh/REIJI007/AdBlock_Rule_For_Clash@main/adblock_reject.yaml
-    path: ./ruleset/adblock_reject.yaml
+    format: text
+    path: ./rules/ads.list
+    url: "https://raw.githubusercontent.com/DustinWin/ruleset_geodata/clash-ruleset/ads.list"
     interval: 86400
 
   applications:
@@ -363,81 +272,7 @@ rule-providers:
     url: "https://raw.githubusercontent.com/DustinWin/ruleset_geodata/clash-ruleset/private.list"
     interval: 86400
 
-  AI:
-    type: http
-    behavior: domain
-    format: text
-    url: "https://raw.githubusercontent.com/DustinWin/ruleset_geodata/clash-ruleset/ai.list"
-    path: ./rules/AI.list
-    interval: 86400
-
-  Apple:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Apple/Apple_Classical.yaml"
-    path: ./rules/Apple.yaml
-    interval: 86400
-
-  AppleCN:
-    type: http
-    behavior: domain
-    format: text
-    path: ./rules/apple-cn.list
-    url: "https://raw.githubusercontent.com/DustinWin/ruleset_geodata/clash-ruleset/apple-cn.list"
-    interval: 86400
-
-  CloudflareCN:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Cloudflarecn/Cloudflarecn.yaml"
-    path: ./rules/CloudflareCN.yaml
-    interval: 86400
-
-  China:
-    type: http
-    behavior: domain
-    format: text
-    path: ./rules/cn.list
-    url: "https://raw.githubusercontent.com/DustinWin/ruleset_geodata/clash-ruleset/cn.list"
-    interval: 86400
-
-  GameDownloadCN:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Game/GameDownloadCN/GameDownloadCN.yaml"
-    path: ./rules/GameDownloadCN.yaml
-    interval: 86400
-
-  Game:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Game/Game.yaml"
-    path: ./rules/Game.yaml
-    interval: 86400
-
-  GoogleCN:
-    type: http
-    behavior: domain
-    format: text
-    path: ./rules/google-cn.list
-    url: "https://raw.githubusercontent.com/DustinWin/ruleset_geodata/clash-ruleset/google-cn.list"
-    interval: 86400
-
-  Google:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Google/Google.yaml"
-    path: ./rules/Google.yaml
-    interval: 86400
-
-  GoogleFCM:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GoogleFCM/GoogleFCM.yaml"
-    path: ./rules/GoogleFCM.yaml
-    interval: 86400
-
-  MicrosoftCN:
+  microsoft-cn:
     type: http
     behavior: domain
     format: text
@@ -445,33 +280,43 @@ rule-providers:
     url: "https://raw.githubusercontent.com/DustinWin/ruleset_geodata/clash-ruleset/microsoft-cn.list"
     interval: 86400
 
-  Microsoft:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Microsoft/Microsoft.yaml"
-    path: ./rules/Microsoft.yaml
-    interval: 86400
-
-  Proxy:
+  apple-cn:
     type: http
     behavior: domain
     format: text
-    path: ./rules/proxy.list
-    url: "https://raw.githubusercontent.com/DustinWin/ruleset_geodata/clash-ruleset/proxy.list"
+    path: ./rules/apple-cn.list
+    url: "https://raw.githubusercontent.com/DustinWin/ruleset_geodata/clash-ruleset/apple-cn.list"
+    interval: 86400
+
+  google-cn:
+    type: http
+    behavior: domain
+    format: text
+    path: ./rules/google-cn.list
+    url: "https://raw.githubusercontent.com/DustinWin/ruleset_geodata/clash-ruleset/google-cn.list"
+    interval: 86400
+
+  games-cn:
+    type: http
+    behavior: domain
+    format: text
+    path: ./rules/games-cn.list
+    url: "https://raw.githubusercontent.com/DustinWin/ruleset_geodata/clash-ruleset/games-cn.list"
+    interval: 86400
+
+  ai:
+    type: http
+    behavior: domain
+    format: text
+    path: ./rules/ai.list
+    url: "https://raw.githubusercontent.com/DustinWin/ruleset_geodata/clash-ruleset/ai.list"
     interval: 86400
 
   Streaming:
     type: http
-    behavior: domain
-    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GlobalMedia/GlobalMedia_Classical.yaml"
-    path: ./rules/Streaming.yaml
-    interval: 86400
-
-  SteamCN:
-    type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/SteamCN/SteamCN.yaml"
-    path: ./rules/steamCN.yaml
+    path: ./rules/Streaming.yaml
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GlobalMedia/GlobalMedia_Classical.yaml"
     interval: 86400
 
   Spotify:
@@ -488,11 +333,28 @@ rule-providers:
     path: ./rules/Tidal.yaml
     interval: 86400
 
-  Telegram:
+  proxy:
     type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Telegram/Telegram.yaml"
-    path: ./rules/Telegram.yaml
+    behavior: domain
+    format: text
+    path: ./rules/proxy.list
+    url: "https://raw.githubusercontent.com/DustinWin/ruleset_geodata/clash-ruleset/proxy.list"
+    interval: 86400
+
+  cn:
+    type: http
+    behavior: domain
+    format: text
+    path: ./rules/cn.list
+    url: "https://raw.githubusercontent.com/DustinWin/ruleset_geodata/clash-ruleset/cn.list"
+    interval: 86400
+
+  telegramip:
+    type: http
+    behavior: ipcidr
+    format: text
+    path: ./rules/telegramip.list
+    url: "https://raw.githubusercontent.com/DustinWin/ruleset_geodata/clash-ruleset/telegramip.list"
     interval: 86400
 
   privateip:
@@ -512,50 +374,23 @@ rule-providers:
     interval: 86400
 
 rules:
-  # 若需禁用 QUIC 请取消注释 QUIC 两条规则
-  # 防止 YouTube 等使用 QUIC 导致速度不佳, 禁用 443 端口 UDP 流量（不包括国内）
-  # - AND,(AND,(DST-PORT,443),(NETWORK,UDP)),(NOT,((GEOSITE,cn))),REJECT # quic
-
-  # 直连规则
-  - RULE-SET,private,DIRECT
+  - RULE-SET,ads,REJECT
+  - RULE-SET,private,Private
   - RULE-SET,applications,DIRECT
-  - RULE-SET,AppleCN,DIRECT
-  - RULE-SET,CloudflareCN,DIRECT
-  - RULE-SET,GoogleCN,DIRECT
-  - RULE-SET,MicrosoftCN,DIRECT
-  - RULE-SET,SteamCN,DIRECT
-  - RULE-SET,GameDownloadCN,DIRECT
-  # 广告拦截
-  # - GEOSITE,category-ads-all,REJECT
-  - RULE-SET,adblock,REJECT
-  # AI 服务
-  - RULE-SET,AI,AI
   - DOMAIN-SUFFIX,genspark.ai,AI
   - DOMAIN-SUFFIX,perplexity.ai,AI
-  # 特定服务规则
-  - RULE-SET,Apple,Apple
-  - RULE-SET,Google,Google
-  - RULE-SET,GoogleFCM,Google
-  - RULE-SET,Microsoft,Microsoft
+  - RULE-SET,ai,AI
+  - RULE-SET,apple-cn,Apple
+  - RULE-SET,google-cn,Google
+  - RULE-SET,microsoft-cn,Microsoft
+  - RULE-SET,games-cn,Game
   - RULE-SET,Spotify,Music
   - RULE-SET,Tidal,Music
-  - RULE-SET,Telegram,Telegram
-  - RULE-SET,Game,Game
-  # 流媒体服务
-  - DOMAIN-SUFFIX,misakaf.org,Global
-  - RULE-SET,Streaming,Global
-  # 区域代理
-  # - GEOSITE,geolocation-!cn,Global
-  - RULE-SET,Proxy,Global
-  - RULE-SET,China,DIRECT
-  # - AND,(AND,(DST-PORT,443),(NETWORK,UDP)),(NOT,((GEOSITE,cn))),REJECT # quic
-
-  # IP 规则
-  # - GEOIP,private,DIRECT,no-resolve
-  # - GEOIP,CN,DIRECT
-  - RULE-SET,privateip,DIRECT,no-resolve
-  - RULE-SET,cnip,DIRECT
-  # 常用端口
-  # - DST-PORT,80/8080/443/8443,Global
-
-  - MATCH,漏网之鱼
+  - DOMAIN-SUFFIX,misakaf.org,Streaming
+  - RULE-SET,Streaming,Streaming
+  - RULE-SET,proxy,Global
+  - RULE-SET,cn,Domestic
+  - RULE-SET,telegramip,Telegram,no-resolve
+  - RULE-SET,privateip,Private,no-resolve
+  - RULE-SET,cnip,Domestic
+  - MATCH,Final
