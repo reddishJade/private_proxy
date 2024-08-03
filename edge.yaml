@@ -527,7 +527,7 @@ rules:
   - RULE-SET,GameDownloadCN,DIRECT
   # 广告拦截
   # - GEOSITE,category-ads-all,REJECT
-    - RULE-SET,adblock,REJECT
+  - RULE-SET,adblock,REJECT
   # AI 服务
   - RULE-SET,AI,AI
   - DOMAIN-SUFFIX,genspark.ai,AI
