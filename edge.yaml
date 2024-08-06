@@ -22,7 +22,7 @@ tcp-concurrent: true
 external-controller: 127.0.0.1:9090
 external-ui: ui
 external-ui-url: "https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-pages.zip"
-# geodata-mode: true
+geodata-mode: true
 find-process-mode: strict
 global-client-fingerprint: random
 
@@ -68,8 +68,16 @@ dns:
     - "+.local"
   prefer-h3: true
   nameserver:
-    - https://doh.pub/dns-query
-    - https://dns.alidns.com/dns-query
+    - 223.5.5.5
+    - 119.29.29.29
+  fallback:
+    - https://dns.google/dns-query
+    - https://cloudflare-dns.com/dns-query
+  fallback-filter:
+    geoip: true
+    geoip-code: CN
+    ipcidr:
+      - 240.0.0.0/4
 
 hosts:
   "mtalk.google.com": 142.250.157.188
@@ -104,7 +112,6 @@ proxy-groups:
         ],
       icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Proxy.png,
     }
-
   - {
       name: 手动选择,
       type: select,
@@ -120,7 +127,6 @@ proxy-groups:
       lazy: true,
       icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Available.png,
     }
-
   - {
       name: AI,
       type: select,
@@ -193,7 +199,6 @@ proxy-groups:
       proxies: [节点选择, DIRECT],
       icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Final.png,
     }
-
   # 地区分组
   # - { name: 🇭🇰 香港节点, <<: *use, filter: "(?i)港|hk|hongkong|hong kong" }
   - {
@@ -244,7 +249,6 @@ proxy-groups:
       filter: "(?i)^(?!.*(?:🇭🇰|🇯🇵|🇺🇸|🇸🇬|🇨🇳|港|hk|hongkong|台|tw|taiwan|日|jp|japan|新|sg|singapore|美|us|unitedstates)).*",
       icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Airport.png,
     }
-
   # - { name: 全部节点, <<: *use }
 
 rule-providers:
