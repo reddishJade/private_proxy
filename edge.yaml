@@ -116,7 +116,7 @@ proxy-groups:
       name: 手动选择,
       type: select,
       include-all-providers: true,
-      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Filter.png,
+      icon: https://fastly.jsdelivr.net/gh/shindgewongxj/WHATSINStash@master/icon/select.png,
     }
   - {
       name: 自动回退,
@@ -125,19 +125,19 @@ proxy-groups:
       filter: "(?i)IEPL",
       tolerance: 10,
       lazy: true,
-      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Available.png,
+      icon: https://fastly.jsdelivr.net/gh/shindgewongxj/WHATSINStash@master/icon/fallback.png,
     }
   - {
       name: AI,
       type: select,
       proxies: [日本节点, 香港节点],
-      icon: https://clash-verge-rev.github.io/assets/icons/chatgpt.svg,
+      icon: https://fastly.jsdelivr.net/gh/shindgewongxj/WHATSINStash@master/icon/openai.png,
     }
   - {
       name: Apple,
       type: select,
       proxies: [DIRECT, 节点选择],
-      icon: https://clash-verge-rev.github.io/assets/icons/apple.svg,
+      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Apple.png,
     }
   - {
       name: Google,
@@ -149,13 +149,13 @@ proxy-groups:
       name: Microsoft,
       type: select,
       proxies: [节点选择, DIRECT],
-      icon: https://clash-verge-rev.github.io/assets/icons/microsoft.svg,
+      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Microsoft.png,
     }
   - {
       name: Telegram,
       type: select,
       proxies: [节点选择, 手动选择],
-      icon: https://clash-verge-rev.github.io/assets/icons/telegram.svg,
+      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Telegram.png,
     }
   - {
       name: Game,
@@ -167,7 +167,7 @@ proxy-groups:
       name: Streaming,
       type: select,
       proxies: [节点选择, DIRECT, 香港节点, 美国节点],
-      icon: https://clash-verge-rev.github.io/assets/icons/youtube.svg,
+      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/YouTube.png,
     }
   - {
       name: Music,
