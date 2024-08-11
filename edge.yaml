@@ -13,71 +13,45 @@ proxy-providers:
 
 mode: rule
 ipv6: true
-log-level: error
+log-level: info
 allow-lan: true
 mixed-port: 7890
 socks-port: 7891
 unified-delay: true
 tcp-concurrent: true
+geodata-mode: true
+keep-alive-interval: 30
+find-process-mode: strict
+global-client-fingerprint: random
 external-controller: 127.0.0.1:9090
 external-ui: ui
 external-ui-url: "https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-pages.zip"
-geodata-mode: true
-find-process-mode: strict
-global-client-fingerprint: random
 
 profile:
   store-selected: true
+  # 储存 API 对策略组的选择，以供下次启动时使用
   store-fake-ip: true
-
-sniffer:
-  enable: true
-  sniff:
-    TLS:
-      ports: [443, 8443]
-    HTTP:
-      ports: [80, 8080-8880]
-      override-destination: true
-    QUIC:
-      ports: [443, 8443]
-  skip-domain:
-    - "Mijia Cloud"
-    - "+.push.apple.com"
-
-tun:
-  enable: true
-  stack: system
-  # stack: system # or 'gvisor'
-  dns-hijack:
-    - "any:53"
-    - "tcp://any:53"
-  auto-route: true
-  auto-redirect: true
-  auto-detect-interface: true
+  # 储存 fakeip 映射表，域名再次发生连接时，使用原有映射地址
 
 dns:
   enable: true
   ipv6: true
+  prefer-h3: true
+  use-hosts: true
   listen: :1053
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
-  use-hosts: true
   fake-ip-filter:
     - "*"
     - "+.lan"
     - "+.local"
-  prefer-h3: true
+    - "+.market.xiaomi.com"
   nameserver:
-    - 223.5.5.5
-    - 119.29.29.29
+    - https://doh.pub/dns-query
+    - https://dns.alidns.com/dns-query
   fallback:
-    - https://dns.google/dns-query
-    - https://cloudflare-dns.com/dns-query
-  fallback-filter:
-    geoip: true
-    geoip-code: CN
-    ipcidr:
-      - 240.0.0.0/4
+    - tls://8.8.8.8
+    - tls://1.1.1.1
 
 hosts:
   "mtalk.google.com": 142.250.157.188
@@ -91,6 +65,39 @@ hosts:
   "alt8-mtalk.google.com": 142.250.152.188
   "dl.google.com": 180.163.151.161
   "dl.l.google.com": 180.163.150.33
+
+sniffer:
+  enable: true
+  force-dns-mapping: true
+  parse-pure-ip: true
+  override-destination: false
+  sniff:
+    HTTP:
+      ports: [80, 8080-8880]
+      override-destination: true
+    TLS:
+      ports: [443, 8443]
+    QUIC:
+      ports: [443, 8443]
+  force-domain:
+    - +.v2ex.com
+  skip-domain:
+    - "Mijia Cloud"
+    - "+.push.apple.com"
+
+tun:
+  enable: true
+  stack: mixed
+  # system 使用系统协议栈，可以提供更稳定/全面的 tun 体验，且占用相对其他堆栈更低
+  # gvisor 通过在用户空间中实现网络协议栈，可以提供更高的安全性和隔离性，同时可以避免操作系统内核和用户空间之间的切换，从而在特定情况下具有更好的网络处理性能，为默认选项
+  # mixed 混合堆栈，tcp 使用 system栈，udp 使用 gvisor栈，使用体验可能相对更好
+  dns-hijack:
+    - "any:53"
+    - "tcp://any:53"
+  auto-route: true
+  auto-redirect: true
+  auto-detect-interface: true
+
 
 # proxies:
 
@@ -137,13 +144,13 @@ proxy-groups:
       name: Apple,
       type: select,
       proxies: [DIRECT, 节点选择],
-      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Apple.png,
+      icon: https://clash-verge-rev.github.io/assets/icons/apple.svg,
     }
   - {
       name: Google,
       type: select,
       proxies: [节点选择, DIRECT],
-      icon: https://fastly.jsdelivr.net/gh/clash-verge-rev/clash-verge-rev.github.io@main/docs/assets/icons/google.svg,
+      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Google_Search.png,
     }
   - {
       name: Microsoft,
@@ -250,6 +257,7 @@ proxy-groups:
       icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Airport.png,
     }
   # - { name: 全部节点, <<: *use }
+
 
 rule-providers:
   ads:
@@ -378,6 +386,7 @@ rule-providers:
     interval: 86400
 
 rules:
+  # - AND,((DST-PORT,443),(NETWORK,udp)),REJECT
   - RULE-SET,ads,REJECT
   - RULE-SET,private,Private
   - RULE-SET,applications,DIRECT
