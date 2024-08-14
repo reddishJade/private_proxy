@@ -389,8 +389,6 @@ rules:
   - RULE-SET,ads,REJECT
   - RULE-SET,private,Private
   - RULE-SET,applications,DIRECT
-  - DOMAIN-SUFFIX,genspark.ai,AI
-  - DOMAIN-SUFFIX,perplexity.ai,AI
   - RULE-SET,ai,AI
   - RULE-SET,apple-cn,Apple
   - RULE-SET,google-cn,Google
@@ -398,7 +396,6 @@ rules:
   - RULE-SET,games-cn,Game
   - RULE-SET,Spotify,Music
   - RULE-SET,Tidal,Music
-  - DOMAIN-SUFFIX,misakaf.org,Streaming
   - RULE-SET,Streaming,Streaming
   - RULE-SET,proxy,Global
   - RULE-SET,cn,Domestic
