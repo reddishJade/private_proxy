@@ -50,8 +50,8 @@ dns:
     - https://doh.pub/dns-query
     - https://dns.alidns.com/dns-query
   fallback:
-    - tls://8.8.8.8
-    - tls://1.1.1.1
+    - https://dns.google/dns-query
+    - https://cloudflare-dns.com/dns-query
 
 hosts:
   "mtalk.google.com": 142.250.157.188
@@ -149,7 +149,7 @@ proxy-groups:
   - {
       name: Google,
       type: select,
-      proxies: [节点选择, DIRECT],
+      proxies: [节点选择, 美国节点],
       icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Google_Search.png,
     }
   - {
@@ -161,7 +161,7 @@ proxy-groups:
   - {
       name: Telegram,
       type: select,
-      proxies: [节点选择, 手动选择],
+      proxies: [手动选择, 节点选择],
       icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Telegram.png,
     }
   - {
@@ -386,7 +386,6 @@ rule-providers:
     interval: 86400
 
 rules:
-  # - AND,((DST-PORT,443),(NETWORK,udp)),REJECT
   - RULE-SET,ads,REJECT
   - RULE-SET,private,Private
   - RULE-SET,applications,DIRECT
