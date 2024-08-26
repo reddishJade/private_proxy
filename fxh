@@ -30,7 +30,6 @@ profile:
 dns:
   enable: true
   ipv6: true
-  respect-rules: true
   enhanced-mode: fake-ip
   fake-ip-filter:
     - "*"
