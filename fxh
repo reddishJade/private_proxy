@@ -8,76 +8,37 @@ proxy-providers:
       {
         enable: true,
         url: "https://www.gstatic.com/generate_204",
-        interval: 300,
+        interval: 600,
       }
 
-mode: rule
 ipv6: true
-log-level: error
 allow-lan: true
 mixed-port: 7890
-socks-port: 7891
 unified-delay: true
 tcp-concurrent: true
+keep-alive-interval: 30
+find-process-mode: strict
+global-client-fingerprint: chrome
 external-controller: 127.0.0.1:9090
 external-ui: ui
 external-ui-url: "https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-pages.zip"
-geodata-mode: true
-find-process-mode: strict
-global-client-fingerprint: random
 
 profile:
   store-selected: true
   store-fake-ip: true
 
-sniffer:
-  enable: true
-  sniff:
-    TLS:
-      ports: [443, 8443]
-    HTTP:
-      ports: [80, 8080-8880]
-      override-destination: true
-    QUIC:
-      ports: [443, 8443]
-  skip-domain:
-    - "Mijia Cloud"
-    - "+.push.apple.com"
-
-tun:
-  enable: true
-  stack: system
-  # stack: system # or 'gvisor'
-  dns-hijack:
-    - "any:53"
-    - "tcp://any:53"
-  auto-route: true
-  auto-redirect: true
-  auto-detect-interface: true
-
 dns:
   enable: true
   ipv6: true
-  listen: :1053
+  respect-rules: true
   enhanced-mode: fake-ip
-  fake-ip-range: 198.18.0.1/16
-  use-hosts: true
   fake-ip-filter:
     - "*"
     - "+.lan"
     - "+.local"
-  prefer-h3: true
   nameserver:
-    - 223.5.5.5
-    - 119.29.29.29
-  fallback:
-    - https://dns.google/dns-query
-    - https://cloudflare-dns.com/dns-query
-  fallback-filter:
-    geoip: true
-    geoip-code: CN
-    ipcidr:
-      - 240.0.0.0/4
+    - https://doh.pub/dns-query
+    - https://dns.alidns.com/dns-query
 
 hosts:
   "mtalk.google.com": 142.250.157.188
@@ -91,6 +52,27 @@ hosts:
   "alt8-mtalk.google.com": 142.250.152.188
   "dl.google.com": 180.163.151.161
   "dl.l.google.com": 180.163.150.33
+
+sniffer:
+  enable: true
+  sniff:
+    HTTP:
+      ports: [80, 8080-8880]
+      override-destination: true
+    TLS:
+      ports: [443, 8443]
+    QUIC:
+      ports: [443, 8443]
+
+tun:
+  enable: true
+  stack: mixed
+  dns-hijack:
+    - "any:53"
+    - "tcp://any:53"
+  auto-route: true
+  auto-redirect: true
+  auto-detect-interface: true
 
 # proxies:
 
@@ -107,17 +89,11 @@ proxy-groups:
           日本节点,
           新加坡节点,
           美国节点,
-          其它地区,
           DIRECT,
         ],
-      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Proxy.png,
     }
-  - {
-      name: 手动选择,
-      type: select,
-      include-all-providers: true,
-      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Filter.png,
-    }
+
+  - { name: 手动选择, type: select, include-all-providers: true }
   - {
       name: 自动回退,
       type: fallback,
@@ -125,80 +101,23 @@ proxy-groups:
       filter: "(?i)IEPL",
       tolerance: 10,
       lazy: true,
-      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Available.png,
     }
-  - {
-      name: AI,
-      type: select,
-      proxies: [日本节点, 香港节点],
-      icon: https://clash-verge-rev.github.io/assets/icons/chatgpt.svg,
-    }
-  - {
-      name: Apple,
-      type: select,
-      proxies: [DIRECT, 节点选择],
-      icon: https://clash-verge-rev.github.io/assets/icons/apple.svg,
-    }
-  - {
-      name: Google,
-      type: select,
-      proxies: [节点选择, DIRECT],
-      icon: https://fastly.jsdelivr.net/gh/clash-verge-rev/clash-verge-rev.github.io@main/docs/assets/icons/google.svg,
-    }
-  - {
-      name: Microsoft,
-      type: select,
-      proxies: [节点选择, DIRECT],
-      icon: https://clash-verge-rev.github.io/assets/icons/microsoft.svg,
-    }
-  - {
-      name: Telegram,
-      type: select,
-      proxies: [节点选择, 手动选择],
-      icon: https://clash-verge-rev.github.io/assets/icons/telegram.svg,
-    }
-  - {
-      name: Game,
-      type: select,
-      proxies: [DIRECT, 节点选择],
-      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Game.png,
-    }
+
+  - { name: AI, type: select, proxies: [日本节点, 香港节点] }
+  - { name: Apple, type: select, proxies: [节点选择, DIRECT] }
+  - { name: CDN, type: select, proxies: [Download, DIRECT] }
+  - { name: Domestic, type: select, proxies: [DIRECT, 节点选择] }
+  - { name: Global, type: select, proxies: [节点选择, DIRECT] }
+  - { name: Microsoft, type: select, proxies: [节点选择, DIRECT] }
+  - { name: NetEase Music, type: select, proxies: [DIRECT] }
   - {
       name: Streaming,
       type: select,
       proxies: [节点选择, DIRECT, 香港节点, 美国节点],
-      icon: https://clash-verge-rev.github.io/assets/icons/youtube.svg,
     }
-  - {
-      name: Music,
-      type: select,
-      proxies: [节点选择, DIRECT, 香港节点, 美国节点],
-      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Spotify.png,
-    }
-  - {
-      name: Global,
-      type: select,
-      proxies: [节点选择, DIRECT],
-      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Global.png,
-    }
-  - {
-      name: Domestic,
-      type: select,
-      proxies: [DIRECT, 节点选择],
-      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Domestic.png,
-    }
-  - {
-      name: Private,
-      type: select,
-      proxies: [DIRECT, 节点选择],
-      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Lock.png,
-    }
-  - {
-      name: Final,
-      type: select,
-      proxies: [节点选择, DIRECT],
-      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Final.png,
-    }
+  - { name: Telegram, type: select, proxies: [节点选择, 手动选择] }
+  - { name: Final, type: select, proxies: [节点选择, DIRECT] }
+
   # 地区分组
   # - { name: 🇭🇰 香港节点, <<: *use, filter: "(?i)港|hk|hongkong|hong kong" }
   - {
@@ -207,7 +126,6 @@ proxy-groups:
       include-all-providers: true,
       filter: "(?i)港|hk",
       lazy: true,
-      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Hong_Kong.png,
     }
   - {
       name: 台湾节点,
@@ -215,7 +133,6 @@ proxy-groups:
       include-all-providers: true,
       filter: "(?i)台|tw",
       disable-udp: true,
-      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Taiwan.png,
     }
   - {
       name: 日本节点,
@@ -224,7 +141,6 @@ proxy-groups:
       filter: "(?i)日|jp",
       exclude-filter: "下载",
       lazy: true,
-      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Japan.png,
     }
   - {
       name: 新加坡节点,
@@ -232,7 +148,6 @@ proxy-groups:
       include-all-providers: true,
       filter: "(?i)(新|sg)",
       lazy: true,
-      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Singapore.png,
     }
   - {
       name: 美国节点,
@@ -240,161 +155,271 @@ proxy-groups:
       include-all-providers: true,
       filter: "(?i)美|us",
       lazy: true,
-      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/United_States.png,
     }
   - {
-      name: 其它地区,
-      type: select,
+      name: Download,
+      type: url-test,
       include-all-providers: true,
-      filter: "(?i)^(?!.*(?:🇭🇰|🇯🇵|🇺🇸|🇸🇬|🇨🇳|港|hk|hongkong|台|tw|taiwan|日|jp|japan|新|sg|singapore|美|us|unitedstates)).*",
-      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Airport.png,
+      filter: "(?i)下载",
+      lazy: true,
     }
-  # - { name: 全部节点, <<: *use }
 
 rule-providers:
-  ads:
-    type: http
-    behavior: domain
-    format: text
-    path: ./rules/ads.list
-    url: "https://raw.githubusercontent.com/DustinWin/ruleset_geodata/clash-ruleset/ads.list"
-    interval: 86400
-
-  applications:
+  # 广告拦截 / 隐私保护 / Malware 拦截 / Phiishing 拦截
+  reject_non_ip_no_drop:
     type: http
     behavior: classical
     format: text
-    path: ./rules/applications.list
-    url: "https://raw.githubusercontent.com/DustinWin/ruleset_geodata/clash-ruleset/applications.list"
-    interval: 86400
-
-  private:
-    type: http
-    behavior: domain
-    format: text
-    path: ./rules/private.list
-    url: "https://raw.githubusercontent.com/DustinWin/ruleset_geodata/clash-ruleset/private.list"
-    interval: 86400
-
-  microsoft-cn:
-    type: http
-    behavior: domain
-    format: text
-    path: ./rules/microsoft-cn.list
-    url: "https://raw.githubusercontent.com/DustinWin/ruleset_geodata/clash-ruleset/microsoft-cn.list"
-    interval: 86400
-
-  apple-cn:
-    type: http
-    behavior: domain
-    format: text
-    path: ./rules/apple-cn.list
-    url: "https://raw.githubusercontent.com/DustinWin/ruleset_geodata/clash-ruleset/apple-cn.list"
-    interval: 86400
-
-  google-cn:
-    type: http
-    behavior: domain
-    format: text
-    path: ./rules/google-cn.list
-    url: "https://raw.githubusercontent.com/DustinWin/ruleset_geodata/clash-ruleset/google-cn.list"
-    interval: 86400
-
-  games-cn:
-    type: http
-    behavior: domain
-    format: text
-    path: ./rules/games-cn.list
-    url: "https://raw.githubusercontent.com/DustinWin/ruleset_geodata/clash-ruleset/games-cn.list"
-    interval: 86400
-
-  ai:
-    type: http
-    behavior: domain
-    format: text
-    path: ./rules/ai.list
-    url: "https://raw.githubusercontent.com/DustinWin/ruleset_geodata/clash-ruleset/ai.list"
-    interval: 86400
-
-  Streaming:
+    interval: 43200
+    url: https://ruleset.skk.moe/Clash/non_ip/reject-no-drop.txt
+    path: ./sukkaw_ruleset/reject_non_ip_no_drop.txt
+  reject_non_ip_drop:
     type: http
     behavior: classical
-    path: ./rules/Streaming.yaml
-    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GlobalMedia/GlobalMedia_Classical.yaml"
-    interval: 86400
-
-  Spotify:
+    format: text
+    interval: 43200
+    url: https://ruleset.skk.moe/Clash/non_ip/reject-drop.txt
+    path: ./sukkaw_ruleset/reject_non_ip_drop.txt
+  reject_non_ip:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Spotify/Spotify.yaml"
-    path: ./rules/Spotify.yaml
-    interval: 86400
-
-  Tidal:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TIDAL/TIDAL.yaml"
-    path: ./rules/Tidal.yaml
-    interval: 86400
-
-  proxy:
+    format: text
+    interval: 43200
+    url: https://ruleset.skk.moe/Clash/non_ip/reject.txt
+    path: ./sukkaw_ruleset/reject_non_ip.txt
+  reject_domainset:
     type: http
     behavior: domain
     format: text
-    path: ./rules/proxy.list
-    url: "https://raw.githubusercontent.com/DustinWin/ruleset_geodata/clash-ruleset/proxy.list"
-    interval: 86400
-
-  cn:
+    interval: 43200
+    url: https://ruleset.skk.moe/Clash/domainset/reject.txt
+    path: ./sukkaw_ruleset/reject_domainset.txt
+  reject_ip:
+    type: http
+    behavior: classical
+    format: text
+    interval: 43200
+    url: https://ruleset.skk.moe/Clash/ip/reject.txt
+    path: ./sukkaw_ruleset/reject_ip.txt
+  # 包含所有常见静态资源 CDN 域名、对象存储域名
+  cdn_domainset:
     type: http
     behavior: domain
     format: text
-    path: ./rules/cn.list
-    url: "https://raw.githubusercontent.com/DustinWin/ruleset_geodata/clash-ruleset/cn.list"
-    interval: 86400
-
-  telegramip:
+    interval: 43200
+    url: https://ruleset.skk.moe/Clash/domainset/cdn.txt
+    path: ./sukkaw_ruleset/cdn_domainset.txt
+  cdn_non_ip:
+    type: http
+    behavior: classical
+    format: text
+    interval: 43200
+    url: https://ruleset.skk.moe/Clash/non_ip/cdn.txt
+    path: ./sukkaw_ruleset/cdn_non_ip.txt
+  # 流媒体
+  stream_non_ip:
+    type: http
+    behavior: classical
+    format: text
+    interval: 43200
+    url: https://ruleset.skk.moe/Clash/non_ip/stream.txt
+    path: ./sukkaw_ruleset/stream_non_ip.txt
+  stream_ip:
+    type: http
+    behavior: classical
+    format: text
+    interval: 43200
+    url: https://ruleset.skk.moe/Clash/ip/stream.txt
+    path: ./sukkaw_ruleset/stream_ip.txt
+  # AI服务
+  ai_non_ip:
+    type: http
+    behavior: classical
+    format: text
+    interval: 43200
+    url: https://ruleset.skk.moe/Clash/non_ip/ai.txt
+    path: ./sukkaw_ruleset/ai_non_ip.txt
+  # 电报服务
+  telegram_non_ip:
+    type: http
+    behavior: classical
+    format: text
+    interval: 43200
+    url: https://ruleset.skk.moe/Clash/non_ip/telegram.txt
+    path: ./sukkaw_ruleset/telegram_non_ip.txt
+  telegram_ip:
+    type: http
+    behavior: classical
+    format: text
+    interval: 43200
+    url: https://ruleset.skk.moe/Clash/ip/telegram.txt
+    path: ./sukkaw_ruleset/telegram_ip.txt
+  # 规则组包含 Apple, Inc. 在中华人民共和国完成工信部 ICP 备案和公安网备、且在中华人民共和国境内提供 HTTP 服务的域名
+  apple_cdn:
+    type: http
+    behavior: domain
+    format: text
+    interval: 43200
+    url: https://ruleset.skk.moe/Clash/domainset/apple_cdn.txt
+    path: ./sukkaw_ruleset/apple_cdn.txt
+  # Apple服务
+  apple_services:
+    type: http
+    behavior: classical
+    format: text
+    interval: 43200
+    url: https://ruleset.skk.moe/Clash/non_ip/apple_services.txt
+    path: ./sukkaw_ruleset/apple_services.txt
+  # 云上贵州（icloud.com.cn）和 苹果地图大陆特供版 等服务的域名。
+  apple_cn_non_ip:
+    type: http
+    behavior: classical
+    format: text
+    interval: 43200
+    url: https://ruleset.skk.moe/Clash/non_ip/apple_cn.txt
+    path: ./sukkaw_ruleset/apple_cn_non_ip.txt
+  # 规则组包含 Microsoft 在中华人民共和国完成工信部 ICP 备案和公安网备、且在中华人民共和国境内提供 HTTP 服务的域名
+  microsoft_cdn_non_ip:
+    type: http
+    behavior: classical
+    format: text
+    interval: 43200
+    url: https://ruleset.skk.moe/Clash/non_ip/microsoft_cdn.txt
+    path: ./sukkaw_ruleset/microsoft_cdn_non_ip.txt
+  # 微软服务
+  microsoft_non_ip:
+    type: http
+    behavior: classical
+    format: text
+    interval: 43200
+    url: https://ruleset.skk.moe/Clash/non_ip/microsoft.txt
+    path: ./sukkaw_ruleset/microsoft_non_ip.txt
+  # 网易云音乐
+  neteasemusic_non_ip:
+    type: http
+    behavior: classical
+    format: text
+    interval: 43200
+    url: https://ruleset.skk.moe/Clash/non_ip/neteasemusic.txt
+    path: ./sukkaw_ruleset/neteasemusic_non_ip.txt
+  neteasemusic_ip:
+    type: http
+    behavior: classical
+    format: text
+    interval: 43200
+    url: https://ruleset.skk.moe/Clash/ip/neteasemusic.txt
+    path: ./sukkaw_ruleset/neteasemusic_ip.txt
+  # 软件更新、操作系统等大文件下载
+  download_domainset:
+    type: http
+    behavior: domain
+    format: text
+    interval: 43200
+    url: https://ruleset.skk.moe/Clash/domainset/download.txt
+    path: ./sukkaw_ruleset/download_domainset.txt
+  download_non_ip:
+    type: http
+    behavior: classical
+    format: text
+    interval: 43200
+    url: https://ruleset.skk.moe/Clash/non_ip/download.txt
+    path: ./sukkaw_ruleset/download_non_ip.txt
+  # 内网域名和局域网 IP
+  lan_non_ip:
+    type: http
+    behavior: classical
+    format: text
+    interval: 43200
+    url: https://ruleset.skk.moe/Clash/non_ip/lan.txt
+    path: ./sukkaw_ruleset/lan_non_ip.txt
+  lan_ip:
+    type: http
+    behavior: classical
+    format: text
+    interval: 43200
+    url: https://ruleset.skk.moe/Clash/ip/lan.txt
+    path: ./sukkaw_ruleset/lan_ip.txt
+  # 其他网站
+  domestic_non_ip:
+    type: http
+    behavior: classical
+    format: text
+    interval: 43200
+    url: https://ruleset.skk.moe/Clash/non_ip/domestic.txt
+    path: ./sukkaw_ruleset/domestic_non_ip.txt
+  direct_non_ip:
+    type: http
+    behavior: classical
+    format: text
+    interval: 43200
+    url: https://ruleset.skk.moe/Clash/non_ip/direct.txt
+    path: ./sukkaw_ruleset/direct_non_ip.txt
+  global_non_ip:
+    type: http
+    behavior: classical
+    format: text
+    interval: 43200
+    url: https://ruleset.skk.moe/Clash/non_ip/global.txt
+    path: ./sukkaw_ruleset/global_non_ip.txt
+  domestic_ip:
+    type: http
+    behavior: classical
+    format: text
+    interval: 43200
+    url: https://ruleset.skk.moe/Clash/ip/domestic.txt
+    path: ./sukkaw_ruleset/domestic_ip.txt
+  # chnroute CIDR
+  # 补充合并了 Misaka Network, Inc. 收不到 BGP 路由的部分国内段、排除了被 Misaka Network, Inc. 误收的在香港广播的 IP 段（通常由 中国移动国际 CMI 广播）
+  china_ip:
     type: http
     behavior: ipcidr
     format: text
-    path: ./rules/telegramip.list
-    url: "https://raw.githubusercontent.com/DustinWin/ruleset_geodata/clash-ruleset/telegramip.list"
-    interval: 86400
-
-  privateip:
-    type: http
-    behavior: ipcidr
-    format: text
-    path: ./rules/privateip.list
-    url: "https://raw.githubusercontent.com/DustinWin/ruleset_geodata/clash-ruleset/privateip.list"
-    interval: 86400
-
-  cnip:
-    type: http
-    behavior: ipcidr
-    format: text
-    path: ./rules/cnip.list
-    url: "https://raw.githubusercontent.com/DustinWin/ruleset_geodata/clash-ruleset/cnip.list"
-    interval: 86400
+    interval: 43200
+    url: https://ruleset.skk.moe/Clash/ip/china_ip.txt
+    path: ./sukkaw_ruleset/china_ip.txt
 
 rules:
-  - RULE-SET,ads,REJECT
-  - RULE-SET,private,Private
-  - RULE-SET,applications,DIRECT
-  - DOMAIN-SUFFIX,genspark.ai,AI
-  - DOMAIN-SUFFIX,perplexity.ai,AI
-  - RULE-SET,ai,AI
-  - RULE-SET,apple-cn,Apple
-  - RULE-SET,google-cn,Google
-  - RULE-SET,microsoft-cn,Microsoft
-  - RULE-SET,games-cn,Game
-  - RULE-SET,Spotify,Music
-  - RULE-SET,Tidal,Music
+  # Reject rules
+  - RULE-SET,reject_domainset,REJECT
+  - RULE-SET,reject_non_ip,REJECT
+  - RULE-SET,reject_non_ip_drop,REJECT-DROP
+  - RULE-SET,reject_non_ip_no_drop,REJECT
+  - RULE-SET,reject_ip,REJECT
+  # CDN rules
+  - RULE-SET,cdn_domainset,CDN
+  - RULE-SET,cdn_non_ip,CDN
+  # Streaming services
   - DOMAIN-SUFFIX,misakaf.org,Streaming
-  - RULE-SET,Streaming,Streaming
-  - RULE-SET,proxy,Global
-  - RULE-SET,cn,Domestic
-  - RULE-SET,telegramip,Telegram,no-resolve
-  - RULE-SET,privateip,Private,no-resolve
-  - RULE-SET,cnip,Domestic
+  - RULE-SET,stream_non_ip,Streaming
+  # AI services
+  - RULE-SET,ai_non_ip,AI
+  # Telegram
+  - RULE-SET,telegram_non_ip,Telegram
+  # Apple services
+  - RULE-SET,apple_cdn,Domestic
+  - RULE-SET,apple_services,Apple
+  - RULE-SET,apple_cn_non_ip,Domestic
+  # Microsoft services
+  - RULE-SET,microsoft_cdn_non_ip,Domestic
+  - RULE-SET,microsoft_non_ip,Microsoft
+  # NetEase Music
+  - RULE-SET,neteasemusic_non_ip,NetEase Music
+  # Download
+  - RULE-SET,download_domainset,CDN
+  - RULE-SET,download_non_ip,CDN
+  # LAN
+  - RULE-SET,lan_non_ip,DIRECT
+  # Misc rules
+  - RULE-SET,domestic_non_ip,Domestic
+  - RULE-SET,direct_non_ip,DIRECT
+  - RULE-SET,global_non_ip,Global
+  # IP rules
+  - RULE-SET,stream_ip,Streaming
+  - RULE-SET,telegram_ip,Telegram
+  - RULE-SET,neteasemusic_ip,NetEase Music
+  - RULE-SET,lan_ip,DIRECT
+  - RULE-SET,domestic_ip,Domestic
+  - RULE-SET,china_ip,Domestic
+  # Final rules
+  - GEOIP,CN,Domestic
   - MATCH,Final
