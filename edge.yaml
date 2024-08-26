@@ -8,7 +8,7 @@ proxy-providers:
       {
         enable: true,
         url: "https://www.gstatic.com/generate_204",
-        interval: 300,
+        interval: 600,
       }
 
 mode: rule
@@ -41,11 +41,7 @@ dns:
   listen: :1053
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
-  fake-ip-filter:
-    - "*"
-    - "+.lan"
-    - "+.local"
-    - "+.market.xiaomi.com"
+  fake-ip-filter: ['rule-set:fakeip-filter,private']
   nameserver:
     - https://doh.pub/dns-query
     - https://dns.alidns.com/dns-query
@@ -161,13 +157,13 @@ proxy-groups:
   - {
       name: Samsung,
       type: select,
-      proxies: [节点选择, DIRECT],
+      proxies: [DIRECT, 节点选择],
       icon: https://upload.wikimedia.org/wikipedia/commons/f/f6/Samsung_icon.svg,
     }
   - {
       name: Telegram,
       type: select,
-      proxies: [手动选择, 节点选择],
+      proxies: [节点选择, 手动选择],
       icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Telegram.png,
     }
   - {
@@ -266,12 +262,20 @@ proxy-groups:
 
 
 rule-providers:
+  fakeip-filter:
+    type: http
+    behavior: domain
+    format: mrs
+    path: ./rules/fakeip-filter.mrs
+    url: "https://github.com/DustinWin/ruleset_geodata/releases/download/clash-ruleset/fakeip-filter.mrs"
+    interval: 86400
+
   ads:
     type: http
     behavior: domain
-    format: text
-    path: ./rules/ads.list
-    url: "https://raw.githubusercontent.com/DustinWin/ruleset_geodata/clash-ruleset/ads.list"
+    format: mrs
+    path: ./rules/ads.mrs
+    url: "https://github.com/DustinWin/ruleset_geodata/releases/download/clash-ruleset/ads.mrs"
     interval: 86400
 
   applications:
@@ -279,55 +283,55 @@ rule-providers:
     behavior: classical
     format: text
     path: ./rules/applications.list
-    url: "https://raw.githubusercontent.com/DustinWin/ruleset_geodata/clash-ruleset/applications.list"
+    url: "https://github.com/DustinWin/ruleset_geodata/releases/download/clash-ruleset/applications.list"
     interval: 86400
 
   private:
     type: http
     behavior: domain
-    format: text
-    path: ./rules/private.list
-    url: "https://raw.githubusercontent.com/DustinWin/ruleset_geodata/clash-ruleset/private.list"
+    format: mrs
+    path: ./rules/private.mrs
+    url: "https://github.com/DustinWin/ruleset_geodata/releases/download/clash-ruleset/private.mrs"
     interval: 86400
 
   microsoft-cn:
     type: http
     behavior: domain
-    format: text
-    path: ./rules/microsoft-cn.list
-    url: "https://raw.githubusercontent.com/DustinWin/ruleset_geodata/clash-ruleset/microsoft-cn.list"
+    format: mrs
+    path: ./rules/microsoft-cn.mrs
+    url: "https://github.com/DustinWin/ruleset_geodata/releases/download/clash-ruleset/microsoft-cn.mrs"
     interval: 86400
 
   apple-cn:
     type: http
     behavior: domain
-    format: text
-    path: ./rules/apple-cn.list
-    url: "https://raw.githubusercontent.com/DustinWin/ruleset_geodata/clash-ruleset/apple-cn.list"
+    format: mrs
+    path: ./rules/apple-cn.mrs
+    url: "https://github.com/DustinWin/ruleset_geodata/releases/download/clash-ruleset/apple-cn.mrs"
     interval: 86400
 
   google-cn:
     type: http
     behavior: domain
-    format: text
-    path: ./rules/google-cn.list
-    url: "https://raw.githubusercontent.com/DustinWin/ruleset_geodata/clash-ruleset/google-cn.list"
+    format: mrs
+    path: ./rules/google-cn.mrs
+    url: "https://github.com/DustinWin/ruleset_geodata/releases/download/clash-ruleset/google-cn.mrs"
     interval: 86400
 
   games-cn:
     type: http
     behavior: domain
-    format: text
-    path: ./rules/games-cn.list
-    url: "https://raw.githubusercontent.com/DustinWin/ruleset_geodata/clash-ruleset/games-cn.list"
+    format: mrs
+    path: ./rules/games-cn.mrs
+    url: "https://github.com/DustinWin/ruleset_geodata/releases/download/clash-ruleset/games-cn.mrs"
     interval: 86400
 
   ai:
     type: http
     behavior: domain
-    format: text
-    path: ./rules/ai.list
-    url: "https://raw.githubusercontent.com/DustinWin/ruleset_geodata/clash-ruleset/ai.list"
+    format: mrs
+    path: ./rules/ai.mrs
+    url: "https://github.com/DustinWin/ruleset_geodata/releases/download/clash-ruleset/ai.mrs"
     interval: 86400
 
   Samsung:
@@ -361,41 +365,41 @@ rule-providers:
   proxy:
     type: http
     behavior: domain
-    format: text
-    path: ./rules/proxy.list
-    url: "https://raw.githubusercontent.com/DustinWin/ruleset_geodata/clash-ruleset/proxy.list"
+    format: mrs
+    path: ./rules/proxy.mrs
+    url: "https://github.com/DustinWin/ruleset_geodata/releases/download/clash-ruleset/proxy.mrs"
     interval: 86400
 
   cn:
     type: http
     behavior: domain
-    format: text
-    path: ./rules/cn.list
-    url: "https://raw.githubusercontent.com/DustinWin/ruleset_geodata/clash-ruleset/cn.list"
+    format: mrs
+    path: ./rules/cn.mrs
+    url: "https://github.com/DustinWin/ruleset_geodata/releases/download/clash-ruleset/cn.mrs"
     interval: 86400
 
   telegramip:
     type: http
     behavior: ipcidr
-    format: text
-    path: ./rules/telegramip.list
-    url: "https://raw.githubusercontent.com/DustinWin/ruleset_geodata/clash-ruleset/telegramip.list"
+    format: mrs
+    path: ./rules/telegramip.mrs
+    url: "https://github.com/DustinWin/ruleset_geodata/releases/download/clash-ruleset/telegramip.mrs"
     interval: 86400
 
   privateip:
     type: http
     behavior: ipcidr
-    format: text
-    path: ./rules/privateip.list
-    url: "https://raw.githubusercontent.com/DustinWin/ruleset_geodata/clash-ruleset/privateip.list"
+    format: mrs
+    path: ./rules/privateip.mrs
+    url: "https://github.com/DustinWin/ruleset_geodata/releases/download/clash-ruleset/privateip.mrs"
     interval: 86400
 
   cnip:
     type: http
     behavior: ipcidr
-    format: text
-    path: ./rules/cnip.list
-    url: "https://raw.githubusercontent.com/DustinWin/ruleset_geodata/clash-ruleset/cnip.list"
+    format: mrs
+    path: ./rules/cnip.mrs
+    url: "https://github.com/DustinWin/ruleset_geodata/releases/download/clash-ruleset/cnip.mrs"
     interval: 86400
 
 rules:
