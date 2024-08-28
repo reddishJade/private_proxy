@@ -77,24 +77,24 @@ tun:
 
 proxy-groups:
   - {
-      name: 节点选择,
+      name: Proxy,
       type: select,
       proxies:
         [
-          自动回退,
-          手动选择,
-          香港节点,
-          台湾节点,
-          日本节点,
-          新加坡节点,
-          美国节点,
+          Fallback,
+          Select,
+          HongKong,
+          TaiWan,
+          Japan,
+          Singapore,
+          USA,
           DIRECT,
         ],
     }
 
-  - { name: 手动选择, type: select, include-all-providers: true }
+  - { name: Select, type: select, include-all-providers: true }
   - {
-      name: 自动回退,
+      name: Fallback,
       type: fallback,
       include-all-providers: true,
       filter: "(?i)IEPL",
@@ -102,39 +102,39 @@ proxy-groups:
       lazy: true,
     }
 
-  - { name: AI, type: select, proxies: [日本节点, 香港节点] }
-  - { name: Apple, type: select, proxies: [节点选择, DIRECT] }
+  - { name: AI, type: select, proxies: [Japan, HongKong] }
+  - { name: Apple, type: select, proxies: [Proxy, DIRECT] }
   - { name: CDN, type: select, proxies: [Download, DIRECT] }
-  - { name: Domestic, type: select, proxies: [DIRECT, 节点选择] }
-  - { name: Global, type: select, proxies: [节点选择, DIRECT] }
-  - { name: Microsoft, type: select, proxies: [节点选择, DIRECT] }
+  - { name: Domestic, type: select, proxies: [DIRECT, Proxy] }
+  - { name: Global, type: select, proxies: [Proxy, DIRECT] }
+  - { name: Microsoft, type: select, proxies: [Proxy, DIRECT] }
   - { name: NetEase Music, type: select, proxies: [DIRECT] }
   - {
       name: Streaming,
       type: select,
-      proxies: [节点选择, DIRECT, 香港节点, 美国节点],
+      proxies: [Proxy, DIRECT, HongKong, USA],
     }
-  - { name: Telegram, type: select, proxies: [节点选择, 手动选择] }
-  - { name: Final, type: select, proxies: [节点选择, DIRECT] }
+  - { name: Telegram, type: select, proxies: [Proxy, Select] }
+  - { name: Final, type: select, proxies: [Proxy, DIRECT] }
 
   # 地区分组
   # - { name: 🇭🇰 香港节点, <<: *use, filter: "(?i)港|hk|hongkong|hong kong" }
   - {
-      name: 香港节点,
+      name: HongKong,
       type: url-test,
       include-all-providers: true,
       filter: "(?i)港|hk",
       lazy: true,
     }
   - {
-      name: 台湾节点,
+      name: TaiWan,
       type: select,
       include-all-providers: true,
       filter: "(?i)台|tw",
       disable-udp: true,
     }
   - {
-      name: 日本节点,
+      name: Japan,
       type: url-test,
       include-all-providers: true,
       filter: "(?i)日|jp",
@@ -142,14 +142,14 @@ proxy-groups:
       lazy: true,
     }
   - {
-      name: 新加坡节点,
+      name: Singapore,
       type: url-test,
       include-all-providers: true,
       filter: "(?i)(新|sg)",
       lazy: true,
     }
   - {
-      name: 美国节点,
+      name: USA,
       type: url-test,
       include-all-providers: true,
       filter: "(?i)美|us",
