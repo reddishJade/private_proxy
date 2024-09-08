@@ -270,6 +270,14 @@ rule-providers:
     url: "https://github.com/DustinWin/ruleset_geodata/releases/download/clash-ruleset/fakeip-filter.mrs"
     interval: 86400
 
+  AWAvenue:
+    type: http
+    behavior: domain
+    format: yaml
+    path: ./rules/AWAvenue.yaml
+    url: "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main//Filters/AWAvenue-Ads-Rule-Clash.yaml"
+    interval: 60480
+
   ads:
     type: http
     behavior: domain
@@ -332,6 +340,14 @@ rule-providers:
     format: mrs
     path: ./rules/ai.mrs
     url: "https://github.com/DustinWin/ruleset_geodata/releases/download/clash-ruleset/ai.mrs"
+    interval: 86400
+
+  networktest:
+    type: http
+    behavior: classical
+    format: text
+    path: ./rules/networktest.list
+    url: "https://github.com/DustinWin/ruleset_geodata/releases/download/clash-ruleset/networktest.list"
     interval: 86400
 
   Samsung:
@@ -403,9 +419,11 @@ rule-providers:
     interval: 86400
 
 rules:
-  - RULE-SET,ads,REJECT
+  - RULE-SET,AWAvenue,REJECT
+  # - RULE-SET,ads,REJECT
   - RULE-SET,private,Private
   - RULE-SET,applications,DIRECT
+  - RULE-SET,networktest,DIRECT
   - RULE-SET,ai,AI
   - RULE-SET,apple-cn,Apple
   - RULE-SET,google-cn,Google
