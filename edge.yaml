@@ -420,7 +420,7 @@ rule-providers:
 
 rules:
   - RULE-SET,AWAvenue,REJECT
-  # - RULE-SET,ads,REJECT
+  - RULE-SET,ads,REJECT
   - RULE-SET,private,Private
   - RULE-SET,applications,DIRECT
   - RULE-SET,networktest,DIRECT
