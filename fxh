@@ -104,7 +104,7 @@ proxy-groups:
 
   - { name: AI, type: select, proxies: [日本节点, 香港节点] }
   - { name: Apple, type: select, proxies: [DIRECT, 节点选择] }
-  - { name: CDN, type: select, proxies: [Download, DIRECT] }
+  - { name: CDN, type: select, proxies: [DIRECT, Download] }
   - { name: Domestic, type: select, proxies: [DIRECT, 节点选择] }
   - { name: Global, type: select, proxies: [节点选择, DIRECT] }
   - { name: Microsoft, type: select, proxies: [节点选择, DIRECT] }
