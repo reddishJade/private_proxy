@@ -237,7 +237,7 @@ proxy-groups:
     }
   - {
       name: 新加坡节点,
-      type: url-test,
+      type: selectt,
       include-all-providers: true,
       filter: "(?i)(新|sg)",
       lazy: true,
@@ -245,7 +245,7 @@ proxy-groups:
     }
   - {
       name: 美国节点,
-      type: url-test,
+      type: selectt,
       include-all-providers: true,
       filter: "(?i)美|us",
       lazy: true,
