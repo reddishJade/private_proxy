@@ -29,9 +29,7 @@ external-ui-url: "https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-
 
 profile:
   store-selected: true
-  # 储存 API 对策略组的选择，以供下次启动时使用
   store-fake-ip: true
-  # 储存 fakeip 映射表，域名再次发生连接时，使用原有映射地址
 
 dns:
   enable: true
@@ -99,30 +97,30 @@ tun:
 
 proxy-groups:
   - {
-      name: 节点选择,
+      name: Proxy,
       type: select,
       proxies:
         [
-          自动回退,
-          手动选择,
-          香港节点,
-          台湾节点,
-          日本节点,
-          新加坡节点,
-          美国节点,
-          其它地区,
+          Fallback,
+          Select,
+          HongKong,
+          TaiWan,
+          Japan,
+          Singapore,
+          USA,
+          Others,
           DIRECT,
         ],
       icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Proxy.png,
     }
   - {
-      name: 手动选择,
+      name: Select,
       type: select,
       include-all-providers: true,
       icon: https://fastly.jsdelivr.net/gh/shindgewongxj/WHATSINStash@master/icon/select.png,
     }
   - {
-      name: 自动回退,
+      name: Fallback,
       type: fallback,
       include-all-providers: true,
       filter: "(?i)IEPL",
@@ -131,87 +129,87 @@ proxy-groups:
       icon: https://fastly.jsdelivr.net/gh/shindgewongxj/WHATSINStash@master/icon/fallback.png,
     }
   - {
-      name: 人工智能,
+      name: AI,
       type: select,
-      proxies: [日本节点, 香港节点],
+      proxies: [Japan, HongKong],
       icon: https://fastly.jsdelivr.net/gh/shindgewongxj/WHATSINStash@master/icon/openai.png,
     }
   - {
-      name: 苹果服务,
+      name: Apple,
       type: select,
-      proxies: [DIRECT, 节点选择],
+      proxies: [DIRECT, Proxy],
       icon: https://clash-verge-rev.github.io/assets/icons/apple.svg,
     }
   - {
-      name: 谷歌服务,
+      name: Google,
       type: select,
-      proxies: [DIRECT, 节点选择],
+      proxies: [Proxy, DIRECT],
       icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Google_Search.png,
     }
   - {
-      name: 微软服务,
+      name: Microsoft,
       type: select,
-      proxies: [DIRECT, 节点选择],
+      proxies: [DIRECT, Proxy],
       icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Microsoft.png,
     }
   - {
-      name: 三星服务,
+      name: Samsung,
       type: select,
-      proxies: [DIRECT, 节点选择],
+      proxies: [Proxy, DIRECT],
       icon: https://upload.wikimedia.org/wikipedia/commons/f/f6/Samsung_icon.svg,
     }
   - {
-      name: 电报消息,
+      name: Telegram,
       type: select,
-      proxies: [节点选择, 手动选择],
+      proxies: [Proxy, Select],
       icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Telegram.png,
     }
   - {
-      name: 游戏服务,
+      name: Game,
       type: select,
-      proxies: [DIRECT, 节点选择],
+      proxies: [DIRECT, Proxy],
       icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Game.png,
     }
   - {
-      name: 媒体服务,
+      name: Streaming,
       type: select,
-      proxies: [节点选择, DIRECT, 香港节点, 美国节点],
+      proxies: [Proxy, DIRECT, HongKong, USA],
       icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/YouTube.png,
     }
   - {
-      name: 音乐服务,
+      name: Music,
       type: select,
-      proxies: [节点选择, DIRECT, 香港节点, 美国节点],
+      proxies: [Proxy, DIRECT, HongKong, USA],
       icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Spotify.png,
     }
   - {
-      name: 代理域名,
+      name: Global,
       type: select,
-      proxies: [节点选择, DIRECT],
+      proxies: [Proxy, DIRECT],
       icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Global.png,
     }
   - {
-      name: 直连域名,
+      name: Domestic,
       type: select,
-      proxies: [DIRECT, 节点选择],
+      proxies: [DIRECT, Proxy],
       icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Domestic.png,
     }
   - {
-      name: 私有网络,
+      name: Private,
       type: select,
-      proxies: [DIRECT, 节点选择],
+      proxies: [DIRECT, Proxy],
       icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Lock.png,
     }
   - {
-      name: 漏网之鱼,
+      name: Final,
       type: select,
-      proxies: [节点选择, DIRECT],
+      proxies: [Proxy, DIRECT],
       icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Final.png,
     }
   # 地区分组
   # - { name: 🇭🇰 香港节点, <<: *use, filter: "(?i)港|hk|hongkong|hong kong" }
   - {
-      name: 香港节点,
+      name: HongKong,
       type: url-test,
       include-all-providers: true,
       filter: "(?i)港|hk",
@@ -219,7 +217,7 @@ proxy-groups:
       icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Hong_Kong.png,
     }
   - {
-      name: 台湾节点,
+      name: TaiWan,
       type: select,
       include-all-providers: true,
       filter: "(?i)台|tw",
@@ -227,7 +225,7 @@ proxy-groups:
       icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Taiwan.png,
     }
   - {
-      name: 日本节点,
+      name: Japan,
       type: url-test,
       include-all-providers: true,
       filter: "(?i)日|jp",
@@ -236,7 +234,7 @@ proxy-groups:
       icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Japan.png,
     }
   - {
-      name: 新加坡节点,
+      name: Singapore,
       type: select,
       include-all-providers: true,
       filter: "(?i)(新|sg)",
@@ -244,7 +242,7 @@ proxy-groups:
       icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Singapore.png,
     }
   - {
-      name: 美国节点,
+      name: USA,
       type: select,
       include-all-providers: true,
       filter: "(?i)美|us",
@@ -252,7 +250,7 @@ proxy-groups:
       icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/United_States.png,
     }
   - {
-      name: 其它地区,
+      name: Others,
       type: select,
       include-all-providers: true,
       filter: "(?i)^(?!.*(?:🇭🇰|🇯🇵|🇺🇸|🇸🇬|🇨🇳|港|hk|hongkong|台|tw|taiwan|日|jp|japan|新|sg|singapore|美|us|unitedstates)).*",
@@ -269,14 +267,6 @@ rule-providers:
     path: ./rules/fakeip-filter.mrs
     url: "https://github.com/DustinWin/ruleset_geodata/releases/download/clash-ruleset/fakeip-filter.mrs"
     interval: 86400
-
-  AWAvenue:
-    type: http
-    behavior: domain
-    format: yaml
-    path: ./rules/AWAvenue.yaml
-    url: "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main//Filters/AWAvenue-Ads-Rule-Clash.yaml"
-    interval: 60480
 
   ads:
     type: http
@@ -419,23 +409,22 @@ rule-providers:
     interval: 86400
 
 rules:
-  - RULE-SET,AWAvenue,REJECT
   - RULE-SET,ads,REJECT
-  - RULE-SET,private,私有网络
+  - RULE-SET,private,Private
   - RULE-SET,applications,DIRECT
   - RULE-SET,networktest,DIRECT
-  - RULE-SET,ai,人工智能
-  - RULE-SET,apple-cn,苹果服务
-  - RULE-SET,google-cn,谷歌服务
-  - RULE-SET,microsoft-cn,微软服务
-  - RULE-SET,Samsung,三星服务
-  - RULE-SET,games-cn,游戏服务
-  - RULE-SET,Spotify,音乐服务
-  - RULE-SET,Tidal,音乐服务
-  - RULE-SET,Streaming,媒体服务
-  - RULE-SET,proxy,代理域名
-  - RULE-SET,cn,直连域名
-  - RULE-SET,telegramip,电报消息,no-resolve
-  - RULE-SET,privateip,私有网络,no-resolve
-  - RULE-SET,cnip,直连域名
-  - MATCH,漏网之鱼
+  - RULE-SET,ai,AI
+  - RULE-SET,apple-cn,Apple
+  - RULE-SET,google-cn,Google
+  - RULE-SET,microsoft-cn,Microsoft
+  - RULE-SET,Samsung,Samsung
+  - RULE-SET,games-cn,Game
+  - RULE-SET,Spotify,Music
+  - RULE-SET,Tidal,Music
+  - RULE-SET,Streaming,Streaming
+  - RULE-SET,proxy,Global
+  - RULE-SET,cn,Domestic
+  - RULE-SET,telegramip,Telegram,no-resolve
+  - RULE-SET,privateip,Private,no-resolve
+  - RULE-SET,cnip,Domestic
+  - MATCH,Final
