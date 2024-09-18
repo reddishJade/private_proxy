@@ -1,6 +1,6 @@
 proxy-providers:
   iKuuu:
-    url: "https://0m8o1.no-mad-world.club/link/IfcsbApFztIF7bVo?clash=3"
+    url: "https://jgdxx.no-mad-world.club/link/IfcsbApFztIF7bVo?clash=3&extend=1"
     type: http
     exclude-filter: "免费"
     interval: 86400
@@ -131,79 +131,79 @@ proxy-groups:
       icon: https://fastly.jsdelivr.net/gh/shindgewongxj/WHATSINStash@master/icon/fallback.png,
     }
   - {
-      name: AI,
+      name: 人工智能,
       type: select,
       proxies: [日本节点, 香港节点],
       icon: https://fastly.jsdelivr.net/gh/shindgewongxj/WHATSINStash@master/icon/openai.png,
     }
   - {
-      name: Apple,
+      name: 苹果服务,
       type: select,
       proxies: [DIRECT, 节点选择],
       icon: https://clash-verge-rev.github.io/assets/icons/apple.svg,
     }
   - {
-      name: Google,
+      name: 谷歌服务,
       type: select,
-      proxies: [节点选择, 美国节点],
+      proxies: [DIRECT, 节点选择],
       icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Google_Search.png,
     }
   - {
-      name: Microsoft,
+      name: 微软服务,
       type: select,
-      proxies: [节点选择, DIRECT],
+      proxies: [DIRECT, 节点选择],
       icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Microsoft.png,
     }
   - {
-      name: Samsung,
+      name: 三星服务,
       type: select,
       proxies: [DIRECT, 节点选择],
       icon: https://upload.wikimedia.org/wikipedia/commons/f/f6/Samsung_icon.svg,
     }
   - {
-      name: Telegram,
+      name: 电报消息,
       type: select,
       proxies: [节点选择, 手动选择],
       icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Telegram.png,
     }
   - {
-      name: Game,
+      name: 游戏服务,
       type: select,
       proxies: [DIRECT, 节点选择],
       icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Game.png,
     }
   - {
-      name: Streaming,
+      name: 媒体服务,
       type: select,
       proxies: [节点选择, DIRECT, 香港节点, 美国节点],
       icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/YouTube.png,
     }
   - {
-      name: Music,
+      name: 音乐服务,
       type: select,
       proxies: [节点选择, DIRECT, 香港节点, 美国节点],
       icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Spotify.png,
     }
   - {
-      name: Global,
+      name: 代理域名,
       type: select,
       proxies: [节点选择, DIRECT],
       icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Global.png,
     }
   - {
-      name: Domestic,
+      name: 直连域名,
       type: select,
       proxies: [DIRECT, 节点选择],
       icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Domestic.png,
     }
   - {
-      name: Private,
+      name: 私有网络,
       type: select,
       proxies: [DIRECT, 节点选择],
       icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Lock.png,
     }
   - {
-      name: Final,
+      name: 漏网之鱼,
       type: select,
       proxies: [节点选择, DIRECT],
       icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Final.png,
@@ -421,21 +421,21 @@ rule-providers:
 rules:
   - RULE-SET,AWAvenue,REJECT
   - RULE-SET,ads,REJECT
-  - RULE-SET,private,Private
+  - RULE-SET,private,私有网络
   - RULE-SET,applications,DIRECT
   - RULE-SET,networktest,DIRECT
-  - RULE-SET,ai,AI
-  - RULE-SET,apple-cn,Apple
-  - RULE-SET,google-cn,Google
-  - RULE-SET,microsoft-cn,Microsoft
-  - RULE-SET,Samsung,Samsung
-  - RULE-SET,games-cn,Game
-  - RULE-SET,Spotify,Music
-  - RULE-SET,Tidal,Music
-  - RULE-SET,Streaming,Streaming
-  - RULE-SET,proxy,Global
-  - RULE-SET,cn,Domestic
-  - RULE-SET,telegramip,Telegram,no-resolve
-  - RULE-SET,privateip,Private,no-resolve
-  - RULE-SET,cnip,Domestic
-  - MATCH,Final
+  - RULE-SET,ai,人工智能
+  - RULE-SET,apple-cn,苹果服务
+  - RULE-SET,google-cn,谷歌服务
+  - RULE-SET,microsoft-cn,微软服务
+  - RULE-SET,Samsung,三星服务
+  - RULE-SET,games-cn,游戏服务
+  - RULE-SET,Spotify,音乐服务
+  - RULE-SET,Tidal,音乐服务
+  - RULE-SET,Streaming,媒体服务
+  - RULE-SET,proxy,代理域名
+  - RULE-SET,cn,直连域名
+  - RULE-SET,telegramip,电报消息,no-resolve
+  - RULE-SET,privateip,私有网络,no-resolve
+  - RULE-SET,cnip,直连域名
+  - MATCH,漏网之鱼
