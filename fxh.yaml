@@ -39,19 +39,6 @@ dns:
     - https://doh.pub/dns-query
     - https://dns.alidns.com/dns-query
 
-hosts:
-  "mtalk.google.com": 142.250.157.188
-  "alt1-mtalk.google.com": 142.250.157.188
-  "alt2-mtalk.google.com": 142.250.115.188
-  "alt3-mtalk.google.com": 108.177.97.188
-  "alt4-mtalk.google.com": 173.194.202.188
-  "alt5-mtalk.google.com": 142.250.141.188
-  "alt6-mtalk.google.com": 142.250.115.188
-  "alt7-mtalk.google.com": 142.250.141.188
-  "alt8-mtalk.google.com": 142.250.152.188
-  "dl.google.com": 180.163.151.161
-  "dl.l.google.com": 180.163.150.33
-
 sniffer:
   enable: true
   sniff:
@@ -77,7 +64,7 @@ tun:
 
 proxy-groups:
   - {
-      name: 代理选择,
+      name: 节点选择,
       type: select,
       proxies:
         [
@@ -101,21 +88,6 @@ proxy-groups:
       tolerance: 10,
       lazy: true,
     }
-
-  - { name: AI服务, type: select, proxies: [日本节点, 香港节点] }
-  - { name: 苹果服务, type: select, proxies: [DIRECT, 代理选择] }
-  - { name: 微软服务, type: select, proxies: [代理选择, DIRECT] }
-  - { name: CDN, type: select, proxies: [DIRECT, Download] }
-  - { name: 国内网站, type: select, proxies: [DIRECT, 代理选择] }
-  - { name: 国外网站, type: select, proxies: [代理选择, DIRECT] }
-  - { name: 网易云音乐, type: select, proxies: [DIRECT] }
-  - {
-      name: 流媒体,
-      type: select,
-      proxies: [代理选择, DIRECT, 香港节点, 美国节点],
-    }
-  - { name: 电报, type: select, proxies: [代理选择, 手动选择] }
-  - { name: 漏网之鱼, type: select, proxies: [代理选择, DIRECT] }
 
   # 地区分组
   # - { name: 🇭🇰 香港节点, <<: *use, filter: "(?i)港|hk|hongkong|hong kong" }
@@ -155,270 +127,111 @@ proxy-groups:
       filter: "(?i)美|us",
       lazy: true,
     }
-  - {
-      name: Download,
-      type: url-test,
-      include-all-providers: true,
-      filter: "(?i)下载",
-      lazy: true,
-    }
 
 rule-providers:
-  # 广告拦截 / 隐私保护 / Malware 拦截 / Phiishing 拦截
-  reject_non_ip_no_drop:
-    type: http
-    behavior: classical
-    format: text
-    interval: 43200
-    url: https://ruleset.skk.moe/Clash/non_ip/reject-no-drop.txt
-    path: ./sukkaw_ruleset/reject_non_ip_no_drop.txt
-  reject_non_ip_drop:
-    type: http
-    behavior: classical
-    format: text
-    interval: 43200
-    url: https://ruleset.skk.moe/Clash/non_ip/reject-drop.txt
-    path: ./sukkaw_ruleset/reject_non_ip_drop.txt
-  reject_non_ip:
-    type: http
-    behavior: classical
-    format: text
-    interval: 43200
-    url: https://ruleset.skk.moe/Clash/non_ip/reject.txt
-    path: ./sukkaw_ruleset/reject_non_ip.txt
-  reject_domainset:
+  reject:
     type: http
     behavior: domain
-    format: text
-    interval: 43200
-    url: https://ruleset.skk.moe/Clash/domainset/reject.txt
-    path: ./sukkaw_ruleset/reject_domainset.txt
-  reject_ip:
-    type: http
-    behavior: classical
-    format: text
-    interval: 43200
-    url: https://ruleset.skk.moe/Clash/ip/reject.txt
-    path: ./sukkaw_ruleset/reject_ip.txt
-  # 包含所有常见静态资源 CDN 域名、对象存储域名
-  cdn_domainset:
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/reject.txt"
+    path: ./ruleset/reject.yaml
+    interval: 86400
+
+  icloud:
     type: http
     behavior: domain
-    format: text
-    interval: 43200
-    url: https://ruleset.skk.moe/Clash/domainset/cdn.txt
-    path: ./sukkaw_ruleset/cdn_domainset.txt
-  cdn_non_ip:
-    type: http
-    behavior: classical
-    format: text
-    interval: 43200
-    url: https://ruleset.skk.moe/Clash/non_ip/cdn.txt
-    path: ./sukkaw_ruleset/cdn_non_ip.txt
-  # 流媒体
-  stream_non_ip:
-    type: http
-    behavior: classical
-    format: text
-    interval: 43200
-    url: https://ruleset.skk.moe/Clash/non_ip/stream.txt
-    path: ./sukkaw_ruleset/stream_non_ip.txt
-  stream_ip:
-    type: http
-    behavior: classical
-    format: text
-    interval: 43200
-    url: https://ruleset.skk.moe/Clash/ip/stream.txt
-    path: ./sukkaw_ruleset/stream_ip.txt
-  # AI服务
-  ai_non_ip:
-    type: http
-    behavior: classical
-    format: text
-    interval: 43200
-    url: https://ruleset.skk.moe/Clash/non_ip/ai.txt
-    path: ./sukkaw_ruleset/ai_non_ip.txt
-  # 电报服务
-  telegram_non_ip:
-    type: http
-    behavior: classical
-    format: text
-    interval: 43200
-    url: https://ruleset.skk.moe/Clash/non_ip/telegram.txt
-    path: ./sukkaw_ruleset/telegram_non_ip.txt
-  telegram_ip:
-    type: http
-    behavior: classical
-    format: text
-    interval: 43200
-    url: https://ruleset.skk.moe/Clash/ip/telegram.txt
-    path: ./sukkaw_ruleset/telegram_ip.txt
-  # 规则组包含 Apple, Inc. 在中华人民共和国完成工信部 ICP 备案和公安网备、且在中华人民共和国境内提供 HTTP 服务的域名
-  apple_cdn:
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/icloud.txt"
+    path: ./ruleset/icloud.yaml
+    interval: 86400
+
+  apple:
     type: http
     behavior: domain
-    format: text
-    interval: 43200
-    url: https://ruleset.skk.moe/Clash/domainset/apple_cdn.txt
-    path: ./sukkaw_ruleset/apple_cdn.txt
-  # Apple服务
-  apple_services:
-    type: http
-    behavior: classical
-    format: text
-    interval: 43200
-    url: https://ruleset.skk.moe/Clash/non_ip/apple_services.txt
-    path: ./sukkaw_ruleset/apple_services.txt
-  # 云上贵州（icloud.com.cn）和 苹果地图大陆特供版 等服务的域名。
-  apple_cn_non_ip:
-    type: http
-    behavior: classical
-    format: text
-    interval: 43200
-    url: https://ruleset.skk.moe/Clash/non_ip/apple_cn.txt
-    path: ./sukkaw_ruleset/apple_cn_non_ip.txt
-  # 规则组包含 Microsoft 在中华人民共和国完成工信部 ICP 备案和公安网备、且在中华人民共和国境内提供 HTTP 服务的域名
-  microsoft_cdn_non_ip:
-    type: http
-    behavior: classical
-    format: text
-    interval: 43200
-    url: https://ruleset.skk.moe/Clash/non_ip/microsoft_cdn.txt
-    path: ./sukkaw_ruleset/microsoft_cdn_non_ip.txt
-  # 微软服务
-  microsoft_non_ip:
-    type: http
-    behavior: classical
-    format: text
-    interval: 43200
-    url: https://ruleset.skk.moe/Clash/non_ip/microsoft.txt
-    path: ./sukkaw_ruleset/microsoft_non_ip.txt
-  # 网易云音乐
-  neteasemusic_non_ip:
-    type: http
-    behavior: classical
-    format: text
-    interval: 43200
-    url: https://ruleset.skk.moe/Clash/non_ip/neteasemusic.txt
-    path: ./sukkaw_ruleset/neteasemusic_non_ip.txt
-  neteasemusic_ip:
-    type: http
-    behavior: classical
-    format: text
-    interval: 43200
-    url: https://ruleset.skk.moe/Clash/ip/neteasemusic.txt
-    path: ./sukkaw_ruleset/neteasemusic_ip.txt
-  # 软件更新、操作系统等大文件下载
-  download_domainset:
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/apple.txt"
+    path: ./ruleset/apple.yaml
+    interval: 86400
+
+  google:
     type: http
     behavior: domain
-    format: text
-    interval: 43200
-    url: https://ruleset.skk.moe/Clash/domainset/download.txt
-    path: ./sukkaw_ruleset/download_domainset.txt
-  download_non_ip:
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/google.txt"
+    path: ./ruleset/google.yaml
+    interval: 86400
+
+  proxy:
     type: http
-    behavior: classical
-    format: text
-    interval: 43200
-    url: https://ruleset.skk.moe/Clash/non_ip/download.txt
-    path: ./sukkaw_ruleset/download_non_ip.txt
-  # 内网域名和局域网 IP
-  lan_non_ip:
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/proxy.txt"
+    path: ./ruleset/proxy.yaml
+    interval: 86400
+
+  direct:
     type: http
-    behavior: classical
-    format: text
-    interval: 43200
-    url: https://ruleset.skk.moe/Clash/non_ip/lan.txt
-    path: ./sukkaw_ruleset/lan_non_ip.txt
-  lan_ip:
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/direct.txt"
+    path: ./ruleset/direct.yaml
+    interval: 86400
+
+  private:
     type: http
-    behavior: classical
-    format: text
-    interval: 43200
-    url: https://ruleset.skk.moe/Clash/ip/lan.txt
-    path: ./sukkaw_ruleset/lan_ip.txt
-  # 其他网站
-  domestic_non_ip:
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/private.txt"
+    path: ./ruleset/private.yaml
+    interval: 86400
+
+  gfw:
     type: http
-    behavior: classical
-    format: text
-    interval: 43200
-    url: https://ruleset.skk.moe/Clash/non_ip/domestic.txt
-    path: ./sukkaw_ruleset/domestic_non_ip.txt
-  direct_non_ip:
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/gfw.txt"
+    path: ./ruleset/gfw.yaml
+    interval: 86400
+
+  tld-not-cn:
     type: http
-    behavior: classical
-    format: text
-    interval: 43200
-    url: https://ruleset.skk.moe/Clash/non_ip/direct.txt
-    path: ./sukkaw_ruleset/direct_non_ip.txt
-  global_non_ip:
-    type: http
-    behavior: classical
-    format: text
-    interval: 43200
-    url: https://ruleset.skk.moe/Clash/non_ip/global.txt
-    path: ./sukkaw_ruleset/global_non_ip.txt
-  domestic_ip:
-    type: http
-    behavior: classical
-    format: text
-    interval: 43200
-    url: https://ruleset.skk.moe/Clash/ip/domestic.txt
-    path: ./sukkaw_ruleset/domestic_ip.txt
-  # chnroute CIDR
-  # 补充合并了 Misaka Network, Inc. 收不到 BGP 路由的部分国内段、排除了被 Misaka Network, Inc. 误收的在香港广播的 IP 段（通常由 中国移动国际 CMI 广播）
-  china_ip:
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/tld-not-cn.txt"
+    path: ./ruleset/tld-not-cn.yaml
+    interval: 86400
+
+  telegramcidr:
     type: http
     behavior: ipcidr
-    format: text
-    interval: 43200
-    url: https://ruleset.skk.moe/Clash/ip/china_ip.txt
-    path: ./sukkaw_ruleset/china_ip.txt
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/telegramcidr.txt"
+    path: ./ruleset/telegramcidr.yaml
+    interval: 86400
+
+  cncidr:
+    type: http
+    behavior: ipcidr
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/cncidr.txt"
+    path: ./ruleset/cncidr.yaml
+    interval: 86400
+
+  lancidr:
+    type: http
+    behavior: ipcidr
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/lancidr.txt"
+    path: ./ruleset/lancidr.yaml
+    interval: 86400
+
+  applications:
+    type: http
+    behavior: classical
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/applications.txt"
+    path: ./ruleset/applications.yaml
+    interval: 86400
 
 rules:
-  # Reject rules
-  - RULE-SET,reject_domainset,REJECT
-  - RULE-SET,reject_non_ip,REJECT
-  - RULE-SET,reject_non_ip_drop,REJECT-DROP
-  - RULE-SET,reject_non_ip_no_drop,REJECT
-  - RULE-SET,reject_ip,REJECT
-  # CDN rules
-  - RULE-SET,cdn_domainset,CDN
-  - RULE-SET,cdn_non_ip,CDN
-  # Streaming services
-  - DOMAIN-SUFFIX,misakaf.org,流媒体
-  - RULE-SET,stream_non_ip,流媒体
-  # AI services
-  - RULE-SET,ai_non_ip,AI服务
-  # Telegram
-  - RULE-SET,telegram_non_ip,电报
-  # Apple services
-  - RULE-SET,apple_cdn,苹果服务
-  - RULE-SET,apple_services,苹果服务
-  - RULE-SET,apple_cn_non_ip,苹果服务
-  # Microsoft services
-  - RULE-SET,microsoft_cdn_non_ip,微软服务
-  - RULE-SET,microsoft_non_ip,微软服务
-  # NetEase Music
-  - RULE-SET,neteasemusic_non_ip,网易云音乐
-  # Download
-  - RULE-SET,download_domainset,CDN
-  - RULE-SET,download_non_ip,CDN
-  # LAN
-  - RULE-SET,lan_non_ip,DIRECT
-  # Misc rules
-  - RULE-SET,domestic_non_ip,国内网站
-  - RULE-SET,direct_non_ip,DIRECT
-  - RULE-SET,global_non_ip,国外网站
-  # IP rules
-  - RULE-SET,stream_ip,流媒体
-  - RULE-SET,telegram_ip,电报
-  - RULE-SET,neteasemusic_ip,网易云音乐
-  - RULE-SET,lan_ip,DIRECT
-  - RULE-SET,domestic_ip,国内网站
-  - RULE-SET,china_ip,国内网站
-  # Final rules
-  - GEOIP,CN,国内网站
-  - MATCH,漏网之鱼
+  - RULE-SET,applications,DIRECT
+  - RULE-SET,private,DIRECT
+  - RULE-SET,reject,REJECT
+  - RULE-SET,icloud,DIRECT
+  - RULE-SET,apple,DIRECT
+  - RULE-SET,google,节点选择
+  - RULE-SET,proxy,节点选择
+  - RULE-SET,direct,DIRECT
+  - RULE-SET,lancidr,DIRECT
+  - RULE-SET,cncidr,DIRECT
+  - RULE-SET,telegramcidr,节点选择
+  - GEOIP,LAN,DIRECT
+  - GEOIP,CN,DIRECT
+  - MATCH,节点选择
