@@ -103,19 +103,19 @@ proxy-groups:
     }
 
   - { name: AI服务, type: select, proxies: [日本节点, 香港节点] }
-  - { name: 苹果服务, type: select, proxies: [DIRECT, 节点选择] }
-  - { name: 微软服务, type: select, proxies: [节点选择, DIRECT] }
+  - { name: 苹果服务, type: select, proxies: [DIRECT, 代理选择] }
+  - { name: 微软服务, type: select, proxies: [代理选择, DIRECT] }
   - { name: CDN, type: select, proxies: [DIRECT, Download] }
-  - { name: 国内网站, type: select, proxies: [DIRECT, 节点选择] }
-  - { name: 国外网站, type: select, proxies: [节点选择, DIRECT] }
+  - { name: 国内网站, type: select, proxies: [DIRECT, 代理选择] }
+  - { name: 国外网站, type: select, proxies: [代理选择, DIRECT] }
   - { name: 网易云音乐, type: select, proxies: [DIRECT] }
   - {
       name: 流媒体,
       type: select,
-      proxies: [节点选择, DIRECT, 香港节点, 美国节点],
+      proxies: [代理选择, DIRECT, 香港节点, 美国节点],
     }
-  - { name: 电报, type: select, proxies: [节点选择, 手动选择] }
-  - { name: 漏网之鱼, type: select, proxies: [节点选择, DIRECT] }
+  - { name: 电报, type: select, proxies: [代理选择, 手动选择] }
+  - { name: 漏网之鱼, type: select, proxies: [代理选择, DIRECT] }
 
   # 地区分组
   # - { name: 🇭🇰 香港节点, <<: *use, filter: "(?i)港|hk|hongkong|hong kong" }
