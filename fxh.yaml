@@ -77,7 +77,7 @@ tun:
 
 proxy-groups:
   - {
-      name: 节点选择,
+      name: 代理选择,
       type: select,
       proxies:
         [
@@ -102,20 +102,20 @@ proxy-groups:
       lazy: true,
     }
 
-  - { name: AI, type: select, proxies: [日本节点, 香港节点] }
-  - { name: Apple, type: select, proxies: [DIRECT, 节点选择] }
+  - { name: AI服务, type: select, proxies: [日本节点, 香港节点] }
+  - { name: 苹果服务, type: select, proxies: [DIRECT, 节点选择] }
+  - { name: 微软服务, type: select, proxies: [节点选择, DIRECT] }
   - { name: CDN, type: select, proxies: [DIRECT, Download] }
-  - { name: Domestic, type: select, proxies: [DIRECT, 节点选择] }
-  - { name: Global, type: select, proxies: [节点选择, DIRECT] }
-  - { name: Microsoft, type: select, proxies: [节点选择, DIRECT] }
-  - { name: NetEase Music, type: select, proxies: [DIRECT] }
+  - { name: 国内网站, type: select, proxies: [DIRECT, 节点选择] }
+  - { name: 国外网站, type: select, proxies: [节点选择, DIRECT] }
+  - { name: 网易云音乐, type: select, proxies: [DIRECT] }
   - {
-      name: Streaming,
+      name: 流媒体,
       type: select,
       proxies: [节点选择, DIRECT, 香港节点, 美国节点],
     }
-  - { name: Telegram, type: select, proxies: [节点选择, 手动选择] }
-  - { name: Final, type: select, proxies: [节点选择, DIRECT] }
+  - { name: 电报, type: select, proxies: [节点选择, 手动选择] }
+  - { name: 漏网之鱼, type: select, proxies: [节点选择, DIRECT] }
 
   # 地区分组
   # - { name: 🇭🇰 香港节点, <<: *use, filter: "(?i)港|hk|hongkong|hong kong" }
@@ -388,37 +388,37 @@ rules:
   - RULE-SET,cdn_domainset,CDN
   - RULE-SET,cdn_non_ip,CDN
   # Streaming services
-  - DOMAIN-SUFFIX,misakaf.org,Streaming
-  - RULE-SET,stream_non_ip,Streaming
+  - DOMAIN-SUFFIX,misakaf.org,流媒体
+  - RULE-SET,stream_non_ip,流媒体
   # AI services
-  - RULE-SET,ai_non_ip,AI
+  - RULE-SET,ai_non_ip,AI服务
   # Telegram
-  - RULE-SET,telegram_non_ip,Telegram
+  - RULE-SET,telegram_non_ip,电报
   # Apple services
-  - RULE-SET,apple_cdn,Domestic
-  - RULE-SET,apple_services,Apple
-  - RULE-SET,apple_cn_non_ip,Domestic
+  - RULE-SET,apple_cdn,苹果服务
+  - RULE-SET,apple_services,苹果服务
+  - RULE-SET,apple_cn_non_ip,苹果服务
   # Microsoft services
-  - RULE-SET,microsoft_cdn_non_ip,Domestic
-  - RULE-SET,microsoft_non_ip,Microsoft
+  - RULE-SET,microsoft_cdn_non_ip,微软服务
+  - RULE-SET,microsoft_non_ip,微软服务
   # NetEase Music
-  - RULE-SET,neteasemusic_non_ip,NetEase Music
+  - RULE-SET,neteasemusic_non_ip,网易云音乐
   # Download
   - RULE-SET,download_domainset,CDN
   - RULE-SET,download_non_ip,CDN
   # LAN
   - RULE-SET,lan_non_ip,DIRECT
   # Misc rules
-  - RULE-SET,domestic_non_ip,Domestic
+  - RULE-SET,domestic_non_ip,国内网站
   - RULE-SET,direct_non_ip,DIRECT
-  - RULE-SET,global_non_ip,Global
+  - RULE-SET,global_non_ip,国外网站
   # IP rules
-  - RULE-SET,stream_ip,Streaming
-  - RULE-SET,telegram_ip,Telegram
-  - RULE-SET,neteasemusic_ip,NetEase Music
+  - RULE-SET,stream_ip,流媒体
+  - RULE-SET,telegram_ip,电报
+  - RULE-SET,neteasemusic_ip,网易云音乐
   - RULE-SET,lan_ip,DIRECT
-  - RULE-SET,domestic_ip,Domestic
-  - RULE-SET,china_ip,Domestic
+  - RULE-SET,domestic_ip,国内网站
+  - RULE-SET,china_ip,国内网站
   # Final rules
-  - GEOIP,CN,Domestic
-  - MATCH,Final
+  - GEOIP,CN,国内网站
+  - MATCH,漏网之鱼
