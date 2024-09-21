@@ -80,19 +80,16 @@ proxy-groups:
       name: Proxy,
       type: select,
       proxies:
-        [
-          Fallback,
-          Select,
-          HongKong,
-          TaiWan,
-          Japan,
-          Singapore,
-          USA,
-          DIRECT,
-        ],
+        [Fallback, Select, HongKong, TaiWan, Japan, Singapore, USA, DIRECT],
+      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Proxy.png,
     }
 
-  - { name: Select, type: select, include-all-providers: true }
+  - {
+      name: Select,
+      type: select,
+      include-all-providers: true,
+      icon: https://fastly.jsdelivr.net/gh/shindgewongxj/WHATSINStash@master/icon/select.png,
+    }
   - {
       name: Fallback,
       type: fallback,
@@ -100,31 +97,87 @@ proxy-groups:
       filter: "(?i)IEPL",
       tolerance: 10,
       lazy: true,
+      icon: https://fastly.jsdelivr.net/gh/shindgewongxj/WHATSINStash@master/icon/fallback.png,
     }
 
-  - { name: AI, type: select, proxies: [Japan, HongKong] }
-  - { name: Apple, type: select, proxies: [Proxy, DIRECT] }
-  - { name: CDN, type: select, proxies: [Download, DIRECT] }
-  - { name: Domestic, type: select, proxies: [DIRECT, Proxy] }
-  - { name: Global, type: select, proxies: [Proxy, DIRECT] }
-  - { name: Microsoft, type: select, proxies: [Proxy, DIRECT] }
-  - { name: NetEase Music, type: select, proxies: [DIRECT] }
+  - {
+      name: AI,
+      type: select,
+      proxies: [Japan, HongKong],
+      icon: https://fastly.jsdelivr.net/gh/shindgewongxj/WHATSINStash@master/icon/openai.png,
+    }
+  - {
+      name: Apple,
+      type: select,
+      proxies: [Proxy, DIRECT],
+      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Apple.png,
+    }
+  - {
+      name: CDN,
+      type: select,
+      proxies: [Download, DIRECT],
+      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Speedtest.png,
+    }
+  - {
+      name: Download,
+      type: url-test,
+      include-all-providers: true,
+      filter: "(?i)下载",
+      lazy: true,
+      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Download.png,
+    }
+  - {
+      name: Microsoft,
+      type: select,
+      proxies: [Proxy, DIRECT],
+      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Microsoft.png,
+    }
+  - {
+      name: Netease_Music,
+      type: select,
+      proxies: [DIRECT],
+      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Netease_Music.png,
+    }
   - {
       name: Streaming,
       type: select,
       proxies: [Proxy, DIRECT, HongKong, USA],
+      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/YouTube.png,
     }
-  - { name: Telegram, type: select, proxies: [Proxy, Select] }
-  - { name: Final, type: select, proxies: [Proxy, DIRECT] }
+  - {
+      name: Telegram,
+      type: select,
+      proxies: [Proxy, Select],
+      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Telegram.png,
+    }
+
+  - {
+      name: Domestic,
+      type: select,
+      proxies: [DIRECT, Proxy],
+      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Domestic.png,
+    }
+  - {
+      name: Global,
+      type: select,
+      proxies: [Proxy, DIRECT],
+      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Global.png,
+    }
+  - {
+      name: Final,
+      type: select,
+      proxies: [Proxy, DIRECT],
+      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Final.png,
+    }
 
   # 地区分组
-  # - { name: 🇭🇰 香港节点, <<: *use, filter: "(?i)港|hk|hongkong|hong kong" }
   - {
       name: HongKong,
       type: url-test,
       include-all-providers: true,
       filter: "(?i)港|hk",
       lazy: true,
+      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Hong_Kong.png,
     }
   - {
       name: TaiWan,
@@ -132,6 +185,7 @@ proxy-groups:
       include-all-providers: true,
       filter: "(?i)台|tw",
       disable-udp: true,
+      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Taiwan.png,
     }
   - {
       name: Japan,
@@ -140,6 +194,7 @@ proxy-groups:
       filter: "(?i)日|jp",
       exclude-filter: "下载",
       lazy: true,
+      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Japan.png,
     }
   - {
       name: Singapore,
@@ -147,6 +202,7 @@ proxy-groups:
       include-all-providers: true,
       filter: "(?i)(新|sg)",
       lazy: true,
+      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Singapore.png,
     }
   - {
       name: USA,
@@ -154,13 +210,7 @@ proxy-groups:
       include-all-providers: true,
       filter: "(?i)美|us",
       lazy: true,
-    }
-  - {
-      name: Download,
-      type: url-test,
-      include-all-providers: true,
-      filter: "(?i)下载",
-      lazy: true,
+      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/United_States.png,
     }
 
 rule-providers:
@@ -200,7 +250,12 @@ rule-providers:
     interval: 43200
     url: https://ruleset.skk.moe/Clash/ip/reject.txt
     path: ./sukkaw_ruleset/reject_ip.txt
-  # 包含所有常见静态资源 CDN 域名、对象存储域名
+
+  # Speedtest 测速域名
+  # speedtest.net 测速点通过 Speedtest API 获取数十个常见地区的测速服务器域名
+  # 人工维护 macOS netQuality 等其它测速工具的测速服务器域名
+  # fast.com 测速点和 Netflix CDN 共享基础设施和域名、影响流媒体分流，故不包含在此规则组中
+  # 实现指定使用某网络出口测速、同时不影响通过主要出口正常上网
   cdn_domainset:
     type: http
     behavior: domain
@@ -230,7 +285,8 @@ rule-providers:
     interval: 43200
     url: https://ruleset.skk.moe/Clash/ip/stream.txt
     path: ./sukkaw_ruleset/stream_ip.txt
-  # AI服务
+  # AI
+  # 包含 OpenAI、Google Gemini、Claude、Perplexity 等
   ai_non_ip:
     type: http
     behavior: classical
@@ -238,7 +294,11 @@ rule-providers:
     interval: 43200
     url: https://ruleset.skk.moe/Clash/non_ip/ai.txt
     path: ./sukkaw_ruleset/ai_non_ip.txt
-  # 电报服务
+
+  # Telegram
+  # IP CIDR 规则 自动生成（数据来源：https://core.telegram.org/resources/cidr.txt）
+  # ASN 规则 人工维护
+  # 推荐仅使用 IP CIDR 规则。IP CIDR 规则数据完全来自 Telegram 官方发布的 CIDR 列表，不包含 Telegram 尚未启用的 CDN、数据中心的 IP。 ASN 规则仅适合作为补充；搭配非官方 MaxMind GeoLite 数据库（例如 GeoIP2-CN）使用时会影响匹配。
   telegram_non_ip:
     type: http
     behavior: classical
@@ -253,7 +313,10 @@ rule-providers:
     interval: 43200
     url: https://ruleset.skk.moe/Clash/ip/telegram.txt
     path: ./sukkaw_ruleset/telegram_ip.txt
-  # 规则组包含 Apple, Inc. 在中华人民共和国完成工信部 ICP 备案和公安网备、且在中华人民共和国境内提供 HTTP 服务的域名
+
+  # Apple CDN
+  # 自动生成
+  # 规则组包含 Apple, Inc. 在中华人民共和国完成工信部 ICP 备案和公安网备、且在中华人民共和国境内提供 HTTP 服务的域名，如果由于某些原因需要代理其中部分域名，请自行针对域名编写规则、并添加到当前规则组之前。
   apple_cdn:
     type: http
     behavior: domain
@@ -261,7 +324,8 @@ rule-providers:
     interval: 43200
     url: https://ruleset.skk.moe/Clash/domainset/apple_cdn.txt
     path: ./sukkaw_ruleset/apple_cdn.txt
-  # Apple服务
+
+  # Apple Service
   apple_services:
     type: http
     behavior: classical
@@ -269,6 +333,7 @@ rule-providers:
     interval: 43200
     url: https://ruleset.skk.moe/Clash/non_ip/apple_services.txt
     path: ./sukkaw_ruleset/apple_services.txt
+  # Apple CN
   # 云上贵州（icloud.com.cn）和 苹果地图大陆特供版 等服务的域名。
   apple_cn_non_ip:
     type: http
@@ -277,7 +342,9 @@ rule-providers:
     interval: 43200
     url: https://ruleset.skk.moe/Clash/non_ip/apple_cn.txt
     path: ./sukkaw_ruleset/apple_cn_non_ip.txt
-  # 规则组包含 Microsoft 在中华人民共和国完成工信部 ICP 备案和公安网备、且在中华人民共和国境内提供 HTTP 服务的域名
+
+  # Microsoft CDN
+  # 规则组包含 Microsoft 在中华人民共和国完成工信部 ICP 备案和公安网备、且在中华人民共和国境内提供 HTTP 服务的域名，如果由于某些原因需要代理其中部分域名，请自行针对域名编写规则、并添加到当前规则组之前。
   microsoft_cdn_non_ip:
     type: http
     behavior: classical
@@ -285,7 +352,7 @@ rule-providers:
     interval: 43200
     url: https://ruleset.skk.moe/Clash/non_ip/microsoft_cdn.txt
     path: ./sukkaw_ruleset/microsoft_cdn_non_ip.txt
-  # 微软服务
+  # Microsoft
   microsoft_non_ip:
     type: http
     behavior: classical
@@ -293,6 +360,7 @@ rule-providers:
     interval: 43200
     url: https://ruleset.skk.moe/Clash/non_ip/microsoft.txt
     path: ./sukkaw_ruleset/microsoft_non_ip.txt
+
   # 网易云音乐
   neteasemusic_non_ip:
     type: http
@@ -308,7 +376,10 @@ rule-providers:
     interval: 43200
     url: https://ruleset.skk.moe/Clash/ip/neteasemusic.txt
     path: ./sukkaw_ruleset/neteasemusic_ip.txt
+
   # 软件更新、操作系统等大文件下载
+  # 这部分域名可能包含 Microsoft 和 Apple 的国内 CDN 节点。你可以使用前文的 Microsoft CDN 和 Apple CDN 规则组、并分配直连策略。
+  # 如果你正在使用商业性质的公共代理服务、且你的服务商提供按低倍率结算流量消耗的节点，可使用上述规则组将流量分配给这部分节点
   download_domainset:
     type: http
     behavior: domain
@@ -323,7 +394,10 @@ rule-providers:
     interval: 43200
     url: https://ruleset.skk.moe/Clash/non_ip/download.txt
     path: ./sukkaw_ruleset/download_non_ip.txt
+
   # 内网域名和局域网 IP
+  # 域名列表包含 .local 和局域网 IP 的 in-addr.arpa 域名（即 AS112 域名）。这部分域名一般会被解析到局域网 IP、需要走内网 DNS 解析、需要直连访问。
+  # Clash 没有内置局域网 IP 规则列表（Surge 内置有局域网 IP 规则列表 LAN），需要手动引入。
   lan_non_ip:
     type: http
     behavior: classical
@@ -338,7 +412,8 @@ rule-providers:
     interval: 43200
     url: https://ruleset.skk.moe/Clash/ip/lan.txt
     path: ./sukkaw_ruleset/lan_ip.txt
-  # 其他网站
+
+  # Misc
   domestic_non_ip:
     type: http
     behavior: classical
@@ -367,8 +442,10 @@ rule-providers:
     interval: 43200
     url: https://ruleset.skk.moe/Clash/ip/domestic.txt
     path: ./sukkaw_ruleset/domestic_ip.txt
+
   # chnroute CIDR
-  # 补充合并了 Misaka Network, Inc. 收不到 BGP 路由的部分国内段、排除了被 Misaka Network, Inc. 误收的在香港广播的 IP 段（通常由 中国移动国际 CMI 广播）
+  # IPv4 原始数据 由 Misaka Network, Inc. 以 CC BY-SA 2.0 协议发布，二次处理补充合并了 Misaka Network, Inc. 收不到 BGP 路由的部分国内段、排除了被 Misaka Network, Inc. 误收的在香港广播的 IP 段（通常由 中国移动国际 CMI 广播）
+  # IPv6 原始数据 由 gaoyifan/china-operator-ip 以 MIT 协议发布
   china_ip:
     type: http
     behavior: ipcidr
@@ -376,6 +453,13 @@ rule-providers:
     interval: 43200
     url: https://ruleset.skk.moe/Clash/ip/china_ip.txt
     path: ./sukkaw_ruleset/china_ip.txt
+  china_ip_ipv6:
+    type: http
+    behavior: ipcidr
+    format: text
+    interval: 43200
+    url: https://ruleset.skk.moe/Clash/ip/china_ip_ipv6.txt
+    path: ./sukkaw_ruleset/china_ipv6.txt
 
 rules:
   # Reject rules
@@ -383,7 +467,6 @@ rules:
   - RULE-SET,reject_non_ip,REJECT
   - RULE-SET,reject_non_ip_drop,REJECT-DROP
   - RULE-SET,reject_non_ip_no_drop,REJECT
-  - RULE-SET,reject_ip,REJECT
   # CDN rules
   - RULE-SET,cdn_domainset,CDN
   - RULE-SET,cdn_non_ip,CDN
@@ -402,7 +485,7 @@ rules:
   - RULE-SET,microsoft_cdn_non_ip,Domestic
   - RULE-SET,microsoft_non_ip,Microsoft
   # NetEase Music
-  - RULE-SET,neteasemusic_non_ip,NetEase Music
+  - RULE-SET,neteasemusic_non_ip,Netease_Music
   # Download
   - RULE-SET,download_domainset,CDN
   - RULE-SET,download_non_ip,CDN
@@ -413,12 +496,15 @@ rules:
   - RULE-SET,direct_non_ip,DIRECT
   - RULE-SET,global_non_ip,Global
   # IP rules
+  - RULE-SET,reject_ip,REJECT
   - RULE-SET,stream_ip,Streaming
   - RULE-SET,telegram_ip,Telegram
-  - RULE-SET,neteasemusic_ip,NetEase Music
+  - RULE-SET,neteasemusic_ip,Netease_Music
   - RULE-SET,lan_ip,DIRECT
   - RULE-SET,domestic_ip,Domestic
   - RULE-SET,china_ip,Domestic
+  # 仅在使用IPv6时启用
+  # - RULE-SET,china_ip_ipv6,Domestic
   # Final rules
   - GEOIP,CN,Domestic
   - MATCH,Final
