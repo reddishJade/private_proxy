@@ -252,10 +252,6 @@ rule-providers:
     path: ./sukkaw_ruleset/reject_ip.txt
 
   # Speedtest 测速域名
-  # speedtest.net 测速点通过 Speedtest API 获取数十个常见地区的测速服务器域名
-  # 人工维护 macOS netQuality 等其它测速工具的测速服务器域名
-  # fast.com 测速点和 Netflix CDN 共享基础设施和域名、影响流媒体分流，故不包含在此规则组中
-  # 实现指定使用某网络出口测速、同时不影响通过主要出口正常上网
   cdn_domainset:
     type: http
     behavior: domain
@@ -286,7 +282,6 @@ rule-providers:
     url: https://ruleset.skk.moe/Clash/ip/stream.txt
     path: ./sukkaw_ruleset/stream_ip.txt
   # AI
-  # 包含 OpenAI、Google Gemini、Claude、Perplexity 等
   ai_non_ip:
     type: http
     behavior: classical
@@ -296,9 +291,6 @@ rule-providers:
     path: ./sukkaw_ruleset/ai_non_ip.txt
 
   # Telegram
-  # IP CIDR 规则 自动生成（数据来源：https://core.telegram.org/resources/cidr.txt）
-  # ASN 规则 人工维护
-  # 推荐仅使用 IP CIDR 规则。IP CIDR 规则数据完全来自 Telegram 官方发布的 CIDR 列表，不包含 Telegram 尚未启用的 CDN、数据中心的 IP。 ASN 规则仅适合作为补充；搭配非官方 MaxMind GeoLite 数据库（例如 GeoIP2-CN）使用时会影响匹配。
   telegram_non_ip:
     type: http
     behavior: classical
@@ -315,8 +307,6 @@ rule-providers:
     path: ./sukkaw_ruleset/telegram_ip.txt
 
   # Apple CDN
-  # 自动生成
-  # 规则组包含 Apple, Inc. 在中华人民共和国完成工信部 ICP 备案和公安网备、且在中华人民共和国境内提供 HTTP 服务的域名，如果由于某些原因需要代理其中部分域名，请自行针对域名编写规则、并添加到当前规则组之前。
   apple_cdn:
     type: http
     behavior: domain
@@ -334,7 +324,6 @@ rule-providers:
     url: https://ruleset.skk.moe/Clash/non_ip/apple_services.txt
     path: ./sukkaw_ruleset/apple_services.txt
   # Apple CN
-  # 云上贵州（icloud.com.cn）和 苹果地图大陆特供版 等服务的域名。
   apple_cn_non_ip:
     type: http
     behavior: classical
@@ -344,7 +333,6 @@ rule-providers:
     path: ./sukkaw_ruleset/apple_cn_non_ip.txt
 
   # Microsoft CDN
-  # 规则组包含 Microsoft 在中华人民共和国完成工信部 ICP 备案和公安网备、且在中华人民共和国境内提供 HTTP 服务的域名，如果由于某些原因需要代理其中部分域名，请自行针对域名编写规则、并添加到当前规则组之前。
   microsoft_cdn_non_ip:
     type: http
     behavior: classical
@@ -378,8 +366,6 @@ rule-providers:
     path: ./sukkaw_ruleset/neteasemusic_ip.txt
 
   # 软件更新、操作系统等大文件下载
-  # 这部分域名可能包含 Microsoft 和 Apple 的国内 CDN 节点。你可以使用前文的 Microsoft CDN 和 Apple CDN 规则组、并分配直连策略。
-  # 如果你正在使用商业性质的公共代理服务、且你的服务商提供按低倍率结算流量消耗的节点，可使用上述规则组将流量分配给这部分节点
   download_domainset:
     type: http
     behavior: domain
@@ -396,8 +382,6 @@ rule-providers:
     path: ./sukkaw_ruleset/download_non_ip.txt
 
   # 内网域名和局域网 IP
-  # 域名列表包含 .local 和局域网 IP 的 in-addr.arpa 域名（即 AS112 域名）。这部分域名一般会被解析到局域网 IP、需要走内网 DNS 解析、需要直连访问。
-  # Clash 没有内置局域网 IP 规则列表（Surge 内置有局域网 IP 规则列表 LAN），需要手动引入。
   lan_non_ip:
     type: http
     behavior: classical
@@ -444,8 +428,6 @@ rule-providers:
     path: ./sukkaw_ruleset/domestic_ip.txt
 
   # chnroute CIDR
-  # IPv4 原始数据 由 Misaka Network, Inc. 以 CC BY-SA 2.0 协议发布，二次处理补充合并了 Misaka Network, Inc. 收不到 BGP 路由的部分国内段、排除了被 Misaka Network, Inc. 误收的在香港广播的 IP 段（通常由 中国移动国际 CMI 广播）
-  # IPv6 原始数据 由 gaoyifan/china-operator-ip 以 MIT 协议发布
   china_ip:
     type: http
     behavior: ipcidr
