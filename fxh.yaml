@@ -2,7 +2,7 @@ proxy-providers:
   iKuuu:
     url: "https://g3l0n.no-mad-world.club/link/UztDw1WanaxxzI4Q?clash=3&extend=1"
     type: http
-    exclude-filter: "免费｜测试"
+    exclude-filter: "免费|测试"
     interval: 86400
     health-check:
       {
