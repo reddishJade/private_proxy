@@ -196,7 +196,7 @@ proxy-groups:
   # - { name: 🇭🇰 香港节点, <<: *use, filter: "(?i)港|hk|hongkong|hong kong" }
   - {
       name: HongKong,
-      type: url-test,
+      type: fallback,
       include-all-providers: true,
       filter: "(?i)港|hk",
       lazy: true,
@@ -212,7 +212,7 @@ proxy-groups:
     }
   - {
       name: Japan,
-      type: url-test,
+      type: fallback,
       include-all-providers: true,
       filter: "(?i)日|jp",
       exclude-filter: "下载",
@@ -221,7 +221,7 @@ proxy-groups:
     }
   - {
       name: Singapore,
-      type: select,
+      type: fallback,
       include-all-providers: true,
       filter: "(?i)(新|sg)",
       lazy: true,
@@ -229,7 +229,7 @@ proxy-groups:
     }
   - {
       name: USA,
-      type: select,
+      type: fallback,
       include-all-providers: true,
       filter: "(?i)美|us",
       lazy: true,
