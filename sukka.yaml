@@ -88,7 +88,6 @@ proxy-groups:
       name: Select,
       type: select,
       include-all-providers: true,
-      disable-udp: true,
       icon: https://fastly.jsdelivr.net/gh/shindgewongxj/WHATSINStash@master/icon/select.png,
     }
   - {
@@ -174,7 +173,7 @@ proxy-groups:
   # 地区分组
   - {
       name: HongKong,
-      type: url-test,
+      type: fallback,
       include-all-providers: true,
       filter: "(?i)港|hk",
       lazy: true,
@@ -190,7 +189,7 @@ proxy-groups:
     }
   - {
       name: Japan,
-      type: url-test,
+      type: fallback,
       include-all-providers: true,
       filter: "(?i)日|jp",
       exclude-filter: "下载",
@@ -199,7 +198,7 @@ proxy-groups:
     }
   - {
       name: Singapore,
-      type: url-test,
+      type: fallback,
       include-all-providers: true,
       filter: "(?i)(新|sg)",
       lazy: true,
@@ -207,7 +206,7 @@ proxy-groups:
     }
   - {
       name: USA,
-      type: url-test,
+      type: fallback,
       include-all-providers: true,
       filter: "(?i)美|us",
       lazy: true,
