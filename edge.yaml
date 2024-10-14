@@ -41,10 +41,10 @@ dns:
   fake-ip-filter: ['rule-set:fakeip-filter,private']
   nameserver:
     - https://doh.pub/dns-query
-    - https://dns.alidns.com/dns-query
-  fallback:
+    # - https://dns.alidns.com/dns-query
+  # fallback:
     - https://dns.google/dns-query
-    - https://cloudflare-dns.com/dns-query
+    # - https://cloudflare-dns.com/dns-query
 
 sniffer:
   enable: true
