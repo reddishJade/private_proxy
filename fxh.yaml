@@ -93,7 +93,7 @@ proxy-groups:
   # - { name: 🇭🇰 香港节点, <<: *use, filter: "(?i)港|hk|hongkong|hong kong" }
   - {
       name: 香港节点,
-      type: url-test,
+      type: fallback,
       include-all-providers: true,
       filter: "(?i)港|hk",
       lazy: true,
@@ -107,7 +107,7 @@ proxy-groups:
     }
   - {
       name: 日本节点,
-      type: url-test,
+      type: fallback,
       include-all-providers: true,
       filter: "(?i)日|jp",
       exclude-filter: "下载",
@@ -115,14 +115,14 @@ proxy-groups:
     }
   - {
       name: 新加坡节点,
-      type: url-test,
+      type: fallback,
       include-all-providers: true,
       filter: "(?i)(新|sg)",
       lazy: true,
     }
   - {
       name: 美国节点,
-      type: url-test,
+      type: fallback,
       include-all-providers: true,
       filter: "(?i)美|us",
       lazy: true,
