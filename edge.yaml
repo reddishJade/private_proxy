@@ -208,13 +208,13 @@ proxy-groups:
       lazy: true,
       icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/United_States.png,
     }
-  - {
-      name: Others,
-      type: select,
-      include-all-providers: true,
-      filter: "(?i)^(?!.*(?:港|台|日|新|美)).*",
-      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Airport.png,
-    }
+  # - {
+  #     name: Others,
+  #     type: select,
+  #     include-all-providers: true,
+  #     filter: "(?i)^(?!.*(?:港|台|日|新|美)).*",
+  #     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Airport.png,
+  #   }
   # - { name: 全部节点, <<: *use }
 
 rule-providers:
