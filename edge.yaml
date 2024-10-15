@@ -2,7 +2,6 @@ proxy-providers:
   iKuuu:
     type: http
     url: "https://0m8o1.no-mad-world.club/link/IfcsbApFztIF7bVo?clash=3"
-    path: ./proxies/iKuuu.yaml
     exclude-filter: "免费|测试"
     interval: 86400
     health-check:
