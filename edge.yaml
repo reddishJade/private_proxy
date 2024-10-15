@@ -1,58 +1,79 @@
 proxy-providers:
   iKuuu:
-    type: http
     url: "https://0m8o1.no-mad-world.club/link/IfcsbApFztIF7bVo?clash=3"
-    path: ./proxies/iKuuu.yaml
+    type: http
     exclude-filter: "免费|测试"
     interval: 86400
     health-check:
-      enable: true
-      url: https://www.gstatic.com/generate_204
-      interval: 600
+      {
+        enable: true,
+        url: "https://www.gstatic.com/generate_204",
+        interval: 600,
+      }
 
 mode: rule
 ipv6: true
 log-level: info
 allow-lan: true
 mixed-port: 7890
+socks-port: 7891
 unified-delay: true
 tcp-concurrent: true
 geodata-mode: true
+keep-alive-interval: 30
 find-process-mode: strict
-global-client-fingerprint: chrome
+global-client-fingerprint: random
 external-controller: 127.0.0.1:9090
+external-ui: ui
+external-ui-url: "https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-pages.zip"
+
+profile:
+  store-selected: true
+  store-fake-ip: true
 
 dns:
   enable: true
   ipv6: true
   prefer-h3: true
-  listen: 0.0.0.0:1053
+  listen: :1053
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
-  fake-ip-filter: ["rule-set:fakeip-filter,private,cn"]
+  fake-ip-filter: ["rule-set:fakeip-filter,private"]
   nameserver:
     - https://doh.pub/dns-query
     - https://dns.google/dns-query
 
 sniffer:
   enable: true
+  force-dns-mapping: true
   parse-pure-ip: true
+  override-destination: false
   sniff:
-    {
-      HTTP: { ports: [80, 8080-8880] },
-      TLS: { ports: [443, 8443] },
-      QUIC: { ports: [443, 8443] },
-    }
-  skip-domain: ["Mijia Cloud"]
+    HTTP:
+      ports: [80, 8080-8880]
+      override-destination: true
+    TLS:
+      ports: [443, 8443]
+    QUIC:
+      ports: [443, 8443]
+  force-domain:
+    - +.v2ex.com
+  skip-domain:
+    - "Mijia Cloud"
+    - "+.push.apple.com"
 
 tun:
   enable: true
   stack: mixed
-  dns-hijack: [any:53]
+  # system 使用系统协议栈，可以提供更稳定/全面的 tun 体验，且占用相对其他堆栈更低
+  # gvisor 通过在用户空间中实现网络协议栈，可以提供更高的安全性和隔离性，同时可以避免操作系统内核和用户空间之间的切换，从而在特定情况下具有更好的网络处理性能，为默认选项
+  # mixed 混合堆栈，tcp 使用 system栈，udp 使用 gvisor栈，使用体验可能相对更好
+  dns-hijack:
+    - "any:53"
+    - "tcp://any:53"
   auto-route: true
+  auto-redirect: true
   auto-detect-interface: true
-  device: mihomo
-  strict-route: true
 
 # proxies:
 
@@ -99,7 +120,7 @@ proxy-groups:
       name: Apple,
       type: select,
       proxies: [DIRECT, Proxy],
-      icon: https://clash-verge-rev.github.io/assets/icons/apple.svg,
+      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Apple.png,
     }
   - {
       name: Google,
@@ -222,6 +243,14 @@ rule-providers:
     url: "https://github.com/DustinWin/ruleset_geodata/releases/download/clash-ruleset/fakeip-filter.mrs"
     interval: 86400
 
+  ads:
+    type: http
+    behavior: domain
+    format: mrs
+    path: ./rules/ads.mrs
+    url: "https://github.com/DustinWin/ruleset_geodata/releases/download/clash-ruleset/ads.mrs"
+    interval: 86400
+
   applications:
     type: http
     behavior: classical
@@ -238,22 +267,6 @@ rule-providers:
     url: "https://github.com/DustinWin/ruleset_geodata/releases/download/clash-ruleset/private.mrs"
     interval: 86400
 
-  ads:
-    type: http
-    behavior: domain
-    format: mrs
-    path: ./rules/ads.mrs
-    url: "https://github.com/DustinWin/ruleset_geodata/releases/download/clash-ruleset/ads.mrs"
-    interval: 86400
-
-  microsoft-cn:
-    type: http
-    behavior: domain
-    format: mrs
-    path: ./rules/microsoft-cn.mrs
-    url: "https://github.com/DustinWin/ruleset_geodata/releases/download/clash-ruleset/microsoft-cn.mrs"
-    interval: 86400
-
   apple-cn:
     type: http
     behavior: domain
@@ -268,6 +281,21 @@ rule-providers:
     format: mrs
     path: ./rules/google-cn.mrs
     url: "https://github.com/DustinWin/ruleset_geodata/releases/download/clash-ruleset/google-cn.mrs"
+    interval: 86400
+
+  microsoft-cn:
+    type: http
+    behavior: domain
+    format: mrs
+    path: ./rules/microsoft-cn.mrs
+    url: "https://github.com/DustinWin/ruleset_geodata/releases/download/clash-ruleset/microsoft-cn.mrs"
+    interval: 86400
+
+  Samsung:
+    type: http
+    behavior: classical
+    path: ./rules/Samsung.yaml
+    url: "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Samsung/Samsung.yaml"
     interval: 86400
 
   games-cn:
@@ -294,6 +322,14 @@ rule-providers:
     url: "https://github.com/DustinWin/ruleset_geodata/releases/download/clash-ruleset/networktest.list"
     interval: 86400
 
+  StreamingDomain:
+    type: http
+    behavior: domain
+    format: text
+    path: ./rules/StreamingDomain.txt
+    url: "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/GlobalMedia/GlobalMedia_Domain.txt"
+    interval: 86400
+
   proxy:
     type: http
     behavior: domain
@@ -308,6 +344,20 @@ rule-providers:
     format: mrs
     path: ./rules/cn.mrs
     url: "https://github.com/DustinWin/ruleset_geodata/releases/download/clash-ruleset/cn.mrs"
+    interval: 86400
+
+  GoogleFCM:
+    type: http
+    behavior: classical
+    path: ./rules/GoogleFCM.yaml
+    url: "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/GoogleFCM/GoogleFCM.yaml"
+    interval: 86400
+
+  StreamingIP:
+    type: http
+    behavior: ipcidr
+    path: ./rules/StreamingIP.yaml
+    url: "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/GlobalMedia/GlobalMedia.yaml"
     interval: 86400
 
   telegramip:
@@ -334,43 +384,23 @@ rule-providers:
     url: "https://github.com/DustinWin/ruleset_geodata/releases/download/clash-ruleset/cnip.mrs"
     interval: 86400
 
-  GoogleFCM:
-    type: http
-    behavior: classical
-    path: ./rules/GoogleFCM.yaml
-    url: "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/GoogleFCM/GoogleFCM.yaml"
-    interval: 86400
-
-  Samsung:
-    type: http
-    behavior: classical
-    path: ./rules/Samsung.yaml
-    url: "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Samsung/Samsung.yaml"
-    interval: 86400
-
-  Streaming:
-    type: http
-    behavior: classical
-    path: ./rules/StreamingDomain.txt
-    url: "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/GlobalMedia/GlobalMedia_Classical.yaml"
-    interval: 86400
-
 rules:
+  - RULE-SET,ads,REJECT
   - RULE-SET,private,Private
   - RULE-SET,applications,DIRECT
   - RULE-SET,networktest,DIRECT
-  - RULE-SET,ads,REJECT
   - RULE-SET,ai,AI
   - RULE-SET,apple-cn,Apple
   - RULE-SET,google-cn,Google
   - RULE-SET,microsoft-cn,Microsoft
   - RULE-SET,Samsung,Samsung
   - RULE-SET,games-cn,Game
-  - RULE-SET,Streaming,Streaming
+  - RULE-SET,StreamingDomain,Streaming
   - RULE-SET,proxy,Global
   - RULE-SET,cn,Domestic
+  - RULE-SET,StreamingIP,Streaming,no-resolve
+  - RULE-SET,GoogleFCM,Google,no-resolve
   - RULE-SET,telegramip,Telegram,no-resolve
   - RULE-SET,privateip,Private,no-resolve
-  - RULE-SET,GoogleFCM,Google
   - RULE-SET,cnip,Domestic
   - MATCH,Final
