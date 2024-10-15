@@ -73,7 +73,6 @@ proxy-groups:
           Japan,
           Singapore,
           USA,
-          Others,
           DIRECT,
         ],
       icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Proxy.png,
