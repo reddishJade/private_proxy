@@ -97,13 +97,13 @@ proxy-groups:
   - {
       name: Google,
       type: select,
-      proxies: [Proxy, DIRECT],
+      proxies: [DIRECT, Proxy],
       icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Google_Search.png,
     }
   - {
       name: Microsoft,
       type: select,
-      proxies: [Proxy, DIRECT],
+      proxies: [DIRECT, Proxy],
       icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Microsoft.png,
     }
   - {
