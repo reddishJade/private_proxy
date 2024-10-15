@@ -65,16 +65,7 @@ proxy-groups:
       name: Proxy,
       type: select,
       proxies:
-        [
-          Fallback,
-          Select,
-          HongKong,
-          TaiWan,
-          Japan,
-          Singapore,
-          USA,
-          DIRECT,
-        ],
+        [Fallback, Select, HongKong, TaiWan, Japan, Singapore, USA, DIRECT],
       icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Proxy.png,
     }
   - {
@@ -165,7 +156,6 @@ proxy-groups:
       icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Final.png,
     }
   # 地区分组
-  # - { name: 🇭🇰 香港节点, <<: *use, filter: "(?i)港|hk|hongkong|hong kong" }
   - {
       name: HongKong,
       type: fallback,
@@ -207,14 +197,6 @@ proxy-groups:
       lazy: true,
       icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/United_States.png,
     }
-  # - {
-  #     name: Others,
-  #     type: select,
-  #     include-all-providers: true,
-  #     filter: "(?i)^(?!.*(?:港|台|日|新|美)).*",
-  #     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Airport.png,
-  #   }
-  # - { name: 全部节点, <<: *use }
 
 rule-providers:
   fakeip-filter:
