@@ -345,13 +345,13 @@ rule-providers:
 
 rules:
   - RULE-SET,private,Private
+  - RULE-SET,GoogleFCM,DIRECT
   - RULE-SET,applications,DIRECT
   - RULE-SET,networktest,DIRECT
   - RULE-SET,ads,REJECT
   - RULE-SET,ai,AI
   - RULE-SET,apple-cn,Apple
   - RULE-SET,google-cn,Google
-  - RULE-SET,GoogleFCM,Google
   - RULE-SET,microsoft-cn,Microsoft
   - RULE-SET,Samsung,Samsung
   - RULE-SET,games-cn,Game
