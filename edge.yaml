@@ -1,7 +1,7 @@
 proxy-providers:
   iKuuu:
     type: http
-    url: "https://0m8o1.no-mad-world.club/link/IfcsbApFztIF7bVo?clash=3"
+    url: "https://f0dr3.no-mad-world.club/link/2ld7oTKIOFeVTrYa?clash=4&extend=1"
     exclude-filter: "免费|测试"
     interval: 86400
     health-check:
