@@ -14,11 +14,11 @@ proxy-providers:
 ipv6: true
 allow-lan: true
 mixed-port: 7890
-unified-delay: false
+unified-delay: true
 tcp-concurrent: true
 find-process-mode: strict
 global-client-fingerprint: chrome
-external-controller: 127.0.0.1:9090
+external-controller: 127.0.0.1:9097
 
 profile:
   store-selected: true
@@ -27,14 +27,19 @@ profile:
 dns:
   enable: true
   ipv6: true
+  use-hosts: true
   enhanced-mode: fake-ip
+  fake-ip-range: 28.0.0.1/8
   fake-ip-filter:
     - "*"
     - "+.lan"
     - "+.local"
+    - "+.market.xiaomi.com"
+    - localhost.ptlogin2.qq.com
   nameserver:
     - https://doh.pub/dns-query
     - https://dns.google/dns-query
+
 
 sniffer:
   enable: true
@@ -46,6 +51,11 @@ sniffer:
       ports: [443, 8443]
     QUIC:
       ports: [443, 8443]
+  force-domain:
+    - +.v2ex.com
+  skip-domain:
+    - "Mijia Cloud"
+    - "+.push.apple.com"
 
 tun:
   enable: true
@@ -91,7 +101,7 @@ proxy-groups:
     }
 
   - {
-      name: AI,
+      name: AIGC,
       type: select,
       proxies: [Japan, HongKong],
       icon: https://fastly.jsdelivr.net/gh/shindgewongxj/WHATSINStash@master/icon/openai.png,
@@ -440,7 +450,7 @@ rules:
   - DOMAIN-SUFFIX,misakaf.org,Streaming
   - RULE-SET,stream_non_ip,Streaming
   # AI services
-  - RULE-SET,ai_non_ip,AI
+  - RULE-SET,ai_non_ip,AIGC
   # Telegram
   - RULE-SET,telegram_non_ip,Telegram
   # Apple services
