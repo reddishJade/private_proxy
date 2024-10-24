@@ -16,12 +16,9 @@ allow-lan: true
 mixed-port: 7890
 unified-delay: true
 tcp-concurrent: true
-keep-alive-interval: 30
 find-process-mode: strict
 global-client-fingerprint: chrome
-external-controller: 127.0.0.1:9090
-external-ui: ui
-external-ui-url: "https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-pages.zip"
+external-controller: 127.0.0.1:9097
 
 profile:
   store-selected: true
@@ -30,14 +27,19 @@ profile:
 dns:
   enable: true
   ipv6: true
+  use-hosts: true
   enhanced-mode: fake-ip
+  fake-ip-range: 28.0.0.1/8
   fake-ip-filter:
     - "*"
     - "+.lan"
     - "+.local"
+    - "+.market.xiaomi.com"
+    - localhost.ptlogin2.qq.com
   nameserver:
     - https://doh.pub/dns-query
-    - https://dns.alidns.com/dns-query
+    - https://dns.google/dns-query
+
 
 sniffer:
   enable: true
@@ -49,6 +51,11 @@ sniffer:
       ports: [443, 8443]
     QUIC:
       ports: [443, 8443]
+  force-domain:
+    - +.v2ex.com
+  skip-domain:
+    - "Mijia Cloud"
+    - "+.push.apple.com"
 
 tun:
   enable: true
@@ -90,7 +97,6 @@ proxy-groups:
     }
 
   # 地区分组
-  # - { name: 🇭🇰 香港节点, <<: *use, filter: "(?i)港|hk|hongkong|hong kong" }
   - {
       name: 香港节点,
       type: fallback,
