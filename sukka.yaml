@@ -83,6 +83,12 @@ proxy-groups:
       lazy: true,
       icon: https://fastly.jsdelivr.net/gh/shindgewongxj/WHATSINStash@master/icon/fallback.png,
     }
+  - {
+      name: Final,
+      type: select,
+      proxies: [Proxy, DIRECT],
+      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Final.png,
+    }
 
   - {
       name: AI,
@@ -146,12 +152,6 @@ proxy-groups:
       type: select,
       proxies: [Proxy, DIRECT],
       icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Global.png,
-    }
-  - {
-      name: Final,
-      type: select,
-      proxies: [Proxy, DIRECT],
-      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Final.png,
     }
 
   # 地区分组
