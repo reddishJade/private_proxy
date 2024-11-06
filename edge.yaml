@@ -108,13 +108,13 @@ proxy-groups:
   - {
       name: Google,
       type: select,
-      proxies: [Proxy, DIRECT],
+      proxies: [DIRECT, Proxy],
       icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Google_Search.png,
     }
   - {
       name: Microsoft,
       type: select,
-      proxies: [Proxy, DIRECT],
+      proxies: [DIRECT, Proxy],
       icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Microsoft.png,
     }
   - {
@@ -324,6 +324,13 @@ rule-providers:
     url: "https://github.com/DustinWin/ruleset_geodata/releases/download/clash-ruleset/cnip.mrs"
     interval: 86400
 
+  GoogleFCM:
+    type: http
+    behavior: classical
+    path: ./rules/GoogleFCM.yaml
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GoogleFCM/GoogleFCM.yaml"
+    interval: 86400
+
   Samsung:
     type: http
     behavior: classical
@@ -334,7 +341,7 @@ rule-providers:
   Streaming:
     type: http
     behavior: classical
-    path: ./rules/StreamingDomain.txt
+    path: ./rules/Streaming.yaml
     url: "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/GlobalMedia/GlobalMedia_Classical.yaml"
     interval: 86400
 
@@ -346,6 +353,7 @@ rules:
   - RULE-SET,ai,AI
   - RULE-SET,apple-cn,Apple
   - RULE-SET,google-cn,Google
+  - RULE-SET,GoogleFCM,Google
   - RULE-SET,microsoft-cn,Microsoft
   - RULE-SET,Samsung,Samsung
   - RULE-SET,games-cn,Game
