@@ -350,7 +350,7 @@ script:
                 return 'Domestic'
 
         ctx.log('[Script] FINAL')
-        return 'Others'
+        return 'Final'
 
 rule-providers:
   Reject:
