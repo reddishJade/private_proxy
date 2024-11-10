@@ -126,7 +126,6 @@ dns:
     - "*.finalfantasyxiv.com"
     - "*.ffxiv.com"
 
-
 sniffer:
   enable: true
   parse-pure-ip: true
@@ -140,7 +139,7 @@ sniffer:
     - +.v2ex.com
     - google.com
   skip-domain: ["Mijia Cloud", "dlg.io.mi.com", "+.push.apple.com"]
-    
+
 tun:
   enable: true
   stack: mixed
@@ -155,7 +154,19 @@ proxy-groups:
   - {
       name: Proxy,
       type: select,
-      proxies: [IEPL, Select, HongKong, TaiWan, Japan, Singapore, USA, DIRECT],
+      proxies:
+        [
+          Select,
+          IEPL,
+          Home,
+          Direct,
+          HongKong,
+          TaiWan,
+          Japan,
+          Singapore,
+          USA,
+          DIRECT,
+        ],
       icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Proxy.png,
     }
   - {
@@ -210,7 +221,7 @@ proxy-groups:
   - {
       name: Google FCM,
       type: select,
-      proxies: [Proxy, DIRECT],
+      proxies: [DIRECT, Proxy],
       icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Google_Search.png,
     }
   - {
@@ -298,6 +309,7 @@ proxy-groups:
       icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/United_States.png,
     }
 
+rules:
   - RULE-SET, Reject, REJECT
   - RULE-SET, Special, DIRECT
 
@@ -309,7 +321,6 @@ proxy-groups:
   - RULE-SET, Google FCM, Google FCM
   - RULE-SET, Microsoft, Microsoft
   - RULE-SET, AI Suite, AI
-  - RULE-SET, Scholar, Scholar
   - RULE-SET, Steam, Game
 
   - RULE-SET, Telegram, Telegram
@@ -318,7 +329,7 @@ proxy-groups:
   - RULE-SET, Disney Plus, Streaming
   - RULE-SET, YouTube, Streaming
   - RULE-SET, Spotify, Streaming
-  
+
   - RULE-SET, PROXY, Global
 
   - RULE-SET, Domestic, Domestic
@@ -343,7 +354,6 @@ script:
             'Microsoft': 'Microsoft',
             'Samsung': 'Samsung",
             'AI Suite': 'AI Suite',
-            'Scholar': 'Scholar',
             'Steam': 'Steam',
             'Netflix': 'Streaming',
             'Disney Plus': 'Streaming',
@@ -386,122 +396,116 @@ rule-providers:
   Reject:
     type: http
     behavior: classical
-    url: 'https://testingcf.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/Reject.yaml'
+    url: "https://testingcf.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/Reject.yaml"
     path: ./Rules/Reject
     interval: 86400
   Special:
     type: http
     behavior: classical
-    url: 'https://testingcf.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/Special.yaml'
+    url: "https://testingcf.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/Special.yaml"
     path: ./Rules/Special
     interval: 86400
   PROXY:
     type: http
     behavior: classical
-    url: 'https://testingcf.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/Proxy.yaml'
+    url: "https://testingcf.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/Proxy.yaml"
     path: ./Rules/Proxy
     interval: 86400
   Domestic:
     type: http
     behavior: classical
-    url: 'https://testingcf.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/Domestic.yaml'
+    url: "https://testingcf.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/Domestic.yaml"
     path: ./Rules/Domestic
     interval: 86400
   Domestic IPs:
     type: http
     behavior: classical
-    url: 'https://testingcf.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/Domestic%20IPs.yaml'
+    url: "https://testingcf.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/Domestic%20IPs.yaml"
     path: ./Rules/Domestic_IPs
     interval: 86400
   LAN:
     type: http
     behavior: classical
-    url: 'https://testingcf.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/LAN.yaml'
+    url: "https://testingcf.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/LAN.yaml"
     path: ./Rules/LAN
     interval: 86400
   Netflix:
     type: http
     behavior: classical
-    url: 'https://testingcf.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/Media/Netflix.yaml'
+    url: "https://testingcf.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/Media/Netflix.yaml"
     path: ./Rules/Media/Netflix
     interval: 86400
   Spotify:
     type: http
     behavior: classical
-    url: 'https://testingcf.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/Media/Spotify.yaml'
+    url: "https://testingcf.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/Media/Spotify.yaml"
     path: ./Rules/Media/Spotify
     interval: 86400
   YouTube:
     type: http
     behavior: classical
-    url: 'https://testingcf.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/Media/YouTube.yaml'
+    url: "https://testingcf.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/Media/YouTube.yaml"
     path: ./Rules/Media/YouTube
     interval: 86400
   Apple Music:
     type: http
     behavior: classical
-    url: 'https://testingcf.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/Media/Apple%20Music.yaml'
+    url: "https://testingcf.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/Media/Apple%20Music.yaml"
     path: ./Rules/Media/Apple_Music
     interval: 86400
   Apple News:
     type: http
     behavior: classical
-    url: 'https://testingcf.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/Media/Apple%20News.yaml'
+    url: "https://testingcf.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/Media/Apple%20News.yaml"
     path: ./Rules/Media/Apple_News
     interval: 86400
   Apple TV:
     type: http
     behavior: classical
-    url: 'https://testingcf.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/Media/Apple%20TV.yaml'
+    url: "https://testingcf.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/Media/Apple%20TV.yaml"
     path: ./Rules/Media/Apple_TV
     interval: 86400
   Disney Plus:
     type: http
     behavior: classical
-    url: 'https://testingcf.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/Media/Disney%20Plus.yaml'
+    url: "https://testingcf.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/Media/Disney%20Plus.yaml"
     path: ./Rules/Media/Disney_Plus
     interval: 86400
   Telegram:
     type: http
     behavior: classical
-    url: 'https://testingcf.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/Telegram.yaml'
+    url: "https://testingcf.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/Telegram.yaml"
     path: ./Rules/Telegram
     interval: 86400
   Steam:
     type: http
     behavior: classical
-    url: 'https://testingcf.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/Steam.yaml'
+    url: "https://testingcf.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/Steam.yaml"
     path: ./Rules/Steam
     interval: 86400
   Microsoft:
     type: http
     behavior: classical
-    url: 'https://testingcf.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/Microsoft.yaml'
+    url: "https://testingcf.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/Microsoft.yaml"
     path: ./Rules/Microsoft
     interval: 86400
   AI Suite:
     type: http
     behavior: classical
-    url: 'https://testingcf.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/AI%20Suite.yaml'
+    url: "https://testingcf.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/AI%20Suite.yaml"
     path: ./Rules/AI Suite
     interval: 86400
   Apple:
     type: http
     behavior: classical
-    url: 'https://testingcf.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/Apple.yaml'
+    url: "https://testingcf.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/Apple.yaml"
     path: ./Rules/Apple
     interval: 86400
   Google FCM:
     type: http
     behavior: classical
-    url: 'https://testingcf.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/Google%20FCM.yaml'
+    url: "https://testingcf.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/Google%20FCM.yaml"
     path: ./Rules/Google FCM
-    interval: 86400
-  Scholar:
-    type: http
-    behavior: classical
-    url: 'https://testingcf.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/Scholar.yaml'
-    path: ./Rules/Scholar
     interval: 86400
   Samsung:
     type: http
