@@ -69,50 +69,17 @@ dns:
     - "music.163.com"
     - "*.music.163.com"
     - "*.126.net"
-    - "musicapi.taihe.com"
-    - "music.taihe.com"
-    - "songsearch.kugou.com"
-    - "trackercdn.kugou.com"
-    - "*.kuwo.cn"
-    - "api-jooxtt.sanook.com"
-    - "api.joox.com"
-    - "joox.com"
-    - "y.qq.com"
-    - "*.y.qq.com"
-    - "streamoc.music.tc.qq.com"
-    - "mobileoc.music.tc.qq.com"
-    - "isure.stream.qqmusic.qq.com"
-    - "dl.stream.qqmusic.qq.com"
-    - "aqqmusic.tc.qq.com"
-    - "amobile.music.tc.qq.com"
-    - "*.xiami.com"
-    - "*.music.migu.cn"
-    - "music.migu.cn"
     - "*.msftconnecttest.com"
     - "*.msftncsi.com"
     - "msftconnecttest.com"
     - "msftncsi.com"
     - "localhost.ptlogin2.qq.com"
     - "localhost.sec.qq.com"
-    - "+.srv.nintendo.net"
-    - "+.stun.playstation.net"
-    - "xbox.*.microsoft.com"
-    - "xnotify.xboxlive.com"
-    - "+.battlenet.com.cn"
-    - "+.wotgame.cn"
-    - "+.wggames.cn"
-    - "+.wowsgame.cn"
-    - "+.wargaming.net"
-    - "proxy.golang.org"
     - "stun.*.*"
     - "stun.*.*.*"
     - "+.stun.*.*"
     - "+.stun.*.*.*"
     - "+.stun.*.*.*.*"
-    - "heartbeat.belkin.com"
-    - "*.linksys.com"
-    - "*.linksyssmartwifi.com"
-    - "*.router.asus.com"
     - "mesu.apple.com"
     - "swscan.apple.com"
     - "swquery.apple.com"
@@ -122,9 +89,6 @@ dns:
     - "lens.l.google.com"
     - "stun.l.google.com"
     - "+.nflxvideo.net"
-    - "*.square-enix.com"
-    - "*.finalfantasyxiv.com"
-    - "*.ffxiv.com"
 
 sniffer:
   enable: true
@@ -138,7 +102,7 @@ sniffer:
   force-domain:
     - +.v2ex.com
     - google.com
-  skip-domain: ["Mijia Cloud", "dlg.io.mi.com", "+.push.apple.com"]
+  skip-domain: ["Mijia Cloud", "dlg.io.mi.com", "+.apple.com"]
 
 tun:
   enable: true
@@ -314,8 +278,6 @@ rules:
   - RULE-SET, Special, DIRECT
 
   - RULE-SET, Apple Music, Apple
-  - RULE-SET, Apple News, Apple
-  - RULE-SET, Apple TV, Apple
   - RULE-SET, Apple, Apple
 
   - RULE-SET, Google FCM, Google FCM
@@ -346,8 +308,6 @@ script:
             'Reject': 'REJECT',
             'Special': 'DIRECT',
             'Apple Music': 'Apple',
-            'Apple News': 'Apple',
-            'Apple TV': 'Apple',
             'Apple': 'Apple',
             'Telegram': 'Telegram',
             'Google FCM': 'Google FCM',
@@ -452,18 +412,6 @@ rule-providers:
     behavior: classical
     url: "https://testingcf.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/Media/Apple%20Music.yaml"
     path: ./Rules/Media/Apple_Music
-    interval: 86400
-  Apple News:
-    type: http
-    behavior: classical
-    url: "https://testingcf.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/Media/Apple%20News.yaml"
-    path: ./Rules/Media/Apple_News
-    interval: 86400
-  Apple TV:
-    type: http
-    behavior: classical
-    url: "https://testingcf.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/Media/Apple%20TV.yaml"
-    path: ./Rules/Media/Apple_TV
     interval: 86400
   Disney Plus:
     type: http
