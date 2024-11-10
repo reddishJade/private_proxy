@@ -69,7 +69,19 @@ proxy-groups:
   - {
       name: Proxy,
       type: select,
-      proxies: [IEPL, Select, HongKong, TaiWan, Japan, Singapore, USA, DIRECT],
+      proxies:
+        [
+          Select,
+          IEPL,
+          Home,
+          Direct,
+          HongKong,
+          TaiWan,
+          Japan,
+          Singapore,
+          USA,
+          DIRECT,
+        ],
       icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Proxy.png,
     }
   - {
@@ -187,10 +199,9 @@ proxy-groups:
     }
   - {
       name: TaiWan,
-      type: select,
+      type: fallback,
       include-all-providers: true,
       filter: "(?i)台|tw",
-      disable-udp: true,
       icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Taiwan.png,
     }
   - {
@@ -198,7 +209,6 @@ proxy-groups:
       type: fallback,
       include-all-providers: true,
       filter: "(?i)日|jp",
-      exclude-filter: "下载",
       lazy: true,
       icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Japan.png,
     }
