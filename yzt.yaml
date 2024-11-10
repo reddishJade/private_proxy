@@ -73,6 +73,12 @@ proxy-groups:
       icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Proxy.png,
     }
   - {
+      name: Select,
+      type: select,
+      include-all-providers: true,
+      icon: https://fastly.jsdelivr.net/gh/shindgewongxj/WHATSINStash@master/icon/select.png,
+    }
+  - {
       name: IEPL,
       type: select,
       include-all-providers: true,
@@ -82,10 +88,18 @@ proxy-groups:
       icon: https://fastly.jsdelivr.net/gh/shindgewongxj/WHATSINStash@master/icon/fallback.png,
     }
   - {
-      name: Select,
+      name: Home,
       type: select,
       include-all-providers: true,
-      icon: https://fastly.jsdelivr.net/gh/shindgewongxj/WHATSINStash@master/icon/select.png,
+      filter: "(?i)家宽",
+      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Back.png,
+    }
+  - {
+      name: Direct,
+      type: select,
+      include-all-providers: true,
+      filter: "(?i)直连",
+      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Direct.png,
     }
 
   - {
@@ -330,7 +344,7 @@ rule-providers:
     type: http
     behavior: classical
     path: ./rules/GoogleFCM.yaml
-    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GoogleFCM/GoogleFCM.yaml"
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/GoogleFCM.yaml"
     interval: 86400
 
   Samsung:
