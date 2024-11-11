@@ -229,13 +229,13 @@ proxy-groups:
   - {
       name: Steam,
       type: select,
-      proxies: [DIRECT, Proxy],
+      proxies: [Proxy, DIRECT],
       icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Steam.png,
     }
   - {
       name: Streaming,
       type: select,
-      proxies: [DIRECT, Proxy],
+      proxies: [Proxy, DIRECT],
       icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Streaming.png,
     }
   - {
