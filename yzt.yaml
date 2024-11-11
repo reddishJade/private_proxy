@@ -29,7 +29,6 @@ profile:
 dns:
   enable: true
   ipv6: true
-  prefer-h3: true
   listen: 0.0.0.0:1053
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
@@ -50,7 +49,7 @@ sniffer:
   force-domain:
     - +.v2ex.com
     - google.com
-  skip-domain: ["Mijia Cloud", dlg.io.mi.com, +.apple.com]
+  skip-domain: ["Mijia Cloud", "dlg.io.mi.com", "+.apple.com"]
 
 tun:
   enable: true
@@ -59,6 +58,7 @@ tun:
     - "any:53"
     - "tcp://any:53"
   auto-route: true
+  auto-redirect: true
   auto-detect-interface: true
   device: mihomo
   strict-route: true
@@ -202,6 +202,7 @@ proxy-groups:
       type: fallback,
       include-all-providers: true,
       filter: "(?i)台|tw",
+      lazy: true,
       icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Taiwan.png,
     }
   - {
@@ -374,12 +375,12 @@ rule-providers:
 rules:
   - RULE-SET,private,Private
   - RULE-SET,applications,DIRECT
+  - RULE-SET,GoogleFCM,DIRECT
   - RULE-SET,networktest,DIRECT
   - RULE-SET,ads,REJECT
   - RULE-SET,ai,AI
   - RULE-SET,apple-cn,Apple
   - RULE-SET,google-cn,Google
-  - RULE-SET,GoogleFCM,Google
   - RULE-SET,microsoft-cn,Microsoft
   - RULE-SET,Samsung,Samsung
   - RULE-SET,games-cn,Game
