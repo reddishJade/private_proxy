@@ -7,7 +7,7 @@ proxy-providers:
     health-check:
       enable: true
       url: https://www.gstatic.com/generate_204
-      interval: 600
+      interval: 86400
 
 mode: rule
 ipv6: true
@@ -17,6 +17,7 @@ mixed-port: 7890
 unified-delay: true
 tcp-concurrent: true
 geodata-mode: true
+keep-alive-interval: 15
 find-process-mode: strict
 global-client-fingerprint: chrome
 external-controller: 127.0.0.1:9090
