@@ -124,7 +124,7 @@ proxy-groups:
   - {
       name: AI,
       type: select,
-      proxies: [Japan, HongKong],
+      proxies: [USA, Home],
       icon: https://fastly.jsdelivr.net/gh/shindgewongxj/WHATSINStash@master/icon/openai.png,
     }
   - {
