@@ -95,8 +95,6 @@ proxy-groups:
       type: select,
       include-all-providers: true,
       filter: "(?i)IEPL",
-      tolerance: 10,
-      lazy: true,
       icon: https://fastly.jsdelivr.net/gh/shindgewongxj/WHATSINStash@master/icon/fallback.png,
     }
   - {
