@@ -16,6 +16,7 @@ allow-lan: true
 mixed-port: 7890
 unified-delay: true
 tcp-concurrent: true
+keep-alive-interval: 15
 find-process-mode: strict
 global-client-fingerprint: chrome
 external-controller: 127.0.0.1:9097
@@ -29,7 +30,7 @@ dns:
   ipv6: true
   use-hosts: true
   enhanced-mode: fake-ip
-  fake-ip-range: 28.0.0.1/8
+  fake-ip-range: 198.18.0.1/16
   fake-ip-filter:
     - "*"
     - "+.lan"
@@ -74,7 +75,7 @@ proxy-groups:
       name: Proxy,
       type: select,
       proxies:
-        [Fallback, Select, HongKong, TaiWan, Japan, Singapore, USA, DIRECT],
+        [IEPL, Select, HongKong, TaiWan, Japan, Singapore, USA, DIRECT],
       icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Proxy.png,
     }
 
@@ -85,7 +86,7 @@ proxy-groups:
       icon: https://fastly.jsdelivr.net/gh/shindgewongxj/WHATSINStash@master/icon/select.png,
     }
   - {
-      name: Fallback,
+      name: IEPL,
       type: fallback,
       include-all-providers: true,
       filter: "(?i)IEPL",
