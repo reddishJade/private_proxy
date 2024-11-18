@@ -144,6 +144,20 @@ proxy-groups:
       icon: https://fastly.jsdelivr.net/gh/shindgewongxj/WHATSINStash@master/icon/openai.png,
     }
   - {
+      name: CDN,
+      type: select,
+      proxies: [Download, DIRECT],
+      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Speedtest.png,
+    }
+  - {
+      name: Download,
+      type: url-test,
+      include-all-providers: true,
+      filter: "(?i)下载|低倍率",
+      lazy: true,
+      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Download.png,
+    }
+  - {
       name: Apple,
       type: select,
       proxies: [DIRECT, Proxy],
@@ -258,9 +272,15 @@ rule-providers:
   applications:
     type: http
     behavior: classical
-    format: text
-    path: ./rules/applications.list
-    url: "https://github.com/DustinWin/ruleset_geodata/releases/download/clash-ruleset/applications.list"
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/applications.txt"
+    path: ./ruleset/applications.yaml
+    interval: 86400
+
+  Download:
+    type: http
+    behavior: classical
+    path: ./rules/Download.yaml
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Download/Download.yaml"
     interval: 86400
 
   private:
@@ -391,6 +411,7 @@ rule-providers:
 rules:
   - RULE-SET,private,Private
   - RULE-SET,applications,DIRECT
+  - RULE-SET,Download,DIRECT
   - RULE-SET,GoogleFCM,DIRECT
   - RULE-SET,networktest,DIRECT
   - RULE-SET,ads,REJECT
