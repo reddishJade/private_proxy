@@ -1,15 +1,31 @@
 proxy-providers:
-  iKuuu:
+  YZT:
+    url: "https://sub.yztcloud.cc/getnodeinfo?token=63b704a74dedaf27ff61f0405196d75f"
     type: http
+    exclude-filter: "每天"
+    interval: 86400
+    health-check:
+      {
+        enable: true,
+        url: "https://www.gstatic.com/generate_204",
+        interval: 300,
+      }
+    override:
+      additional-prefix: "[YZT]"
+
+  iKuuu:
     url: "https://f0dr3.no-mad-world.club/link/2ld7oTKIOFeVTrYa?clash=4&extend=1"
+    type: http
     exclude-filter: "免费|测试"
     interval: 86400
     health-check:
       {
         enable: true,
         url: "https://www.gstatic.com/generate_204",
-        interval: 600,
+        interval: 300,
       }
+    override:
+      additional-prefix: "[iKuuu]"
 
 ipv6: true
 allow-lan: true
@@ -35,8 +51,6 @@ dns:
     - "*"
     - "+.lan"
     - "+.local"
-    - "+.market.xiaomi.com"
-    - localhost.ptlogin2.qq.com
   nameserver:
     - https://doh.pub/dns-query
     - https://dns.google/dns-query
@@ -123,7 +137,7 @@ proxy-groups:
       name: Download,
       type: url-test,
       include-all-providers: true,
-      filter: "(?i)下载",
+      filter: "(?i)下载|低倍率",
       lazy: true,
       icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Download.png,
     }
