@@ -89,10 +89,25 @@ proxy-groups:
       name: Proxy,
       type: select,
       proxies:
-        [IEPL, Select, HongKong, TaiWan, Japan, Singapore, USA, DIRECT],
+        [
+          Select,
+          IEPL,
+          Home,
+          Direct,
+          HongKong,
+          TaiWan,
+          Macao,
+          Japan,
+          Korea,
+          Singapore,
+          USA,
+          UK,
+          Germany,
+          Others,
+          DIRECT,
+        ],
       icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Proxy.png,
     }
-
   - {
       name: Select,
       type: select,
@@ -101,13 +116,26 @@ proxy-groups:
     }
   - {
       name: IEPL,
-      type: fallback,
+      type: select,
       include-all-providers: true,
       filter: "(?i)IEPL",
-      tolerance: 10,
-      lazy: true,
       icon: https://fastly.jsdelivr.net/gh/shindgewongxj/WHATSINStash@master/icon/fallback.png,
     }
+  - {
+      name: Home,
+      type: select,
+      include-all-providers: true,
+      filter: "(?i)家宽|南京",
+      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Back.png,
+    }
+  - {
+      name: Direct,
+      type: select,
+      include-all-providers: true,
+      filter: "(?i)直连",
+      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Direct.png,
+    }
+
   - {
       name: Final,
       type: select,
@@ -115,10 +143,11 @@ proxy-groups:
       icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Final.png,
     }
 
+
   - {
       name: AIGC,
       type: select,
-      proxies: [Japan, HongKong],
+      proxies: [USA, Home],
       icon: https://fastly.jsdelivr.net/gh/shindgewongxj/WHATSINStash@master/icon/openai.png,
     }
   - {
@@ -185,31 +214,48 @@ proxy-groups:
       type: fallback,
       include-all-providers: true,
       filter: "(?i)港|hk",
+      exclude-filter: "IEPL|家宽|低倍率|直连",
       lazy: true,
       icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Hong_Kong.png,
     }
   - {
       name: TaiWan,
-      type: select,
+      type: fallback,
       include-all-providers: true,
       filter: "(?i)台|tw",
-      disable-udp: true,
+      exclude-filter: "IEPL|家宽",
       icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Taiwan.png,
+    }
+  - {
+      name: Macao,
+      type: fallback,
+      include-all-providers: true,
+      filter: "(?i)澳门",
+      icon: https://fastly.jsdelivr.net/gh/Orz-3/mini@master/Color/MO.png,
     }
   - {
       name: Japan,
       type: fallback,
       include-all-providers: true,
       filter: "(?i)日|jp",
-      exclude-filter: "下载",
+      exclude-filter: "IEPL|家宽|下载|直连",
       lazy: true,
       icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Japan.png,
+    }
+  - {
+      name: Korea,
+      type: fallback,
+      include-all-providers: true,
+      filter: "(?i)韩",
+      lazy: true,
+      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Korea.png,
     }
   - {
       name: Singapore,
       type: fallback,
       include-all-providers: true,
-      filter: "(?i)(新|sg)",
+      filter: "(?i)(新|狮|sg)",
+      exclude-filter: "IEPL|家宽|低倍率|直连",
       lazy: true,
       icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Singapore.png,
     }
@@ -218,8 +264,33 @@ proxy-groups:
       type: fallback,
       include-all-providers: true,
       filter: "(?i)美|us",
+      exclude-filter: "IEPL|家宽|直连",
       lazy: true,
       icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/United_States.png,
+    }
+  - {
+      name: UK,
+      type: fallback,
+      include-all-providers: true,
+      filter: "(?i)英|uk",
+      lazy: true,
+      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/United_Kingdom.png,
+    }
+  - {
+      name: Germany,
+      type: fallback,
+      include-all-providers: true,
+      filter: "(?i)德",
+      lazy: true,
+      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Germany.png,
+    }
+  - {
+      name: Others,
+      type: select,
+      include-all-providers: true,
+      exclude-filter: "港|台|日|美|新|澳|狮|韩|英|德|南京|低倍率",
+      lazy: true,
+      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Global.png,
     }
 
 rule-providers:
