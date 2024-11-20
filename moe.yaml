@@ -147,7 +147,7 @@ proxy-groups:
   - {
       name: AIGC,
       type: select,
-      proxies: [USA, Home],
+      proxies: [Proxy, USA],
       icon: https://fastly.jsdelivr.net/gh/shindgewongxj/WHATSINStash@master/icon/openai.png,
     }
   - {
@@ -185,7 +185,7 @@ proxy-groups:
   - {
       name: Streaming,
       type: select,
-      proxies: [Proxy, DIRECT, HongKong, USA],
+      proxies: [Proxy, HongKong, Singapore, USA],
       icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/YouTube.png,
     }
   - {
