@@ -458,8 +458,8 @@ rule-providers:
 
 rules:
   - RULE-SET,private,Private
+  - RULE-SET,Download,Download
   - RULE-SET,applications,DIRECT
-  - RULE-SET,Download,DIRECT
   - RULE-SET,GoogleFCM,DIRECT
   - RULE-SET,networktest,DIRECT
   - RULE-SET,ads,REJECT
