@@ -51,9 +51,15 @@ dns:
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
   fake-ip-filter: ["rule-set:fakeip-filter,private,cn"]
+  default-nameserver:
+    - 119.29.29.29
+    - 223.5.5.5
   nameserver:
     - https://doh.pub/dns-query
-    - https://dns.google/dns-query
+    - https://dns.alidns.com/dns-query
+  fallback:
+    - tls://8.8.4.4
+    - tls://1.1.1.1
 
 sniffer:
   enable: true
@@ -66,7 +72,6 @@ sniffer:
     }
   force-domain:
     - +.v2ex.com
-    - google.com
   skip-domain: ["Mijia Cloud", "dlg.io.mi.com", "+.apple.com"]
 
 tun:
@@ -435,12 +440,12 @@ rule-providers:
     url: "https://github.com/DustinWin/ruleset_geodata/releases/download/clash-ruleset/cnip.mrs"
     interval: 86400
 
-  GoogleFCM:
-    type: http
-    behavior: classical
-    path: ./rules/GoogleFCM.yaml
-    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/GoogleFCM.yaml"
-    interval: 86400
+  # GoogleFCM:
+  #   type: http
+  #   behavior: classical
+  #   path: ./rules/GoogleFCM.yaml
+  #   url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/GoogleFCM.yaml"
+  #   interval: 86400
 
   Samsung:
     type: http
@@ -458,9 +463,9 @@ rule-providers:
 
 rules:
   - RULE-SET,private,Private
-  - RULE-SET,Download,Download
   - RULE-SET,applications,DIRECT
-  - RULE-SET,GoogleFCM,DIRECT
+  - RULE-SET,Download,Download
+  # - RULE-SET,GoogleFCM,DIRECT
   - RULE-SET,networktest,DIRECT
   - RULE-SET,ads,REJECT
   - RULE-SET,apple-cn,Apple
