@@ -32,7 +32,6 @@ allow-lan: true
 mixed-port: 7890
 unified-delay: true
 tcp-concurrent: true
-keep-alive-interval: 15
 find-process-mode: strict
 global-client-fingerprint: chrome
 external-controller: 127.0.0.1:9097
@@ -44,13 +43,18 @@ profile:
 dns:
   enable: true
   ipv6: true
-  use-hosts: true
+  listen: 0.0.0.0:1053
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
   fake-ip-filter:
-    - "*"
-    - "+.lan"
-    - "+.local"
+    [
+      "*",
+      "+.lan",
+      "+.local",
+      "+.market.xiaomi.com",
+      "+.msftconnecttest.com",
+      "+.msftncsi.com",
+    ]
   default-nameserver:
     - 119.29.29.29
     - 223.5.5.5
@@ -74,8 +78,8 @@ sniffer:
   force-domain:
     - +.v2ex.com
   skip-domain:
-    - "Mijia Cloud"
-    - "+.push.apple.com"
+    - Mijia Cloud
+    - +.push.apple.com
 
 tun:
   enable: true
@@ -146,7 +150,6 @@ proxy-groups:
       proxies: [Proxy, DIRECT],
       icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Final.png,
     }
-
 
   - {
       name: AIGC,
