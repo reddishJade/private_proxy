@@ -29,13 +29,10 @@ proxy-providers:
 
 mode: rule
 ipv6: true
-log-level: info
 allow-lan: true
 mixed-port: 7890
 unified-delay: true
 tcp-concurrent: true
-geodata-mode: true
-keep-alive-interval: 15
 find-process-mode: strict
 global-client-fingerprint: chrome
 external-controller: 127.0.0.1:9090
@@ -81,10 +78,7 @@ tun:
     - "any:53"
     - "tcp://any:53"
   auto-route: true
-  auto-redirect: true
   auto-detect-interface: true
-  device: mihomo
-  strict-route: true
 
 # proxies:
 
