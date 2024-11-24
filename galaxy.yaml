@@ -48,15 +48,9 @@ dns:
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
   fake-ip-filter: ["rule-set:fakeip-filter,private,cn"]
-  default-nameserver:
-    - 119.29.29.29
-    - 223.5.5.5
   nameserver:
     - https://doh.pub/dns-query
     - https://dns.alidns.com/dns-query
-  fallback:
-    - tls://8.8.4.4
-    - tls://1.1.1.1
 
 sniffer:
   enable: true
