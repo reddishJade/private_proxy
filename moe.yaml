@@ -583,7 +583,7 @@ rules:
   - RULE-SET,domestic_ip,Domestic
   - RULE-SET,china_ip,Domestic
   # 仅在使用IPv6时启用
-  - RULE-SET,china_ip_ipv6,Domestic
+  # - RULE-SET,china_ip_ipv6,Domestic
   # Final rules
   - GEOIP,CN,Domestic
   - MATCH,Final
