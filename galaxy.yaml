@@ -2,7 +2,7 @@ proxy-providers:
   iKuuu:
     url: "https://f0dr3.no-mad-world.club/link/2ld7oTKIOFeVTrYa?clash=4&extend=1"
     type: http
-    filter: "港|IEPL|下载"
+    filter: "IEPL|下载"
     interval: 86400
     health-check:
       { enable: true, url: "https://cp.cloudflare.com", interval: 300 }
@@ -83,8 +83,8 @@ proxy-groups:
   - {
       name: Select,
       type: select,
-      include-all-providers: true,
-      exclude-filter: "YZT|下载|测试",
+      use: [iKuuu],
+      exclude-filter: "下载|测试",
       icon: https://fastly.jsdelivr.net/gh/shindgewongxj/WHATSINStash@master/icon/select.png,
     }
   - {
