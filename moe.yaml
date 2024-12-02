@@ -1,22 +1,8 @@
 proxy-providers:
-  YZT:
-    url: "https://sub.yztcloud.cc/getnodeinfo?token=63b704a74dedaf27ff61f0405196d75f"
-    type: http
-    exclude-filter: "每天"
-    interval: 86400
-    health-check:
-      {
-        enable: true,
-        url: "https://www.gstatic.com/generate_204",
-        interval: 300,
-      }
-    override:
-      additional-prefix: "[YZT]"
-
   iKuuu:
     url: "https://f0dr3.no-mad-world.club/link/2ld7oTKIOFeVTrYa?clash=4&extend=1"
     type: http
-    exclude-filter: "免费|测试"
+    filter: "港|IEPL|下载"
     interval: 86400
     health-check:
       {
@@ -26,6 +12,19 @@ proxy-providers:
       }
     override:
       additional-prefix: "[iKuuu]"
+  YZT:
+    url: "https://sub.yztcloud.cc/getnodeinfo?token=63b704a74dedaf27ff61f0405196d75f"
+    type: http
+    exclude-filter: "每天|直连"
+    interval: 86400
+    health-check:
+      {
+        enable: true,
+        url: "https://www.gstatic.com/generate_204",
+        interval: 300,
+      }
+    override:
+      additional-prefix: "[YZT]"
 
 ipv6: true
 allow-lan: true
@@ -107,29 +106,14 @@ proxy-groups:
       name: Proxy,
       type: select,
       proxies:
-        [
-          Select,
-          IEPL,
-          Home,
-          Direct,
-          HongKong,
-          TaiWan,
-          Macao,
-          Japan,
-          Korea,
-          Singapore,
-          USA,
-          UK,
-          Germany,
-          Others,
-          DIRECT,
-        ],
+        [Select, IEPL, Home, DIRECT, HongKong, TaiWan, Japan, Singapore, USA],
       icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Proxy.png,
     }
   - {
       name: Select,
       type: select,
       include-all-providers: true,
+      exclude-filter: YZT,
       icon: https://fastly.jsdelivr.net/gh/shindgewongxj/WHATSINStash@master/icon/select.png,
     }
   - {
@@ -146,13 +130,6 @@ proxy-groups:
       filter: "(?i)家宽|南京",
       icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Back.png,
     }
-  - {
-      name: Direct,
-      type: select,
-      include-all-providers: true,
-      filter: "(?i)直连",
-      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Direct.png,
-    }
 
   - {
       name: Final,
@@ -164,7 +141,7 @@ proxy-groups:
   - {
       name: AIGC,
       type: select,
-      proxies: [Proxy, USA],
+      proxies: [USA, Proxy],
       icon: https://fastly.jsdelivr.net/gh/shindgewongxj/WHATSINStash@master/icon/openai.png,
     }
   - {
@@ -176,7 +153,7 @@ proxy-groups:
   - {
       name: CDN,
       type: select,
-      proxies: [Download, DIRECT],
+      proxies: [Download, Proxy, DIRECT],
       icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Speedtest.png,
     }
   - {
@@ -184,7 +161,7 @@ proxy-groups:
       type: url-test,
       include-all-providers: true,
       filter: "(?i)下载|低倍率",
-      lazy: true,
+      tolerance: 50,
       icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Download.png,
     }
   - {
@@ -192,12 +169,6 @@ proxy-groups:
       type: select,
       proxies: [Proxy, DIRECT],
       icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Microsoft.png,
-    }
-  - {
-      name: Netease_Music,
-      type: select,
-      proxies: [DIRECT],
-      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Netease_Music.png,
     }
   - {
       name: Streaming,
@@ -226,89 +197,45 @@ proxy-groups:
     }
 
   # 地区分组
-  - {
-      name: HongKong,
-      type: fallback,
-      include-all-providers: true,
-      filter: "(?i)港|hk",
-      exclude-filter: "IEPL|家宽|低倍率|直连",
-      lazy: true,
-      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Hong_Kong.png,
-    }
-  - {
-      name: TaiWan,
-      type: fallback,
-      include-all-providers: true,
-      filter: "(?i)台|tw",
-      exclude-filter: "IEPL|家宽",
-      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Taiwan.png,
-    }
-  - {
-      name: Macao,
-      type: fallback,
-      include-all-providers: true,
-      filter: "(?i)澳门",
-      icon: https://fastly.jsdelivr.net/gh/Orz-3/mini@master/Color/MO.png,
-    }
-  - {
-      name: Japan,
-      type: fallback,
-      include-all-providers: true,
-      filter: "(?i)日|jp",
-      exclude-filter: "IEPL|家宽|下载|直连",
-      lazy: true,
-      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Japan.png,
-    }
-  - {
-      name: Korea,
-      type: fallback,
-      include-all-providers: true,
-      filter: "(?i)韩",
-      lazy: true,
-      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Korea.png,
-    }
-  - {
-      name: Singapore,
-      type: fallback,
-      include-all-providers: true,
-      filter: "(?i)(新|狮|sg)",
-      exclude-filter: "IEPL|家宽|低倍率|直连",
-      lazy: true,
-      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Singapore.png,
-    }
-  - {
-      name: USA,
-      type: fallback,
-      include-all-providers: true,
-      filter: "(?i)美|us",
-      exclude-filter: "IEPL|家宽|直连",
-      lazy: true,
-      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/United_States.png,
-    }
-  - {
-      name: UK,
-      type: fallback,
-      include-all-providers: true,
-      filter: "(?i)英|uk",
-      lazy: true,
-      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/United_Kingdom.png,
-    }
-  - {
-      name: Germany,
-      type: fallback,
-      include-all-providers: true,
-      filter: "(?i)德",
-      lazy: true,
-      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Germany.png,
-    }
-  - {
-      name: Others,
-      type: select,
-      include-all-providers: true,
-      exclude-filter: "港|台|日|美|新|澳|狮|韩|英|德|南京|低倍率",
-      lazy: true,
-      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Global.png,
-    }
+  - name: "HongKong"
+    type: url-test
+    tolerance: 50
+    use:
+      - YZT
+    filter: "(?i)港|hk"
+    exclude-filter: "IEPL|家宽|低倍率"
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Hong_Kong.png
+  - name: "TaiWan"
+    type: url-test
+    tolerance: 50
+    use: [YZT]
+    filter: "(?i)台|tw"
+    exclude-filter: "IEPL|家宽"
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Taiwan.png
+  - name: "Japan"
+    type: url-test
+    tolerance: 50
+    use: [YZT]
+    filter: "(?i)日|jp"
+    exclude-filter: "IEPL|家宽"
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Japan.png
+
+  - name: "Singapore"
+    type: url-test
+    tolerance: 50
+    use: [YZT]
+    filter: "(?i)(新|狮|sg)"
+    exclude-filter: "IEPL|家宽|低倍率"
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Singapore.png
+
+  - name: "USA"
+    type: url-test
+    tolerance: 50
+    use:
+      - YZT
+    filter: "(?i)美|us"
+    exclude-filter: "IEPL|家宽"
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/United_States.png
 
 rule-providers:
   # 广告拦截 / 隐私保护 / Malware 拦截 / Phiishing 拦截
@@ -446,22 +373,6 @@ rule-providers:
     url: https://ruleset.skk.moe/Clash/non_ip/microsoft.txt
     path: ./sukkaw_ruleset/microsoft_non_ip.txt
 
-  # 网易云音乐
-  neteasemusic_non_ip:
-    type: http
-    behavior: classical
-    format: text
-    interval: 43200
-    url: https://ruleset.skk.moe/Clash/non_ip/neteasemusic.txt
-    path: ./sukkaw_ruleset/neteasemusic_non_ip.txt
-  neteasemusic_ip:
-    type: http
-    behavior: classical
-    format: text
-    interval: 43200
-    url: https://ruleset.skk.moe/Clash/ip/neteasemusic.txt
-    path: ./sukkaw_ruleset/neteasemusic_ip.txt
-
   # 软件更新、操作系统等大文件下载
   download_domainset:
     type: http
@@ -557,14 +468,12 @@ rules:
   # Telegram
   - RULE-SET,telegram_non_ip,Telegram
   # Apple services
-  - RULE-SET,apple_cdn,Domestic
+  - RULE-SET,apple_cdn,CDN
   - RULE-SET,apple_services,Apple
   - RULE-SET,apple_cn_non_ip,Domestic
   # Microsoft services
-  - RULE-SET,microsoft_cdn_non_ip,Domestic
+  - RULE-SET,microsoft_cdn_non_ip,CDN
   - RULE-SET,microsoft_non_ip,Microsoft
-  # NetEase Music
-  - RULE-SET,neteasemusic_non_ip,Netease_Music
   # Download
   - RULE-SET,download_domainset,CDN
   - RULE-SET,download_non_ip,CDN
@@ -578,7 +487,6 @@ rules:
   - RULE-SET,reject_ip,REJECT
   - RULE-SET,stream_ip,Streaming
   - RULE-SET,telegram_ip,Telegram
-  - RULE-SET,neteasemusic_ip,Netease_Music
   - RULE-SET,lan_ip,DIRECT
   - RULE-SET,domestic_ip,Domestic
   - RULE-SET,china_ip,Domestic
