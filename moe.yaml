@@ -5,11 +5,7 @@ proxy-providers:
     filter: "港|IEPL|下载"
     interval: 86400
     health-check:
-      {
-        enable: true,
-        url: "https://www.gstatic.com/generate_204",
-        interval: 300,
-      }
+      { enable: true, url: "https://cp.cloudflare.com", interval: 300 }
     override:
       additional-prefix: "[iKuuu]"
   YZT:
@@ -18,11 +14,7 @@ proxy-providers:
     exclude-filter: "每天|直连"
     interval: 86400
     health-check:
-      {
-        enable: true,
-        url: "https://www.gstatic.com/generate_204",
-        interval: 300,
-      }
+      { enable: true, url: "https://cp.cloudflare.com", interval: 300 }
     override:
       additional-prefix: "[YZT]"
 
@@ -33,6 +25,7 @@ unified-delay: true
 tcp-concurrent: true
 find-process-mode: strict
 global-client-fingerprint: chrome
+
 external-controller: 127.0.0.1:9090
 external-ui: ui
 external-ui-url: "https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-pages.zip"
@@ -113,7 +106,7 @@ proxy-groups:
       name: Select,
       type: select,
       include-all-providers: true,
-      exclude-filter: YZT,
+      exclude-filter: "YZT|下载|测试",
       icon: https://fastly.jsdelivr.net/gh/shindgewongxj/WHATSINStash@master/icon/select.png,
     }
   - {
