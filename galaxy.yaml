@@ -1,3 +1,250 @@
+mode: rule
+ipv6: true
+allow-lan: true
+mixed-port: 7890
+unified-delay: true
+tcp-concurrent: true
+keep-alive-interval: 15
+
+external-controller: 127.0.0.1:9090
+external-ui: ui
+external-ui-url: "https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-pages.zip"
+
+find-process-mode: strict
+global-client-fingerprint: chrome
+
+profile:
+  store-selected: true
+  store-fake-ip: true
+
+dns:
+  enable: true
+  ipv6: true
+  listen: 0.0.0.0:1053
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter: ["rule-set:fakeip-filter,private,cn"]
+  nameserver:
+    - https://doh.pub/dns-query
+    - https://dns.alidns.com/dns-query
+
+sniffer:
+  enable: true
+  parse-pure-ip: true
+  sniff:
+    HTTP:
+      ports:
+        - 80
+        - 8080-8880
+    TLS:
+      ports:
+        - 443
+        - 8443
+    QUIC:
+      ports:
+        - 443
+        - 8443
+  force-domain:
+    - +.v2ex.com
+  skip-domain:
+    - dlg.io.mi.com
+    - +.apple.com
+
+tun:
+  enable: true
+  stack: mixed
+  dns-hijack:
+    - "any:53"
+    - "tcp://any:53"
+  auto-route: true
+  auto-detect-interface: true
+
+proxies: []
+
+proxy-providers:
+  iKuuu:
+    url: https://f0dr3.no-mad-world.club/link/2ld7oTKIOFeVTrYa?clash=4&extend=1
+    type: http
+    filter: IEPL|下载
+    interval: 86400
+    health-check:
+      enable: true
+      url: https://cp.cloudflare.com
+      interval: 300
+    override:
+      additional-prefix: "[iKuuu]"
+  YZT:
+    url: https://sub.yztcloud.cc/getnodeinfo?token=63b704a74dedaf27ff61f0405196d75f
+    type: http
+    filter: 港|台|日|新|狮|美
+    exclude-filter: 每天|直连
+    interval: 86400
+    health-check:
+      enable: true
+      url: https://cp.cloudflare.com
+      interval: 300
+    override:
+      additional-prefix: "[YZT]"
+
+proxy-groups:
+  - name: Proxy
+    type: select
+    proxies:
+      - Select
+      - IEPL
+      - Home
+      - HongKong
+      - TaiWan
+      - Japan
+      - Singapore
+      - USA
+      - DIRECT
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Proxy.png
+  - name: Select
+    type: select
+    use:
+      - iKuuu
+    exclude-filter: 下载|测试
+    icon: https://fastly.jsdelivr.net/gh/shindgewongxj/WHATSINStash@master/icon/select.png
+  - name: IEPL
+    type: select
+    include-all-providers: true
+    filter: IEPL
+    icon: https://fastly.jsdelivr.net/gh/shindgewongxj/WHATSINStash@master/icon/fallback.png
+  - name: Home
+    type: select
+    use:
+      - YZT
+    filter: 家宽
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Back.png
+  - name: Final
+    type: select
+    proxies:
+      - Proxy
+      - DIRECT
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Final.png
+  - name: AI
+    type: select
+    proxies:
+      - USA
+      - Proxy
+    icon: https://fastly.jsdelivr.net/gh/shindgewongxj/WHATSINStash@master/icon/openai.png
+  - name: Apple
+    type: select
+    proxies:
+      - DIRECT
+      - Proxy
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Apple.png
+  - name: Google
+    type: select
+    proxies:
+      - Proxy
+      - DIRECT
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Google_Search.png
+  - name: Microsoft
+    type: select
+    proxies:
+      - DIRECT
+      - Proxy
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Microsoft.png
+  - name: Samsung
+    type: select
+    proxies:
+      - DIRECT
+      - Proxy
+    icon: https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Samsung_icon.svg/238px-Samsung_icon.svg.png
+  - name: Telegram
+    type: select
+    proxies:
+      - Proxy
+      - Select
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Telegram.png
+  - name: Game
+    type: select
+    proxies:
+      - DIRECT
+      - Proxy
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Game.png
+  - name: Streaming
+    type: select
+    proxies:
+      - Proxy
+      - HongKong
+      - Singapore
+      - USA
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/YouTube.png
+  - name: CDN
+    type: select
+    proxies:
+      - Download
+      - Proxy
+      - DIRECT
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Speedtest.png
+  - name: Download
+    type: url-test
+    include-all-providers: true
+    filter: 下载|低倍率
+    tolerance: 50
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Download.png
+  - name: Global
+    type: select
+    proxies:
+      - Proxy
+      - DIRECT
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Global.png
+  - name: Domestic
+    type: select
+    proxies:
+      - DIRECT
+      - Proxy
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Domestic.png
+  - name: Private
+    type: select
+    proxies:
+      - DIRECT
+      - Proxy
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Lock.png
+  - name: HongKong
+    type: url-test
+    tolerance: 50
+    use:
+      - YZT
+    filter: 港|hk
+    exclude-filter: IEPL|家宽|低倍率
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Hong_Kong.png
+  - name: TaiWan
+    type: url-test
+    tolerance: 50
+    use:
+      - YZT
+    filter: 台|tw
+    exclude-filter: IEPL|家宽
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Taiwan.png
+  - name: Japan
+    type: url-test
+    tolerance: 50
+    use:
+      - YZT
+    filter: 日|jp
+    exclude-filter: IEPL|家宽
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Japan.png
+  - name: Singapore
+    type: url-test
+    tolerance: 50
+    use:
+      - YZT
+    filter: 新|狮|sg
+    exclude-filter: IEPL|家宽|低倍率
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Singapore.png
+  - name: USA
+    type: url-test
+    tolerance: 50
+    use:
+      - YZT
+    filter: 美|us
+    exclude-filter: IEPL|家宽
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/United_States.png
+
 rule-providers:
   fakeip-filter:
     type: http
@@ -121,22 +368,23 @@ rule-providers:
     path: ./rules/Streaming.yaml
     url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/GlobalMedia/GlobalMedia_Classical.yaml
     interval: 86400
+
 rules:
-- RULE-SET,private,Private
-- RULE-SET,applications,DIRECT
-- RULE-SET,Download,Download
-- RULE-SET,networktest,DIRECT
-- RULE-SET,ads,REJECT
-- RULE-SET,apple-cn,Apple
-- RULE-SET,google-cn,Google
-- RULE-SET,microsoft-cn,Microsoft
-- RULE-SET,Samsung,Samsung
-- RULE-SET,ai,AI
-- RULE-SET,games-cn,Game
-- RULE-SET,Streaming,Streaming
-- RULE-SET,proxy,Global
-- RULE-SET,cn,Domestic
-- RULE-SET,telegramip,Telegram,no-resolve
-- RULE-SET,privateip,Private,no-resolve
-- RULE-SET,cnip,Domestic
-- MATCH,Final
+  - RULE-SET,private,Private
+  - RULE-SET,applications,DIRECT
+  - RULE-SET,Download,Download
+  - RULE-SET,networktest,Proxy
+  - RULE-SET,ads,REJECT
+  - RULE-SET,apple-cn,Apple
+  - RULE-SET,google-cn,Google
+  - RULE-SET,microsoft-cn,Microsoft
+  - RULE-SET,Samsung,Samsung
+  - RULE-SET,ai,AI
+  - RULE-SET,games-cn,Game
+  - RULE-SET,Streaming,Streaming
+  - RULE-SET,proxy,Global
+  - RULE-SET,cn,Domestic
+  - RULE-SET,telegramip,Telegram,no-resolve
+  - RULE-SET,privateip,Private,no-resolve
+  - RULE-SET,cnip,Domestic
+  - MATCH,Final
