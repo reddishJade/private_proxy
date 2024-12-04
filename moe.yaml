@@ -23,25 +23,42 @@ profile:
 
 dns:
   enable: true
+  listen: :1053
   ipv6: true
-  listen: 0.0.0.0:1053
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
   fake-ip-filter:
-    - '*.lan'
+    - "*"
+    - +.lan
+    - +.local
     - localhost.ptlogin2.qq.com
-    - dns.msftncsi.com
-    - www.msftncsi.com
-    - www.msftconnecttest.com
+    - "*.msftconnecttest.com"
+    - "*.msftncsi.com"
+    - time.windows.com
+    - time.apple.com
+    - cn.pool.ntp.org
+    - +.pool.ntp.org
   default-nameserver:
-    - 119.29.29.29
     - 223.5.5.5
+    - 119.29.29.29
+    - 114.114.114.114
+    - "[2402:4e00::]"
+    - "[2400:3200::1]"
   nameserver:
+    - tls://8.8.4.4#dns
+    - tls://1.0.0.1#dns
+    - tls://[2001:4860:4860::8844]#dns
+    - tls://[2606:4700:4700::1001]#dns
+  proxy-server-nameserver:
     - https://doh.pub/dns-query
     - https://dns.alidns.com/dns-query
-  fallback:
-    - tls://8.8.4.4
-    - tls://1.1.1.1
+  nameserver-policy:
+    geosite:cn,private:
+      - https://doh.pub/dns-query
+      - https://dns.alidns.com/dns-query
+    geosite:!cn,!private:
+      - tls://dns.google
+      - tls://cloudflare-dns.com
 
 sniffer:
   enable: true
@@ -71,7 +88,6 @@ tun:
     - any:53
     - tcp://any:53
   auto-route: true
-  auto-redirect: true
   auto-detect-interface: true
 
 proxies: []
@@ -423,6 +439,8 @@ rule-providers:
     path: ./sukkaw_ruleset/china_ipv6.txt
 
 rules:
+  - AND,(AND,(DST-PORT,443),(NETWORK,UDP)),(NOT,((GEOSITE,cn))),REJECT # quic
+
   # Reject rules
   - RULE-SET,reject_domainset,REJECT
   - RULE-SET,reject_non_ip,REJECT
@@ -454,6 +472,9 @@ rules:
   - RULE-SET,domestic_non_ip,Domestic
   - RULE-SET,direct_non_ip,DIRECT
   - RULE-SET,global_non_ip,Global
+
+  - AND,(AND,(DST-PORT,443),(NETWORK,UDP)),(NOT,((GEOIP,CN))),REJECT # quic
+
   # IP rules
   - RULE-SET,reject_ip,REJECT
   - RULE-SET,stream_ip,Streaming
