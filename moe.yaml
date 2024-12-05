@@ -1,3 +1,4 @@
+log-level: warning
 ipv6: true
 allow-lan: true
 mixed-port: 7890
@@ -105,7 +106,7 @@ proxy-providers:
   YZT:
     url: "https://sub.yztcloud.cc/getnodeinfo?token=63b704a74dedaf27ff61f0405196d75f"
     type: http
-    filter: (?i)港|台|日|新|狮|美
+    filter: (?i)港|台|日|韩|新|狮|美|英|德
     exclude-filter: (?i)每天|直连
     interval: 86400
     health-check:
@@ -123,8 +124,10 @@ proxy-groups:
       - HongKong
       - TaiWan
       - Japan
+      - Korea
       - Singapore
       - USA
+      - EU
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Proxy.png
   - name: Select
     type: select
@@ -230,6 +233,14 @@ proxy-groups:
     filter: (?i)日|jp
     exclude-filter: IEPL|家宽
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Japan.png
+  - name: Korea
+    type: url-test
+    tolerance: 50
+    use:
+      - YZT
+    filter: (?i)韩|kr
+    exclude-filter: IEPL|家宽
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Korea.png
   - name: Singapore
     type: url-test
     tolerance: 50
@@ -246,6 +257,14 @@ proxy-groups:
     filter: (?i)美|us
     exclude-filter: IEPL|家宽
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/United_States.png
+  - name: EU
+    type: url-test
+    tolerance: 50
+    use:
+      - YZT
+    filter: (?i)英|德
+    exclude-filter: IEPL|家宽
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/European_Union.png
 
 rule-providers:
   reject_non_ip_no_drop:
@@ -297,6 +316,90 @@ rule-providers:
     interval: 43200
     url: https://ruleset.skk.moe/Clash/non_ip/cdn.txt
     path: ./sukkaw_ruleset/cdn_non_ip.txt
+  stream_us_non_ip:
+    type: http
+    behavior: classical
+    format: text
+    interval: 43200
+    url: https://ruleset.skk.moe/Clash/non_ip/stream_us.txt
+    path: ./sukkaw_ruleset/stream_us_non_ip.txt
+  stream_us_ip:
+    type: http
+    behavior: classical
+    format: text
+    interval: 43200
+    url: https://ruleset.skk.moe/Clash/ip/stream_us.txt
+    path: ./sukkaw_ruleset/stream_us_ip.txt
+  stream_eu_non_ip:
+    type: http
+    behavior: classical
+    format: text
+    interval: 43200
+    url: https://ruleset.skk.moe/Clash/non_ip/stream_eu.txt
+    path: ./sukkaw_ruleset/stream_eu_non_ip.txt
+  stream_eu_ip:
+    type: http
+    behavior: classical
+    format: text
+    interval: 43200
+    url: https://ruleset.skk.moe/Clash/ip/stream_eu.txt
+    path: ./sukkaw_ruleset/stream_eu_ip.txt
+  stream_jp_non_ip:
+    type: http
+    behavior: classical
+    format: text
+    interval: 43200
+    url: https://ruleset.skk.moe/Clash/non_ip/stream_jp.txt
+    path: ./sukkaw_ruleset/stream_jp_non_ip.txt
+  stream_jp_ip:
+    type: http
+    behavior: classical
+    format: text
+    interval: 43200
+    url: https://ruleset.skk.moe/Clash/ip/stream_jp.txt
+    path: ./sukkaw_ruleset/stream_jp_ip.txt
+  stream_kr_non_ip:
+    type: http
+    behavior: classical
+    format: text
+    interval: 43200
+    url: https://ruleset.skk.moe/Clash/non_ip/stream_kr.txt
+    path: ./sukkaw_ruleset/stream_kr_non_ip.txt
+  stream_kr_ip:
+    type: http
+    behavior: classical
+    format: text
+    interval: 43200
+    url: https://ruleset.skk.moe/Clash/ip/stream_kr.txt
+    path: ./sukkaw_ruleset/stream_kr_ip.txt
+  stream_hk_non_ip:
+    type: http
+    behavior: classical
+    format: text
+    interval: 43200
+    url: https://ruleset.skk.moe/Clash/non_ip/stream_hk.txt
+    path: ./sukkaw_ruleset/stream_hk_non_ip.txt
+  stream_hk_ip:
+    type: http
+    behavior: classical
+    format: text
+    interval: 43200
+    url: https://ruleset.skk.moe/Clash/ip/stream_hk.txt
+    path: ./sukkaw_ruleset/stream_hk_ip.txt
+  stream_tw_non_ip:
+    type: http
+    behavior: classical
+    format: text
+    interval: 43200
+    url: https://ruleset.skk.moe/Clash/non_ip/stream_tw.txt
+    path: ./sukkaw_ruleset/stream_tw_non_ip.txt
+  stream_tw_ip:
+    type: http
+    behavior: classical
+    format: text
+    interval: 43200
+    url: https://ruleset.skk.moe/Clash/ip/stream_tw.txt
+    path: ./sukkaw_ruleset/stream_tw_ip.txt
   stream_non_ip:
     type: http
     behavior: classical
@@ -439,8 +542,8 @@ rule-providers:
     path: ./sukkaw_ruleset/china_ipv6.txt
 
 rules:
-  - AND,(AND,(DST-PORT,443),(NETWORK,UDP)),(NOT,((GEOSITE,cn))),REJECT # quic
-
+  # quic
+  - AND,(AND,(DST-PORT,443),(NETWORK,UDP)),(NOT,((GEOSITE,cn))),REJECT
   # Reject rules
   - RULE-SET,reject_domainset,REJECT
   - RULE-SET,reject_non_ip,REJECT
@@ -451,6 +554,12 @@ rules:
   - RULE-SET,cdn_non_ip,CDN
   # Streaming services
   - DOMAIN-SUFFIX,misakaf.org,Streaming
+  - RULE-SET,stream_us_non_ip,USA
+  - RULE-SET,stream_eu_non_ip,EU
+  - RULE-SET,stream_jp_non_ip,Japan
+  - RULE-SET,stream_kr_non_ip,Korea
+  - RULE-SET,stream_hk_non_ip,HongKong
+  - RULE-SET,stream_tw_non_ip,TaiWan
   - RULE-SET,stream_non_ip,Streaming
   # AI services
   - RULE-SET,ai_non_ip,AIGC
@@ -472,11 +581,16 @@ rules:
   - RULE-SET,domestic_non_ip,Domestic
   - RULE-SET,direct_non_ip,DIRECT
   - RULE-SET,global_non_ip,Global
-
-  - AND,(AND,(DST-PORT,443),(NETWORK,UDP)),(NOT,((GEOIP,CN))),REJECT # quic
-
+  # quic
+  - AND,(AND,(DST-PORT,443),(NETWORK,UDP)),(NOT,((GEOIP,CN))),REJECT
   # IP rules
   - RULE-SET,reject_ip,REJECT
+  - RULE-SET,stream_us_ip,USA
+  - RULE-SET,stream_eu_ip,EU
+  - RULE-SET,stream_jp_ip,Japan
+  - RULE-SET,stream_kr_ip,Korea
+  - RULE-SET,stream_hk_ip,HongKong
+  - RULE-SET,stream_tw_ip,TaiWan
   - RULE-SET,stream_ip,Streaming
   - RULE-SET,telegram_ip,Telegram
   - RULE-SET,lan_ip,DIRECT
