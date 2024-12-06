@@ -1,7 +1,7 @@
 proxy-providers:
   YZT:
     type: http
-    url: "https://sub.yztcloud.cc/getnodeinfo?token=63b704a74dedaf27ff61f0405196d75f"
+    url: ""
     exclude-filter: "每天"
     interval: 86400
     health-check:
