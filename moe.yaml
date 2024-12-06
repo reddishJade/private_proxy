@@ -94,7 +94,7 @@ proxies: []
 
 proxy-providers:
   iKuuu:
-    url: ""
+    url: "https://zvz7w.no-mad-world.club/link/1zX6YSNQZAs01cnf?clash=3&extend=1"
     type: http
     filter: (?i)IEPL|下载
     interval: 86400
@@ -103,7 +103,7 @@ proxy-providers:
     override:
       additional-prefix: "[iKuuu]"
   YZT:
-    url: ""
+    url: "https://sub.yztcloud.moe/getnodeinfo?token=63b704a74dedaf27ff61f0405196d75f"
     type: http
     filter: (?i)港|台|日|韩|新|狮|美|英|德
     exclude-filter: (?i)每天|直连
