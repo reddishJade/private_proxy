@@ -117,10 +117,8 @@ proxy-groups:
       - HongKong
       - TaiWan
       - Japan
-      - Korea
       - Singapore
       - USA
-      - EU
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Proxy.png
   - name: Select # 手动选择
     type: select
@@ -222,13 +220,6 @@ proxy-groups:
     filter: (?i)日|jp
     exclude-filter: IEPL|家宽|低倍率|下载
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Japan.png
-  - name: Korea
-    type: url-test
-    tolerance: 50
-    include-all-providers: true
-    filter: (?i)韩|kr
-    exclude-filter: IEPL|家宽|低倍率|下载
-    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Korea.png
   - name: Singapore
     type: url-test
     tolerance: 50
@@ -243,13 +234,6 @@ proxy-groups:
     filter: (?i)美|us
     exclude-filter: IEPL|家宽|低倍率|下载
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/United_States.png
-  - name: EU
-    type: url-test
-    tolerance: 50
-    include-all-providers: true
-    filter: (?i)英|德
-    exclude-filter: IEPL|家宽|低倍率|下载
-    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/European_Union.png
 
 rule-providers:
   reject_non_ip_no_drop:
