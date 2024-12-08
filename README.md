@@ -1,4 +1,4 @@
-用于mihomo内核的个人配置文件：
+用于mihomo内核的配置文件参考：
 
 - 基于Sukka(skk.moe)的配置文件示例[moe.yaml](https://github.com/reddishJade/private_proxy/blob/main/moe.yaml)
 	- 参考链接：
