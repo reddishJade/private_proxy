@@ -3,6 +3,8 @@ proxy-providers:
   provider1:
     url: "" # 在""内填入链接
     type: http
+    # filter: 
+    # exclude-filter: 
     interval: 86400
     health-check:
       { enable: true, url: "https://cp.cloudflare.com", interval: 300 }
@@ -12,11 +14,13 @@ proxy-providers:
   # provider2:
   #   url: "" # 在""内填入链接
   #   type: http
+  #   filter: 
+  #   exclude-filter: 
   #   interval: 86400
   #   health-check:
   #     { enable: true, url: "https://cp.cloudflare.com", interval: 300 }
-    # override:
-    #   additional-prefix: "[provider2]"
+  #   override:
+  #     additional-prefix: "[provider2]"
 
   # 默认在分组内使用全部订阅：
   # include-all-providers: true
