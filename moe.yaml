@@ -3,8 +3,8 @@ proxy-providers:
   provider1:
     url: "" # 在""内填入链接
     type: http
-    # filter: 
-    # exclude-filter: 
+    # filter: # 筛选满足关键词或正则表达式的节点
+    # exclude-filter: # 排除满足关键词或正则表达式的节点
     interval: 86400
     health-check:
       { enable: true, url: "https://cp.cloudflare.com", interval: 300 }
