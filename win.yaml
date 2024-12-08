@@ -9,12 +9,12 @@ proxy-providers:
     # override:
     #   additional-prefix: "[provider1]"
   # 订阅链接二
-  provider2:
-    url: "" # 在""内填入链接
-    type: http
-    interval: 86400
-    health-check:
-      { enable: true, url: "https://cp.cloudflare.com", interval: 300 }
+  # provider2:
+  #   url: "" # 在""内填入链接
+  #   type: http
+  #   interval: 86400
+  #   health-check:
+  #     { enable: true, url: "https://cp.cloudflare.com", interval: 300 }
     # override:
     #   additional-prefix: "[provider2]"
 
