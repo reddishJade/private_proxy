@@ -28,11 +28,11 @@ dns:
     - 223.5.5.5
     - 119.29.29.29
   nameserver:
-    - https://doh.pub/dns-query
-    - https://dns.alidns.com/dns-query
+    - 1.1.1.1
+    - 8.8.8.8
   fallback:
-    - tls://8.8.4.4
     - tls://1.0.0.1
+    - tls://8.8.4.4
 
 sniffer:
   enable: true
@@ -50,8 +50,6 @@ sniffer:
       ports:
         - 443
         - 8443
-  force-domain:
-    - +.v2ex.com
   skip-domain:
     - dlg.io.mi.com
     - +.apple.com
