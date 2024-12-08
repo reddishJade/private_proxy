@@ -1,3 +1,30 @@
+proxy-providers:
+  # 订阅链接一
+  provider1:
+    url: "" # 在""内填入链接
+    type: http
+    interval: 86400
+    health-check:
+      { enable: true, url: "https://cp.cloudflare.com", interval: 300 }
+    # override:
+    #   additional-prefix: "[provider1]"
+  # 订阅链接二
+  provider2:
+    url: "" # 在""内填入链接
+    type: http
+    interval: 86400
+    health-check:
+      { enable: true, url: "https://cp.cloudflare.com", interval: 300 }
+    # override:
+    #   additional-prefix: "[provider2]"
+
+  # 默认在分组内使用全部订阅：
+  # include-all-providers: true
+  # 如有特殊需求可以在分组内使用指定订阅：
+  # use:
+  #   - provider1
+  #   - provider2
+
 ipv6: true
 allow-lan: true
 mixed-port: 7890
@@ -12,10 +39,10 @@ external-ui-url: "https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-
 
 geodata-mode: true
 geox-url:
-  geoip: "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geoip.dat"
-  geosite: "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geosite.dat"
-  mmdb: "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/country.mmdb"
-  asn: "https://github.com/xishang0128/geoip/releases/download/latest/GeoLite2-ASN.mmdb"
+  geoip: "https://mirror.ghproxy.com/https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geoip-lite.dat"
+  geosite: "https://mirror.ghproxy.com/https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geosite.dat"
+  mmdb: "https://mirror.ghproxy.com/https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/country-lite.mmdb"
+  asn: "https://mirror.ghproxy.com/https://github.com/xishang0128/geoip/releases/download/latest/GeoLite2-ASN.mmdb"
 
 profile:
   store-selected: true
@@ -35,8 +62,6 @@ dns:
     - "*.msftconnecttest.com"
     - "*.msftncsi.com"
     - time.windows.com
-    - time.apple.com
-    - +.pool.ntp.org
   default-nameserver:
     - 223.5.5.5
     - 119.29.29.29
@@ -63,8 +88,6 @@ sniffer:
       ports:
         - 443
         - 8443
-  force-domain:
-    - +.v2ex.com
   skip-domain:
     - +.push.apple.com
 
@@ -79,27 +102,10 @@ tun:
 
 proxies: []
 
-proxy-providers:
-  provider1:
-    url: ""
-    type: http
-    interval: 86400
-    health-check:
-      { enable: true, url: "https://cp.cloudflare.com", interval: 300 }
-    override:
-      additional-prefix: "[provider1]"
-  provider2:
-    url: ""
-    type: http
-    interval: 86400
-    health-check:
-      { enable: true, url: "https://cp.cloudflare.com", interval: 300 }
-    override:
-      additional-prefix: "[provider2]"
-
 proxy-groups:
   - name: Proxy
     type: select
+    # 如需删除分组需在下面的proxies也同步删除
     proxies:
       - Select
       - IEPL
@@ -112,21 +118,21 @@ proxy-groups:
       - USA
       - EU
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Proxy.png
-  - name: Select
+  - name: Select # 手动选择
     type: select
     include-all-providers: true
     icon: https://fastly.jsdelivr.net/gh/shindgewongxj/WHATSINStash@master/icon/select.png
-  - name: IEPL
+  - name: IEPL # 筛选IEPL节点
     type: select
     include-all-providers: true
     filter: (?i)IEPL
     icon: https://fastly.jsdelivr.net/gh/shindgewongxj/WHATSINStash@master/icon/fallback.png
-  - name: Home
+  - name: Home # 筛选家宽节点
     type: select
     include-all-providers: true
     filter: (?i)家宽
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Back.png
-  - name: Final
+  - name: Final # 漏网之鱼策略组
     type: select
     proxies:
       - Proxy
@@ -517,8 +523,6 @@ rule-providers:
     path: ./sukkaw_ruleset/china_ipv6.txt
 
 rules:
-  # quic
-  - AND,(AND,(DST-PORT,443),(NETWORK,UDP)),(NOT,((GEOSITE,cn))),REJECT
   # Reject rules
   - RULE-SET,reject_domainset,REJECT
   - RULE-SET,reject_non_ip,REJECT
@@ -556,8 +560,6 @@ rules:
   - RULE-SET,domestic_non_ip,Domestic
   - RULE-SET,direct_non_ip,DIRECT
   - RULE-SET,global_non_ip,Global
-  # quic
-  - AND,(AND,(DST-PORT,443),(NETWORK,UDP)),(NOT,((GEOIP,CN))),REJECT
   # IP rules
   - RULE-SET,reject_ip,REJECT
   - RULE-SET,stream_us_ip,USA
