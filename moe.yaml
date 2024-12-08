@@ -36,29 +36,16 @@ dns:
     - "*.msftncsi.com"
     - time.windows.com
     - time.apple.com
-    - cn.pool.ntp.org
     - +.pool.ntp.org
   default-nameserver:
     - 223.5.5.5
     - 119.29.29.29
-    - 114.114.114.114
-    - "[2402:4e00::]"
-    - "[2400:3200::1]"
   nameserver:
-    - tls://8.8.4.4#dns
-    - tls://1.0.0.1#dns
-    - tls://[2001:4860:4860::8844]#dns
-    - tls://[2606:4700:4700::1001]#dns
-  proxy-server-nameserver:
-    - https://doh.pub/dns-query
-    - https://dns.alidns.com/dns-query
-  nameserver-policy:
-    geosite:cn,private:
-      - https://doh.pub/dns-query
-      - https://dns.alidns.com/dns-query
-    geosite:!cn,!private:
-      - tls://dns.google
-      - tls://cloudflare-dns.com
+    - 1.1.1.1
+    - 8.8.8.8
+  fallback:
+    - tls://1.0.0.1
+    - tls://8.8.4.4
 
 sniffer:
   enable: true
@@ -93,25 +80,22 @@ tun:
 proxies: []
 
 proxy-providers:
-  iKuuu:
-    url: "https://zvz7w.no-mad-world.club/link/1zX6YSNQZAs01cnf?clash=3&extend=1"
+  provider1:
+    url: ""
     type: http
-    filter: (?i)IEPL|下载
     interval: 86400
     health-check:
       { enable: true, url: "https://cp.cloudflare.com", interval: 300 }
     override:
-      additional-prefix: "[iKuuu]"
-  YZT:
-    url: "https://sub.yztcloud.moe/getnodeinfo?token=63b704a74dedaf27ff61f0405196d75f"
+      additional-prefix: "[provider1]"
+  provider2:
+    url: ""
     type: http
-    filter: (?i)港|台|日|韩|新|狮|美|英|德
-    exclude-filter: (?i)每天|直连
     interval: 86400
     health-check:
       { enable: true, url: "https://cp.cloudflare.com", interval: 300 }
     override:
-      additional-prefix: "[YZT]"
+      additional-prefix: "[provider2]"
 
 proxy-groups:
   - name: Proxy
@@ -130,9 +114,7 @@ proxy-groups:
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Proxy.png
   - name: Select
     type: select
-    use:
-      - iKuuu
-    exclude-filter: (?i)下载|测试
+    include-all-providers: true
     icon: https://fastly.jsdelivr.net/gh/shindgewongxj/WHATSINStash@master/icon/select.png
   - name: IEPL
     type: select
@@ -141,8 +123,7 @@ proxy-groups:
     icon: https://fastly.jsdelivr.net/gh/shindgewongxj/WHATSINStash@master/icon/fallback.png
   - name: Home
     type: select
-    use:
-      - YZT
+    include-all-providers: true
     filter: (?i)家宽
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Back.png
   - name: Final
@@ -208,61 +189,56 @@ proxy-groups:
       - Proxy
       - DIRECT
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Global.png
+
+  # 地区分组（普通中转节点）
   - name: HongKong
     type: url-test
     tolerance: 50
-    use:
-      - YZT
+    include-all-providers: true
     filter: (?i)港|hk
-    exclude-filter: IEPL|家宽|低倍率
+    exclude-filter: IEPL|家宽|低倍率|下载
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Hong_Kong.png
   - name: TaiWan
     type: url-test
     tolerance: 50
-    use:
-      - YZT
+    include-all-providers: true
     filter: (?i)台|tw
-    exclude-filter: IEPL|家宽
+    exclude-filter: IEPL|家宽|低倍率|下载
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Taiwan.png
   - name: Japan
     type: url-test
     tolerance: 50
-    use:
-      - YZT
+    include-all-providers: true
     filter: (?i)日|jp
-    exclude-filter: IEPL|家宽
+    exclude-filter: IEPL|家宽|低倍率|下载
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Japan.png
   - name: Korea
     type: url-test
     tolerance: 50
-    use:
-      - YZT
+    include-all-providers: true
     filter: (?i)韩|kr
-    exclude-filter: IEPL|家宽
+    exclude-filter: IEPL|家宽|低倍率|下载
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Korea.png
   - name: Singapore
     type: url-test
     tolerance: 50
-    use:
-      - YZT
+    include-all-providers: true
     filter: (?i)(新|狮|sg)
-    exclude-filter: IEPL|家宽|低倍率
+    exclude-filter: IEPL|家宽|低倍率|下载
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Singapore.png
   - name: USA
     type: url-test
     tolerance: 50
-    use:
-      - YZT
+    include-all-providers: true
     filter: (?i)美|us
-    exclude-filter: IEPL|家宽
+    exclude-filter: IEPL|家宽|低倍率|下载
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/United_States.png
   - name: EU
     type: url-test
     tolerance: 50
-    use:
-      - YZT
+    include-all-providers: true
     filter: (?i)英|德
-    exclude-filter: IEPL|家宽
+    exclude-filter: IEPL|家宽|低倍率|下载
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/European_Union.png
 
 rule-providers:

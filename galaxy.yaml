@@ -66,25 +66,24 @@ tun:
 proxies: []
 
 proxy-providers:
-  iKuuu:
-    url: "https://zvz7w.no-mad-world.club/link/1zX6YSNQZAs01cnf?clash=3&extend=1"
+  provider1:
+    url: ""
     type: http
-    filter: (?i)IEPL|下载
     interval: 86400
     health-check:
       { enable: true, url: "https://cp.cloudflare.com", interval: 300 }
     override:
-      additional-prefix: "[iKuuu]"
-  YZT:
-    url: "https://sub.yztcloud.moe/getnodeinfo?token=63b704a74dedaf27ff61f0405196d75f"
+      additional-prefix: "[provider1]"
+  provider2:
+    url: ""
     type: http
-    filter: (?i)港|台|日|韩|新|狮|美|英|德
-    exclude-filter: (?i)每天|直连
+    filter: (?i)
+    exclude-filter: (?i)
     interval: 86400
     health-check:
       { enable: true, url: "https://cp.cloudflare.com", interval: 300 }
     override:
-      additional-prefix: "[YZT]"
+      additional-prefix: "[provider2]"
 
 proxy-groups:
   - name: Proxy
@@ -103,8 +102,7 @@ proxy-groups:
   - name: Select
     type: select
     use:
-      - iKuuu
-    exclude-filter: 下载|测试
+      - provider1
     icon: https://fastly.jsdelivr.net/gh/shindgewongxj/WHATSINStash@master/icon/select.png
   - name: IEPL
     type: select
@@ -114,7 +112,7 @@ proxy-groups:
   - name: Home
     type: select
     use:
-      - YZT
+      - provider2
     filter: 家宽
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Back.png
   - name: Final
@@ -204,11 +202,13 @@ proxy-groups:
       - DIRECT
       - Proxy
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Lock.png
+
+  # 地区分组（普通中转节点）
   - name: HongKong
     type: url-test
     tolerance: 50
     use:
-      - YZT
+      - provider2
     filter: 港|hk
     exclude-filter: IEPL|家宽|低倍率
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Hong_Kong.png
@@ -216,7 +216,7 @@ proxy-groups:
     type: url-test
     tolerance: 50
     use:
-      - YZT
+      - provider2
     filter: 台|tw
     exclude-filter: IEPL|家宽
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Taiwan.png
@@ -224,7 +224,7 @@ proxy-groups:
     type: url-test
     tolerance: 50
     use:
-      - YZT
+      - provider2
     filter: 日|jp
     exclude-filter: IEPL|家宽
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Japan.png
@@ -232,7 +232,7 @@ proxy-groups:
     type: url-test
     tolerance: 50
     use:
-      - YZT
+      - provider2
     filter: 新|狮|sg
     exclude-filter: IEPL|家宽|低倍率
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Singapore.png
@@ -240,7 +240,7 @@ proxy-groups:
     type: url-test
     tolerance: 50
     use:
-      - YZT
+      - provider2
     filter: 美|us
     exclude-filter: IEPL|家宽
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/United_States.png
