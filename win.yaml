@@ -1,10 +1,37 @@
+proxy-providers:
+  # 订阅链接一
+  provider1:
+    url: "" # 在""内填入链接
+    type: http
+    interval: 86400
+    health-check:
+      { enable: true, url: "https://cp.cloudflare.com", interval: 300 }
+    # override:
+    #   additional-prefix: "[provider1]"
+  # 订阅链接二
+  provider2:
+    url: "" # 在""内填入链接
+    type: http
+    interval: 86400
+    health-check:
+      { enable: true, url: "https://cp.cloudflare.com", interval: 300 }
+    # override:
+    #   additional-prefix: "[provider2]"
+
+  # 默认在分组内使用全部订阅：
+  # include-all-providers: true
+  # 如有特殊需求可以在分组内使用指定订阅：
+  # use:
+  #   - provider1
+  #   - provider2
+
 mode: rule
 ipv6: true
 allow-lan: true
 mixed-port: 7890
 unified-delay: true
 tcp-concurrent: true
-keep-alive-interval: 15
+keep-alive-interval: 15 # 解决移动端耗电问题
 
 external-controller: 127.0.0.1:9090
 external-ui: ui
@@ -52,7 +79,7 @@ sniffer:
         - 8443
   skip-domain:
     - dlg.io.mi.com
-    - +.apple.com
+    - +.push.apple.com
 
 tun:
   enable: true
@@ -65,30 +92,11 @@ tun:
 
 proxies: []
 
-proxy-providers:
-  provider1:
-    url: ""
-    type: http
-    interval: 86400
-    health-check:
-      { enable: true, url: "https://cp.cloudflare.com", interval: 300 }
-    override:
-      additional-prefix: "[provider1]"
-  provider2:
-    url: ""
-    type: http
-    filter: (?i)
-    exclude-filter: (?i)
-    interval: 86400
-    health-check:
-      { enable: true, url: "https://cp.cloudflare.com", interval: 300 }
-    override:
-      additional-prefix: "[provider2]"
-
 proxy-groups:
   - name: Proxy
     type: select
     proxies:
+    # 如需删除分组需在下面的proxies也同步删除
       - Select
       - IEPL
       - Home
@@ -97,12 +105,10 @@ proxy-groups:
       - Japan
       - Singapore
       - USA
-      - DIRECT
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Proxy.png
   - name: Select
     type: select
-    use:
-      - provider1
+    include-all-providers: true
     icon: https://fastly.jsdelivr.net/gh/shindgewongxj/WHATSINStash@master/icon/select.png
   - name: IEPL
     type: select
@@ -111,8 +117,7 @@ proxy-groups:
     icon: https://fastly.jsdelivr.net/gh/shindgewongxj/WHATSINStash@master/icon/fallback.png
   - name: Home
     type: select
-    use:
-      - provider2
+    include-all-providers: true
     filter: 家宽
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Back.png
   - name: Final
@@ -145,12 +150,6 @@ proxy-groups:
       - DIRECT
       - Proxy
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Microsoft.png
-  - name: Samsung
-    type: select
-    proxies:
-      - DIRECT
-      - Proxy
-    icon: https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Samsung_icon.svg/238px-Samsung_icon.svg.png
   - name: Telegram
     type: select
     proxies:
@@ -207,40 +206,35 @@ proxy-groups:
   - name: HongKong
     type: url-test
     tolerance: 50
-    use:
-      - provider2
+    include-all-providers: true
     filter: 港|hk
     exclude-filter: IEPL|家宽|低倍率
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Hong_Kong.png
   - name: TaiWan
     type: url-test
     tolerance: 50
-    use:
-      - provider2
+    include-all-providers: true
     filter: 台|tw
     exclude-filter: IEPL|家宽
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Taiwan.png
   - name: Japan
     type: url-test
     tolerance: 50
-    use:
-      - provider2
+    include-all-providers: true
     filter: 日|jp
     exclude-filter: IEPL|家宽
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Japan.png
   - name: Singapore
     type: url-test
     tolerance: 50
-    use:
-      - provider2
+    include-all-providers: true
     filter: 新|狮|sg
     exclude-filter: IEPL|家宽|低倍率
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Singapore.png
   - name: USA
     type: url-test
     tolerance: 50
-    use:
-      - provider2
+    include-all-providers: true
     filter: 美|us
     exclude-filter: IEPL|家宽
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/United_States.png
@@ -344,12 +338,6 @@ rule-providers:
     url: "https://fastly.jsdelivr.net/gh/DustinWin/ruleset_geodata@clash-ruleset/cnip.yaml"
     path: ./rules/cnip.yaml
     interval: 86400
-  Samsung:
-    type: http
-    behavior: classical
-    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Samsung/Samsung.yaml
-    path: ./rules/Samsung.yaml
-    interval: 86400
   Streaming:
     type: http
     behavior: domain
@@ -373,7 +361,6 @@ rules:
   - RULE-SET,apple-cn,Apple
   - RULE-SET,google-cn,Google
   - RULE-SET,microsoft-cn,Microsoft
-  - RULE-SET,Samsung,Samsung
   - RULE-SET,ai,AI
   - RULE-SET,games-cn,Game
   - RULE-SET,Streaming,Streaming
