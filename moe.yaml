@@ -70,11 +70,11 @@ dns:
     - 223.5.5.5
     - 119.29.29.29
   nameserver:
-    - 1.1.1.1
-    - 8.8.8.8
+    - https://doh.pub/dns-query
+    - https://dns.alidns.com/dns-query
   fallback:
-    - tls://1.0.0.1
-    - tls://8.8.4.4
+    - https://dns.google/dns-query
+    - https://cloudflare-dns.com/dns-query
 
 sniffer:
   enable: true
