@@ -4,13 +4,13 @@
   upstream:
     xndeye_reject:
       type: http
-      url: "https://raw.githubusercontent.com/xndeye/adblock_list/beta/rule/clash.yaml"
+      url: "https://raw.gitmirror.com/xndeye/adblock_list/beta/rule/clash.yaml"
       format: yaml
       behavior: domain
 
     AWAvenue:
       type: http
-      url: "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main//Filters/AWAvenue-Ads-Rule-Clash.yaml"
+      url: "https://raw.gitmirror.com/TG-Twilight/AWAvenue-Ads-Rule/main//Filters/AWAvenue-Ads-Rule-Clash.yaml"
       format: yaml
       behavior: domain
 
@@ -40,7 +40,7 @@
   upstream:
     DustinWin_apple_cn:
       type: http
-      url: "https://github.com/DustinWin/ruleset_geodata/releases/download/clash-ruleset/apple-cn.yaml"
+      url: "https://fastly.jsdelivr.net/gh/DustinWin/ruleset_geodata@clash-ruleset/apple-cn.yaml"
       format: yaml
       behavior: domain
 
@@ -50,7 +50,7 @@
   upstream:
     DustinWin_microsoft_cn:
       type: http
-      url: "https://github.com/DustinWin/ruleset_geodata/releases/download/clash-ruleset/microsoft-cn.yaml"
+      url: "https://fastly.jsdelivr.net/gh/DustinWin/ruleset_geodata@clash-ruleset/microsoft-cn.yaml"
       format: yaml
       behavior: domain
 
@@ -66,7 +66,7 @@
 
     DustinWin_ai:
       type: http
-      url: "https://github.com/DustinWin/ruleset_geodata/releases/download/clash-ruleset/ai.yaml"
+      url: "https://fastly.jsdelivr.net/gh/DustinWin/ruleset_geodata@clash-ruleset/ai.yaml"
       format: yaml
       behavior: domain
 
@@ -76,7 +76,7 @@
   upstream:
     skk_steam_cn:
       type: http
-      url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/SteamCN/SteamCN.yaml"
+      url: "https://raw.gitmirror.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/SteamCN/SteamCN.yaml"
       format: yaml
       behavior: classical
 
@@ -110,7 +110,7 @@
 
     gfw:
       type: http
-      url: "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/gfw.txt"
+      url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/gfw.txt"
       format: yaml
       behavior: domain
 
@@ -140,28 +140,10 @@
       format: yaml
       behavior: domain
 
-    skk_domestic_non_ip:
-      type: http
-      url: "https://ruleset.skk.moe/Clash/non_ip/domestic.txt"
-      format: txt
-      behavior: classical
-
 - path: output/domestic@ip.yaml
   format: yaml
   behavior: classical
-  upstream:
-    skk_domestic_ip:
-      type: http
-      url: "https://ruleset.skk.moe/Clash/ip/domestic.txt"
-      format: txt
-      behavior: classical
-
-    skk_china_ip:
-      type: http
-      url: "https://ruleset.skk.moe/Clash/ip/china_ip.txt"
-      format: txt
-      behavior: ipcidr
-    
+  upstream:    
     DustinWin_domestic_ip:
       type: http
       url: "https://fastly.jsdelivr.net/gh/DustinWin/ruleset_geodata@clash-ruleset/cnip.yaml"
@@ -182,18 +164,17 @@
   format: yaml
   behavior: classical
   upstream:
-    skk_lan:
+    DustinWin_private_ip:
       type: http
-      url: "https://ruleset.skk.moe/Clash/ip/lan.txt"
-      format: txt
-      behavior: classical
+      url: "https://fastly.jsdelivr.net/gh/DustinWin/ruleset_geodata@clash-ruleset/privateip.yaml"
+      format: yaml
+      behavior: ipcidr
 
 - path: output/fakeip-filter.yaml
   format: yaml
   behavior: classical
   upstream:
-
-    skk_fake_ip_filter:
+    fake_ip_filter:
       type: http
       url: "https://cdn.jsdelivr.net/gh/juewuy/ShellCrash@refs/heads/dev/public/fake_ip_filter.list"
       format: txt
