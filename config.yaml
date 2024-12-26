@@ -2,18 +2,6 @@
   format: yaml
   behavior: classical
   upstream:
-    skk_reject:
-      type: http
-      url: "https://ruleset.skk.moe/Clash/domainset/reject.txt"
-      format: txt
-      behavior: domain
-
-    skk_reject_non_ip:
-      type: http
-      url: "https://ruleset.skk.moe/Clash/non_ip/reject.txt"
-      format: txt
-      behavior: classical
-
     xndeye_reject:
       type: http
       url: "https://raw.githubusercontent.com/xndeye/adblock_list/beta/rule/clash.yaml"
@@ -40,12 +28,6 @@
   format: yaml
   behavior: classical
   upstream:
-    skk_direct_non_ip:
-      type: http
-      url: "https://ruleset.skk.moe/Clash/non_ip/direct.txt"
-      format: txt
-      behavior: classical
-    
     DustinWin_applications:
       type: http
       url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/applications.txt"
@@ -56,24 +38,6 @@
   format: yaml
   behavior: classical
   upstream:
-    skk_apple_services:
-      type: http
-      url: "https://ruleset.skk.moe/Clash/non_ip/apple_services.txt"
-      format: txt
-      behavior: classical
-
-    skk_apple_cn:
-      type: http
-      url: "https://ruleset.skk.moe/Clash/non_ip/apple_cn.txt"
-      format: txt
-      behavior: classical
-
-    skk_apple_cdn:
-      type: http
-      url: "https://ruleset.skk.moe/Clash/domainset/apple_cdn.txt"
-      format: txt
-      behavior: domain
-
     DustinWin_apple_cn:
       type: http
       url: "https://github.com/DustinWin/ruleset_geodata/releases/download/clash-ruleset/apple-cn.yaml"
@@ -84,12 +48,6 @@
   format: yaml
   behavior: classical
   upstream:
-    skk_microsoft_cdn:
-      type: http
-      url: "https://ruleset.skk.moe/Clash/non_ip/microsoft_cdn.txt"
-      format: txt
-      behavior: classical
-
     DustinWin_microsoft_cn:
       type: http
       url: "https://github.com/DustinWin/ruleset_geodata/releases/download/clash-ruleset/microsoft-cn.yaml"
@@ -147,12 +105,6 @@
     telegram:
       type: http
       url: "https://ruleset.skk.moe/Clash/non_ip/telegram.txt"
-      format: txt
-      behavior: classical
-
-    skk_global:
-      type: http
-      url: "https://ruleset.skk.moe/Clash/non_ip/global.txt"
       format: txt
       behavior: classical
 
@@ -226,17 +178,10 @@
       format: yaml
       behavior: domain
 
-    skk_lan_non_ip:
-      type: http
-      url: "https://ruleset.skk.moe/Clash/non_ip/lan.txt"
-      format: txt
-      behavior: classical
-
 - path: output/private@ip.yaml
   format: yaml
   behavior: classical
   upstream:
-
     skk_lan:
       type: http
       url: "https://ruleset.skk.moe/Clash/ip/lan.txt"
