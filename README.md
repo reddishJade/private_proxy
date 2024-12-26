@@ -14,8 +14,9 @@
 
 - 新增借鉴xndeye的[rule-merger](https://github.com/xndeye/rule-merger)的自用规则集文件以及配置文件[merger.yaml](https://github.com/reddishJade/private_proxy/blob/main/merger.yaml)，merger用法详见[用法](https://github.com/xndeye/rule-merger?tab=readme-ov-file#%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8)
 
-| reject@ip     | [link](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/output/c.yaml) |
+| 规则          | 链接                                                         |
 | ------------- | ------------------------------------------------------------ |
+| reject        | [link](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/output/reject.yaml) |
 | reject@ip     | [link](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/output/reject@ip.yaml) |
 | direct        | [link](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/output/direct.yaml) |
 | apple@cn      | [link](https://github.com/reddishJade/private_proxy/blob/main/output/apple@cn.yaml) |
