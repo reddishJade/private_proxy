@@ -34,6 +34,12 @@
       format: yaml
       behavior: classical
 
+    skk_direct:
+      type: http
+      url: "https://ruleset.skk.moe/Clash/non_ip/direct.txt"
+      format: txt
+      behavior: classical
+
 - path: output/apple@cn.yaml
   format: yaml
   behavior: classical
@@ -42,6 +48,24 @@
       type: http
       url: "https://fastly.jsdelivr.net/gh/DustinWin/ruleset_geodata@clash-ruleset/apple-cn.yaml"
       format: yaml
+      behavior: domain
+
+    skk_apple_services:
+      type: http
+      url: "https://ruleset.skk.moe/Clash/non_ip/apple_services.txt"
+      format: txt
+      behavior: classical
+
+    skk_apple_cn:
+      type: http
+      url: "https://ruleset.skk.moe/Clash/non_ip/apple_cn.txt"
+      format: txt
+      behavior: classical
+
+    skk_apple_cdn:
+      type: http
+      url: "https://ruleset.skk.moe/Clash/domainset/apple_cdn.txt"
+      format: txt
       behavior: domain
 
 - path: output/microsoft@cn.yaml
@@ -53,6 +77,12 @@
       url: "https://fastly.jsdelivr.net/gh/DustinWin/ruleset_geodata@clash-ruleset/microsoft-cn.yaml"
       format: yaml
       behavior: domain
+
+    skk_microsoft_cdn:
+      type: http
+      url: "https://ruleset.skk.moe/Clash/non_ip/microsoft_cdn.txt"
+      format: txt
+      behavior: classical
 
 - path: output/ai.yaml
   format: yaml
@@ -214,5 +244,3 @@
       url: "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Download/Download.yaml"
       format: yaml
       behavior: classical
-
-
