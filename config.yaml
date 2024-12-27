@@ -2,15 +2,27 @@
   format: yaml
   behavior: classical
   upstream:
+    skk_reject:
+      type: http
+      url: "https://ruleset.skk.moe/Clash/domainset/reject.txt"
+      format: txt
+      behavior: classical
+
+    skk_reject_non_ip:
+      type: http
+      url: "https://ruleset.skk.moe/Clash/non_ip/reject.txt"
+      format: txt
+      behavior: classical
+
     xndeye_reject:
       type: http
       url: "https://raw.gitmirror.com/xndeye/adblock_list/beta/rule/clash.yaml"
       format: yaml
       behavior: domain
 
-    AWAvenue:
+    anti-AD:
       type: http
-      url: "https://raw.gitmirror.com/TG-Twilight/AWAvenue-Ads-Rule/main//Filters/AWAvenue-Ads-Rule-Clash.yaml"
+      url: "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-clash.yaml"
       format: yaml
       behavior: domain
 
@@ -68,6 +80,12 @@
       format: txt
       behavior: domain
 
+    skk_apple_cdn_non_ip:
+      type: http
+      url: "https://ruleset.skk.moe/Clash/non_ip/apple_cdn.txt"
+      format: txt
+      behavior: domain
+
 - path: output/microsoft@cn.yaml
   format: yaml
   behavior: classical
@@ -88,11 +106,11 @@
   format: yaml
   behavior: classical
   upstream:
-    DustinWin_ai:
+    skk_ai:
       type: http
-      url: "https://fastly.jsdelivr.net/gh/DustinWin/ruleset_geodata@clash-ruleset/ai.yaml"
-      format: yaml
-      behavior: domain
+      url: "https://ruleset.skk.moe/Clash/non_ip/ai.txt"
+      format: txt
+      behavior: classical
 
 - path: output/game@cn.yaml
   format: yaml
@@ -126,17 +144,11 @@
       format: txt
       behavior: classical
 
-    telegram:
+    skk_telegram:
       type: http
       url: "https://ruleset.skk.moe/Clash/non_ip/telegram.txt"
       format: txt
       behavior: classical
-
-    gfw:
-      type: http
-      url: "https://raw.gitmirror.com/Loyalsoldier/clash-rules/release/gfw.txt"
-      format: yaml
-      behavior: domain
 
 - path: output/proxy@ip.yaml
   format: yaml
@@ -148,7 +160,7 @@
       format: txt
       behavior: classical
 
-    telegram_ip:
+    skk_telegram_ip:
       type: http
       url: "https://ruleset.skk.moe/Clash/ip/telegram.txt"
       format: txt
@@ -164,6 +176,12 @@
       format: yaml
       behavior: domain
 
+    skk_domestic:
+      type: http
+      url: "https://ruleset.skk.moe/Clash/non_ip/domestic.txt"
+      format: txt
+      behavior: classical
+
 - path: output/domestic@ip.yaml
   format: yaml
   behavior: classical
@@ -173,6 +191,12 @@
       url: "https://fastly.jsdelivr.net/gh/DustinWin/ruleset_geodata@clash-ruleset/cnip.yaml"
       format: yaml
       behavior: ipcidr
+
+    skk_domestic_ip:
+      type: http
+      url: "https://ruleset.skk.moe/Clash/ip/domestic.txt"
+      format: txt
+      behavior: classical
 
 - path: output/private.yaml
   format: yaml
@@ -215,15 +239,9 @@
       format: txt
       behavior: domain
 
-    skk_cdn:
+    skk_cdn_non_ip:
       type: http
       url: "https://ruleset.skk.moe/Clash/non_ip/cdn.txt"
-      format: txt
-      behavior: classical
-
-    skk_cdn_ip:
-      type: http
-      url: "https://ruleset.skk.moe/Clash/ip/cdn.txt"
       format: txt
       behavior: classical
 
@@ -243,4 +261,20 @@
       type: http
       url: "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Download/Download.yaml"
       format: yaml
+      behavior: classical
+
+- path: output/download@ip.yaml
+  format: yaml
+  behavior: classical
+  upstream:
+    skk_cdn_ip:
+      type: http
+      url: "https://ruleset.skk.moe/Clash/ip/cdn.txt"
+      format: txt
+      behavior: classical
+    
+    skk_download_ip:
+      type: http
+      url: "https://ruleset.skk.moe/Clash/ip/download.txt"
+      format: txt
       behavior: classical

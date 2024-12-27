@@ -1,5 +1,5 @@
-# 更新时间: 2024-12-27 09:48:40
-# 规则数量: 3566
+# 更新时间: 2024-12-27 11:15:39
+# 规则数量: 3563
 payload:
   - DOMAIN,0x0.st
   - DOMAIN,3dna.nationbuilder.com
@@ -3536,9 +3536,6 @@ payload:
   - DOMAIN-SUFFIX,zohostatic.eu
   - DOMAIN-SUFFIX,zohowebstatic.com
   - DOMAIN-SUFFIX,zorocdn.xyz
-  - IP-CIDR,162.159.200.1/32
-  - IP-CIDR,162.159.200.123/32
-  - IP-CIDR,185.199.108.0/22
   - PROCESS-NAME,BitComet
   - PROCESS-NAME,BitComet.exe
   - PROCESS-NAME,BitComet_x64.exe
