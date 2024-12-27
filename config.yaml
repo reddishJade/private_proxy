@@ -31,7 +31,7 @@
     DustinWin_applications:
       type: http
       url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/applications.txt"
-      format: txt
+      format: yaml
       behavior: classical
 
 - path: output/apple@cn.yaml
