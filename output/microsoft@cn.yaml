@@ -1,5 +1,5 @@
-# 更新时间: 2024-12-27 09:37:40
-# 规则数量: 142
+# 更新时间: 2024-12-27 09:48:29
+# 规则数量: 158
 payload:
   - DOMAIN,b.c2r.ts.cdn.office.net
   - DOMAIN,bg.v4.a.dl.ws.microsoft.com
@@ -75,6 +75,7 @@ payload:
   - DOMAIN-SUFFIX,bing.com.cn
   - DOMAIN-SUFFIX,blueaggrestore.com
   - DOMAIN-SUFFIX,bluecloudprod.com
+  - DOMAIN-SUFFIX,build.microsoft.com
   - DOMAIN-SUFFIX,cegid-cloud.cn
   - DOMAIN-SUFFIX,chinacloud-mobile.cn
   - DOMAIN-SUFFIX,chinacloudapi.cn
@@ -83,13 +84,23 @@ payload:
   - DOMAIN-SUFFIX,cn.bing.com
   - DOMAIN-SUFFIX,cn.bing.net
   - DOMAIN-SUFFIX,cn.mm.bing.net
+  - DOMAIN-SUFFIX,cn.windowssearch.com
+  - DOMAIN-SUFFIX,ctldl.windowsupdate.com
   - DOMAIN-SUFFIX,dcg.microsoft.com
+  - DOMAIN-SUFFIX,devblogs.microsoft.com
+  - DOMAIN-SUFFIX,developer.microsoft.com
   - DOMAIN-SUFFIX,ditu.live.com
   - DOMAIN-SUFFIX,dl.delivery.mp.microsoft.com
+  - DOMAIN-SUFFIX,docs.microsoft.com
+  - DOMAIN-SUFFIX,download.microsoft.com
+  - DOMAIN-SUFFIX,download.prss.microsoft.com
+  - DOMAIN-SUFFIX,download.visualstudio.microsoft.com
   - DOMAIN-SUFFIX,download.windowsupdate.com
   - DOMAIN-SUFFIX,dynamics.cn
   - DOMAIN-SUFFIX,engkoo.com
+  - DOMAIN-SUFFIX,fs.microsoft.com
   - DOMAIN-SUFFIX,hdinsightservices.cn
+  - DOMAIN-SUFFIX,learn.microsoft.com
   - DOMAIN-SUFFIX,lync.cn
   - DOMAIN-SUFFIX,management-azure-devices-provisioning.cn
   - DOMAIN-SUFFIX,management-azure-devices.cn
@@ -127,6 +138,7 @@ payload:
   - DOMAIN-SUFFIX,o365files.cn
   - DOMAIN-SUFFIX,office365-net.cn
   - DOMAIN-SUFFIX,office365.cn
+  - DOMAIN-SUFFIX,officecdn.microsoft.com
   - DOMAIN-SUFFIX,officewebapps.cn
   - DOMAIN-SUFFIX,onmschina.cn
   - DOMAIN-SUFFIX,outlook.cn
@@ -136,10 +148,14 @@ payload:
   - DOMAIN-SUFFIX,powerautomate.cn
   - DOMAIN-SUFFIX,powerbi.cn
   - DOMAIN-SUFFIX,reactorms.com.cn
+  - DOMAIN-SUFFIX,sdx.microsoft.com
   - DOMAIN-SUFFIX,sharepoint.cn
+  - DOMAIN-SUFFIX,storeedgefd.dsx.mp.microsoft.com
   - DOMAIN-SUFFIX,trafficmanager.cn
   - DOMAIN-SUFFIX,trustcenter.cn
   - DOMAIN-SUFFIX,unity3dcloud.cn
   - DOMAIN-SUFFIX,windowsazure.cn
   - DOMAIN-SUFFIX,windowsazurestatus.cn
+  - DOMAIN-SUFFIX,wscont1.apps.microsoft.com
+  - DOMAIN-SUFFIX,wscont2.apps.microsoft.com
   - DOMAIN-SUFFIX,xboxlive.cn
