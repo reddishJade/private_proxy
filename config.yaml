@@ -22,7 +22,7 @@
 
     anti-AD:
       type: http
-      url: "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-clash.yaml"
+      url: "https://raw.gitmirror.com/privacy-protection-tools/anti-AD/master/anti-ad-clash.yaml"
       format: yaml
       behavior: domain
 
