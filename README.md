@@ -12,7 +12,7 @@
 
 
 
-- 新增借鉴xndeye的[rule-merger](https://github.com/xndeye/rule-merger)的自用规则集文件以及配置文件[merger.yaml](https://github.com/reddishJade/private_proxy/blob/main/merger.yaml)，merger用法详见[用法](https://github.com/xndeye/rule-merger?tab=readme-ov-file#%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8)
+- 新增借鉴xndeye的[rule-merger](https://github.com/xndeye/rule-merger)的自用规则集文件以及配置文件[merger.yaml](https://github.com/reddishJade/private_proxy/blob/main/merger.yaml)，merger用法详见[用法](https://github.com/reddishJade/private_proxy?tab=readme-ov-file#%E8%A7%84%E5%88%99%E5%90%88%E5%B9%B6%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E)
 
 | 规则          | 链接                                                         |
 | ------------- | ------------------------------------------------------------ |
@@ -80,14 +80,19 @@
 
 ## 使用方法
 
-1. 安装依赖：
+1. 环境要求：
 ```bash
-pip install pyyaml -r requirements.txt
+Python >= 3.7
 ```
 
-2. 准备配置文件 `config.yaml`
+2. 安装依赖：
+```bash
+pip install -r requirements.txt
+```
 
-3. 运行工具：
+3. 准备配置文件 `config.yaml`
+
+4. 运行工具：
 ```bash
 python rule_merger.py
 ```
