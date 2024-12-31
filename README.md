@@ -14,6 +14,7 @@
 
 - 新增借鉴xndeye的[rule-merger](https://github.com/xndeye/rule-merger)的自用规则集文件以及配置文件[merger.yaml](https://github.com/reddishJade/private_proxy/blob/main/merger.yaml)，merger用法详见[用法](https://github.com/reddishJade/private_proxy?tab=readme-ov-file#%E8%A7%84%E5%88%99%E5%90%88%E5%B9%B6%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E)
 
+
 | 规则          | 链接                                                         |
 | ------------- | ------------------------------------------------------------ |
 | reject        | [link](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/output/reject.yaml) |
@@ -31,6 +32,7 @@
 | private@ip    | [link](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/output/private@ip.yaml) |
 | download      | [link](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/output/download.yaml) |
 | fakeip-filter | [link](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/output/fakeip-filter.yaml) |
+
 
 # 规则合并工具使用说明
 
@@ -118,18 +120,3 @@ IP-CIDR6,2001:db8::/32
 example.com
 +.example.com  # 表示 DOMAIN-SUFFIX
 ```
-
-## 注意事项
-
-1. 确保配置文件中的路径正确且有写入权限
-2. HTTP 规则源需要确保网络可访问
-3. 规则文件格式需要与配置中的 format 一致
-4. 建议使用绝对路径或相对于脚本的相对路径
-
-## 错误处理
-
-工具会在运行过程中记录日志，可以通过日志了解详细的执行情况和错误信息：
-- 信息日志：正常的执行流程信息
-- 错误日志：规则获取、处理、写入过程中的错误
-- 调试日志：规则验证失败等详细信息
-
