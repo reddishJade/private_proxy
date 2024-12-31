@@ -27,7 +27,7 @@
 ### 广告拦截类
 | 规则          | 用途           | 上游规则来源 |
 | ------------- | -------------- | ------------ |
-| reject        | 广告域名拦截   | • skk_reject<br>• skk_reject_non_ip<br>• xndeye_reject<br>• anti-AD |
+| reject        | 广告域名拦截   | • skk_reject<br>• skk_reject_non_ip<br>• DustinWin_ads |
 | reject@ip     | 广告IP拦截     | • skk_reject_ip |
 
 ### 应用分流类
