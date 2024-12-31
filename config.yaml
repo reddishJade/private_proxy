@@ -14,15 +14,9 @@
       format: txt
       behavior: classical
 
-    xndeye_reject:
+    DustinWin_ads:
       type: http
-      url: "https://raw.gitmirror.com/xndeye/adblock_list/beta/rule/clash.yaml"
-      format: yaml
-      behavior: domain
-
-    anti-AD:
-      type: http
-      url: "https://raw.gitmirror.com/privacy-protection-tools/anti-AD/master/anti-ad-clash.yaml"
+      url: "https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/ads.yaml"
       format: yaml
       behavior: domain
 
@@ -42,7 +36,7 @@
   upstream:
     DustinWin_applications:
       type: http
-      url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/applications.txt"
+      url: "https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/applications.yaml"
       format: yaml
       behavior: classical
 
@@ -58,7 +52,7 @@
   upstream:
     DustinWin_apple_cn:
       type: http
-      url: "https://fastly.jsdelivr.net/gh/DustinWin/ruleset_geodata@clash-ruleset/apple-cn.yaml"
+      url: "https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/apple-cn.yaml"
       format: yaml
       behavior: domain
 
@@ -92,7 +86,7 @@
   upstream:
     DustinWin_microsoft_cn:
       type: http
-      url: "https://fastly.jsdelivr.net/gh/DustinWin/ruleset_geodata@clash-ruleset/microsoft-cn.yaml"
+      url: "https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/microsoft-cn.yaml"
       format: yaml
       behavior: domain
 
@@ -124,7 +118,7 @@
 
     DustinWin_games_cn:
       type: http
-      url: "https://fastly.jsdelivr.net/gh/DustinWin/ruleset_geodata@clash-ruleset/games-cn.yaml"
+      url: "https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/games-cn.yaml"
       format: yaml
       behavior: domain
 
@@ -134,7 +128,7 @@
   upstream:
     DustinWin_proxy:
       type: http
-      url: "https://fastly.jsdelivr.net/gh/DustinWin/ruleset_geodata@clash-ruleset/proxy.yaml"
+      url: "https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/proxy.yaml"
       format: yaml
       behavior: domain
 
@@ -172,7 +166,7 @@
   upstream:
     DustinWin_domestic:
       type: http
-      url: "https://fastly.jsdelivr.net/gh/DustinWin/ruleset_geodata@clash-ruleset/cn.yaml"
+      url: "https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/cn.yaml"
       format: yaml
       behavior: domain
 
@@ -188,7 +182,7 @@
   upstream:    
     DustinWin_domestic_ip:
       type: http
-      url: "https://fastly.jsdelivr.net/gh/DustinWin/ruleset_geodata@clash-ruleset/cnip.yaml"
+      url: "https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/cnip.yaml"
       format: yaml
       behavior: ipcidr
 
@@ -204,7 +198,7 @@
   upstream:
     DustinWin_private:
       type: http
-      url: "https://fastly.jsdelivr.net/gh/DustinWin/ruleset_geodata@clash-ruleset/private.yaml"
+      url: "https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/private.yaml"
       format: yaml
       behavior: domain
 
@@ -214,7 +208,7 @@
   upstream:
     DustinWin_privateip:
       type: http
-      url: "https://fastly.jsdelivr.net/gh/DustinWin/ruleset_geodata@clash-ruleset/privateip.yaml"
+      url: "https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/privateip.yaml"
       format: yaml
       behavior: ipcidr
 

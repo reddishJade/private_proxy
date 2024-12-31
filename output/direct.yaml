@@ -1,5 +1,5 @@
-# 更新时间: 2024-12-31 16:32:41
-# 规则数量: 277
+# 更新时间: 2024-12-31 17:50:18
+# 规则数量: 292
 payload:
   - DOMAIN,aterm.me
   - DOMAIN,captive.apple.com
@@ -16,6 +16,7 @@ payload:
   - DOMAIN,router.asus.com
   - DOMAIN,setmeup.arubanetworks.com
   - DOMAIN,unifi
+  - DOMAIN-KEYWORD,aria2
   - DOMAIN-KEYWORD,cnki.net
   - DOMAIN-KEYWORD,deepdyve
   - DOMAIN-KEYWORD,els-cdn
@@ -23,8 +24,12 @@ payload:
   - DOMAIN-KEYWORD,pkulaw
   - DOMAIN-KEYWORD,readcube
   - DOMAIN-KEYWORD,sciencedirect
+  - DOMAIN-KEYWORD,thunder
   - DOMAIN-KEYWORD,wanfangdata
   - DOMAIN-KEYWORD,westlawchina
+  - DOMAIN-KEYWORD,xlliveud
+  - DOMAIN-KEYWORD,xunlei
+  - DOMAIN-KEYWORD,yunpan
   - DOMAIN-SUFFIX,10.in-addr.arpa
   - DOMAIN-SUFFIX,16.172.in-addr.arpa
   - DOMAIN-SUFFIX,168.192.in-addr.arpa
@@ -150,6 +155,7 @@ payload:
   - DOMAIN-SUFFIX,pterclub.com
   - DOMAIN-SUFFIX,pthome.net
   - DOMAIN-SUFFIX,ptsbao.club
+  - DOMAIN-SUFFIX,qbittorrent.org
   - DOMAIN-SUFFIX,redacted.ch
   - DOMAIN-SUFFIX,researchgate.net
   - DOMAIN-SUFFIX,router
@@ -185,7 +191,9 @@ payload:
   - PROCESS-NAME,ClashX
   - PROCESS-NAME,DownloadSDKServer.exe
   - PROCESS-NAME,DownloadService
+  - PROCESS-NAME,DownloadService.exe
   - PROCESS-NAME,Folx
+  - PROCESS-NAME,Folx.exe
   - PROCESS-NAME,LocalSend
   - PROCESS-NAME,Logi Options
   - PROCESS-NAME,Logi Options Daemon
@@ -207,15 +215,21 @@ payload:
   - PROCESS-NAME,ThunderVIP
   - PROCESS-NAME,ThunderVIP.exe
   - PROCESS-NAME,Transmission
+  - PROCESS-NAME,Transmission.exe
   - PROCESS-NAME,UUBooster
   - PROCESS-NAME,WebTorrent
   - PROCESS-NAME,WebTorrent Helper
   - PROCESS-NAME,WebTorrent.exe
+  - PROCESS-NAME,WebTorrentHelper
+  - PROCESS-NAME,WebTorrentHelper.exe
+  - PROCESS-NAME,Weiyun
+  - PROCESS-NAME,Weiyun.exe
   - PROCESS-NAME,amuled
   - PROCESS-NAME,aria2
   - PROCESS-NAME,aria2.exe
   - PROCESS-NAME,aria2c
   - PROCESS-NAME,aria2c.exe
+  - PROCESS-NAME,baidunetdisk.exe
   - PROCESS-NAME,clash
   - PROCESS-NAME,cloudflared
   - PROCESS-NAME,fdm
@@ -232,6 +246,7 @@ payload:
   - PROCESS-NAME,proxifier
   - PROCESS-NAME,proxifier.exe
   - PROCESS-NAME,qBittorrent
+  - PROCESS-NAME,qbittorrent
   - PROCESS-NAME,qbittorrent*
   - PROCESS-NAME,qbittorrent-nox
   - PROCESS-NAME,qbittorrent.exe

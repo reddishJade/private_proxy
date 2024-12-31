@@ -1,5 +1,5 @@
-# 更新时间: 2024-12-31 16:32:41
-# 规则数量: 472
+# 更新时间: 2024-12-31 17:50:18
+# 规则数量: 480
 payload:
   - DOMAIN,a1.mzstatic.com
   - DOMAIN,a2.mzstatic.com
@@ -14,6 +14,7 @@ payload:
   - DOMAIN,amp-api-search-edge.apps.apple.com
   - DOMAIN,amp-api.apps.apple.com
   - DOMAIN,amp-api.media.apple.com
+  - DOMAIN,amp-api.music.apple.com
   - DOMAIN,aod.itunes.apple.com
   - DOMAIN,api-edge.apps.apple.com
   - DOMAIN,api-p-ap-c.smoot.apple.com
@@ -26,6 +27,7 @@ payload:
   - DOMAIN,appleid.cdn-apple.com
   - DOMAIN,apps.mzstatic.com
   - DOMAIN,apptrailers.itunes.apple.com
+  - DOMAIN,auth.music.apple.com
   - DOMAIN,bag.itunes.apple.com
   - DOMAIN,bookkeeper.itunes.apple.com
   - DOMAIN,cdn-cn1.apple-mapkit.com
@@ -97,7 +99,6 @@ payload:
   - DOMAIN,guzzoni-apple-com.v.aaplimg.com
   - DOMAIN,guzzoni.apple.com
   - DOMAIN,guzzoni.smoot.apple.com
-  - DOMAIN,iadsdk.apple.com
   - DOMAIN,icloud-cdn.icloud.com.akadns.net
   - DOMAIN,icloud.cdn-apple.com
   - DOMAIN,images.apple.com
@@ -141,8 +142,11 @@ payload:
   - DOMAIN,mesu-cdn.apple.com.akadns.net
   - DOMAIN,mesu-china.apple.com.akadns.net
   - DOMAIN,mesu.apple.com
+  - DOMAIN,misc-assets.itunes.apple.com
   - DOMAIN,ml.cdn-apple.com
   - DOMAIN,music.apple.com
+  - DOMAIN,myapp.itunes.apple.com
+  - DOMAIN,np-edge.itunes.apple.com
   - DOMAIN,ocsp-lb.apple.com.akadns.net
   - DOMAIN,ocsp.apple.com
   - DOMAIN,ocsp2-lb.apple.com.akadns.net
@@ -154,8 +158,10 @@ payload:
   - DOMAIN,pancake.apple.com
   - DOMAIN,pancake.cdn-apple.com.akadns.net
   - DOMAIN,pba0.apple.com
+  - DOMAIN,pd-nk.itunes.apple.com
   - DOMAIN,pd.itunes.apple.com
   - DOMAIN,play.itunes.apple.com
+  - DOMAIN,play.music.apple.com
   - DOMAIN,probe.siri.apple.com
   - DOMAIN,prod-support.apple-support.akadns.net
   - DOMAIN,publicassets.cdn-apple.com
@@ -197,6 +203,7 @@ payload:
   - DOMAIN,swscan.apple.com
   - DOMAIN,sylvan.apple.com
   - DOMAIN,sync.itunes.apple.com
+  - DOMAIN,tf-feedback.itunes.apple.com
   - DOMAIN,tj-pod1-smp-device.apple.com
   - DOMAIN,updates-http.cdn-apple.com
   - DOMAIN,updates-http.cdn-apple.com.akadns.net
@@ -212,6 +219,7 @@ payload:
   - DOMAIN,www.apple.com
   - DOMAIN,www.apple.com.edgekey.net
   - DOMAIN,www.apple.com.edgekey.net.globalredir.akadns.net
+  - DOMAIN,www.support.apple.com
   - DOMAIN,xp.apple.com
   - DOMAIN-SUFFIX,a1.mzstatic.com
   - DOMAIN-SUFFIX,a2.mzstatic.com

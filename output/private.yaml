@@ -1,137 +1,159 @@
-# 更新时间: 2024-12-31 16:32:49
-# 规则数量: 258
+# 更新时间: 2024-12-31 17:50:32
+# 规则数量: 277
 payload:
+  - DOMAIN,0123456789nonexistent.com
+  - DOMAIN,0d.kebhana.mx
   - DOMAIN,1337.abcvg.info
-  - DOMAIN,1c.premierzal.ru
-  - DOMAIN,aegir.sexy
-  - DOMAIN,amigacity.xyz
+  - DOMAIN,api.ipv4online.uk
   - DOMAIN,asusrouter.com
   - DOMAIN,bandito.byterunner.io
+  - DOMAIN,bittorrent-tracker.e-n-c-r-y-p-t.net
+  - DOMAIN,board.zash.run.place
+  - DOMAIN,brightstar.freeddns.org
   - DOMAIN,bt.ktrackers.com
   - DOMAIN,bt.okmp3.ru
-  - DOMAIN,bt1.archive.org
-  - DOMAIN,bt2.archive.org
-  - DOMAIN,bvarf.tracker.sh
+  - DOMAIN,bt.rer.lol
   - DOMAIN,ch3oh.ru
-  - DOMAIN,clash.metacubex.one
-  - DOMAIN,clash.razord.top
   - DOMAIN,concen.org
-  - DOMAIN,connect.rom.miui.com
+  - DOMAIN,cq.kmzs123.cn
   - DOMAIN,d.metacubex.one
   - DOMAIN,d40969.acod.regrucolo.ru
+  - DOMAIN,discord.heihachi.pw
   - DOMAIN,ec2-18-191-163-220.us-east-2.compute.amazonaws.com
-  - DOMAIN,epider.me
   - DOMAIN,evan.im
   - DOMAIN,exodus.desync.com
+  - DOMAIN,finbytes.org
+  - DOMAIN,highteahop.top
   - DOMAIN,instant.arubanetworks.com
   - DOMAIN,ipv4.rer.lol
-  - DOMAIN,ipv6.rer.lol
+  - DOMAIN,ipv4announce.sktorrent.eu
   - DOMAIN,isk.richardsw.club
-  - DOMAIN,jutone.com
-  - DOMAIN,leet-tracker.moe
-  - DOMAIN,mail.artixlinux.org
+  - DOMAIN,ismaarino.com
   - DOMAIN,martin-gebhardt.eu
+  - DOMAIN,mathkangaroo.jp
   - DOMAIN,metacubex.github.io
   - DOMAIN,metacubexd.pages.dev
-  - DOMAIN,moonburrow.club
-  - DOMAIN,new-line.net
+  - DOMAIN,mikrotik2.draatman.net
+  - DOMAIN,miwifi.com
+  - DOMAIN,ns1.monolithindustries.com
   - DOMAIN,nyaa.tracker.wf
   - DOMAIN,oasisauth.h3c.com
-  - DOMAIN,odd-hd.fr
   - DOMAIN,open.demonii.com
-  - DOMAIN,open.demonoid.ch
-  - DOMAIN,open.dstud.io
-  - DOMAIN,open.publictracker.xyz
+  - DOMAIN,open.free-tracker.ga
   - DOMAIN,open.stealth.si
+  - DOMAIN,open.tracker.cl
   - DOMAIN,open.tracker.ink
-  - DOMAIN,open.u-p.pw
+  - DOMAIN,open.trackerlist.xyz
   - DOMAIN,opentor.org
   - DOMAIN,opentracker.io
-  - DOMAIN,public.publictracker.xyz
-  - DOMAIN,pybittrack.retiolus.net
+  - DOMAIN,p2p.publictracker.xyz
+  - DOMAIN,p4p.arenabg.com
+  - DOMAIN,public.tracker.vraphim.com
   - DOMAIN,retracker.hotplug.ru
   - DOMAIN,retracker.lanta.me
-  - DOMAIN,retracker.x2k.ru
-  - DOMAIN,retracker01-msk-virt.corbina.net
+  - DOMAIN,retracker.spark-rostov.ru
   - DOMAIN,router.asus.com
-  - DOMAIN,run.publictracker.xyz
-  - DOMAIN,ryjer.com
+  - DOMAIN,routerlogin.com
+  - DOMAIN,seeders-paradise.org
   - DOMAIN,seedpeer.net
+  - DOMAIN,serpb.vpsburti.com
+  - DOMAIN,servandroidkino.ru
   - DOMAIN,setmeup.arubanetworks.com
-  - DOMAIN,t.peer-exchange.download
-  - DOMAIN,t1.aag.moe
-  - DOMAIN,tamas3.ynh.fr
-  - DOMAIN,tk2.trackerservers.com
-  - DOMAIN,tk2v6.trackerservers.com
-  - DOMAIN,torrents.artixlinux.org
-  - DOMAIN,torrentsmd.com
+  - DOMAIN,share.hkg-fansub.info
+  - DOMAIN,shubt.net
+  - DOMAIN,sparkle.ghostchu-services.top
+  - DOMAIN,t.213891.xyz
+  - DOMAIN,t.overflow.biz
+  - DOMAIN,taciturn-shadow.spb.ru
+  - DOMAIN,tk.greedland.net
+  - DOMAIN,torrent.tracker.durukanbal.com
+  - DOMAIN,tplogin.cn
   - DOMAIN,tr.abir.ga
   - DOMAIN,tr.burnabyhighstar.com
-  - DOMAIN,tr.kxmp.cf
+  - DOMAIN,tr.movian.eu
+  - DOMAIN,tr.nyacat.pw
+  - DOMAIN,tr.zukizuki.org
+  - DOMAIN,tr1.aag.moe
+  - DOMAIN,tr2.trkb.ru
+  - DOMAIN,tr4ck3r.duckdns.org
+  - DOMAIN,trackarr.org
+  - DOMAIN,tracker-udp.gbitt.info
+  - DOMAIN,tracker-us.silksa.co.za
   - DOMAIN,tracker-zhuqiy.dgj055.icu
   - DOMAIN,tracker.0x7c0.com
+  - DOMAIN,tracker.beeimg.com
   - DOMAIN,tracker.birkenwald.de
-  - DOMAIN,tracker.bittor.pw
+  - DOMAIN,tracker.bjut.jp
   - DOMAIN,tracker.breizh.pm
+  - DOMAIN,tracker.bt-hash.com
   - DOMAIN,tracker.bt4g.com
-  - DOMAIN,tracker.ccp.ovh
   - DOMAIN,tracker.cloudit.top
+  - DOMAIN,tracker.corpscorp.online
   - DOMAIN,tracker.cyberia.is
   - DOMAIN,tracker.darkness.services
   - DOMAIN,tracker.deadorbit.nl
   - DOMAIN,tracker.dler.com
-  - DOMAIN,tracker.dump.cl
+  - DOMAIN,tracker.dler.org
+  - DOMAIN,tracker.dmcomic.org
+  - DOMAIN,tracker.draatman.uk
   - DOMAIN,tracker.edkj.club
-  - DOMAIN,tracker.electro-torrent.pl
-  - DOMAIN,tracker.farted.net
   - DOMAIN,tracker.filemail.com
-  - DOMAIN,tracker.files.fm
   - DOMAIN,tracker.fnix.net
   - DOMAIN,tracker.gcrenwp.top
   - DOMAIN,tracker.gmi.gd
+  - DOMAIN,tracker.guguan.us.kg
   - DOMAIN,tracker.ipfsscan.io
   - DOMAIN,tracker.ipv6tracker.org
-  - DOMAIN,tracker.jamesthebard.net
+  - DOMAIN,tracker.itscraftsoftware.my.id
+  - DOMAIN,tracker.kmzs123.tk
   - DOMAIN,tracker.kuroy.me
+  - DOMAIN,tracker.leechshield.link
   - DOMAIN,tracker.lilithraws.org
+  - DOMAIN,tracker.moeking.me
+  - DOMAIN,tracker.moxing.party
   - DOMAIN,tracker.mywaifu.best
+  - DOMAIN,tracker.ololosh.space
   - DOMAIN,tracker.opentrackr.org
   - DOMAIN,tracker.openwebtorrent.com
   - DOMAIN,tracker.pmman.tech
+  - DOMAIN,tracker.qu.ax
   - DOMAIN,tracker.renfei.net
+  - DOMAIN,tracker.sbsub.com
+  - DOMAIN,tracker.skynetcloud.site
   - DOMAIN,tracker.skyts.net
   - DOMAIN,tracker.srv00.com
-  - DOMAIN,tracker.tamersunion.org
-  - DOMAIN,tracker.theoks.net
   - DOMAIN,tracker.tiny-vps.com
   - DOMAIN,tracker.torrent.eu.org
   - DOMAIN,tracker.torrust-demo.com
   - DOMAIN,tracker.tryhackx.org
-  - DOMAIN,tracker.xor.st
+  - DOMAIN,tracker.valete.tf
+  - DOMAIN,tracker.vanitycore.co
+  - DOMAIN,tracker.vraphim.com
+  - DOMAIN,tracker.waaa.moe
   - DOMAIN,tracker.yemekyedim.com
+  - DOMAIN,tracker.yume-hatsuyuki.moe
   - DOMAIN,tracker1.520.jp
-  - DOMAIN,tracker1.bt.moack.co.kr
   - DOMAIN,tracker1.myporn.club
   - DOMAIN,tracker2.dler.org
   - DOMAIN,tracker2.itzmx.com
   - DOMAIN,tracker3.itzmx.com
-  - DOMAIN,tracker3.t-1.org
   - DOMAIN,tracker4.itzmx.com
+  - DOMAIN,tracker810.xyz
   - DOMAIN,trackers.mlsub.net
-  - DOMAIN,trackers.run
   - DOMAIN,ttk2.nbaonlineservice.com
-  - DOMAIN,u.peer-exchange.download
   - DOMAIN,u4.trakx.crim.ist
   - DOMAIN,u6.trakx.crim.ist
+  - DOMAIN,udp.tracker.projectk.org
   - DOMAIN,wepzone.net
   - DOMAIN,www.all4nothin.net
   - DOMAIN,www.asusrouter.com
-  - DOMAIN,www.peckservers.com
+  - DOMAIN,www.genesis-sp.org
+  - DOMAIN,www.miwifi.com
+  - DOMAIN,www.routerlogin.com
   - DOMAIN,www.torrent.eu.org
   - DOMAIN,www.wareztorrent.com
   - DOMAIN,yacd.haishan.me
   - DOMAIN,yacd.metacubex.one
-  - DOMAIN,z.mercax.com
   - DOMAIN-SUFFIX,0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa
   - DOMAIN-SUFFIX,0.in-addr.arpa
   - DOMAIN-SUFFIX,1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa
@@ -229,30 +251,27 @@ payload:
   - DOMAIN-SUFFIX,a.e.f.ip6.arpa
   - DOMAIN-SUFFIX,acl4.ssr
   - DOMAIN-SUFFIX,b.e.f.ip6.arpa
-  - DOMAIN-SUFFIX,captive.apple.com
-  - DOMAIN-SUFFIX,connectivitycheck.gstatic.com
-  - DOMAIN-SUFFIX,cp.cloudflare.com
   - DOMAIN-SUFFIX,d.f.ip6.arpa
-  - DOMAIN-SUFFIX,detectportal.firefox.com
+  - DOMAIN-SUFFIX,example
   - DOMAIN-SUFFIX,hiwifi.com
   - DOMAIN-SUFFIX,home.arpa
+  - DOMAIN-SUFFIX,invalid
+  - DOMAIN-SUFFIX,lan
   - DOMAIN-SUFFIX,leike.cc
+  - DOMAIN-SUFFIX,local
+  - DOMAIN-SUFFIX,localdomain
+  - DOMAIN-SUFFIX,localhost
   - DOMAIN-SUFFIX,localhost.ptlogin2.qq.com
   - DOMAIN-SUFFIX,localhost.sec.qq.com
-  - DOMAIN-SUFFIX,location.services.mozilla.com
-  - DOMAIN-SUFFIX,msftconnecttest.com
-  - DOMAIN-SUFFIX,msftncsi.com
   - DOMAIN-SUFFIX,my.router
-  - DOMAIN-SUFFIX,networkcheck.kde.org
   - DOMAIN-SUFFIX,p.to
   - DOMAIN-SUFFIX,peiluyou.com
   - DOMAIN-SUFFIX,phicomm.me
-  - DOMAIN-SUFFIX,ping.archlinux.org
   - DOMAIN-SUFFIX,plex.direct
-  - DOMAIN-SUFFIX,push.services.mozilla.com
   - DOMAIN-SUFFIX,router.ctc
   - DOMAIN-SUFFIX,routerlogin.com
   - DOMAIN-SUFFIX,tendawifi.com
+  - DOMAIN-SUFFIX,test
   - DOMAIN-SUFFIX,test.steampowered.com
   - DOMAIN-SUFFIX,tplinkwifi.net
   - DOMAIN-SUFFIX,tplogin.cn
