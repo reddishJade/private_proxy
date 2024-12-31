@@ -20,7 +20,7 @@
 | reject        | [link](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/output/reject.yaml) |
 | reject@ip     | [link](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/output/reject@ip.yaml) |
 | direct        | [link](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/output/direct.yaml) |
-| apple@cn      | [link](https://github.com/reddishJade/private_proxy/blob/main/output/apple@cn.yaml) |
+| apple@cn      | [link](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/output/apple@cn.yaml) |
 | microsoft@cn  | [link](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/output/microsoft@cn.yaml) |
 | ai            | [link](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/output/ai.yaml) |
 | proxy         | [link](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/output/game@cn.yaml) |
