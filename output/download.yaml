@@ -1,5 +1,5 @@
-# 更新时间: 2024-12-31 11:39:25
-# 规则数量: 3572
+# 更新时间: 2024-12-31 16:32:50
+# 规则数量: 3577
 payload:
   - DOMAIN,0x0.st
   - DOMAIN,3dna.nationbuilder.com
@@ -314,6 +314,7 @@ payload:
   - DOMAIN,cdn-bundler.nice-team.net
   - DOMAIN,cdn-c.leavemealone.com
   - DOMAIN,cdn-client.medium.com
+  - DOMAIN,cdn-dynmedia-1.microsoft.com
   - DOMAIN,cdn-edge.karte.io
   - DOMAIN,cdn-eu.dynamicyield.com
   - DOMAIN,cdn-fck.tnaflix.com
@@ -364,6 +365,7 @@ payload:
   - DOMAIN,cdn.bfe.dev
   - DOMAIN,cdn.bigcloud.click
   - DOMAIN,cdn.birdie.so
+  - DOMAIN,cdn.botframework.com
   - DOMAIN,cdn.branch.io
   - DOMAIN,cdn.britannica.com
   - DOMAIN,cdn.bsky.social
@@ -1065,6 +1067,7 @@ payload:
   - DOMAIN,image.ship.vercel.com
   - DOMAIN,image.shutterstock.com
   - DOMAIN,image.status.io
+  - DOMAIN,image.telanganatoday.com
   - DOMAIN,image.theblockbeats.info
   - DOMAIN,image.thefly.com
   - DOMAIN,image.tmdb.org
@@ -1358,6 +1361,7 @@ payload:
   - DOMAIN,media.shopimind.com
   - DOMAIN,media.smooch.io
   - DOMAIN,media.steampowered.com
+  - DOMAIN,media.telanganatoday.com
   - DOMAIN,media.tenor.com
   - DOMAIN,media.themoviedb.org
   - DOMAIN,media.theporndude.com
@@ -1652,6 +1656,7 @@ payload:
   - DOMAIN,s.namemc.com
   - DOMAIN,s.plurk.com
   - DOMAIN,s.rfi.fr
+  - DOMAIN,s.slideme.org
   - DOMAIN,s.udn.com.tw
   - DOMAIN,s.w-x.co
   - DOMAIN,s.w.org
