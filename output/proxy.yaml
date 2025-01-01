@@ -1,5 +1,5 @@
-# 更新时间: 2024-12-31 17:50:22
-# 规则数量: 31791
+# 更新时间: 2025-01-01 12:52:38
+# 规则数量: 31793
 payload:
   - DOMAIN,3dns-1.adobe.com
   - DOMAIN,3dns-2.adobe.com
@@ -557,7 +557,6 @@ payload:
   - DOMAIN-KEYWORD,-spotify-com
   - DOMAIN-KEYWORD,-tiktokcdn-com
   - DOMAIN-KEYWORD,.hbogoasia.
-  - DOMAIN-KEYWORD,abematv.akamaized.net
   - DOMAIN-KEYWORD,apiproxy-device-prod-nlb-
   - DOMAIN-KEYWORD,avoddashs
   - DOMAIN-KEYWORD,bbcfmt
@@ -7998,6 +7997,7 @@ payload:
   - DOMAIN-SUFFIX,decrypt.day
   - DOMAIN-SUFFIX,decymru.ac.uk
   - DOMAIN-SUFFIX,deed.ac.uk
+  - DOMAIN-SUFFIX,deepai.org
   - DOMAIN-SUFFIX,deepdiscount.com
   - DOMAIN-SUFFIX,deeper.com
   - DOMAIN-SUFFIX,deepfake-porn.com
@@ -17171,6 +17171,7 @@ payload:
   - DOMAIN-SUFFIX,localpresshk.com
   - DOMAIN-SUFFIX,localxlist.org
   - DOMAIN-SUFFIX,locate.ac.uk
+  - DOMAIN-SUFFIX,location-plus.nhk.jp
   - DOMAIN-SUFFIX,lockestek.com
   - DOMAIN-SUFFIX,lockssalliance.ac.uk
   - DOMAIN-SUFFIX,logbot.net
@@ -29452,6 +29453,7 @@ payload:
   - DOMAIN-SUFFIX,vraiesagesse.net
   - DOMAIN-SUFFIX,vrbgay.com
   - DOMAIN-SUFFIX,vrcams.io
+  - DOMAIN-SUFFIX,vrchat.com
   - DOMAIN-SUFFIX,vred-essentials.com
   - DOMAIN-SUFFIX,vredessentials.com
   - DOMAIN-SUFFIX,vredprofessional.com

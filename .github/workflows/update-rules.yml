@@ -1,0 +1,38 @@
+name: Update Rules
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # 每天 UTC 0:00 执行
+  workflow_dispatch:      # 允许手动触发
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v3
+      with:
+        fetch-depth: 0
+    
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.7'
+    
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+    
+    - name: Update rules
+      run: python rule_merger.py
+    
+    - name: Configure Git
+      run: |
+        git config --global user.name 'github-actions[bot]'
+        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+    
+    - name: Commit and push if changed
+      run: |
+        git add .
+        git diff --quiet && git diff --staged --quiet || (git commit -m "update rules $(date +'%Y-%m-%d')" && git push) 

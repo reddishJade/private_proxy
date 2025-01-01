@@ -1,5 +1,5 @@
-# 更新时间: 2024-12-31 17:50:15
-# 规则数量: 89757
+# 更新时间: 2025-01-01 12:52:30
+# 规则数量: 89756
 payload:
   - DOMAIN,aedns.weixin.qq.com
   - DOMAIN,api-js.mixpanel.com
@@ -9335,7 +9335,6 @@ payload:
   - DOMAIN-SUFFIX,app.charlotte49ers.com
   - DOMAIN-SUFFIX,app.chartwayarena.com
   - DOMAIN-SUFFIX,app.chat.global.xiaomi.net.iberostar.com
-  - DOMAIN-SUFFIX,app.chat.xiaomi.net
   - DOMAIN-SUFFIX,app.cimarketing.aig.com
   - DOMAIN-SUFFIX,app.cincinnatiarts.org
   - DOMAIN-SUFFIX,app.citibikenyc.com

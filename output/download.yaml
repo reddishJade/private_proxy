@@ -1,5 +1,5 @@
-# 更新时间: 2024-12-31 17:50:33
-# 规则数量: 3577
+# 更新时间: 2025-01-01 12:52:51
+# 规则数量: 3578
 payload:
   - DOMAIN,0x0.st
   - DOMAIN,3dna.nationbuilder.com
@@ -172,6 +172,7 @@ payload:
   - DOMAIN,assets.newrepublic.com
   - DOMAIN,assets.nflxext.com
   - DOMAIN,assets.nintendo.com
+  - DOMAIN,assets.nxtrace.org
   - DOMAIN,assets.onestore.ms
   - DOMAIN,assets.ontrack.com
   - DOMAIN,assets.openshift.com
