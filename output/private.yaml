@@ -1,5 +1,5 @@
-# 更新时间: 2024-12-31 17:50:32
-# 规则数量: 277
+# 更新时间: 2025-01-01 12:52:49
+# 规则数量: 272
 payload:
   - DOMAIN,0123456789nonexistent.com
   - DOMAIN,0d.kebhana.mx
@@ -9,10 +9,11 @@ payload:
   - DOMAIN,bandito.byterunner.io
   - DOMAIN,bittorrent-tracker.e-n-c-r-y-p-t.net
   - DOMAIN,board.zash.run.place
-  - DOMAIN,brightstar.freeddns.org
   - DOMAIN,bt.ktrackers.com
   - DOMAIN,bt.okmp3.ru
+  - DOMAIN,bt.poletracker.org
   - DOMAIN,bt.rer.lol
+  - DOMAIN,buny.uk
   - DOMAIN,ch3oh.ru
   - DOMAIN,concen.org
   - DOMAIN,cq.kmzs123.cn
@@ -22,24 +23,26 @@ payload:
   - DOMAIN,ec2-18-191-163-220.us-east-2.compute.amazonaws.com
   - DOMAIN,evan.im
   - DOMAIN,exodus.desync.com
-  - DOMAIN,finbytes.org
-  - DOMAIN,highteahop.top
+  - DOMAIN,home.yxgz.club
   - DOMAIN,instant.arubanetworks.com
   - DOMAIN,ipv4.rer.lol
   - DOMAIN,ipv4announce.sktorrent.eu
   - DOMAIN,isk.richardsw.club
   - DOMAIN,ismaarino.com
+  - DOMAIN,leet-tracker.moe
   - DOMAIN,martin-gebhardt.eu
   - DOMAIN,mathkangaroo.jp
   - DOMAIN,metacubex.github.io
   - DOMAIN,metacubexd.pages.dev
   - DOMAIN,mikrotik2.draatman.net
   - DOMAIN,miwifi.com
+  - DOMAIN,ns-1.x-fins.com
   - DOMAIN,ns1.monolithindustries.com
   - DOMAIN,nyaa.tracker.wf
   - DOMAIN,oasisauth.h3c.com
+  - DOMAIN,odd-hd.fr
   - DOMAIN,open.demonii.com
-  - DOMAIN,open.free-tracker.ga
+  - DOMAIN,open.dstud.io
   - DOMAIN,open.stealth.si
   - DOMAIN,open.tracker.cl
   - DOMAIN,open.tracker.ink
@@ -52,12 +55,11 @@ payload:
   - DOMAIN,retracker.hotplug.ru
   - DOMAIN,retracker.lanta.me
   - DOMAIN,retracker.spark-rostov.ru
+  - DOMAIN,retracker.x2k.ru
   - DOMAIN,router.asus.com
   - DOMAIN,routerlogin.com
-  - DOMAIN,seeders-paradise.org
   - DOMAIN,seedpeer.net
   - DOMAIN,serpb.vpsburti.com
-  - DOMAIN,servandroidkino.ru
   - DOMAIN,setmeup.arubanetworks.com
   - DOMAIN,share.hkg-fansub.info
   - DOMAIN,shubt.net
@@ -65,41 +67,35 @@ payload:
   - DOMAIN,t.213891.xyz
   - DOMAIN,t.overflow.biz
   - DOMAIN,taciturn-shadow.spb.ru
-  - DOMAIN,tk.greedland.net
   - DOMAIN,torrent.tracker.durukanbal.com
   - DOMAIN,tplogin.cn
-  - DOMAIN,tr.abir.ga
-  - DOMAIN,tr.burnabyhighstar.com
   - DOMAIN,tr.movian.eu
-  - DOMAIN,tr.nyacat.pw
-  - DOMAIN,tr.zukizuki.org
   - DOMAIN,tr1.aag.moe
   - DOMAIN,tr2.trkb.ru
   - DOMAIN,tr4ck3r.duckdns.org
   - DOMAIN,trackarr.org
-  - DOMAIN,tracker-udp.gbitt.info
   - DOMAIN,tracker-us.silksa.co.za
   - DOMAIN,tracker-zhuqiy.dgj055.icu
-  - DOMAIN,tracker.0x7c0.com
   - DOMAIN,tracker.beeimg.com
   - DOMAIN,tracker.birkenwald.de
   - DOMAIN,tracker.bjut.jp
   - DOMAIN,tracker.breizh.pm
   - DOMAIN,tracker.bt-hash.com
   - DOMAIN,tracker.bt4g.com
+  - DOMAIN,tracker.bz
   - DOMAIN,tracker.cloudit.top
   - DOMAIN,tracker.corpscorp.online
   - DOMAIN,tracker.cyberia.is
   - DOMAIN,tracker.darkness.services
   - DOMAIN,tracker.deadorbit.nl
   - DOMAIN,tracker.dler.com
-  - DOMAIN,tracker.dler.org
   - DOMAIN,tracker.dmcomic.org
   - DOMAIN,tracker.draatman.uk
   - DOMAIN,tracker.edkj.club
   - DOMAIN,tracker.filemail.com
   - DOMAIN,tracker.fnix.net
   - DOMAIN,tracker.gcrenwp.top
+  - DOMAIN,tracker.gigantino.net
   - DOMAIN,tracker.gmi.gd
   - DOMAIN,tracker.guguan.us.kg
   - DOMAIN,tracker.ipfsscan.io
@@ -107,8 +103,8 @@ payload:
   - DOMAIN,tracker.itscraftsoftware.my.id
   - DOMAIN,tracker.kmzs123.tk
   - DOMAIN,tracker.kuroy.me
-  - DOMAIN,tracker.leechshield.link
   - DOMAIN,tracker.lilithraws.org
+  - DOMAIN,tracker.lintk.me
   - DOMAIN,tracker.moeking.me
   - DOMAIN,tracker.moxing.party
   - DOMAIN,tracker.mywaifu.best
@@ -118,7 +114,6 @@ payload:
   - DOMAIN,tracker.pmman.tech
   - DOMAIN,tracker.qu.ax
   - DOMAIN,tracker.renfei.net
-  - DOMAIN,tracker.sbsub.com
   - DOMAIN,tracker.skynetcloud.site
   - DOMAIN,tracker.skyts.net
   - DOMAIN,tracker.srv00.com
@@ -130,7 +125,7 @@ payload:
   - DOMAIN,tracker.vanitycore.co
   - DOMAIN,tracker.vraphim.com
   - DOMAIN,tracker.waaa.moe
-  - DOMAIN,tracker.yemekyedim.com
+  - DOMAIN,tracker.xiaoduola.xyz
   - DOMAIN,tracker.yume-hatsuyuki.moe
   - DOMAIN,tracker1.520.jp
   - DOMAIN,tracker1.myporn.club
@@ -138,7 +133,6 @@ payload:
   - DOMAIN,tracker2.itzmx.com
   - DOMAIN,tracker3.itzmx.com
   - DOMAIN,tracker4.itzmx.com
-  - DOMAIN,tracker810.xyz
   - DOMAIN,trackers.mlsub.net
   - DOMAIN,ttk2.nbaonlineservice.com
   - DOMAIN,u4.trakx.crim.ist
@@ -151,6 +145,7 @@ payload:
   - DOMAIN,www.miwifi.com
   - DOMAIN,www.routerlogin.com
   - DOMAIN,www.torrent.eu.org
+  - DOMAIN,www.torrentsnipe.info
   - DOMAIN,www.wareztorrent.com
   - DOMAIN,yacd.haishan.me
   - DOMAIN,yacd.metacubex.one
