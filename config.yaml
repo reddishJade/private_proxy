@@ -46,6 +46,18 @@
       format: txt
       behavior: classical
 
+    dler_direct:
+      type: http
+      url: "https://raw.gitmirror.com/dler-io/Rules/refs/heads/main/Clash/Provider/Special.yaml"
+      format: yaml
+      behavior: classical
+
+    ACL4SSR_GoogleFcm:
+      type: http
+      url: "https://raw.gitmirror.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Ruleset/GoogleFCM.list"
+      format: txt
+      behavior: classical
+
 - path: output/apple@cn.yaml
   format: yaml
   behavior: classical
@@ -104,6 +116,12 @@
       type: http
       url: "https://ruleset.skk.moe/Clash/non_ip/ai.txt"
       format: txt
+      behavior: classical
+
+    dler_ai:
+      type: http
+      url: "https://raw.gitmirror.com/dler-io/Rules/refs/heads/main/Clash/Provider/AI%20Suite.yaml"
+      format: yaml
       behavior: classical
 
 - path: output/game@cn.yaml
@@ -176,6 +194,12 @@
       format: txt
       behavior: classical
 
+    dler_domestic:
+      type: http
+      url: "https://raw.gitmirror.com/dler-io/Rules/refs/heads/main/Clash/Provider/Domestic.yaml"
+      format: yaml
+      behavior: classical
+
 - path: output/domestic@ip.yaml
   format: yaml
   behavior: classical
@@ -190,6 +214,12 @@
       type: http
       url: "https://ruleset.skk.moe/Clash/ip/domestic.txt"
       format: txt
+      behavior: classical
+
+    dler_domestic_ip:
+      type: http
+      url: "https://raw.gitmirror.com/dler-io/Rules/refs/heads/main/Clash/Provider/Domestic%20IPs.yaml"
+      format: yaml
       behavior: classical
 
 - path: output/private.yaml

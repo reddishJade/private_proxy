@@ -1,5 +1,5 @@
-# 更新时间: 2025-01-02 15:16:52
-# 规则数量: 98417
+# 更新时间: 2025-01-02 20:17:18
+# 规则数量: 98448
 payload:
   - DOMAIN,1-fss24-s0.streamhoster.com
   - DOMAIN,14033.live.streamtheworld.com
@@ -330,6 +330,7 @@ payload:
   - DOMAIN,init.itunes.apple.com
   - DOMAIN,iosapps.itunes.apple.com
   - DOMAIN,iosapps.itunes.g.aaplimg.com
+  - DOMAIN,ip.bjango.com
   - DOMAIN,ip.istatmenus.app
   - DOMAIN,ipcdn.apple.com
   - DOMAIN,iphone-ld.apple.com
@@ -843,6 +844,7 @@ payload:
   - DOMAIN,zycfcdn.gdwlcloud.com
   - DOMAIN,zzlive.zzc-media.com
   - DOMAIN,zzq12345.gearhostpreview.com
+  - DOMAIN-KEYWORD,beplay
   - DOMAIN-REGEX,^[\w.-]*?\.qhimgs[\w.-]\.com$
   - DOMAIN-SUFFIX,0.zone
   - DOMAIN-SUFFIX,00.net
@@ -9523,6 +9525,7 @@ payload:
   - DOMAIN-SUFFIX,abcfintech.com
   - DOMAIN-SUFFIX,abcgonglue.com
   - DOMAIN-SUFFIX,abchina.com
+  - DOMAIN-SUFFIX,abchina.com.cn
   - DOMAIN-SUFFIX,abchinalife.com
   - DOMAIN-SUFFIX,abcjiaoyu.com
   - DOMAIN-SUFFIX,abcjifang.com
@@ -12078,6 +12081,7 @@ payload:
   - DOMAIN-SUFFIX,appsina.com
   - DOMAIN-SUFFIX,appso.com
   - DOMAIN-SUFFIX,appsolution.cc
+  - DOMAIN-SUFFIX,appstore.com
   - DOMAIN-SUFFIX,appstoreapple.cn
   - DOMAIN-SUFFIX,apptao.com
   - DOMAIN-SUFFIX,appubang.com
@@ -17760,6 +17764,7 @@ payload:
   - DOMAIN-SUFFIX,ccarting.com
   - DOMAIN-SUFFIX,ccasy.com
   - DOMAIN-SUFFIX,ccb.com
+  - DOMAIN-SUFFIX,ccb.com.cn
   - DOMAIN-SUFFIX,ccbangong.com
   - DOMAIN-SUFFIX,ccbbn.org
   - DOMAIN-SUFFIX,ccbcos.com
@@ -19081,6 +19086,7 @@ payload:
   - DOMAIN-SUFFIX,chcpay.com
   - DOMAIN-SUFFIX,chda.net
   - DOMAIN-SUFFIX,chdajob.com
+  - DOMAIN-SUFFIX,chdbits.co
   - DOMAIN-SUFFIX,chdelphin.com
   - DOMAIN-SUFFIX,chdtv.net
   - DOMAIN-SUFFIX,chdyou.net
@@ -21363,6 +21369,7 @@ payload:
   - DOMAIN-SUFFIX,cmbi.com.hk
   - DOMAIN-SUFFIX,cmbimg.cn
   - DOMAIN-SUFFIX,cmbimg.com
+  - DOMAIN-SUFFIX,cmbt.cn
   - DOMAIN-SUFFIX,cmbuat.com
   - DOMAIN-SUFFIX,cmburl.cn
   - DOMAIN-SUFFIX,cmbwinglungbank.com
@@ -25765,6 +25772,7 @@ payload:
   - DOMAIN-SUFFIX,digcredit.com
   - DOMAIN-SUFFIX,digi-wo.com
   - DOMAIN-SUFFIX,digicert.cn
+  - DOMAIN-SUFFIX,digicert.com
   - DOMAIN-SUFFIX,digiic.com
   - DOMAIN-SUFFIX,digirepub.com
   - DOMAIN-SUFFIX,digisky.com
@@ -27946,6 +27954,7 @@ payload:
   - DOMAIN-SUFFIX,easitcn.com
   - DOMAIN-SUFFIX,easiu.com
   - DOMAIN-SUFFIX,easonad.com
+  - DOMAIN-SUFFIX,easou.com
   - DOMAIN-SUFFIX,eassos.com
   - DOMAIN-SUFFIX,east.net
   - DOMAIN-SUFFIX,east263.com
@@ -32327,6 +32336,7 @@ payload:
   - DOMAIN-SUFFIX,gamekezhan.com
   - DOMAIN-SUFFIX,gamekuaishou.com
   - DOMAIN-SUFFIX,gameley.com
+  - DOMAIN-SUFFIX,gameloft.com
   - DOMAIN-SUFFIX,gameloop.com
   - DOMAIN-SUFFIX,gameloop.fun
   - DOMAIN-SUFFIX,gameloveman.com
@@ -40781,6 +40791,7 @@ payload:
   - DOMAIN-SUFFIX,hjdzn.com
   - DOMAIN-SUFFIX,hjenglish.com
   - DOMAIN-SUFFIX,hjf56.com
+  - DOMAIN-SUFFIX,hjfile.cn
   - DOMAIN-SUFFIX,hjg365.com
   - DOMAIN-SUFFIX,hjgcd.com
   - DOMAIN-SUFFIX,hjgtjt.com
@@ -44111,6 +44122,7 @@ payload:
   - DOMAIN-SUFFIX,icbc.co.kr
   - DOMAIN-SUFFIX,icbc.co.nl
   - DOMAIN-SUFFIX,icbc.com.au
+  - DOMAIN-SUFFIX,icbc.com.cn
   - DOMAIN-SUFFIX,icbc.com.es
   - DOMAIN-SUFFIX,icbc.com.kh
   - DOMAIN-SUFFIX,icbc.com.kw
@@ -54913,6 +54925,7 @@ payload:
   - DOMAIN-SUFFIX,liyuanheng.com
   - DOMAIN-SUFFIX,liyuanhospital.com
   - DOMAIN-SUFFIX,liyuanresort.com
+  - DOMAIN-SUFFIX,liyuans.com
   - DOMAIN-SUFFIX,liyujn.com
   - DOMAIN-SUFFIX,liyunshuwu.com
   - DOMAIN-SUFFIX,liyuplay.com
@@ -64612,6 +64625,7 @@ payload:
   - DOMAIN-SUFFIX,ping-qu.com
   - DOMAIN-SUFFIX,ping99.com
   - DOMAIN-SUFFIX,pingan.com
+  - DOMAIN-SUFFIX,pingan.com.cn
   - DOMAIN-SUFFIX,pingan.com.hk
   - DOMAIN-SUFFIX,pingancdn.com
   - DOMAIN-SUFFIX,pinganfang.com
@@ -75949,6 +75963,7 @@ payload:
   - DOMAIN-SUFFIX,sylnyx.com
   - DOMAIN-SUFFIX,syltgl.com
   - DOMAIN-SUFFIX,symama.com
+  - DOMAIN-SUFFIX,symcd.com
   - DOMAIN-SUFFIX,symf-crm.com
   - DOMAIN-SUFFIX,symtc.com
   - DOMAIN-SUFFIX,syn029.com
@@ -77118,6 +77133,7 @@ payload:
   - DOMAIN-SUFFIX,tav-global.com
   - DOMAIN-SUFFIX,tavsiktlig.com
   - DOMAIN-SUFFIX,tawk.link
+  - DOMAIN-SUFFIX,tawk.to
   - DOMAIN-SUFFIX,tax-edu.net
   - DOMAIN-SUFFIX,tax100.com
   - DOMAIN-SUFFIX,taxchina.com
@@ -79267,6 +79283,7 @@ payload:
   - DOMAIN-SUFFIX,treeyee.com
   - DOMAIN-SUFFIX,trekin.space
   - DOMAIN-SUFFIX,trekiz.com
+  - DOMAIN-SUFFIX,trello.com
   - DOMAIN-SUFFIX,trellocdn.com
   - DOMAIN-SUFFIX,trend6.com
   - DOMAIN-SUFFIX,trendingstar.tech
@@ -83064,6 +83081,7 @@ payload:
   - DOMAIN-SUFFIX,wearosbox.com
   - DOMAIN-SUFFIX,weartrends.com
   - DOMAIN-SUFFIX,weasing.com
+  - DOMAIN-SUFFIX,weather.bjango.com
   - DOMAIN-SUFFIX,weather.com
   - DOMAIN-SUFFIX,weatherat.com
   - DOMAIN-SUFFIX,weathercn.com
@@ -86443,6 +86461,7 @@ payload:
   - DOMAIN-SUFFIX,xdpvp.com
   - DOMAIN-SUFFIX,xdrcftv.com
   - DOMAIN-SUFFIX,xdressy.com
+  - DOMAIN-SUFFIX,xdrig.com
   - DOMAIN-SUFFIX,xdrtc.com
   - DOMAIN-SUFFIX,xdrun.com
   - DOMAIN-SUFFIX,xdsipo.com
@@ -92978,6 +92997,7 @@ payload:
   - DOMAIN-SUFFIX,ysedu.com
   - DOMAIN-SUFFIX,ysemi.com
   - DOMAIN-SUFFIX,ysepan.com
+  - DOMAIN-SUFFIX,ysepay.cn
   - DOMAIN-SUFFIX,ysepay.com
   - DOMAIN-SUFFIX,ysext.com
   - DOMAIN-SUFFIX,ysfog.com
@@ -97306,6 +97326,7 @@ payload:
   - DOMAIN-SUFFIX,zmzapi.com
   - DOMAIN-SUFFIX,zmzapi.net
   - DOMAIN-SUFFIX,zmzb.com
+  - DOMAIN-SUFFIX,zmzfile.com
   - DOMAIN-SUFFIX,zmzjk.com
   - DOMAIN-SUFFIX,zmzx.cc
   - DOMAIN-SUFFIX,zn8.com
@@ -98418,3 +98439,13 @@ payload:
   - DOMAIN-SUFFIX,zzzyy.com
   - DOMAIN-SUFFIX,zzzzaaaa.com
   - DOMAIN-SUFFIX,zzzzzz.me
+  - IP-CIDR,1.255.62.0/24,no-resolve
+  - IP-CIDR,182.254.116.0/24,no-resolve
+  - IP-CIDR,185.188.32.0/24,no-resolve
+  - IP-CIDR,185.188.33.0/24,no-resolve
+  - IP-CIDR,185.188.34.0/24,no-resolve
+  - IP-CIDR,185.188.35.0/24,no-resolve
+  - IP-CIDR6,2a0b:b580::/48,no-resolve
+  - IP-CIDR6,2a0b:b581::/48,no-resolve
+  - IP-CIDR6,2a0b:b582::/48,no-resolve
+  - IP-CIDR6,2a0b:b583::/48,no-resolve
