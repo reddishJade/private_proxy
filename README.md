@@ -33,7 +33,7 @@
 ### 应用分流类
 | 规则          | 用途           | 上游规则来源 |
 | ------------- | -------------- | ------------ |
-| direct        | 直连规则       | • DustinWin_applications<br>• skk_direct<br>• dler_direct<br>• ACL4SSR_GoogleFcm |
+| direct        | 直连规则       | • DustinWin_applications<br>• skk_direct<br>• dler_direct |
 | apple@cn      | 苹果服务分流   | • DustinWin_apple_cn<br>• skk_apple_services<br>• skk_apple_cn<br>• skk_apple_cdn<br>• skk_apple_cdn_non_ip |
 | microsoft@cn  | 微软服务分流   | • DustinWin_microsoft_cn<br>• skk_microsoft_cdn |
 | ai            | AI服务分流     | • skk_ai<br>• dler_ai |
