@@ -33,19 +33,19 @@
 ### 应用分流类
 | 规则          | 用途           | 上游规则来源 |
 | ------------- | -------------- | ------------ |
+| direct        | 直连规则       | • DustinWin_applications<br>• skk_direct<br>• dler_direct<br>• ACL4SSR_GoogleFcm |
 | apple@cn      | 苹果服务分流   | • DustinWin_apple_cn<br>• skk_apple_services<br>• skk_apple_cn<br>• skk_apple_cdn<br>• skk_apple_cdn_non_ip |
 | microsoft@cn  | 微软服务分流   | • DustinWin_microsoft_cn<br>• skk_microsoft_cdn |
-| ai            | AI服务分流     | • skk_ai |
+| ai            | AI服务分流     | • skk_ai<br>• dler_ai |
 | games@cn      | 游戏平台分流   | • skk_steam_cn<br>• DustinWin_games_cn |
 
 ### 基础分流类
 | 规则          | 用途           | 上游规则来源 |
 | ------------- | -------------- | ------------ |
-| direct        | 直连规则       | • DustinWin_applications<br>• skk_direct |
 | proxy         | 代理规则       | • DustinWin_proxy<br>• skk_stream<br>• skk_telegram |
 | proxy@ip      | 代理IP规则     | • skk_stream_ip<br>• skk_telegram_ip |
-| domestic      | 国内网站       | • DustinWin_domestic<br>• skk_domestic |
-| domestic@ip   | 国内IP         | • DustinWin_domestic_ip<br>• skk_domestic_ip |
+| domestic      | 国内网站       | • DustinWin_domestic<br>• skk_domestic<br>• dler_domestic |
+| domestic@ip   | 国内IP         | • DustinWin_domestic_ip<br>• skk_domestic_ip<br>• dler_domestic_ip |
 | private       | 私有网络       | • DustinWin_private |
 | private@ip    | 私有网络IP     | • DustinWin_privateip |
 | download      | 下载服务       | • skk_cdn_domainset<br>• skk_cdn_non_ip<br>• skk_download_domainset<br>• skk_download_non_ip<br>• DustinWin_download |

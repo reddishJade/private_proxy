@@ -1,30 +1,78 @@
-# 更新时间: 2025-01-02 15:16:31
-# 规则数量: 292
+# 更新时间: 2025-01-02 20:16:51
+# 规则数量: 387
 payload:
+  - DOMAIN,alt1-mtalk.google.com
+  - DOMAIN,alt2-mtalk.google.com
+  - DOMAIN,alt3-mtalk.google.com
+  - DOMAIN,alt4-mtalk.google.com
+  - DOMAIN,alt5-mtalk.google.com
+  - DOMAIN,alt6-mtalk.google.com
+  - DOMAIN,alt7-mtalk.google.com
+  - DOMAIN,alt8-mtalk.google.com
+  - DOMAIN,aod.itunes.apple.com
+  - DOMAIN,api.smoot.apple.cn
+  - DOMAIN,appldnld.apple.com
+  - DOMAIN,apptrailers.itunes.apple.com
   - DOMAIN,aterm.me
   - DOMAIN,captive.apple.com
+  - DOMAIN,cm.steampowered.com
   - DOMAIN,console.gl-inet.com
+  - DOMAIN,csgo.wmsj.cn
+  - DOMAIN,dl.steam.clngaa.com
+  - DOMAIN,dl.steam.ksyna.com
+  - DOMAIN,dota2.wmsj.cn
+  - DOMAIN,gs-loc-cn.apple.com
+  - DOMAIN,gstore.val.manlaxy.com
   - DOMAIN,homerouter.cpe
   - DOMAIN,hotspot.cslwifi.com
   - DOMAIN,injections.adguard.org
   - DOMAIN,instant.arubanetworks.com
+  - DOMAIN,iosapps.itunes.apple.com
   - DOMAIN,local.adguard.org
   - DOMAIN,mobile.hotspot
+  - DOMAIN,mtalk.google.com
+  - DOMAIN,music.apple.com
+  - DOMAIN,mvod.itunes.apple.com
   - DOMAIN,ntt.setup
+  - DOMAIN,ol.epicgames.com
+  - DOMAIN,osxapps.itunes.apple.com
   - DOMAIN,pi.hole
   - DOMAIN,repeater.asus.com
   - DOMAIN,router.asus.com
+  - DOMAIN,safebrowsing.googleapis.com
   - DOMAIN,setmeup.arubanetworks.com
+  - DOMAIN,st.dl.bscstorage.net
+  - DOMAIN,st.dl.eccdnx.com
+  - DOMAIN,st.dl.pinyuncloud.com
+  - DOMAIN,steambroadcast.akamaized.net
+  - DOMAIN,steamcdn-a.akamaihd.net
+  - DOMAIN,steamcommunity-a.akamaihd.net
+  - DOMAIN,steampipe.steamcontent.tnkjmec.com
+  - DOMAIN,steampowered.com.8686c.com
+  - DOMAIN,steamstatic.com.8686c.com
+  - DOMAIN,steamstore-a.akamaihd.net
+  - DOMAIN,steamusercontent-a.akamaihd.net
+  - DOMAIN,steamuserimages-a.akamaihd.net
+  - DOMAIN,supportdownload.apple.com
+  - DOMAIN,swcdn.apple.com
+  - DOMAIN,tesla-cdn.thron.cn
+  - DOMAIN,tesla-cdn.thron.com
   - DOMAIN,unifi
+  - DOMAIN,updates-http.cdn-apple.com
+  - DOMAIN,uplaypc-s-ubisoft.cdn.ubi.com
+  - DOMAIN,wmsjsteam.com
+  - DOMAIN-KEYWORD,announce
   - DOMAIN-KEYWORD,aria2
   - DOMAIN-KEYWORD,cnki.net
   - DOMAIN-KEYWORD,deepdyve
   - DOMAIN-KEYWORD,els-cdn
   - DOMAIN-KEYWORD,elsevier
+  - DOMAIN-KEYWORD,epicgames
   - DOMAIN-KEYWORD,pkulaw
   - DOMAIN-KEYWORD,readcube
   - DOMAIN-KEYWORD,sciencedirect
   - DOMAIN-KEYWORD,thunder
+  - DOMAIN-KEYWORD,torrent
   - DOMAIN-KEYWORD,wanfangdata
   - DOMAIN-KEYWORD,westlawchina
   - DOMAIN-KEYWORD,xlliveud
@@ -56,8 +104,10 @@ payload:
   - DOMAIN-SUFFIX,alpharatio.cc
   - DOMAIN-SUFFIX,animebytes.tv
   - DOMAIN-SUFFIX,anthelion.me
+  - DOMAIN-SUFFIX,app-measurement.com
   - DOMAIN-SUFFIX,asiancinema.me
   - DOMAIN-SUFFIX,asusrouter.com
+  - DOMAIN-SUFFIX,audiences.me
   - DOMAIN-SUFFIX,avgv.cc
   - DOMAIN-SUFFIX,avistaz.to
   - DOMAIN-SUFFIX,awesome-hd.me
@@ -83,6 +133,9 @@ payload:
   - DOMAIN-SUFFIX,concertos.live
   - DOMAIN-SUFFIX,dicmusic.club
   - DOMAIN-SUFFIX,discfan.net
+  - DOMAIN-SUFFIX,dl.google.com
+  - DOMAIN-SUFFIX,dl.playstation.net
+  - DOMAIN-SUFFIX,dmhy.best
   - DOMAIN-SUFFIX,doi.org
   - DOMAIN-SUFFIX,dxdhd.com
   - DOMAIN-SUFFIX,eastgame.org
@@ -128,12 +181,14 @@ payload:
   - DOMAIN-SUFFIX,lan
   - DOMAIN-SUFFIX,leaguehd.com
   - DOMAIN-SUFFIX,localdomain
+  - DOMAIN-SUFFIX,ls.apple.com
   - DOMAIN-SUFFIX,lztr.me
   - DOMAIN-SUFFIX,m-team.cc
   - DOMAIN-SUFFIX,m2m
   - DOMAIN-SUFFIX,madsrevolution.net
   - DOMAIN-SUFFIX,moecat.best
   - DOMAIN-SUFFIX,morethan.tv
+  - DOMAIN-SUFFIX,msftconnecttest.com
   - DOMAIN-SUFFIX,msg.vg
   - DOMAIN-SUFFIX,myanonamouse.net
   - DOMAIN-SUFFIX,nanyangpt.com
@@ -161,15 +216,27 @@ payload:
   - DOMAIN-SUFFIX,router
   - DOMAIN-SUFFIX,routerlogin.com
   - DOMAIN-SUFFIX,routerlogin.net
+  - DOMAIN-SUFFIX,sandai.net
   - DOMAIN-SUFFIX,sciencemag.org
   - DOMAIN-SUFFIX,scopus.com
   - DOMAIN-SUFFIX,sdbits.org
   - DOMAIN-SUFFIX,securelogin.com.cn
   - DOMAIN-SUFFIX,skyey2.com
+  - DOMAIN-SUFFIX,smtp
+  - DOMAIN-SUFFIX,solarcity.com
   - DOMAIN-SUFFIX,soulvoice.club
   - DOMAIN-SUFFIX,springer.com
   - DOMAIN-SUFFIX,springernature.com
   - DOMAIN-SUFFIX,springsunday.net
+  - DOMAIN-SUFFIX,steamchina.com
+  - DOMAIN-SUFFIX,steamcontent.com
+  - DOMAIN-SUFFIX,steamserver.net
+  - DOMAIN-SUFFIX,tesla.cn
+  - DOMAIN-SUFFIX,tesla.com
+  - DOMAIN-SUFFIX,tesla.com.cn
+  - DOMAIN-SUFFIX,teslamotors.cn
+  - DOMAIN-SUFFIX,teslamotors.com
+  - DOMAIN-SUFFIX,teslamotors.com.cn
   - DOMAIN-SUFFIX,tjupt.org
   - DOMAIN-SUFFIX,totheglory.im
   - DOMAIN-SUFFIX,tplinkap.net
@@ -179,11 +246,38 @@ payload:
   - DOMAIN-SUFFIX,tplinkwifi.net
   - DOMAIN-SUFFIX,tplogin.cn
   - DOMAIN-SUFFIX,trontv.com
+  - DOMAIN-SUFFIX,ts.la
   - DOMAIN-SUFFIX,u2.dmhy.org
   - DOMAIN-SUFFIX,uhdbits.org
   - DOMAIN-SUFFIX,ui.direct
   - DOMAIN-SUFFIX,wiley.com
   - DOMAIN-SUFFIX,xunlei.com
+  - IP-CIDR,108.177.125.188/32,no-resolve
+  - IP-CIDR,142.250.10.188/32,no-resolve
+  - IP-CIDR,142.250.31.188/32,no-resolve
+  - IP-CIDR,142.250.4.188/32,no-resolve
+  - IP-CIDR,142.250.96.188/32,no-resolve
+  - IP-CIDR,172.217.194.188/32,no-resolve
+  - IP-CIDR,172.217.218.188/32,no-resolve
+  - IP-CIDR,172.217.219.188/32,no-resolve
+  - IP-CIDR,172.253.122.188/32,no-resolve
+  - IP-CIDR,172.253.63.188/32,no-resolve
+  - IP-CIDR,173.194.175.188/32,no-resolve
+  - IP-CIDR,173.194.218.188/32,no-resolve
+  - IP-CIDR,209.85.233.188/32,no-resolve
+  - IP-CIDR,64.233.177.188/32,no-resolve
+  - IP-CIDR,64.233.186.188/32,no-resolve
+  - IP-CIDR,64.233.187.188/32,no-resolve
+  - IP-CIDR,64.233.188.188/32,no-resolve
+  - IP-CIDR,64.233.189.188/32,no-resolve
+  - IP-CIDR,74.125.127.188/32,no-resolve
+  - IP-CIDR,74.125.137.188/32,no-resolve
+  - IP-CIDR,74.125.203.188/32,no-resolve
+  - IP-CIDR,74.125.204.188/32,no-resolve
+  - IP-CIDR,74.125.206.188/32,no-resolve
+  - IP-CIDR,74.125.23.188/32,no-resolve
+  - IP-CIDR,74.125.24.188/32,no-resolve
+  - IP-CIDR,74.125.28.188/32,no-resolve
   - PROCESS-NAME,BaiduNetdisk_mac
   - PROCESS-NAME,BitComet
   - PROCESS-NAME,BitComet.exe
@@ -264,6 +358,7 @@ payload:
   - PROCESS-NAME,ss-local.exe
   - PROCESS-NAME,sslocal
   - PROCESS-NAME,sslocal.exe
+  - PROCESS-NAME,storedownloadd
   - PROCESS-NAME,tailscaled
   - PROCESS-NAME,tinyvpn
   - PROCESS-NAME,tinyvpn.exe
