@@ -46,16 +46,10 @@
       format: txt
       behavior: classical
 
-    dler_direct:
+    dler_special:
       type: http
       url: "https://raw.gitmirror.com/dler-io/Rules/refs/heads/main/Clash/Provider/Special.yaml"
       format: yaml
-      behavior: classical
-
-    ACL4SSR_GoogleFcm:
-      type: http
-      url: "https://raw.gitmirror.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Ruleset/GoogleFCM.list"
-      format: txt
       behavior: classical
 
 - path: output/apple@cn.yaml
