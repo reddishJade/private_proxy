@@ -44,8 +44,8 @@
 | ------------- | -------------- | ------------ |
 | proxy         | 代理规则       | • DustinWin_proxy<br>• skk_stream<br>• skk_telegram |
 | proxy@ip      | 代理IP规则     | • skk_stream_ip<br>• skk_telegram_ip |
-| domestic      | 国内网站       | • DustinWin_domestic<br>• skk_domestic<br>• dler_domestic |
-| domestic@ip   | 国内IP         | • DustinWin_domestic_ip<br>• skk_domestic_ip<br>• dler_domestic_ip |
+| domestic      | 国内网站       | • DustinWin_domestic<br>• skk_domestic |
+| domestic@ip   | 国内IP         | • DustinWin_domestic_ip<br>• skk_domestic_ip |
 | private       | 私有网络       | • DustinWin_private |
 | private@ip    | 私有网络IP     | • DustinWin_privateip |
 | download      | 下载服务       | • skk_cdn_domainset<br>• skk_cdn_non_ip<br>• skk_download_domainset<br>• skk_download_non_ip<br>• DustinWin_download |
