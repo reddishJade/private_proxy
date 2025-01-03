@@ -1,6 +1,8 @@
-# 更新时间: 2025-01-02 20:22:15
-# 规则数量: 273
+# 更新时间: 2025-01-03 09:01:31
+# 规则数量: 280
 payload:
+  - DOMAIN,0123456789nonexistent.com
+  - DOMAIN,0d.kebhana.mx
   - DOMAIN,1337.abcvg.info
   - DOMAIN,api.ipv4online.uk
   - DOMAIN,asusrouter.com
@@ -12,7 +14,8 @@ payload:
   - DOMAIN,bt.okmp3.ru
   - DOMAIN,bt.poletracker.org
   - DOMAIN,bt.rer.lol
-  - DOMAIN,bt1.xxxxbt.cc
+  - DOMAIN,buny.uk
+  - DOMAIN,ch3oh.ru
   - DOMAIN,concen.org
   - DOMAIN,cq.kmzs123.cn
   - DOMAIN,d.metacubex.one
@@ -23,9 +26,11 @@ payload:
   - DOMAIN,exodus.desync.com
   - DOMAIN,finbytes.org
   - DOMAIN,highteahop.top
+  - DOMAIN,home.yxgz.club
   - DOMAIN,instant.arubanetworks.com
   - DOMAIN,ipv4.rer.lol
   - DOMAIN,ipv4announce.sktorrent.eu
+  - DOMAIN,isk.richardsw.club
   - DOMAIN,ismaarino.com
   - DOMAIN,leet-tracker.moe
   - DOMAIN,martin-gebhardt.eu
@@ -37,15 +42,19 @@ payload:
   - DOMAIN,ns1.monolithindustries.com
   - DOMAIN,nyaa.tracker.wf
   - DOMAIN,oasisauth.h3c.com
+  - DOMAIN,odd-hd.fr
   - DOMAIN,open.demonii.com
   - DOMAIN,open.dstud.io
-  - DOMAIN,open.free-tracker.ga
-  - DOMAIN,open.tracker.cl
+  - DOMAIN,open.stealth.si
   - DOMAIN,open.tracker.ink
+  - DOMAIN,open.trackerlist.xyz
+  - DOMAIN,opentor.org
   - DOMAIN,opentracker.io
   - DOMAIN,p2p.publictracker.xyz
   - DOMAIN,p4p.arenabg.com
   - DOMAIN,public.tracker.vraphim.com
+  - DOMAIN,r.l5.ca
+  - DOMAIN,retracker.hotplug.ru
   - DOMAIN,retracker.lanta.me
   - DOMAIN,retracker.spark-rostov.ru
   - DOMAIN,retracker.x2k.ru
@@ -72,7 +81,6 @@ payload:
   - DOMAIN,tr.zukizuki.org
   - DOMAIN,tr1.aag.moe
   - DOMAIN,tr2.trkb.ru
-  - DOMAIN,tr4ck3r.duckdns.org
   - DOMAIN,trackarr.org
   - DOMAIN,tracker-us.silksa.co.za
   - DOMAIN,tracker-zhuqiy.dgj055.icu
@@ -82,10 +90,10 @@ payload:
   - DOMAIN,tracker.bittor.pw
   - DOMAIN,tracker.bjut.jp
   - DOMAIN,tracker.breizh.pm
-  - DOMAIN,tracker.bt-hash.com
   - DOMAIN,tracker.bt4g.com
-  - DOMAIN,tracker.bz
   - DOMAIN,tracker.cloudit.top
+  - DOMAIN,tracker.corpscorp.online
+  - DOMAIN,tracker.cyberia.is
   - DOMAIN,tracker.darkness.services
   - DOMAIN,tracker.deadorbit.nl
   - DOMAIN,tracker.dler.com
@@ -93,14 +101,10 @@ payload:
   - DOMAIN,tracker.dmcomic.org
   - DOMAIN,tracker.draatman.uk
   - DOMAIN,tracker.dump.cl
-  - DOMAIN,tracker.edkj.club
   - DOMAIN,tracker.filemail.com
   - DOMAIN,tracker.fnix.net
   - DOMAIN,tracker.gcrenwp.top
-  - DOMAIN,tracker.gigantino.net
   - DOMAIN,tracker.gmi.gd
-  - DOMAIN,tracker.guguan.us.kg
-  - DOMAIN,tracker.ipfsscan.io
   - DOMAIN,tracker.ipv6tracker.org
   - DOMAIN,tracker.itscraftsoftware.my.id
   - DOMAIN,tracker.kmzs123.tk
@@ -113,26 +117,28 @@ payload:
   - DOMAIN,tracker.mywaifu.best
   - DOMAIN,tracker.ololosh.space
   - DOMAIN,tracker.opentrackr.org
+  - DOMAIN,tracker.openwebtorrent.com
   - DOMAIN,tracker.pmman.tech
   - DOMAIN,tracker.qu.ax
   - DOMAIN,tracker.renfei.net
+  - DOMAIN,tracker.sbsub.com
   - DOMAIN,tracker.skynetcloud.site
   - DOMAIN,tracker.skyts.net
   - DOMAIN,tracker.srv00.com
-  - DOMAIN,tracker.theoks.net
   - DOMAIN,tracker.tiny-vps.com
   - DOMAIN,tracker.torrent.eu.org
   - DOMAIN,tracker.torrust-demo.com
   - DOMAIN,tracker.tryhackx.org
-  - DOMAIN,tracker.valete.tf
-  - DOMAIN,tracker.vanitycore.co
   - DOMAIN,tracker.vraphim.com
+  - DOMAIN,tracker.waaa.moe
+  - DOMAIN,tracker.xiaoduola.xyz
   - DOMAIN,tracker.yemekyedim.com
   - DOMAIN,tracker.yume-hatsuyuki.moe
   - DOMAIN,tracker1.520.jp
   - DOMAIN,tracker1.myporn.club
   - DOMAIN,tracker2.dler.org
   - DOMAIN,tracker2.itzmx.com
+  - DOMAIN,tracker3.itzmx.com
   - DOMAIN,tracker4.itzmx.com
   - DOMAIN,tracker810.xyz
   - DOMAIN,trackers.mlsub.net
@@ -143,6 +149,7 @@ payload:
   - DOMAIN,wepzone.net
   - DOMAIN,www.all4nothin.net
   - DOMAIN,www.asusrouter.com
+  - DOMAIN,www.genesis-sp.org
   - DOMAIN,www.miwifi.com
   - DOMAIN,www.routerlogin.com
   - DOMAIN,www.torrent.eu.org
