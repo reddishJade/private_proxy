@@ -188,12 +188,6 @@
       format: txt
       behavior: classical
 
-    dler_domestic:
-      type: http
-      url: "https://raw.gitmirror.com/dler-io/Rules/refs/heads/main/Clash/Provider/Domestic.yaml"
-      format: yaml
-      behavior: classical
-
 - path: output/domestic@ip.yaml
   format: yaml
   behavior: classical
@@ -208,12 +202,6 @@
       type: http
       url: "https://ruleset.skk.moe/Clash/ip/domestic.txt"
       format: txt
-      behavior: classical
-
-    dler_domestic_ip:
-      type: http
-      url: "https://raw.gitmirror.com/dler-io/Rules/refs/heads/main/Clash/Provider/Domestic%20IPs.yaml"
-      format: yaml
       behavior: classical
 
 - path: output/private.yaml
