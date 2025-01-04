@@ -1,8 +1,7 @@
-# 更新时间: 2025-01-03 09:11:21
-# 规则数量: 280
+# 更新时间: 2025-01-04 14:37:02
+# 规则数量: 271
 payload:
   - DOMAIN,0123456789nonexistent.com
-  - DOMAIN,0d.kebhana.mx
   - DOMAIN,1337.abcvg.info
   - DOMAIN,api.ipv4online.uk
   - DOMAIN,asusrouter.com
@@ -14,13 +13,11 @@ payload:
   - DOMAIN,bt.okmp3.ru
   - DOMAIN,bt.poletracker.org
   - DOMAIN,bt.rer.lol
-  - DOMAIN,buny.uk
-  - DOMAIN,ch3oh.ru
+  - DOMAIN,bt1.xxxxbt.cc
   - DOMAIN,concen.org
   - DOMAIN,cq.kmzs123.cn
   - DOMAIN,d.metacubex.one
   - DOMAIN,d40969.acod.regrucolo.ru
-  - DOMAIN,discord.heihachi.pw
   - DOMAIN,ec2-18-191-163-220.us-east-2.compute.amazonaws.com
   - DOMAIN,evan.im
   - DOMAIN,exodus.desync.com
@@ -45,9 +42,9 @@ payload:
   - DOMAIN,odd-hd.fr
   - DOMAIN,open.demonii.com
   - DOMAIN,open.dstud.io
+  - DOMAIN,open.free-tracker.ga
   - DOMAIN,open.stealth.si
   - DOMAIN,open.tracker.ink
-  - DOMAIN,open.trackerlist.xyz
   - DOMAIN,opentor.org
   - DOMAIN,opentracker.io
   - DOMAIN,p2p.publictracker.xyz
@@ -56,18 +53,15 @@ payload:
   - DOMAIN,r.l5.ca
   - DOMAIN,retracker.hotplug.ru
   - DOMAIN,retracker.lanta.me
-  - DOMAIN,retracker.spark-rostov.ru
   - DOMAIN,retracker.x2k.ru
   - DOMAIN,router.asus.com
   - DOMAIN,routerlogin.com
   - DOMAIN,seeders-paradise.org
   - DOMAIN,seedpeer.net
   - DOMAIN,serpb.vpsburti.com
-  - DOMAIN,servandroidkino.ru
   - DOMAIN,setmeup.arubanetworks.com
   - DOMAIN,sparkle.ghostchu-services.top
   - DOMAIN,t.213891.xyz
-  - DOMAIN,t.jaekr.sh
   - DOMAIN,t.overflow.biz
   - DOMAIN,taciturn-shadow.spb.ru
   - DOMAIN,tk.greedland.net
@@ -81,6 +75,7 @@ payload:
   - DOMAIN,tr.zukizuki.org
   - DOMAIN,tr1.aag.moe
   - DOMAIN,tr2.trkb.ru
+  - DOMAIN,tr4ck3r.duckdns.org
   - DOMAIN,trackarr.org
   - DOMAIN,tracker-us.silksa.co.za
   - DOMAIN,tracker-zhuqiy.dgj055.icu
@@ -90,9 +85,9 @@ payload:
   - DOMAIN,tracker.bittor.pw
   - DOMAIN,tracker.bjut.jp
   - DOMAIN,tracker.breizh.pm
+  - DOMAIN,tracker.bt-hash.com
   - DOMAIN,tracker.bt4g.com
   - DOMAIN,tracker.cloudit.top
-  - DOMAIN,tracker.corpscorp.online
   - DOMAIN,tracker.cyberia.is
   - DOMAIN,tracker.darkness.services
   - DOMAIN,tracker.deadorbit.nl
@@ -100,10 +95,11 @@ payload:
   - DOMAIN,tracker.dler.org
   - DOMAIN,tracker.dmcomic.org
   - DOMAIN,tracker.draatman.uk
-  - DOMAIN,tracker.dump.cl
+  - DOMAIN,tracker.edkj.club
   - DOMAIN,tracker.filemail.com
   - DOMAIN,tracker.fnix.net
   - DOMAIN,tracker.gcrenwp.top
+  - DOMAIN,tracker.gigantino.net
   - DOMAIN,tracker.gmi.gd
   - DOMAIN,tracker.ipv6tracker.org
   - DOMAIN,tracker.itscraftsoftware.my.id
@@ -111,17 +107,13 @@ payload:
   - DOMAIN,tracker.kuroy.me
   - DOMAIN,tracker.leechshield.link
   - DOMAIN,tracker.lilithraws.org
-  - DOMAIN,tracker.lintk.me
   - DOMAIN,tracker.moeking.me
-  - DOMAIN,tracker.moxing.party
   - DOMAIN,tracker.mywaifu.best
-  - DOMAIN,tracker.ololosh.space
   - DOMAIN,tracker.opentrackr.org
   - DOMAIN,tracker.openwebtorrent.com
   - DOMAIN,tracker.pmman.tech
   - DOMAIN,tracker.qu.ax
   - DOMAIN,tracker.renfei.net
-  - DOMAIN,tracker.sbsub.com
   - DOMAIN,tracker.skynetcloud.site
   - DOMAIN,tracker.skyts.net
   - DOMAIN,tracker.srv00.com
@@ -129,9 +121,9 @@ payload:
   - DOMAIN,tracker.torrent.eu.org
   - DOMAIN,tracker.torrust-demo.com
   - DOMAIN,tracker.tryhackx.org
+  - DOMAIN,tracker.vanitycore.co
   - DOMAIN,tracker.vraphim.com
   - DOMAIN,tracker.waaa.moe
-  - DOMAIN,tracker.xiaoduola.xyz
   - DOMAIN,tracker.yemekyedim.com
   - DOMAIN,tracker.yume-hatsuyuki.moe
   - DOMAIN,tracker1.520.jp
@@ -149,7 +141,6 @@ payload:
   - DOMAIN,wepzone.net
   - DOMAIN,www.all4nothin.net
   - DOMAIN,www.asusrouter.com
-  - DOMAIN,www.genesis-sp.org
   - DOMAIN,www.miwifi.com
   - DOMAIN,www.routerlogin.com
   - DOMAIN,www.torrent.eu.org
