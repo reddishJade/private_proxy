@@ -1,5 +1,5 @@
-# 更新时间: 2025-01-04 14:37:05
-# 规则数量: 3613
+# 更新时间: 2025-01-05 05:20:07
+# 规则数量: 3614
 payload:
   - DOMAIN,0x0.st
   - DOMAIN,3dna.nationbuilder.com
@@ -384,6 +384,7 @@ payload:
   - DOMAIN,cdn.britannica.com
   - DOMAIN,cdn.bsky.social
   - DOMAIN,cdn.builder.io
+  - DOMAIN,cdn.buymeacoffee.com
   - DOMAIN,cdn.c1.amplience.net
   - DOMAIN,cdn.calibermind.com
   - DOMAIN,cdn.cameo.com
