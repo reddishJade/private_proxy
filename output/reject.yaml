@@ -1,5 +1,5 @@
-# 更新时间: 2025-01-03 09:10:58
-# 规则数量: 90105
+# 更新时间: 2025-01-04 14:36:36
+# 规则数量: 90113
 payload:
   - DOMAIN,aedns.weixin.qq.com
   - DOMAIN,api-js.mixpanel.com
@@ -56,8 +56,10 @@ payload:
   - DOMAIN,ttnet-doh.feishu.cn
   - DOMAIN,union-httpdns.gslb.yy.com
   - DOMAIN,yyapp-httpdns.gslb.yy.com
+  - DOMAIN-KEYWORD,-attr.appsflyersdk.com
   - DOMAIN-KEYWORD,-launches.appsflyersdk.com
   - DOMAIN-KEYWORD,-logging.nextmedia.com
+  - DOMAIN-KEYWORD,-rtb.gravite.net
   - DOMAIN-KEYWORD,-s2s.sensic.net
   - DOMAIN-KEYWORD,-spiky.clevertap-prod.com
   - DOMAIN-KEYWORD,-tracker.biliapi.net
@@ -80,8 +82,12 @@ payload:
   - DOMAIN-KEYWORD,adsyndication
   - DOMAIN-KEYWORD,advertmarket
   - DOMAIN-KEYWORD,adwords
+  - DOMAIN-KEYWORD,analytics-cdn.
   - DOMAIN-KEYWORD,anybest.
   - DOMAIN-KEYWORD,appsflyer
+  - DOMAIN-KEYWORD,backstory.ebay.
+  - DOMAIN-KEYWORD,click.rum.
+  - DOMAIN-KEYWORD,cmpworker.
   - DOMAIN-KEYWORD,cp-home-pl-
   - DOMAIN-KEYWORD,dnserror
   - DOMAIN-KEYWORD,doubleclick.
@@ -93,6 +99,7 @@ payload:
   - DOMAIN-KEYWORD,flightsy
   - DOMAIN-KEYWORD,gettate
   - DOMAIN-KEYWORD,hostingcloud
+  - DOMAIN-KEYWORD,insights-collector.
   - DOMAIN-KEYWORD,jshosting
   - DOMAIN-KEYWORD,marketing.net
   - DOMAIN-KEYWORD,mighbest
@@ -100,6 +107,7 @@ payload:
   - DOMAIN-KEYWORD,smetrics.marketing.
   - DOMAIN-KEYWORD,sunnimiq
   - DOMAIN-KEYWORD,telemetry.officeapps.live.com
+  - DOMAIN-KEYWORD,track.opentable.
   - DOMAIN-KEYWORD,track.tiara
   - DOMAIN-KEYWORD,umeng
   - DOMAIN-KEYWORD,wxsnsdy

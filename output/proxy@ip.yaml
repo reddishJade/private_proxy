@@ -1,5 +1,5 @@
-# 更新时间: 2025-01-03 09:11:10
-# 规则数量: 31
+# 更新时间: 2025-01-04 14:36:51
+# 规则数量: 32
 payload:
   - IP-CIDR,108.175.32.0/20,no-resolve
   - IP-CIDR,149.154.160.0/20,no-resolve
@@ -23,6 +23,7 @@ payload:
   - IP-CIDR,91.108.4.0/22,no-resolve
   - IP-CIDR,91.108.56.0/22,no-resolve
   - IP-CIDR,91.108.8.0/21,no-resolve
+  - IP-CIDR,95.161.64.0/20,no-resolve
   - IP-CIDR6,2001:67c:4e8::/48,no-resolve
   - IP-CIDR6,2001:b28:f23c::/48,no-resolve
   - IP-CIDR6,2001:b28:f23d::/48,no-resolve
