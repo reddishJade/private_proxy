@@ -1,11 +1,7 @@
 # Private Proxy Rules
 
 自用基于 mihomo 内核的代理规则集合与规则合并工具。
-
-## 目录
-
-- [配置文件示例](#配置文件示例)
-- [规则列表](#规则列表)
+规则合并工具借鉴 [xndeye](https://github.com/xndeye/rule-merger) 的rule-merger 项目。
 
 ## 配置文件示例
 
@@ -20,7 +16,6 @@
 ### 3. merger.yaml
 - 基于本项目规则合并工具生成的配置
 - 融合 Sukka 和 DustinWin 的规则
-
 
 ## 规则列表
 
