@@ -204,6 +204,12 @@
       format: txt
       behavior: classical
 
+    skk_china_ip:
+      type: http
+      url: "https://ruleset.skk.moe/Clash/ip/china_ip.txt"
+      format: txt
+      behavior: ipcidr
+
 - path: output/private.yaml
   format: yaml
   behavior: classical
@@ -228,7 +234,7 @@
   format: yaml
   behavior: classical
   upstream:
-    fake_ip_filter:
+    fakeip-filter:
       type: http
       url: "https://cdn.jsdelivr.net/gh/juewuy/ShellCrash@refs/heads/dev/public/fake_ip_filter.list"
       format: txt
