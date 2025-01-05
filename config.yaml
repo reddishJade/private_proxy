@@ -240,7 +240,7 @@
       format: txt
       behavior: domain
 
-- path: output/download.yaml
+- path: output/cdn.yaml
   format: yaml
   behavior: classical
   upstream:
@@ -256,6 +256,20 @@
       format: txt
       behavior: classical
 
+- path: output/cdn@ip.yaml
+  format: yaml
+  behavior: classical
+  upstream:
+    skk_cdn_ip:
+      type: http
+      url: "https://ruleset.skk.moe/Clash/ip/cdn.txt"
+      format: txt
+      behavior: classical
+
+- path: output/download.yaml
+  format: yaml
+  behavior: classical
+  upstream:
     skk_download_domainset:
       type: http
       url: "https://ruleset.skk.moe/Clash/domainset/download.txt"
@@ -278,12 +292,6 @@
   format: yaml
   behavior: classical
   upstream:
-    skk_cdn_ip:
-      type: http
-      url: "https://ruleset.skk.moe/Clash/ip/cdn.txt"
-      format: txt
-      behavior: classical
-    
     skk_download_ip:
       type: http
       url: "https://ruleset.skk.moe/Clash/ip/download.txt"
