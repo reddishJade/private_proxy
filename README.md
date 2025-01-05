@@ -28,7 +28,7 @@
 | direct        | • Loyalsoldier_applications<br>• skk_direct<br>• dler_special | [link](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/output/direct.yaml) |
 | domestic      | • DustinWin_domestic<br>• skk_domestic | [link](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/output/domestic.yaml) |
 | domestic@ip   | • DustinWin_domestic_ip<br>• skk_domestic_ip<br>• skk_china_ip | [link](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/output/domestic@ip.yaml) |
-| download      | • skk_cdn_domainset<br>• skk_cdn_non_ip<br>• skk_download_domainset<br>• skk_download_non_ip<br>• ios_download | [link](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/output/download.yaml) |
+| download      | • skk_download_domainset<br>• skk_download_non_ip<br>• ios_download | [link](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/output/download.yaml) |
 | download@ip   | • skk_download_ip | [link](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/output/download@ip.yaml) |
 | fakeip-filter | • fakeip-filter | [link](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/output/fakeip-filter.yaml) |
 | games@cn      | • skk_steam_cn<br>• DustinWin_games_cn | [link](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/output/games@cn.yaml) |
