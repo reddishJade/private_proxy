@@ -19,30 +19,23 @@
 
 ## 规则列表
 
-### 广告拦截类
-| 规则          | 用途           | 上游规则来源 |
-| ------------- | -------------- | ------------ |
-| reject        | 广告域名拦截   | • skk_reject<br>• DustinWin_ads |
-| reject@ip     | 广告IP拦截     | • skk_reject_ip |
-
-### 应用分流类
-| 规则          | 用途           | 上游规则来源 |
-| ------------- | -------------- | ------------ |
-| direct        | 直连规则       | • Loyalsoldier_applications<br>• skk_direct<br>• dler_special |
-| apple@cn      | 苹果服务分流   | • DustinWin_apple_cn<br>• skk_apple_services<br>• skk_apple_cn<br>• skk_apple_cdn<br>• skk_apple_cdn_non_ip |
-| microsoft@cn  | 微软服务分流   | • DustinWin_microsoft_cn<br>• skk_microsoft_cdn |
-| ai            | AI服务分流     | • skk_ai<br>• dler_ai |
-| games@cn      | 游戏平台分流   | • skk_steam_cn<br>• DustinWin_games_cn |
-
-### 基础分流类
-| 规则          | 用途           | 上游规则来源 |
-| ------------- | -------------- | ------------ |
-| proxy         | 代理规则       | • DustinWin_proxy<br>• skk_global<br>• skk_stream<br>• skk_telegram |
-| proxy@ip      | 代理IP规则     | • skk_stream_ip<br>• skk_telegram_ip |
-| domestic      | 国内网站       | • DustinWin_domestic<br>• skk_domestic |
-| domestic@ip   | 国内IP         | • DustinWin_domestic_ip<br>• skk_domestic_ip<br>• skk_china_ip |
-| private       | 私有网络       | • DustinWin_private |
-| private@ip    | 私有网络IP     | • DustinWin_privateip |
-| download      | 下载服务       | • skk_cdn_domainset<br>• skk_cdn_non_ip<br>• skk_download_domainset<br>• skk_download_non_ip<br>• ios_download |
-| download@ip   | 下载服务IP     | • skk_download_ip |
-| fakeip-filter | Fake-IP过滤    | • fakeip-filter |
+| 规则          | 上游规则来源 | 订阅链接 |
+| ------------- | ------------ | -------- |
+| ai            | • skk_ai<br>• dler_ai | [link](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/output/ai.yaml) |
+| apple@cn      | • DustinWin_apple_cn<br>• skk_apple_services<br>• skk_apple_cn<br>• skk_apple_cdn<br>• skk_apple_cdn_non_ip | [link](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/output/apple@cn.yaml) |
+| cdn           | • skk_cdn_domainset<br>• skk_cdn_non_ip | [link](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/output/cdn.yaml) |
+| cdn@ip        | • skk_cdn_ip | [link](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/output/cdn@ip.yaml) |
+| direct        | • Loyalsoldier_applications<br>• skk_direct<br>• dler_special | [link](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/output/direct.yaml) |
+| domestic      | • DustinWin_domestic<br>• skk_domestic | [link](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/output/domestic.yaml) |
+| domestic@ip   | • DustinWin_domestic_ip<br>• skk_domestic_ip<br>• skk_china_ip | [link](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/output/domestic@ip.yaml) |
+| download      | • skk_cdn_domainset<br>• skk_cdn_non_ip<br>• skk_download_domainset<br>• skk_download_non_ip<br>• ios_download | [link](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/output/download.yaml) |
+| download@ip   | • skk_download_ip | [link](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/output/download@ip.yaml) |
+| fakeip-filter | • fakeip-filter | [link](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/output/fakeip-filter.yaml) |
+| games@cn      | • skk_steam_cn<br>• DustinWin_games_cn | [link](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/output/games@cn.yaml) |
+| microsoft@cn  | • DustinWin_microsoft_cn<br>• skk_microsoft_cdn | [link](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/output/microsoft@cn.yaml) |
+| private       | • DustinWin_private | [link](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/output/private.yaml) |
+| private@ip    | • DustinWin_privateip | [link](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/output/private@ip.yaml) |
+| proxy         | • DustinWin_proxy<br>• skk_global<br>• skk_stream<br>• skk_telegram | [link](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/output/proxy.yaml) |
+| proxy@ip      | • skk_stream_ip<br>• skk_telegram_ip | [link](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/output/proxy@ip.yaml) |
+| reject        | • skk_reject<br>• DustinWin_ads | [link](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/output/reject.yaml) |
+| reject@ip     | • skk_reject_ip | [link](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/output/reject@ip.yaml) |
