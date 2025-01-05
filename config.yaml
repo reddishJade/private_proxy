@@ -28,16 +28,10 @@
   format: yaml
   behavior: classical
   upstream:
-    DustinWin_applications:
+    Loyalsoldier_applications:
       type: http
-      url: "https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/applications.yaml"
+      url: "https://raw.gitmirror.com/Loyalsoldier/clash-rules/refs/heads/release/applications.txt"
       format: yaml
-      behavior: classical
-
-    skk_domestic:
-      type: http
-      url: "https://ruleset.skk.moe/Clash/non_ip/domestic.txt"
-      format: txt
       behavior: classical
     
     skk_direct:
@@ -149,7 +143,7 @@
       url: "https://ruleset.skk.moe/Clash/non_ip/global.txt"
       format: txt
       behavior: classical
-      
+
     skk_stream:
       type: http
       url: "https://ruleset.skk.moe/Clash/non_ip/stream.txt"
@@ -240,7 +234,6 @@
       format: txt
       behavior: domain
 
-
 - path: output/download.yaml
   format: yaml
   behavior: classical
@@ -269,7 +262,7 @@
       format: txt
       behavior: classical
     
-    DustinWin_download:
+    ios_download:
       type: http
       url: "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Download/Download.yaml"
       format: yaml
