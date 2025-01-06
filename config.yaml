@@ -8,9 +8,9 @@
       format: txt
       behavior: classical
 
-    DustinWin_ads:
+    xndeye_reject:
       type: http
-      url: "https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/ads.yaml"
+      url: "https://raw.githubusercontent.com/xndeye/adblock_list/beta/rule/clash.yaml"
       format: yaml
       behavior: domain
 

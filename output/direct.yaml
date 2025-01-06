@@ -1,5 +1,5 @@
-# 更新时间: 2025-01-05 17:16:42
-# 规则数量: 338
+# 更新时间: 2025-01-06 12:54:02
+# 规则数量: 336
 payload:
   - DOMAIN,aod.itunes.apple.com
   - DOMAIN,api.smoot.apple.cn
@@ -151,7 +151,6 @@ payload:
   - DOMAIN-SUFFIX,hdupt.com
   - DOMAIN-SUFFIX,hdzone.me
   - DOMAIN-SUFFIX,hitpt.com
-  - DOMAIN-SUFFIX,hitpt.org
   - DOMAIN-SUFFIX,home
   - DOMAIN-SUFFIX,home.arpa
   - DOMAIN-SUFFIX,huaweimobilewifi.com
@@ -173,7 +172,6 @@ payload:
   - DOMAIN-SUFFIX,m2m
   - DOMAIN-SUFFIX,madsrevolution.net
   - DOMAIN-SUFFIX,moecat.best
-  - DOMAIN-SUFFIX,morethan.tv
   - DOMAIN-SUFFIX,msftconnecttest.com
   - DOMAIN-SUFFIX,msg.vg
   - DOMAIN-SUFFIX,myanonamouse.net
