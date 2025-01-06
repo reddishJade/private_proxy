@@ -1,5 +1,5 @@
-# 更新时间: 2025-01-05 17:16:57
-# 规则数量: 98538
+# 更新时间: 2025-01-06 12:54:21
+# 规则数量: 98537
 payload:
   - DOMAIN,1-fss24-s0.streamhoster.com
   - DOMAIN,14033.live.streamtheworld.com
@@ -63319,7 +63319,6 @@ payload:
   - DOMAIN-SUFFIX,orangevip.com
   - DOMAIN-SUFFIX,oraper.com
   - DOMAIN-SUFFIX,orasos.com
-  - DOMAIN-SUFFIX,oray-img.com
   - DOMAIN-SUFFIX,oray.com
   - DOMAIN-SUFFIX,oray.net
   - DOMAIN-SUFFIX,oraybox.com

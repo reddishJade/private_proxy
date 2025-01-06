@@ -1,5 +1,5 @@
-# 更新时间: 2025-01-05 17:17:08
-# 规则数量: 665
+# 更新时间: 2025-01-06 12:54:35
+# 规则数量: 666
 payload:
   - DOMAIN,amupdatedl.microsoft.com
   - DOMAIN,amupdatedl2.microsoft.com
@@ -323,6 +323,7 @@ payload:
   - DOMAIN-SUFFIX,oss-us-east-1.aliyuncs.com
   - DOMAIN-SUFFIX,oss-us-west-1.aliyuncs.com
   - DOMAIN-SUFFIX,pixeldrain.com
+  - DOMAIN-SUFFIX,public.blob.vercel-storage.com
   - DOMAIN-SUFFIX,qbittorrent.org
   - DOMAIN-SUFFIX,r2.dev
   - DOMAIN-SUFFIX,releases.hashicorp.com
