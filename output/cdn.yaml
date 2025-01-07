@@ -1,5 +1,5 @@
-# 更新时间: 2025-01-06 12:54:33
-# 规则数量: 2937
+# 更新时间: 2025-01-07 11:58:59
+# 规则数量: 2940
 payload:
   - DOMAIN,0x0.st
   - DOMAIN,3dna.nationbuilder.com
@@ -261,6 +261,7 @@ payload:
   - DOMAIN,blade-public-static.blade-group.com
   - DOMAIN,blob.sololearn.com
   - DOMAIN,boards.greenhouse.io
+  - DOMAIN,bookface-static.ycombinator.com
   - DOMAIN,bot.ivy.ai
   - DOMAIN,brick.a.ssl.fastly.net
   - DOMAIN,brick.freetls.fastly.net
@@ -939,6 +940,7 @@ payload:
   - DOMAIN,image.freepik.com
   - DOMAIN,image.gyutto.com
   - DOMAIN,image.gyutto.jp
+  - DOMAIN,image.hkhl.hk
   - DOMAIN,image.ibb.co
   - DOMAIN,image.jnislniv.xyz
   - DOMAIN,image.lichess1.org
@@ -2793,6 +2795,7 @@ payload:
   - DOMAIN-SUFFIX,statuspage.io
   - DOMAIN-SUFFIX,steamstatic.com
   - DOMAIN-SUFFIX,steamusercontent.com
+  - DOMAIN-SUFFIX,sthlstatic.com
   - DOMAIN-SUFFIX,storage.googleapis.com
   - DOMAIN-SUFFIX,storage.infomaniak.com
   - DOMAIN-SUFFIX,storage.yandexcloud.net
