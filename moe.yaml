@@ -29,7 +29,7 @@ proxy-providers:
   #   - provider1
   #   - provider2
 
-ipv6: true
+ipv6: false
 allow-lan: true
 mixed-port: 7890
 unified-delay: true
@@ -55,7 +55,7 @@ profile:
 dns:
   enable: true
   listen: :1053
-  ipv6: true
+  ipv6: false
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
   fake-ip-filter:
