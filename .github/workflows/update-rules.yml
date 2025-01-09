@@ -9,7 +9,8 @@ jobs:
   update:
     runs-on: ubuntu-latest
     permissions:
-      contents: write
+      contents: write      # 仓库内容的写入权限
+      actions: write       # 工作流运行记录的写入权限
     
     steps:
       - uses: actions/checkout@v4
