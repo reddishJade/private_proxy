@@ -5,6 +5,9 @@ on:
     - cron: '0 0 * * *' # 每天0点执行
   workflow_dispatch:    # 手动触发
 
+permissions:
+  actions: write    # 允许删除工作流运行
+  contents: write   # 允许推送更改
 
 jobs:
   update-rules:
