@@ -2,7 +2,7 @@ name: update rules
 
 on:
   schedule:
-    - cron: '0 0 * * *' # 每天0点执行
+    - cron: '0 1 * * *' # 香港时间早上9点执行
   workflow_dispatch:    # 手动触发
 
 permissions:
@@ -36,7 +36,8 @@ jobs:
 
       - name: Get current time
         id: time
-        run: echo "TIME=$(date +'%Y-%m-%d %H:%M:%S')" >> $GITHUB_OUTPUT
+        run: |
+          TZ='Asia/Hong_Kong' echo "TIME=$(date +'%Y-%m-%d %H:%M:%S')" >> $GITHUB_OUTPUT
 
       - name: Commit Changes
         id: commit
