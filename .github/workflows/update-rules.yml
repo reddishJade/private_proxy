@@ -1,27 +1,22 @@
-name: Update Rules
+name: update rules
 
 on:
   schedule:
-    - cron: '0 0 * * *'     # 每天UTC 0:00 运行
-  workflow_dispatch:        # 允许手动触发
+    - cron: '0 0 * * *' # 每天0点执行
+  workflow_dispatch:    # 手动触发
+
 
 jobs:
-  update:
+  update-rules:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write      # 仓库内容的写入权限
-      actions: write       # 工作流运行记录的写入权限
-    
     steps:
       - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0    # 获取完整历史以确保分支操作正常
 
       - name: Set up Python 3.10
         uses: actions/setup-python@v5
         with:
           python-version: "3.10"
-          cache: 'pip'      # 启用pip缓存
+          cache: 'pip'
 
       - name: Install dependencies
         run: |
@@ -44,7 +39,7 @@ jobs:
         id: commit
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: 🚀 Update rules at ${{ steps.time.outputs.TIME }}
+          commit_message: 🚀 Update at ${{ steps.time.outputs.TIME }}
           branch: release
           skip_dirty_check: true
           push_options: '--force'
@@ -56,7 +51,7 @@ jobs:
       - name: Delete Workflow Runs
         uses: Mattraks/delete-workflow-runs@v2
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{secrets.GITHUB_TOKEN}}
           repository: ${{ github.repository }}
           retain_days: 1
-          keep_minimum_runs: 1 
+          keep_minimum_runs: 1
