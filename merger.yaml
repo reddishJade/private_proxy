@@ -1,0 +1,336 @@
+proxy-providers:
+  # 订阅链接一
+  provider1:
+    url: "" # 在""内填入链接
+    type: http
+    # filter: # 筛选满足关键词或正则表达式的节点
+    # exclude-filter: # 排除满足关键词或正则表达式的节点
+    interval: 86400
+    health-check:
+      { enable: true, url: "https://cp.cloudflare.com", interval: 300 }
+    # override:
+    #   additional-prefix: "[provider1]"
+  # 订阅链接二
+  # provider2:
+  #   url: "" # 在""内填入链接
+  #   type: http
+  #   filter: 
+  #   exclude-filter: 
+  #   interval: 86400
+  #   health-check:
+  #     { enable: true, url: "https://cp.cloudflare.com", interval: 300 }
+  #   override:
+  #     additional-prefix: "[provider2]"
+
+  # 默认在分组内使用全部订阅：
+  # include-all-providers: true
+  # 如有特殊需求可以在分组内使用指定订阅：
+  # use:
+  #   - provider1
+  #   - provider2
+
+ipv6: true
+allow-lan: true
+mixed-port: 7890
+unified-delay: true
+tcp-concurrent: true
+find-process-mode: strict
+global-client-fingerprint: chrome
+
+external-ui: ui
+external-ui-name: metacubexd
+external-controller: 127.0.0.1:9090
+external-ui-url: "https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-pages.zip"
+
+keep-alive-idle: 600
+keep-alive-interval: 30
+
+profile:
+  store-selected: true
+  store-fake-ip: true
+
+dns:
+  enable: true
+  listen: :53
+  ipv6: true
+  prefer-h3: true
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter:
+    - rule-set:fakeip-filter,private,domestic
+  default-nameserver:
+    - 119.29.29.29
+    - 223.5.5.5
+  nameserver:
+    - https://doh.pub/dns-query
+    - https://dns.alidns.com/dns-query
+  fallback:
+    - https://dns.google/dns-query
+    - https://cloudflare-dns.com/dns-query
+
+sniffer:
+  enable: true
+  sniff:
+    HTTP:
+      ports: [80, 8080-8880]
+      override-destination: true
+    TLS:
+      ports: [443, 8443]
+    QUIC:
+      ports: [443, 8443]
+  skip-domain:
+    - "dlg.io.mi.com"
+    - "+.push.apple.com"
+
+tun:
+  enable: true
+  stack: mixed
+  dns-hijack:
+    - any:53
+    - tcp://any:53
+  auto-route: true
+  auto-redirect: true
+  auto-detect-interface: true
+
+proxies:
+  - name: Direct
+    type: direct
+    udp: true
+
+proxy-groups:
+  - name: Proxy
+    type: select
+    proxies:
+      - Select
+      - Direct
+      - HongKong
+      - TaiWan
+      - Japan
+      - Singapore
+      - USA
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Proxy.png
+  - name: Select
+    type: select
+    include-all-providers: true
+    exclude-filter: 下载|低倍率
+    icon: https://fastly.jsdelivr.net/gh/shindgewongxj/WHATSINStash@master/icon/select.png
+  - name: Final
+    type: select
+    proxies:
+      - Proxy
+      - DIRECT
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Final.png
+
+  - name: Apple
+    type: select
+    proxies:
+      - DIRECT
+      - Proxy
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Apple.png
+  - name: Microsoft
+    type: select
+    proxies:
+      - DIRECT
+      - Proxy
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Microsoft.png
+  - name: AIGC
+    type: select
+    proxies:
+      - Proxy
+      - USA
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/AI.png
+  - name: CDN
+    type: select
+    proxies:
+      - Download
+      - Proxy
+      - DIRECT
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Speedtest.png
+  - name: Download
+    type: load-balance
+    include-all-providers: true
+    filter: (?i)下载|低倍率
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Download.png
+  - name: Game
+    type: select
+    proxies:
+      - DIRECT
+      - Proxy
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Game.png
+  - name: Global
+    type: select
+    proxies:
+      - Proxy
+      - DIRECT
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Global.png
+  - name: Domestic
+    type: select
+    proxies:
+      - DIRECT
+      - Proxy
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Domestic.png
+  - name: Private
+    type: select
+    proxies:
+      - DIRECT
+      - Proxy
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Lock.png
+
+  # 地区分组
+  - name: HongKong
+    type: select
+    include-all-providers: true
+    filter: 港|hk
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Hong_Kong.png
+  - name: TaiWan
+    type: select
+    include-all-providers: true
+    filter: 台|tw
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Taiwan.png
+  - name: Japan
+    type: select
+    include-all-providers: true
+    filter: 日|jp
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Japan.png
+  - name: Singapore
+    type: select
+    include-all-providers: true
+    filter: 新|狮|sg
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Singapore.png
+  - name: USA
+    type: select
+    include-all-providers: true
+    filter: 美|us
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/United_States.png
+
+rule-providers:
+  ai:
+    type: http
+    behavior: classical
+    interval: 43200
+    url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/release/ai.yaml
+    path: ./rules/ai.yaml
+  apple@cn:
+    type: http
+    behavior: classical
+    interval: 43200
+    url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/release/apple@cn.yaml
+    path: ./rules/apple@cn.yaml
+  cdn:
+    type: http
+    behavior: classical
+    interval: 43200
+    url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/release/cdn.yaml
+    path: ./rules/cdn.yaml
+  cdn@ip:
+    type: http
+    behavior: classical
+    interval: 43200
+    url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/release/cdn@ip.yaml
+    path: ./rules/cdn@ip.yaml
+  direct:
+    type: http
+    behavior: classical
+    interval: 43200
+    url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/release/direct.yaml
+    path: ./rules/direct.yaml
+  domestic:
+    type: http
+    behavior: classical
+    interval: 43200
+    url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/release/domestic.yaml
+    path: ./rules/domestic.yaml
+  domestic@ip:
+    type: http
+    behavior: classical
+    interval: 43200
+    url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/release/domestic@ip.yaml
+    path: ./rules/domestic@ip.yaml
+  download:
+    type: http
+    behavior: classical
+    interval: 43200
+    url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/release/download.yaml
+    path: ./rules/download.yaml
+  download@ip:
+    type: http
+    behavior: classical
+    interval: 43200
+    url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/release/download@ip.yaml
+    path: ./rules/download@ip.yaml
+  fakeip-filter:
+    type: http
+    behavior: classical
+    interval: 43200
+    url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/release/fakeip-filter.yaml
+    path: ./rules/fakeip-filter.yaml
+  game@cn:
+    type: http
+    behavior: classical
+    interval: 43200
+    url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/release/game@cn.yaml
+    path: ./rules/game@cn.yaml
+  microsoft@cn:
+    type: http
+    behavior: classical
+    interval: 43200
+    url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/release/microsoft@cn.yaml
+    path: ./rules/microsoft@cn.yaml
+  private:
+    type: http
+    behavior: classical
+    interval: 43200
+    url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/release/private.yaml
+    path: ./rules/private.yaml
+  private@ip:
+    type: http
+    behavior: classical
+    interval: 43200
+    url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/release/private@ip.yaml
+    path: ./rules/private@ip.yaml
+  proxy:
+    type: http
+    behavior: classical
+    interval: 43200
+    url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/release/proxy.yaml
+    path: ./rules/proxy.yaml
+  proxy@ip:
+    type: http
+    behavior: classical
+    interval: 43200
+    url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/release/proxy@ip.yaml
+    path: ./rules/proxy@ip.yaml
+  reject:
+    type: http
+    behavior: classical
+    interval: 43200
+    url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/release/reject.yaml
+    path: ./rules/reject.yaml
+  reject@ip:
+    type: http
+    behavior: classical
+    interval: 43200
+    url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/release/reject@ip.yaml
+    path: ./rules/reject@ip.yaml
+
+rules:
+  - RULE-SET,reject,REJECT
+  - RULE-SET,cdn,Proxy
+  - RULE-SET,ai,AIGC
+  - RULE-SET,apple@cn,Apple
+  - RULE-SET,microsoft@cn,Microsoft
+  - RULE-SET,game@cn,Game
+  - RULE-SET,download,Download
+  - RULE-SET,private,Direct
+  - RULE-SET,domestic,Direct
+  - RULE-SET,direct,Direct
+  - RULE-SET,proxy,Proxy
+
+  - RULE-SET,reject@ip,REJECT
+  - RULE-SET,cdn@ip,Proxy
+  - RULE-SET,proxy@ip,Proxy
+  - RULE-SET,download@ip,Download
+  - RULE-SET,private@ip,Direct
+  - RULE-SET,domestic@ip,Direct
+
+  - MATCH,Final

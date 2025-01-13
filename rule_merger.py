@@ -9,7 +9,7 @@ from datetime import datetime
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from functools import partial
 
-# 配置日志
+# 配置日志输出格式和级别
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s'
@@ -17,27 +17,28 @@ logging.basicConfig(
 
 @dataclass
 class RuleConstants:
-    """规则相关的常量定义"""
-    RULE_TYPES: Dict[str, Set[str]] = None
-    DOMAIN_PATTERN: str = r'^[a-zA-Z0-9]([a-zA-Z0-9-]*[a-zA-Z0-9])?(\.[a-zA-Z0-9]([a-zA-Z0-9-]*[a-zA-Z0-9])?)*$'
-    IPV4_CIDR_PATTERN: str = r'^(\d{1,3}\.){3}\d{1,3}/\d{1,2}$'
-    IPV6_CIDR_PATTERN: str = r'^([0-9a-fA-F:]+)/\d{1,3}$'
+    """规则相关的常量定义类"""
+    RULE_TYPES: Dict[str, Set[str]] = None  # 存储不同类型规则的集合
+    DOMAIN_PATTERN: str = r'^[a-zA-Z0-9]([a-zA-Z0-9-]*[a-zA-Z0-9])?(\.[a-zA-Z0-9]([a-zA-Z0-9-]*[a-zA-Z0-9])?)*$'  # 域名正则表达式
+    IPV4_CIDR_PATTERN: str = r'^(\d{1,3}\.){3}\d{1,3}/\d{1,2}$'  # IPv4 CIDR正则表达式
+    IPV6_CIDR_PATTERN: str = r'^([0-9a-fA-F:]+)/\d{1,3}$'  # IPv6 CIDR正则表达式
 
     def __post_init__(self):
+        # 初始化规则类型集合
         self.RULE_TYPES = {
-            'classical': {'DOMAIN', 'DOMAIN-SUFFIX', 'IP-CIDR', 'IP-CIDR6'},
-            'ipcidr': {'IP-CIDR', 'IP-CIDR6'},
-            'domain': {'DOMAIN', 'DOMAIN-SUFFIX'}
+            'classical': {'DOMAIN', 'DOMAIN-SUFFIX', 'IP-CIDR', 'IP-CIDR6'},  # 经典规则类型
+            'ipcidr': {'IP-CIDR', 'IP-CIDR6'},  # IP CIDR规则类型
+            'domain': {'DOMAIN', 'DOMAIN-SUFFIX'}  # 域名规则类型
         }
 
 @dataclass
 class RuleSource:
-    """规则源配置数据类"""
-    type: Literal['http', 'file']
-    url: str = ''
-    path: str = ''
-    behavior: Literal['classical', 'ipcidr', 'domain'] = 'classical'
-    format: str = 'yaml'
+    """规则源配置数据类，定义规则来源的属性"""
+    type: Literal['http', 'file']  # 规则源类型：http或文件
+    url: str = ''  # HTTP URL
+    path: str = ''  # 本地文件路径
+    behavior: Literal['classical', 'ipcidr', 'domain'] = 'classical'  # 规则行为类型
+    format: str = 'yaml'  # 规则文件格式
 
 class RuleValidator:
     """规则验证器类"""
@@ -46,6 +47,7 @@ class RuleValidator:
         self.logger = logging.getLogger(__name__)
 
     def validate_classical_rule(self, rule: str) -> Optional[str]:
+        """验证经典格式规则"""
         try:
             parts = rule.split(',')
             if len(parts) < 2:
@@ -54,6 +56,7 @@ class RuleValidator:
             rule_type = parts[0]
             value = parts[1].strip()
                 
+            # 根据规则类型验证值的格式
             if rule_type in {'DOMAIN', 'DOMAIN-SUFFIX'}:
                 return rule if re.match(self.constants.DOMAIN_PATTERN, value) else None
             elif rule_type == 'IP-CIDR':
@@ -66,17 +69,20 @@ class RuleValidator:
         return rule
 
     def validate_ipcidr_rule(self, rule: str) -> Optional[str]:
+        """验证IP CIDR规则"""
         return rule
 
     def validate_domain_rule(self, rule: str) -> Optional[str]:
+        """验证域名规则"""
         return rule
 
 class RuleTransformer:
-    """规则转换器类"""
+    """规则转换器类，用于在不同规则格式之间转换"""
     def __init__(self):
         self.validator = RuleValidator()
 
     def transform(self, rule: str, source_behavior: str, target_behavior: str) -> Optional[str]:
+        """转换规则格式"""
         if not rule:
             return None
             
@@ -93,6 +99,7 @@ class RuleTransformer:
         return transformer(rule) if transformer else None
 
     def _get_transformer(self, source_behavior: str, target_behavior: str):
+        """获取对应的转换函数"""
         transformers = {
             ('classical', 'ipcidr'): self._classical_to_ipcidr,
             ('classical', 'domain'): self._classical_to_domain,
@@ -102,12 +109,14 @@ class RuleTransformer:
         return transformers.get((source_behavior, target_behavior))
 
     def _classical_to_ipcidr(self, rule: str) -> Optional[str]:
+        """将经典格式转换为IP CIDR格式"""
         if not (rule.startswith('IP-CIDR,') or rule.startswith('IP-CIDR6,')):
             return None
         parts = rule.split(',')
         return parts[1].strip() if len(parts) >= 2 else None
     
     def _classical_to_domain(self, rule: str) -> Optional[str]:
+        """将经典格式转换为域名格式"""
         parts = rule.split(',')
         if len(parts) < 2:
             return None
@@ -123,9 +132,11 @@ class RuleTransformer:
         return None
     
     def _ipcidr_to_classical(self, rule: str) -> Optional[str]:
+        """将IP CIDR格式转换为经典格式"""
         return "IP-CIDR6," + rule if ':' in rule else "IP-CIDR," + rule
     
     def _domain_to_classical(self, rule: str) -> Optional[str]:
+        """将域名格式转换为经典格式"""
         if rule.startswith('+.'):
             suffix = rule[2:]
             if not re.match(RuleConstants.DOMAIN_PATTERN, suffix):
@@ -142,6 +153,7 @@ class RuleFetcher:
         self.logger = logging.getLogger(__name__)
 
     def fetch_rules(self, source: RuleSource) -> List[str]:
+        """根据源类型获取规则"""
         if source.type == 'http':
             return self._fetch_http_rules(source.url, source.format)
         elif source.type == 'file':
@@ -149,6 +161,7 @@ class RuleFetcher:
         return []
 
     def _fetch_http_rules(self, url: str, format: str) -> List[str]:
+        """从HTTP源获取规则"""
         try:
             response = requests.get(url, timeout=10)
             response.raise_for_status()
@@ -163,6 +176,7 @@ class RuleFetcher:
             return []
 
     def _read_local_rules(self, path: str, format: str) -> List[str]:
+        """从本地文件读取规则"""
         try:
             with open(path, 'r', encoding='utf-8') as f:
                 if format == 'yaml':
@@ -180,6 +194,7 @@ class RuleProcessor:
         self.logger = logging.getLogger(__name__)
 
     def clean_rule(self, rule: str) -> str:
+        """清理规则，去除注释和空白"""
         rule = rule.strip()
         if rule.startswith('#'):
             return ''
@@ -188,6 +203,7 @@ class RuleProcessor:
         return parts[0].strip() if len(parts) > 1 else rule.strip()
 
     def process_rules(self, rules: List[str], source_behavior: str, target_behavior: str) -> List[str]:
+        """处理规则列表"""
         processed_rules = []
         for rule in rules:
             cleaned_rule = self.clean_rule(rule)
@@ -199,6 +215,7 @@ class RuleProcessor:
         return processed_rules
 
 class RulesMerger:
+    """规则合并器类"""
     def __init__(self, config_path: str):
         self.config = self._load_config(config_path)
         self.logger = logging.getLogger(__name__)
@@ -206,6 +223,7 @@ class RulesMerger:
         self.processor = RuleProcessor()
 
     def _load_config(self, path: str) -> dict:
+        """加载配置文件"""
         try:
             with open(path, 'r', encoding='utf-8') as f:
                 return yaml.safe_load(f)
@@ -217,6 +235,7 @@ class RulesMerger:
             raise
 
     def _process_source(self, source: Dict, target_behavior: str) -> List[str]:
+        """处理单个规则源"""
         source_obj = RuleSource(
             type=source['type'],
             url=source.get('url', ''),
@@ -228,6 +247,7 @@ class RulesMerger:
         return self.processor.process_rules(rules, source_obj.behavior, target_behavior)
 
     def _write_rules(self, output_path: str, rules: List[str]) -> None:
+        """将处理后的规则写入文件"""
         try:
             output_dir = os.path.dirname(output_path)
             if output_dir:
@@ -252,6 +272,7 @@ class RulesMerger:
             raise
 
     def merge_rules(self) -> None:
+        """合并所有规则源的规则"""
         with ThreadPoolExecutor() as executor:
             for config in self.config:
                 if 'upstream' not in config or not config.get('path'):
@@ -260,6 +281,7 @@ class RulesMerger:
                 target_behavior = config.get('behavior', 'classical')
                 futures = []
                 
+                # 并行处理所有规则源
                 for source_name, source_config in config['upstream'].items():
                     future = executor.submit(self._process_source, source_config, target_behavior)
                     futures.append(future)
@@ -272,10 +294,12 @@ class RulesMerger:
                     except Exception as e:
                         self.logger.error(f"处理规则源失败: {str(e)}")
                 
+                # 去重并排序
                 merged_rules = sorted(set(merged_rules))
                 self._write_rules(config['path'], merged_rules)
 
 def main():
+    """主函数"""
     merger = RulesMerger('config.yaml')
     merger.merge_rules()
 
