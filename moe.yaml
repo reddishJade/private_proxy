@@ -41,7 +41,7 @@ external-controller: 127.0.0.1:9090
 external-ui: ui
 external-ui-url: "https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-pages.zip"
 
-geodata-mode: true
+geodata-mode: false
 geox-url:
   geoip: "https://mirror.ghproxy.com/https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geoip-lite.dat"
   geosite: "https://mirror.ghproxy.com/https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geosite.dat"
@@ -54,18 +54,18 @@ profile:
 
 dns:
   enable: true
-  listen: :1053
+  listen: 0.0.0.0:53
   ipv6: false
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
   fake-ip-filter:
     - "*"
-    - +.lan
-    - +.local
+    - *.lan
+    - *.local
     - localhost.ptlogin2.qq.com
-    - "*.msftconnecttest.com"
-    - "*.msftncsi.com"
-    - time.windows.com
+    - localhost.sec.qq.com
+    - +.msftconnecttest.com
+    - +.msftncsi.com
   default-nameserver:
     - 223.5.5.5
     - 119.29.29.29

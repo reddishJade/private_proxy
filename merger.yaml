@@ -38,7 +38,7 @@ find-process-mode: strict
 global-client-fingerprint: chrome
 
 external-ui: ui
-external-ui-name: metacubexd
+external-ui-name: xd
 external-controller: 127.0.0.1:9090
 external-ui-url: "https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-pages.zip"
 
@@ -51,13 +51,13 @@ profile:
 
 dns:
   enable: true
-  listen: :53
+  listen: 0.0.0.0:53
   ipv6: true
   prefer-h3: true
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
   fake-ip-filter:
-    - rule-set:fakeip-filter,private,domestic
+    - rule-set:fakeip-filter
   default-nameserver:
     - 119.29.29.29
     - 223.5.5.5
@@ -315,7 +315,7 @@ rule-providers:
 
 rules:
   - RULE-SET,reject,REJECT
-  - RULE-SET,cdn,Proxy
+  - RULE-SET,cdn,CDN
   - RULE-SET,ai,AIGC
   - RULE-SET,apple@cn,Apple
   - RULE-SET,microsoft@cn,Microsoft
@@ -327,7 +327,7 @@ rules:
   - RULE-SET,proxy,Proxy
 
   - RULE-SET,reject@ip,REJECT
-  - RULE-SET,cdn@ip,Proxy
+  - RULE-SET,cdn@ip,CDN
   - RULE-SET,proxy@ip,Proxy
   - RULE-SET,download@ip,Download
   - RULE-SET,private@ip,Direct

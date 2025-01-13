@@ -1,7 +1,7 @@
 # Private Proxy Rules
 
 自用基于 mihomo 内核的代理规则集合与规则合并工具。
-规则合并工具借鉴 [xndeye](https://github.com/xndeye/rule-merger) 的rule-merger 项目。
+规则合并工具借鉴 xndeye 的 [rule-merger](https://github.com/xndeye/rule-merger) 项目。
 
 ## 配置文件示例
 
