@@ -51,7 +51,7 @@ profile:
 dns:
   enable: true
   ipv6: true
-  listen: 0.0.0.0:1053
+  listen: 0.0.0.0:53
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
   fake-ip-filter: ["rule-set:fakeip-filter,private,cn"]
@@ -67,31 +67,26 @@ dns:
 
 sniffer:
   enable: true
-  parse-pure-ip: true
   sniff:
     HTTP:
-      ports:
-        - 80
-        - 8080-8880
+      ports: [80, 8080-8880]
+      override-destination: true
     TLS:
-      ports:
-        - 443
-        - 8443
+      ports: [443, 8443]
     QUIC:
-      ports:
-        - 443
-        - 8443
+      ports: [443, 8443]
   skip-domain:
-    - dlg.io.mi.com
-    - +.push.apple.com
+    - "dlg.io.mi.com"
+    - "+.push.apple.com"
 
 tun:
   enable: true
   stack: mixed
   dns-hijack:
-    - "any:53"
-    - "tcp://any:53"
+    - any:53
+    - tcp://any:53
   auto-route: true
+  auto-redirect: true
   auto-detect-interface: true
 
 proxies: []
@@ -117,12 +112,12 @@ proxy-groups:
   - name: IEPL
     type: select
     include-all-providers: true
-    filter: IEPL
+    filter: (?i)IEPL
     icon: https://fastly.jsdelivr.net/gh/shindgewongxj/WHATSINStash@master/icon/fallback.png
   - name: Home
     type: select
     include-all-providers: true
-    filter: 家宽
+    filter: (?i)家宽
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Back.png
   - name: Final
     type: select
@@ -184,7 +179,7 @@ proxy-groups:
   - name: Download
     type: url-test
     include-all-providers: true
-    filter: 下载|低倍率
+    filter: (?i)下载|低倍率
     tolerance: 50
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Download.png
   - name: Global
@@ -211,36 +206,36 @@ proxy-groups:
     type: url-test
     tolerance: 50
     include-all-providers: true
-    filter: 港|hk
-    exclude-filter: IEPL|家宽|低倍率
+    filter: (?i)港|hk
+    exclude-filter: (?i)EPL|家宽|下载|低倍率
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Hong_Kong.png
   - name: TaiWan
     type: url-test
     tolerance: 50
     include-all-providers: true
-    filter: 台|tw
-    exclude-filter: IEPL|家宽
+    filter: (?i)台|tw
+    exclude-filter: (?i)IEPL|家宽|下载|低倍率
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Taiwan.png
   - name: Japan
     type: url-test
     tolerance: 50
     include-all-providers: true
-    filter: 日|jp
-    exclude-filter: IEPL|家宽
+    filter: (?i)日|jp
+    exclude-filter: (?i)IEPL|家宽|下载|低倍率
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Japan.png
   - name: Singapore
     type: url-test
     tolerance: 50
     include-all-providers: true
-    filter: 新|狮|sg
-    exclude-filter: IEPL|家宽|低倍率
+    filter: (?i)新|狮|sg
+    exclude-filter: (?i)IEPL|家宽|下载|低倍率
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Singapore.png
   - name: USA
     type: url-test
     tolerance: 50
     include-all-providers: true
-    filter: 美|us
-    exclude-filter: IEPL|家宽
+    filter: (?i)美|us
+    exclude-filter: (?i)IEPL|家宽|下载|低倍率
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/United_States.png
 
 rule-providers:
@@ -371,6 +366,6 @@ rules:
   - RULE-SET,cn,Domestic
   - RULE-SET,StreamingIP,Streaming,no-resolve
   - RULE-SET,telegramip,Telegram,no-resolve
-  - RULE-SET,privateip,Private,no-resolve
-  - RULE-SET,cnip,Domestic,no-resolve
+  - RULE-SET,privateip,Private
+  - RULE-SET,cnip,Domestic
   - MATCH,Final
