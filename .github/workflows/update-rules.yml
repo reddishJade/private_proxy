@@ -36,8 +36,10 @@ jobs:
 
       - name: Get current time
         id: time
+        env:
+          TZ: Asia/Shanghai
         run: |
-          echo "TIME=$(date -u -d '+8 hour' +'%Y-%m-%d %H:%M:%S')" >> $GITHUB_OUTPUT
+          echo "TIME=$(date +'%Y-%m-%d %H:%M:%S')" >> $GITHUB_OUTPUT
 
       - name: Commit Changes
         id: commit
