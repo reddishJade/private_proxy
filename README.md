@@ -21,21 +21,32 @@
 
 | 规则          | 上游规则来源 | 订阅链接 |
 | ------------- | ------------ | -------- |
-| ai            | • skk_ai<br>• dler_ai | [link](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/release/ai.yaml) |
-| apple@cn      | • DustinWin_apple_cn<br>• skk_apple_services<br>• skk_apple_cn<br>• skk_apple_cdn<br>• skk_apple_cdn_non_ip | [link](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/release/apple@cn.yaml) |
+| ai            | • dler_ai | [link](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/release/ai.yaml) |
+| apple@cn      | • DustinWin_apple_cn | [link](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/release/apple@cn.yaml) |
 | cdn           | • skk_cdn_domainset<br>• skk_cdn_non_ip | [link](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/release/cdn.yaml) |
 | cdn@ip        | • skk_cdn_ip | [link](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/release/cdn@ip.yaml) |
-| direct        | • Loyalsoldier_applications<br>• skk_direct<br>• dler_special | [link](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/release/direct.yaml) |
+| direct        | • Loyalsoldier_applications<br>• skk_direct| [link](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/release/direct.yaml) |
 | domestic      | • DustinWin_domestic<br>• skk_domestic | [link](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/release/domestic.yaml) |
 | domestic@ip   | • DustinWin_domestic_ip<br>• skk_domestic_ip<br>• skk_china_ip | [link](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/release/domestic@ip.yaml) |
-| download      | • skk_download_domainset<br>• skk_download_non_ip<br>• ios_download | [link](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/release/download.yaml) |
+| download      | • skk_download_domainset<br>• skk_download_non_ip | [link](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/release/download.yaml) |
 | download@ip   | • skk_download_ip | [link](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/release/download@ip.yaml) |
 | fakeip-filter | • fakeip-filter | [link](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/release/fakeip-filter.yaml) |
-| games@cn      | • skk_steam_cn<br>• DustinWin_games_cn | [link](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/release/games@cn.yaml) |
-| microsoft@cn  | • DustinWin_microsoft_cn<br>• skk_microsoft_cdn | [link](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/release/microsoft@cn.yaml) |
+| games@cn      | • DustinWin_games_cn | [link](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/release/games@cn.yaml) |
+| microsoft@cn  | • DustinWin_microsoft_cn | [link](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/release/microsoft@cn.yaml) |
 | private       | • DustinWin_private | [link](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/release/private.yaml) |
 | private@ip    | • DustinWin_privateip | [link](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/release/private@ip.yaml) |
 | proxy         | • DustinWin_proxy<br>• skk_global<br>• skk_stream<br>• skk_telegram | [link](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/release/proxy.yaml) |
 | proxy@ip      | • skk_stream_ip<br>• skk_telegram_ip | [link](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/release/proxy@ip.yaml) |
 | reject        | • skk_reject<br>• xndeye_reject | [link](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/release/reject.yaml) |
 | reject@ip     | • skk_reject_ip | [link](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/release/reject@ip.yaml) |
+
+## 鸣谢
+
+感谢以下项目和个人提供的规则：
+
+-   **Sukka**
+-   **DustinWin**
+-   **dler-io**
+-   **xndeye**
+-   **Loyalsoldier:**
+-   **juewuy**
