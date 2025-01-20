@@ -10,7 +10,7 @@
 
     xndeye_reject:
       type: http
-      url: "https://raw.githubusercontent.com/xndeye/adblock_list/beta/rule/clash.yaml"
+      url: "https://cdn.jsdelivr.net/gh/xndeye/adblock_list@beta/rule/clash.yaml"
       format: yaml
       behavior: domain
 
@@ -30,7 +30,7 @@
   upstream:
     Loyalsoldier_applications:
       type: http
-      url: "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/refs/heads/release/applications.txt"
+      url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@refs/heads/release/applications.txt"
       format: yaml
       behavior: classical
     
@@ -108,7 +108,7 @@
 
     dler_ai:
       type: http
-      url: "https://raw.githubusercontent.com/dler-io/Rules/refs/heads/main/Clash/Provider/AI%20Suite.yaml"
+      url: "https://cdn.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/AI%20Suite.yaml"
       format: yaml
       behavior: classical
 
