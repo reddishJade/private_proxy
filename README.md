@@ -35,10 +35,13 @@
 | microsoft@cn  | • DustinWin_microsoft_cn | [link](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/release/microsoft@cn.yaml) |
 | private       | • DustinWin_private | [link](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/release/private.yaml) |
 | private@ip    | • DustinWin_privateip | [link](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/release/private@ip.yaml) |
-| proxy         | • DustinWin_proxy<br>• skk_global<br>• skk_stream<br>• skk_telegram | [link](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/release/proxy.yaml) |
-| proxy@ip      | • skk_stream_ip<br>• skk_telegram_ip | [link](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/release/proxy@ip.yaml) |
+| proxy         | • DustinWin_proxy<br>• skk_global | [link](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/release/proxy.yaml) |
 | reject        | • skk_reject<br>• xndeye_reject | [link](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/release/reject.yaml) |
 | reject@ip     | • skk_reject_ip | [link](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/release/reject@ip.yaml) |
+| stream        | • skk_stream | [link](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/release/stream.yaml) |
+| straem@ip        | • skk_stream_ip | [link](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/release/straem@ip.yaml) |
+| telegram        | • skk_telegram | [link](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/release/telegram.yaml) |
+| telegram@ip        | • skk_telegram_ip | [link](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/release/telegram@ip.yaml) |
 
 ## 鸣谢
 
@@ -48,5 +51,5 @@
 -   **DustinWin**
 -   **dler-io**
 -   **xndeye**
--   **Loyalsoldier:**
+-   **Loyalsoldier**
 -   **juewuy**
