@@ -128,6 +128,104 @@
       format: yaml
       behavior: domain
 
+- path: output/cdn.yaml
+  format: yaml
+  behavior: classical
+  upstream:
+    skk_cdn_domainset:
+      type: http
+      url: "https://ruleset.skk.moe/Clash/domainset/cdn.txt"
+      format: txt
+      behavior: domain
+    
+    skk_cdn_non_ip:
+      type: http
+      url: "https://ruleset.skk.moe/Clash/non_ip/cdn.txt"
+      format: txt
+      behavior: classical
+    
+- path: output/cdn@ip.yaml
+  format: yaml
+  behavior: classical
+  upstream:
+    skk_cdn_ip:
+      type: http
+      url: "https://ruleset.skk.moe/Clash/ip/cdn.txt"
+      format: txt
+      behavior: classical
+    
+- path: output/download.yaml
+  format: yaml
+  behavior: classical
+  upstream:
+    skk_download_domainset:
+      type: http
+      url: "https://ruleset.skk.moe/Clash/domainset/download.txt"
+      format: txt
+      behavior: domain
+    
+    skk_download_non_ip:
+      type: http
+      url: "https://ruleset.skk.moe/Clash/non_ip/download.txt"
+      format: txt
+      behavior: classical
+        
+    # ios_download:
+    #   type: http
+    #   url: "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Download/Download.yaml"
+    #   format: yaml
+    #   behavior: classical
+    
+- path: output/download@ip.yaml
+  format: yaml
+  behavior: classical
+  upstream:
+    skk_download_ip:
+      type: http
+      url: "https://ruleset.skk.moe/Clash/ip/download.txt"
+      format: txt
+      behavior: classical
+    
+- path: output/stream.yaml
+  format: yaml
+  behavior: classical
+  upstream:
+    skk_stream:
+      type: http
+      url: "https://ruleset.skk.moe/Clash/non_ip/stream.txt"
+      format: txt
+      behavior: classical
+    
+- path: output/straem@ip.yaml
+  format: yaml
+  behavior: classical
+  upstream:
+    skk_stream_ip:
+      type: http
+      url: "https://ruleset.skk.moe/Clash/ip/stream.txt"
+      format: txt
+      behavior: classical
+
+- path: output/telegram.yaml
+  format: yaml
+  behavior: classical
+  upstream:
+    skk_telegram:
+      type: http
+      url: "https://ruleset.skk.moe/Clash/non_ip/telegram.txt"
+      format: txt
+      behavior: classical
+        
+- path: output/telegram@ip.yaml
+  format: yaml
+  behavior: classical
+  upstream:
+    skk_telegram_ip:
+      type: http
+      url: "https://ruleset.skk.moe/Clash/ip/telegram.txt"
+      format: txt
+      behavior: classical
+          
 - path: output/proxy.yaml
   format: yaml
   behavior: classical
@@ -144,33 +242,21 @@
       format: txt
       behavior: classical
 
-    skk_stream:
-      type: http
-      url: "https://ruleset.skk.moe/Clash/non_ip/stream.txt"
-      format: txt
-      behavior: classical
+# - path: output/proxy@ip.yaml
+#   format: yaml
+#   behavior: classical
+#   upstream:
+#     skk_stream_ip:
+#       type: http
+#       url: "https://ruleset.skk.moe/Clash/ip/stream.txt"
+#       format: txt
+#       behavior: classical
 
-    skk_telegram:
-      type: http
-      url: "https://ruleset.skk.moe/Clash/non_ip/telegram.txt"
-      format: txt
-      behavior: classical
-
-- path: output/proxy@ip.yaml
-  format: yaml
-  behavior: classical
-  upstream:
-    skk_stream_ip:
-      type: http
-      url: "https://ruleset.skk.moe/Clash/ip/stream.txt"
-      format: txt
-      behavior: classical
-
-    skk_telegram_ip:
-      type: http
-      url: "https://ruleset.skk.moe/Clash/ip/telegram.txt"
-      format: txt
-      behavior: classical
+#     skk_telegram_ip:
+#       type: http
+#       url: "https://ruleset.skk.moe/Clash/ip/telegram.txt"
+#       format: txt
+#       behavior: classical
 
 - path: output/domestic.yaml
   format: yaml
@@ -239,61 +325,3 @@
       url: "https://cdn.jsdelivr.net/gh/juewuy/ShellCrash@refs/heads/dev/public/fake_ip_filter.list"
       format: txt
       behavior: domain
-
-- path: output/cdn.yaml
-  format: yaml
-  behavior: classical
-  upstream:
-    skk_cdn_domainset:
-      type: http
-      url: "https://ruleset.skk.moe/Clash/domainset/cdn.txt"
-      format: txt
-      behavior: domain
-
-    skk_cdn_non_ip:
-      type: http
-      url: "https://ruleset.skk.moe/Clash/non_ip/cdn.txt"
-      format: txt
-      behavior: classical
-
-- path: output/cdn@ip.yaml
-  format: yaml
-  behavior: classical
-  upstream:
-    skk_cdn_ip:
-      type: http
-      url: "https://ruleset.skk.moe/Clash/ip/cdn.txt"
-      format: txt
-      behavior: classical
-
-- path: output/download.yaml
-  format: yaml
-  behavior: classical
-  upstream:
-    skk_download_domainset:
-      type: http
-      url: "https://ruleset.skk.moe/Clash/domainset/download.txt"
-      format: txt
-      behavior: domain
-
-    skk_download_non_ip:
-      type: http
-      url: "https://ruleset.skk.moe/Clash/non_ip/download.txt"
-      format: txt
-      behavior: classical
-    
-    # ios_download:
-    #   type: http
-    #   url: "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Download/Download.yaml"
-    #   format: yaml
-    #   behavior: classical
-
-- path: output/download@ip.yaml
-  format: yaml
-  behavior: classical
-  upstream:
-    skk_download_ip:
-      type: http
-      url: "https://ruleset.skk.moe/Clash/ip/download.txt"
-      format: txt
-      behavior: classical
