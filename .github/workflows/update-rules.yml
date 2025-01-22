@@ -28,12 +28,12 @@ jobs:
       - name: Run script
         run: |
           cd src/python
-          python rule_merger.py
+          python rule_merger.py config.yaml
 
       - name: Clean up
         run: |
-          find . -maxdepth 1 ! -name 'output' ! -name '.' ! -name '.git' -exec rm -rf {} +
-          mv output/* .
+          cd src/python
+          mv output/* ../../
           rm -rf output
 
       - name: Get current time
