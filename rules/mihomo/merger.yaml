@@ -5,7 +5,7 @@ proxy-providers:
     type: http
     # filter: # 筛选满足关键词或正则表达式的节点
     # exclude-filter: # 排除满足关键词或正则表达式的节点
-    interval: 86400
+    interval: 43200
     health-check:
       { enable: true, url: "https://cp.cloudflare.com", interval: 300 }
     # override:
@@ -16,7 +16,7 @@ proxy-providers:
   #   type: http
   #   filter: 
   #   exclude-filter: 
-  #   interval: 86400
+  #   interval: 43200
   #   health-check:
   #     { enable: true, url: "https://cp.cloudflare.com", interval: 300 }
   #   override:
@@ -47,26 +47,19 @@ keep-alive-interval: 30
 
 profile:
   store-selected: true
-  store-fake-ip: true
+  # store-fake-ip: true
 
 dns:
   enable: true
-  listen: 0.0.0.0:53
   ipv6: true
+  listen: :53
   prefer-h3: true
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
-  fake-ip-filter:
-    - rule-set:fakeip-filter
-  default-nameserver:
-    - 119.29.29.29
-    - 223.5.5.5
+  fake-ip-filter: ["rule-set:fakeip-filter,private,domestic"]
   nameserver:
     - https://doh.pub/dns-query
     - https://dns.alidns.com/dns-query
-  fallback:
-    - https://dns.google/dns-query
-    - https://cloudflare-dns.com/dns-query
 
 sniffer:
   enable: true
@@ -118,19 +111,19 @@ proxy-groups:
     type: select
     proxies:
       - Proxy
-      - DIRECT
+      - Direct
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Final.png
 
   - name: Apple
     type: select
     proxies:
-      - DIRECT
+      - Direct
       - Proxy
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Apple.png
   - name: Microsoft
     type: select
     proxies:
-      - DIRECT
+      - Direct
       - Proxy
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Microsoft.png
   - name: AIGC
@@ -144,7 +137,7 @@ proxy-groups:
     proxies:
       - Download
       - Proxy
-      - DIRECT
+      - Direct
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Speedtest.png
   - name: Download
     type: load-balance
@@ -154,27 +147,40 @@ proxy-groups:
   - name: Game
     type: select
     proxies:
-      - DIRECT
+      - Direct
       - Proxy
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Game.png
+  - name: Streaming
+    type: select
+    proxies:
+      - Proxy
+      - Direct
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/YouTube.png
+  - name: Telegram
+    type: select
+    proxies:
+      - Proxy
+      - Direct
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Telegram.png
   - name: Global
     type: select
     proxies:
       - Proxy
-      - DIRECT
+      - Direct
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Global.png
   - name: Domestic
     type: select
     proxies:
-      - DIRECT
+      - Direct
       - Proxy
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Domestic.png
   - name: Private
     type: select
     proxies:
-      - DIRECT
+      - Direct
       - Proxy
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Lock.png
+
 
   # 地区分组
   - name: HongKong
@@ -294,12 +300,6 @@ rule-providers:
     interval: 43200
     url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/release/proxy.yaml
     path: ./rules/proxy.yaml
-  proxy@ip:
-    type: http
-    behavior: classical
-    interval: 43200
-    url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/release/proxy@ip.yaml
-    path: ./rules/proxy@ip.yaml
   reject:
     type: http
     behavior: classical
@@ -312,25 +312,52 @@ rule-providers:
     interval: 43200
     url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/release/reject@ip.yaml
     path: ./rules/reject@ip.yaml
+  stream:
+    type: http
+    behavior: classical
+    interval: 43200
+    url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/release/stream.yaml
+    path: ./rules/stream.yaml
+  stream@ip:
+    type: http
+    behavior: classical
+    interval: 43200
+    url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/release/straem@ip.yaml
+    path: ./rules/stream@ip.yaml
+  telegram:
+    type: http
+    behavior: classical
+    interval: 43200
+    url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/release/telegram.yaml
+    path: ./rules/stream.yaml
+  telegram@ip:
+    type: http
+    behavior: classical
+    interval: 43200
+    url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/release/telegram@ip.yaml
+    path: ./rules/telegram@ip.yaml
 
 rules:
   - RULE-SET,reject,REJECT
   - RULE-SET,cdn,CDN
+  - RULE-SET,stream,Streaming
   - RULE-SET,ai,AIGC
+  - RULE-SET,telegram,Telegram
   - RULE-SET,apple@cn,Apple
   - RULE-SET,microsoft@cn,Microsoft
   - RULE-SET,game@cn,Game
   - RULE-SET,download,Download
-  - RULE-SET,private,Direct
-  - RULE-SET,domestic,Direct
+  - RULE-SET,private,Private
+  - RULE-SET,domestic,Domestic
   - RULE-SET,direct,Direct
-  - RULE-SET,proxy,Proxy
+  - RULE-SET,proxy,Global
 
   - RULE-SET,reject@ip,REJECT
   - RULE-SET,cdn@ip,CDN
-  - RULE-SET,proxy@ip,Proxy
+  - RULE-SET,stream@ip,Streaming
+  - RULE-SET,telegram@ip,Telegram
   - RULE-SET,download@ip,Download
-  - RULE-SET,private@ip,Direct
-  - RULE-SET,domestic@ip,Direct
+  - RULE-SET,private@ip,Private
+  - RULE-SET,domestic@ip,Domestic
 
   - MATCH,Final
