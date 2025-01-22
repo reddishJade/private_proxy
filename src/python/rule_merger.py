@@ -2,10 +2,12 @@ import yaml
 import requests
 import os
 import logging
+import sys
 from typing import List, Dict, Optional, Literal, Set
 import re
 from dataclasses import dataclass
 from datetime import datetime
+import pytz  # 导入时区支持
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from functools import partial
 
@@ -253,8 +255,12 @@ class RulesMerger:
             if output_dir:
                 os.makedirs(output_dir, exist_ok=True)
             
+            # 获取北京时间
+            beijing_tz = pytz.timezone('Asia/Shanghai')
+            current_time = datetime.now(beijing_tz).strftime('%Y-%m-%d %H:%M:%S')
+            
             with open(output_path, 'w', encoding='utf-8') as f:
-                f.write(f"# 更新时间: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
+                f.write(f"# 更新时间: {current_time}（北京时间）\n")
                 f.write(f"# 规则数量: {len(rules)}\n")
                 yaml_str = yaml.dump(
                     {'payload': rules}, 
@@ -300,7 +306,12 @@ class RulesMerger:
 
 def main():
     """主函数"""
-    merger = RulesMerger('config.yaml')
+    if len(sys.argv) > 1:
+        config_path = sys.argv[1]
+    else:
+        config_path = 'config.yaml'
+    
+    merger = RulesMerger(config_path)
     merger.merge_rules()
 
 if __name__ == '__main__':
