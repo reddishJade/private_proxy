@@ -5,7 +5,7 @@ proxy-providers:
     type: http
     # filter: # 筛选满足关键词或正则表达式的节点
     # exclude-filter: # 排除满足关键词或正则表达式的节点
-    interval: 86400
+    interval: 43200
     health-check:
       { enable: true, url: "https://cp.cloudflare.com", interval: 300 }
     # override:
@@ -16,7 +16,7 @@ proxy-providers:
   #   type: http
   #   filter: 
   #   exclude-filter: 
-  #   interval: 86400
+  #   interval: 43200
   #   health-check:
   #     { enable: true, url: "https://cp.cloudflare.com", interval: 300 }
   #   override:
@@ -61,9 +61,6 @@ dns:
   nameserver:
     - https://doh.pub/dns-query
     - https://dns.alidns.com/dns-query
-  fallback:
-    - https://dns.google/dns-query
-    - https://cloudflare-dns.com/dns-query
 
 sniffer:
   enable: true
@@ -245,110 +242,110 @@ rule-providers:
     behavior: domain
     url: https://cdn.jsdelivr.net/gh/juewuy/ShellCrash@refs/heads/dev/public/fake_ip_filter.list
     path: ./rules/fakeip-filter.list
-    interval: 86400
+    interval: 43200
   applications:
     type: http
     behavior: classical
     url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/applications.txt
     path: ./rules/applications.yaml
-    interval: 86400
+    interval: 43200
   Download:
     type: http
     behavior: classical
     url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Download/Download.yaml
     path: ./rules/Download.yaml
-    interval: 86400
+    interval: 43200
   private:
     type: http
     behavior: domain
     url: "https://fastly.jsdelivr.net/gh/DustinWin/ruleset_geodata@clash-ruleset/private.yaml"
     path: ./rules/private.yaml
-    interval: 86400
+    interval: 43200
   ads:
     type: http
     behavior: domain
     url: "https://fastly.jsdelivr.net/gh/DustinWin/ruleset_geodata@clash-ruleset/ads.yaml"
     path: ./rules/ads.yaml
-    interval: 86400
+    interval: 43200
   microsoft-cn:
     type: http
     behavior: domain
     url: "https://fastly.jsdelivr.net/gh/DustinWin/ruleset_geodata@clash-ruleset/microsoft-cn.yaml"
     path: ./rules/microsoft-cn.yaml
-    interval: 86400
+    interval: 43200
   apple-cn:
     type: http
     behavior: domain
     url: "https://fastly.jsdelivr.net/gh/DustinWin/ruleset_geodata@clash-ruleset/apple-cn.yaml"
     path: ./rules/apple-cn.yaml
-    interval: 86400
+    interval: 43200
   google-cn:
     type: http
     behavior: domain
     url: "https://fastly.jsdelivr.net/gh/DustinWin/ruleset_geodata@clash-ruleset/google-cn.yaml"
     path: ./rules/google-cn.yaml
-    interval: 86400
+    interval: 43200
   games-cn:
     type: http
     behavior: domain
     url: "https://fastly.jsdelivr.net/gh/DustinWin/ruleset_geodata@clash-ruleset/games-cn.yaml"
     path: ./rules/games-cn.yaml
-    interval: 86400
+    interval: 43200
   ai:
     type: http
     behavior: domain
     url: "https://fastly.jsdelivr.net/gh/DustinWin/ruleset_geodata@clash-ruleset/ai.yaml"
     path: ./rules/ai.yaml
-    interval: 86400
+    interval: 43200
   networktest:
     type: http
     behavior: classical
     url: "https://fastly.jsdelivr.net/gh/DustinWin/ruleset_geodata@clash-ruleset/networktest.yaml"
     path: ./rules/networktest.yaml
-    interval: 86400
+    interval: 43200
   proxy:
     type: http
     behavior: domain
     url: "https://fastly.jsdelivr.net/gh/DustinWin/ruleset_geodata@clash-ruleset/proxy.yaml"
     path: ./rules/proxy.yaml
-    interval: 86400
+    interval: 43200
   cn:
     type: http
     behavior: domain
     url: "https://fastly.jsdelivr.net/gh/DustinWin/ruleset_geodata@clash-ruleset/cn.yaml"
     path: ./rules/cn.yaml
-    interval: 86400
+    interval: 43200
   telegramip:
     type: http
     behavior: ipcidr
     url: "https://fastly.jsdelivr.net/gh/DustinWin/ruleset_geodata@clash-ruleset/telegramip.yaml"
     path: ./rules/telegramip.yaml
-    interval: 86400
+    interval: 43200
   privateip:
     type: http
     behavior: ipcidr
     url: "https://fastly.jsdelivr.net/gh/DustinWin/ruleset_geodata@clash-ruleset/privateip.yaml"
     path: ./rules/privateip.yaml
-    interval: 86400
+    interval: 43200
   cnip:
     type: http
     behavior: ipcidr
     url: "https://fastly.jsdelivr.net/gh/DustinWin/ruleset_geodata@clash-ruleset/cnip.yaml"
     path: ./rules/cnip.yaml
-    interval: 86400
+    interval: 43200
   Streaming:
     type: http
     behavior: domain
     format: text
     url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/GlobalMedia/GlobalMedia_Domain.txt
     path: ./rules/Streaming.txt
-    interval: 86400
+    interval: 43200
   StreamingIP:
     type: http
     behavior: classical
     url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/GlobalMedia/GlobalMedia.yaml
     path: ./rules/StreamingIP.yaml
-    interval: 86400
+    interval: 43200
 
 rules:
   - RULE-SET,private,Private
