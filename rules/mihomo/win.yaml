@@ -1,0 +1,371 @@
+proxy-providers:
+  # 订阅链接一
+  provider1:
+    url: "" # 在""内填入链接
+    type: http
+    # filter: # 筛选满足关键词或正则表达式的节点
+    # exclude-filter: # 排除满足关键词或正则表达式的节点
+    interval: 86400
+    health-check:
+      { enable: true, url: "https://cp.cloudflare.com", interval: 300 }
+    # override:
+    #   additional-prefix: "[provider1]"
+  # 订阅链接二
+  # provider2:
+  #   url: "" # 在""内填入链接
+  #   type: http
+  #   filter: 
+  #   exclude-filter: 
+  #   interval: 86400
+  #   health-check:
+  #     { enable: true, url: "https://cp.cloudflare.com", interval: 300 }
+  #   override:
+  #     additional-prefix: "[provider2]"
+
+  # 默认在分组内使用全部订阅：
+  # include-all-providers: true
+  # 如有特殊需求可以在分组内使用指定订阅：
+  # use:
+  #   - provider1
+  #   - provider2
+
+mode: rule
+ipv6: true
+allow-lan: true
+mixed-port: 7890
+unified-delay: true
+tcp-concurrent: true
+keep-alive-interval: 15 # 解决移动端耗电问题
+
+external-controller: 127.0.0.1:9090
+external-ui: ui
+external-ui-url: "https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-pages.zip"
+
+find-process-mode: strict
+global-client-fingerprint: chrome
+
+profile:
+  store-selected: true
+  store-fake-ip: true
+
+dns:
+  enable: true
+  ipv6: true
+  listen: 0.0.0.0:53
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter: ["rule-set:fakeip-filter,private,cn"]
+  default-nameserver:
+    - 223.5.5.5
+    - 119.29.29.29
+  nameserver:
+    - https://doh.pub/dns-query
+    - https://dns.alidns.com/dns-query
+  fallback:
+    - https://dns.google/dns-query
+    - https://cloudflare-dns.com/dns-query
+
+sniffer:
+  enable: true
+  sniff:
+    HTTP:
+      ports: [80, 8080-8880]
+      override-destination: true
+    TLS:
+      ports: [443, 8443]
+    QUIC:
+      ports: [443, 8443]
+  skip-domain:
+    - "dlg.io.mi.com"
+    - "+.push.apple.com"
+
+tun:
+  enable: true
+  stack: mixed
+  dns-hijack:
+    - any:53
+    - tcp://any:53
+  auto-route: true
+  auto-redirect: true
+  auto-detect-interface: true
+
+proxies: []
+
+proxy-groups:
+  - name: Proxy
+    type: select
+    proxies:
+    # 如需删除分组需在下面的proxies也同步删除
+      - Select
+      - IEPL
+      - Home
+      - HongKong
+      - TaiWan
+      - Japan
+      - Singapore
+      - USA
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Proxy.png
+  - name: Select
+    type: select
+    include-all-providers: true
+    icon: https://fastly.jsdelivr.net/gh/shindgewongxj/WHATSINStash@master/icon/select.png
+  - name: IEPL
+    type: select
+    include-all-providers: true
+    filter: (?i)IEPL
+    icon: https://fastly.jsdelivr.net/gh/shindgewongxj/WHATSINStash@master/icon/fallback.png
+  - name: Home
+    type: select
+    include-all-providers: true
+    filter: (?i)家宽
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Back.png
+  - name: Final
+    type: select
+    proxies:
+      - Proxy
+      - DIRECT
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Final.png
+  - name: AI
+    type: select
+    proxies:
+      - USA
+      - Proxy
+    icon: https://fastly.jsdelivr.net/gh/shindgewongxj/WHATSINStash@master/icon/openai.png
+  - name: Apple
+    type: select
+    proxies:
+      - DIRECT
+      - Proxy
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Apple.png
+  - name: Google
+    type: select
+    proxies:
+      - Proxy
+      - DIRECT
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Google_Search.png
+  - name: Microsoft
+    type: select
+    proxies:
+      - DIRECT
+      - Proxy
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Microsoft.png
+  - name: Telegram
+    type: select
+    proxies:
+      - Proxy
+      - Select
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Telegram.png
+  - name: Game
+    type: select
+    proxies:
+      - DIRECT
+      - Proxy
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Game.png
+  - name: Streaming
+    type: select
+    proxies:
+      - Proxy
+      - HongKong
+      - Singapore
+      - USA
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/YouTube.png
+  - name: CDN
+    type: select
+    proxies:
+      - Download
+      - Proxy
+      - DIRECT
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Speedtest.png
+  - name: Download
+    type: url-test
+    include-all-providers: true
+    filter: (?i)下载|低倍率
+    tolerance: 50
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Download.png
+  - name: Global
+    type: select
+    proxies:
+      - Proxy
+      - DIRECT
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Global.png
+  - name: Domestic
+    type: select
+    proxies:
+      - DIRECT
+      - Proxy
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Domestic.png
+  - name: Private
+    type: select
+    proxies:
+      - DIRECT
+      - Proxy
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Lock.png
+
+  # 地区分组（普通中转节点）
+  - name: HongKong
+    type: url-test
+    tolerance: 50
+    include-all-providers: true
+    filter: (?i)港|hk
+    exclude-filter: (?i)EPL|家宽|下载|低倍率
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Hong_Kong.png
+  - name: TaiWan
+    type: url-test
+    tolerance: 50
+    include-all-providers: true
+    filter: (?i)台|tw
+    exclude-filter: (?i)IEPL|家宽|下载|低倍率
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Taiwan.png
+  - name: Japan
+    type: url-test
+    tolerance: 50
+    include-all-providers: true
+    filter: (?i)日|jp
+    exclude-filter: (?i)IEPL|家宽|下载|低倍率
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Japan.png
+  - name: Singapore
+    type: url-test
+    tolerance: 50
+    include-all-providers: true
+    filter: (?i)新|狮|sg
+    exclude-filter: (?i)IEPL|家宽|下载|低倍率
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Singapore.png
+  - name: USA
+    type: url-test
+    tolerance: 50
+    include-all-providers: true
+    filter: (?i)美|us
+    exclude-filter: (?i)IEPL|家宽|下载|低倍率
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/United_States.png
+
+rule-providers:
+  fakeip-filter:
+    type: http
+    format: text
+    behavior: domain
+    url: https://cdn.jsdelivr.net/gh/juewuy/ShellCrash@refs/heads/dev/public/fake_ip_filter.list
+    path: ./rules/fakeip-filter.list
+    interval: 86400
+  applications:
+    type: http
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/applications.txt
+    path: ./rules/applications.yaml
+    interval: 86400
+  Download:
+    type: http
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Download/Download.yaml
+    path: ./rules/Download.yaml
+    interval: 86400
+  private:
+    type: http
+    behavior: domain
+    url: "https://fastly.jsdelivr.net/gh/DustinWin/ruleset_geodata@clash-ruleset/private.yaml"
+    path: ./rules/private.yaml
+    interval: 86400
+  ads:
+    type: http
+    behavior: domain
+    url: "https://fastly.jsdelivr.net/gh/DustinWin/ruleset_geodata@clash-ruleset/ads.yaml"
+    path: ./rules/ads.yaml
+    interval: 86400
+  microsoft-cn:
+    type: http
+    behavior: domain
+    url: "https://fastly.jsdelivr.net/gh/DustinWin/ruleset_geodata@clash-ruleset/microsoft-cn.yaml"
+    path: ./rules/microsoft-cn.yaml
+    interval: 86400
+  apple-cn:
+    type: http
+    behavior: domain
+    url: "https://fastly.jsdelivr.net/gh/DustinWin/ruleset_geodata@clash-ruleset/apple-cn.yaml"
+    path: ./rules/apple-cn.yaml
+    interval: 86400
+  google-cn:
+    type: http
+    behavior: domain
+    url: "https://fastly.jsdelivr.net/gh/DustinWin/ruleset_geodata@clash-ruleset/google-cn.yaml"
+    path: ./rules/google-cn.yaml
+    interval: 86400
+  games-cn:
+    type: http
+    behavior: domain
+    url: "https://fastly.jsdelivr.net/gh/DustinWin/ruleset_geodata@clash-ruleset/games-cn.yaml"
+    path: ./rules/games-cn.yaml
+    interval: 86400
+  ai:
+    type: http
+    behavior: domain
+    url: "https://fastly.jsdelivr.net/gh/DustinWin/ruleset_geodata@clash-ruleset/ai.yaml"
+    path: ./rules/ai.yaml
+    interval: 86400
+  networktest:
+    type: http
+    behavior: classical
+    url: "https://fastly.jsdelivr.net/gh/DustinWin/ruleset_geodata@clash-ruleset/networktest.yaml"
+    path: ./rules/networktest.yaml
+    interval: 86400
+  proxy:
+    type: http
+    behavior: domain
+    url: "https://fastly.jsdelivr.net/gh/DustinWin/ruleset_geodata@clash-ruleset/proxy.yaml"
+    path: ./rules/proxy.yaml
+    interval: 86400
+  cn:
+    type: http
+    behavior: domain
+    url: "https://fastly.jsdelivr.net/gh/DustinWin/ruleset_geodata@clash-ruleset/cn.yaml"
+    path: ./rules/cn.yaml
+    interval: 86400
+  telegramip:
+    type: http
+    behavior: ipcidr
+    url: "https://fastly.jsdelivr.net/gh/DustinWin/ruleset_geodata@clash-ruleset/telegramip.yaml"
+    path: ./rules/telegramip.yaml
+    interval: 86400
+  privateip:
+    type: http
+    behavior: ipcidr
+    url: "https://fastly.jsdelivr.net/gh/DustinWin/ruleset_geodata@clash-ruleset/privateip.yaml"
+    path: ./rules/privateip.yaml
+    interval: 86400
+  cnip:
+    type: http
+    behavior: ipcidr
+    url: "https://fastly.jsdelivr.net/gh/DustinWin/ruleset_geodata@clash-ruleset/cnip.yaml"
+    path: ./rules/cnip.yaml
+    interval: 86400
+  Streaming:
+    type: http
+    behavior: domain
+    format: text
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/GlobalMedia/GlobalMedia_Domain.txt
+    path: ./rules/Streaming.txt
+    interval: 86400
+  StreamingIP:
+    type: http
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/GlobalMedia/GlobalMedia.yaml
+    path: ./rules/StreamingIP.yaml
+    interval: 86400
+
+rules:
+  - RULE-SET,private,Private
+  - RULE-SET,Download,Download
+  - RULE-SET,applications,DIRECT
+  - RULE-SET,networktest,DIRECT
+  - RULE-SET,ads,REJECT
+  - RULE-SET,apple-cn,Apple
+  - RULE-SET,google-cn,Google
+  - RULE-SET,microsoft-cn,Microsoft
+  - RULE-SET,ai,AI
+  - RULE-SET,games-cn,Game
+  - RULE-SET,Streaming,Streaming
+  - RULE-SET,proxy,Global
+  - RULE-SET,cn,Domestic
+  - RULE-SET,StreamingIP,Streaming,no-resolve
+  - RULE-SET,telegramip,Telegram,no-resolve
+  - RULE-SET,privateip,Private
+  - RULE-SET,cnip,Domestic
+  - MATCH,Final
