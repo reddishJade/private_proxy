@@ -46,6 +46,14 @@ jobs:
         id: time
         run: echo "time=$(TZ='Asia/Shanghai' date +'%Y-%m-%d %H:%M:%S')" >> $GITHUB_OUTPUT
 
+      # 切换到release分支并提交规则文件
+      - name: Switch to release branch
+        run: |
+          git fetch origin release || true
+          git checkout release || git checkout -b release
+          cp -r output/* .
+          rm -rf output
+
       # 提交规则文件到release分支
       - name: Commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v5
@@ -58,6 +66,13 @@ jobs:
           skip_fetch: true
           skip_checkout: true
           commit_options: '--allow-empty'
+          file_pattern: '*.yaml'
+
+      # 切回main分支并清理生成的规则
+      - name: Clean up main branch
+        run: |
+          git checkout main
+          rm -rf output
 
       # 删除旧的workflow runs
       - name: Delete old workflow runs
