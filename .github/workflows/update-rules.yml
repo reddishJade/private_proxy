@@ -1,69 +1,60 @@
-name: update rules  # 工作流名称
+name: update rules
 
 on:
   schedule:
-    - cron: '0 */12 * * *'  # 每12小时执行一次
-  workflow_dispatch:        # 允许手动触发
-
-permissions:
-  actions: write    # 允许删除工作流运行
-  contents: write   # 允许推送更改
+    - cron: '0 */12 * * *'
+  workflow_dispatch:
 
 jobs:
-  update-rules:
+  run:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
 
-      - name: Set up Python 3.10
-        uses: actions/setup-python@v5
+      # 设置Python 3.10 并启用缓存
+      - uses: actions/setup-python@v4
         with:
-          python-version: "3.10"
+          python-version: '3.10'
           cache: 'pip'
 
+      # 安装依赖
       - name: Install dependencies
         run: |
+          python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Run script
+      # 运行rule_merger.py
+      - name: Run rule merger
         run: |
           cd src/python
-          python rule_merger.py config.yaml
+          python rule_merger.py
 
-      - name: Prepare release files
+      # 只保留新生成的规则文件
+      - name: Clean up old rules
         run: |
           cd src/python
-          mv output/* ../../
-          cd ../..
-          # 只保留生成的规则文件
-          find . -type f ! -name '*.yaml' -delete
-          find . -type d ! -name '.' -exec rm -rf {} +
+          rm -rf output/*
+          mv output/* ../../output/
 
+      # 获取当前时间
       - name: Get current time
         id: time
-        env:
-          TZ: Asia/Shanghai  # 设置时区为北京时间
+        run: echo "time=$(TZ='Asia/Shanghai' date +'%Y-%m-%d %H:%M:%S')" >> $GITHUB_OUTPUT
+
+      # 提交规则文件到release分支
+      - name: Commit and push changes
         run: |
-          echo "TIME=$(date +'%Y-%m-%d %H:%M:%S')（北京时间）" >> $GITHUB_OUTPUT
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add output/
+          git commit -m "Update rules: ${{ steps.time.outputs.time }}"
+          git push
 
-      - name: Commit Changes
-        id: commit
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: 🚀 Update at ${{ steps.time.outputs.TIME }}
-          branch: release
-          skip_dirty_check: true
-          push_options: '--force'
-          create_branch: true
-          skip_fetch: true
-          skip_checkout: true
-          commit_options: '--allow-empty'
-          file_pattern: '*.yaml'  # 只提交yaml文件
-
-      - name: Delete Workflow Runs
+      # 删除旧的workflow runs
+      - name: Delete old workflow runs
         uses: Mattraks/delete-workflow-runs@v2
         with:
-          token: ${{secrets.GITHUB_TOKEN}}
+          token: ${{ github.token }}
           repository: ${{ github.repository }}
           retain_days: 1
           keep_minimum_runs: 1
