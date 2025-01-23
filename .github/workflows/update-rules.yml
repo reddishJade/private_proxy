@@ -1,84 +1,83 @@
+# 工作流名称
 name: update rules
 
+# 触发条件
 on:
+  # 定时触发：每12小时运行一次
   schedule:
     - cron: '0 */12 * * *'
+  # 支持手动触发
   workflow_dispatch:
 
 jobs:
   run:
+    # 指定运行环境为最新版Ubuntu
     runs-on: ubuntu-latest
     steps:
+      # 检出代码，fetch-depth: 0 确保获取完整的git历史
       - uses: actions/checkout@v4
-
-      # 设置Python 3.10 并启用缓存
-      - uses: actions/setup-python@v4
+        with:
+          fetch-depth: 0
+          
+      # 设置Python环境
+      - name: Set up Python 3.10
+        uses: actions/setup-python@v4
         with:
           python-version: '3.10'
-          cache: 'pip'
-
-      # 安装依赖
+          cache: 'pip'    # 启用pip缓存加速依赖安装
+          
+      # 安装项目依赖
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
-
-      # 运行rule_merger.py
+          
+      # 运行规则合并脚本
       - name: Run rule merger
         run: |
           cd src/python
           python rule_merger.py
-
-      # 确保output目录存在并移动文件
-      - name: Move generated rules
-        run: |
-          # 确保目标目录存在
-          mkdir -p output
           
-          cd src/python
-          # 确保目标目录存在并为空
-          rm -rf ../../output/*
-          # 移动文件
-          mv output/* ../../output/
-
-      # 获取当前时间
-      - name: Get current time
-        id: time
-        run: echo "time=$(TZ='Asia/Shanghai' date +'%Y-%m-%d %H:%M:%S')" >> $GITHUB_OUTPUT
-
-      # 切换到release分支并提交规则文件
-      - name: Switch to release branch
+      # 移动生成的规则文件到根目录
+      - name: Move output directory
         run: |
-          git fetch origin release || true
-          git checkout release || git checkout -b release
-          cp -r output/* .
-          rm -rf output
-
+          rm -rf rules || true    # 删除已存在的rules目录，如果存在的话
+          mv src/python/output rules
+          
+      # 获取上海时区的当前时间
+      - name: Get current time (Shanghai)
+        id: time
+        run: |
+          echo "timestamp=$(TZ='Asia/Shanghai' date '+%Y-%m-%d %H:%M:%S')" >> $GITHUB_OUTPUT
+          
+      # 配置Git提交信息
+      - name: Config Git
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          
       # 提交规则文件到release分支
-      - name: Commit and push changes
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: 🚀 Update at ${{ steps.time.outputs.TIME }}
-          branch: release
-          skip_dirty_check: true
-          push_options: '--force'
-          create_branch: true
-          skip_fetch: true
-          skip_checkout: true
-          commit_options: '--allow-empty'
-          file_pattern: '*.yaml'
-
-      # 切回main分支并清理生成的规则
+      - name: Commit and push to release branch
+        run: |
+          git checkout -B release    # 创建或切换到release分支
+          git add rules/
+          git commit -m "Update rules: ${{ steps.time.outputs.timestamp }}"
+          git push -f origin release    # 强制推送到release分支
+          
+      # 清理main分支中的规则文件
       - name: Clean up main branch
         run: |
           git checkout main
-          rm -rf output
-
-      # 删除旧的workflow runs
+          git rm -rf rules || true    # 删除规则文件夹，忽略可能的错误
+          git commit -m "Clean up rules directory" || true
+          git push origin main || true
+          
+      # 清理旧的工作流运行记录
       - name: Delete old workflow runs
         uses: Mattraks/delete-workflow-runs@v2
         with:
           token: ${{ github.token }}
           repository: ${{ github.repository }}
-          retain_days: 7
-          keep_minimum_runs: 3
+          retain_days: 1        # 保留最近1天的记录
+          keep_minimum_runs: 3  # 至少保留3次运行记录
+
