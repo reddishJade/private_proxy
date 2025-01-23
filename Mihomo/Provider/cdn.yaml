@@ -1,9 +1,5 @@
-<<<<<<< HEAD
-# 更新时间: 2025-01-23 13:43:38（北京时间）
-=======
-# 更新时间: 2025-01-23 13:52:22（北京时间）
->>>>>>> 26ace9b017a60e11194dba1267a7354ed5c39259
-# 规则数量: 3091
+# 更新时间: 2025-01-23 20:13:58（北京时间）
+# 规则数量: 3109
 payload:
   - DOMAIN,0x0.st
   - DOMAIN,3dna.nationbuilder.com
@@ -598,6 +594,7 @@ payload:
   - DOMAIN,cdn.viglink.com
   - DOMAIN,cdn.vuukle.com
   - DOMAIN,cdn.wccftech.com
+  - DOMAIN,cdn.webclicks24.com
   - DOMAIN,cdn.weglot.com
   - DOMAIN,cdn.wikiwiki.jp
   - DOMAIN,cdn.windowsreport.com
@@ -607,6 +604,7 @@ payload:
   - DOMAIN,cdn.writeas.net
   - DOMAIN,cdn.xeiaso.net
   - DOMAIN,cdn.xgroovy.com
+  - DOMAIN,cdn.xvidzz.com
   - DOMAIN,cdn.yinghuazy.xyz
   - DOMAIN,cdn.ywxi.net
   - DOMAIN,cdn.zapier.com
@@ -867,6 +865,8 @@ payload:
   - DOMAIN,favicon.yandex.net
   - DOMAIN,favicons.nextdns.io
   - DOMAIN,favicons.teams.cloudflare.com
+  - DOMAIN,fdn.gsmarena.com
+  - DOMAIN,fdn2.gsmarena.com
   - DOMAIN,fesdk.nexon.com
   - DOMAIN,fiddle.fastly.dev
   - DOMAIN,fiddle.jshell.net
@@ -1050,6 +1050,7 @@ payload:
   - DOMAIN,images.ptt.cc
   - DOMAIN,images.purevpn-tools.com
   - DOMAIN,images.scalero.io
+  - DOMAIN,images.scrolller.com
   - DOMAIN,images.spot.im
   - DOMAIN,images.spr.so
   - DOMAIN,images.store.crowdstrike.com
@@ -1249,6 +1250,7 @@ payload:
   - DOMAIN,ltn.hitomi.la
   - DOMAIN,lumiere-a.akamaihd.net
   - DOMAIN,m-cdn.phonearena.com
+  - DOMAIN,m.porn3dx.com
   - DOMAIN,m.wsj.net
   - DOMAIN,m3.gab.com
   - DOMAIN,m3u8.girigirilove.com
@@ -1759,6 +1761,7 @@ payload:
   - DOMAIN,static.bit.cloud
   - DOMAIN,static.bit.dev
   - DOMAIN,static.bitfinex.com
+  - DOMAIN,static.bravoporn.com
   - DOMAIN,static.buffer.com
   - DOMAIN,static.bytepan.com
   - DOMAIN,static.canva.com
@@ -1895,6 +1898,7 @@ payload:
   - DOMAIN,static.v2ex.com
   - DOMAIN,static.vinted.com
   - DOMAIN,static.vocadb.net
+  - DOMAIN,static.webclicks24.com
   - DOMAIN,static.whatsapp.net
   - DOMAIN,static.workday.com
   - DOMAIN,static.xgroovy.com
@@ -1905,17 +1909,22 @@ payload:
   - DOMAIN,static01.nyt.com
   - DOMAIN,static02.nyt.com
   - DOMAIN,static1.lottiefiles.com
+  - DOMAIN,static1.muchohentai.com
   - DOMAIN,static1.smartbear.co
   - DOMAIN,static1.squarespace.com
   - DOMAIN,static10.lottiefiles.com
   - DOMAIN,static2.avg.com
   - DOMAIN,static2.lottiefiles.com
+  - DOMAIN,static2.muchohentai.com
   - DOMAIN,static2.onlyfans.com
   - DOMAIN,static2.sharepointonline.com
   - DOMAIN,static3.lottiefiles.com
+  - DOMAIN,static3.muchohentai.com
   - DOMAIN,static3.squarespace.com
   - DOMAIN,static4.lottiefiles.com
+  - DOMAIN,static4.muchohentai.com
   - DOMAIN,static5.lottiefiles.com
+  - DOMAIN,static5.muchohentai.com
   - DOMAIN,static6.lottiefiles.com
   - DOMAIN,static7.lottiefiles.com
   - DOMAIN,static8.lottiefiles.com
@@ -2072,6 +2081,7 @@ payload:
   - DOMAIN,vscode-sync.trafficmanager.net
   - DOMAIN,vuejs.org
   - DOMAIN,vz-2222604c-50b.b-cdn.net
+  - DOMAIN,vz-c0fe498e-5ab.b-cdn.net
   - DOMAIN,w.chatlio.com
   - DOMAIN,w.soundcloud.com
   - DOMAIN,w2.influxdata.com
@@ -2136,7 +2146,6 @@ payload:
   - DOMAIN-KEYWORD,-files.gitbook.io
   - DOMAIN-KEYWORD,-res.cloudinary.com
   - DOMAIN-KEYWORD,cdn.adultempire.com
-  - DOMAIN-KEYWORD,cdnstatic.
   - DOMAIN-KEYWORD,dsn.algolia.net
   - DOMAIN-KEYWORD,vod-adaptive.akamaized.net
   - DOMAIN-KEYWORD,web-assets.zendesk
@@ -2193,6 +2202,7 @@ payload:
   - DOMAIN-SUFFIX,98avcdn.xyz
   - DOMAIN-SUFFIX,9cache.com
   - DOMAIN-SUFFIX,a.storyblok.com
+  - DOMAIN-SUFFIX,a1tb.com
   - DOMAIN-SUFFIX,aacdn.nagich.com
   - DOMAIN-SUFFIX,aayinltcs.arduino.cc
   - DOMAIN-SUFFIX,abc-cdn.net.au
@@ -2330,6 +2340,7 @@ payload:
   - DOMAIN-SUFFIX,cdnjs.network
   - DOMAIN-SUFFIX,cdnmania.org
   - DOMAIN-SUFFIX,cdnpk.net
+  - DOMAIN-SUFFIX,cdnpm.net
   - DOMAIN-SUFFIX,cdnppb.net
   - DOMAIN-SUFFIX,cdnpure.com
   - DOMAIN-SUFFIX,cdnst.net
@@ -2480,6 +2491,7 @@ payload:
   - DOMAIN-SUFFIX,gateway.serph.network
   - DOMAIN-SUFFIX,gcr.io
   - DOMAIN-SUFFIX,gcr.si
+  - DOMAIN-SUFFIX,gdvid.info
   - DOMAIN-SUFFIX,gentcdn.com
   - DOMAIN-SUFFIX,getcomposer.org
   - DOMAIN-SUFFIX,ggpht.com
@@ -2711,6 +2723,7 @@ payload:
   - DOMAIN-SUFFIX,misskeyusercontent.com
   - DOMAIN-SUFFIX,misskeyusercontent.jp
   - DOMAIN-SUFFIX,missuo.ru
+  - DOMAIN-SUFFIX,mjedge.net
   - DOMAIN-SUFFIX,mktgcdn.com
   - DOMAIN-SUFFIX,mlcdn.com
   - DOMAIN-SUFFIX,mm.bing.net
@@ -2755,6 +2768,7 @@ payload:
   - DOMAIN-SUFFIX,notionusercontent.com
   - DOMAIN-SUFFIX,now.sh
   - DOMAIN-SUFFIX,npm.io
+  - DOMAIN-SUFFIX,npmcdn.com
   - DOMAIN-SUFFIX,npmfs.com
   - DOMAIN-SUFFIX,nxcli.io
   - DOMAIN-SUFFIX,nxedge.io
