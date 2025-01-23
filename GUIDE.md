@@ -11,8 +11,8 @@
 1. 创建自己的 GitHub Gist：
    - 访问 [GitHub Gist](https://gist.github.com/)
    - 创建新的 Gist
-   - 复制我们的配置文件内容（如 `merger.yaml`）
-   - 修改配置文件中的订阅链接为你自己的
+   - 复制完整的配置文件内容（如 `merger.yaml`）
+   - [修改配置文件中的订阅信息](#1-修改订阅链接)
    - 保存 Gist
 
 2. 获取 Raw 链接：
@@ -20,13 +20,11 @@
    - 复制获得的链接，格式类似：`https://gist.githubusercontent.com/你的用户名/xxx/raw/xxx/xxx.yaml`
    - 删除第二串神秘数字，使链接的形式变为 `https://gist.githubusercontent.com/你的用户名/xxx/raw/xxx.yaml`
 
-3. 在 GUI 中使用：
-   - 打开 GUI
-   - 点击左侧 "配置" 选项
-   - 点击 "新建" -> "Gist"
-   - 选择你的配置文件
-   - 输入你的 Gist 链接
-   - 点击 "保存并使用"
+3. 在 Mihomo Party 中使用：
+   - 打开 Mihomo Party
+   - 点击左侧 "订阅管理" 选项
+   - 在 `url` 栏输入你的 Gist 链接
+   - 保存并使用
 
 ### 方式二：本地订阅
 
