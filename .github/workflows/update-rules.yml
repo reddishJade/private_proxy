@@ -29,12 +29,22 @@ jobs:
           cd src/python
           python rule_merger.py
 
-      # 只保留新生成的规则文件
-      - name: Clean up old rules
+      # 确保output目录存在并移动文件
+      - name: Move generated rules
         run: |
+          # 确保目标目录存在
+          mkdir -p output
+          
+          # 移动生成的规则文件
           cd src/python
-          rm -rf output/*
-          mv output/* ../../output/
+          if [ -d "output" ] && [ "$(ls -A output)" ]; then
+            # 确保目标目录存在并为空
+            rm -rf ../../output/*
+            # 移动文件
+            mv output/* ../../output/
+          else
+            echo "Warning: No files found in src/python/output directory"
+          fi
 
       # 获取当前时间
       - name: Get current time
