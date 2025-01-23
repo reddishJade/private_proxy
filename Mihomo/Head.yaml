@@ -1,0 +1,19 @@
+ipv6: true
+allow-lan: true
+mixed-port: 7890
+unified-delay: true
+tcp-concurrent: true
+find-process-mode: strict
+global-client-fingerprint: chrome
+
+external-ui: ui
+external-ui-name: xd
+external-controller: 127.0.0.1:9090
+external-ui-url: "https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-pages.zip"
+
+keep-alive-idle: 600
+keep-alive-interval: 30
+
+profile:
+  store-selected: true
+  # store-fake-ip: true

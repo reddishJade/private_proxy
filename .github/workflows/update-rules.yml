@@ -14,70 +14,53 @@ jobs:
     # 指定运行环境为最新版Ubuntu
     runs-on: ubuntu-latest
     steps:
-      # 检出代码，fetch-depth: 0 确保获取完整的git历史
+      # 检出代码
       - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-          
+
       # 设置Python环境
       - name: Set up Python 3.10
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
-          python-version: '3.10'
+          python-version: "3.10"
           cache: 'pip'    # 启用pip缓存加速依赖安装
-          
+
       # 安装项目依赖
       - name: Install dependencies
         run: |
-          python -m pip install --upgrade pip
           pip install -r requirements.txt
-          
+
       # 运行规则合并脚本
-      - name: Run rule merger
+      - name: Run script
         run: |
           cd src/python
           python rule_merger.py
-          
-      # 移动生成的规则文件到根目录
-      - name: Move output directory
-        run: |
-          rm -rf rules || true    # 删除已存在的rules目录，如果存在的话
-          mv src/python/output rules
-          
-      # 获取上海时区的当前时间
-      - name: Get current time (Shanghai)
+          cd ../..
+
+      # 获取当前时间
+      - name: Get current time
         id: time
         run: |
-          echo "timestamp=$(TZ='Asia/Shanghai' date '+%Y-%m-%d %H:%M:%S')" >> $GITHUB_OUTPUT
-          
-      # 配置Git提交信息
-      - name: Config Git
+          echo "TIME=$(TZ='Asia/Shanghai' date +'%Y-%m-%d %H:%M:%S')" >> $GITHUB_OUTPUT
+
+      # 配置Git
+      - name: Configure Git
         run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-          
-      # 提交规则文件到release分支
-      - name: Commit and push to release branch
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+
+      # 提交并推送
+      - name: Commit Changes and Push
         run: |
-          git checkout -B release    # 创建或切换到release分支
-          git add rules/
-          git commit -m "Update rules: ${{ steps.time.outputs.timestamp }}"
-          git push -f origin release    # 强制推送到release分支
-          
-      # 清理main分支中的规则文件
-      - name: Clean up main branch
-        run: |
-          git checkout main
-          git rm -rf rules || true    # 删除规则文件夹，忽略可能的错误
-          git commit -m "Clean up rules directory" || true
-          git push origin main || true
-          
+          git add .
+          git commit -m "🚀 Update at ${{ steps.time.outputs.TIME }}" || echo "No changes to commit"
+          git push
+      
       # 清理旧的工作流运行记录
-      - name: Delete old workflow runs
+      - name: Delete Workflow Runs
         uses: Mattraks/delete-workflow-runs@v2
         with:
           token: ${{ github.token }}
           repository: ${{ github.repository }}
-          retain_days: 1        # 保留最近1天的记录
-          keep_minimum_runs: 3  # 至少保留3次运行记录
+          retain_days: 1            # 保留最近1天的记录
+          keep_minimum_runs: 1      # 至少保留1次运行记录
 

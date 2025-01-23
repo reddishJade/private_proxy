@@ -277,6 +277,38 @@ class RulesMerger:
             self.logger.error(f"写入规则文件失败: {str(e)}", exc_info=True)
             raise
 
+    def _move_rules_to_provider(self) -> None:
+        """将output目录下的规则文件移动到Mihomo/Provider目录"""
+        try:
+            # 确保目标目录存在
+            provider_dir = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(__file__))), 'Mihomo', 'Provider')
+            os.makedirs(provider_dir, exist_ok=True)
+            
+            # 获取output目录路径
+            output_dir = os.path.join(os.path.dirname(__file__), 'output')
+            
+            # 确保output目录存在
+            if not os.path.exists(output_dir):
+                self.logger.warning("output目录不存在")
+                return
+                
+            # 移动所有yaml文件
+            for filename in os.listdir(output_dir):
+                if filename.endswith('.yaml'):
+                    src_path = os.path.join(output_dir, filename)
+                    dst_path = os.path.join(provider_dir, filename)
+                    try:
+                        # 如果目标文件已存在，先删除
+                        if os.path.exists(dst_path):
+                            os.remove(dst_path)
+                        os.rename(src_path, dst_path)
+                        self.logger.info(f"已移动规则文件: {filename} 到 Mihomo/Provider/")
+                    except Exception as e:
+                        self.logger.error(f"移动文件 {filename} 失败: {str(e)}")
+                        
+        except Exception as e:
+            self.logger.error(f"移动规则文件失败: {str(e)}")
+
     def merge_rules(self) -> None:
         """合并所有规则源的规则"""
         with ThreadPoolExecutor() as executor:
@@ -303,6 +335,9 @@ class RulesMerger:
                 # 去重并排序
                 merged_rules = sorted(set(merged_rules))
                 self._write_rules(config['path'], merged_rules)
+        
+        # 在所有规则处理完成后，移动文件到Provider目录
+        self._move_rules_to_provider()
 
 def main():
     """主函数"""
