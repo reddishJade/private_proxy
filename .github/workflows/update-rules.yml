@@ -48,7 +48,25 @@ jobs:
           git config --local user.name "github-actions[bot]"
           git add output/
           git commit -m "Update rules: ${{ steps.time.outputs.time }}"
-          git push
+          
+          # 获取所有分支信息
+          git fetch origin
+          
+          # 检查release分支是否存在于远程
+          if git ls-remote --heads origin release | grep release; then
+            # 如果存在，切换到release分支并强制更新
+            git checkout release
+            git reset --hard origin/release
+          else
+            # 如果不存在，创建新的release分支
+            git checkout -b release
+          fi
+          
+          # 应用最新的更改
+          git cherry-pick main
+          
+          # 强制推送到release分支，确保更新
+          git push -f origin release
 
       # 删除旧的workflow runs
       - name: Delete old workflow runs
@@ -56,5 +74,5 @@ jobs:
         with:
           token: ${{ github.token }}
           repository: ${{ github.repository }}
-          retain_days: 1
-          keep_minimum_runs: 1
+          retain_days: 7
+          keep_minimum_runs: 3
