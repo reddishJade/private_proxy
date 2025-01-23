@@ -21,6 +21,9 @@
 - 基于本项目规则合并工具生成的配置
 - 融合 Sukka 和 DustinWin 及其他优质规则提供者的规则
 
+## 使用教程？（推荐）
+[点这里](https://github.com/reddishJade/private_proxy/blob/main/GUIDE.md)
+
 ## 规则列表
 
 | 规则          | 上游规则来源 | 订阅链接 |
