@@ -12,7 +12,7 @@ proxy-providers:
     #   additional-prefix: "[provider1]"
   # 订阅链接二
   # provider2:
-  #   url: "" # 在""内填入链接
+  #   url: ""
   #   type: http
   #   filter: 
   #   exclude-filter: 
@@ -29,24 +29,25 @@ proxy-providers:
   #   - provider1
   #   - provider2
 
-mode: rule
 ipv6: true
 allow-lan: true
 mixed-port: 7890
 unified-delay: true
 tcp-concurrent: true
-keep-alive-interval: 15 # 解决移动端耗电问题
-
-external-controller: 127.0.0.1:9090
-external-ui: ui
-external-ui-url: "https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-pages.zip"
-
 find-process-mode: strict
 global-client-fingerprint: chrome
 
+external-ui: ui
+external-ui-name: xd
+external-controller: 127.0.0.1:9090
+external-ui-url: "https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-pages.zip"
+
+keep-alive-idle: 600
+keep-alive-interval: 30
+
 profile:
   store-selected: true
-  store-fake-ip: true
+  # store-fake-ip: true
 
 dns:
   enable: true
@@ -55,9 +56,6 @@ dns:
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
   fake-ip-filter: ["rule-set:fakeip-filter,private,cn"]
-  default-nameserver:
-    - 223.5.5.5
-    - 119.29.29.29
   nameserver:
     - https://doh.pub/dns-query
     - https://dns.alidns.com/dns-query
@@ -94,8 +92,6 @@ proxy-groups:
     proxies:
     # 如需删除分组需在下面的proxies也同步删除
       - Select
-      - IEPL
-      - Home
       - HongKong
       - TaiWan
       - Japan
@@ -106,27 +102,18 @@ proxy-groups:
     type: select
     include-all-providers: true
     icon: https://fastly.jsdelivr.net/gh/shindgewongxj/WHATSINStash@master/icon/select.png
-  - name: IEPL
-    type: select
-    include-all-providers: true
-    filter: (?i)IEPL
-    icon: https://fastly.jsdelivr.net/gh/shindgewongxj/WHATSINStash@master/icon/fallback.png
-  - name: Home
-    type: select
-    include-all-providers: true
-    filter: (?i)家宽
-    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Back.png
   - name: Final
     type: select
     proxies:
       - Proxy
       - DIRECT
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Final.png
+
   - name: AI
     type: select
     proxies:
-      - USA
       - Proxy
+      - Select
     icon: https://fastly.jsdelivr.net/gh/shindgewongxj/WHATSINStash@master/icon/openai.png
   - name: Apple
     type: select
@@ -162,16 +149,14 @@ proxy-groups:
     type: select
     proxies:
       - Proxy
-      - HongKong
-      - Singapore
-      - USA
+      - Select
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/YouTube.png
+
   - name: CDN
     type: select
     proxies:
-      - Download
       - Proxy
-      - DIRECT
+      - Download
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Speedtest.png
   - name: Download
     type: url-test
@@ -179,6 +164,7 @@ proxy-groups:
     filter: (?i)下载|低倍率
     tolerance: 50
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Download.png
+
   - name: Global
     type: select
     proxies:
@@ -198,41 +184,46 @@ proxy-groups:
       - Proxy
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Lock.png
 
-  # 地区分组（普通中转节点）
+  # 地区分组
   - name: HongKong
     type: url-test
+    interval: 300
     tolerance: 50
     include-all-providers: true
     filter: (?i)港|hk
-    exclude-filter: (?i)EPL|家宽|下载|低倍率
+    exclude-filter: (?i)下载|低倍率
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Hong_Kong.png
   - name: TaiWan
     type: url-test
+    interval: 300
     tolerance: 50
     include-all-providers: true
     filter: (?i)台|tw
-    exclude-filter: (?i)IEPL|家宽|下载|低倍率
+    exclude-filter: (?i)下载|低倍率
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Taiwan.png
   - name: Japan
     type: url-test
+    interval: 300
     tolerance: 50
     include-all-providers: true
     filter: (?i)日|jp
-    exclude-filter: (?i)IEPL|家宽|下载|低倍率
+    exclude-filter: (?i)下载|低倍率
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Japan.png
   - name: Singapore
     type: url-test
+    interval: 300
     tolerance: 50
     include-all-providers: true
     filter: (?i)新|狮|sg
-    exclude-filter: (?i)IEPL|家宽|下载|低倍率
+    exclude-filter: (?i)下载|低倍率
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Singapore.png
   - name: USA
     type: url-test
+    interval: 300
     tolerance: 50
     include-all-providers: true
     filter: (?i)美|us
-    exclude-filter: (?i)IEPL|家宽|下载|低倍率
+    exclude-filter: (?i)下载|低倍率
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/United_States.png
 
 rule-providers:

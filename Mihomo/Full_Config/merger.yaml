@@ -1,18 +1,23 @@
+# Mihomo 配置文件
+# 支持多订阅合并，规则分流，自定义策略组
+
+# ======= 订阅配置 =======
+# 支持多个订阅源，每个订阅源可以独立配置过滤规则
 proxy-providers:
   # 订阅链接一
   provider1:
-    url: "" # 在""内填入链接
+    url: "" # 在此填入机场订阅链接
     type: http
-    # filter: # 筛选满足关键词或正则表达式的节点
-    # exclude-filter: # 排除满足关键词或正则表达式的节点
-    interval: 43200
+    # filter: "(?i)港|hk|hongkong" # 可选：使用关键词或正则表达式筛选节点
+    # exclude-filter: "(?i)游戏|game" # 可选：排除匹配的节点
+    interval: 43200 # 自动更新间隔(秒)：12小时
     health-check:
       { enable: true, url: "https://cp.cloudflare.com", interval: 300 }
-    # override:
-    #   additional-prefix: "[provider1]"
+    # override: # 可选：覆盖节点信息
+    #   additional-prefix: "[provider1]" # 为节点名添加前缀
   # 订阅链接二
   # provider2:
-  #   url: "" # 在""内填入链接
+  #   url: ""
   #   type: http
   #   filter: 
   #   exclude-filter: 
@@ -29,41 +34,47 @@ proxy-providers:
   #   - provider1
   #   - provider2
 
-ipv6: true
-allow-lan: true
-mixed-port: 7890
-unified-delay: true
-tcp-concurrent: true
-find-process-mode: strict
-global-client-fingerprint: chrome
+# ======= 基础设置 =======
+ipv6: true # 开启 IPv6 支持
+allow-lan: true # 允许局域网连接
+mixed-port: 7890 # 混合端口，HTTP(S)和SOCKS5共用此端口
+unified-delay: true # 统一延迟显示
+tcp-concurrent: true # TCP 并发连接
+find-process-mode: strict # 进程匹配模式
+global-client-fingerprint: chrome # 全局 TLS 指纹
 
-external-ui: ui
-external-ui-name: xd
-external-controller: 127.0.0.1:9090
-external-ui-url: "https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-pages.zip"
+# ======= 外部控制 =======
+external-ui: ui # UI 目录
+external-ui-name: xd # UI 资源目录名
+external-controller: 127.0.0.1:9090 # API 监听地址
+external-ui-url: "https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-pages.zip" # UI 下载地址
 
-keep-alive-idle: 600
-keep-alive-interval: 30
+# ======= 连接优化 =======
+keep-alive-idle: 600 # TCP Keep Alive 空闲时间
+keep-alive-interval: 30 # TCP Keep Alive 间隔时间
 
+# ======= 配置存储 =======
 profile:
-  store-selected: true
-  # store-fake-ip: true
+  store-selected: true # 存储策略组选择
+  # store-fake-ip: true # 存储 Fake-IP 映射
 
+# ======= DNS 设置 =======
 dns:
-  enable: true
-  ipv6: true
-  listen: :53
-  prefer-h3: true
-  enhanced-mode: fake-ip
-  fake-ip-range: 198.18.0.1/16
-  fake-ip-filter: ["rule-set:fakeip-filter,private,domestic"]
-  nameserver:
+  enable: true # 启用 DNS 服务
+  ipv6: true # DNS IPv6 解析
+  listen: :53 # DNS 监听端口
+  prefer-h3: true # 优先使用 HTTP/3 DNS
+  enhanced-mode: fake-ip # DNS 解析模式
+  fake-ip-range: 198.18.0.1/16 # Fake-IP 地址段
+  fake-ip-filter: ["rule-set:fakeip-filter,private,domestic"] # Fake-IP 过滤
+  nameserver: # DNS 服务器
     - https://doh.pub/dns-query
     - https://dns.alidns.com/dns-query
 
+# ======= 流量探测 =======
 sniffer:
-  enable: true
-  sniff:
+  enable: true # 启用流量探测
+  sniff: # 探测规则
     HTTP:
       ports: [80, 8080-8880]
       override-destination: true
@@ -71,28 +82,32 @@ sniffer:
       ports: [443, 8443]
     QUIC:
       ports: [443, 8443]
-  skip-domain:
+  skip-domain: # 跳过探测的域名
     - "dlg.io.mi.com"
     - "+.push.apple.com"
 
+# ======= TUN 设置 =======
 tun:
-  enable: true
-  stack: mixed
-  dns-hijack:
+  enable: true # 启用 TUN 模式
+  stack: mixed # 协议栈模式
+  dns-hijack: # DNS 劫持
     - any:53
     - tcp://any:53
-  auto-route: true
-  auto-redirect: true
-  auto-detect-interface: true
+  auto-route: true # 自动设置路由
+  auto-redirect: true # 自动重定向流量
+  auto-detect-interface: true # 自动检测网卡
 
+# ======= 代理配置 =======
 proxies:
   - name: Direct
     type: direct
     udp: true
 
+# ======= 策略组配置 =======
 proxy-groups:
+  # 主策略组
   - name: Proxy
-    type: select
+    type: select 
     proxies:
       - Select
       - Direct
@@ -102,11 +117,15 @@ proxy-groups:
       - Singapore
       - USA
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Proxy.png
+
+  # 手动选择策略组
   - name: Select
     type: select
-    include-all-providers: true
-    exclude-filter: 下载|低倍率
+    include-all-providers: true # 包含所有订阅
+    exclude-filter: (?i)下载|低倍率 # 排除下载节点
     icon: https://fastly.jsdelivr.net/gh/shindgewongxj/WHATSINStash@master/icon/select.png
+
+  # 兜底策略组
   - name: Final
     type: select
     proxies:
@@ -114,66 +133,78 @@ proxy-groups:
       - Direct
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Final.png
 
+  # 应用分流组
   - name: Apple
     type: select
     proxies:
       - Direct
       - Proxy
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Apple.png
+
   - name: Microsoft
     type: select
     proxies:
       - Direct
       - Proxy
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Microsoft.png
+
   - name: AIGC
     type: select
     proxies:
       - Proxy
       - USA
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/AI.png
+
   - name: CDN
     type: select
     proxies:
-      - Download
       - Proxy
-      - Direct
+      - Download
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Speedtest.png
+
+  # 下载策略组 - 自动负载均衡
   - name: Download
     type: load-balance
+    interval: 300
     include-all-providers: true
     filter: (?i)下载|低倍率
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Download.png
+
   - name: Game
     type: select
     proxies:
       - Direct
       - Proxy
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Game.png
+
   - name: Streaming
     type: select
     proxies:
       - Proxy
-      - Direct
+      - Select
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/YouTube.png
+
   - name: Telegram
     type: select
     proxies:
       - Proxy
-      - Direct
+      - Select
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Telegram.png
+
   - name: Global
     type: select
     proxies:
       - Proxy
-      - Direct
+      - Select
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Global.png
+
   - name: Domestic
     type: select
     proxies:
       - Direct
       - Proxy
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Domestic.png
+
   - name: Private
     type: select
     proxies:
@@ -181,155 +212,181 @@ proxy-groups:
       - Proxy
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Lock.png
 
-
-  # 地区分组
+  # 地区分组 - 自动筛选对应地区节点
   - name: HongKong
     type: select
     include-all-providers: true
     filter: 港|hk
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Hong_Kong.png
+
   - name: TaiWan
     type: select
     include-all-providers: true
     filter: 台|tw
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Taiwan.png
+
   - name: Japan
     type: select
     include-all-providers: true
     filter: 日|jp
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Japan.png
+
   - name: Singapore
     type: select
     include-all-providers: true
     filter: 新|狮|sg
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Singapore.png
+
   - name: USA
     type: select
     include-all-providers: true
     filter: 美|us
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/United_States.png
 
+# ======= 规则提供方配置 =======
+# 规则集自动更新间隔为43200秒(12小时)
 rule-providers:
+  # AI相关规则
   ai:
     type: http
     behavior: classical
     interval: 43200
     url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/release/ai.yaml
     path: ./rules/ai.yaml
+  # Apple中国区规则
   apple@cn:
     type: http
     behavior: classical
     interval: 43200
     url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/release/apple@cn.yaml
     path: ./rules/apple@cn.yaml
+  # CDN规则
   cdn:
     type: http
     behavior: classical
     interval: 43200
     url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/release/cdn.yaml
     path: ./rules/cdn.yaml
+  # CDN IP规则
   cdn@ip:
     type: http
     behavior: classical
     interval: 43200
     url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/release/cdn@ip.yaml
     path: ./rules/cdn@ip.yaml
+  # 直连规则
   direct:
     type: http
     behavior: classical
     interval: 43200
     url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/release/direct.yaml
     path: ./rules/direct.yaml
+  # 国内域名规则
   domestic:
     type: http
     behavior: classical
     interval: 43200
     url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/release/domestic.yaml
     path: ./rules/domestic.yaml
+  # 国内IP规则
   domestic@ip:
     type: http
     behavior: classical
     interval: 43200
     url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/release/domestic@ip.yaml
     path: ./rules/domestic@ip.yaml
+  # 下载域名规则
   download:
     type: http
     behavior: classical
     interval: 43200
     url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/release/download.yaml
     path: ./rules/download.yaml
+  # 下载IP规则
   download@ip:
     type: http
     behavior: classical
     interval: 43200
     url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/release/download@ip.yaml
     path: ./rules/download@ip.yaml
+  # Fake-IP过滤规则
   fakeip-filter:
     type: http
     behavior: classical
     interval: 43200
     url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/release/fakeip-filter.yaml
     path: ./rules/fakeip-filter.yaml
+  # 游戏规则
   game@cn:
     type: http
     behavior: classical
     interval: 43200
     url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/release/game@cn.yaml
     path: ./rules/game@cn.yaml
+  # Microsoft中国区规则
   microsoft@cn:
     type: http
     behavior: classical
     interval: 43200
     url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/release/microsoft@cn.yaml
     path: ./rules/microsoft@cn.yaml
+  # 内网域名规则
   private:
     type: http
     behavior: classical
     interval: 43200
     url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/release/private.yaml
     path: ./rules/private.yaml
+  # 内网IP规则
   private@ip:
     type: http
     behavior: classical
     interval: 43200
     url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/release/private@ip.yaml
     path: ./rules/private@ip.yaml
+  # 代理域名规则
   proxy:
     type: http
     behavior: classical
     interval: 43200
     url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/release/proxy.yaml
     path: ./rules/proxy.yaml
+  # 广告域名规则
   reject:
     type: http
     behavior: classical
     interval: 43200
     url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/release/reject.yaml
     path: ./rules/reject.yaml
+  # 广告IP规则
   reject@ip:
     type: http
     behavior: classical
     interval: 43200
     url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/release/reject@ip.yaml
     path: ./rules/reject@ip.yaml
+  # 流媒体域名规则
   stream:
     type: http
     behavior: classical
     interval: 43200
     url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/release/stream.yaml
     path: ./rules/stream.yaml
+  # 流媒体IP规则
   stream@ip:
     type: http
     behavior: classical
     interval: 43200
     url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/release/straem@ip.yaml
     path: ./rules/stream@ip.yaml
+  # Telegram域名规则
   telegram:
     type: http
     behavior: classical
     interval: 43200
     url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/release/telegram.yaml
     path: ./rules/stream.yaml
+  # Telegram IP规则
   telegram@ip:
     type: http
     behavior: classical
@@ -337,21 +394,37 @@ rule-providers:
     url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/release/telegram@ip.yaml
     path: ./rules/telegram@ip.yaml
 
+# ======= 分流规则 =======
+# 规则匹配顺序自上而下
 rules:
+  # 广告拦截
   - RULE-SET,reject,REJECT
+  # CDN优化
   - RULE-SET,cdn,CDN
+  # 流媒体
   - RULE-SET,stream,Streaming
+  # AI服务
   - RULE-SET,ai,AIGC
+  # Telegram
   - RULE-SET,telegram,Telegram
+  # Apple服务
   - RULE-SET,apple@cn,Apple
+  # Microsoft服务
   - RULE-SET,microsoft@cn,Microsoft
+  # 游戏平台
   - RULE-SET,game@cn,Game
+  # 下载服务
   - RULE-SET,download,Download
+  # 内网服务
   - RULE-SET,private,Private
+  # 国内网站
   - RULE-SET,domestic,Domestic
+  # 直连域名
   - RULE-SET,direct,Direct
+  # 代理域名
   - RULE-SET,proxy,Global
 
+  # IP规则
   - RULE-SET,reject@ip,REJECT
   - RULE-SET,cdn@ip,CDN
   - RULE-SET,stream@ip,Streaming
@@ -360,4 +433,5 @@ rules:
   - RULE-SET,private@ip,Private
   - RULE-SET,domestic@ip,Domestic
 
+  # 漏网之鱼
   - MATCH,Final

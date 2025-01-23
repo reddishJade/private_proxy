@@ -12,10 +12,10 @@ proxy-providers:
     #   additional-prefix: "[provider1]"
   # 订阅链接二
   # provider2:
-  #   url: "" # 在""内填入链接
+  #   url: ""
   #   type: http
-  #   filter: 
-  #   exclude-filter: 
+  #   filter:
+  #   exclude-filter:
   #   interval: 43200
   #   health-check:
   #     { enable: true, url: "https://cp.cloudflare.com", interval: 300 }
@@ -37,20 +37,17 @@ tcp-concurrent: true
 find-process-mode: strict
 global-client-fingerprint: chrome
 
-external-controller: 127.0.0.1:9090
 external-ui: ui
+external-ui-name: xd
+external-controller: 127.0.0.1:9090
 external-ui-url: "https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-pages.zip"
 
-geodata-mode: false
-geox-url:
-  geoip: "https://mirror.ghproxy.com/https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geoip-lite.dat"
-  geosite: "https://mirror.ghproxy.com/https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geosite.dat"
-  mmdb: "https://mirror.ghproxy.com/https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/country-lite.mmdb"
-  asn: "https://mirror.ghproxy.com/https://github.com/xishang0128/geoip/releases/download/latest/GeoLite2-ASN.mmdb"
+keep-alive-idle: 600
+keep-alive-interval: 30
 
 profile:
   store-selected: true
-  store-fake-ip: true
+  # store-fake-ip: true
 
 dns:
   enable: true
@@ -60,40 +57,29 @@ dns:
   fake-ip-range: 198.18.0.1/16
   fake-ip-filter:
     - "*"
-    - *.lan
-    - *.local
+    - "*.lan"
+    - "*.local"
+    - +.msftncsi.com
+    - +.msftconnecttest.com
     - localhost.ptlogin2.qq.com
     - localhost.sec.qq.com
-    - +.msftconnecttest.com
-    - +.msftncsi.com
-  default-nameserver:
-    - 223.5.5.5
-    - 119.29.29.29
   nameserver:
     - https://doh.pub/dns-query
     - https://dns.alidns.com/dns-query
-  fallback:
-    - https://dns.google/dns-query
-    - https://cloudflare-dns.com/dns-query
 
 sniffer:
   enable: true
   sniff:
     HTTP:
-      ports:
-        - 80
-        - 8080-8880
+      ports: [80, 8080-8880]
       override-destination: true
     TLS:
-      ports:
-        - 443
-        - 8443
+      ports: [443, 8443]
     QUIC:
-      ports:
-        - 443
-        - 8443
+      ports: [443, 8443]
   skip-domain:
-    - +.push.apple.com
+    - "dlg.io.mi.com"
+    - "+.push.apple.com"
 
 tun:
   enable: true
@@ -102,6 +88,7 @@ tun:
     - any:53
     - tcp://any:53
   auto-route: true
+  auto-redirect: true
   auto-detect-interface: true
 
 proxies: []
@@ -109,42 +96,31 @@ proxies: []
 proxy-groups:
   - name: Proxy
     type: select
-    # 如需删除分组需在下面的proxies也同步删除
     proxies:
+      # 如需删除分组需在下面的proxies也同步删除
       - Select
-      - IEPL
-      - Home
       - HongKong
       - TaiWan
       - Japan
       - Singapore
       - USA
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Proxy.png
-  - name: Select # 手动选择
+  - name: Select
     type: select
     include-all-providers: true
     icon: https://fastly.jsdelivr.net/gh/shindgewongxj/WHATSINStash@master/icon/select.png
-  - name: IEPL # 筛选IEPL节点
-    type: select
-    include-all-providers: true
-    filter: (?i)IEPL
-    icon: https://fastly.jsdelivr.net/gh/shindgewongxj/WHATSINStash@master/icon/fallback.png
-  - name: Home # 筛选家宽节点
-    type: select
-    include-all-providers: true
-    filter: (?i)家宽
-    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Back.png
-  - name: Final # 漏网之鱼策略组
+  - name: Final
     type: select
     proxies:
       - Proxy
       - DIRECT
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Final.png
+
   - name: AIGC
     type: select
     proxies:
-      - USA
       - Proxy
+      - Select
     icon: https://fastly.jsdelivr.net/gh/shindgewongxj/WHATSINStash@master/icon/openai.png
   - name: Apple
     type: select
@@ -152,19 +128,21 @@ proxy-groups:
       - Proxy
       - DIRECT
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Apple.png
-  # - name: CDN
-  #   type: select
-  #   proxies:
-  #     - Download
-  #     - Proxy
-  #     - DIRECT
-  #   icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Speedtest.png
-  # - name: Download
-  #   type: url-test
-  #   include-all-providers: true
-  #   filter: (?i)下载|低倍率
-  #   tolerance: 50
-  #   icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Download.png
+
+  - name: CDN
+    type: select
+    proxies:
+      - Proxy
+      - Download
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Speedtest.png
+  - name: Download
+    type: load-balance
+    interval: 300
+    strategy: consistent-hashing
+    include-all-providers: true
+    filter: (?i)下载|低倍率
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Download.png
+
   - name: Microsoft
     type: select
     proxies:
@@ -175,9 +153,7 @@ proxy-groups:
     type: select
     proxies:
       - Proxy
-      - HongKong
-      - Singapore
-      - USA
+      - Select
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/YouTube.png
   - name: Telegram
     type: select
@@ -185,54 +161,60 @@ proxy-groups:
       - Proxy
       - Select
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Telegram.png
-  - name: Domestic
-    type: select
-    proxies:
-      - DIRECT
-      - Proxy
-    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Domestic.png
+
   - name: Global
     type: select
     proxies:
       - Proxy
       - DIRECT
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Global.png
+  - name: Domestic
+    type: select
+    proxies:
+      - DIRECT
+      - Proxy
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Domestic.png
 
-  # 地区分组（普通中转节点）
+  # 地区分组
   - name: HongKong
     type: url-test
+    interval: 300
     tolerance: 50
     include-all-providers: true
     filter: (?i)港|hk
-    exclude-filter: IEPL|家宽|低倍率|下载
+    exclude-filter: (?i)下载|低倍率
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Hong_Kong.png
   - name: TaiWan
     type: url-test
+    interval: 300
     tolerance: 50
     include-all-providers: true
     filter: (?i)台|tw
-    exclude-filter: IEPL|家宽|低倍率|下载
+    exclude-filter: (?i)下载|低倍率
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Taiwan.png
   - name: Japan
     type: url-test
+    interval: 300
     tolerance: 50
     include-all-providers: true
     filter: (?i)日|jp
-    exclude-filter: IEPL|家宽|低倍率|下载
+    exclude-filter: (?i)下载|低倍率
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Japan.png
   - name: Singapore
     type: url-test
+    interval: 300
     tolerance: 50
     include-all-providers: true
-    filter: (?i)(新|狮|sg)
-    exclude-filter: IEPL|家宽|低倍率|下载
+    filter: (?i)新|狮|sg
+    exclude-filter: (?i)下载|低倍率
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Singapore.png
   - name: USA
     type: url-test
+    interval: 300
     tolerance: 50
     include-all-providers: true
     filter: (?i)美|us
-    exclude-filter: IEPL|家宽|低倍率|下载
+    exclude-filter: (?i)下载|低倍率
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/United_States.png
 
 rule-providers:
@@ -285,90 +267,90 @@ rule-providers:
     interval: 43200
     url: https://ruleset.skk.moe/Clash/non_ip/cdn.txt
     path: ./sukkaw_ruleset/cdn_non_ip.txt
-  stream_us_non_ip:
-    type: http
-    behavior: classical
-    format: text
-    interval: 43200
-    url: https://ruleset.skk.moe/Clash/non_ip/stream_us.txt
-    path: ./sukkaw_ruleset/stream_us_non_ip.txt
-  stream_us_ip:
-    type: http
-    behavior: classical
-    format: text
-    interval: 43200
-    url: https://ruleset.skk.moe/Clash/ip/stream_us.txt
-    path: ./sukkaw_ruleset/stream_us_ip.txt
-  stream_eu_non_ip:
-    type: http
-    behavior: classical
-    format: text
-    interval: 43200
-    url: https://ruleset.skk.moe/Clash/non_ip/stream_eu.txt
-    path: ./sukkaw_ruleset/stream_eu_non_ip.txt
-  stream_eu_ip:
-    type: http
-    behavior: classical
-    format: text
-    interval: 43200
-    url: https://ruleset.skk.moe/Clash/ip/stream_eu.txt
-    path: ./sukkaw_ruleset/stream_eu_ip.txt
-  stream_jp_non_ip:
-    type: http
-    behavior: classical
-    format: text
-    interval: 43200
-    url: https://ruleset.skk.moe/Clash/non_ip/stream_jp.txt
-    path: ./sukkaw_ruleset/stream_jp_non_ip.txt
-  stream_jp_ip:
-    type: http
-    behavior: classical
-    format: text
-    interval: 43200
-    url: https://ruleset.skk.moe/Clash/ip/stream_jp.txt
-    path: ./sukkaw_ruleset/stream_jp_ip.txt
-  stream_kr_non_ip:
-    type: http
-    behavior: classical
-    format: text
-    interval: 43200
-    url: https://ruleset.skk.moe/Clash/non_ip/stream_kr.txt
-    path: ./sukkaw_ruleset/stream_kr_non_ip.txt
-  stream_kr_ip:
-    type: http
-    behavior: classical
-    format: text
-    interval: 43200
-    url: https://ruleset.skk.moe/Clash/ip/stream_kr.txt
-    path: ./sukkaw_ruleset/stream_kr_ip.txt
-  stream_hk_non_ip:
-    type: http
-    behavior: classical
-    format: text
-    interval: 43200
-    url: https://ruleset.skk.moe/Clash/non_ip/stream_hk.txt
-    path: ./sukkaw_ruleset/stream_hk_non_ip.txt
-  stream_hk_ip:
-    type: http
-    behavior: classical
-    format: text
-    interval: 43200
-    url: https://ruleset.skk.moe/Clash/ip/stream_hk.txt
-    path: ./sukkaw_ruleset/stream_hk_ip.txt
-  stream_tw_non_ip:
-    type: http
-    behavior: classical
-    format: text
-    interval: 43200
-    url: https://ruleset.skk.moe/Clash/non_ip/stream_tw.txt
-    path: ./sukkaw_ruleset/stream_tw_non_ip.txt
-  stream_tw_ip:
-    type: http
-    behavior: classical
-    format: text
-    interval: 43200
-    url: https://ruleset.skk.moe/Clash/ip/stream_tw.txt
-    path: ./sukkaw_ruleset/stream_tw_ip.txt
+  # stream_us_non_ip:
+  #   type: http
+  #   behavior: classical
+  #   format: text
+  #   interval: 43200
+  #   url: https://ruleset.skk.moe/Clash/non_ip/stream_us.txt
+  #   path: ./sukkaw_ruleset/stream_us_non_ip.txt
+  # stream_us_ip:
+  #   type: http
+  #   behavior: classical
+  #   format: text
+  #   interval: 43200
+  #   url: https://ruleset.skk.moe/Clash/ip/stream_us.txt
+  #   path: ./sukkaw_ruleset/stream_us_ip.txt
+  # stream_eu_non_ip:
+  #   type: http
+  #   behavior: classical
+  #   format: text
+  #   interval: 43200
+  #   url: https://ruleset.skk.moe/Clash/non_ip/stream_eu.txt
+  #   path: ./sukkaw_ruleset/stream_eu_non_ip.txt
+  # stream_eu_ip:
+  #   type: http
+  #   behavior: classical
+  #   format: text
+  #   interval: 43200
+  #   url: https://ruleset.skk.moe/Clash/ip/stream_eu.txt
+  #   path: ./sukkaw_ruleset/stream_eu_ip.txt
+  # stream_jp_non_ip:
+  #   type: http
+  #   behavior: classical
+  #   format: text
+  #   interval: 43200
+  #   url: https://ruleset.skk.moe/Clash/non_ip/stream_jp.txt
+  #   path: ./sukkaw_ruleset/stream_jp_non_ip.txt
+  # stream_jp_ip:
+  #   type: http
+  #   behavior: classical
+  #   format: text
+  #   interval: 43200
+  #   url: https://ruleset.skk.moe/Clash/ip/stream_jp.txt
+  #   path: ./sukkaw_ruleset/stream_jp_ip.txt
+  # stream_kr_non_ip:
+  #   type: http
+  #   behavior: classical
+  #   format: text
+  #   interval: 43200
+  #   url: https://ruleset.skk.moe/Clash/non_ip/stream_kr.txt
+  #   path: ./sukkaw_ruleset/stream_kr_non_ip.txt
+  # stream_kr_ip:
+  #   type: http
+  #   behavior: classical
+  #   format: text
+  #   interval: 43200
+  #   url: https://ruleset.skk.moe/Clash/ip/stream_kr.txt
+  #   path: ./sukkaw_ruleset/stream_kr_ip.txt
+  # stream_hk_non_ip:
+  #   type: http
+  #   behavior: classical
+  #   format: text
+  #   interval: 43200
+  #   url: https://ruleset.skk.moe/Clash/non_ip/stream_hk.txt
+  #   path: ./sukkaw_ruleset/stream_hk_non_ip.txt
+  # stream_hk_ip:
+  #   type: http
+  #   behavior: classical
+  #   format: text
+  #   interval: 43200
+  #   url: https://ruleset.skk.moe/Clash/ip/stream_hk.txt
+  #   path: ./sukkaw_ruleset/stream_hk_ip.txt
+  # stream_tw_non_ip:
+  #   type: http
+  #   behavior: classical
+  #   format: text
+  #   interval: 43200
+  #   url: https://ruleset.skk.moe/Clash/non_ip/stream_tw.txt
+  #   path: ./sukkaw_ruleset/stream_tw_non_ip.txt
+  # stream_tw_ip:
+  #   type: http
+  #   behavior: classical
+  #   format: text
+  #   interval: 43200
+  #   url: https://ruleset.skk.moe/Clash/ip/stream_tw.txt
+  #   path: ./sukkaw_ruleset/stream_tw_ip.txt
   stream_non_ip:
     type: http
     behavior: classical
@@ -511,15 +493,14 @@ rule-providers:
   #   path: ./sukkaw_ruleset/china_ipv6.txt
 
 rules:
-  # Reject rules
   - RULE-SET,reject_domainset,REJECT
   - RULE-SET,reject_non_ip,REJECT
   - RULE-SET,reject_non_ip_drop,REJECT-DROP
   - RULE-SET,reject_non_ip_no_drop,REJECT
-  # CDN rules
-  - RULE-SET,cdn_domainset,Global
-  - RULE-SET,cdn_non_ip,Global
-  # Streaming services
+
+  - RULE-SET,cdn_domainset,CDN
+  - RULE-SET,cdn_non_ip,CDN
+
   # - RULE-SET,stream_us_non_ip,USA
   # - RULE-SET,stream_eu_non_ip,EU
   # - RULE-SET,stream_jp_non_ip,Japan
@@ -527,27 +508,25 @@ rules:
   # - RULE-SET,stream_hk_non_ip,HongKong
   # - RULE-SET,stream_tw_non_ip,TaiWan
   - RULE-SET,stream_non_ip,Streaming
-  # AI services
+
   - RULE-SET,ai_non_ip,AIGC
-  # Telegram
   - RULE-SET,telegram_non_ip,Telegram
-  # Apple services
+
   - RULE-SET,apple_cdn,Domestic
   - RULE-SET,apple_cn_non_ip,Domestic
   - RULE-SET,apple_services,Apple
-  # Microsoft services
+
   - RULE-SET,microsoft_cdn_non_ip,Domestic
   - RULE-SET,microsoft_non_ip,Microsoft
-  # Download
-  - RULE-SET,download_domainset,Global
-  - RULE-SET,download_non_ip,Global
-  # LAN
+
+  - RULE-SET,download_domainset,Download
+  - RULE-SET,download_non_ip,Download
+
   - RULE-SET,lan_non_ip,DIRECT
-  # Misc rules
   - RULE-SET,domestic_non_ip,Domestic
   - RULE-SET,direct_non_ip,DIRECT
   - RULE-SET,global_non_ip,Global
-  # IP rules
+
   - RULE-SET,reject_ip,REJECT
   # - RULE-SET,stream_us_ip,USA
   # - RULE-SET,stream_eu_ip,EU
@@ -560,8 +539,6 @@ rules:
   - RULE-SET,lan_ip,DIRECT
   - RULE-SET,domestic_ip,Domestic
   - RULE-SET,china_ip,Domestic
-  # 仅在使用IPv6时启用
   # - RULE-SET,china_ip_ipv6,Domestic
-  # Final rules
-  # - GEOIP,CN,Domestic
+
   - MATCH,Final
