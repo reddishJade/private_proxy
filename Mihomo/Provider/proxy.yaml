@@ -1,5 +1,5 @@
-# 更新时间: 2025-01-24 08:35:50（北京时间）
-# 规则数量: 31967
+# 更新时间: 2025-01-24 20:13:32（北京时间）
+# 规则数量: 31973
 payload:
   - DOMAIN,3dns-1.adobe.com
   - DOMAIN,3dns-2.adobe.com
@@ -4252,7 +4252,6 @@ payload:
   - DOMAIN-SUFFIX,bfsh.hk
   - DOMAIN-SUFFIX,bftv.ac.uk
   - DOMAIN-SUFFIX,bgc.ac.uk
-  - DOMAIN-SUFFIX,bgm.tv
   - DOMAIN-SUFFIX,bgov.com
   - DOMAIN-SUFFIX,bgr.in
   - DOMAIN-SUFFIX,bgs.ac.uk
@@ -6437,6 +6436,7 @@ payload:
   - DOMAIN-SUFFIX,cgkate.jinvod.com
   - DOMAIN-SUFFIX,cglas.ac.uk
   - DOMAIN-SUFFIX,cgst.edu
+  - DOMAIN-SUFFIX,ch
   - DOMAIN-SUFFIX,ch9.ms
   - DOMAIN-SUFFIX,chace.ac.uk
   - DOMAIN-SUFFIX,championshipseriesleague.com
@@ -7734,6 +7734,7 @@ payload:
   - DOMAIN-SUFFIX,cwcfe.ac.uk
   - DOMAIN-SUFFIX,cwrc.ac.uk
   - DOMAIN-SUFFIX,cws.ac.uk
+  - DOMAIN-SUFFIX,cy
   - DOMAIN-SUFFIX,cy22.tv
   - DOMAIN-SUFFIX,cyber-bay.info
   - DOMAIN-SUFFIX,cyber-bay.org
@@ -7762,6 +7763,7 @@ payload:
   - DOMAIN-SUFFIX,cython.org
   - DOMAIN-SUFFIX,cytode.us
   - DOMAIN-SUFFIX,cyyeshb.com
+  - DOMAIN-SUFFIX,cz
   - DOMAIN-SUFFIX,cz.cc
   - DOMAIN-SUFFIX,czechav.com
   - DOMAIN-SUFFIX,czechbiporn.com
@@ -7964,6 +7966,7 @@ payload:
   - DOMAIN-SUFFIX,ddi.ac.uk
   - DOMAIN-SUFFIX,dditsadn.com
   - DOMAIN-SUFFIX,dditscdn.com
+  - DOMAIN-SUFFIX,de
   - DOMAIN-SUFFIX,de-montfort.ac.uk
   - DOMAIN-SUFFIX,de-sci.org
   - DOMAIN-SUFFIX,de1lib.org
@@ -9464,6 +9467,7 @@ payload:
   - DOMAIN-SUFFIX,edoors.com
   - DOMAIN-SUFFIX,edshare.ac.uk
   - DOMAIN-SUFFIX,edtech.ac.uk
+  - DOMAIN-SUFFIX,edu
   - DOMAIN-SUFFIX,edu-research.org
   - DOMAIN-SUFFIX,edu.ir
   - DOMAIN-SUFFIX,edubridge.com
@@ -12055,6 +12059,7 @@ payload:
   - DOMAIN-SUFFIX,gfx.ms
   - DOMAIN-SUFFIX,gfycat.com
   - DOMAIN-SUFFIX,gfysex.com
+  - DOMAIN-SUFFIX,gg
   - DOMAIN-SUFFIX,ggdiao.com
   - DOMAIN-SUFFIX,ggjav.com
   - DOMAIN-SUFFIX,ggoogle.com
@@ -19311,7 +19316,6 @@ payload:
   - DOMAIN-SUFFIX,muji.tw
   - DOMAIN-SUFFIX,muji.us
   - DOMAIN-SUFFIX,mujikorea.net
-  - DOMAIN-SUFFIX,muku.tv
   - DOMAIN-SUFFIX,mulheresafoder.com
   - DOMAIN-SUFFIX,mullvad.net
   - DOMAIN-SUFFIX,mult34.com
@@ -27974,6 +27978,7 @@ payload:
   - DOMAIN-SUFFIX,tutanota.com
   - DOMAIN-SUFFIX,tuvpn.com
   - DOMAIN-SUFFIX,tuzaijidi.com
+  - DOMAIN-SUFFIX,tv
   - DOMAIN-SUFFIX,tv.com
   - DOMAIN-SUFFIX,tvants.com
   - DOMAIN-SUFFIX,tvappstore.net
@@ -29341,6 +29346,7 @@ payload:
   - DOMAIN-SUFFIX,vmwsalesrewards.com
   - DOMAIN-SUFFIX,vmwservices.com
   - DOMAIN-SUFFIX,vmwxw.com
+  - DOMAIN-SUFFIX,vn
   - DOMAIN-SUFFIX,vn.hao123.com
   - DOMAIN-SUFFIX,vnanchoi.ca
   - DOMAIN-SUFFIX,vnet.link

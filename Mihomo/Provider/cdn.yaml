@@ -1,5 +1,5 @@
-# 更新时间: 2025-01-24 08:35:47（北京时间）
-# 规则数量: 3110
+# 更新时间: 2025-01-24 20:13:29（北京时间）
+# 规则数量: 3114
 payload:
   - DOMAIN,0x0.st
   - DOMAIN,3dna.nationbuilder.com
@@ -497,6 +497,7 @@ payload:
   - DOMAIN,cdn.onesignal.com
   - DOMAIN,cdn.onetime.dog
   - DOMAIN,cdn.onlyhentaistuff.com
+  - DOMAIN,cdn.openai.com
   - DOMAIN,cdn.osxdaily.com
   - DOMAIN,cdn.paddle.com
   - DOMAIN,cdn.pagefly.io
@@ -1358,6 +1359,7 @@ payload:
   - DOMAIN,mycommerce.akamaized.net
   - DOMAIN,na-library.klarnaservices.com
   - DOMAIN,namedotcom-cdn.name.tools
+  - DOMAIN,nav.yumenosora.co.jp
   - DOMAIN,navismithapis-cdn.com
   - DOMAIN,nbcnewsdigital-static.nbcuni.com
   - DOMAIN,net-fe-static-assets.network-controller.svc.ui.com
@@ -1793,6 +1795,7 @@ payload:
   - DOMAIN,static.euronews.com
   - DOMAIN,static.fasthosts.co.uk
   - DOMAIN,static.fboom.me
+  - DOMAIN,static.fbot.me
   - DOMAIN,static.fc2.com
   - DOMAIN,static.fc2cn.com
   - DOMAIN,static.ffx.io
@@ -2353,6 +2356,7 @@ payload:
   - DOMAIN-SUFFIX,chasecdn.com
   - DOMAIN-SUFFIX,chcdn.xyz
   - DOMAIN-SUFFIX,chesscomfiles.com
+  - DOMAIN-SUFFIX,claudeusercontent.com
   - DOMAIN-SUFFIX,clientmetrics-pa.googleapis.com
   - DOMAIN-SUFFIX,cloud.influxdata.com
   - DOMAIN-SUFFIX,cloud1.influxdata.com
