@@ -1,5 +1,5 @@
-# 更新时间: 2025-01-24 08:35:38（北京时间）
-# 规则数量: 97580
+# 更新时间: 2025-01-24 20:13:24（北京时间）
+# 规则数量: 97581
 payload:
   - DOMAIN,03.lzzncm.com
   - DOMAIN,04.lzzncm.com
@@ -498,6 +498,7 @@ payload:
   - DOMAIN,dm.pstatp.com
   - DOMAIN,dns.jd.com
   - DOMAIN,dns.m.sm.cn
+  - DOMAIN,dns.wechat.com
   - DOMAIN,dns.weibo.cn
   - DOMAIN,dns.weixin.qq.com
   - DOMAIN,dns.weixin.qq.com.cn
