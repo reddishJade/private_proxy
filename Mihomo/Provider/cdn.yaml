@@ -1,5 +1,5 @@
-# 更新时间: 2025-01-23 20:13:58（北京时间）
-# 规则数量: 3109
+# 更新时间: 2025-01-24 08:35:47（北京时间）
+# 规则数量: 3110
 payload:
   - DOMAIN,0x0.st
   - DOMAIN,3dna.nationbuilder.com
@@ -1548,6 +1548,7 @@ payload:
   - DOMAIN,resources.help.salesforce.com
   - DOMAIN,rsi.grafana.com
   - DOMAIN,rsms.me
+  - DOMAIN,rtcg-access.bytevcloud.com
   - DOMAIN,rts-static-prod.freshworksapi.com
   - DOMAIN,rules.ac
   - DOMAIN,rules1.clearurls.xyz
