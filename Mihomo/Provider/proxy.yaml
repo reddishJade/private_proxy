@@ -1,5 +1,5 @@
-# 更新时间: 2025-01-24 20:13:32（北京时间）
-# 规则数量: 31973
+# 更新时间: 2025-01-25 08:35:07（北京时间）
+# 规则数量: 31985
 payload:
   - DOMAIN,3dns-1.adobe.com
   - DOMAIN,3dns-2.adobe.com
@@ -5751,12 +5751,20 @@ payload:
   - DOMAIN-SUFFIX,bwsj.hk
   - DOMAIN-SUFFIX,bx.in.th
   - DOMAIN-SUFFIX,bx.tl
+  - DOMAIN-SUFFIX,byabcde.com
   - DOMAIN-SUFFIX,byam-shaw.ac.uk
   - DOMAIN-SUFFIX,byapis.com
+  - DOMAIN-SUFFIX,byapps.net
+  - DOMAIN-SUFFIX,bybdc6.com
   - DOMAIN-SUFFIX,bybeatsdre.com
+  - DOMAIN-SUFFIX,bybit-global.com
+  - DOMAIN-SUFFIX,bybit.biz
+  - DOMAIN-SUFFIX,bybit.cloud
   - DOMAIN-SUFFIX,bybit.com
+  - DOMAIN-SUFFIX,bybitglobal.com
   - DOMAIN-SUFFIX,bycbe.com
   - DOMAIN-SUFFIX,bycsi.com
+  - DOMAIN-SUFFIX,byd3c3.com
   - DOMAIN-SUFFIX,bydrebeats.com
   - DOMAIN-SUFFIX,bygpp1207.world
   - DOMAIN-SUFFIX,byjav.me
@@ -20544,6 +20552,7 @@ payload:
   - DOMAIN-SUFFIX,nocs.ac.uk
   - DOMAIN-SUFFIX,nodejs.org
   - DOMAIN-SUFFIX,nodes.ac.uk
+  - DOMAIN-SUFFIX,nodeseek.com
   - DOMAIN-SUFFIX,nodesnoop.com
   - DOMAIN-SUFFIX,nodesource.com
   - DOMAIN-SUFFIX,nofile.io
@@ -23701,6 +23710,7 @@ payload:
   - DOMAIN-SUFFIX,redkix.com
   - DOMAIN-SUFFIX,redlightcenter.com
   - DOMAIN-SUFFIX,redmatureporn.com
+  - DOMAIN-SUFFIX,redotpay.com
   - DOMAIN-SUFFIX,redporn.xxx
   - DOMAIN-SUFFIX,redporno.cz
   - DOMAIN-SUFFIX,redpornpictures.com
@@ -25875,6 +25885,7 @@ payload:
   - DOMAIN-SUFFIX,spotify-everywhere.com
   - DOMAIN-SUFFIX,spotify.com
   - DOMAIN-SUFFIX,spotify.design
+  - DOMAIN-SUFFIX,spotify.link
   - DOMAIN-SUFFIX,spotifycdn.com
   - DOMAIN-SUFFIX,spotifycdn.net
   - DOMAIN-SUFFIX,spotifycharts.com
@@ -30631,6 +30642,7 @@ payload:
   - DOMAIN-SUFFIX,xhamsterlive.com
   - DOMAIN-SUFFIX,xhcdn.com
   - DOMAIN-SUFFIX,xhot.pro
+  - DOMAIN-SUFFIX,xhpjc6-cdn-settings.appsflyersdk.com
   - DOMAIN-SUFFIX,xhub.tv
   - DOMAIN-SUFFIX,xianba.net
   - DOMAIN-SUFFIX,xianchawang.net

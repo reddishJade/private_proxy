@@ -1,5 +1,5 @@
-# 更新时间: 2025-01-24 20:13:42（北京时间）
-# 规则数量: 272
+# 更新时间: 2025-01-25 08:35:17（北京时间）
+# 规则数量: 270
 payload:
   - DOMAIN,0123456789nonexistent.com
   - DOMAIN,0d.kebhana.mx
@@ -11,10 +11,10 @@ payload:
   - DOMAIN,bittorrent-tracker.e-n-c-r-y-p-t.net
   - DOMAIN,board.zash.run.place
   - DOMAIN,bt.ktrackers.com
-  - DOMAIN,bt.okmp3.ru
   - DOMAIN,bt.poletracker.org
   - DOMAIN,bt.rer.lol
-  - DOMAIN,buny.uk
+  - DOMAIN,bt1.xxxxbt.cc
+  - DOMAIN,ch3oh.ru
   - DOMAIN,concen.org
   - DOMAIN,cq.kmzs123.cn
   - DOMAIN,d.metacubex.one
@@ -23,7 +23,6 @@ payload:
   - DOMAIN,ec2-18-191-163-220.us-east-2.compute.amazonaws.com
   - DOMAIN,evan.im
   - DOMAIN,exodus.desync.com
-  - DOMAIN,finbytes.org
   - DOMAIN,fleira.no
   - DOMAIN,highteahop.top
   - DOMAIN,home.yxgz.club
@@ -56,22 +55,20 @@ payload:
   - DOMAIN,r.l5.ca
   - DOMAIN,retracker.hotplug.ru
   - DOMAIN,retracker.lanta.me
-  - DOMAIN,retracker.x2k.ru
+  - DOMAIN,retracker.spark-rostov.ru
   - DOMAIN,router.asus.com
   - DOMAIN,routerlogin.com
   - DOMAIN,seeders-paradise.org
   - DOMAIN,servandroidkino.ru
   - DOMAIN,setmeup.arubanetworks.com
-  - DOMAIN,share.hkg-fansub.info
+  - DOMAIN,shubt.net
   - DOMAIN,sparkle.ghostchu-services.top
   - DOMAIN,t.jaekr.sh
   - DOMAIN,t.overflow.biz
   - DOMAIN,taciturn-shadow.spb.ru
   - DOMAIN,tk.greedland.net
-  - DOMAIN,torrent.tracker.durukanbal.com
   - DOMAIN,torrentsmd.com
   - DOMAIN,tplogin.cn
-  - DOMAIN,tr.abir.ga
   - DOMAIN,tr.burnabyhighstar.com
   - DOMAIN,tr.nyacat.pw
   - DOMAIN,tr.zukizuki.org
@@ -93,7 +90,6 @@ payload:
   - DOMAIN,tracker.deadorbit.nl
   - DOMAIN,tracker.dler.com
   - DOMAIN,tracker.dler.org
-  - DOMAIN,tracker.dmcomic.org
   - DOMAIN,tracker.dump.cl
   - DOMAIN,tracker.filemail.com
   - DOMAIN,tracker.fnix.net
@@ -105,11 +101,13 @@ payload:
   - DOMAIN,tracker.kuroy.me
   - DOMAIN,tracker.leechshield.link
   - DOMAIN,tracker.lilithraws.org
+  - DOMAIN,tracker.lintk.me
   - DOMAIN,tracker.moeking.me
   - DOMAIN,tracker.moxing.party
   - DOMAIN,tracker.mywaifu.best
   - DOMAIN,tracker.ololosh.space
   - DOMAIN,tracker.opentrackr.org
+  - DOMAIN,tracker.openwebtorrent.com
   - DOMAIN,tracker.pmman.tech
   - DOMAIN,tracker.qu.ax
   - DOMAIN,tracker.renfei.net
@@ -117,7 +115,6 @@ payload:
   - DOMAIN,tracker.skynetcloud.site
   - DOMAIN,tracker.skyts.net
   - DOMAIN,tracker.srv00.com
-  - DOMAIN,tracker.theoks.net
   - DOMAIN,tracker.tiny-vps.com
   - DOMAIN,tracker.torrent.eu.org
   - DOMAIN,tracker.torrust-demo.com
@@ -125,6 +122,7 @@ payload:
   - DOMAIN,tracker.valete.tf
   - DOMAIN,tracker.vanitycore.co
   - DOMAIN,tracker.waaa.moe
+  - DOMAIN,tracker.wsaoa.eu.org
   - DOMAIN,tracker.xiaoduola.xyz
   - DOMAIN,tracker.yemekyedim.com
   - DOMAIN,tracker.yume-hatsuyuki.moe
