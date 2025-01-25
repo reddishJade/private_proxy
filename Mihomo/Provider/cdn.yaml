@@ -1,5 +1,5 @@
-# 更新时间: 2025-01-24 20:13:29（北京时间）
-# 规则数量: 3114
+# 更新时间: 2025-01-25 08:35:04（北京时间）
+# 规则数量: 3115
 payload:
   - DOMAIN,0x0.st
   - DOMAIN,3dna.nationbuilder.com
@@ -2357,6 +2357,7 @@ payload:
   - DOMAIN-SUFFIX,chcdn.xyz
   - DOMAIN-SUFFIX,chesscomfiles.com
   - DOMAIN-SUFFIX,claudeusercontent.com
+  - DOMAIN-SUFFIX,cldup.com
   - DOMAIN-SUFFIX,clientmetrics-pa.googleapis.com
   - DOMAIN-SUFFIX,cloud.influxdata.com
   - DOMAIN-SUFFIX,cloud1.influxdata.com
