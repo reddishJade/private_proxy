@@ -1,5 +1,5 @@
-# 更新时间: 2025-01-26 08:37:04（北京时间）
-# 规则数量: 3115
+# 更新时间: 2025-01-26 20:11:38（北京时间）
+# 规则数量: 3116
 payload:
   - DOMAIN,0x0.st
   - DOMAIN,3dna.nationbuilder.com
@@ -2535,6 +2535,7 @@ payload:
   - DOMAIN-SUFFIX,hgasm1.com
   - DOMAIN-SUFFIX,hgasm2.com
   - DOMAIN-SUFFIX,hgasm3.com
+  - DOMAIN-SUFFIX,hgimg00.com
   - DOMAIN-SUFFIX,highwinds-cdn.com
   - DOMAIN-SUFFIX,himg.nl
   - DOMAIN-SUFFIX,hits.b3log.org
