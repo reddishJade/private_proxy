@@ -22,7 +22,9 @@
 - 融合 Sukka 和 DustinWin 及其他优质规则提供者的规则
 
 ## 使用教程？
-[点这里](https://github.com/reddishJade/private_proxy/blob/main/GUIDE.md)
+[配置文件语法](https://wiki.metacubex.one/handbook/syntax/)
+[配置文件说明](https://wiki.metacubex.one/config/)
+项目内配置文件及规则的使用说明[点这里](https://github.com/reddishJade/private_proxy/blob/main/GUIDE.md)
 
 ## 规则列表
 
