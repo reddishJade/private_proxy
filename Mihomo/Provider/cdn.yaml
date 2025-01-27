@@ -1,5 +1,5 @@
-# 更新时间: 2025-01-23 20:13:58（北京时间）
-# 规则数量: 3109
+# 更新时间: 2025-01-27 20:14:12（北京时间）
+# 规则数量: 3116
 payload:
   - DOMAIN,0x0.st
   - DOMAIN,3dna.nationbuilder.com
@@ -28,6 +28,7 @@ payload:
   - DOMAIN,analytics.welcomesoftware.com
   - DOMAIN,anchor.digitalocean.com
   - DOMAIN,android-safebrowsing.google.com
+  - DOMAIN,answers-afd.microsoft.com
   - DOMAIN,api-esp-ap.piano.io
   - DOMAIN,api-eu.mixpanel.com
   - DOMAIN,api-frameworks.vercel.sh
@@ -497,6 +498,7 @@ payload:
   - DOMAIN,cdn.onesignal.com
   - DOMAIN,cdn.onetime.dog
   - DOMAIN,cdn.onlyhentaistuff.com
+  - DOMAIN,cdn.openai.com
   - DOMAIN,cdn.osxdaily.com
   - DOMAIN,cdn.paddle.com
   - DOMAIN,cdn.pagefly.io
@@ -541,6 +543,7 @@ payload:
   - DOMAIN,cdn.safecharge.com
   - DOMAIN,cdn.sanity.io
   - DOMAIN,cdn.sc.gl
+  - DOMAIN,cdn.schemaapp.com
   - DOMAIN,cdn.sciencecast.org
   - DOMAIN,cdn.search.brave.com
   - DOMAIN,cdn.sedo.com
@@ -883,6 +886,7 @@ payload:
   - DOMAIN,files.smashing.media
   - DOMAIN,files.writefreely.org
   - DOMAIN,files.yande.re
+  - DOMAIN,filestore.community.support.microsoft.com
   - DOMAIN,filestore.fortinet.com
   - DOMAIN,firebase-settings.crashlytics.com
   - DOMAIN,firebaselogging-pa.googleapis.com
@@ -1358,6 +1362,7 @@ payload:
   - DOMAIN,mycommerce.akamaized.net
   - DOMAIN,na-library.klarnaservices.com
   - DOMAIN,namedotcom-cdn.name.tools
+  - DOMAIN,nav.yumenosora.co.jp
   - DOMAIN,navismithapis-cdn.com
   - DOMAIN,nbcnewsdigital-static.nbcuni.com
   - DOMAIN,net-fe-static-assets.network-controller.svc.ui.com
@@ -1548,6 +1553,7 @@ payload:
   - DOMAIN,resources.help.salesforce.com
   - DOMAIN,rsi.grafana.com
   - DOMAIN,rsms.me
+  - DOMAIN,rtcg-access.bytevcloud.com
   - DOMAIN,rts-static-prod.freshworksapi.com
   - DOMAIN,rules.ac
   - DOMAIN,rules1.clearurls.xyz
@@ -1579,10 +1585,8 @@ payload:
   - DOMAIN,s1.qwant.com
   - DOMAIN,s10.maxstream.org
   - DOMAIN,s11.maxstream.org
-  - DOMAIN,s12.maxstream.org
   - DOMAIN,s13.maxstream.org
   - DOMAIN,s2.coinmarketcap.com
-  - DOMAIN,s2.maxstream.org
   - DOMAIN,s2.qwant.com
   - DOMAIN,s3-alpha-sig.figma.com
   - DOMAIN,s3-alpha.figma.com
@@ -1792,6 +1796,7 @@ payload:
   - DOMAIN,static.euronews.com
   - DOMAIN,static.fasthosts.co.uk
   - DOMAIN,static.fboom.me
+  - DOMAIN,static.fbot.me
   - DOMAIN,static.fc2.com
   - DOMAIN,static.fc2cn.com
   - DOMAIN,static.ffx.io
@@ -1880,6 +1885,7 @@ payload:
   - DOMAIN,static.solarwinds.com
   - DOMAIN,static.spankbang.com
   - DOMAIN,static.srcspot.com
+  - DOMAIN,static.staff-start.com
   - DOMAIN,static.start.me
   - DOMAIN,static.status.io
   - DOMAIN,static.telegraph.co.uk
@@ -2085,6 +2091,7 @@ payload:
   - DOMAIN,w.chatlio.com
   - DOMAIN,w.soundcloud.com
   - DOMAIN,w2.influxdata.com
+  - DOMAIN,wa.arounddeal.com
   - DOMAIN,wac-cdn-2.atlassian.com
   - DOMAIN,wac-cdn.atlassian.com
   - DOMAIN,waitlisted.co
@@ -2140,7 +2147,6 @@ payload:
   - DOMAIN,wwwimages2.adobe.com
   - DOMAIN,xpaywalletcdn.azureedge.net
   - DOMAIN,yep.video.yahoo.com
-  - DOMAIN,yummlystatic.com
   - DOMAIN,zephr-templates.cnbc.com
   - DOMAIN-KEYWORD,-cdn.eporner.com
   - DOMAIN-KEYWORD,-files.gitbook.io
@@ -2249,7 +2255,6 @@ payload:
   - DOMAIN-SUFFIX,assets.tumblr.com
   - DOMAIN-SUFFIX,assets.ubuntu.com
   - DOMAIN-SUFFIX,assettype.com
-  - DOMAIN-SUFFIX,avdocker3.com
   - DOMAIN-SUFFIX,avximg.com
   - DOMAIN-SUFFIX,awsstatic.com
   - DOMAIN-SUFFIX,ax1x.com
@@ -2338,9 +2343,7 @@ payload:
   - DOMAIN-SUFFIX,cdninstagram.com
   - DOMAIN-SUFFIX,cdnjhd.com
   - DOMAIN-SUFFIX,cdnjs.network
-  - DOMAIN-SUFFIX,cdnmania.org
   - DOMAIN-SUFFIX,cdnpk.net
-  - DOMAIN-SUFFIX,cdnpm.net
   - DOMAIN-SUFFIX,cdnppb.net
   - DOMAIN-SUFFIX,cdnpure.com
   - DOMAIN-SUFFIX,cdnst.net
@@ -2352,6 +2355,8 @@ payload:
   - DOMAIN-SUFFIX,chasecdn.com
   - DOMAIN-SUFFIX,chcdn.xyz
   - DOMAIN-SUFFIX,chesscomfiles.com
+  - DOMAIN-SUFFIX,claudeusercontent.com
+  - DOMAIN-SUFFIX,cldup.com
   - DOMAIN-SUFFIX,clientmetrics-pa.googleapis.com
   - DOMAIN-SUFFIX,cloud.influxdata.com
   - DOMAIN-SUFFIX,cloud1.influxdata.com
@@ -2529,6 +2534,7 @@ payload:
   - DOMAIN-SUFFIX,hgasm1.com
   - DOMAIN-SUFFIX,hgasm2.com
   - DOMAIN-SUFFIX,hgasm3.com
+  - DOMAIN-SUFFIX,hgimg00.com
   - DOMAIN-SUFFIX,highwinds-cdn.com
   - DOMAIN-SUFFIX,himg.nl
   - DOMAIN-SUFFIX,hits.b3log.org
@@ -2758,6 +2764,7 @@ payload:
   - DOMAIN-SUFFIX,nextui.org
   - DOMAIN-SUFFIX,nftstorage.link
   - DOMAIN-SUFFIX,ngfiles.com
+  - DOMAIN-SUFFIX,nhentaimg.com
   - DOMAIN-SUFFIX,nincontent.com
   - DOMAIN-SUFFIX,ninjastream.to
   - DOMAIN-SUFFIX,nitrocdn.com
