@@ -1,5 +1,5 @@
-# 更新时间: 2025-01-23 20:13:52（北京时间）
-# 规则数量: 97580
+# 更新时间: 2025-01-27 20:14:03（北京时间）
+# 规则数量: 97589
 payload:
   - DOMAIN,03.lzzncm.com
   - DOMAIN,04.lzzncm.com
@@ -498,6 +498,7 @@ payload:
   - DOMAIN,dm.pstatp.com
   - DOMAIN,dns.jd.com
   - DOMAIN,dns.m.sm.cn
+  - DOMAIN,dns.wechat.com
   - DOMAIN,dns.weibo.cn
   - DOMAIN,dns.weixin.qq.com
   - DOMAIN,dns.weixin.qq.com.cn
@@ -19791,6 +19792,7 @@ payload:
   - DOMAIN-SUFFIX,aughableleade.info
   - DOMAIN-SUFFIX,augilrunie.net
   - DOMAIN-SUFFIX,augurersoilure.space
+  - DOMAIN-SUFFIX,august.tw
   - DOMAIN-SUFFIX,august15download.com
   - DOMAIN-SUFFIX,augustjadespun.com
   - DOMAIN-SUFFIX,auhdzd.paprika-shopping.de
@@ -21474,6 +21476,7 @@ payload:
   - DOMAIN-SUFFIX,bgjesr.topvyrobky.sk
   - DOMAIN-SUFFIX,bgkec.global
   - DOMAIN-SUFFIX,bgoufr.elektro-obojky.cz
+  - DOMAIN-SUFFIX,bgp.co
   - DOMAIN-SUFFIX,bgtaeb.loveandpop.kr
   - DOMAIN-SUFFIX,bgtpzv.vardvaskan.se
   - DOMAIN-SUFFIX,bgupcq.westfalia.de
@@ -36648,6 +36651,7 @@ payload:
   - DOMAIN-SUFFIX,esescvyjtqoda.xyz
   - DOMAIN-SUFFIX,esfuhb.osohshiki.jp
   - DOMAIN-SUFFIX,esfwkjsim.com
+  - DOMAIN-SUFFIX,esgltc.com
   - DOMAIN-SUFFIX,eshkol.io
   - DOMAIN-SUFFIX,eshkol.one
   - DOMAIN-SUFFIX,eshoohasteeg.com
@@ -49122,6 +49126,7 @@ payload:
   - DOMAIN-SUFFIX,kimberlite.io
   - DOMAIN-SUFFIX,kimkgj.bibloo.pl
   - DOMAIN-SUFFIX,kimksr.lojagtsm1.com.br
+  - DOMAIN-SUFFIX,kimo.tw
   - DOMAIN-SUFFIX,kimpowhu.net
   - DOMAIN-SUFFIX,kimsacka.net
   - DOMAIN-SUFFIX,kinarilyhukelpfulin.com
@@ -49907,6 +49912,7 @@ payload:
   - DOMAIN-SUFFIX,lalapush.com
   - DOMAIN-SUFFIX,lalokdocwl.com
   - DOMAIN-SUFFIX,lalqoc.lyke.hu
+  - DOMAIN-SUFFIX,lambda-ix.net
   - DOMAIN-SUFFIX,lambingsyddir.com
   - DOMAIN-SUFFIX,lame7bsqu8barters.com
   - DOMAIN-SUFFIX,lamentinsecureheadlight.com
@@ -58491,6 +58497,7 @@ payload:
   - DOMAIN-SUFFIX,moduledescendantlos.com
   - DOMAIN-SUFFIX,modulepush.com
   - DOMAIN-SUFFIX,modus.nike.com
+  - DOMAIN-SUFFIX,moebgp.com
   - DOMAIN-SUFFIX,moengage.com
   - DOMAIN-SUFFIX,moera.xyz
   - DOMAIN-SUFFIX,mofeegavub.net
@@ -64443,6 +64450,7 @@ payload:
   - DOMAIN-SUFFIX,pgdt.gtimg.cn
   - DOMAIN-SUFFIX,pgduet.nnnthree.com
   - DOMAIN-SUFFIX,pgezbuz.com
+  - DOMAIN-SUFFIX,pgi.com
   - DOMAIN-SUFFIX,pgjt26tsm.com
   - DOMAIN-SUFFIX,pgkxhq.jamesallen.com
   - DOMAIN-SUFFIX,pglstatp-toutiao.com
@@ -92421,6 +92429,7 @@ payload:
   - DOMAIN-SUFFIX,wakemessyantenna.com
   - DOMAIN-SUFFIX,wakenprecox.com
   - DOMAIN-SUFFIX,wakenssponged.com
+  - DOMAIN-SUFFIX,wakuwaku.ne.jp
   - DOMAIN-SUFFIX,walak.online
   - DOMAIN-SUFFIX,walgreens.sc.omtrdc.net
   - DOMAIN-SUFFIX,walhe-dap.com
