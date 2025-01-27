@@ -1,5 +1,5 @@
-# 更新时间: 2025-01-26 20:11:38（北京时间）
-# 规则数量: 3116
+# 更新时间: 2025-01-27 08:37:14（北京时间）
+# 规则数量: 3111
 payload:
   - DOMAIN,0x0.st
   - DOMAIN,3dna.nationbuilder.com
@@ -1582,10 +1582,8 @@ payload:
   - DOMAIN,s1.qwant.com
   - DOMAIN,s10.maxstream.org
   - DOMAIN,s11.maxstream.org
-  - DOMAIN,s12.maxstream.org
   - DOMAIN,s13.maxstream.org
   - DOMAIN,s2.coinmarketcap.com
-  - DOMAIN,s2.maxstream.org
   - DOMAIN,s2.qwant.com
   - DOMAIN,s3-alpha-sig.figma.com
   - DOMAIN,s3-alpha.figma.com
@@ -2144,7 +2142,6 @@ payload:
   - DOMAIN,wwwimages2.adobe.com
   - DOMAIN,xpaywalletcdn.azureedge.net
   - DOMAIN,yep.video.yahoo.com
-  - DOMAIN,yummlystatic.com
   - DOMAIN,zephr-templates.cnbc.com
   - DOMAIN-KEYWORD,-cdn.eporner.com
   - DOMAIN-KEYWORD,-files.gitbook.io
@@ -2253,7 +2250,6 @@ payload:
   - DOMAIN-SUFFIX,assets.tumblr.com
   - DOMAIN-SUFFIX,assets.ubuntu.com
   - DOMAIN-SUFFIX,assettype.com
-  - DOMAIN-SUFFIX,avdocker3.com
   - DOMAIN-SUFFIX,avximg.com
   - DOMAIN-SUFFIX,awsstatic.com
   - DOMAIN-SUFFIX,ax1x.com
@@ -2342,9 +2338,7 @@ payload:
   - DOMAIN-SUFFIX,cdninstagram.com
   - DOMAIN-SUFFIX,cdnjhd.com
   - DOMAIN-SUFFIX,cdnjs.network
-  - DOMAIN-SUFFIX,cdnmania.org
   - DOMAIN-SUFFIX,cdnpk.net
-  - DOMAIN-SUFFIX,cdnpm.net
   - DOMAIN-SUFFIX,cdnppb.net
   - DOMAIN-SUFFIX,cdnpure.com
   - DOMAIN-SUFFIX,cdnst.net
@@ -2765,6 +2759,7 @@ payload:
   - DOMAIN-SUFFIX,nextui.org
   - DOMAIN-SUFFIX,nftstorage.link
   - DOMAIN-SUFFIX,ngfiles.com
+  - DOMAIN-SUFFIX,nhentaimg.com
   - DOMAIN-SUFFIX,nincontent.com
   - DOMAIN-SUFFIX,ninjastream.to
   - DOMAIN-SUFFIX,nitrocdn.com
