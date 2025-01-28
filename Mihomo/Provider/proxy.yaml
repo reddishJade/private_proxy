@@ -1,5 +1,5 @@
-# 更新时间: 2025-01-28 08:36:11（北京时间）
-# 规则数量: 32025
+# 更新时间: 2025-01-28 20:13:29（北京时间）
+# 规则数量: 32026
 payload:
   - DOMAIN,3dns-1.adobe.com
   - DOMAIN,3dns-2.adobe.com
@@ -8499,6 +8499,7 @@ payload:
   - DOMAIN-SUFFIX,djkav.mom
   - DOMAIN-SUFFIX,djorz.com
   - DOMAIN-SUFFIX,djreprints.com
+  - DOMAIN-SUFFIX,dk
   - DOMAIN-SUFFIX,dkbeatsbydre.com
   - DOMAIN-SUFFIX,dkcloud.cc
   - DOMAIN-SUFFIX,dkk37.com
