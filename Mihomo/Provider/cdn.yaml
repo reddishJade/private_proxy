@@ -1,5 +1,5 @@
-# 更新时间: 2025-01-28 20:13:26（北京时间）
-# 规则数量: 3116
+# 更新时间: 2025-01-29 08:36:14（北京时间）
+# 规则数量: 3117
 payload:
   - DOMAIN,0x0.st
   - DOMAIN,3dna.nationbuilder.com
@@ -2288,6 +2288,7 @@ payload:
   - DOMAIN-SUFFIX,bugly.qcloud.com
   - DOMAIN-SUFFIX,bundle.run
   - DOMAIN-SUFFIX,bundle.thimatic-apps.com
+  - DOMAIN-SUFFIX,bunnycdn.com
   - DOMAIN-SUFFIX,bytebucket.org
   - DOMAIN-SUFFIX,bytedapm.com
   - DOMAIN-SUFFIX,c-dn.net
