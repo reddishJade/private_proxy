@@ -152,7 +152,7 @@ proxy-groups:
     type: select
     proxies:
       - Proxy
-      - USA
+      - Select
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/AI.png
 
   - name: Game
@@ -216,31 +216,36 @@ proxy-groups:
   - name: HongKong
     type: select
     include-all-providers: true
-    filter: 港|hk
+    filter: 港|hk|Hong Kong
+    exclude-filter: (?i)下载|低倍率
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Hong_Kong.png
 
   - name: TaiWan
     type: select
     include-all-providers: true
-    filter: 台|tw
+    filter: 台|tw|Taiwan
+    exclude-filter: (?i)下载|低倍率
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Taiwan.png
 
   - name: Japan
     type: select
     include-all-providers: true
-    filter: 日|jp
+    filter: 日|jp|Japan
+    exclude-filter: (?i)下载|低倍率
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Japan.png
 
   - name: Singapore
     type: select
     include-all-providers: true
-    filter: 新|狮|sg
+    filter: 新|狮|sg|Singapore
+    exclude-filter: (?i)下载|低倍率
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Singapore.png
 
   - name: USA
     type: select
     include-all-providers: true
-    filter: 美|us
+    filter: 美|us|USA
+    exclude-filter: (?i)下载|低倍率
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/United_States.png
 
 # ======= 规则集合配置 =======
@@ -397,33 +402,19 @@ rule-providers:
 # ======= 分流规则 =======
 # 规则匹配顺序自上而下
 rules:
-  # 广告拦截
   - RULE-SET,reject,REJECT
-  # CDN连接
   - RULE-SET,cdn,CDN
-  # 流媒体
   - RULE-SET,stream,Streaming
-  # AI服务
   - RULE-SET,ai,AIGC
-  # Telegram
   - RULE-SET,telegram,Telegram
-  # Apple服务
   - RULE-SET,apple@cn,Apple
-  # Microsoft服务
   - RULE-SET,microsoft@cn,Microsoft
-  # 游戏平台
   - RULE-SET,game@cn,Game
-  # 下载服务
   - RULE-SET,download,Download
-  # 内网服务
   - RULE-SET,private,Private
-  # 国内网站
   - RULE-SET,domestic,Domestic
-  # 直连域名
   - RULE-SET,direct,Direct
-  # 代理域名
   - RULE-SET,proxy,Global
-
   # IP规则
   - RULE-SET,reject@ip,REJECT
   - RULE-SET,cdn@ip,CDN
@@ -432,6 +423,5 @@ rules:
   - RULE-SET,download@ip,Download
   - RULE-SET,private@ip,Private
   - RULE-SET,domestic@ip,Domestic
-
   # 漏网之鱼
   - MATCH,Final
