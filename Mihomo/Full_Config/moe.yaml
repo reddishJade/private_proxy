@@ -138,7 +138,6 @@ proxy-groups:
   - name: Download
     type: load-balance
     interval: 300
-    strategy: consistent-hashing
     include-all-providers: true
     filter: (?i)下载|低倍率
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Download.png
@@ -181,7 +180,7 @@ proxy-groups:
     interval: 300
     tolerance: 50
     include-all-providers: true
-    filter: (?i)港|hk
+    filter: (?i)港|hk|Hong Kong
     exclude-filter: (?i)下载|低倍率
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Hong_Kong.png
   - name: TaiWan
@@ -189,7 +188,7 @@ proxy-groups:
     interval: 300
     tolerance: 50
     include-all-providers: true
-    filter: (?i)台|tw
+    filter: (?i)台|tw|TaiWan
     exclude-filter: (?i)下载|低倍率
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Taiwan.png
   - name: Japan
@@ -197,7 +196,7 @@ proxy-groups:
     interval: 300
     tolerance: 50
     include-all-providers: true
-    filter: (?i)日|jp
+    filter: (?i)日|jp|Japan
     exclude-filter: (?i)下载|低倍率
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Japan.png
   - name: Singapore
@@ -205,7 +204,7 @@ proxy-groups:
     interval: 300
     tolerance: 50
     include-all-providers: true
-    filter: (?i)新|狮|sg
+    filter: (?i)新|狮|sg|Singapore
     exclude-filter: (?i)下载|低倍率
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Singapore.png
   - name: USA
@@ -213,7 +212,7 @@ proxy-groups:
     interval: 300
     tolerance: 50
     include-all-providers: true
-    filter: (?i)美|us
+    filter: (?i)美|us|USA
     exclude-filter: (?i)下载|低倍率
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/United_States.png
 
