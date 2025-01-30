@@ -1,5 +1,5 @@
-# 更新时间: 2025-01-30 08:35:11（北京时间）
-# 规则数量: 3115
+# 更新时间: 2025-01-30 20:13:50（北京时间）
+# 规则数量: 3117
 payload:
   - DOMAIN,0x0.st
   - DOMAIN,3dna.nationbuilder.com
@@ -388,6 +388,7 @@ payload:
   - DOMAIN,cdn.configcat.com
   - DOMAIN,cdn.consentmanager.net
   - DOMAIN,cdn.contentful.com
+  - DOMAIN,cdn.conveythis.com
   - DOMAIN,cdn.credible.com
   - DOMAIN,cdn.css.net
   - DOMAIN,cdn.cxense.com
@@ -413,6 +414,7 @@ payload:
   - DOMAIN,cdn.eu.contentful.com
   - DOMAIN,cdn.european-alternatives.eu
   - DOMAIN,cdn.faire.com
+  - DOMAIN,cdn.fastcomments.com
   - DOMAIN,cdn.filen.io
   - DOMAIN,cdn.firebase.com
   - DOMAIN,cdn.fluidplayer.com
