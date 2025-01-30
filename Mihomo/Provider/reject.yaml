@@ -1,5 +1,5 @@
-# 更新时间: 2025-01-30 08:35:03（北京时间）
-# 规则数量: 97589
+# 更新时间: 2025-01-30 20:13:40（北京时间）
+# 规则数量: 97592
 payload:
   - DOMAIN,03.lzzncm.com
   - DOMAIN,04.lzzncm.com
@@ -1345,6 +1345,8 @@ payload:
   - DOMAIN-KEYWORD,.nimiq.
   - DOMAIN-KEYWORD,.zooplus.
   - DOMAIN-KEYWORD,_vmind.qqvideo.tc.qq.com
+  - DOMAIN-KEYWORD,a8clk.
+  - DOMAIN-KEYWORD,a8cv.
   - DOMAIN-KEYWORD,ad.ixigua.com
   - DOMAIN-KEYWORD,adjust.
   - DOMAIN-KEYWORD,adktrack
@@ -1380,7 +1382,8 @@ payload:
   - DOMAIN-KEYWORD,marketing.net
   - DOMAIN-KEYWORD,mighbest
   - DOMAIN-KEYWORD,nimiqpool
-  - DOMAIN-KEYWORD,smetrics.marketing.
+  - DOMAIN-KEYWORD,plausible.
+  - DOMAIN-KEYWORD,smetrics.
   - DOMAIN-KEYWORD,sunnimiq
   - DOMAIN-KEYWORD,telemetry.officeapps.live.com
   - DOMAIN-KEYWORD,track.opentable.
