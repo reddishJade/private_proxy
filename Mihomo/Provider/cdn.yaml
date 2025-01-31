@@ -1,5 +1,5 @@
-# 更新时间: 2025-01-30 20:13:50（北京时间）
-# 规则数量: 3117
+# 更新时间: 2025-01-31 08:35:59（北京时间）
+# 规则数量: 3118
 payload:
   - DOMAIN,0x0.st
   - DOMAIN,3dna.nationbuilder.com
@@ -315,6 +315,7 @@ payload:
   - DOMAIN,cdn-eu.dynamicyield.com
   - DOMAIN,cdn-fck.tnaflix.com
   - DOMAIN,cdn-forum.networklessons.com
+  - DOMAIN,cdn-front.freepik.com
   - DOMAIN,cdn-images-1.medium.com
   - DOMAIN,cdn-images.mailchimp.com
   - DOMAIN,cdn-live.foreignaffairs.com
