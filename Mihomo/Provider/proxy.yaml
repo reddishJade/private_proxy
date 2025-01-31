@@ -1,5 +1,5 @@
-# 更新时间: 2025-01-30 20:13:52（北京时间）
-# 规则数量: 32026
+# 更新时间: 2025-01-31 08:36:01（北京时间）
+# 规则数量: 32027
 payload:
   - DOMAIN,3dns-1.adobe.com
   - DOMAIN,3dns-2.adobe.com
@@ -11455,6 +11455,7 @@ payload:
   - DOMAIN-SUFFIX,freeopenproxy.com
   - DOMAIN-SUFFIX,freeopenvpn.com
   - DOMAIN-SUFFIX,freeoz.org
+  - DOMAIN-SUFFIX,freepik.com
   - DOMAIN-SUFFIX,freeporn.com
   - DOMAIN-SUFFIX,freepornhdonlinegay.com
   - DOMAIN-SUFFIX,freepornhentaigames.com
