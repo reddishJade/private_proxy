@@ -1,3 +1,4 @@
 pyyaml>=6.0.1
 requests>=2.31.0
-pytz 
+python-dotenv>=1.0.0
+loguru>=0.7.2 
