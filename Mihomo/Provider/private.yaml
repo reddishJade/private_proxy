@@ -1,8 +1,7 @@
-# 更新时间: 2025-01-29 08:36:27（北京时间）
-# 规则数量: 271
+# 更新时间: 2025-02-01 20:12:08（北京时间）
+# 规则数量: 262
 payload:
   - DOMAIN,0123456789nonexistent.com
-  - DOMAIN,0d.kebhana.mx
   - DOMAIN,1337.abcvg.info
   - DOMAIN,6ahddutb1ucc3cp.ru
   - DOMAIN,api.ipv4online.uk
@@ -12,17 +11,18 @@ payload:
   - DOMAIN,board.zash.run.place
   - DOMAIN,bt.ktrackers.com
   - DOMAIN,bt.okmp3.ru
-  - DOMAIN,bt.poletracker.org
   - DOMAIN,bt.rer.lol
   - DOMAIN,bt1.xxxxbt.cc
   - DOMAIN,concen.org
   - DOMAIN,d.metacubex.one
   - DOMAIN,d40969.acod.regrucolo.ru
+  - DOMAIN,discord.heihachi.pw
   - DOMAIN,ec2-18-191-163-220.us-east-2.compute.amazonaws.com
   - DOMAIN,evan.im
   - DOMAIN,exodus.desync.com
   - DOMAIN,finbytes.org
   - DOMAIN,fleira.no
+  - DOMAIN,highteahop.top
   - DOMAIN,home.yxgz.club
   - DOMAIN,instant.arubanetworks.com
   - DOMAIN,ipv4.rer.lol
@@ -35,7 +35,6 @@ payload:
   - DOMAIN,metacubex.github.io
   - DOMAIN,metacubexd.pages.dev
   - DOMAIN,miwifi.com
-  - DOMAIN,new-line.net
   - DOMAIN,ns-1.x-fins.com
   - DOMAIN,nyaa.tracker.wf
   - DOMAIN,oasisauth.h3c.com
@@ -73,7 +72,6 @@ payload:
   - DOMAIN,tr.burnabyhighstar.com
   - DOMAIN,tr.nyacat.pw
   - DOMAIN,tr.zukizuki.org
-  - DOMAIN,tr3.ysagin.top
   - DOMAIN,tr4ck3r.duckdns.org
   - DOMAIN,tracker-udp.gbitt.info
   - DOMAIN,tracker-zhuqiy.dgj055.icu
@@ -81,7 +79,6 @@ payload:
   - DOMAIN,tracker.aburaya.live
   - DOMAIN,tracker.beeimg.com
   - DOMAIN,tracker.birkenwald.de
-  - DOMAIN,tracker.bittor.pw
   - DOMAIN,tracker.bjut.jp
   - DOMAIN,tracker.bt-hash.com
   - DOMAIN,tracker.bt4g.com
@@ -92,7 +89,6 @@ payload:
   - DOMAIN,tracker.ddunlimited.net
   - DOMAIN,tracker.dler.com
   - DOMAIN,tracker.dler.org
-  - DOMAIN,tracker.dmcomic.org
   - DOMAIN,tracker.dump.cl
   - DOMAIN,tracker.filemail.com
   - DOMAIN,tracker.fnix.net
@@ -100,7 +96,6 @@ payload:
   - DOMAIN,tracker.gigantino.net
   - DOMAIN,tracker.gmi.gd
   - DOMAIN,tracker.ipv6tracker.org
-  - DOMAIN,tracker.kmzs123.cn
   - DOMAIN,tracker.kuroy.me
   - DOMAIN,tracker.leechshield.link
   - DOMAIN,tracker.lilithraws.org
@@ -111,7 +106,6 @@ payload:
   - DOMAIN,tracker.ololosh.space
   - DOMAIN,tracker.opentrackr.org
   - DOMAIN,tracker.openwebtorrent.com
-  - DOMAIN,tracker.pmman.tech
   - DOMAIN,tracker.qu.ax
   - DOMAIN,tracker.renfei.net
   - DOMAIN,tracker.sbsub.com
@@ -121,13 +115,10 @@ payload:
   - DOMAIN,tracker.torrent.eu.org
   - DOMAIN,tracker.torrust-demo.com
   - DOMAIN,tracker.tryhackx.org
-  - DOMAIN,tracker.vanitycore.co
-  - DOMAIN,tracker.waaa.moe
-  - DOMAIN,tracker.wsaoa.eu.org
-  - DOMAIN,tracker.xiaoduola.xyz
   - DOMAIN,tracker.yemekyedim.com
   - DOMAIN,tracker.yume-hatsuyuki.moe
   - DOMAIN,tracker1.520.jp
+  - DOMAIN,tracker1.myporn.club
   - DOMAIN,tracker2.dler.org
   - DOMAIN,tracker2.itzmx.com
   - DOMAIN,tracker3.itzmx.com

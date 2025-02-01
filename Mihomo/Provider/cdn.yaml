@@ -1,5 +1,5 @@
-# 更新时间: 2025-01-29 08:36:14（北京时间）
-# 规则数量: 3117
+# 更新时间: 2025-02-01 20:11:53（北京时间）
+# 规则数量: 3134
 payload:
   - DOMAIN,0x0.st
   - DOMAIN,3dna.nationbuilder.com
@@ -7,6 +7,7 @@ payload:
   - DOMAIN,a.deviantart.net
   - DOMAIN,a.fireside.fm
   - DOMAIN,a.gawby.com
+  - DOMAIN,a.kickstarter.com
   - DOMAIN,a5.behance.net
   - DOMAIN,a57.foxnews.com
   - DOMAIN,academy-public.coinmarketcap.com
@@ -37,6 +38,7 @@ payload:
   - DOMAIN,api.crashguard.me
   - DOMAIN,api.dicebear.com
   - DOMAIN,api.iconify.design
+  - DOMAIN,api.instantly.ai
   - DOMAIN,api.mintlify.com
   - DOMAIN,api.mixpanel.com
   - DOMAIN,api.producthunt.com
@@ -272,6 +274,7 @@ payload:
   - DOMAIN,brick.freetls.fastly.net
   - DOMAIN,bst.icons8.com
   - DOMAIN,btn.hitomi.la
+  - DOMAIN,bundle.dyn-rev.app
   - DOMAIN,bundle.trysavvy.com
   - DOMAIN,bundlephobia.com
   - DOMAIN,bundler.nice-team.net
@@ -315,6 +318,7 @@ payload:
   - DOMAIN,cdn-eu.dynamicyield.com
   - DOMAIN,cdn-fck.tnaflix.com
   - DOMAIN,cdn-forum.networklessons.com
+  - DOMAIN,cdn-front.freepik.com
   - DOMAIN,cdn-images-1.medium.com
   - DOMAIN,cdn-images.mailchimp.com
   - DOMAIN,cdn-live.foreignaffairs.com
@@ -341,6 +345,7 @@ payload:
   - DOMAIN,cdn.accounts.nintendo.com
   - DOMAIN,cdn.adguard.com
   - DOMAIN,cdn.adguard.info
+  - DOMAIN,cdn.aimerce.ai
   - DOMAIN,cdn.amcharts.com
   - DOMAIN,cdn.announcekit.app
   - DOMAIN,cdn.answeroverflow.com
@@ -388,6 +393,7 @@ payload:
   - DOMAIN,cdn.configcat.com
   - DOMAIN,cdn.consentmanager.net
   - DOMAIN,cdn.contentful.com
+  - DOMAIN,cdn.conveythis.com
   - DOMAIN,cdn.credible.com
   - DOMAIN,cdn.css.net
   - DOMAIN,cdn.cxense.com
@@ -413,6 +419,7 @@ payload:
   - DOMAIN,cdn.eu.contentful.com
   - DOMAIN,cdn.european-alternatives.eu
   - DOMAIN,cdn.faire.com
+  - DOMAIN,cdn.fastcomments.com
   - DOMAIN,cdn.filen.io
   - DOMAIN,cdn.firebase.com
   - DOMAIN,cdn.fluidplayer.com
@@ -428,6 +435,7 @@ payload:
   - DOMAIN,cdn.getkoala.com
   - DOMAIN,cdn.gettr.com
   - DOMAIN,cdn.ghostery.com
+  - DOMAIN,cdn.giftcardpro.app
   - DOMAIN,cdn.glitch.com
   - DOMAIN,cdn.glitch.global
   - DOMAIN,cdn.glitch.me
@@ -791,6 +799,7 @@ payload:
   - DOMAIN,dl.airdroid.com
   - DOMAIN,dl.nwjs.io
   - DOMAIN,dl2.nwjs.io
+  - DOMAIN,do.featurebase.app
   - DOMAIN,docker.cloudsmith.io
   - DOMAIN,docs.rs
   - DOMAIN,doppler-config.cbsivideo.com
@@ -941,6 +950,7 @@ payload:
   - DOMAIN,hp.foxnews.com
   - DOMAIN,hub-assets.displaycal.net
   - DOMAIN,hv-monsterdb-data.skk.moe
+  - DOMAIN,i-cdn.embed.ly
   - DOMAIN,i.1password.com
   - DOMAIN,i.bang.com
   - DOMAIN,i.creativecommons.org
@@ -960,6 +970,7 @@ payload:
   - DOMAIN,i.ioiox.com
   - DOMAIN,i.iwara.tv
   - DOMAIN,i.jpg.dog
+  - DOMAIN,i.kickstarter.com
   - DOMAIN,i.loli.best
   - DOMAIN,i.mt.lv
   - DOMAIN,i.mydramalist.com
@@ -1114,7 +1125,6 @@ payload:
   - DOMAIN,img.foresightnews.pro
   - DOMAIN,img.fortawesome.com
   - DOMAIN,img.freepik.com
-  - DOMAIN,img.hcloud.lat
   - DOMAIN,img.hellofresh.com
   - DOMAIN,img.hentaihaven.xxx
   - DOMAIN,img.icons8.com
@@ -1258,6 +1268,7 @@ payload:
   - DOMAIN,m.wsj.net
   - DOMAIN,m3.gab.com
   - DOMAIN,m3u8.girigirilove.com
+  - DOMAIN,makerworld.bblmw.com
   - DOMAIN,mangaz-books.j-comi.jp
   - DOMAIN,mangaz-static.j-comi.jp
   - DOMAIN,mantisloader.mantis-awx.com
@@ -1310,6 +1321,7 @@ payload:
   - DOMAIN,media.npr.org
   - DOMAIN,media.orz.uno
   - DOMAIN,media.owcnow.com
+  - DOMAIN,media.printables.com
   - DOMAIN,media.pullopen.xyz
   - DOMAIN,media.ra.kroll.com
   - DOMAIN,media.shopimind.com
@@ -1458,6 +1470,7 @@ payload:
   - DOMAIN,platform.instagram.com
   - DOMAIN,platform.twitter.com
   - DOMAIN,platforms.makemytrip.com
+  - DOMAIN,play.gotolstoy.com
   - DOMAIN,play.izanmei.net
   - DOMAIN,play.publicradio.org
   - DOMAIN,play.vidyard.com
@@ -1551,6 +1564,7 @@ payload:
   - DOMAIN,resources-live.sketch.cloud
   - DOMAIN,resources.esportsinsider.com
   - DOMAIN,resources.help.salesforce.com
+  - DOMAIN,rest.happierleads.com
   - DOMAIN,rsi.grafana.com
   - DOMAIN,rsms.me
   - DOMAIN,rtcg-access.bytevcloud.com
@@ -2060,7 +2074,6 @@ payload:
   - DOMAIN,userpic.redgifs.com
   - DOMAIN,useruploads.visualwebsiteoptimizer.com
   - DOMAIN,utteranc.es
-  - DOMAIN,v.hillwaver.com
   - DOMAIN,v.w-x.co
   - DOMAIN,v2.listenloop.com
   - DOMAIN,vanilla-extract.style
@@ -2072,6 +2085,7 @@ payload:
   - DOMAIN,video-meta.humix.com
   - DOMAIN,video.bsky.app
   - DOMAIN,video.cdnbye.com
+  - DOMAIN,video.dailymail.co.uk
   - DOMAIN,video1.7mmtv.sx
   - DOMAIN,video2.7mmtv.sx
   - DOMAIN,videos.elephas.app
@@ -2116,6 +2130,7 @@ payload:
   - DOMAIN,webstatic.chargebee.com
   - DOMAIN,widget.docsbot.ai
   - DOMAIN,widget.freshworks.com
+  - DOMAIN,widget.gotolstoy.com
   - DOMAIN,widget.intercom.io
   - DOMAIN,widget.kapa.ai
   - DOMAIN,widget.trustpilot.com
@@ -2981,6 +2996,7 @@ payload:
   - DOMAIN-SUFFIX,strpst.com
   - DOMAIN-SUFFIX,stylexjs.com
   - DOMAIN-SUFFIX,substackcdn.com
+  - DOMAIN-SUFFIX,superfiliate-cdn.com
   - DOMAIN-SUFFIX,surge.sh
   - DOMAIN-SUFFIX,surrit.com
   - DOMAIN-SUFFIX,susercontent.com
@@ -3002,6 +3018,7 @@ payload:
   - DOMAIN-SUFFIX,tile.openstreetmap.org
   - DOMAIN-SUFFIX,tile.osm.org
   - DOMAIN-SUFFIX,timg135.top
+  - DOMAIN-SUFFIX,tindiemedia.com
   - DOMAIN-SUFFIX,tiqcdn.com
   - DOMAIN-SUFFIX,tkcdns.com
   - DOMAIN-SUFFIX,tmsimg.com
