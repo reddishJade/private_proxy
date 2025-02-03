@@ -1,5 +1,5 @@
-# 更新时间: 2025-02-01 20:12:07（北京时间）
-# 规则数量: 21093
+# 更新时间: 2025-02-03 17:40:58（北京时间）
+# 规则数量: 21095
 payload:
   - IP-CIDR,1.0.1.0/24
   - IP-CIDR,1.0.2.0/23
@@ -4870,7 +4870,6 @@ payload:
   - IP-CIDR,160.25.12.0/23
   - IP-CIDR,160.25.194.0/23
   - IP-CIDR,160.25.20.0/23
-  - IP-CIDR,160.250.10.0/24
   - IP-CIDR,160.250.102.0/23
   - IP-CIDR,160.250.104.0/23
   - IP-CIDR,160.250.14.0/23
@@ -20768,6 +20767,7 @@ payload:
   - IP-CIDR6,2a0b:4340:550::/44
   - IP-CIDR6,2a0b:4e07:b8::/47
   - IP-CIDR6,2a0b:b87:ffb5::/48
+  - IP-CIDR6,2a0c:9a40:84e0::/48
   - IP-CIDR6,2a0c:9a40:95bf:7000::/54
   - IP-CIDR6,2a0c:9a40:95bf:7400::/56
   - IP-CIDR6,2a0c:9a40:95bf:7500::/60
@@ -20833,6 +20833,7 @@ payload:
   - IP-CIDR6,2a0e:8f02:f058:156::/64
   - IP-CIDR6,2a0e:8f02:f067::/48
   - IP-CIDR6,2a0e:97c0:550::/44
+  - IP-CIDR6,2a0e:97c0:5ef::/48
   - IP-CIDR6,2a0e:97c0:83f::/48
   - IP-CIDR6,2a0e:9b00::/29
   - IP-CIDR6,2a0e:aa01:1fff::/48
@@ -20903,13 +20904,17 @@ payload:
   - IP-CIDR6,2a0f:7803:f860::/44
   - IP-CIDR6,2a0f:7803:f8b0::/44
   - IP-CIDR6,2a0f:7803:f970::/44
+  - IP-CIDR6,2a0f:7803:fa21::/48
+  - IP-CIDR6,2a0f:7803:fa22::/47
+  - IP-CIDR6,2a0f:7803:fa24::/46
   - IP-CIDR6,2a0f:7803:fd00::/44
   - IP-CIDR6,2a0f:7803:fd20::/43
   - IP-CIDR6,2a0f:7803:fd40::/42
   - IP-CIDR6,2a0f:7803:fd80::/41
   - IP-CIDR6,2a0f:7803:fe41::/48
   - IP-CIDR6,2a0f:7803:fe42::/47
-  - IP-CIDR6,2a0f:7803:fe44::/46
+  - IP-CIDR6,2a0f:7803:fe44::/48
+  - IP-CIDR6,2a0f:7803:fe46::/47
   - IP-CIDR6,2a0f:7803:fe4a::/48
   - IP-CIDR6,2a0f:7803:fe4c::/47
   - IP-CIDR6,2a0f:7803:fe81::/48
@@ -21060,9 +21065,6 @@ payload:
   - IP-CIDR6,2a14:67c1:703::/48
   - IP-CIDR6,2a14:67c1:704::/48
   - IP-CIDR6,2a14:67c1:70::/46
-  - IP-CIDR6,2a14:67c1:800::/48
-  - IP-CIDR6,2a14:67c1:802::/48
-  - IP-CIDR6,2a14:67c1:80b::/48
   - IP-CIDR6,2a14:67c1:a010::/44
   - IP-CIDR6,2a14:67c1:a024::/48
   - IP-CIDR6,2a14:67c1:a02f::/48
