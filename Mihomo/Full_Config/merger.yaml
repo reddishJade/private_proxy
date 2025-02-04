@@ -382,7 +382,7 @@ rule-providers:
     type: http
     behavior: classical
     interval: 43200
-    url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/release/straem@ip.yaml
+    url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/release/stream@ip.yaml
     path: ./rules/stream@ip.yaml
   # Telegram域名规则
   telegram:
@@ -390,7 +390,7 @@ rule-providers:
     behavior: classical
     interval: 43200
     url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/release/telegram.yaml
-    path: ./rules/stream.yaml
+    path: ./rules/telegram.yaml
   # Telegram IP规则
   telegram@ip:
     type: http
