@@ -1,5 +1,5 @@
-# 更新时间: 2025-02-04 11:37:15（北京时间）
-# 规则数量: 98363
+# 更新时间: 2025-02-04 20:14:20（北京时间）
+# 规则数量: 98368
 payload:
   - DOMAIN,1-fss24-s0.streamhoster.com
   - DOMAIN,14033.live.streamtheworld.com
@@ -834,6 +834,10 @@ payload:
   - DOMAIN,zycfcdn.gdwlcloud.com
   - DOMAIN,zzlive.zzc-media.com
   - DOMAIN,zzq12345.gearhostpreview.com
+  - DOMAIN-REGEX,^[\w.-]*?\.ffzy-online[\w.-]\.com$
+  - DOMAIN-REGEX,^[\w.-]*?\.ffzy-play[\w.-]\.com$
+  - DOMAIN-REGEX,^[\w.-]*?\.lz-cdn[\w.-][\w.-]\.com$
+  - DOMAIN-REGEX,^[\w.-]*?\.lz-cdn[\w.-]\.com$
   - DOMAIN-REGEX,^[\w.-]*?\.qhimgs[\w.-]\.com$
   - DOMAIN-SUFFIX,0.zone
   - DOMAIN-SUFFIX,00.net
@@ -61116,6 +61120,7 @@ payload:
   - DOMAIN-SUFFIX,nfzzh.com
   - DOMAIN-SUFFIX,ng-alain.com
   - DOMAIN-SUFFIX,ng021.com
+  - DOMAIN-SUFFIX,nga.cn
   - DOMAIN-SUFFIX,nga.wiki
   - DOMAIN-SUFFIX,ngaa.info
   - DOMAIN-SUFFIX,ngaa.shop

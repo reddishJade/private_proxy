@@ -1,5 +1,5 @@
-# 更新时间: 2025-02-04 11:37:06（北京时间）
-# 规则数量: 3134
+# 更新时间: 2025-02-04 20:14:10（北京时间）
+# 规则数量: 3131
 payload:
   - DOMAIN,0x0.st
   - DOMAIN,3dna.nationbuilder.com
@@ -910,6 +910,7 @@ payload:
   - DOMAIN,fonts.gishan.cc
   - DOMAIN,fonts.googleapis.com
   - DOMAIN,fonts.gstatic.com
+  - DOMAIN,fonts.mailerlite.com
   - DOMAIN,fonts.sony.net
   - DOMAIN,fonts.svc.ui.com
   - DOMAIN,fonts.twitter.com
@@ -2170,12 +2171,8 @@ payload:
   - DOMAIN-KEYWORD,dsn.algolia.net
   - DOMAIN-KEYWORD,vod-adaptive.akamaized.net
   - DOMAIN-KEYWORD,web-assets.zendesk
-  - DOMAIN-REGEX,^[\w.-]*?\.ffzy-online[\w.-]\.com$
-  - DOMAIN-REGEX,^[\w.-]*?\.ffzy-play[\w.-]\.com$
   - DOMAIN-REGEX,^[\w.-]*?\.fsvod[\w.-]\.com$
   - DOMAIN-REGEX,^[\w.-]*?\.kuaikan-cdn[\w.-]\.com$
-  - DOMAIN-REGEX,^[\w.-]*?\.lz-cdn[\w.-][\w.-]\.com$
-  - DOMAIN-REGEX,^[\w.-]*?\.lz-cdn[\w.-]\.com$
   - DOMAIN-REGEX,^appcenter-filemanagement-[\w.-]*?\.cloudapp\.net$
   - DOMAIN-REGEX,^assets[\w.-]*?\.freshdesk\.com$
   - DOMAIN-REGEX,^blog-imgs-[\w.-][\w.-]\.2nt\.com$
