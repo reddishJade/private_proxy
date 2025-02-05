@@ -1,7 +1,9 @@
-# 更新时间: 2025-02-04 20:14:25（北京时间）
-# 规则数量: 215
+# 更新时间: 2025-02-05 08:36:33（北京时间）
+# 规则数量: 210
 payload:
+  - DOMAIN,0123456789nonexistent.com
   - DOMAIN,1337.abcvg.info
+  - DOMAIN,6ahddutb1ucc3cp.ru
   - DOMAIN,api.ipv4online.uk
   - DOMAIN,asusrouter.com
   - DOMAIN,bandito.byterunner.io
@@ -14,8 +16,8 @@ payload:
   - DOMAIN,exodus.desync.com
   - DOMAIN,instant.arubanetworks.com
   - DOMAIN,ipv4.rer.lol
+  - DOMAIN,ipv6.rer.lol
   - DOMAIN,ismaarino.com
-  - DOMAIN,martin-gebhardt.eu
   - DOMAIN,metacubex.github.io
   - DOMAIN,metacubexd.pages.dev
   - DOMAIN,miwifi.com
@@ -31,33 +33,30 @@ payload:
   - DOMAIN,r.l5.ca
   - DOMAIN,retracker.hotplug.ru
   - DOMAIN,retracker.lanta.me
-  - DOMAIN,retracker.x2k.ru
   - DOMAIN,router.asus.com
   - DOMAIN,routerlogin.com
   - DOMAIN,setmeup.arubanetworks.com
+  - DOMAIN,t.overflow.biz
   - DOMAIN,taciturn-shadow.spb.ru
   - DOMAIN,tk.greedland.net
-  - DOMAIN,torrent.tracker.durukanbal.com
   - DOMAIN,torrentsmd.com
   - DOMAIN,tplogin.cn
   - DOMAIN,tr.burnabyhighstar.com
-  - DOMAIN,tr.nyacat.pw
-  - DOMAIN,tr3.ysagin.top
-  - DOMAIN,tr4ck3r.duckdns.org
+  - DOMAIN,tr.zukizuki.org
   - DOMAIN,tracker-udp.gbitt.info
   - DOMAIN,tracker-zhuqiy.dgj055.icu
+  - DOMAIN,tracker.0x7c0.com
   - DOMAIN,tracker.aburaya.live
   - DOMAIN,tracker.beeimg.com
-  - DOMAIN,tracker.bittor.pw
+  - DOMAIN,tracker.birkenwald.de
   - DOMAIN,tracker.bjut.jp
   - DOMAIN,tracker.bt4g.com
   - DOMAIN,tracker.cyberia.is
+  - DOMAIN,tracker.darkness.services
   - DOMAIN,tracker.dler.com
   - DOMAIN,tracker.filemail.com
   - DOMAIN,tracker.fnix.net
-  - DOMAIN,tracker.gcrenwp.top
   - DOMAIN,tracker.gigantino.net
-  - DOMAIN,tracker.gmi.gd
   - DOMAIN,tracker.kuroy.me
   - DOMAIN,tracker.leechshield.link
   - DOMAIN,tracker.lilithraws.org
@@ -69,16 +68,12 @@ payload:
   - DOMAIN,tracker.renfei.net
   - DOMAIN,tracker.skyts.net
   - DOMAIN,tracker.srv00.com
-  - DOMAIN,tracker.tiny-vps.com
   - DOMAIN,tracker.torrent.eu.org
   - DOMAIN,tracker.tryhackx.org
+  - DOMAIN,tracker.wsaoa.eu.org
   - DOMAIN,tracker.yemekyedim.com
   - DOMAIN,tracker.yume-hatsuyuki.moe
   - DOMAIN,tracker1.520.jp
-  - DOMAIN,tracker2.dler.org
-  - DOMAIN,tracker2.itzmx.com
-  - DOMAIN,tracker3.itzmx.com
-  - DOMAIN,tracker4.itzmx.com
   - DOMAIN,ttk2.nbaonlineservice.com
   - DOMAIN,u4.trakx.crim.ist
   - DOMAIN,u6.trakx.crim.ist
