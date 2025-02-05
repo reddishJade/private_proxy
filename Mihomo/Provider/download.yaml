@@ -1,5 +1,5 @@
-# 更新时间: 2025-02-05 08:36:19（北京时间）
-# 规则数量: 632
+# 更新时间: 2025-02-05 20:13:55（北京时间）
+# 规则数量: 633
 payload:
   - DOMAIN,amupdatedl.microsoft.com
   - DOMAIN,amupdatedl2.microsoft.com
@@ -112,6 +112,7 @@ payload:
   - DOMAIN,downloader.cursor.sh
   - DOMAIN,downloadr2.apkmirror.com
   - DOMAIN,downloads.1password.com
+  - DOMAIN,downloads.lemonsqueezy.com
   - DOMAIN,downloads.openwrt.org
   - DOMAIN,downloads.raspberrypi.com
   - DOMAIN,downloads.sourceforge.net

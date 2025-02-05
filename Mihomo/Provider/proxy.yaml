@@ -1,5 +1,5 @@
-# 更新时间: 2025-02-05 08:36:22（北京时间）
-# 规则数量: 32030
+# 更新时间: 2025-02-05 20:13:57（北京时间）
+# 规则数量: 32031
 payload:
   - DOMAIN,3dns-1.adobe.com
   - DOMAIN,3dns-2.adobe.com
@@ -1252,6 +1252,7 @@ payload:
   - DOMAIN-SUFFIX,abs.edu
   - DOMAIN-SUFFIX,absoluporn.com
   - DOMAIN-SUFFIX,absolutewhores.com
+  - DOMAIN-SUFFIX,ac
   - DOMAIN-SUFFIX,ac-pocketcamp.com
   - DOMAIN-SUFFIX,ac.ir
   - DOMAIN-SUFFIX,acacia.ac.uk
@@ -15526,7 +15527,6 @@ payload:
   - DOMAIN-SUFFIX,iptvbin.com
   - DOMAIN-SUFFIX,ipv6.ac.uk
   - DOMAIN-SUFFIX,ipvanish.com
-  - DOMAIN-SUFFIX,ipx.ac
   - DOMAIN-SUFFIX,iq.com
   - DOMAIN-SUFFIX,iqiyiavlive.buzz
   - DOMAIN-SUFFIX,iqq2.cc
@@ -27087,6 +27087,7 @@ payload:
   - DOMAIN-SUFFIX,thaicuties.com
   - DOMAIN-SUFFIX,thaigirls.net
   - DOMAIN-SUFFIX,thaigirls100.net
+  - DOMAIN-SUFFIX,thaiheadlines.com
   - DOMAIN-SUFFIX,thamesgatewaycollege.ac.uk
   - DOMAIN-SUFFIX,thamesvalleytraining.ac.uk
   - DOMAIN-SUFFIX,thanet.ac.uk
