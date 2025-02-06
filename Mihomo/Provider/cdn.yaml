@@ -1,5 +1,5 @@
-# 更新时间: 2025-02-05 20:13:55（北京时间）
-# 规则数量: 3141
+# 更新时间: 2025-02-06 08:36:53（北京时间）
+# 规则数量: 3143
 payload:
   - DOMAIN,0x0.st
   - DOMAIN,3dna.nationbuilder.com
@@ -709,6 +709,7 @@ payload:
   - DOMAIN,cf.shopee.tw
   - DOMAIN,cfvod.kaltura.com
   - DOMAIN,chart.googleapis.com
+  - DOMAIN,chat-content.beanfun.com
   - DOMAIN,checkout-sdk.bigcommerce.com
   - DOMAIN,checkout.stripe.com
   - DOMAIN,ci.testling.com
@@ -1322,6 +1323,7 @@ payload:
   - DOMAIN,media.masto.nu
   - DOMAIN,media.mstdn.io
   - DOMAIN,media.nationwide.com
+  - DOMAIN,media.nownews.com
   - DOMAIN,media.npr.org
   - DOMAIN,media.orz.uno
   - DOMAIN,media.owcnow.com
