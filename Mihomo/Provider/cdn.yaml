@@ -1,5 +1,5 @@
-# 更新时间: 2025-02-06 20:13:55（北京时间）
-# 规则数量: 3143
+# 更新时间: 2025-02-07 08:36:48（北京时间）
+# 规则数量: 3144
 payload:
   - DOMAIN,0x0.st
   - DOMAIN,3dna.nationbuilder.com
@@ -1634,6 +1634,7 @@ payload:
   - DOMAIN,s3.producthunt.com
   - DOMAIN,s3.stackabuse.com
   - DOMAIN,s3.toot.io
+  - DOMAIN,s3.tradingview.com
   - DOMAIN,s3.us-west-000.backblazeb2.com
   - DOMAIN,s3.us-west-001.backblazeb2.com
   - DOMAIN,s3.us-west-002.backblazeb2.com
