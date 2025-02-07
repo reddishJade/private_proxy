@@ -1,5 +1,5 @@
-# 更新时间: 2025-02-06 20:14:03（北京时间）
-# 规则数量: 98393
+# 更新时间: 2025-02-07 08:36:57（北京时间）
+# 规则数量: 98394
 payload:
   - DOMAIN,1-fss24-s0.streamhoster.com
   - DOMAIN,14033.live.streamtheworld.com
@@ -28833,6 +28833,7 @@ payload:
   - DOMAIN-SUFFIX,elxk.com
   - DOMAIN-SUFFIX,em86.net
   - DOMAIN-SUFFIX,emadao.com
+  - DOMAIN-SUFFIX,email.cn
   - DOMAIN-SUFFIX,email.fund
   - DOMAIN-SUFFIX,emaileds.com
   - DOMAIN-SUFFIX,emailflame.com
