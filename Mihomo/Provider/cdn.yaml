@@ -1,5 +1,5 @@
-# 更新时间: 2025-02-07 20:13:27（北京时间）
-# 规则数量: 3144
+# 更新时间: 2025-02-08 08:35:30（北京时间）
+# 规则数量: 3145
 payload:
   - DOMAIN,0x0.st
   - DOMAIN,3dna.nationbuilder.com
@@ -2201,6 +2201,7 @@ payload:
   - DOMAIN-REGEX,^img[\w.-]\.porngo\.com$
   - DOMAIN-REGEX,^media[\w.-][\w.-]\.kissjav\.com$
   - DOMAIN-REGEX,^media[\w.-]\.kissjav\.com$
+  - DOMAIN-REGEX,^object-storage-[\w.-]*?\.vexxhost\.net$
   - DOMAIN-REGEX,^ocsp\.[\w.-]*?\.amazontrust\.com$
   - DOMAIN-REGEX,^proxy-[\w.-]*?\.dailymotion\.com$
   - DOMAIN-REGEX,^rr[\w.-]---[\w.-][\w.-]\.ouo\.si$
