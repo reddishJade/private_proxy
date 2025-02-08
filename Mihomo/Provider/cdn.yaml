@@ -1,5 +1,5 @@
-# 更新时间: 2025-02-08 08:35:30（北京时间）
-# 规则数量: 3145
+# 更新时间: 2025-02-08 20:12:13（北京时间）
+# 规则数量: 3150
 payload:
   - DOMAIN,0x0.st
   - DOMAIN,3dna.nationbuilder.com
@@ -1876,6 +1876,7 @@ payload:
   - DOMAIN,static.na1.visioncritical.com
   - DOMAIN,static.namebeta.com
   - DOMAIN,static.netify.ai
+  - DOMAIN,static.newmobilelife.com
   - DOMAIN,static.news.bitcoin.com
   - DOMAIN,static.nhentai.net
   - DOMAIN,static.nicehash.com
@@ -2945,6 +2946,7 @@ payload:
   - DOMAIN-SUFFIX,shortpixel.ai
   - DOMAIN-SUFFIX,similarcdn.com
   - DOMAIN-SUFFIX,simplecastcdn.com
+  - DOMAIN-SUFFIX,simpleflyingimages.com
   - DOMAIN-SUFFIX,sirv.com
   - DOMAIN-SUFFIX,siteintercept.qualtrics.com
   - DOMAIN-SUFFIX,sitescdn.net
@@ -2957,6 +2959,7 @@ payload:
   - DOMAIN-SUFFIX,smartscreen.microsoft.com
   - DOMAIN-SUFFIX,smassets.net
   - DOMAIN-SUFFIX,smilecdn.co
+  - DOMAIN-SUFFIX,smmallcdn.net
   - DOMAIN-SUFFIX,smushcdn.com
   - DOMAIN-SUFFIX,sndcdn.com
   - DOMAIN-SUFFIX,sny.monosnap.com
@@ -2966,6 +2969,7 @@ payload:
   - DOMAIN-SUFFIX,splunkcloud.com
   - DOMAIN-SUFFIX,sqspcdn.com
   - DOMAIN-SUFFIX,squarespace-cdn.com
+  - DOMAIN-SUFFIX,srcdn.com
   - DOMAIN-SUFFIX,ss-cdn.com
   - DOMAIN-SUFFIX,ssl-images-amazon.com
   - DOMAIN-SUFFIX,sstatic.net
@@ -3121,6 +3125,7 @@ payload:
   - DOMAIN-SUFFIX,xhpingcdn.com
   - DOMAIN-SUFFIX,xingcdn.com
   - DOMAIN-SUFFIX,xlog.app
+  - DOMAIN-SUFFIX,xm-apps-static.com
   - DOMAIN-SUFFIX,xnxx-cdn.com
   - DOMAIN-SUFFIX,xvideos-cdn.com
   - DOMAIN-SUFFIX,yammerusercontent.com
