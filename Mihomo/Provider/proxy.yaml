@@ -1,5 +1,5 @@
-# 更新时间: 2025-02-08 20:12:15（北京时间）
-# 规则数量: 32049
+# 更新时间: 2025-02-09 08:39:10（北京时间）
+# 规则数量: 32052
 payload:
   - DOMAIN,3dns-1.adobe.com
   - DOMAIN,3dns-2.adobe.com
@@ -6242,6 +6242,7 @@ payload:
   - DOMAIN-SUFFIX,ccdc.ac.uk
   - DOMAIN-SUFFIX,ccdtr.org
   - DOMAIN-SUFFIX,ccesd.ac.uk
+  - DOMAIN-SUFFIX,ccfd.org.tw
   - DOMAIN-SUFFIX,ccfe.ac.uk
   - DOMAIN-SUFFIX,cch.ac.uk
   - DOMAIN-SUFFIX,cchere.com
@@ -15400,6 +15401,7 @@ payload:
   - DOMAIN-SUFFIX,ipadpro.buzz
   - DOMAIN-SUFFIX,ipalter.com
   - DOMAIN-SUFFIX,ipcc-wg3.ac.uk
+  - DOMAIN-SUFFIX,ipdefenseforum.com
   - DOMAIN-SUFFIX,ipem.ac.uk
   - DOMAIN-SUFFIX,ipfire.org
   - DOMAIN-SUFFIX,ipforesightforum.ac.uk
@@ -21609,6 +21611,7 @@ payload:
   - DOMAIN-SUFFIX,packer.io
   - DOMAIN-SUFFIX,packetix.net
   - DOMAIN-SUFFIX,pacloudflare.com
+  - DOMAIN-SUFFIX,pacom.mil
   - DOMAIN-SUFFIX,pacopacomama.com
   - DOMAIN-SUFFIX,pact.ac.uk
   - DOMAIN-SUFFIX,paddle.com
