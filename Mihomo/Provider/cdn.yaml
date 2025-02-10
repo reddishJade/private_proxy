@@ -1,5 +1,5 @@
-# 更新时间: 2025-02-09 20:12:04（北京时间）
-# 规则数量: 3151
+# 更新时间: 2025-02-10 08:37:48（北京时间）
+# 规则数量: 3152
 payload:
   - DOMAIN,0x0.st
   - DOMAIN,3dna.nationbuilder.com
@@ -361,6 +361,7 @@ payload:
   - DOMAIN,cdn.axieinfinity.com
   - DOMAIN,cdn.babylonjs.com
   - DOMAIN,cdn.bfe.dev
+  - DOMAIN,cdn.bfldr.com
   - DOMAIN,cdn.bigcloud.click
   - DOMAIN,cdn.birdie.so
   - DOMAIN,cdn.botframework.com
