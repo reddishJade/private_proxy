@@ -11,7 +11,7 @@ u:    &u  {type: select, include-all-providers: true}
 r:    &r  {type: select, include-all-providers: true, exclude-filter: (?i)下载|低倍率}
 c:    &c  {type: http, behavior: classical, interval: 43200}
 s:    &s  {type: select, proxies: [Proxy, Select]}
-d:    &d  {type: select, proxies: [Direct, Select]}
+d:    &d  {type: select, proxies: [Direct, Proxy]}
 
 # ======= 订阅配置 =======
 proxy-providers:
