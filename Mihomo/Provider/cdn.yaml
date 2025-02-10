@@ -1,5 +1,5 @@
-# 更新时间: 2025-02-01 20:11:53（北京时间）
-# 规则数量: 3134
+# 更新时间: 2025-02-10 08:37:48（北京时间）
+# 规则数量: 3152
 payload:
   - DOMAIN,0x0.st
   - DOMAIN,3dna.nationbuilder.com
@@ -361,6 +361,7 @@ payload:
   - DOMAIN,cdn.axieinfinity.com
   - DOMAIN,cdn.babylonjs.com
   - DOMAIN,cdn.bfe.dev
+  - DOMAIN,cdn.bfldr.com
   - DOMAIN,cdn.bigcloud.click
   - DOMAIN,cdn.birdie.so
   - DOMAIN,cdn.botframework.com
@@ -709,6 +710,7 @@ payload:
   - DOMAIN,cf.shopee.tw
   - DOMAIN,cfvod.kaltura.com
   - DOMAIN,chart.googleapis.com
+  - DOMAIN,chat-content.beanfun.com
   - DOMAIN,checkout-sdk.bigcommerce.com
   - DOMAIN,checkout.stripe.com
   - DOMAIN,ci.testling.com
@@ -738,6 +740,7 @@ payload:
   - DOMAIN,config.extension.grammarly.com
   - DOMAIN,connect-js.stripe.com
   - DOMAIN,connect.facebook.net
+  - DOMAIN,connect.nosto.com
   - DOMAIN,connectivitycheck.android.com
   - DOMAIN,connectivitycheck.gstatic.com
   - DOMAIN,consent-manager.ft.com
@@ -752,6 +755,7 @@ payload:
   - DOMAIN,content.arduino.cc
   - DOMAIN,content.invisioncic.com
   - DOMAIN,content.jwplatform.com
+  - DOMAIN,content.kaspersky-labs.com
   - DOMAIN,content.overwolf.com
   - DOMAIN,content.product.glitch.com
   - DOMAIN,content.wepik.com
@@ -776,6 +780,7 @@ payload:
   - DOMAIN,css.blackmagicdesign.com
   - DOMAIN,css.createsend1.com
   - DOMAIN,curl.se
+  - DOMAIN,cw-image-resizer.cwg.tw
   - DOMAIN,d4.alternativeto.net
   - DOMAIN,dam.freshworks.com
   - DOMAIN,data.jsdelivr.com
@@ -910,6 +915,7 @@ payload:
   - DOMAIN,fonts.gishan.cc
   - DOMAIN,fonts.googleapis.com
   - DOMAIN,fonts.gstatic.com
+  - DOMAIN,fonts.mailerlite.com
   - DOMAIN,fonts.sony.net
   - DOMAIN,fonts.svc.ui.com
   - DOMAIN,fonts.twitter.com
@@ -1318,6 +1324,7 @@ payload:
   - DOMAIN,media.masto.nu
   - DOMAIN,media.mstdn.io
   - DOMAIN,media.nationwide.com
+  - DOMAIN,media.nownews.com
   - DOMAIN,media.npr.org
   - DOMAIN,media.orz.uno
   - DOMAIN,media.owcnow.com
@@ -1401,6 +1408,7 @@ payload:
   - DOMAIN,ocsp.godaddy.com
   - DOMAIN,ocsp.sectigo.com
   - DOMAIN,ocsp.usertrust.com
+  - DOMAIN,oct8neproxy.azurewebsites.net
   - DOMAIN,ohttp-relay1.fastly-edge.com
   - DOMAIN,ooo.0o0.ooo
   - DOMAIN,open-vsx.org
@@ -1488,6 +1496,7 @@ payload:
   - DOMAIN,pomf2.lain.la
   - DOMAIN,pool.jortage.com
   - DOMAIN,pplx-next-static-public.perplexity.ai
+  - DOMAIN,pplx-res.cloudinary.com
   - DOMAIN,practicaldev-herokuapp-com.freetls.fastly.net
   - DOMAIN,prego-cache.prod.sketch.com
   - DOMAIN,prettier.io
@@ -1527,6 +1536,7 @@ payload:
   - DOMAIN,r.r10s.jp
   - DOMAIN,r2.1hanime.com
   - DOMAIN,r2.leadsy.ai
+  - DOMAIN,r2cdn.perplexity.ai
   - DOMAIN,rapid-cdn.yottaa.com
   - DOMAIN,raw.github.com
   - DOMAIN,rawmarkdown.cloudflareaccess.org
@@ -1625,6 +1635,7 @@ payload:
   - DOMAIN,s3.producthunt.com
   - DOMAIN,s3.stackabuse.com
   - DOMAIN,s3.toot.io
+  - DOMAIN,s3.tradingview.com
   - DOMAIN,s3.us-west-000.backblazeb2.com
   - DOMAIN,s3.us-west-001.backblazeb2.com
   - DOMAIN,s3.us-west-002.backblazeb2.com
@@ -1815,6 +1826,7 @@ payload:
   - DOMAIN,static.fc2cn.com
   - DOMAIN,static.ffx.io
   - DOMAIN,static.figma.com
+  - DOMAIN,static.filehorse.com
   - DOMAIN,static.filestackapi.com
   - DOMAIN,static.foxbusiness.com
   - DOMAIN,static.foxnews.com
@@ -1865,6 +1877,7 @@ payload:
   - DOMAIN,static.na1.visioncritical.com
   - DOMAIN,static.namebeta.com
   - DOMAIN,static.netify.ai
+  - DOMAIN,static.newmobilelife.com
   - DOMAIN,static.news.bitcoin.com
   - DOMAIN,static.nhentai.net
   - DOMAIN,static.nicehash.com
@@ -2170,16 +2183,13 @@ payload:
   - DOMAIN-KEYWORD,dsn.algolia.net
   - DOMAIN-KEYWORD,vod-adaptive.akamaized.net
   - DOMAIN-KEYWORD,web-assets.zendesk
-  - DOMAIN-REGEX,^[\w.-]*?\.ffzy-online[\w.-]\.com$
-  - DOMAIN-REGEX,^[\w.-]*?\.ffzy-play[\w.-]\.com$
   - DOMAIN-REGEX,^[\w.-]*?\.fsvod[\w.-]\.com$
   - DOMAIN-REGEX,^[\w.-]*?\.kuaikan-cdn[\w.-]\.com$
-  - DOMAIN-REGEX,^[\w.-]*?\.lz-cdn[\w.-][\w.-]\.com$
-  - DOMAIN-REGEX,^[\w.-]*?\.lz-cdn[\w.-]\.com$
   - DOMAIN-REGEX,^appcenter-filemanagement-[\w.-]*?\.cloudapp\.net$
   - DOMAIN-REGEX,^assets[\w.-]*?\.freshdesk\.com$
   - DOMAIN-REGEX,^blog-imgs-[\w.-][\w.-]\.2nt\.com$
   - DOMAIN-REGEX,^blog-imgs-[\w.-][\w.-]\.fc2\.com$
+  - DOMAIN-REGEX,^browser-intake-[\w.-]*?-datadoghq\.com$
   - DOMAIN-REGEX,^cdn-msp[\w.-]\.18comic\.vip$
   - DOMAIN-REGEX,^cdn-msp[\w.-]\.jmcomic-zzz\.one$
   - DOMAIN-REGEX,^cdn-msp[\w.-]\.jmcomic\.me$
@@ -2194,6 +2204,7 @@ payload:
   - DOMAIN-REGEX,^img[\w.-]\.porngo\.com$
   - DOMAIN-REGEX,^media[\w.-][\w.-]\.kissjav\.com$
   - DOMAIN-REGEX,^media[\w.-]\.kissjav\.com$
+  - DOMAIN-REGEX,^object-storage-[\w.-]*?\.vexxhost\.net$
   - DOMAIN-REGEX,^ocsp\.[\w.-]*?\.amazontrust\.com$
   - DOMAIN-REGEX,^proxy-[\w.-]*?\.dailymotion\.com$
   - DOMAIN-REGEX,^rr[\w.-]---[\w.-][\w.-]\.ouo\.si$
@@ -2442,6 +2453,7 @@ payload:
   - DOMAIN-SUFFIX,easylist.to
   - DOMAIN-SUFFIX,ebayimg.com
   - DOMAIN-SUFFIX,ebaystatic.com
+  - DOMAIN-SUFFIX,edge.storage-yahoo.jp
   - DOMAIN-SUFFIX,edgestorewebcdn.azureedge.net
   - DOMAIN-SUFFIX,eggjs.org
   - DOMAIN-SUFFIX,ehgt.org
@@ -2464,6 +2476,7 @@ payload:
   - DOMAIN-SUFFIX,externulls.com
   - DOMAIN-SUFFIX,ezocdn.com
   - DOMAIN-SUFFIX,f-droid.org
+  - DOMAIN-SUFFIX,f.hubspotemail.net
   - DOMAIN-SUFFIX,f.hubspotfree.net
   - DOMAIN-SUFFIX,fakeimg.pl
   - DOMAIN-SUFFIX,fakestoreapi.com
@@ -2935,6 +2948,7 @@ payload:
   - DOMAIN-SUFFIX,shortpixel.ai
   - DOMAIN-SUFFIX,similarcdn.com
   - DOMAIN-SUFFIX,simplecastcdn.com
+  - DOMAIN-SUFFIX,simpleflyingimages.com
   - DOMAIN-SUFFIX,sirv.com
   - DOMAIN-SUFFIX,siteintercept.qualtrics.com
   - DOMAIN-SUFFIX,sitescdn.net
@@ -2947,6 +2961,7 @@ payload:
   - DOMAIN-SUFFIX,smartscreen.microsoft.com
   - DOMAIN-SUFFIX,smassets.net
   - DOMAIN-SUFFIX,smilecdn.co
+  - DOMAIN-SUFFIX,smmallcdn.net
   - DOMAIN-SUFFIX,smushcdn.com
   - DOMAIN-SUFFIX,sndcdn.com
   - DOMAIN-SUFFIX,sny.monosnap.com
@@ -2956,6 +2971,7 @@ payload:
   - DOMAIN-SUFFIX,splunkcloud.com
   - DOMAIN-SUFFIX,sqspcdn.com
   - DOMAIN-SUFFIX,squarespace-cdn.com
+  - DOMAIN-SUFFIX,srcdn.com
   - DOMAIN-SUFFIX,ss-cdn.com
   - DOMAIN-SUFFIX,ssl-images-amazon.com
   - DOMAIN-SUFFIX,sstatic.net
@@ -3111,6 +3127,7 @@ payload:
   - DOMAIN-SUFFIX,xhpingcdn.com
   - DOMAIN-SUFFIX,xingcdn.com
   - DOMAIN-SUFFIX,xlog.app
+  - DOMAIN-SUFFIX,xm-apps-static.com
   - DOMAIN-SUFFIX,xnxx-cdn.com
   - DOMAIN-SUFFIX,xvideos-cdn.com
   - DOMAIN-SUFFIX,yammerusercontent.com
@@ -3118,6 +3135,7 @@ payload:
   - DOMAIN-SUFFIX,yastatic.net
   - DOMAIN-SUFFIX,yelpcdn.com
   - DOMAIN-SUFFIX,yimg.com
+  - DOMAIN-SUFFIX,yimg.jp
   - DOMAIN-SUFFIX,ymq.cool
   - DOMAIN-SUFFIX,yourimageshare.com
   - DOMAIN-SUFFIX,ypncdn.com

@@ -196,7 +196,7 @@
       format: txt
       behavior: classical
     
-- path: output/straem@ip.yaml
+- path: output/stream@ip.yaml
   format: yaml
   behavior: classical
   upstream:

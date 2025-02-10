@@ -1,5 +1,5 @@
-# 更新时间: 2025-02-01 20:11:56（北京时间）
-# 规则数量: 32030
+# 更新时间: 2025-02-10 08:37:51（北京时间）
+# 规则数量: 32052
 payload:
   - DOMAIN,3dns-1.adobe.com
   - DOMAIN,3dns-2.adobe.com
@@ -1252,6 +1252,7 @@ payload:
   - DOMAIN-SUFFIX,abs.edu
   - DOMAIN-SUFFIX,absoluporn.com
   - DOMAIN-SUFFIX,absolutewhores.com
+  - DOMAIN-SUFFIX,ac
   - DOMAIN-SUFFIX,ac-pocketcamp.com
   - DOMAIN-SUFFIX,ac.ir
   - DOMAIN-SUFFIX,acacia.ac.uk
@@ -3612,6 +3613,7 @@ payload:
   - DOMAIN-SUFFIX,bangkokstreetwhores.com
   - DOMAIN-SUFFIX,bangor-university-london.ac.uk
   - DOMAIN-SUFFIX,bangor.ac.uk
+  - DOMAIN-SUFFIX,bangumi.tv
   - DOMAIN-SUFFIX,bangyoulater.com
   - DOMAIN-SUFFIX,bangyourwife.com
   - DOMAIN-SUFFIX,bankmobilevibe.com
@@ -4257,6 +4259,7 @@ payload:
   - DOMAIN-SUFFIX,bfsh.hk
   - DOMAIN-SUFFIX,bftv.ac.uk
   - DOMAIN-SUFFIX,bgc.ac.uk
+  - DOMAIN-SUFFIX,bgm.tv
   - DOMAIN-SUFFIX,bgov.com
   - DOMAIN-SUFFIX,bgr.in
   - DOMAIN-SUFFIX,bgs.ac.uk
@@ -6239,6 +6242,7 @@ payload:
   - DOMAIN-SUFFIX,ccdc.ac.uk
   - DOMAIN-SUFFIX,ccdtr.org
   - DOMAIN-SUFFIX,ccesd.ac.uk
+  - DOMAIN-SUFFIX,ccfd.org.tw
   - DOMAIN-SUFFIX,ccfe.ac.uk
   - DOMAIN-SUFFIX,cch.ac.uk
   - DOMAIN-SUFFIX,cchere.com
@@ -6614,6 +6618,7 @@ payload:
   - DOMAIN-SUFFIX,chid.com.mm
   - DOMAIN-SUFFIX,chigroup.ac.uk
   - DOMAIN-SUFFIX,chihair-straightener.com
+  - DOMAIN-SUFFIX,chii.in
   - DOMAIN-SUFFIX,chikiporn.com
   - DOMAIN-SUFFIX,chilbolton.ac.uk
   - DOMAIN-SUFFIX,childrenofthe90s.ac.uk
@@ -12851,6 +12856,7 @@ payload:
   - DOMAIN-SUFFIX,grimsbytec.ac.uk
   - DOMAIN-SUFFIX,grindr.com
   - DOMAIN-SUFFIX,grooby.com
+  - DOMAIN-SUFFIX,groq.com
   - DOMAIN-SUFFIX,grotty-monday.com
   - DOMAIN-SUFFIX,ground.news
   - DOMAIN-SUFFIX,groupfun.com
@@ -15395,6 +15401,7 @@ payload:
   - DOMAIN-SUFFIX,ipadpro.buzz
   - DOMAIN-SUFFIX,ipalter.com
   - DOMAIN-SUFFIX,ipcc-wg3.ac.uk
+  - DOMAIN-SUFFIX,ipdefenseforum.com
   - DOMAIN-SUFFIX,ipem.ac.uk
   - DOMAIN-SUFFIX,ipfire.org
   - DOMAIN-SUFFIX,ipforesightforum.ac.uk
@@ -15526,7 +15533,6 @@ payload:
   - DOMAIN-SUFFIX,iptvbin.com
   - DOMAIN-SUFFIX,ipv6.ac.uk
   - DOMAIN-SUFFIX,ipvanish.com
-  - DOMAIN-SUFFIX,ipx.ac
   - DOMAIN-SUFFIX,iq.com
   - DOMAIN-SUFFIX,iqiyiavlive.buzz
   - DOMAIN-SUFFIX,iqq2.cc
@@ -21605,6 +21611,7 @@ payload:
   - DOMAIN-SUFFIX,packer.io
   - DOMAIN-SUFFIX,packetix.net
   - DOMAIN-SUFFIX,pacloudflare.com
+  - DOMAIN-SUFFIX,pacom.mil
   - DOMAIN-SUFFIX,pacopacomama.com
   - DOMAIN-SUFFIX,pact.ac.uk
   - DOMAIN-SUFFIX,paddle.com
@@ -27087,6 +27094,7 @@ payload:
   - DOMAIN-SUFFIX,thaicuties.com
   - DOMAIN-SUFFIX,thaigirls.net
   - DOMAIN-SUFFIX,thaigirls100.net
+  - DOMAIN-SUFFIX,thaiheadlines.com
   - DOMAIN-SUFFIX,thamesgatewaycollege.ac.uk
   - DOMAIN-SUFFIX,thamesvalleytraining.ac.uk
   - DOMAIN-SUFFIX,thanet.ac.uk
@@ -27491,6 +27499,8 @@ payload:
   - DOMAIN-SUFFIX,tiktokcdn.com
   - DOMAIN-SUFFIX,tiktokd.net
   - DOMAIN-SUFFIX,tiktokd.org
+  - DOMAIN-SUFFIX,tiktokeu-cdn.com
+  - DOMAIN-SUFFIX,tiktokrow-cdn.com
   - DOMAIN-SUFFIX,tiktokv.com
   - DOMAIN-SUFFIX,tiktokv.eu
   - DOMAIN-SUFFIX,tiktokv.us
@@ -27921,6 +27931,7 @@ payload:
   - DOMAIN-SUFFIX,tteshop.com
   - DOMAIN-SUFFIX,ttetraining.ac.uk
   - DOMAIN-SUFFIX,ttlivecdn.com
+  - DOMAIN-SUFFIX,ttoverseaus.net
   - DOMAIN-SUFFIX,ttrb.ac.uk
   - DOMAIN-SUFFIX,tttan.com
   - DOMAIN-SUFFIX,ttv.com.tw
@@ -29339,25 +29350,36 @@ payload:
   - DOMAIN-SUFFIX,vizvaz.com
   - DOMAIN-SUFFIX,vjav.com
   - DOMAIN-SUFFIX,vjmedia.com.hk
+  - DOMAIN-SUFFIX,vk-apps.com
+  - DOMAIN-SUFFIX,vk-apps.ru
   - DOMAIN-SUFFIX,vk-cdn.me
   - DOMAIN-SUFFIX,vk-cdn.net
   - DOMAIN-SUFFIX,vk-portal.net
   - DOMAIN-SUFFIX,vk.cc
   - DOMAIN-SUFFIX,vk.com
+  - DOMAIN-SUFFIX,vk.company
   - DOMAIN-SUFFIX,vk.design
   - DOMAIN-SUFFIX,vk.link
   - DOMAIN-SUFFIX,vk.me
   - DOMAIN-SUFFIX,vk.ru
+  - DOMAIN-SUFFIX,vk.team
   - DOMAIN-SUFFIX,vkcache.com
   - DOMAIN-SUFFIX,vkgo.app
   - DOMAIN-SUFFIX,vklive.app
   - DOMAIN-SUFFIX,vkmessenger.app
   - DOMAIN-SUFFIX,vkmessenger.com
   - DOMAIN-SUFFIX,vkontakte.ru
+  - DOMAIN-SUFFIX,vkuser.net
   - DOMAIN-SUFFIX,vkuseraudio.com
+  - DOMAIN-SUFFIX,vkuseraudio.net
+  - DOMAIN-SUFFIX,vkuseraudio.ru
+  - DOMAIN-SUFFIX,vkusercdn.ru
   - DOMAIN-SUFFIX,vkuserlive.net
+  - DOMAIN-SUFFIX,vkuserphoto.ru
   - DOMAIN-SUFFIX,vkuservideo.com
   - DOMAIN-SUFFIX,vkuservideo.net
+  - DOMAIN-SUFFIX,vkuservideo.ru
+  - DOMAIN-SUFFIX,vkvideo.ru
   - DOMAIN-SUFFIX,vl4x.net
   - DOMAIN-SUFFIX,vllcs.org
   - DOMAIN-SUFFIX,vmglobal.net

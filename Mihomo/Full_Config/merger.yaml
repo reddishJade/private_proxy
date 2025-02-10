@@ -32,7 +32,7 @@ proxy-providers:
   #   url: "",
   #   path: ./proxies/provider2.yaml
   # }
-  
+
   # 默认在分组内使用全部订阅：
   # include-all-providers: true
   # 如有特殊需求可以在分组内使用指定订阅：
