@@ -18,7 +18,7 @@ proxy-providers:
   # 订阅链接一
   provider1:
     <<: *pr
-    url: "https://sub.yztcloud.moe/getnodeinfo?token=3b54acb511fae681c93b7dec54d6880a,"                               # 必选：填入机场订阅链接
+    url: ""                               # 必选：填入机场订阅链接
     # filter: "(?i)港|hk|hongkong"        # 可选：使用关键词或正则表达式筛选节点
     # exclude-filter: "(?i)测试"          # 可选：排除匹配的节点
     # override: {
