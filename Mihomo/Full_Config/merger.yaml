@@ -1,14 +1,14 @@
 #==========================================
 # @ConfigName        Mihomo配置文件
 # @Author            @reddishJade
-# @UpdateTime        2025/02/10 
+# @UpdateTime        2025/02/11 
 #==========================================
 
 #========= 锚点定义 ==========#
 pr:   &pr {type: http, interval: 43200, health-check: {enable: true, url: "https://cp.cloudflare.com", interval: 300}}
 p:    &p  {type: select, proxies: [Select, Direct, HongKong, TaiWan, Japan, Singapore, USA]}
 u:    &u  {type: select, include-all-providers: true}
-r:    &r  {type: select, include-all-providers: true, exclude-filter: (?i)下载|低倍率}
+r:    &r  {type: select, include-all-providers: true, exclude-filter: "(?i)下载|低倍率"}
 c:    &c  {type: http, behavior: classical, interval: 43200}
 s:    &s  {type: select, proxies: [Proxy, Select]}
 d:    &d  {type: select, proxies: [Direct, Proxy]}
@@ -71,7 +71,10 @@ dns:
   prefer-h3: true # 优先使用 HTTP/3 DNS
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
-  fake-ip-filter: ["rule-set:fakeip-filter,private,domestic"]
+  fake-ip-filter: 
+    - "rule-set:fakeip-filter"
+    - "rule-set:private"
+    - "rule-set:domestic"
   nameserver:     # 默认域名解析服务器
     - https://doh.pub/dns-query
     - https://dns.alidns.com/dns-query
@@ -118,16 +121,16 @@ proxy-groups:
   - {name: Streaming,  <<: *s,  icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/YouTube.png}
   - {name: Telegram,   <<: *s,  icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Telegram.png}
   - {name: CDN,        type: select, proxies: [Proxy, Download], icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Speedtest.png}
-  - {name: Download,   <<: *u,  filter: (?i)下载|低倍率, icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Download.png}
+  - {name: Download,   <<: *u,  filter: "(?i)下载|低倍率", icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Download.png}
   - {name: Global,     <<: *s,  icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Global.png}
   - {name: Domestic,   <<: *d,  icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Domestic.png}
   - {name: Private,    <<: *d,  icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Lock.png}
   
-  - {name: HongKong,   <<: *r,  filter: 港|hk|Hong Kong,    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Hong_Kong.png}
-  - {name: TaiWan,     <<: *r,  filter: 台|tw|Taiwan,       icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Taiwan.png}
-  - {name: Japan,      <<: *r,  filter: 日|jp|Japan,        icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Japan.png}
-  - {name: Singapore,  <<: *r,  filter: 新|狮|sg|Singapore, icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Singapore.png}
-  - {name: USA,        <<: *r,  filter: 美|us|USA,          icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/United_States.png}
+  - {name: HongKong,   <<: *r,  filter: "(?i)港|hk|Hong Kong",    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Hong_Kong.png}
+  - {name: TaiWan,     <<: *r,  filter: "(?i)台|tw|Taiwan",       icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Taiwan.png}
+  - {name: Japan,      <<: *r,  filter: "(?i)日|jp|Japan",        icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Japan.png}
+  - {name: Singapore,  <<: *r,  filter: "(?i)新|狮|sg|Singapore", icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Singapore.png}
+  - {name: USA,        <<: *r,  filter: "(?i)美|us|USA",          icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/United_States.png}
 
 # ======= 规则集合配置 =======
 rule-providers:

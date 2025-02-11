@@ -28,127 +28,127 @@ rule-providers:
     type: http
     behavior: classical
     interval: 43200
-    url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/release/ai.yaml
+    url: https://cdn.jsdelivr.net/gh/reddishJade/private_proxy@refs/heads/main/Mihomo/Provider/ai.yaml
     path: ./rules/ai.yaml
   apple@cn:
     type: http
     behavior: classical
     interval: 43200
-    url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/release/apple@cn.yaml
+    url: https://cdn.jsdelivr.net/gh/reddishJade/private_proxy@refs/heads/main/Mihomo/Provider/apple@cn.yaml
     path: ./rules/apple@cn.yaml
   cdn:
     type: http
     behavior: classical
     interval: 43200
-    url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/release/cdn.yaml
+    url: https://cdn.jsdelivr.net/gh/reddishJade/private_proxy@refs/heads/main/Mihomo/Provider/cdn.yaml
     path: ./rules/cdn.yaml
   cdn@ip:
     type: http
     behavior: classical
     interval: 43200
-    url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/release/cdn@ip.yaml
+    url: https://cdn.jsdelivr.net/gh/reddishJade/private_proxy@refs/heads/main/Mihomo/Provider/cdn@ip.yaml
     path: ./rules/cdn@ip.yaml
   direct:
     type: http
     behavior: classical
     interval: 43200
-    url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/release/direct.yaml
+    url: https://cdn.jsdelivr.net/gh/reddishJade/private_proxy@refs/heads/main/Mihomo/Provider/direct.yaml
     path: ./rules/direct.yaml
   domestic:
     type: http
     behavior: classical
     interval: 43200
-    url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/release/domestic.yaml
+    url: https://cdn.jsdelivr.net/gh/reddishJade/private_proxy@refs/heads/main/Mihomo/Provider/domestic.yaml
     path: ./rules/domestic.yaml
   domestic@ip:
     type: http
     behavior: classical
     interval: 43200
-    url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/release/domestic@ip.yaml
+    url: https://cdn.jsdelivr.net/gh/reddishJade/private_proxy@refs/heads/main/Mihomo/Provider/domestic@ip.yaml
     path: ./rules/domestic@ip.yaml
   download:
     type: http
     behavior: classical
     interval: 43200
-    url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/release/download.yaml
+    url: https://cdn.jsdelivr.net/gh/reddishJade/private_proxy@refs/heads/main/Mihomo/Provider/download.yaml
     path: ./rules/download.yaml
   download@ip:
     type: http
     behavior: classical
     interval: 43200
-    url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/release/download@ip.yaml
+    url: https://cdn.jsdelivr.net/gh/reddishJade/private_proxy@refs/heads/main/Mihomo/Provider/download@ip.yaml
     path: ./rules/download@ip.yaml
   fakeip-filter:
     type: http
     behavior: classical
     interval: 43200
-    url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/release/fakeip-filter.yaml
+    url: https://cdn.jsdelivr.net/gh/reddishJade/private_proxy@refs/heads/main/Mihomo/Provider/fakeip-filter.yaml
     path: ./rules/fakeip-filter.yaml
   game@cn:
     type: http
     behavior: classical
     interval: 43200
-    url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/release/game@cn.yaml
+    url: https://cdn.jsdelivr.net/gh/reddishJade/private_proxy@refs/heads/main/Mihomo/Provider/game@cn.yaml
     path: ./rules/game@cn.yaml
   microsoft@cn:
     type: http
     behavior: classical
     interval: 43200
-    url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/release/microsoft@cn.yaml
+    url: https://cdn.jsdelivr.net/gh/reddishJade/private_proxy@refs/heads/main/Mihomo/Provider/microsoft@cn.yaml
     path: ./rules/microsoft@cn.yaml
   private:
     type: http
     behavior: classical
     interval: 43200
-    url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/release/private.yaml
+    url: https://cdn.jsdelivr.net/gh/reddishJade/private_proxy@refs/heads/main/Mihomo/Provider/private.yaml
     path: ./rules/private.yaml
   private@ip:
     type: http
     behavior: classical
     interval: 43200
-    url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/release/private@ip.yaml
+    url: https://cdn.jsdelivr.net/gh/reddishJade/private_proxy@refs/heads/main/Mihomo/Provider/private@ip.yaml
     path: ./rules/private@ip.yaml
   proxy:
     type: http
     behavior: classical
     interval: 43200
-    url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/release/proxy.yaml
+    url: https://cdn.jsdelivr.net/gh/reddishJade/private_proxy@refs/heads/main/Mihomo/Provider/proxy.yaml
     path: ./rules/proxy.yaml
   reject:
     type: http
     behavior: classical
     interval: 43200
-    url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/release/reject.yaml
+    url: https://cdn.jsdelivr.net/gh/reddishJade/private_proxy@refs/heads/main/Mihomo/Provider/reject.yaml
     path: ./rules/reject.yaml
   reject@ip:
     type: http
     behavior: classical
     interval: 43200
-    url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/release/reject@ip.yaml
+    url: https://cdn.jsdelivr.net/gh/reddishJade/private_proxy@refs/heads/main/Mihomo/Provider/reject@ip.yaml
     path: ./rules/reject@ip.yaml
   stream:
     type: http
     behavior: classical
     interval: 43200
-    url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/release/stream.yaml
+    url: https://cdn.jsdelivr.net/gh/reddishJade/private_proxy@refs/heads/main/Mihomo/Provider/stream.yaml
     path: ./rules/stream.yaml
   stream@ip:
     type: http
     behavior: classical
     interval: 43200
-    url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/release/straem@ip.yaml
+    url: https://cdn.jsdelivr.net/gh/reddishJade/private_proxy@refs/heads/main/Mihomo/Provider/stream@ip.yaml
     path: ./rules/stream@ip.yaml
   telegram:
     type: http
     behavior: classical
     interval: 43200
-    url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/release/telegram.yaml
-    path: ./rules/stream.yaml
+    url: https://cdn.jsdelivr.net/gh/reddishJade/private_proxy@refs/heads/main/Mihomo/Provider/telegram.yaml
+    path: ./rules/telegram.yaml
   telegram@ip:
     type: http
     behavior: classical
     interval: 43200
-    url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/release/telegram@ip.yaml
+    url: https://cdn.jsdelivr.net/gh/reddishJade/private_proxy@refs/heads/main/Mihomo/Provider/telegram@ip.yaml
     path: ./rules/telegram@ip.yaml
 
 
