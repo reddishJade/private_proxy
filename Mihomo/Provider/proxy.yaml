@@ -1,5 +1,5 @@
-# 更新时间: 2025-02-11 08:36:40（北京时间）
-# 规则数量: 32051
+# 更新时间: 2025-02-11 20:14:14（北京时间）
+# 规则数量: 32053
 payload:
   - DOMAIN,3dns-1.adobe.com
   - DOMAIN,3dns-2.adobe.com
@@ -18322,6 +18322,7 @@ payload:
   - DOMAIN-SUFFIX,metacafe.com
   - DOMAIN-SUFFIX,metacloud.com
   - DOMAIN-SUFFIX,metacpan.org
+  - DOMAIN-SUFFIX,metacritic.com
   - DOMAIN-SUFFIX,metadac.ac.uk
   - DOMAIN-SUFFIX,metafilter.com
   - DOMAIN-SUFFIX,metalpha.finance
@@ -24045,6 +24046,7 @@ payload:
   - DOMAIN-SUFFIX,rotherham.ac.uk
   - DOMAIN-SUFFIX,rothervalley.ac.uk
   - DOMAIN-SUFFIX,rotten.com
+  - DOMAIN-SUFFIX,rottentomatoes.com
   - DOMAIN-SUFFIX,rou.video
   - DOMAIN-SUFFIX,roudao6.buzz
   - DOMAIN-SUFFIX,roudaosp.cc

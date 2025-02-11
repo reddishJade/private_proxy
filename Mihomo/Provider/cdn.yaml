@@ -1,5 +1,5 @@
-# 更新时间: 2025-02-11 08:36:38（北京时间）
-# 规则数量: 3155
+# 更新时间: 2025-02-11 20:14:11（北京时间）
+# 规则数量: 3156
 payload:
   - DOMAIN,0x0.st
   - DOMAIN,3dna.nationbuilder.com
@@ -2949,6 +2949,7 @@ payload:
   - DOMAIN-SUFFIX,shields.io
   - DOMAIN-SUFFIX,shopifycdn.com
   - DOMAIN-SUFFIX,shortpixel.ai
+  - DOMAIN-SUFFIX,simgbb.com
   - DOMAIN-SUFFIX,similarcdn.com
   - DOMAIN-SUFFIX,simplecastcdn.com
   - DOMAIN-SUFFIX,simpleflyingimages.com

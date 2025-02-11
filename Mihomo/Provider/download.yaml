@@ -1,5 +1,5 @@
-# 更新时间: 2025-02-11 08:36:38（北京时间）
-# 规则数量: 634
+# 更新时间: 2025-02-11 20:14:11（北京时间）
+# 规则数量: 635
 payload:
   - DOMAIN,amupdatedl.microsoft.com
   - DOMAIN,amupdatedl2.microsoft.com
@@ -203,6 +203,7 @@ payload:
   - DOMAIN,softwareupdate.vmware.com
   - DOMAIN,static.adguard.com
   - DOMAIN,static.adtidy.org
+  - DOMAIN,static.redox-os.org
   - DOMAIN,stats.snipaste.com
   - DOMAIN,steam.apac.qtlglb.com
   - DOMAIN,steam.eca.qtlglb.com
