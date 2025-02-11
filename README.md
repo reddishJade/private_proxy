@@ -16,8 +16,8 @@
 - 基于 DustinWin 的配置
 - 参考：[ruleset_geodata](https://github.com/DustinWin/ruleset_geodata)
 
-### 3. merger.yaml（推荐）
-- 查看链接：[merger.yaml](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Full_Config/merger.yaml)
+### 3. mihomo.yaml（推荐）
+- 查看链接：[mihomo.yaml](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Full_Config/mihomo.yaml)
 - 基于本项目规则合并工具生成的配置
 - 融合 Sukka 和 DustinWin 及其他优质规则提供者的规则
 

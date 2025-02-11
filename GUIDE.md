@@ -11,7 +11,7 @@
 1. 创建自己的 GitHub Gist：
    - 访问 [GitHub Gist](https://gist.github.com/)
    - 创建新的 Gist
-   - 复制完整的配置文件内容（如 `merger.yaml`）
+   - 复制完整的配置文件内容（如 `mihomo.yaml`）
    - [修改配置文件中的订阅信息](#1-修改订阅链接)
    - 保存 Gist
 
