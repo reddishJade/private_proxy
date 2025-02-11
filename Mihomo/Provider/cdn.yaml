@@ -1,5 +1,5 @@
-# 更新时间: 2025-02-10 08:37:48（北京时间）
-# 规则数量: 3152
+# 更新时间: 2025-02-11 08:36:38（北京时间）
+# 规则数量: 3155
 payload:
   - DOMAIN,0x0.st
   - DOMAIN,3dna.nationbuilder.com
@@ -398,6 +398,7 @@ payload:
   - DOMAIN,cdn.credible.com
   - DOMAIN,cdn.css.net
   - DOMAIN,cdn.cxense.com
+  - DOMAIN,cdn.daily.dev
   - DOMAIN,cdn.dap.dmm.co.jp
   - DOMAIN,cdn.datacamp.com
   - DOMAIN,cdn.datatables.net
@@ -557,7 +558,6 @@ payload:
   - DOMAIN,cdn.search.brave.com
   - DOMAIN,cdn.sedo.com
   - DOMAIN,cdn.segment.com
-  - DOMAIN,cdn.sellix.io
   - DOMAIN,cdn.seondf.com
   - DOMAIN,cdn.setapp.com
   - DOMAIN,cdn.sheetjs.com
@@ -931,6 +931,7 @@ payload:
   - DOMAIN,fscdn.eppo.cloud
   - DOMAIN,g-static.ap4r.com
   - DOMAIN,g1.nyt.com
+  - DOMAIN,gearbox.imgix.com
   - DOMAIN,genesis-cdn.ff.com
   - DOMAIN,geoip-js.com
   - DOMAIN,gfx-data.news-engineering.aws.wapo.pub
@@ -1001,7 +1002,6 @@ payload:
   - DOMAIN,iframe.nbcnews.com
   - DOMAIN,imag.malavida.com
   - DOMAIN,image-forwarder.notaku.so
-  - DOMAIN,image.4fuk.org
   - DOMAIN,image.ap-mail.org
   - DOMAIN,image.civitai.com
   - DOMAIN,image.cnbcfm.com
@@ -1202,6 +1202,7 @@ payload:
   - DOMAIN,irp-cdn.multiscreensite.com
   - DOMAIN,j.udn.com.tw
   - DOMAIN,jac.yahoosandbox.com
+  - DOMAIN,jaws.pbs.org
   - DOMAIN,jfe-cdn.qualtrics.com
   - DOMAIN,jira-frontend-bifrost.prod-east.frontend.public.atl-paas.net
   - DOMAIN,js-1-cdn.airdroid.com
@@ -1299,6 +1300,7 @@ payload:
   - DOMAIN,media.cnn.com
   - DOMAIN,media.contentapi.ea.com
   - DOMAIN,media.convertkit.com
+  - DOMAIN,media.daily.dev
   - DOMAIN,media.datacenterdynamics.com
   - DOMAIN,media.dev.to
   - DOMAIN,media.discordapp.net
@@ -1315,6 +1317,7 @@ payload:
   - DOMAIN,media.hachyderm.io
   - DOMAIN,media.infosec.exchange
   - DOMAIN,media.inhumanity.com
+  - DOMAIN,media.invisioncic.com
   - DOMAIN,media.istockphoto.com
   - DOMAIN,media.kit.com
   - DOMAIN,media.lantern.io
@@ -2063,7 +2066,6 @@ payload:
   - DOMAIN,unsubscribe-imgs.leavemealone.com
   - DOMAIN,updates.signal.org
   - DOMAIN,updates2.signal.org
-  - DOMAIN,upload.filebase.com
   - DOMAIN,upload.wikimedia.org
   - DOMAIN,uploads.codesandbox.io
   - DOMAIN,uploads.guim.co.uk
@@ -2235,6 +2237,7 @@ payload:
   - DOMAIN-SUFFIX,9cache.com
   - DOMAIN-SUFFIX,a.storyblok.com
   - DOMAIN-SUFFIX,a1tb.com
+  - DOMAIN-SUFFIX,a7s.imgix.com
   - DOMAIN-SUFFIX,aacdn.nagich.com
   - DOMAIN-SUFFIX,aayinltcs.arduino.cc
   - DOMAIN-SUFFIX,abc-cdn.net.au
@@ -2346,6 +2349,7 @@ payload:
   - DOMAIN-SUFFIX,cdn.mozilla.net
   - DOMAIN-SUFFIX,cdn.nimg.jp
   - DOMAIN-SUFFIX,cdn.nintendo.net
+  - DOMAIN-SUFFIX,cdn.pbs.org
   - DOMAIN-SUFFIX,cdn.printfriendly.com
   - DOMAIN-SUFFIX,cdn.prismic.io
   - DOMAIN-SUFFIX,cdn.prod.atlassian-dev.net
@@ -2885,7 +2889,6 @@ payload:
   - DOMAIN-SUFFIX,pxlecdn.com
   - DOMAIN-SUFFIX,pypi.org
   - DOMAIN-SUFFIX,pythonhosted.org
-  - DOMAIN-SUFFIX,pztv.ca
   - DOMAIN-SUFFIX,qooqlevideo.com
   - DOMAIN-SUFFIX,quay.io
   - DOMAIN-SUFFIX,quip-cdn.com

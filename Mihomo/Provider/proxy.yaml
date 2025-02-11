@@ -1,5 +1,5 @@
-# 更新时间: 2025-02-10 08:37:51（北京时间）
-# 规则数量: 32052
+# 更新时间: 2025-02-11 08:36:40（北京时间）
+# 规则数量: 32051
 payload:
   - DOMAIN,3dns-1.adobe.com
   - DOMAIN,3dns-2.adobe.com
@@ -1659,7 +1659,6 @@ payload:
   - DOMAIN-SUFFIX,ai
   - DOMAIN-SUFFIX,ai-kan.net
   - DOMAIN-SUFFIX,ai-wen.net
-  - DOMAIN-SUFFIX,ai.com
   - DOMAIN-SUFFIX,ai3sd.ac.uk
   - DOMAIN-SUFFIX,ai7995.site
   - DOMAIN-SUFFIX,ai91porn.cc
