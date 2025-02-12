@@ -1,5 +1,5 @@
-# 更新时间: 2025-02-11 20:14:20（北京时间）
-# 规则数量: 98424
+# 更新时间: 2025-02-12 08:36:47（北京时间）
+# 规则数量: 98404
 payload:
   - DOMAIN,1-fss24-s0.streamhoster.com
   - DOMAIN,14033.live.streamtheworld.com
@@ -1776,7 +1776,6 @@ payload:
   - DOMAIN-SUFFIX,10101111cdn.com
   - DOMAIN-SUFFIX,1010jiajiao.com
   - DOMAIN-SUFFIX,1010jz.com
-  - DOMAIN-SUFFIX,1010pic.com
   - DOMAIN-SUFFIX,1010sh.com
   - DOMAIN-SUFFIX,1010t.com
   - DOMAIN-SUFFIX,101505.com
@@ -1814,7 +1813,6 @@ payload:
   - DOMAIN-SUFFIX,1065m.com
   - DOMAIN-SUFFIX,1066888.com
   - DOMAIN-SUFFIX,1073.com
-  - DOMAIN-SUFFIX,107788.com
   - DOMAIN-SUFFIX,1088hg41.com
   - DOMAIN-SUFFIX,108ai.com
   - DOMAIN-SUFFIX,108pk.com
@@ -6166,7 +6164,6 @@ payload:
   - DOMAIN-SUFFIX,52xinyou.com
   - DOMAIN-SUFFIX,52xitong.com
   - DOMAIN-SUFFIX,52xiuxian.com
-  - DOMAIN-SUFFIX,52xiyou.com
   - DOMAIN-SUFFIX,52xydl.com
   - DOMAIN-SUFFIX,52xyz.com
   - DOMAIN-SUFFIX,52xz.com
@@ -8810,7 +8807,6 @@ payload:
   - DOMAIN-SUFFIX,937-2.vip
   - DOMAIN-SUFFIX,937-3.vip
   - DOMAIN-SUFFIX,937-6.vip
-  - DOMAIN-SUFFIX,9377.com
   - DOMAIN-SUFFIX,9377a.com
   - DOMAIN-SUFFIX,9377d.com
   - DOMAIN-SUFFIX,9377df.com
@@ -9799,13 +9795,11 @@ payload:
   - DOMAIN-SUFFIX,adamcoder.com
   - DOMAIN-SUFFIX,adamoid.com
   - DOMAIN-SUFFIX,adanachina.com
-  - DOMAIN-SUFFIX,adanxing.com
   - DOMAIN-SUFFIX,adapay.tech
   - DOMAIN-SUFFIX,adarrive.com
   - DOMAIN-SUFFIX,adaxin.com
   - DOMAIN-SUFFIX,adbgz.com
   - DOMAIN-SUFFIX,adbiding.com
-  - DOMAIN-SUFFIX,adbkwai.com
   - DOMAIN-SUFFIX,adc-expo.com
   - DOMAIN-SUFFIX,adcdn.com
   - DOMAIN-SUFFIX,adcomeon.com
@@ -14417,7 +14411,6 @@ payload:
   - DOMAIN-SUFFIX,beiyxiu.com
   - DOMAIN-SUFFIX,beizengtech.com
   - DOMAIN-SUFFIX,beizhua.com
-  - DOMAIN-SUFFIX,beizi.biz
   - DOMAIN-SUFFIX,beiziba.com
   - DOMAIN-SUFFIX,beiziman.com
   - DOMAIN-SUFFIX,bej9.com
@@ -14845,7 +14838,6 @@ payload:
   - DOMAIN-SUFFIX,biantongzixun.com
   - DOMAIN-SUFFIX,bianwa.com
   - DOMAIN-SUFFIX,bianwanjia.com
-  - DOMAIN-SUFFIX,bianxian.com
   - DOMAIN-SUFFIX,bianyuandaigou.com
   - DOMAIN-SUFFIX,bianzhia.com
   - DOMAIN-SUFFIX,bianzhile.com
@@ -16418,7 +16410,6 @@ payload:
   - DOMAIN-SUFFIX,brentron.com
   - DOMAIN-SUFFIX,brewbeerwiki.org
   - DOMAIN-SUFFIX,brewersmix.com
-  - DOMAIN-SUFFIX,brg0.com
   - DOMAIN-SUFFIX,brhfh.com
   - DOMAIN-SUFFIX,brick4.com
   - DOMAIN-SUFFIX,brickmachinery.net
@@ -19323,7 +19314,6 @@ payload:
   - DOMAIN-SUFFIX,chengzhaoxi.xyz
   - DOMAIN-SUFFIX,chengzhongmugu.ltd
   - DOMAIN-SUFFIX,chengzhongmugu.vip
-  - DOMAIN-SUFFIX,chengzijianzhan.cc
   - DOMAIN-SUFFIX,chengzijianzhan.com
   - DOMAIN-SUFFIX,chengzivr.com
   - DOMAIN-SUFFIX,chengzz.com
@@ -20363,7 +20353,6 @@ payload:
   - DOMAIN-SUFFIX,chipup.com
   - DOMAIN-SUFFIX,chipwing.com
   - DOMAIN-SUFFIX,chipyun.com
-  - DOMAIN-SUFFIX,chiq-cloud.com
   - DOMAIN-SUFFIX,chiralquest.com
   - DOMAIN-SUFFIX,chisai.tech
   - DOMAIN-SUFFIX,chisc.net
@@ -23321,7 +23310,6 @@ payload:
   - DOMAIN-SUFFIX,csjdeveloper.com
   - DOMAIN-SUFFIX,csjiexin.com
   - DOMAIN-SUFFIX,csjitian.com
-  - DOMAIN-SUFFIX,csjplatform.com
   - DOMAIN-SUFFIX,csjsdz.com
   - DOMAIN-SUFFIX,csjvision.com
   - DOMAIN-SUFFIX,csjwang.com
@@ -59876,7 +59864,6 @@ payload:
   - DOMAIN-SUFFIX,muzisoft.com
   - DOMAIN-SUFFIX,muziyueqiu.com
   - DOMAIN-SUFFIX,muzuhui.com
-  - DOMAIN-SUFFIX,mvad.com
   - DOMAIN-SUFFIX,mvc188.com
   - DOMAIN-SUFFIX,mvcat.com
   - DOMAIN-SUFFIX,mvhere.com
@@ -61376,7 +61363,6 @@ payload:
   - DOMAIN-SUFFIX,niua.com
   - DOMAIN-SUFFIX,niuacc.com
   - DOMAIN-SUFFIX,niuaimian.com
-  - DOMAIN-SUFFIX,niuaniua.com
   - DOMAIN-SUFFIX,niuap.com
   - DOMAIN-SUFFIX,niubalun.com
   - DOMAIN-SUFFIX,niubb.net
@@ -63881,8 +63867,6 @@ payload:
   - DOMAIN-SUFFIX,pangod.com
   - DOMAIN-SUFFIX,pangodsxbj.com
   - DOMAIN-SUFFIX,pangoing.com
-  - DOMAIN-SUFFIX,pangolin-dsp-toutiao-b.com
-  - DOMAIN-SUFFIX,pangolin-dsp-toutiao.com
   - DOMAIN-SUFFIX,pangolin-sdk-toutiao-b.com
   - DOMAIN-SUFFIX,pangolin-sdk-toutiao.com
   - DOMAIN-SUFFIX,pangolin-sdk-toutiao1.com
@@ -63909,8 +63893,6 @@ payload:
   - DOMAIN-SUFFIX,panpanfood.com
   - DOMAIN-SUFFIX,panpanzsw.com
   - DOMAIN-SUFFIX,panpay.com
-  - DOMAIN-SUFFIX,panplayable-toutiao-b.com
-  - DOMAIN-SUFFIX,panplayable-toutiao.com
   - DOMAIN-SUFFIX,panqiincs.me
   - DOMAIN-SUFFIX,panruikj.com
   - DOMAIN-SUFFIX,panshenlian.com
@@ -73114,7 +73096,6 @@ payload:
   - DOMAIN-SUFFIX,sigmachip.com
   - DOMAIN-SUFFIX,sigmamed.net
   - DOMAIN-SUFFIX,sigmastarsemi.com
-  - DOMAIN-SUFFIX,sigmob.com
   - DOMAIN-SUFFIX,sigmoblive.com
   - DOMAIN-SUFFIX,sign-say.com
   - DOMAIN-SUFFIX,signage911.com
@@ -90796,7 +90777,6 @@ payload:
   - DOMAIN-SUFFIX,yf0008168.com
   - DOMAIN-SUFFIX,yf3p.com
   - DOMAIN-SUFFIX,yf520.com
-  - DOMAIN-SUFFIX,yfanads.com
   - DOMAIN-SUFFIX,yfanqie.com
   - DOMAIN-SUFFIX,yfbudong.com
   - DOMAIN-SUFFIX,yfbzb.com
