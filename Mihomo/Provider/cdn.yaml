@@ -1,5 +1,5 @@
-# 更新时间: 2025-02-12 08:36:38（北京时间）
-# 规则数量: 3156
+# 更新时间: 2025-02-12 20:13:44（北京时间）
+# 规则数量: 3157
 payload:
   - DOMAIN,0x0.st
   - DOMAIN,3dna.nationbuilder.com
@@ -2039,6 +2039,7 @@ payload:
   - DOMAIN,time.windows.com
   - DOMAIN,tn.txxx.tube
   - DOMAIN,tn.vjav.com
+  - DOMAIN,todoist.b-cdn.net
   - DOMAIN,ton.local.twitter.com
   - DOMAIN,tools-static.wmflabs.org
   - DOMAIN,topbar-static.piano.io
