@@ -1,8 +1,7 @@
-# 更新时间: 2025-02-11 20:14:25（北京时间）
-# 规则数量: 261
+# 更新时间: 2025-02-12 08:36:53（北京时间）
+# 规则数量: 259
 payload:
   - DOMAIN,0123456789nonexistent.com
-  - DOMAIN,0d.kebhana.mx
   - DOMAIN,1337.abcvg.info
   - DOMAIN,api.ipv4online.uk
   - DOMAIN,asusrouter.com
@@ -11,29 +10,31 @@ payload:
   - DOMAIN,board.zash.run.place
   - DOMAIN,bt.ktrackers.com
   - DOMAIN,bt.okmp3.ru
-  - DOMAIN,bt.poletracker.org
   - DOMAIN,bt.rer.lol
-  - DOMAIN,bt2.080609.xyz
-  - DOMAIN,buny.uk
+  - DOMAIN,bt1.xxxxbt.cc
   - DOMAIN,ch3oh.ru
+  - DOMAIN,concen.org
   - DOMAIN,d.metacubex.one
   - DOMAIN,d40969.acod.regrucolo.ru
+  - DOMAIN,discord.heihachi.pw
   - DOMAIN,ec2-18-191-163-220.us-east-2.compute.amazonaws.com
   - DOMAIN,evan.im
   - DOMAIN,exodus.desync.com
   - DOMAIN,finbytes.org
   - DOMAIN,fleira.no
   - DOMAIN,highteahop.top
-  - DOMAIN,home.yxgz.club
   - DOMAIN,instant.arubanetworks.com
   - DOMAIN,ipv4.rer.lol
   - DOMAIN,ipv4announce.sktorrent.eu
   - DOMAIN,ipv6.rer.lol
+  - DOMAIN,isk.richardsw.club
   - DOMAIN,ismaarino.com
+  - DOMAIN,leet-tracker.moe
   - DOMAIN,martin-gebhardt.eu
   - DOMAIN,metacubex.github.io
   - DOMAIN,metacubexd.pages.dev
   - DOMAIN,miwifi.com
+  - DOMAIN,new-line.net
   - DOMAIN,ns-1.x-fins.com
   - DOMAIN,nyaa.tracker.wf
   - DOMAIN,oasisauth.h3c.com
@@ -43,7 +44,6 @@ payload:
   - DOMAIN,open.stealth.si
   - DOMAIN,open.tracker.cl
   - DOMAIN,open.tracker.ink
-  - DOMAIN,open.trackerlist.xyz
   - DOMAIN,opentor.org
   - DOMAIN,opentracker.io
   - DOMAIN,p2p.publictracker.xyz
@@ -58,19 +58,15 @@ payload:
   - DOMAIN,servandroidkino.ru
   - DOMAIN,setmeup.arubanetworks.com
   - DOMAIN,share.hkg-fansub.info
-  - DOMAIN,shubt.net
   - DOMAIN,sparkle.ghostchu-services.top
-  - DOMAIN,t.overflow.biz
+  - DOMAIN,t.jaekr.sh
   - DOMAIN,taciturn-shadow.spb.ru
   - DOMAIN,tk.greedland.net
-  - DOMAIN,torrent.tracker.durukanbal.com
   - DOMAIN,torrentsmd.com
   - DOMAIN,tplogin.cn
-  - DOMAIN,tr.abir.ga
   - DOMAIN,tr.burnabyhighstar.com
   - DOMAIN,tr.nyacat.pw
   - DOMAIN,tr.zukizuki.org
-  - DOMAIN,tr4ck3r.duckdns.org
   - DOMAIN,tracker-udp.gbitt.info
   - DOMAIN,tracker-zhuqiy.dgj055.icu
   - DOMAIN,tracker.0x7c0.com
@@ -79,18 +75,19 @@ payload:
   - DOMAIN,tracker.bittor.pw
   - DOMAIN,tracker.bjut.jp
   - DOMAIN,tracker.breizh.pm
+  - DOMAIN,tracker.bt-hash.com
   - DOMAIN,tracker.bt4g.com
   - DOMAIN,tracker.bz
-  - DOMAIN,tracker.corpscorp.online
   - DOMAIN,tracker.cyberia.is
   - DOMAIN,tracker.darkness.services
   - DOMAIN,tracker.ddunlimited.net
   - DOMAIN,tracker.dler.com
   - DOMAIN,tracker.dler.org
+  - DOMAIN,tracker.dmcomic.org
   - DOMAIN,tracker.dump.cl
-  - DOMAIN,tracker.filemail.com
+  - DOMAIN,tracker.fnix.net
   - DOMAIN,tracker.foreverpirates.co
-  - DOMAIN,tracker.gcrenwp.top
+  - DOMAIN,tracker.gigantino.net
   - DOMAIN,tracker.gmi.gd
   - DOMAIN,tracker.ipv6tracker.org
   - DOMAIN,tracker.ipv6tracker.ru
@@ -98,14 +95,12 @@ payload:
   - DOMAIN,tracker.kuroy.me
   - DOMAIN,tracker.leechshield.link
   - DOMAIN,tracker.lilithraws.org
-  - DOMAIN,tracker.lintk.me
   - DOMAIN,tracker.moeking.me
-  - DOMAIN,tracker.moxing.party
   - DOMAIN,tracker.mywaifu.best
   - DOMAIN,tracker.nanoha.org
+  - DOMAIN,tracker.ololosh.space
   - DOMAIN,tracker.opentrackr.org
   - DOMAIN,tracker.openwebtorrent.com
-  - DOMAIN,tracker.qu.ax
   - DOMAIN,tracker.renfei.net
   - DOMAIN,tracker.sbsub.com
   - DOMAIN,tracker.skyts.net
@@ -113,11 +108,12 @@ payload:
   - DOMAIN,tracker.theoks.net
   - DOMAIN,tracker.tiny-vps.com
   - DOMAIN,tracker.torrent.eu.org
+  - DOMAIN,tracker.torrust-demo.com
   - DOMAIN,tracker.tryhackx.org
+  - DOMAIN,tracker.vanitycore.co
   - DOMAIN,tracker.waaa.moe
   - DOMAIN,tracker.xiaoduola.xyz
   - DOMAIN,tracker.yemekyedim.com
-  - DOMAIN,tracker.yume-hatsuyuki.moe
   - DOMAIN,tracker1.520.jp
   - DOMAIN,tracker1.myporn.club
   - DOMAIN,tracker2.dler.org
@@ -127,6 +123,7 @@ payload:
   - DOMAIN,tracker810.xyz
   - DOMAIN,ttk2.nbaonlineservice.com
   - DOMAIN,u4.trakx.crim.ist
+  - DOMAIN,u6.trakx.crim.ist
   - DOMAIN,udp.tracker.projectk.org
   - DOMAIN,wepzone.net
   - DOMAIN,www.all4nothin.net
@@ -135,6 +132,7 @@ payload:
   - DOMAIN,www.miwifi.com
   - DOMAIN,www.routerlogin.com
   - DOMAIN,www.torrent.eu.org
+  - DOMAIN,www.torrentsnipe.info
   - DOMAIN,www.wareztorrent.com
   - DOMAIN,yacd.haishan.me
   - DOMAIN,yacd.metacubex.one
