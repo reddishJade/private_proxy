@@ -1,5 +1,5 @@
-# 更新时间: 2025-02-14 08:36:37（北京时间）
-# 规则数量: 32053
+# 更新时间: 2025-02-14 20:13:36（北京时间）
+# 规则数量: 32054
 payload:
   - DOMAIN,3dns-1.adobe.com
   - DOMAIN,3dns-2.adobe.com
@@ -25545,6 +25545,7 @@ payload:
   - DOMAIN-SUFFIX,soccerfinancier.ca
   - DOMAIN-SUFFIX,soccermatchpass.com
   - DOMAIN-SUFFIX,socdm.com
+  - DOMAIN-SUFFIX,social
   - DOMAIN-SUFFIX,social.com
   - DOMAIN-SUFFIX,socialblade.com
   - DOMAIN-SUFFIX,socialcam.com
