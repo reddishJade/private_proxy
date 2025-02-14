@@ -1,5 +1,5 @@
-# 更新时间: 2025-02-13 20:13:52（北京时间）
-# 规则数量: 3157
+# 更新时间: 2025-02-14 08:36:35（北京时间）
+# 规则数量: 3158
 payload:
   - DOMAIN,0x0.st
   - DOMAIN,3dna.nationbuilder.com
@@ -2772,6 +2772,7 @@ payload:
   - DOMAIN-SUFFIX,mobilius.top
   - DOMAIN-SUFFIX,monitor.azure.com
   - DOMAIN-SUFFIX,motherlessmedia.com
+  - DOMAIN-SUFFIX,msftauthimages.net
   - DOMAIN-SUFFIX,msftconnecttest.com
   - DOMAIN-SUFFIX,msftncsi.com
   - DOMAIN-SUFFIX,msftstatic.com
