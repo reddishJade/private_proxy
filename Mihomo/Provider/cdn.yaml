@@ -1,5 +1,5 @@
-# 更新时间: 2025-02-15 08:36:00（北京时间）
-# 规则数量: 3192
+# 更新时间: 2025-02-15 20:12:00（北京时间）
+# 规则数量: 3194
 payload:
   - DOMAIN,0x0.st
   - DOMAIN,3dna.nationbuilder.com
@@ -499,6 +499,7 @@ payload:
   - DOMAIN,cdn.mcauto-images-production.sendgrid.net
   - DOMAIN,cdn.mcr.ea.com
   - DOMAIN,cdn.media.amplience.net
+  - DOMAIN,cdn.mewe.com
   - DOMAIN,cdn.micro.blog
   - DOMAIN,cdn.minecraft-server-list.com
   - DOMAIN,cdn.miohentai.com
@@ -1544,6 +1545,7 @@ payload:
   - DOMAIN,public-assets.typeform.com
   - DOMAIN,public-cdn.bblmw.com
   - DOMAIN,public-files.gumroad.com
+  - DOMAIN,public-img.mewe.com
   - DOMAIN,public-pages.cbinsights.com
   - DOMAIN,public.flourish.studio
   - DOMAIN,public.hare200.com
