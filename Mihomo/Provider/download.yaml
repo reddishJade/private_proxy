@@ -1,5 +1,5 @@
-# 更新时间: 2025-02-14 20:13:34（北京时间）
-# 规则数量: 635
+# 更新时间: 2025-02-15 08:36:00（北京时间）
+# 规则数量: 636
 payload:
   - DOMAIN,amupdatedl.microsoft.com
   - DOMAIN,amupdatedl2.microsoft.com
@@ -84,6 +84,7 @@ payload:
   - DOMAIN,download.cypress.io
   - DOMAIN,download.dlsite.com
   - DOMAIN,download.docker.com
+  - DOMAIN,download.fydeos.io
   - DOMAIN,download.gigabyte.com
   - DOMAIN,download.gimp.org
   - DOMAIN,download.hikarifield.co.jp
