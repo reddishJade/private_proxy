@@ -1,5 +1,5 @@
-# 更新时间: 2025-02-15 20:12:08（北京时间）
-# 规则数量: 98378
+# 更新时间: 2025-02-16 08:40:11（北京时间）
+# 规则数量: 98379
 payload:
   - DOMAIN,1-fss24-s0.streamhoster.com
   - DOMAIN,14033.live.streamtheworld.com
@@ -60884,6 +60884,7 @@ payload:
   - DOMAIN-SUFFIX,net-swift.com
   - DOMAIN-SUFFIX,net-sy.com
   - DOMAIN-SUFFIX,net-times.net
+  - DOMAIN-SUFFIX,net.cn
   - DOMAIN-SUFFIX,net0516.com
   - DOMAIN-SUFFIX,net111.info
   - DOMAIN-SUFFIX,net130.com
