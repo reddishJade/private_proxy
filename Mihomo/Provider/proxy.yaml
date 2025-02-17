@@ -1,5 +1,5 @@
-# 更新时间: 2025-02-16 20:14:28（北京时间）
-# 规则数量: 32061
+# 更新时间: 2025-02-17 08:38:54（北京时间）
+# 规则数量: 32066
 payload:
   - DOMAIN,3dns-1.adobe.com
   - DOMAIN,3dns-2.adobe.com
@@ -19417,7 +19417,12 @@ payload:
   - DOMAIN-SUFFIX,mwrc.ac.uk
   - DOMAIN-SUFFIX,mx.hao123.com
   - DOMAIN-SUFFIX,mx981.com
+  - DOMAIN-SUFFIX,mxlogin.com
   - DOMAIN-SUFFIX,mxmcdn.net
+  - DOMAIN-SUFFIX,mxroute.com
+  - DOMAIN-SUFFIX,mxroutedocs.com
+  - DOMAIN-SUFFIX,mxroutehelp.com
+  - DOMAIN-SUFFIX,mxrouting.net
   - DOMAIN-SUFFIX,mxshm.site
   - DOMAIN-SUFFIX,my
   - DOMAIN-SUFFIX,my-enema.com
