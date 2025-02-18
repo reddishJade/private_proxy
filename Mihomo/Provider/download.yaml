@@ -1,5 +1,5 @@
-# 更新时间: 2025-02-17 20:14:37（北京时间）
-# 规则数量: 636
+# 更新时间: 2025-02-18 08:36:30（北京时间）
+# 规则数量: 637
 payload:
   - DOMAIN,amupdatedl.microsoft.com
   - DOMAIN,amupdatedl2.microsoft.com
@@ -239,6 +239,7 @@ payload:
   - DOMAIN-SUFFIX,artifacts.ui.com
   - DOMAIN-SUFFIX,autoupdatesvc.delivery.autodesk.com
   - DOMAIN-SUFFIX,catbox.moe
+  - DOMAIN-SUFFIX,cdimage.debian.org
   - DOMAIN-SUFFIX,cdn.blizzard.com
   - DOMAIN-SUFFIX,cdn.ea.com
   - DOMAIN-SUFFIX,cdn.nintendo.net
