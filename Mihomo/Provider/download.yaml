@@ -1,5 +1,5 @@
-# 更新时间: 2025-02-18 08:36:30（北京时间）
-# 规则数量: 637
+# 更新时间: 2025-02-18 20:14:22（北京时间）
+# 规则数量: 638
 payload:
   - DOMAIN,amupdatedl.microsoft.com
   - DOMAIN,amupdatedl2.microsoft.com
@@ -30,6 +30,7 @@ payload:
   - DOMAIN,cdn-patch.swtor.com
   - DOMAIN,cdn-updates.orbstack.dev
   - DOMAIN,cdn.cypress.io
+  - DOMAIN,cdn.fwupd.org
   - DOMAIN,cdn.hyperbeam.com
   - DOMAIN,cdn.kagi.com
   - DOMAIN,cdn.kde.org
