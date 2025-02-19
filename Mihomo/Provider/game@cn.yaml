@@ -1,33 +1,17 @@
-# 更新时间: 2025-02-18 20:14:22（北京时间）
-# 规则数量: 171
+# 更新时间: 2025-02-19 08:37:01（北京时间）
+# 规则数量: 155
 payload:
-  - DOMAIN,assets1.xboxlive.cn
-  - DOMAIN,assets2.xboxlive.cn
-  - DOMAIN,cdn-ali.content.steamchina.com
-  - DOMAIN,cdn-qc.content.steamchina.com
-  - DOMAIN,cdn-ws.content.steamchina.com
-  - DOMAIN,csgo.wmsj.cn
   - DOMAIN,dl.delivery.mp.microsoft.com
-  - DOMAIN,dl.steam.clngaa.com
-  - DOMAIN,dl.steam.ksyna.com
-  - DOMAIN,dota2.wmsj.cn
   - DOMAIN,epicgames-download1-1251447533.file.myqcloud.com
   - DOMAIN,gog.qtlglb.com
   - DOMAIN,gogalaxy.gog-statics.com
   - DOMAIN,menu-static.gog-statics.com
   - DOMAIN,productcard.gog-statics.com
-  - DOMAIN,st.dl.bscstorage.net
-  - DOMAIN,st.dl.eccdnx.com
-  - DOMAIN,st.dl.pinyuncloud.com
   - DOMAIN,static-login.gog-statics.com
-  - DOMAIN,steampipe.steamcontent.tnkjmec.com
-  - DOMAIN,steampowered.com.8686c.com
-  - DOMAIN,steamstatic.com.8686c.com
   - DOMAIN,tlu.dl.delivery.mp.microsoft.com
   - DOMAIN,trts.baishancdnx.cn
   - DOMAIN,uplaypc-s-ubisoft.cdn.ubi.com
   - DOMAIN,uplaypc-s-ubisoft.cdn.ubionline.com.cn
-  - DOMAIN,wmsjsteam.com
   - DOMAIN,www4-static.gog-statics.com
   - DOMAIN,xz.pphimalayanrt.com
   - DOMAIN-SUFFIX,17roco.com
