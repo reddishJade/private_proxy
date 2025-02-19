@@ -1,5 +1,5 @@
-# 更新时间: 2025-02-19 08:37:01（北京时间）
-# 规则数量: 3215
+# 更新时间: 2025-02-19 20:13:58（北京时间）
+# 规则数量: 3216
 payload:
   - DOMAIN,0x0.st
   - DOMAIN,3dna.nationbuilder.com
@@ -344,6 +344,7 @@ payload:
   - DOMAIN,cdn-static.talent.com
   - DOMAIN,cdn-uicons.flaticon.com
   - DOMAIN,cdn-web.fydeos.io
+  - DOMAIN,cdn-web.orbstack.dev
   - DOMAIN,cdn-www.bluestacks.com
   - DOMAIN,cdn-yotpo-images-production.yotpo.com
   - DOMAIN,cdn.17app.co

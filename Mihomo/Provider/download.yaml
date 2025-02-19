@@ -1,5 +1,5 @@
-# 更新时间: 2025-02-19 08:37:01（北京时间）
-# 规则数量: 639
+# 更新时间: 2025-02-19 20:13:58（北京时间）
+# 规则数量: 643
 payload:
   - DOMAIN,amupdatedl.microsoft.com
   - DOMAIN,amupdatedl2.microsoft.com
@@ -134,10 +134,13 @@ payload:
   - DOMAIN,ftp.gwdg.de
   - DOMAIN,gamedownloads-rockstargames-com.akamaized.net
   - DOMAIN,get.pixelexperience.org
+  - DOMAIN,ghfast.top
+  - DOMAIN,ghgo.xyz
   - DOMAIN,ghp.ci
   - DOMAIN,go-updater.brave.com
   - DOMAIN,gog-cdn-fastly-cp77.gog.com
   - DOMAIN,gog-cdn-fastly.gog.com
+  - DOMAIN,http.kali.org
   - DOMAIN,install.virtfusion.net
   - DOMAIN,invent.kde.org
   - DOMAIN,iterm2.com
@@ -325,6 +328,7 @@ payload:
   - DOMAIN-SUFFIX,oss-us-east-1.aliyuncs.com
   - DOMAIN-SUFFIX,oss-us-west-1.aliyuncs.com
   - DOMAIN-SUFFIX,pixeldrain.com
+  - DOMAIN-SUFFIX,ports.ubuntu.com
   - DOMAIN-SUFFIX,public.blob.vercel-storage.com
   - DOMAIN-SUFFIX,r2.dev
   - DOMAIN-SUFFIX,releases.hashicorp.com
