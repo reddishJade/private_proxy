@@ -1,5 +1,5 @@
-# 更新时间: 2025-02-19 08:37:10（北京时间）
-# 规则数量: 98334
+# 更新时间: 2025-02-19 20:14:07（北京时间）
+# 规则数量: 98330
 payload:
   - DOMAIN,1-fss24-s0.streamhoster.com
   - DOMAIN,14033.live.streamtheworld.com
@@ -18183,7 +18183,6 @@ payload:
   - DOMAIN-SUFFIX,cdn.shanghai.nyu.edu
   - DOMAIN-SUFFIX,cdn.show
   - DOMAIN-SUFFIX,cdn.vin
-  - DOMAIN-SUFFIX,cdn.zampdsp.com
   - DOMAIN-SUFFIX,cdn08.com
   - DOMAIN-SUFFIX,cdn1008.com
   - DOMAIN-SUFFIX,cdn1218.com
@@ -21318,7 +21317,6 @@ payload:
   - DOMAIN-SUFFIX,cm-iov.com
   - DOMAIN-SUFFIX,cm-worklink.com
   - DOMAIN-SUFFIX,cm.fancyapi.com
-  - DOMAIN-SUFFIX,cm.ipinyou.com
   - DOMAIN-SUFFIX,cm1881.com
   - DOMAIN-SUFFIX,cm233.com
   - DOMAIN-SUFFIX,cm3721.com
@@ -43828,7 +43826,6 @@ payload:
   - DOMAIN-SUFFIX,i-xoron.com
   - DOMAIN-SUFFIX,i-z-e.com
   - DOMAIN-SUFFIX,i.dell.com
-  - DOMAIN-SUFFIX,i.ipinyou.com
   - DOMAIN-SUFFIX,i007.vip
   - DOMAIN-SUFFIX,i0349.com
   - DOMAIN-SUFFIX,i0597.com
@@ -51867,6 +51864,7 @@ payload:
   - DOMAIN-SUFFIX,kstyzj88.com
   - DOMAIN-SUFFIX,ksudi.com
   - DOMAIN-SUFFIX,ksupdate.com
+  - DOMAIN-SUFFIX,ksurl.cn
   - DOMAIN-SUFFIX,ksust.com
   - DOMAIN-SUFFIX,kswcd.com
   - DOMAIN-SUFFIX,kswxjnjs.com
@@ -69710,7 +69708,6 @@ payload:
   - DOMAIN-SUFFIX,s-ts.net
   - DOMAIN-SUFFIX,s-xsenyuan.com
   - DOMAIN-SUFFIX,s-zone.com
-  - DOMAIN-SUFFIX,s.zampdsp.com
   - DOMAIN-SUFFIX,s135.com
   - DOMAIN-SUFFIX,s163.com
   - DOMAIN-SUFFIX,s1979.com
@@ -74861,7 +74858,6 @@ payload:
   - DOMAIN-SUFFIX,staticsoe.com
   - DOMAIN-SUFFIX,staticsoem.com
   - DOMAIN-SUFFIX,staticswin.com
-  - DOMAIN-SUFFIX,stats.ipinyou.com
   - DOMAIN-SUFFIX,statsinstall.xyz
   - DOMAIN-SUFFIX,statuslarkoffice.com
   - DOMAIN-SUFFIX,stay-bullish.com

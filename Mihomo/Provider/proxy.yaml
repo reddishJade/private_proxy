@@ -1,5 +1,5 @@
-# 更新时间: 2025-02-19 08:37:04（北京时间）
-# 规则数量: 32151
+# 更新时间: 2025-02-19 20:14:00（北京时间）
+# 规则数量: 32145
 payload:
   - DOMAIN,adobeereg.com
   - DOMAIN,angle.com.tw
@@ -1904,7 +1904,6 @@ payload:
   - DOMAIN-SUFFIX,antislaverylaw.ac.uk
   - DOMAIN-SUFFIX,antiwave.net
   - DOMAIN-SUFFIX,anudetube.com
-  - DOMAIN-SUFFIX,anws.gov.tw
   - DOMAIN-SUFFIX,anxiangxing.com
   - DOMAIN-SUFFIX,anybunny.org
   - DOMAIN-SUFFIX,anybunny.tv
@@ -4171,7 +4170,6 @@ payload:
   - DOMAIN-SUFFIX,blizzard.com
   - DOMAIN-SUFFIX,blizzardgearstore.com
   - DOMAIN-SUFFIX,blms.ac.uk
-  - DOMAIN-SUFFIX,blob.core.windows.net
   - DOMAIN-SUFFIX,blockcast.it
   - DOMAIN-SUFFIX,blockcn.com
   - DOMAIN-SUFFIX,blockedbyhk.com
@@ -6628,7 +6626,6 @@ payload:
   - DOMAIN-SUFFIX,clojure.org
   - DOMAIN-SUFFIX,closer.ac.uk
   - DOMAIN-SUFFIX,cloud.ac.uk
-  - DOMAIN-SUFFIX,cloud.cupronickel.goog
   - DOMAIN-SUFFIX,cloud.mail.ru
   - DOMAIN-SUFFIX,cloudapp.net
   - DOMAIN-SUFFIX,cloudappsecurity.com
@@ -7002,7 +6999,6 @@ payload:
   - DOMAIN-SUFFIX,containersonaws.com
   - DOMAIN-SUFFIX,contechacademy.com
   - DOMAIN-SUFFIX,contemp-hist-arch.ac.uk
-  - DOMAIN-SUFFIX,content.office.net
   - DOMAIN-SUFFIX,contentful.com
   - DOMAIN-SUFFIX,contest.com
   - DOMAIN-SUFFIX,contests.twilio.com
@@ -7430,7 +7426,6 @@ payload:
   - DOMAIN-SUFFIX,cvu.ac.uk
   - DOMAIN-SUFFIX,cw.com.tw
   - DOMAIN-SUFFIX,cwa.ac.uk
-  - DOMAIN-SUFFIX,cwb.gov.tw
   - DOMAIN-SUFFIX,cwc.ac.uk
   - DOMAIN-SUFFIX,cwcams.com
   - DOMAIN-SUFFIX,cwcfe.ac.uk
@@ -13195,6 +13190,7 @@ payload:
   - DOMAIN-SUFFIX,hentaivn.de
   - DOMAIN-SUFFIX,hentaivn.la
   - DOMAIN-SUFFIX,hentaivn.net
+  - DOMAIN-SUFFIX,hentaivox.com
   - DOMAIN-SUFFIX,hentaivvz.com
   - DOMAIN-SUFFIX,hentaiworld.eu
   - DOMAIN-SUFFIX,hentaiworld.tv
@@ -26279,7 +26275,6 @@ payload:
   - DOMAIN-SUFFIX,streamable.com
   - DOMAIN-SUFFIX,streamate.com
   - DOMAIN-SUFFIX,streamhentaimovies.com
-  - DOMAIN-SUFFIX,streaming.mediaservices.windows.net
   - DOMAIN-SUFFIX,streamingdisney.net
   - DOMAIN-SUFFIX,streamingporn.xyz
   - DOMAIN-SUFFIX,streamingthe.net
@@ -26948,7 +26943,6 @@ payload:
   - DOMAIN-SUFFIX,telegraph.co.uk
   - DOMAIN-SUFFIX,telekom.com
   - DOMAIN-SUFFIX,telekom.de
-  - DOMAIN-SUFFIX,telephony.goog
   - DOMAIN-SUFFIX,telesco.pe
   - DOMAIN-SUFFIX,telesec.de
   - DOMAIN-SUFFIX,telesell.com
