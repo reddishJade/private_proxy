@@ -1,5 +1,5 @@
-# 更新时间: 2025-02-18 20:14:22（北京时间）
-# 规则数量: 638
+# 更新时间: 2025-02-19 08:37:01（北京时间）
+# 规则数量: 639
 payload:
   - DOMAIN,amupdatedl.microsoft.com
   - DOMAIN,amupdatedl2.microsoft.com
@@ -220,6 +220,7 @@ payload:
   - DOMAIN,update.googleapis.com
   - DOMAIN,update.greasyfork.org
   - DOMAIN,update.kiwibrowser.com
+  - DOMAIN,update.parallels.com
   - DOMAIN,update.sleazyfork.org
   - DOMAIN,updater.snipaste.com
   - DOMAIN,updates-cdn.bravesoftware.com
