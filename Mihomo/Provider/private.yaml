@@ -1,5 +1,5 @@
-# 更新时间: 2025-02-19 20:14:12（北京时间）
-# 规则数量: 259
+# 更新时间: 2025-02-20 08:37:19（北京时间）
+# 规则数量: 261
 payload:
   - DOMAIN,0123456789nonexistent.com
   - DOMAIN,0d.kebhana.mx
@@ -21,9 +21,9 @@ payload:
   - DOMAIN,ec2-18-191-163-220.us-east-2.compute.amazonaws.com
   - DOMAIN,evan.im
   - DOMAIN,exodus.desync.com
+  - DOMAIN,finbytes.org
   - DOMAIN,fleira.no
   - DOMAIN,highteahop.top
-  - DOMAIN,home.yxgz.club
   - DOMAIN,instant.arubanetworks.com
   - DOMAIN,ipv4announce.sktorrent.eu
   - DOMAIN,ipv6.rer.lol
@@ -54,7 +54,7 @@ payload:
   - DOMAIN,retracker.spark-rostov.ru
   - DOMAIN,retracker.x2k.ru
   - DOMAIN,router.asus.com
-  - DOMAIN,servandroidkino.ru
+  - DOMAIN,seeders-paradise.org
   - DOMAIN,setmeup.arubanetworks.com
   - DOMAIN,sparkle.ghostchu-services.top
   - DOMAIN,t.overflow.biz
@@ -65,7 +65,6 @@ payload:
   - DOMAIN,tr.burnabyhighstar.com
   - DOMAIN,tr.nyacat.pw
   - DOMAIN,tr.zukizuki.org
-  - DOMAIN,tr4ck3r.duckdns.org
   - DOMAIN,tracker-udp.gbitt.info
   - DOMAIN,tracker-zhuqiy.dgj055.icu
   - DOMAIN,tracker.0x7c0.com
@@ -75,11 +74,13 @@ payload:
   - DOMAIN,tracker.bt-hash.com
   - DOMAIN,tracker.bt4g.com
   - DOMAIN,tracker.bz
+  - DOMAIN,tracker.corpscorp.online
   - DOMAIN,tracker.cyberia.is
   - DOMAIN,tracker.darkness.services
   - DOMAIN,tracker.ddunlimited.net
   - DOMAIN,tracker.dler.com
   - DOMAIN,tracker.dler.org
+  - DOMAIN,tracker.dmcomic.org
   - DOMAIN,tracker.dump.cl
   - DOMAIN,tracker.filemail.com
   - DOMAIN,tracker.fnix.net
@@ -90,6 +91,7 @@ payload:
   - DOMAIN,tracker.ipv6tracker.org
   - DOMAIN,tracker.ipv6tracker.ru
   - DOMAIN,tracker.kmzs123.cn
+  - DOMAIN,tracker.kmzs123.top
   - DOMAIN,tracker.kuroy.me
   - DOMAIN,tracker.lilithraws.org
   - DOMAIN,tracker.lintk.me
@@ -103,7 +105,6 @@ payload:
   - DOMAIN,tracker.openwebtorrent.com
   - DOMAIN,tracker.qu.ax
   - DOMAIN,tracker.renfei.net
-  - DOMAIN,tracker.sbsub.com
   - DOMAIN,tracker.skyts.net
   - DOMAIN,tracker.srv00.com
   - DOMAIN,tracker.tiny-vps.com
@@ -113,6 +114,7 @@ payload:
   - DOMAIN,tracker.valete.tf
   - DOMAIN,tracker.vanitycore.co
   - DOMAIN,tracker.waaa.moe
+  - DOMAIN,tracker.xiaoduola.xyz
   - DOMAIN,tracker.yemekyedim.com
   - DOMAIN,tracker.yume-hatsuyuki.moe
   - DOMAIN,tracker1.520.jp
