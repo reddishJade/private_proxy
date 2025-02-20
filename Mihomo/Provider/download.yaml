@@ -1,5 +1,5 @@
-# 更新时间: 2025-02-20 08:37:07（北京时间）
-# 规则数量: 643
+# 更新时间: 2025-02-20 20:14:06（北京时间）
+# 规则数量: 650
 payload:
   - DOMAIN,amupdatedl.microsoft.com
   - DOMAIN,amupdatedl2.microsoft.com
@@ -38,17 +38,20 @@ payload:
   - DOMAIN,cdn.zoom.us
   - DOMAIN,ciscobinary.openh264.org
   - DOMAIN,client.hikarifield.co.jp
+  - DOMAIN,cloudfront.debian.net
   - DOMAIN,codeload.github.com
   - DOMAIN,componentupdater.brave.com
   - DOMAIN,content-origin.steampowered.com
   - DOMAIN,ctldl.windowsupdate.com
   - DOMAIN,deb.nodesource.com
+  - DOMAIN,debian-archive.trafficmanager.net
   - DOMAIN,desktop.parallels.com
   - DOMAIN,desktop.wifiman.com
   - DOMAIN,disks.webvm.io
   - DOMAIN,dist.blizzard.com
   - DOMAIN,dl-cdn.alpinelinux.org
   - DOMAIN,dl-portal.iina.io
+  - DOMAIN,dl.circleci.com
   - DOMAIN,dl.cleverfiles.com
   - DOMAIN,dl.cloudsmith.io
   - DOMAIN,dl.devmate.com
@@ -243,6 +246,7 @@ payload:
   - DOMAIN-SUFFIX,archive.ubuntu.com
   - DOMAIN-SUFFIX,artifacts.ui.com
   - DOMAIN-SUFFIX,autoupdatesvc.delivery.autodesk.com
+  - DOMAIN-SUFFIX,blob.core.windows.net
   - DOMAIN-SUFFIX,catbox.moe
   - DOMAIN-SUFFIX,cdimage.debian.org
   - DOMAIN-SUFFIX,cdn.blizzard.com
@@ -250,6 +254,7 @@ payload:
   - DOMAIN-SUFFIX,cdn.nintendo.net
   - DOMAIN-SUFFIX,cdn.ubi.com
   - DOMAIN-SUFFIX,cdn77-storage.com
+  - DOMAIN-SUFFIX,circle-artifacts.com
   - DOMAIN-SUFFIX,cloud-object-storage.appdomain.cloud
   - DOMAIN-SUFFIX,cloudflaremirrors.com
   - DOMAIN-SUFFIX,cloudflarestorage.com
@@ -289,6 +294,7 @@ payload:
   - DOMAIN-SUFFIX,dyn.riotcdn.net
   - DOMAIN-SUFFIX,egdownload.fastly-edge.com
   - DOMAIN-SUFFIX,epicgamescdn.com
+  - DOMAIN-SUFFIX,file.core.windows.net
   - DOMAIN-SUFFIX,file.io
   - DOMAIN-SUFFIX,filebin.net
   - DOMAIN-SUFFIX,files.1drv.com
@@ -303,6 +309,7 @@ payload:
   - DOMAIN-SUFFIX,ks3-cn-hk-1.ksyuncs.com
   - DOMAIN-SUFFIX,ks3-rus.ksyuncs.com
   - DOMAIN-SUFFIX,ks3-sgp.ksyuncs.com
+  - DOMAIN-SUFFIX,launchpadlibrarian.net
   - DOMAIN-SUFFIX,linodeobjects.com
   - DOMAIN-SUFFIX,mega.co.nz
   - DOMAIN-SUFFIX,mega.io
