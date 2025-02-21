@@ -1,5 +1,5 @@
-# 更新时间: 2025-02-21 08:37:24（北京时间）
-# 规则数量: 3219
+# 更新时间: 2025-02-21 20:13:51（北京时间）
+# 规则数量: 3220
 payload:
   - DOMAIN,0x0.st
   - DOMAIN,3dna.nationbuilder.com
@@ -2883,6 +2883,7 @@ payload:
   - DOMAIN-SUFFIX,omnisnippet1.com
   - DOMAIN-SUFFIX,on-fleek.app
   - DOMAIN-SUFFIX,onekey-asset.com
+  - DOMAIN-SUFFIX,onelink-edge.com
   - DOMAIN-SUFFIX,onrender.com
   - DOMAIN-SUFFIX,opentelemetry.io
   - DOMAIN-SUFFIX,operacdn.com
