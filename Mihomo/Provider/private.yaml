@@ -1,5 +1,5 @@
-# 更新时间: 2025-02-22 20:12:02（北京时间）
-# 规则数量: 261
+# 更新时间: 2025-02-23 08:40:08（北京时间）
+# 规则数量: 263
 payload:
   - DOMAIN,0123456789nonexistent.com
   - DOMAIN,0d.kebhana.mx
@@ -11,8 +11,8 @@ payload:
   - DOMAIN,brokenhelix.loseyourip.com
   - DOMAIN,bt.ktrackers.com
   - DOMAIN,bt.okmp3.ru
-  - DOMAIN,bt.poletracker.org
-  - DOMAIN,buny.uk
+  - DOMAIN,bt.rer.lol
+  - DOMAIN,bt1.xxxxbt.cc
   - DOMAIN,ch3oh.ru
   - DOMAIN,concen.org
   - DOMAIN,d.metacubex.one
@@ -30,7 +30,6 @@ payload:
   - DOMAIN,ipv6.rer.lol
   - DOMAIN,isk.richardsw.club
   - DOMAIN,ismaarino.com
-  - DOMAIN,leet-tracker.moe
   - DOMAIN,martin-gebhardt.eu
   - DOMAIN,metacubex.github.io
   - DOMAIN,metacubexd.pages.dev
@@ -52,12 +51,14 @@ payload:
   - DOMAIN,p4p.arenabg.com
   - DOMAIN,retracker.hotplug.ru
   - DOMAIN,retracker.lanta.me
+  - DOMAIN,retracker.spark-rostov.ru
   - DOMAIN,retracker.x2k.ru
   - DOMAIN,retracker01-msk-virt.corbina.net
   - DOMAIN,router.asus.com
   - DOMAIN,seeders-paradise.org
   - DOMAIN,servandroidkino.ru
   - DOMAIN,setmeup.arubanetworks.com
+  - DOMAIN,share.hkg-fansub.info
   - DOMAIN,shubt.net
   - DOMAIN,sparkle.ghostchu-services.top
   - DOMAIN,t.jaekr.sh
@@ -78,13 +79,15 @@ payload:
   - DOMAIN,tracker.bjut.jp
   - DOMAIN,tracker.bt-hash.com
   - DOMAIN,tracker.bt4g.com
-  - DOMAIN,tracker.corpscorp.online
+  - DOMAIN,tracker.bz
   - DOMAIN,tracker.cyberia.is
   - DOMAIN,tracker.darkness.services
   - DOMAIN,tracker.ddunlimited.net
   - DOMAIN,tracker.dler.com
   - DOMAIN,tracker.dler.org
+  - DOMAIN,tracker.dmcomic.org
   - DOMAIN,tracker.dump.cl
+  - DOMAIN,tracker.edkj.club
   - DOMAIN,tracker.filemail.com
   - DOMAIN,tracker.fnix.net
   - DOMAIN,tracker.foreverpirates.co
@@ -95,8 +98,8 @@ payload:
   - DOMAIN,tracker.ipv6tracker.ru
   - DOMAIN,tracker.kmzs123.cn
   - DOMAIN,tracker.kuroy.me
-  - DOMAIN,tracker.leechshield.link
   - DOMAIN,tracker.lilithraws.org
+  - DOMAIN,tracker.lintk.me
   - DOMAIN,tracker.linvk.com
   - DOMAIN,tracker.moeking.me
   - DOMAIN,tracker.moxing.party
@@ -111,6 +114,7 @@ payload:
   - DOMAIN,tracker.skyts.net
   - DOMAIN,tracker.srv00.com
   - DOMAIN,tracker.tiny-vps.com
+  - DOMAIN,tracker.torrent.eu.org
   - DOMAIN,tracker.torrust-demo.com
   - DOMAIN,tracker.tryhackx.org
   - DOMAIN,tracker.valete.tf
@@ -119,7 +123,6 @@ payload:
   - DOMAIN,tracker.wsaoa.eu.org
   - DOMAIN,tracker.yemekyedim.com
   - DOMAIN,tracker1.520.jp
-  - DOMAIN,tracker1.myporn.club
   - DOMAIN,tracker2.dler.org
   - DOMAIN,tracker2.itzmx.com
   - DOMAIN,tracker3.itzmx.com
@@ -134,7 +137,6 @@ payload:
   - DOMAIN,www.asusrouter.com
   - DOMAIN,www.miwifi.com
   - DOMAIN,www.torrent.eu.org
-  - DOMAIN,www.torrentsnipe.info
   - DOMAIN,www.wareztorrent.com
   - DOMAIN,yacd.haishan.me
   - DOMAIN,yacd.metacubex.one

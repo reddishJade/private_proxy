@@ -1,5 +1,5 @@
-# 更新时间: 2025-02-22 20:11:52（北京时间）
-# 规则数量: 32153
+# 更新时间: 2025-02-23 08:39:58（北京时间）
+# 规则数量: 32154
 payload:
   - DOMAIN,adobeereg.com
   - DOMAIN,angle.com.tw
@@ -6826,6 +6826,7 @@ payload:
   - DOMAIN-SUFFIX,coedcherry.com
   - DOMAIN-SUFFIX,coem.ac.uk
   - DOMAIN-SUFFIX,cof.ac.uk
+  - DOMAIN-SUFFIX,cofacts.tw
   - DOMAIN-SUFFIX,cogc.ac.uk
   - DOMAIN-SUFFIX,coin2co.in
   - DOMAIN-SUFFIX,coinalyze.net
