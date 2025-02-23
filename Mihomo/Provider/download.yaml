@@ -1,5 +1,5 @@
-# 更新时间: 2025-02-22 20:11:50（北京时间）
-# 规则数量: 650
+# 更新时间: 2025-02-23 08:39:55（北京时间）
+# 规则数量: 651
 payload:
   - DOMAIN,amupdatedl.microsoft.com
   - DOMAIN,amupdatedl2.microsoft.com
@@ -34,6 +34,7 @@ payload:
   - DOMAIN,cdn.hyperbeam.com
   - DOMAIN,cdn.kagi.com
   - DOMAIN,cdn.kde.org
+  - DOMAIN,cdn.opensuse.org
   - DOMAIN,cdn.winget.microsoft.com
   - DOMAIN,cdn.zoom.us
   - DOMAIN,ciscobinary.openh264.org
