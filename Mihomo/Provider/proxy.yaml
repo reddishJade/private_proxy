@@ -1,5 +1,5 @@
-# 更新时间: 2025-02-23 08:39:58（北京时间）
-# 规则数量: 32154
+# 更新时间: 2025-02-23 20:12:10（北京时间）
+# 规则数量: 32155
 payload:
   - DOMAIN,adobeereg.com
   - DOMAIN,angle.com.tw
@@ -231,6 +231,7 @@ payload:
   - DOMAIN-SUFFIX,1992qq.xyz
   - DOMAIN-SUFFIX,1994group.ac.uk
   - DOMAIN-SUFFIX,1998cdp.org
+  - DOMAIN-SUFFIX,1anime.me
   - DOMAIN-SUFFIX,1bao.org
   - DOMAIN-SUFFIX,1bigclub.com
   - DOMAIN-SUFFIX,1bokeponline.top
