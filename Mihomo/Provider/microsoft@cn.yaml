@@ -1,5 +1,5 @@
-# 更新时间: 2025-02-23 20:12:07（北京时间）
-# 规则数量: 142
+# 更新时间: 2025-02-24 08:38:42（北京时间）
+# 规则数量: 144
 payload:
   - DOMAIN,b.c2r.ts.cdn.office.net
   - DOMAIN,bg.v4.a.dl.ws.microsoft.com
@@ -109,6 +109,7 @@ payload:
   - DOMAIN-SUFFIX,microsoftonline.cn
   - DOMAIN-SUFFIX,microsoftreactor.cn
   - DOMAIN-SUFFIX,microsoftreactor.com.cn
+  - DOMAIN-SUFFIX,microsoftstore.com.cn
   - DOMAIN-SUFFIX,microsofttranslator-int.cn
   - DOMAIN-SUFFIX,mncmsidlab1.cn
   - DOMAIN-SUFFIX,msappproxy.cn
@@ -127,6 +128,7 @@ payload:
   - DOMAIN-SUFFIX,o365files.cn
   - DOMAIN-SUFFIX,office365-net.cn
   - DOMAIN-SUFFIX,office365.cn
+  - DOMAIN-SUFFIX,officeplus.cn
   - DOMAIN-SUFFIX,officewebapps.cn
   - DOMAIN-SUFFIX,onmschina.cn
   - DOMAIN-SUFFIX,outlook.cn
