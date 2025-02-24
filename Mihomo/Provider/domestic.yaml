@@ -1,5 +1,5 @@
-# 更新时间: 2025-02-23 20:12:17（北京时间）
-# 规则数量: 98201
+# 更新时间: 2025-02-24 08:38:52（北京时间）
+# 规则数量: 98208
 payload:
   - DOMAIN,1-fss24-s0.streamhoster.com
   - DOMAIN,14033.live.streamtheworld.com
@@ -14007,6 +14007,7 @@ payload:
   - DOMAIN-SUFFIX,bdatu.com
   - DOMAIN-SUFFIX,bdbae.com
   - DOMAIN-SUFFIX,bdc-rays.com
+  - DOMAIN-SUFFIX,bdcat.top
   - DOMAIN-SUFFIX,bdchangtujs.com
   - DOMAIN-SUFFIX,bdchina.com
   - DOMAIN-SUFFIX,bdcloudapi.com
@@ -34866,6 +34867,7 @@ payload:
   - DOMAIN-SUFFIX,gsthq.com
   - DOMAIN-SUFFIX,gstjs.com
   - DOMAIN-SUFFIX,gstonegames.com
+  - DOMAIN-SUFFIX,gstore.val.manlaxy.com
   - DOMAIN-SUFFIX,gstzc.com
   - DOMAIN-SUFFIX,gstzyyy.com
   - DOMAIN-SUFFIX,gsuus.com
@@ -58137,6 +58139,7 @@ payload:
   - DOMAIN-SUFFIX,microsoftonline.cn
   - DOMAIN-SUFFIX,microsoftreactor.cn
   - DOMAIN-SUFFIX,microsoftreactor.com.cn
+  - DOMAIN-SUFFIX,microsoftstore.com.cn
   - DOMAIN-SUFFIX,microsofttranslator-int.cn
   - DOMAIN-SUFFIX,microstern.com
   - DOMAIN-SUFFIX,microtrading.com
@@ -62569,6 +62572,7 @@ payload:
   - DOMAIN-SUFFIX,officebai.com
   - DOMAIN-SUFFIX,officebay.net
   - DOMAIN-SUFFIX,officectrl.com
+  - DOMAIN-SUFFIX,officeplus.cn
   - DOMAIN-SUFFIX,officese.com
   - DOMAIN-SUFFIX,officeweb365.com
   - DOMAIN-SUFFIX,officewebapps.cn
@@ -66488,6 +66492,7 @@ payload:
   - DOMAIN-SUFFIX,qingnianwang.com
   - DOMAIN-SUFFIX,qingpanduola.com
   - DOMAIN-SUFFIX,qingpin.vip
+  - DOMAIN-SUFFIX,qingping.co
   - DOMAIN-SUFFIX,qingqikeji.com
   - DOMAIN-SUFFIX,qingqin.com
   - DOMAIN-SUFFIX,qingqingmedia.com
@@ -71492,6 +71497,7 @@ payload:
   - DOMAIN-SUFFIX,sharegog.com
   - DOMAIN-SUFFIX,shareinstall.com
   - DOMAIN-SUFFIX,shareinstall.net
+  - DOMAIN-SUFFIX,shareintelli.com
   - DOMAIN-SUFFIX,sharejoytech.com
   - DOMAIN-SUFFIX,sharejs.com
   - DOMAIN-SUFFIX,sharelogis.com
@@ -74726,6 +74732,7 @@ payload:
   - DOMAIN-SUFFIX,startup-partner.com
   - DOMAIN-SUFFIX,starwarschina.com
   - DOMAIN-SUFFIX,starway.net
+  - DOMAIN-SUFFIX,starworldgames.com
   - DOMAIN-SUFFIX,starx-w.com
   - DOMAIN-SUFFIX,starxiiient.com
   - DOMAIN-SUFFIX,starxn.com

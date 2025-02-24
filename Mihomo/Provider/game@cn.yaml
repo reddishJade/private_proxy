@@ -1,5 +1,5 @@
-# 更新时间: 2025-02-23 20:12:08（北京时间）
-# 规则数量: 155
+# 更新时间: 2025-02-24 08:38:43（北京时间）
+# 规则数量: 156
 payload:
   - DOMAIN,dl.delivery.mp.microsoft.com
   - DOMAIN,epicgames-download1-1251447533.file.myqcloud.com
@@ -52,6 +52,7 @@ payload:
   - DOMAIN-SUFFIX,goto-game.org
   - DOMAIN-SUFFIX,gotolink.net
   - DOMAIN-SUFFIX,gouhuo.qq.com
+  - DOMAIN-SUFFIX,gstore.val.manlaxy.com
   - DOMAIN-SUFFIX,gtgres.com
   - DOMAIN-SUFFIX,happyhlddz.com
   - DOMAIN-SUFFIX,haydaypop.cn
