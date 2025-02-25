@@ -1,5 +1,5 @@
-# 更新时间: 2025-02-25 08:37:55（北京时间）
-# 规则数量: 32240
+# 更新时间: 2025-02-25 20:14:38（北京时间）
+# 规则数量: 32241
 payload:
   - DOMAIN,adobeereg.com
   - DOMAIN,angle.com.tw
@@ -6456,6 +6456,7 @@ payload:
   - DOMAIN-SUFFIX,cios.org
   - DOMAIN-SUFFIX,ciota.ac.uk
   - DOMAIN-SUFFIX,cipfg.org
+  - DOMAIN-SUFFIX,circleci.com
   - DOMAIN-SUFFIX,circlethebayfortibet.org
   - DOMAIN-SUFFIX,cirencester.ac.uk
   - DOMAIN-SUFFIX,cirius.ac.uk
