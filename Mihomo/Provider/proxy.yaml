@@ -1,5 +1,5 @@
-# 更新时间: 2025-02-24 20:14:36（北京时间）
-# 规则数量: 32241
+# 更新时间: 2025-02-25 08:37:55（北京时间）
+# 规则数量: 32240
 payload:
   - DOMAIN,adobeereg.com
   - DOMAIN,angle.com.tw
@@ -9631,7 +9631,6 @@ payload:
   - DOMAIN-SUFFIX,erohentai.net
   - DOMAIN-SUFFIX,erolabs.cloud
   - DOMAIN-SUFFIX,erolabs.com
-  - DOMAIN-SUFFIX,erolabs.fun
   - DOMAIN-SUFFIX,erolabs.game
   - DOMAIN-SUFFIX,erolabs.net
   - DOMAIN-SUFFIX,erolabs.online
