@@ -1,5 +1,5 @@
-# 更新时间: 2025-02-25 20:14:35（北京时间）
-# 规则数量: 651
+# 更新时间: 2025-02-26 08:37:17（北京时间）
+# 规则数量: 655
 payload:
   - DOMAIN,amupdatedl.microsoft.com
   - DOMAIN,amupdatedl2.microsoft.com
@@ -89,6 +89,7 @@ payload:
   - DOMAIN,download.cypress.io
   - DOMAIN,download.dlsite.com
   - DOMAIN,download.docker.com
+  - DOMAIN,download.edovia.com
   - DOMAIN,download.fydeos.io
   - DOMAIN,download.gigabyte.com
   - DOMAIN,download.gimp.org
@@ -231,6 +232,8 @@ payload:
   - DOMAIN,update.sleazyfork.org
   - DOMAIN,updater.snipaste.com
   - DOMAIN,updates-cdn.bravesoftware.com
+  - DOMAIN,updates.bravesoftware.com
+  - DOMAIN,updates.edovia.com
   - DOMAIN,updates.istatmenus.app
   - DOMAIN,versioncheck-bg.addons.mozilla.org
   - DOMAIN,versioncheck.addons.mozilla.org
@@ -285,6 +288,7 @@ payload:
   - DOMAIN-SUFFIX,dl.playstation.net
   - DOMAIN-SUFFIX,dl.sourceforge.net
   - DOMAIN-SUFFIX,dl.wireshark.org
+  - DOMAIN-SUFFIX,dl2.discordapp.net
   - DOMAIN-SUFFIX,download.autodesk.com
   - DOMAIN-SUFFIX,download.cdp.bethesda.net
   - DOMAIN-SUFFIX,download.dm.origin.com

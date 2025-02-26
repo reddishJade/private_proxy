@@ -1,5 +1,5 @@
-# 更新时间: 2025-02-25 20:14:50（北京时间）
-# 规则数量: 261
+# 更新时间: 2025-02-26 08:37:30（北京时间）
+# 规则数量: 258
 payload:
   - DOMAIN,0123456789nonexistent.com
   - DOMAIN,0d.kebhana.mx
@@ -10,9 +10,7 @@ payload:
   - DOMAIN,board.zash.run.place
   - DOMAIN,bt.ktrackers.com
   - DOMAIN,bt.okmp3.ru
-  - DOMAIN,bt.poletracker.org
   - DOMAIN,bt1.xxxxbt.cc
-  - DOMAIN,buny.uk
   - DOMAIN,concen.org
   - DOMAIN,d.metacubex.one
   - DOMAIN,d40969.acod.regrucolo.ru
@@ -20,7 +18,6 @@ payload:
   - DOMAIN,ec2-18-191-163-220.us-east-2.compute.amazonaws.com
   - DOMAIN,evan.im
   - DOMAIN,exodus.desync.com
-  - DOMAIN,finbytes.org
   - DOMAIN,fleira.no
   - DOMAIN,highteahop.top
   - DOMAIN,home.yxgz.club
@@ -34,6 +31,7 @@ payload:
   - DOMAIN,metacubex.github.io
   - DOMAIN,metacubexd.pages.dev
   - DOMAIN,miwifi.com
+  - DOMAIN,ns-1.x-fins.com
   - DOMAIN,nyaa.tracker.wf
   - DOMAIN,oasisauth.h3c.com
   - DOMAIN,open.demonii.com
@@ -42,14 +40,12 @@ payload:
   - DOMAIN,open.stealth.si
   - DOMAIN,open.tracker.cl
   - DOMAIN,open.tracker.ink
-  - DOMAIN,open.trackerlist.xyz
   - DOMAIN,opentor.org
   - DOMAIN,opentracker.io
   - DOMAIN,p2p.publictracker.xyz
   - DOMAIN,p4p.arenabg.com
   - DOMAIN,retracker.hotplug.ru
   - DOMAIN,retracker.lanta.me
-  - DOMAIN,retracker.spark-rostov.ru
   - DOMAIN,retracker.x2k.ru
   - DOMAIN,retracker01-msk-virt.corbina.net
   - DOMAIN,router.asus.com
@@ -65,8 +61,8 @@ payload:
   - DOMAIN,tk.greedland.net
   - DOMAIN,torrent.tracker.durukanbal.com
   - DOMAIN,torrentsmd.com
-  - DOMAIN,tr.abir.ga
   - DOMAIN,tr.burnabyhighstar.com
+  - DOMAIN,tr.nyacat.pw
   - DOMAIN,tr.zukizuki.org
   - DOMAIN,tracker-udp.gbitt.info
   - DOMAIN,tracker-zhuqiy.dgj055.icu
@@ -83,6 +79,7 @@ payload:
   - DOMAIN,tracker.dler.com
   - DOMAIN,tracker.dler.org
   - DOMAIN,tracker.dmcomic.org
+  - DOMAIN,tracker.dump.cl
   - DOMAIN,tracker.edkj.club
   - DOMAIN,tracker.filemail.com
   - DOMAIN,tracker.fnix.net
@@ -93,6 +90,7 @@ payload:
   - DOMAIN,tracker.ipv6tracker.org
   - DOMAIN,tracker.ipv6tracker.ru
   - DOMAIN,tracker.kmzs123.cn
+  - DOMAIN,tracker.kmzs123.top
   - DOMAIN,tracker.kuroy.me
   - DOMAIN,tracker.lilithraws.org
   - DOMAIN,tracker.lintk.me
@@ -102,7 +100,6 @@ payload:
   - DOMAIN,tracker.mywaifu.best
   - DOMAIN,tracker.nanoha.org
   - DOMAIN,tracker.netmap.top
-  - DOMAIN,tracker.ololosh.space
   - DOMAIN,tracker.opentrackr.org
   - DOMAIN,tracker.openwebtorrent.com
   - DOMAIN,tracker.qu.ax
@@ -112,11 +109,11 @@ payload:
   - DOMAIN,tracker.srv00.com
   - DOMAIN,tracker.tiny-vps.com
   - DOMAIN,tracker.torrent.eu.org
+  - DOMAIN,tracker.torrust-demo.com
   - DOMAIN,tracker.tryhackx.org
   - DOMAIN,tracker.valete.tf
   - DOMAIN,tracker.vanitycore.co
   - DOMAIN,tracker.waaa.moe
-  - DOMAIN,tracker.xiaoduola.xyz
   - DOMAIN,tracker.yemekyedim.com
   - DOMAIN,tracker1.520.jp
   - DOMAIN,tracker1.myporn.club
@@ -132,9 +129,9 @@ payload:
   - DOMAIN,wepzone.net
   - DOMAIN,www.all4nothin.net
   - DOMAIN,www.asusrouter.com
-  - DOMAIN,www.genesis-sp.org
   - DOMAIN,www.miwifi.com
   - DOMAIN,www.torrent.eu.org
+  - DOMAIN,www.torrentsnipe.info
   - DOMAIN,www.wareztorrent.com
   - DOMAIN,yacd.haishan.me
   - DOMAIN,yacd.metacubex.one
