@@ -1,5 +1,5 @@
-# 更新时间: 2025-02-25 20:14:38（北京时间）
-# 规则数量: 32241
+# 更新时间: 2025-02-26 08:37:20（北京时间）
+# 规则数量: 32242
 payload:
   - DOMAIN,adobeereg.com
   - DOMAIN,angle.com.tw
@@ -11984,6 +11984,7 @@ payload:
   - DOMAIN-SUFFIX,glenfife.ac.uk
   - DOMAIN-SUFFIX,glenrothes-college.ac.uk
   - DOMAIN-SUFFIX,glhl.ac.uk
+  - DOMAIN-SUFFIX,glitch.com
   - DOMAIN-SUFFIX,gllm.ac.uk
   - DOMAIN-SUFFIX,global-sci.org
   - DOMAIN-SUFFIX,global.bing.com
