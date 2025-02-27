@@ -1,5 +1,5 @@
-# 更新时间: 2025-02-26 20:14:52（北京时间）
-# 规则数量: 98208
+# 更新时间: 2025-02-27 08:37:49（北京时间）
+# 规则数量: 98243
 payload:
   - DOMAIN,1-fss24-s0.streamhoster.com
   - DOMAIN,14033.live.streamtheworld.com
@@ -86,6 +86,7 @@ payload:
   - DOMAIN,cast.news98.com.tw
   - DOMAIN,cast.uforadio.com.tw
   - DOMAIN,cbsnewshd-lh.akamaihd.net
+  - DOMAIN,cdn-cn.apple-mapkit.com
   - DOMAIN,cdn-cn1.apple-mapkit.com
   - DOMAIN,cdn-cn2.apple-mapkit.com
   - DOMAIN,cdn-cn3.apple-mapkit.com
@@ -113,6 +114,7 @@ payload:
   - DOMAIN,checkin.gstatic.com
   - DOMAIN,cl1-cdn.origin-apple.com.akadns.net
   - DOMAIN,cl1.apple.com
+  - DOMAIN,cl2-cdn.origin-apple.com.akadns.net
   - DOMAIN,cl2-cn.apple.com
   - DOMAIN,cl2.apple.com
   - DOMAIN,cl3-cdn.origin-apple.com.akadns.net
@@ -11362,6 +11364,7 @@ payload:
   - DOMAIN-SUFFIX,amzcs.com
   - DOMAIN-SUFFIX,amzics.com
   - DOMAIN-SUFFIX,amzndns-cn.biz
+  - DOMAIN-SUFFIX,amzndns-cn.cn
   - DOMAIN-SUFFIX,amzndns-cn.com
   - DOMAIN-SUFFIX,amzndns-cn.net
   - DOMAIN-SUFFIX,amzqazc.com
@@ -12882,10 +12885,23 @@ payload:
   - DOMAIN-SUFFIX,azbq.org
   - DOMAIN-SUFFIX,azchcdna.com
   - DOMAIN-SUFFIX,azchcdnb.com
+  - DOMAIN-SUFFIX,azchcdnc.com
+  - DOMAIN-SUFFIX,azchcdnd.com
+  - DOMAIN-SUFFIX,azchcdne.com
+  - DOMAIN-SUFFIX,azchcdnf.com
   - DOMAIN-SUFFIX,azchcdng.com
   - DOMAIN-SUFFIX,azchcdnh.com
+  - DOMAIN-SUFFIX,azchcdni.com
   - DOMAIN-SUFFIX,azchcdnj.com
+  - DOMAIN-SUFFIX,azchcdnk.com
+  - DOMAIN-SUFFIX,azchcdnl.com
   - DOMAIN-SUFFIX,azchcdnm.com
+  - DOMAIN-SUFFIX,azchcdnn.com
+  - DOMAIN-SUFFIX,azchcdno.com
+  - DOMAIN-SUFFIX,azchcdnp.com
+  - DOMAIN-SUFFIX,azchcdnq.com
+  - DOMAIN-SUFFIX,azchcdnr.com
+  - DOMAIN-SUFFIX,azchcdns.com
   - DOMAIN-SUFFIX,azcrmc-test.cn
   - DOMAIN-SUFFIX,azcrmc.cn
   - DOMAIN-SUFFIX,azdnszx.icu
@@ -12916,6 +12932,16 @@ payload:
   - DOMAIN-SUFFIX,azure-connectedvehicles.cn
   - DOMAIN-SUFFIX,azure-devices-provisioning.cn
   - DOMAIN-SUFFIX,azure-devices.cn
+  - DOMAIN-SUFFIX,azure-dns-1.cn
+  - DOMAIN-SUFFIX,azure-dns-10.cn
+  - DOMAIN-SUFFIX,azure-dns-2.cn
+  - DOMAIN-SUFFIX,azure-dns-3.cn
+  - DOMAIN-SUFFIX,azure-dns-4.cn
+  - DOMAIN-SUFFIX,azure-dns-5.cn
+  - DOMAIN-SUFFIX,azure-dns-6.cn
+  - DOMAIN-SUFFIX,azure-dns-7.cn
+  - DOMAIN-SUFFIX,azure-dns-8.cn
+  - DOMAIN-SUFFIX,azure-dns-9.cn
   - DOMAIN-SUFFIX,azure-dns.cn
   - DOMAIN-SUFFIX,azure.cn
   - DOMAIN-SUFFIX,azurecr-test.cn
@@ -18213,6 +18239,7 @@ payload:
   - DOMAIN-SUFFIX,cdnhwc10.com
   - DOMAIN-SUFFIX,cdnhwc2.com
   - DOMAIN-SUFFIX,cdnhwc3.com
+  - DOMAIN-SUFFIX,cdnhwc4.com
   - DOMAIN-SUFFIX,cdnhwc5.com
   - DOMAIN-SUFFIX,cdnhwc6.com
   - DOMAIN-SUFFIX,cdnhwc7.com
@@ -77091,16 +77118,23 @@ payload:
   - DOMAIN-SUFFIX,tdmall.cc
   - DOMAIN-SUFFIX,tdmoli2.com
   - DOMAIN-SUFFIX,tdnsv1.com
+  - DOMAIN-SUFFIX,tdnsv1.net
   - DOMAIN-SUFFIX,tdnsv10.com
   - DOMAIN-SUFFIX,tdnsv10.net
+  - DOMAIN-SUFFIX,tdnsv11.com
+  - DOMAIN-SUFFIX,tdnsv11.net
   - DOMAIN-SUFFIX,tdnsv12.com
+  - DOMAIN-SUFFIX,tdnsv12.net
   - DOMAIN-SUFFIX,tdnsv13.com
   - DOMAIN-SUFFIX,tdnsv13.net
   - DOMAIN-SUFFIX,tdnsv14.com
   - DOMAIN-SUFFIX,tdnsv14.net
+  - DOMAIN-SUFFIX,tdnsv15.com
   - DOMAIN-SUFFIX,tdnsv15.net
   - DOMAIN-SUFFIX,tdnsv2.com
+  - DOMAIN-SUFFIX,tdnsv2.net
   - DOMAIN-SUFFIX,tdnsv3.com
+  - DOMAIN-SUFFIX,tdnsv3.net
   - DOMAIN-SUFFIX,tdnsv4.com
   - DOMAIN-SUFFIX,tdnsv4.net
   - DOMAIN-SUFFIX,tdnsv5.com
@@ -77110,6 +77144,7 @@ payload:
   - DOMAIN-SUFFIX,tdnsv7.com
   - DOMAIN-SUFFIX,tdnsv7.net
   - DOMAIN-SUFFIX,tdnsv8.com
+  - DOMAIN-SUFFIX,tdnsv8.net
   - DOMAIN-SUFFIX,tdnsv9.com
   - DOMAIN-SUFFIX,tdnsv9.net
   - DOMAIN-SUFFIX,tdnsx1.com
