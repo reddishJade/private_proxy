@@ -1,5 +1,5 @@
-# 更新时间: 2025-02-26 20:14:42（北京时间）
-# 规则数量: 144
+# 更新时间: 2025-02-27 08:37:37（北京时间）
+# 规则数量: 173
 payload:
   - DOMAIN,b.c2r.ts.cdn.office.net
   - DOMAIN,bg.v4.a.dl.ws.microsoft.com
@@ -48,6 +48,25 @@ payload:
   - DOMAIN-SUFFIX,aggresmart.com
   - DOMAIN-SUFFIX,apihub-internal.cn
   - DOMAIN-SUFFIX,appserviceenvironment.cn
+  - DOMAIN-SUFFIX,azchcdna.com
+  - DOMAIN-SUFFIX,azchcdnb.com
+  - DOMAIN-SUFFIX,azchcdnc.com
+  - DOMAIN-SUFFIX,azchcdnd.com
+  - DOMAIN-SUFFIX,azchcdne.com
+  - DOMAIN-SUFFIX,azchcdnf.com
+  - DOMAIN-SUFFIX,azchcdng.com
+  - DOMAIN-SUFFIX,azchcdnh.com
+  - DOMAIN-SUFFIX,azchcdni.com
+  - DOMAIN-SUFFIX,azchcdnj.com
+  - DOMAIN-SUFFIX,azchcdnk.com
+  - DOMAIN-SUFFIX,azchcdnl.com
+  - DOMAIN-SUFFIX,azchcdnm.com
+  - DOMAIN-SUFFIX,azchcdnn.com
+  - DOMAIN-SUFFIX,azchcdno.com
+  - DOMAIN-SUFFIX,azchcdnp.com
+  - DOMAIN-SUFFIX,azchcdnq.com
+  - DOMAIN-SUFFIX,azchcdnr.com
+  - DOMAIN-SUFFIX,azchcdns.com
   - DOMAIN-SUFFIX,azcrmc-test.cn
   - DOMAIN-SUFFIX,azcrmc.cn
   - DOMAIN-SUFFIX,azk8s.cn
@@ -60,6 +79,16 @@ payload:
   - DOMAIN-SUFFIX,azure-connectedvehicles.cn
   - DOMAIN-SUFFIX,azure-devices-provisioning.cn
   - DOMAIN-SUFFIX,azure-devices.cn
+  - DOMAIN-SUFFIX,azure-dns-1.cn
+  - DOMAIN-SUFFIX,azure-dns-10.cn
+  - DOMAIN-SUFFIX,azure-dns-2.cn
+  - DOMAIN-SUFFIX,azure-dns-3.cn
+  - DOMAIN-SUFFIX,azure-dns-4.cn
+  - DOMAIN-SUFFIX,azure-dns-5.cn
+  - DOMAIN-SUFFIX,azure-dns-6.cn
+  - DOMAIN-SUFFIX,azure-dns-7.cn
+  - DOMAIN-SUFFIX,azure-dns-8.cn
+  - DOMAIN-SUFFIX,azure-dns-9.cn
   - DOMAIN-SUFFIX,azure-dns.cn
   - DOMAIN-SUFFIX,azure.cn
   - DOMAIN-SUFFIX,azurecr-test.cn

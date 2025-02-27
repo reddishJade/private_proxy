@@ -1,5 +1,5 @@
-# 更新时间: 2025-02-26 20:14:42（北京时间）
-# 规则数量: 279
+# 更新时间: 2025-02-27 08:37:36（北京时间）
+# 规则数量: 286
 payload:
   - DOMAIN,a1.mzstatic.com
   - DOMAIN,a2.mzstatic.com
@@ -29,6 +29,7 @@ payload:
   - DOMAIN,auth.music.apple.com
   - DOMAIN,bag.itunes.apple.com
   - DOMAIN,bookkeeper.itunes.apple.com
+  - DOMAIN,cdn-cn.apple-mapkit.com
   - DOMAIN,cdn-cn1.apple-mapkit.com
   - DOMAIN,cdn-cn2.apple-mapkit.com
   - DOMAIN,cdn-cn3.apple-mapkit.com
@@ -46,6 +47,7 @@ payload:
   - DOMAIN,certs.apple.com
   - DOMAIN,cl1-cdn.origin-apple.com.akadns.net
   - DOMAIN,cl1.apple.com
+  - DOMAIN,cl2-cdn.origin-apple.com.akadns.net
   - DOMAIN,cl2-cn.apple.com
   - DOMAIN,cl2.apple.com
   - DOMAIN,cl3-cdn.origin-apple.com.akadns.net
@@ -166,6 +168,11 @@ payload:
   - DOMAIN,publicassets.cdn-apple.com
   - DOMAIN,reserve-prime.apple.com
   - DOMAIN,s.mzstatic.com
+  - DOMAIN,s1.mzstatic.com
+  - DOMAIN,s2.mzstatic.com
+  - DOMAIN,s3.mzstatic.com
+  - DOMAIN,s4.mzstatic.com
+  - DOMAIN,s5.mzstatic.com
   - DOMAIN,se-edge.itunes.apple.com
   - DOMAIN,se2.itunes.apple.com
   - DOMAIN,search.itunes.apple.com

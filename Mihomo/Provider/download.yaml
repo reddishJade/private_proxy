@@ -1,5 +1,5 @@
-# 更新时间: 2025-02-26 20:14:44（北京时间）
-# 规则数量: 655
+# 更新时间: 2025-02-27 08:37:39（北京时间）
+# 规则数量: 657
 payload:
   - DOMAIN,amupdatedl.microsoft.com
   - DOMAIN,amupdatedl2.microsoft.com
@@ -13,6 +13,7 @@ payload:
   - DOMAIN,assets2.xboxlive.com
   - DOMAIN,aus2-community.mozilla.org
   - DOMAIN,aus5.mozilla.org
+  - DOMAIN,autoupdate.termius.com
   - DOMAIN,az764295.vo.msecnd.net
   - DOMAIN,blizzard.gcdn.cloudn.co.kr
   - DOMAIN,blzddist1-a.akamaihd.net
@@ -224,6 +225,7 @@ payload:
   - DOMAIN,steampipe.akamaized.net
   - DOMAIN,store.setapp.com
   - DOMAIN,store1.gofile.io
+  - DOMAIN,u.keka.io
   - DOMAIN,update.code.visualstudio.com
   - DOMAIN,update.googleapis.com
   - DOMAIN,update.greasyfork.org
