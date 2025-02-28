@@ -1,5 +1,5 @@
-# 更新时间: 2025-02-27 20:14:28（北京时间）
-# 规则数量: 32298
+# 更新时间: 2025-02-28 08:37:56（北京时间）
+# 规则数量: 32301
 payload:
   - DOMAIN,adobeereg.com
   - DOMAIN,angle.com.tw
@@ -19967,6 +19967,7 @@ payload:
   - DOMAIN-SUFFIX,netcup-news.de
   - DOMAIN-SUFFIX,netcup-sonderangebote.de
   - DOMAIN-SUFFIX,netcup-wiki.de
+  - DOMAIN-SUFFIX,netcup.cafe
   - DOMAIN-SUFFIX,netcup.com
   - DOMAIN-SUFFIX,netcup.de
   - DOMAIN-SUFFIX,netcup.eu
@@ -28104,7 +28105,9 @@ payload:
   - DOMAIN-SUFFIX,tubevintageporn.com
   - DOMAIN-SUFFIX,tubewolf.com
   - DOMAIN-SUFFIX,tubexclips.com
+  - DOMAIN-SUFFIX,tubi.io
   - DOMAIN-SUFFIX,tubinge.com
+  - DOMAIN-SUFFIX,tubitv.com
   - DOMAIN-SUFFIX,tubous.com
   - DOMAIN-SUFFIX,tubsexer.com
   - DOMAIN-SUFFIX,tubxporn.com
