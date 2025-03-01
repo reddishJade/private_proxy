@@ -1,7 +1,6 @@
-# 更新时间: 2025-02-28 20:14:12（北京时间）
-# 规则数量: 263
+# 更新时间: 2025-03-01 08:41:12（北京时间）
+# 规则数量: 257
 payload:
-  - DOMAIN,0d.kebhana.mx
   - DOMAIN,1337.abcvg.info
   - DOMAIN,api.ipv4online.uk
   - DOMAIN,asusrouter.com
@@ -16,13 +15,12 @@ payload:
   - DOMAIN,concen.org
   - DOMAIN,d.metacubex.one
   - DOMAIN,d40969.acod.regrucolo.ru
+  - DOMAIN,discord.heihachi.pw
   - DOMAIN,ec2-18-191-163-220.us-east-2.compute.amazonaws.com
   - DOMAIN,evan.im
   - DOMAIN,exodus.desync.com
-  - DOMAIN,finbytes.org
   - DOMAIN,fleira.no
   - DOMAIN,highteahop.top
-  - DOMAIN,home.yxgz.club
   - DOMAIN,instant.arubanetworks.com
   - DOMAIN,ipv4announce.sktorrent.eu
   - DOMAIN,ipv6.rer.lol
@@ -37,11 +35,10 @@ payload:
   - DOMAIN,nyaa.tracker.wf
   - DOMAIN,oasisauth.h3c.com
   - DOMAIN,open.demonii.com
-  - DOMAIN,open.dstud.io
   - DOMAIN,open.free-tracker.ga
   - DOMAIN,open.stealth.si
-  - DOMAIN,open.tracker.cl
   - DOMAIN,open.tracker.ink
+  - DOMAIN,open.trackerlist.xyz
   - DOMAIN,opentor.org
   - DOMAIN,opentracker.io
   - DOMAIN,p2p.publictracker.xyz
@@ -83,6 +80,8 @@ payload:
   - DOMAIN,tracker.ddunlimited.net
   - DOMAIN,tracker.dler.com
   - DOMAIN,tracker.dler.org
+  - DOMAIN,tracker.dmcomic.org
+  - DOMAIN,tracker.dump.cl
   - DOMAIN,tracker.filemail.com
   - DOMAIN,tracker.fnix.net
   - DOMAIN,tracker.foreverpirates.co
@@ -95,10 +94,8 @@ payload:
   - DOMAIN,tracker.kmzs123.top
   - DOMAIN,tracker.kuroy.me
   - DOMAIN,tracker.lilithraws.org
-  - DOMAIN,tracker.lintk.me
   - DOMAIN,tracker.linvk.com
   - DOMAIN,tracker.moeking.me
-  - DOMAIN,tracker.moxing.party
   - DOMAIN,tracker.mywaifu.best
   - DOMAIN,tracker.nanoha.org
   - DOMAIN,tracker.netmap.top
@@ -108,16 +105,14 @@ payload:
   - DOMAIN,tracker.pmman.tech
   - DOMAIN,tracker.qu.ax
   - DOMAIN,tracker.renfei.net
-  - DOMAIN,tracker.sbsub.com
   - DOMAIN,tracker.skyts.net
   - DOMAIN,tracker.srv00.com
+  - DOMAIN,tracker.theoks.net
   - DOMAIN,tracker.tiny-vps.com
   - DOMAIN,tracker.torrent.eu.org
-  - DOMAIN,tracker.torrust-demo.com
   - DOMAIN,tracker.tryhackx.org
   - DOMAIN,tracker.valete.tf
   - DOMAIN,tracker.vanitycore.co
-  - DOMAIN,tracker.waaa.moe
   - DOMAIN,tracker.xiaoduola.xyz
   - DOMAIN,tracker.yemekyedim.com
   - DOMAIN,tracker1.520.jp
@@ -134,7 +129,6 @@ payload:
   - DOMAIN,wepzone.net
   - DOMAIN,www.all4nothin.net
   - DOMAIN,www.asusrouter.com
-  - DOMAIN,www.genesis-sp.org
   - DOMAIN,www.miwifi.com
   - DOMAIN,www.torrent.eu.org
   - DOMAIN,www.wareztorrent.com
