@@ -1,5 +1,5 @@
-# 更新时间: 2025-03-01 20:12:17（北京时间）
-# 规则数量: 3254
+# 更新时间: 2025-03-02 08:40:36（北京时间）
+# 规则数量: 3255
 payload:
   - DOMAIN,0x0.st
   - DOMAIN,3dna.nationbuilder.com
@@ -2373,6 +2373,7 @@ payload:
   - DOMAIN-SUFFIX,badgen.net
   - DOMAIN-SUFFIX,badoocdn.com
   - DOMAIN-SUFFIX,balley.top
+  - DOMAIN-SUFFIX,bblcdn.com
   - DOMAIN-SUFFIX,bdzybf7.com
   - DOMAIN-SUFFIX,bestjavcdn.com
   - DOMAIN-SUFFIX,bftuvip.com

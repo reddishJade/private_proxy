@@ -1,5 +1,5 @@
-# 更新时间: 2025-03-01 20:12:11（北京时间）
-# 规则数量: 97592
+# 更新时间: 2025-03-02 08:40:27（北京时间）
+# 规则数量: 97594
 payload:
   - DOMAIN,03.lzzncm.com
   - DOMAIN,04.lzzncm.com
@@ -1367,6 +1367,7 @@ payload:
   - DOMAIN-KEYWORD,click.rum.
   - DOMAIN-KEYWORD,cmpworker.
   - DOMAIN-KEYWORD,cp-home-pl-
+  - DOMAIN-KEYWORD,dc.pimentaafricana
   - DOMAIN-KEYWORD,dnserror
   - DOMAIN-KEYWORD,doubleclick.
   - DOMAIN-KEYWORD,dubester.
@@ -1386,6 +1387,7 @@ payload:
   - DOMAIN-KEYWORD,smetrics.
   - DOMAIN-KEYWORD,sunnimiq
   - DOMAIN-KEYWORD,telemetry.officeapps.live.com
+  - DOMAIN-KEYWORD,track.msadcenter
   - DOMAIN-KEYWORD,track.opentable.
   - DOMAIN-KEYWORD,track.tiara
   - DOMAIN-KEYWORD,umeng
