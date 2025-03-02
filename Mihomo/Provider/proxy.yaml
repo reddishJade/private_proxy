@@ -1,5 +1,5 @@
-# 更新时间: 2025-03-02 08:40:38（北京时间）
-# 规则数量: 32301
+# 更新时间: 2025-03-02 20:11:59（北京时间）
+# 规则数量: 32302
 payload:
   - DOMAIN,adobeereg.com
   - DOMAIN,angle.com.tw
@@ -27363,6 +27363,7 @@ payload:
   - DOMAIN-SUFFIX,theportalwiki.com
   - DOMAIN-SUFFIX,theprint.in
   - DOMAIN-SUFFIX,thereallove.kr
+  - DOMAIN-SUFFIX,theregister.com
   - DOMAIN-SUFFIX,therock.net.nz
   - DOMAIN-SUFFIX,theroslininstitute.ac.uk
   - DOMAIN-SUFFIX,thesafeporn.com

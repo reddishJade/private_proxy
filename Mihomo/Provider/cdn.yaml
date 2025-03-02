@@ -1,5 +1,5 @@
-# 更新时间: 2025-03-02 08:40:36（北京时间）
-# 规则数量: 3255
+# 更新时间: 2025-03-02 20:11:57（北京时间）
+# 规则数量: 3257
 payload:
   - DOMAIN,0x0.st
   - DOMAIN,3dna.nationbuilder.com
@@ -360,6 +360,7 @@ payload:
   - DOMAIN,cdn.announcekit.app
   - DOMAIN,cdn.answeroverflow.com
   - DOMAIN,cdn.apkmonk.com
+  - DOMAIN,cdn.app.neononepay.com
   - DOMAIN,cdn.apponic.com
   - DOMAIN,cdn.arcade.software
   - DOMAIN,cdn.arduino.cc
@@ -2129,6 +2130,7 @@ payload:
   - DOMAIN,ubistatic2-a.akamaihd.net
   - DOMAIN,ubistatic2-a.ubisoft.com
   - DOMAIN,udata.namespace.so
+  - DOMAIN,uhf.microsoft.com
   - DOMAIN,ui-cdn.digitalocean.com
   - DOMAIN,ui.contentstack.com
   - DOMAIN,ui.trailhead.com
