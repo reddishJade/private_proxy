@@ -1,5 +1,5 @@
-# 更新时间: 2025-03-02 20:11:57（北京时间）
-# 规则数量: 3257
+# 更新时间: 2025-03-03 08:39:39（北京时间）
+# 规则数量: 3258
 payload:
   - DOMAIN,0x0.st
   - DOMAIN,3dna.nationbuilder.com
@@ -592,6 +592,7 @@ payload:
   - DOMAIN,cdn.softswiss.net
   - DOMAIN,cdn.split.io
   - DOMAIN,cdn.sprig.com
+  - DOMAIN,cdn.sso.mozilla.com
   - DOMAIN,cdn.st-note.com
   - DOMAIN,cdn.starapps.studio
   - DOMAIN,cdn.stash.com
