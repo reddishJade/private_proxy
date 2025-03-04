@@ -1,5 +1,5 @@
-# 更新时间: 2025-03-04 08:38:21（北京时间）
-# 规则数量: 3264
+# 更新时间: 2025-03-04 20:14:36（北京时间）
+# 规则数量: 3265
 payload:
   - DOMAIN,0x0.st
   - DOMAIN,3dna.nationbuilder.com
@@ -409,6 +409,7 @@ payload:
   - DOMAIN,cdn.conveythis.com
   - DOMAIN,cdn.credible.com
   - DOMAIN,cdn.css.net
+  - DOMAIN,cdn.cuty.io
   - DOMAIN,cdn.cxense.com
   - DOMAIN,cdn.daily.dev
   - DOMAIN,cdn.dap.dmm.co.jp
