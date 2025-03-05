@@ -1,5 +1,5 @@
-# 更新时间: 2025-03-05 08:38:35（北京时间）
-# 规则数量: 3268
+# 更新时间: 2025-03-05 20:14:40（北京时间）
+# 规则数量: 3269
 payload:
   - DOMAIN,0x0.st
   - DOMAIN,3dna.nationbuilder.com
@@ -2412,6 +2412,7 @@ payload:
   - DOMAIN-SUFFIX,bytebucket.org
   - DOMAIN-SUFFIX,bytedapm.com
   - DOMAIN-SUFFIX,c-dn.net
+  - DOMAIN-SUFFIX,cartocdn.com
   - DOMAIN-SUFFIX,cbsnewsstatic.com
   - DOMAIN-SUFFIX,cdn-centaurus.com
   - DOMAIN-SUFFIX,cdn-cookieyes.com
