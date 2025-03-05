@@ -1,5 +1,5 @@
-# 更新时间: 2025-03-04 20:14:36（北京时间）
-# 规则数量: 657
+# 更新时间: 2025-03-05 08:38:35（北京时间）
+# 规则数量: 658
 payload:
   - DOMAIN,amupdatedl.microsoft.com
   - DOMAIN,amupdatedl2.microsoft.com
@@ -203,6 +203,7 @@ payload:
   - DOMAIN,releases.arc.net
   - DOMAIN,releases.grapheneos.org
   - DOMAIN,releases.obsidian.md
+  - DOMAIN,releases.warp.dev
   - DOMAIN,releases.whatpulse.org
   - DOMAIN,repo.carbon.sh
   - DOMAIN,repo.debiancn.org
