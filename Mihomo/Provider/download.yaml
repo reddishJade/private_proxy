@@ -1,5 +1,5 @@
-# 更新时间: 2025-03-06 08:38:11（北京时间）
-# 规则数量: 658
+# 更新时间: 2025-03-06 20:14:44（北京时间）
+# 规则数量: 659
 payload:
   - DOMAIN,amupdatedl.microsoft.com
   - DOMAIN,amupdatedl2.microsoft.com
@@ -195,6 +195,7 @@ payload:
   - DOMAIN,pf-cdn-content-prod.azureedge.net
   - DOMAIN,pkg-containers.githubusercontent.com
   - DOMAIN,pkgs.tailscale.com
+  - DOMAIN,playwright-akamai.azureedge.net
   - DOMAIN,playwright.azureedge.net
   - DOMAIN,ppa.launchpad.net
   - DOMAIN,product-downloads.atlassian.com
