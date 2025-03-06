@@ -1,5 +1,5 @@
-# 更新时间: 2025-03-06 08:38:13（北京时间）
-# 规则数量: 32447
+# 更新时间: 2025-03-06 20:14:46（北京时间）
+# 规则数量: 32448
 payload:
   - DOMAIN,adobeereg.com
   - DOMAIN,angle.com.tw
@@ -17537,6 +17537,7 @@ payload:
   - DOMAIN-SUFFIX,ly.gov.tw
   - DOMAIN-SUFFIX,lyellcentre.ac.uk
   - DOMAIN-SUFFIX,lyfhk.net
+  - DOMAIN-SUFFIX,lynxjs.org
   - DOMAIN-SUFFIX,lysol.ca
   - DOMAIN-SUFFIX,lysol.cl
   - DOMAIN-SUFFIX,lysol.co.cr
