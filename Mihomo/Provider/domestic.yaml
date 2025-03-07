@@ -1,5 +1,5 @@
-# 更新时间: 2025-03-07 08:38:29（北京时间）
-# 规则数量: 97782
+# 更新时间: 2025-03-07 20:14:09（北京时间）
+# 规则数量: 97784
 payload:
   - DOMAIN,1-fss24-s0.streamhoster.com
   - DOMAIN,14033.live.streamtheworld.com
@@ -67479,6 +67479,8 @@ payload:
   - DOMAIN-SUFFIX,qwe1e.com
   - DOMAIN-SUFFIX,qweather.com
   - DOMAIN-SUFFIX,qweather.net
+  - DOMAIN-SUFFIX,qwen.ai
+  - DOMAIN-SUFFIX,qwenlm.ai
   - DOMAIN-SUFFIX,qwerhost.com
   - DOMAIN-SUFFIX,qwfync.com
   - DOMAIN-SUFFIX,qwgg.com

@@ -1,6 +1,7 @@
-# 更新时间: 2025-03-07 08:38:21（北京时间）
-# 规则数量: 659
+# 更新时间: 2025-03-07 20:14:00（北京时间）
+# 规则数量: 660
 payload:
+  - DOMAIN,addins.deepl.com
   - DOMAIN,amupdatedl.microsoft.com
   - DOMAIN,amupdatedl2.microsoft.com
   - DOMAIN,amupdatedl3.microsoft.com
