@@ -1,5 +1,5 @@
-# 更新时间: 2025-03-07 20:13:53（北京时间）
-# 规则数量: 97598
+# 更新时间: 2025-03-08 08:30:02（北京时间）
+# 规则数量: 97601
 payload:
   - DOMAIN,03.lzzncm.com
   - DOMAIN,04.lzzncm.com
@@ -1331,11 +1331,14 @@ payload:
   - DOMAIN,zvs2.cnzz.com
   - DOMAIN,zx.da.mgtv.com
   - DOMAIN,zz.bdstatic.com
+  - DOMAIN-KEYWORD,-adrevenue.appsflyersdk.com
   - DOMAIN-KEYWORD,-attr.appsflyersdk.com
   - DOMAIN-KEYWORD,-launches.appsflyersdk.com
   - DOMAIN-KEYWORD,-logging.nextmedia.com
+  - DOMAIN-KEYWORD,-pia.appsflyersdk.com
   - DOMAIN-KEYWORD,-rtb.gravite.net
   - DOMAIN-KEYWORD,-s2s.sensic.net
+  - DOMAIN-KEYWORD,-skadsdkless.appsflyersdk.com
   - DOMAIN-KEYWORD,-spiky.clevertap-prod.com
   - DOMAIN-KEYWORD,-tracker.biliapi.net
   - DOMAIN-KEYWORD,-txtagstore

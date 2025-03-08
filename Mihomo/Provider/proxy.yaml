@@ -1,4 +1,4 @@
-# 更新时间: 2025-03-07 20:14:03（北京时间）
+# 更新时间: 2025-03-08 08:30:14（北京时间）
 # 规则数量: 32465
 payload:
   - DOMAIN,adobeereg.com
@@ -556,6 +556,7 @@ payload:
   - DOMAIN-SUFFIX,69loli.com
   - DOMAIN-SUFFIX,69luolie.com
   - DOMAIN-SUFFIX,69re.net
+  - DOMAIN-SUFFIX,69shuba.cx
   - DOMAIN-SUFFIX,69story.com
   - DOMAIN-SUFFIX,69tubesex.com
   - DOMAIN-SUFFIX,69vj.com
@@ -17838,7 +17839,6 @@ payload:
   - DOMAIN-SUFFIX,mappingtheunderworld.ac.uk
   - DOMAIN-SUFFIX,mappingwales.ac.uk
   - DOMAIN-SUFFIX,mappingwelshmarches.ac.uk
-  - DOMAIN-SUFFIX,maps.googleapis.com
   - DOMAIN-SUFFIX,marble.ac.uk
   - DOMAIN-SUFFIX,marc.info
   - DOMAIN-SUFFIX,marchmont.ac.uk
@@ -22580,6 +22580,7 @@ payload:
   - DOMAIN-SUFFIX,poloniex.com
   - DOMAIN-SUFFIX,poly-of-wales.ac.uk
   - DOMAIN-SUFFIX,polygon.com
+  - DOMAIN-SUFFIX,polymarket.com
   - DOMAIN-SUFFIX,polymer-project.org
   - DOMAIN-SUFFIX,polymerhk.com
   - DOMAIN-SUFFIX,polymerproject.org
@@ -28032,7 +28033,6 @@ payload:
   - DOMAIN-SUFFIX,transitwestyorkshire.ac.uk
   - DOMAIN-SUFFIX,translate-medtech.ac.uk
   - DOMAIN-SUFFIX,translate.goog
-  - DOMAIN-SUFFIX,translate.googleapis.com
   - DOMAIN-SUFFIX,translatetheweb.com
   - DOMAIN-SUFFIX,translatewiki.net
   - DOMAIN-SUFFIX,translatewiki.org
