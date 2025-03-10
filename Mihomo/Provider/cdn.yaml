@@ -1,5 +1,5 @@
-# 更新时间: 2025-03-09 20:10:12（北京时间）
-# 规则数量: 3285
+# 更新时间: 2025-03-10 08:32:41（北京时间）
+# 规则数量: 3283
 payload:
   - DOMAIN,0x0.st
   - DOMAIN,3dna.nationbuilder.com
@@ -196,7 +196,6 @@ payload:
   - DOMAIN,assets.scaleflex.com
   - DOMAIN,assets.scaleway.com
   - DOMAIN,assets.science.nasa.gov
-  - DOMAIN,assets.scroll.com
   - DOMAIN,assets.sendinblue.com
   - DOMAIN,assets.shazam.com
   - DOMAIN,assets.sololearn.com
@@ -895,6 +894,7 @@ payload:
   - DOMAIN,encrypted-vtbn3.gstatic.com
   - DOMAIN,epic-social-social-modules-prod.ol.epicgames.com
   - DOMAIN,error.rakuten.co.jp
+  - DOMAIN,eslint.org
   - DOMAIN,eslint.style
   - DOMAIN,eu-images.contentstack.com
   - DOMAIN,eu.cdnbye.com
@@ -1850,7 +1850,6 @@ payload:
   - DOMAIN,static-resource.np.community.playstation.net
   - DOMAIN,static-secure-uploads.ui.com
   - DOMAIN,static-sg-cdn.eporner.com
-  - DOMAIN,static-staging.scroll.com
   - DOMAIN,static-sv.fc2.com
   - DOMAIN,static-web-prod.skillshare.com
   - DOMAIN,static-web.grammarly.com
@@ -1993,7 +1992,6 @@ payload:
   - DOMAIN,static.replay.io
   - DOMAIN,static.rust-lang.org
   - DOMAIN,static.scarf.sh
-  - DOMAIN,static.scroll.com
   - DOMAIN,static.seel.com
   - DOMAIN,static.skyassets.com
   - DOMAIN,static.snapchat.com
