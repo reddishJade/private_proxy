@@ -1,5 +1,5 @@
-# 更新时间: 2025-03-10 08:32:50（北京时间）
-# 规则数量: 97738
+# 更新时间: 2025-03-10 20:14:36（北京时间）
+# 规则数量: 97739
 payload:
   - DOMAIN,1-fss24-s0.streamhoster.com
   - DOMAIN,14033.live.streamtheworld.com
@@ -51143,6 +51143,7 @@ payload:
   - DOMAIN-SUFFIX,klmybbs.com
   - DOMAIN-SUFFIX,klmyssn.com
   - DOMAIN-SUFFIX,klniu.com
+  - DOMAIN-SUFFIX,klook.com
   - DOMAIN-SUFFIX,kloong.com
   - DOMAIN-SUFFIX,klpbbs.com
   - DOMAIN-SUFFIX,klqcv.com
