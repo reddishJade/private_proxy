@@ -1,5 +1,5 @@
-# 更新时间: 2025-03-10 20:14:30（北京时间）
-# 规则数量: 32466
+# 更新时间: 2025-03-11 08:38:22（北京时间）
+# 规则数量: 32468
 payload:
   - DOMAIN,adobeereg.com
   - DOMAIN,angle.com.tw
@@ -6200,6 +6200,7 @@ payload:
   - DOMAIN-SUFFIX,chasestudy.ac.uk
   - DOMAIN-SUFFIX,chat.com
   - DOMAIN-SUFFIX,chat.lmsys.org
+  - DOMAIN-SUFFIX,chat.openai.com
   - DOMAIN-SUFFIX,chatango.com
   - DOMAIN-SUFFIX,chatgpt.com
   - DOMAIN-SUFFIX,chatgpt.livekit.cloud
@@ -21429,6 +21430,7 @@ payload:
   - DOMAIN-SUFFIX,open.ac.uk
   - DOMAIN-SUFFIX,open.com.hk
   - DOMAIN-SUFFIX,open.firstory.me
+  - DOMAIN-SUFFIX,open.spotify.com
   - DOMAIN-SUFFIX,openai.com
   - DOMAIN-SUFFIX,openallweb.com
   - DOMAIN-SUFFIX,openamt.com
