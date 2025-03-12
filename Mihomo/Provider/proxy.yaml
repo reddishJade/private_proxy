@@ -1,5 +1,5 @@
-# 更新时间: 2025-03-12 08:38:02（北京时间）
-# 规则数量: 32467
+# 更新时间: 2025-03-12 20:14:49（北京时间）
+# 规则数量: 32468
 payload:
   - DOMAIN,adobeereg.com
   - DOMAIN,angle.com.tw
@@ -26545,6 +26545,7 @@ payload:
   - DOMAIN-SUFFIX,strath.ac.uk
   - DOMAIN-SUFFIX,strathclyde.ac.uk
   - DOMAIN-SUFFIX,strathmore.ac.uk
+  - DOMAIN-SUFFIX,strava.com
   - DOMAIN-SUFFIX,stream-mydirtyhobby.biz
   - DOMAIN-SUFFIX,streamable.com
   - DOMAIN-SUFFIX,streamate.com
