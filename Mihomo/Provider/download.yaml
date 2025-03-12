@@ -1,5 +1,5 @@
-# 更新时间: 2025-03-12 08:37:59（北京时间）
-# 规则数量: 660
+# 更新时间: 2025-03-12 20:14:47（北京时间）
+# 规则数量: 662
 payload:
   - DOMAIN,addins.deepl.com
   - DOMAIN,amupdatedl.microsoft.com
@@ -9,6 +9,7 @@ payload:
   - DOMAIN,amupdatedl5.microsoft.com
   - DOMAIN,api-updates.orbstack.dev
   - DOMAIN,app-updates.agilebits.com
+  - DOMAIN,apt.xpipe.io
   - DOMAIN,artifacts.electronjs.org
   - DOMAIN,assets1.xboxlive.com
   - DOMAIN,assets2.xboxlive.com
@@ -210,6 +211,7 @@ payload:
   - DOMAIN,repo.carbon.sh
   - DOMAIN,repo.debiancn.org
   - DOMAIN,repo.powerdns.com
+  - DOMAIN,rpm.xpipe.io
   - DOMAIN,security.debian.org
   - DOMAIN,security.ubuntu.com
   - DOMAIN,share.riseup.net
