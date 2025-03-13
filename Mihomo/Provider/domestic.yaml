@@ -1,5 +1,5 @@
-# 更新时间: 2025-03-12 20:14:56（北京时间）
-# 规则数量: 97533
+# 更新时间: 2025-03-13 08:38:54（北京时间）
+# 规则数量: 97535
 payload:
   - DOMAIN,1-fss24-s0.streamhoster.com
   - DOMAIN,14033.live.streamtheworld.com
@@ -39886,6 +39886,7 @@ payload:
   - DOMAIN-SUFFIX,heytapimage.com
   - DOMAIN-SUFFIX,heytapmobi.com
   - DOMAIN-SUFFIX,heytapugc.com
+  - DOMAIN-SUFFIX,heytea-co.com
   - DOMAIN-SUFFIX,heytea.com
   - DOMAIN-SUFFIX,heythings-iot.com
   - DOMAIN-SUFFIX,heytime.com
@@ -55314,6 +55315,7 @@ payload:
   - DOMAIN-SUFFIX,luckeeinc.com
   - DOMAIN-SUFFIX,luckforcalendar.com
   - DOMAIN-SUFFIX,luckincalendar.com
+  - DOMAIN-SUFFIX,luckincdn.com
   - DOMAIN-SUFFIX,luckincoffee.co
   - DOMAIN-SUFFIX,luckincoffee.com
   - DOMAIN-SUFFIX,luckincoffeecdn.com
