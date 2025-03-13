@@ -1,5 +1,5 @@
-# 更新时间: 2025-03-12 20:14:49（北京时间）
-# 规则数量: 32468
+# 更新时间: 2025-03-13 08:38:48（北京时间）
+# 规则数量: 32469
 payload:
   - DOMAIN,adobeereg.com
   - DOMAIN,angle.com.tw
@@ -23041,6 +23041,7 @@ payload:
   - DOMAIN-SUFFIX,ppe.lawyer
   - DOMAIN-SUFFIX,pplah.com
   - DOMAIN-SUFFIX,pplusstatic.com
+  - DOMAIN-SUFFIX,pplx.ai
   - DOMAIN-SUFFIX,ppp91.cc
   - DOMAIN-SUFFIX,pppds.com
   - DOMAIN-SUFFIX,ppre.ac.uk
