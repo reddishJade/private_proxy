@@ -1,5 +1,5 @@
-# 更新时间: 2025-03-15 08:37:47（北京时间）
-# 规则数量: 3310
+# 更新时间: 2025-03-15 20:12:13（北京时间）
+# 规则数量: 3312
 payload:
   - DOMAIN,0x0.st
   - DOMAIN,3dna.nationbuilder.com
@@ -2358,6 +2358,7 @@ payload:
   - DOMAIN-SUFFIX,2mdn.net
   - DOMAIN-SUFFIX,4cdn.org
   - DOMAIN-SUFFIX,4everland.io
+  - DOMAIN-SUFFIX,666565.xyz
   - DOMAIN-SUFFIX,7mmtv.tv
   - DOMAIN-SUFFIX,91pic.org
   - DOMAIN-SUFFIX,98avcdn.xyz
@@ -3203,6 +3204,7 @@ payload:
   - DOMAIN-SUFFIX,trackerslist.com
   - DOMAIN-SUFFIX,trafficdeposit.com
   - DOMAIN-SUFFIX,transcend-cdn.com
+  - DOMAIN-SUFFIX,tripcdn.com
   - DOMAIN-SUFFIX,trustless-gateway.link
   - DOMAIN-SUFFIX,ttcache.com
   - DOMAIN-SUFFIX,ttl.sh
