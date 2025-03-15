@@ -1,5 +1,5 @@
-# 更新时间: 2025-03-14 20:14:11（北京时间）
-# 规则数量: 32478
+# 更新时间: 2025-03-15 08:37:50（北京时间）
+# 规则数量: 32477
 payload:
   - DOMAIN,adobeereg.com
   - DOMAIN,angle.com.tw
@@ -10602,7 +10602,6 @@ payload:
   - DOMAIN-SUFFIX,feeder.co
   - DOMAIN-SUFFIX,feedherfuckher.com
   - DOMAIN-SUFFIX,feedly.com
-  - DOMAIN-SUFFIX,feedly.comfastgpt.run
   - DOMAIN-SUFFIX,feeds.fileforum.com
   - DOMAIN-SUFFIX,feedsportal.com
   - DOMAIN-SUFFIX,feedx.net
