@@ -1,5 +1,5 @@
-# 更新时间: 2025-03-15 20:12:11（北京时间）
-# 规则数量: 158
+# 更新时间: 2025-03-16 08:42:00（北京时间）
+# 规则数量: 157
 payload:
   - IP-ASN,1012
   - IP-ASN,140915
@@ -157,5 +157,4 @@ payload:
   - IP-CIDR,61.174.50.214/32,no-resolve
   - IP-CIDR,61.183.1.186/32,no-resolve
   - IP-CIDR,61.191.206.4/32,no-resolve
-  - IP-CIDR,79.137.13.24/32,no-resolve
   - IP-CIDR,91.230.49.1/32,no-resolve
