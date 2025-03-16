@@ -1,5 +1,5 @@
-# 更新时间: 2025-03-15 20:12:16（北京时间）
-# 规则数量: 32477
+# 更新时间: 2025-03-16 08:42:10（北京时间）
+# 规则数量: 32469
 payload:
   - DOMAIN,adobeereg.com
   - DOMAIN,angle.com.tw
@@ -9264,7 +9264,6 @@ payload:
   - DOMAIN-SUFFIX,ecw.ac.uk
   - DOMAIN-SUFFIX,ed-coll.ac.uk
   - DOMAIN-SUFFIX,ed.ac.uk
-  - DOMAIN-SUFFIX,ed21.cc
   - DOMAIN-SUFFIX,ed6.ac.uk
   - DOMAIN-SUFFIX,edam.ac.uk
   - DOMAIN-SUFFIX,edc.ac.uk
@@ -10480,7 +10479,6 @@ payload:
   - DOMAIN-SUFFIX,fast.wistia.com
   - DOMAIN-SUFFIX,fastech.ac.uk
   - DOMAIN-SUFFIX,fastestvpn.com
-  - DOMAIN-SUFFIX,fastgpt.run
   - DOMAIN-SUFFIX,fastindianporn.com
   - DOMAIN-SUFFIX,fastlane.ci
   - DOMAIN-SUFFIX,fastlane.tools
@@ -14078,7 +14076,6 @@ payload:
   - DOMAIN-SUFFIX,hst.net.tw
   - DOMAIN-SUFFIX,hstern.net
   - DOMAIN-SUFFIX,hstt.net
-  - DOMAIN-SUFFIX,hsxhr.cc
   - DOMAIN-SUFFIX,hsxsp1.buzz
   - DOMAIN-SUFFIX,hsyy.vip
   - DOMAIN-SUFFIX,ht.ac.uk
@@ -16037,7 +16034,6 @@ payload:
   - DOMAIN-SUFFIX,jiuse823.com
   - DOMAIN-SUFFIX,jiuse904.com
   - DOMAIN-SUFFIX,jiuse905.com
-  - DOMAIN-SUFFIX,jiuzhouyihuo.com
   - DOMAIN-SUFFIX,jiyou520.com
   - DOMAIN-SUFFIX,jiyu-kobo.co.jp
   - DOMAIN-SUFFIX,jizzboom.com
@@ -18173,7 +18169,6 @@ payload:
   - DOMAIN-SUFFIX,mdbankpublic.com
   - DOMAIN-SUFFIX,mdhcdn.com
   - DOMAIN-SUFFIX,mdialog.com
-  - DOMAIN-SUFFIX,mdlf.xyz
   - DOMAIN-SUFFIX,mdn.allizom.net
   - DOMAIN-SUFFIX,mdn.dev
   - DOMAIN-SUFFIX,mdn.mozit.cloud
@@ -22383,7 +22378,6 @@ payload:
   - DOMAIN-SUFFIX,pinterest.vn
   - DOMAIN-SUFFIX,pinterestmail.com
   - DOMAIN-SUFFIX,pintool.com
-  - DOMAIN-SUFFIX,pinyinxiang.com
   - DOMAIN-SUFFIX,pion.ac.uk
   - DOMAIN-SUFFIX,pioneer-worker.forums-free.com
   - DOMAIN-SUFFIX,pipebots.ac.uk
@@ -28007,7 +28001,6 @@ payload:
   - DOMAIN-SUFFIX,tpi.org.tw
   - DOMAIN-SUFFIX,tpmde.ac.uk
   - DOMAIN-SUFFIX,tpornstars.com
-  - DOMAIN-SUFFIX,tps138.info
   - DOMAIN-SUFFIX,tr-west-1.myhuaweicloud.com
   - DOMAIN-SUFFIX,tr.com
   - DOMAIN-SUFFIX,trac.ac.uk
@@ -28943,7 +28936,6 @@ payload:
   - DOMAIN-SUFFIX,urchin.com
   - DOMAIN-SUFFIX,urduvoa.com
   - DOMAIN-SUFFIX,urhtbooks.com
-  - DOMAIN-SUFFIX,uriminzokkiri.com
   - DOMAIN-SUFFIX,url.com.tw
   - DOMAIN-SUFFIX,url.tw
   - DOMAIN-SUFFIX,urlborg.com
