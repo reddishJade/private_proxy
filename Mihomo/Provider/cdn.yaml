@@ -1,5 +1,5 @@
-# 更新时间: 2025-03-17 08:40:34（北京时间）
-# 规则数量: 3319
+# 更新时间: 2025-03-17 20:15:03（北京时间）
+# 规则数量: 3325
 payload:
   - DOMAIN,0x0.st
   - DOMAIN,3dna.nationbuilder.com
@@ -262,6 +262,7 @@ payload:
   - DOMAIN,az700632.vo.msecnd.net
   - DOMAIN,b.peatio.com
   - DOMAIN,b.sf-syn.com
+  - DOMAIN,b5x-sentry.1passwordservices.com
   - DOMAIN,badbits.dwebops.pub
   - DOMAIN,badge.buildkite.com
   - DOMAIN,badge.fury.io
@@ -628,6 +629,7 @@ payload:
   - DOMAIN,cdn.unrealengine.com
   - DOMAIN,cdn.unwire.hk
   - DOMAIN,cdn.up-timely.com
+  - DOMAIN,cdn.uptimia.com
   - DOMAIN,cdn.usd.fan
   - DOMAIN,cdn.userreport.com
   - DOMAIN,cdn.v2ex.com
@@ -1815,6 +1817,7 @@ payload:
   - DOMAIN,spcdn.incartupsell.com
   - DOMAIN,spoprod-a.akamaihd.net
   - DOMAIN,sprig.figma.com
+  - DOMAIN,ssl.gstatic.com
   - DOMAIN,st-eu.dynamicyield.com
   - DOMAIN,st.agrd.eu
   - DOMAIN,st.deviantart.net
@@ -2040,6 +2043,7 @@ payload:
   - DOMAIN,static.typingclub.com
   - DOMAIN,static.ui.com
   - DOMAIN,static.underhentai.net
+  - DOMAIN,static.uptimia.com
   - DOMAIN,static.v2ex.com
   - DOMAIN,static.vinted.com
   - DOMAIN,static.vocadb.net
@@ -2294,6 +2298,7 @@ payload:
   - DOMAIN,www-static.ripe.net
   - DOMAIN,www.10086.win
   - DOMAIN,www.bbthat.com
+  - DOMAIN,www.gstatic.com
   - DOMAIN,www.pngmart.com
   - DOMAIN,www.tbstat.com
   - DOMAIN,www.typescriptlang.org
@@ -2328,6 +2333,7 @@ payload:
   - DOMAIN-REGEX,^cdn[\w.-]\.18girlssex\.com$
   - DOMAIN-REGEX,^cdn[\w.-]\.mikuclub\.fun$
   - DOMAIN-REGEX,^cdns\.[\w.-]*?\.gigya\.com$
+  - DOMAIN-REGEX,^chunk-[\w.-]*?\.mux\.com$
   - DOMAIN-REGEX,^file[\w.-]\.mikuclub\.fun$
   - DOMAIN-REGEX,^i[\w.-]\.nhentai\.net$
   - DOMAIN-REGEX,^image[\w.-]*?\.cloudokyo\.cloud$
