@@ -1,5 +1,5 @@
-# 更新时间: 2025-03-17 20:15:03（北京时间）
-# 规则数量: 662
+# 更新时间: 2025-03-18 08:38:34（北京时间）
+# 规则数量: 669
 payload:
   - DOMAIN,addins.deepl.com
   - DOMAIN,amupdatedl.microsoft.com
@@ -53,6 +53,7 @@ payload:
   - DOMAIN,desktop.wifiman.com
   - DOMAIN,disks.webvm.io
   - DOMAIN,dist.blizzard.com
+  - DOMAIN,dist.creeper.host
   - DOMAIN,dl-cdn.alpinelinux.org
   - DOMAIN,dl-portal.iina.io
   - DOMAIN,dl.circleci.com
@@ -105,6 +106,7 @@ payload:
   - DOMAIN,download.mlcc.google.com
   - DOMAIN,download.mozilla.org
   - DOMAIN,download.nektony.com
+  - DOMAIN,download.nodecdn.net
   - DOMAIN,download.opensuse.org
   - DOMAIN,download.parallels.com
   - DOMAIN,download.pixelexperience.org
@@ -153,6 +155,7 @@ payload:
   - DOMAIN,invent.kde.org
   - DOMAIN,iterm2.com
   - DOMAIN,level3.blizzard.com
+  - DOMAIN,libraries.minecraft.net
   - DOMAIN,mac-release-static.stash.ws
   - DOMAIN,mirror-cdn.xtom.com
   - DOMAIN,mirror.apad.pro
@@ -195,6 +198,8 @@ payload:
   - DOMAIN,packages.virtfusion.net
   - DOMAIN,packagespc.xboxlive.com
   - DOMAIN,pf-cdn-content-prod.azureedge.net
+  - DOMAIN,piston-data.mojang.com
+  - DOMAIN,piston-meta.mojang.com
   - DOMAIN,pkg-containers.githubusercontent.com
   - DOMAIN,pkgs.tailscale.com
   - DOMAIN,playwright-akamai.azureedge.net
@@ -230,6 +235,7 @@ payload:
   - DOMAIN,steampipe.akamaized.net
   - DOMAIN,store.setapp.com
   - DOMAIN,store1.gofile.io
+  - DOMAIN,textures.minecraft.net
   - DOMAIN,u.keka.io
   - DOMAIN,update.code.visualstudio.com
   - DOMAIN,update.googleapis.com
@@ -300,6 +306,7 @@ payload:
   - DOMAIN-SUFFIX,download.cdp.bethesda.net
   - DOMAIN-SUFFIX,download.dm.origin.com
   - DOMAIN-SUFFIX,download.epicgames.com
+  - DOMAIN-SUFFIX,download.minecraft.net
   - DOMAIN-SUFFIX,download.mokeedev.com
   - DOMAIN-SUFFIX,download.nvidia.com
   - DOMAIN-SUFFIX,download.prss.microsoft.com

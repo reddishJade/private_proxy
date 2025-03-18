@@ -1,5 +1,5 @@
-# 更新时间: 2025-03-17 20:15:05（北京时间）
-# 规则数量: 32471
+# 更新时间: 2025-03-18 08:38:36（北京时间）
+# 规则数量: 32472
 payload:
   - DOMAIN,adobeereg.com
   - DOMAIN,angle.com.tw
@@ -18591,6 +18591,7 @@ payload:
   - DOMAIN-SUFFIX,mindmeld.com
   - DOMAIN-SUFFIX,mindnode.com
   - DOMAIN-SUFFIX,mindrolling.org
+  - DOMAIN-SUFFIX,minecraft-services.net
   - DOMAIN-SUFFIX,minecraft.net
   - DOMAIN-SUFFIX,minecraft.wiki
   - DOMAIN-SUFFIX,minecraftservices.com
