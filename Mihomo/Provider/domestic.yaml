@@ -1,5 +1,5 @@
-# 更新时间: 2025-03-18 08:38:43（北京时间）
-# 规则数量: 97967
+# 更新时间: 2025-03-18 20:14:51（北京时间）
+# 规则数量: 97968
 payload:
   - DOMAIN,1-fss24-s0.streamhoster.com
   - DOMAIN,14033.live.streamtheworld.com
@@ -34922,6 +34922,7 @@ payload:
   - DOMAIN-SUFFIX,guan5.com
   - DOMAIN-SUFFIX,guanaitong.com
   - DOMAIN-SUFFIX,guance.com
+  - DOMAIN-SUFFIX,guancha.cn
   - DOMAIN-SUFFIX,guanchangnongmu.com
   - DOMAIN-SUFFIX,guanchao.site
   - DOMAIN-SUFFIX,guanche56.com
