@@ -1,5 +1,5 @@
-# 更新时间: 2025-03-18 20:14:43（北京时间）
-# 规则数量: 3335
+# 更新时间: 2025-03-19 08:38:54（北京时间）
+# 规则数量: 3339
 payload:
   - DOMAIN,0x0.st
   - DOMAIN,3dna.nationbuilder.com
@@ -433,6 +433,7 @@ payload:
   - DOMAIN,cdn.donmai.us
   - DOMAIN,cdn.dotaoutpost.com
   - DOMAIN,cdn.download.it
+  - DOMAIN,cdn.drata.com
   - DOMAIN,cdn.dribbble.com
   - DOMAIN,cdn.dynamicyield.com
   - DOMAIN,cdn.ecomm.ui.com
@@ -577,6 +578,7 @@ payload:
   - DOMAIN,cdn.redoc.ly
   - DOMAIN,cdn.registerdisney.go.com
   - DOMAIN,cdn.reimu.net
+  - DOMAIN,cdn.report-uri.com
   - DOMAIN,cdn.rex.contents.rakuten.co.jp
   - DOMAIN,cdn.rive.app
   - DOMAIN,cdn.robinpro.gallery
@@ -1112,6 +1114,7 @@ payload:
   - DOMAIN,images.crunchbase.com
   - DOMAIN,images.design-editor.com
   - DOMAIN,images.dmca.com
+  - DOMAIN,images.drata.com
   - DOMAIN,images.ecomm.microsoft.com
   - DOMAIN,images.emojiterra.com
   - DOMAIN,images.en.aptoide.com
@@ -1716,6 +1719,7 @@ payload:
   - DOMAIN,s3-figma-force-client-reloads-production.figma.com
   - DOMAIN,s3-figma-plugin-images-production-sig.figma.com
   - DOMAIN,s3-symbol-logo.tradingview.com
+  - DOMAIN,s3-zen.mds.yandex.net
   - DOMAIN,s3.2233778.xyz
   - DOMAIN,s3.aaaaa.io
   - DOMAIN,s3.acg.mn
