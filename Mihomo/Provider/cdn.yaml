@@ -1,5 +1,5 @@
-# 更新时间: 2025-03-19 20:14:33（北京时间）
-# 规则数量: 3339
+# 更新时间: 2025-03-20 08:38:22（北京时间）
+# 规则数量: 3342
 payload:
   - DOMAIN,0x0.st
   - DOMAIN,3dna.nationbuilder.com
@@ -2206,6 +2206,7 @@ payload:
   - DOMAIN,us-js.zonka.co
   - DOMAIN,us.hamreus.com
   - DOMAIN,us01ccistatic.zoom.us
+  - DOMAIN,us1-prod-images.disco-api.com
   - DOMAIN,use.fortawesome.com
   - DOMAIN,use.typekit.com
   - DOMAIN,use.typekit.net
@@ -2319,6 +2320,7 @@ payload:
   - DOMAIN-KEYWORD,-assets.worldsex.com
   - DOMAIN-KEYWORD,-cdn.eporner.com
   - DOMAIN-KEYWORD,-files.gitbook.io
+  - DOMAIN-KEYWORD,-images.disco-api.com
   - DOMAIN-KEYWORD,-res.cloudinary.com
   - DOMAIN-KEYWORD,-thumbs.pornhost.com
   - DOMAIN-KEYWORD,-thumbs.worldsex.com
@@ -3144,6 +3146,7 @@ payload:
   - DOMAIN-SUFFIX,smmallcdn.net
   - DOMAIN-SUFFIX,smushcdn.com
   - DOMAIN-SUFFIX,sndcdn.com
+  - DOMAIN-SUFFIX,sndimg.com
   - DOMAIN-SUFFIX,sny.monosnap.com
   - DOMAIN-SUFFIX,snzypic.com
   - DOMAIN-SUFFIX,someonewhocares.org
