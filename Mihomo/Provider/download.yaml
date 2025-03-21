@@ -1,5 +1,5 @@
-# 更新时间: 2025-03-21 08:39:06（北京时间）
-# 规则数量: 670
+# 更新时间: 2025-03-21 20:14:35（北京时间）
+# 规则数量: 671
 payload:
   - DOMAIN,addins.deepl.com
   - DOMAIN,amupdatedl.microsoft.com
@@ -251,6 +251,7 @@ payload:
   - DOMAIN,updates.istatmenus.app
   - DOMAIN,versioncheck-bg.addons.mozilla.org
   - DOMAIN,versioncheck.addons.mozilla.org
+  - DOMAIN,vfat.classicreload.com
   - DOMAIN,xvcf1.xboxlive.com
   - DOMAIN,xvcf2.xboxlive.com
   - DOMAIN-REGEX,^[\w.-]*?\.s3\.[\w.-]*?\.backblazeb2\.com$

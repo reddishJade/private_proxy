@@ -1,5 +1,5 @@
-# 更新时间: 2025-03-21 08:39:05（北京时间）
-# 规则数量: 3342
+# 更新时间: 2025-03-21 20:14:35（北京时间）
+# 规则数量: 3343
 payload:
   - DOMAIN,0x0.st
   - DOMAIN,3dna.nationbuilder.com
@@ -646,6 +646,7 @@ payload:
   - DOMAIN,cdn.wccftech.com
   - DOMAIN,cdn.webclicks24.com
   - DOMAIN,cdn.weglot.com
+  - DOMAIN,cdn.wikimg.net
   - DOMAIN,cdn.wikiwand.com
   - DOMAIN,cdn.wikiwiki.jp
   - DOMAIN,cdn.windowsreport.com
