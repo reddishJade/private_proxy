@@ -1,5 +1,5 @@
-# 更新时间: 2025-03-20 20:14:55（北京时间）
-# 规则数量: 32472
+# 更新时间: 2025-03-21 08:39:08（北京时间）
+# 规则数量: 32473
 payload:
   - DOMAIN,adobeereg.com
   - DOMAIN,angle.com.tw
@@ -20193,6 +20193,7 @@ payload:
   - DOMAIN-SUFFIX,newphd.ac.uk
   - DOMAIN-SUFFIX,newport.ac.uk
   - DOMAIN-SUFFIX,newpppp.com
+  - DOMAIN-SUFFIX,newrepublic.com
   - DOMAIN-SUFFIX,newroutephd.ac.uk
   - DOMAIN-SUFFIX,news.cnyes.com
   - DOMAIN-SUFFIX,news.co.uk
