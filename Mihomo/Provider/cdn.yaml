@@ -1,5 +1,5 @@
-# 更新时间: 2025-03-21 20:14:35（北京时间）
-# 规则数量: 3343
+# 更新时间: 2025-03-22 08:37:59（北京时间）
+# 规则数量: 3344
 payload:
   - DOMAIN,0x0.st
   - DOMAIN,3dna.nationbuilder.com
@@ -1695,6 +1695,7 @@ payload:
   - DOMAIN,s.gishan.cc
   - DOMAIN,s.imgflip.com
   - DOMAIN,s.imgur.com
+  - DOMAIN,s.midishow.net
   - DOMAIN,s.namemc.com
   - DOMAIN,s.plurk.com
   - DOMAIN,s.rfi.fr
