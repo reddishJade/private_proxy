@@ -1,5 +1,5 @@
-# 更新时间: 2025-03-23 08:42:28（北京时间）
-# 规则数量: 3352
+# 更新时间: 2025-03-23 20:13:02（北京时间）
+# 规则数量: 3354
 payload:
   - DOMAIN,0x0.st
   - DOMAIN,3dna.nationbuilder.com
@@ -355,6 +355,7 @@ payload:
   - DOMAIN,cdn-widgetsrepository.yotpo.com
   - DOMAIN,cdn-www.bluestacks.com
   - DOMAIN,cdn-yotpo-images-production.yotpo.com
+  - DOMAIN,cdn.123av.me
   - DOMAIN,cdn.17app.co
   - DOMAIN,cdn.18jav.tv
   - DOMAIN,cdn.7tv.app
@@ -3145,6 +3146,7 @@ payload:
   - DOMAIN-SUFFIX,siteintercept.qualtrics.com
   - DOMAIN-SUFFIX,sitescdn.net
   - DOMAIN-SUFFIX,sixyik.com
+  - DOMAIN-SUFFIX,skyearth8.xyz
   - DOMAIN-SUFFIX,skypack.dev
   - DOMAIN-SUFFIX,skypeassets.com
   - DOMAIN-SUFFIX,slack-edge.com
