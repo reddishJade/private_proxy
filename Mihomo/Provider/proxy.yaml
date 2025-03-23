@@ -1,5 +1,5 @@
-# 更新时间: 2025-03-22 20:12:39（北京时间）
-# 规则数量: 32473
+# 更新时间: 2025-03-23 08:42:30（北京时间）
+# 规则数量: 32474
 payload:
   - DOMAIN,adobeereg.com
   - DOMAIN,angle.com.tw
@@ -14360,6 +14360,7 @@ payload:
   - DOMAIN-SUFFIX,icac.ac.uk
   - DOMAIN-SUFFIX,icair.ac.uk
   - DOMAIN-SUFFIX,icams.com
+  - DOMAIN-SUFFIX,icann.org
   - DOMAIN-SUFFIX,icashpassport.com.mx
   - DOMAIN-SUFFIX,icbc-at.com
   - DOMAIN-SUFFIX,icbc-cz.com

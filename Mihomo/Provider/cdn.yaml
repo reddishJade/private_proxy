@@ -1,5 +1,5 @@
-# 更新时间: 2025-03-22 20:12:37（北京时间）
-# 规则数量: 3344
+# 更新时间: 2025-03-23 08:42:28（北京时间）
+# 规则数量: 3352
 payload:
   - DOMAIN,0x0.st
   - DOMAIN,3dna.nationbuilder.com
@@ -24,6 +24,7 @@ payload:
   - DOMAIN,ajax.googleapis.com
   - DOMAIN,ajax.microsoft.com
   - DOMAIN,ak.sail-horizon.com
+  - DOMAIN,akamai-assets.squarespace.com
   - DOMAIN,alt.idgesg.net
   - DOMAIN,amp.azure.net
   - DOMAIN,analytics.twitter.com
@@ -467,6 +468,7 @@ payload:
   - DOMAIN,cdn.glitch.global
   - DOMAIN,cdn.glitch.me
   - DOMAIN,cdn.gofundme.com
+  - DOMAIN,cdn.googlesource.com
   - DOMAIN,cdn.graph.office.net
   - DOMAIN,cdn.growthbook.io
   - DOMAIN,cdn.hackernoon.com
@@ -779,6 +781,8 @@ payload:
   - DOMAIN,cms-assets.webediamovies.pro
   - DOMAIN,cms-assets.xboxservices.com
   - DOMAIN,cms-cdn.now.gg
+  - DOMAIN,cms.recordedfuture.com
+  - DOMAIN,cms.therecord.media
   - DOMAIN,cms.typenetwork.com
   - DOMAIN,code.benco.io
   - DOMAIN,code.highcharts.com
@@ -1821,6 +1825,7 @@ payload:
   - DOMAIN,social-cdn.vivaldi.net
   - DOMAIN,solve-widget.forethought.ai
   - DOMAIN,source.domaintools.com
+  - DOMAIN,sourcemaps.squarespace.net
   - DOMAIN,sourcepoint.theguardian.com
   - DOMAIN,sp-spiegel-de.spiegel.de
   - DOMAIN,sp.nba.com
@@ -2499,6 +2504,7 @@ payload:
   - DOMAIN-SUFFIX,cdn.discordapp.com
   - DOMAIN-SUFFIX,cdn.getfeedback.com
   - DOMAIN-SUFFIX,cdn.greenhouse.io
+  - DOMAIN-SUFFIX,cdn.icann.org
   - DOMAIN-SUFFIX,cdn.ifixit.com
   - DOMAIN-SUFFIX,cdn.imgeng.in
   - DOMAIN-SUFFIX,cdn.imghaste.com
@@ -2638,6 +2644,7 @@ payload:
   - DOMAIN-SUFFIX,esm.run
   - DOMAIN-SUFFIX,esm.sh
   - DOMAIN-SUFFIX,espncdn.com
+  - DOMAIN-SUFFIX,etsystatic.com
   - DOMAIN-SUFFIX,eu-browse.startpage.com
   - DOMAIN-SUFFIX,eu-proxy.startpage.com
   - DOMAIN-SUFFIX,events.backtrace.io
@@ -3095,6 +3102,7 @@ payload:
   - DOMAIN-SUFFIX,repo.anaconda.com
   - DOMAIN-SUFFIX,res.office365.com
   - DOMAIN-SUFFIX,rescript-lang.org
+  - DOMAIN-SUFFIX,rlcdn.com
   - DOMAIN-SUFFIX,rocketcdn.me
   - DOMAIN-SUFFIX,rollupjs.org
   - DOMAIN-SUFFIX,roseimgs.com
