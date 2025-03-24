@@ -1,5 +1,5 @@
-# 更新时间: 2025-03-24 08:40:46（北京时间）
-# 规则数量: 3356
+# 更新时间: 2025-03-24 20:15:47（北京时间）
+# 规则数量: 3357
 payload:
   - DOMAIN,0x0.st
   - DOMAIN,3dna.nationbuilder.com
@@ -2342,6 +2342,7 @@ payload:
   - DOMAIN-REGEX,^[\w.-]*?\.fsvod[\w.-]\.com$
   - DOMAIN-REGEX,^[\w.-]*?\.img\.[\w.-]*?\.sendibm[\w.-]\.com$
   - DOMAIN-REGEX,^[\w.-]*?\.kuaikan-cdn[\w.-]\.com$
+  - DOMAIN-REGEX,^[\w.-]*?\.skyearth[\w.-]\.xyz$
   - DOMAIN-REGEX,^appcenter-filemanagement-[\w.-]*?\.cloudapp\.net$
   - DOMAIN-REGEX,^assets[\w.-]*?\.freshdesk\.com$
   - DOMAIN-REGEX,^blog-imgs-[\w.-][\w.-]\.2nt\.com$
