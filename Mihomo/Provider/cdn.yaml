@@ -1,5 +1,5 @@
-# 更新时间: 2025-03-23 20:13:02（北京时间）
-# 规则数量: 3354
+# 更新时间: 2025-03-24 08:40:46（北京时间）
+# 规则数量: 3356
 payload:
   - DOMAIN,0x0.st
   - DOMAIN,3dna.nationbuilder.com
@@ -2026,6 +2026,7 @@ payload:
   - DOMAIN,static.playstation.com
   - DOMAIN,static.plus.net
   - DOMAIN,static.politico.com
+  - DOMAIN,static.polldaddy.com
   - DOMAIN,static.probit.com
   - DOMAIN,static.queue-it.net
   - DOMAIN,static.rakuten.com
@@ -2181,6 +2182,7 @@ payload:
   - DOMAIN,topbar-static.piano.io
   - DOMAIN,torrindex.net
   - DOMAIN,touchgal-image.moyu.moe
+  - DOMAIN,townsquare.media
   - DOMAIN,tracking.inflection.io
   - DOMAIN,truth.bahamut.com.tw
   - DOMAIN,tuf-repo-cdn.sigstore.dev

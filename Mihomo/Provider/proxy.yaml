@@ -1,5 +1,5 @@
-# 更新时间: 2025-03-23 20:13:05（北京时间）
-# 规则数量: 32474
+# 更新时间: 2025-03-24 08:40:49（北京时间）
+# 规则数量: 32473
 payload:
   - DOMAIN,adobeereg.com
   - DOMAIN,angle.com.tw
@@ -3123,7 +3123,6 @@ payload:
   - DOMAIN-SUFFIX,b.hatena.ne.jp
   - DOMAIN-SUFFIX,b0ne.com
   - DOMAIN-SUFFIX,b3boos.com
-  - DOMAIN-SUFFIX,b3bos.com
   - DOMAIN-SUFFIX,b6b33.com
   - DOMAIN-SUFFIX,b6fc.ac.uk
   - DOMAIN-SUFFIX,baa.ac.uk
@@ -6917,6 +6916,7 @@ payload:
   - DOMAIN-SUFFIX,coinalyze.net
   - DOMAIN-SUFFIX,coinbase.com
   - DOMAIN-SUFFIX,coinbene.com
+  - DOMAIN-SUFFIX,coincarp.com
   - DOMAIN-SUFFIX,coincheck.com
   - DOMAIN-SUFFIX,coindesk.com
   - DOMAIN-SUFFIX,coinegg.com
@@ -9493,7 +9493,6 @@ payload:
   - DOMAIN-SUFFIX,emuparadise.me
   - DOMAIN-SUFFIX,emwprep.ac.uk
   - DOMAIN-SUFFIX,en-compass.ac.uk
-  - DOMAIN-SUFFIX,en.favotter.net
   - DOMAIN-SUFFIX,en.hao123.com
   - DOMAIN-SUFFIX,enablementadobe.com
   - DOMAIN-SUFFIX,enanyang.my
@@ -10373,6 +10372,7 @@ payload:
   - DOMAIN-SUFFIX,fanfox.net
   - DOMAIN-SUFFIX,fangbinxing.com
   - DOMAIN-SUFFIX,fangeming.com
+  - DOMAIN-SUFFIX,fangeming.comffvpn.com
   - DOMAIN-SUFFIX,fangeqiang.com
   - DOMAIN-SUFFIX,fanglizhi.info
   - DOMAIN-SUFFIX,fangmincn.org
@@ -10476,7 +10476,6 @@ payload:
   - DOMAIN-SUFFIX,fashionretailacademy.ac.uk
   - DOMAIN-SUFFIX,fashiontechnologyacademy.ac.uk
   - DOMAIN-SUFFIX,fast.com
-  - DOMAIN-SUFFIX,fast.wistia.com
   - DOMAIN-SUFFIX,fastech.ac.uk
   - DOMAIN-SUFFIX,fastestvpn.com
   - DOMAIN-SUFFIX,fastindianporn.com
@@ -21339,6 +21338,7 @@ payload:
   - DOMAIN-SUFFIX,oncars.in
   - DOMAIN-SUFFIX,one.com
   - DOMAIN-SUFFIX,one.one.one
+  - DOMAIN-SUFFIX,one.one.one.one
   - DOMAIN-SUFFIX,one889.app
   - DOMAIN-SUFFIX,oneapi.com
   - DOMAIN-SUFFIX,onedinesfree.com
@@ -29388,7 +29388,6 @@ payload:
   - DOMAIN-SUFFIX,video.aol.com
   - DOMAIN-SUFFIX,video.ap.org
   - DOMAIN-SUFFIX,video.fc2.com
-  - DOMAIN-SUFFIX,video.fdbox.com
   - DOMAIN-SUFFIX,video.foxbusiness.com
   - DOMAIN-SUFFIX,video01.org
   - DOMAIN-SUFFIX,videoactive.ac.uk
