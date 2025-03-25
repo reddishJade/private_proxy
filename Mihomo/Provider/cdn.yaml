@@ -1,5 +1,5 @@
-# 更新时间: 2025-03-24 20:15:47（北京时间）
-# 规则数量: 3357
+# 更新时间: 2025-03-25 08:39:24（北京时间）
+# 规则数量: 3363
 payload:
   - DOMAIN,0x0.st
   - DOMAIN,3dna.nationbuilder.com
@@ -118,6 +118,7 @@ payload:
   - DOMAIN,assets.clever-cloud.com
   - DOMAIN,assets.clickfunnels.com
   - DOMAIN,assets.cloudpilot.ai
+  - DOMAIN,assets.cmcmarkets.com
   - DOMAIN,assets.codepen.io
   - DOMAIN,assets.coinbase.com
   - DOMAIN,assets.coingecko.com
@@ -148,6 +149,7 @@ payload:
   - DOMAIN,assets.genius.com
   - DOMAIN,assets.getkirby.com
   - DOMAIN,assets.github.dev
+  - DOMAIN,assets.goat.com
   - DOMAIN,assets.grammarly.com
   - DOMAIN,assets.grooveapps.com
   - DOMAIN,assets.guim.co.uk
@@ -321,6 +323,7 @@ payload:
   - DOMAIN,cdn-a.sonyentertainmentnetwork.com
   - DOMAIN,cdn-app.pathfactory.com
   - DOMAIN,cdn-assets.circleci.com
+  - DOMAIN,cdn-avatars.huggingface.co
   - DOMAIN,cdn-bundler.nice-team.net
   - DOMAIN,cdn-c.leavemealone.com
   - DOMAIN,cdn-client.medium.com
@@ -402,6 +405,7 @@ payload:
   - DOMAIN,cdn.clever-cloud.com
   - DOMAIN,cdn.cliqz.com
   - DOMAIN,cdn.cloudcraft.co
+  - DOMAIN,cdn.cmcmarkets.com
   - DOMAIN,cdn.cms-twdigitalassets.com
   - DOMAIN,cdn.cnn.com
   - DOMAIN,cdn.cnx-software.com
@@ -781,6 +785,7 @@ payload:
   - DOMAIN,cms-assets.nodecraft.com
   - DOMAIN,cms-assets.webediamovies.pro
   - DOMAIN,cms-assets.xboxservices.com
+  - DOMAIN,cms-cdn.goat.com
   - DOMAIN,cms-cdn.now.gg
   - DOMAIN,cms.recordedfuture.com
   - DOMAIN,cms.therecord.media
@@ -1082,6 +1087,7 @@ payload:
   - DOMAIN,image.dooo.ng
   - DOMAIN,image.email.microsoftemail.com
   - DOMAIN,image.freepik.com
+  - DOMAIN,image.goat.com
   - DOMAIN,image.gyutto.com
   - DOMAIN,image.gyutto.jp
   - DOMAIN,image.hkhl.hk
