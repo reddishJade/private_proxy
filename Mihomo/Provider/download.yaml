@@ -1,5 +1,5 @@
-# 更新时间: 2025-03-25 20:14:54（北京时间）
-# 规则数量: 671
+# 更新时间: 2025-03-26 08:39:03（北京时间）
+# 规则数量: 673
 payload:
   - DOMAIN,addins.deepl.com
   - DOMAIN,amupdatedl.microsoft.com
@@ -218,6 +218,7 @@ payload:
   - DOMAIN,repo.debiancn.org
   - DOMAIN,repo.powerdns.com
   - DOMAIN,rpm.xpipe.io
+  - DOMAIN,s3.teckids.org
   - DOMAIN,security.debian.org
   - DOMAIN,security.ubuntu.com
   - DOMAIN,share.riseup.net
@@ -480,6 +481,7 @@ payload:
   - DOMAIN-SUFFIX,s3-fips.us-gov-west-1.amazonaws.com
   - DOMAIN-SUFFIX,s3-fips.us-west-1.amazonaws.com
   - DOMAIN-SUFFIX,s3-fips.us-west-2.amazonaws.com
+  - DOMAIN-SUFFIX,s3-global.amazonaws.com
   - DOMAIN-SUFFIX,s3-me-south-1.amazonaws.com
   - DOMAIN-SUFFIX,s3-object-lambda.af-south-1.amazonaws.com
   - DOMAIN-SUFFIX,s3-object-lambda.ap-east-1.amazonaws.com

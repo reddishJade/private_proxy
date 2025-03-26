@@ -1,5 +1,5 @@
-# 更新时间: 2025-03-25 20:14:56（北京时间）
-# 规则数量: 32473
+# 更新时间: 2025-03-26 08:39:06（北京时间）
+# 规则数量: 32474
 payload:
   - DOMAIN,adobeereg.com
   - DOMAIN,angle.com.tw
@@ -12932,6 +12932,7 @@ payload:
   - DOMAIN-SUFFIX,hanime.tv
   - DOMAIN-SUFFIX,hanime.xxx
   - DOMAIN-SUFFIX,hanime1.me
+  - DOMAIN-SUFFIX,hanimeone.me
   - DOMAIN-SUFFIX,hanminzu.org
   - DOMAIN-SUFFIX,hannah.ac.uk
   - DOMAIN-SUFFIX,hanr-bao.mom
