@@ -1,5 +1,5 @@
-# 更新时间: 2025-03-26 08:39:06（北京时间）
-# 规则数量: 32474
+# 更新时间: 2025-03-26 20:14:45（北京时间）
+# 规则数量: 32475
 payload:
   - DOMAIN,adobeereg.com
   - DOMAIN,angle.com.tw
@@ -16400,6 +16400,7 @@ payload:
   - DOMAIN-SUFFIX,kiad.ac.uk
   - DOMAIN-SUFFIX,kichiku-doujinko.com
   - DOMAIN-SUFFIX,kichikuou.com
+  - DOMAIN-SUFFIX,kick.com
   - DOMAIN-SUFFIX,kickporn.com
   - DOMAIN-SUFFIX,kickshatchannel.com
   - DOMAIN-SUFFIX,kicksnike1.com
