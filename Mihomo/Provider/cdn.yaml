@@ -1,5 +1,5 @@
-# 更新时间: 2025-03-27 08:39:13（北京时间）
-# 规则数量: 3371
+# 更新时间: 2025-03-27 20:15:08（北京时间）
+# 规则数量: 3374
 payload:
   - DOMAIN,0x0.st
   - DOMAIN,3dna.nationbuilder.com
@@ -493,6 +493,7 @@ payload:
   - DOMAIN,cdn.ionos.de
   - DOMAIN,cdn.ip2location.io
   - DOMAIN,cdn.ipregistry.co
+  - DOMAIN,cdn.javmg.com
   - DOMAIN,cdn.javsts.com
   - DOMAIN,cdn.jetboost.io
   - DOMAIN,cdn.jetphotos.com
@@ -1013,6 +1014,7 @@ payload:
   - DOMAIN,gearbox.imgix.com
   - DOMAIN,genesis-cdn.ff.com
   - DOMAIN,geoip-js.com
+  - DOMAIN,geojson.io
   - DOMAIN,gfx-data.news-engineering.aws.wapo.pub
   - DOMAIN,gitpkg-fork.vercel.sh
   - DOMAIN,global.divhunt.com
@@ -1022,6 +1024,7 @@ payload:
   - DOMAIN,go.imperva.com
   - DOMAIN,go.vercel.com
   - DOMAIN,godoc.org
+  - DOMAIN,gohugo.io
   - DOMAIN,google-ohttp-relay-safebrowsing.fastly-edge.com
   - DOMAIN,gopkg.in
   - DOMAIN,graph.facebook.com

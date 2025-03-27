@@ -1,5 +1,5 @@
-# 更新时间: 2025-03-27 08:39:18（北京时间）
-# 规则数量: 32511
+# 更新时间: 2025-03-27 20:15:13（北京时间）
+# 规则数量: 32526
 payload:
   - DOMAIN,adobeereg.com
   - DOMAIN,angle.com.tw
@@ -1266,6 +1266,7 @@ payload:
   - DOMAIN-SUFFIX,air-watch.com
   - DOMAIN-SUFFIX,airasia.com
   - DOMAIN-SUFFIX,airav.cc
+  - DOMAIN-SUFFIX,airav.io
   - DOMAIN-SUFFIX,airav.wiki
   - DOMAIN-SUFFIX,airconsole.com
   - DOMAIN-SUFFIX,aircrack-ng.org
@@ -6639,6 +6640,7 @@ payload:
   - DOMAIN-SUFFIX,ckss98.com
   - DOMAIN-SUFFIX,cl.d0z.net
   - DOMAIN-SUFFIX,cl.ly
+  - DOMAIN-SUFFIX,cla-assistant.io
   - DOMAIN-SUFFIX,clackmannan-college.ac.uk
   - DOMAIN-SUFFIX,clacks.ac.uk
   - DOMAIN-SUFFIX,clacton.ac.uk
@@ -8017,6 +8019,7 @@ payload:
   - DOMAIN-SUFFIX,diablo3.com
   - DOMAIN-SUFFIX,diabloimmortal.com
   - DOMAIN-SUFFIX,dialga.com
+  - DOMAIN-SUFFIX,dialgrams.net
   - DOMAIN-SUFFIX,dialogflow.com
   - DOMAIN-SUFFIX,diamantewebcam.com
   - DOMAIN-SUFFIX,diamm.ac.uk
@@ -8577,6 +8580,7 @@ payload:
   - DOMAIN-SUFFIX,dragonsprings.org
   - DOMAIN-SUFFIX,drainage.com
   - DOMAIN-SUFFIX,drakemarineinstitute.ac.uk
+  - DOMAIN-SUFFIX,draw.io
   - DOMAIN-SUFFIX,drawnevidence.ac.uk
   - DOMAIN-SUFFIX,drbdsmporn.com
   - DOMAIN-SUFFIX,drbeatsukmart.com
@@ -9985,6 +9989,7 @@ payload:
   - DOMAIN-SUFFIX,expertmaker.com
   - DOMAIN-SUFFIX,experts-univers.com
   - DOMAIN-SUFFIX,experts.ac.uk
+  - DOMAIN-SUFFIX,explainthis.io
   - DOMAIN-SUFFIX,explicittube.com
   - DOMAIN-SUFFIX,exploader.net
   - DOMAIN-SUFFIX,exploitedcollegegirls.com
@@ -10917,6 +10922,7 @@ payload:
   - DOMAIN-SUFFIX,fluids.ac.uk
   - DOMAIN-SUFFIX,flutter.dev
   - DOMAIN-SUFFIX,flutterapp.com
+  - DOMAIN-SUFFIX,fly.io
   - DOMAIN-SUFFIX,flyflv.com
   - DOMAIN-SUFFIX,flyingjizz.com
   - DOMAIN-SUFFIX,flypool.org
@@ -11576,6 +11582,7 @@ payload:
   - DOMAIN-SUFFIX,fxplus.ac.uk
   - DOMAIN-SUFFIX,fxporn.net
   - DOMAIN-SUFFIX,fxtwitter.com
+  - DOMAIN-SUFFIX,fydeos.io
   - DOMAIN-SUFFIX,fzdm.com
   - DOMAIN-SUFFIX,fzdshare.net
   - DOMAIN-SUFFIX,fzh999.com
@@ -12829,6 +12836,7 @@ payload:
   - DOMAIN-SUFFIX,guo.media
   - DOMAIN-SUFFIX,guochantube.com
   - DOMAIN-SUFFIX,guochanw.life
+  - DOMAIN-SUFFIX,guru
   - DOMAIN-SUFFIX,guruofporn.com
   - DOMAIN-SUFFIX,guruonline.hk
   - DOMAIN-SUFFIX,gutteruncensored.com
@@ -13673,6 +13681,7 @@ payload:
   - DOMAIN-SUFFIX,hollyrandall.com
   - DOMAIN-SUFFIX,holmelacy.ac.uk
   - DOMAIN-SUFFIX,hololens.com
+  - DOMAIN-SUFFIX,holopin.io
   - DOMAIN-SUFFIX,holts.ac.uk
   - DOMAIN-SUFFIX,holycross.ac.uk
   - DOMAIN-SUFFIX,holymountaincn.com
@@ -14811,6 +14820,7 @@ payload:
   - DOMAIN-SUFFIX,imagefap.com
   - DOMAIN-SUFFIX,imageflea.com
   - DOMAIN-SUFFIX,imageglass.org
+  - DOMAIN-SUFFIX,imagekit.io
   - DOMAIN-SUFFIX,imagemodeler.com
   - DOMAIN-SUFFIX,imagepost.com
   - DOMAIN-SUFFIX,images-amazon.com
@@ -17308,6 +17318,7 @@ payload:
   - DOMAIN-SUFFIX,logmein.com
   - DOMAIN-SUFFIX,logos.com.hk
   - DOMAIN-SUFFIX,logosfilm.co.kr
+  - DOMAIN-SUFFIX,logto.io
   - DOMAIN-SUFFIX,loholidayhk.com
   - DOMAIN-SUFFIX,lojaiphone.com.br
   - DOMAIN-SUFFIX,lokinet.org
@@ -20310,6 +20321,7 @@ payload:
   - DOMAIN-SUFFIX,nextapple.com
   - DOMAIN-SUFFIX,nextdigital.com.hk
   - DOMAIN-SUFFIX,nextdigital.com.tw
+  - DOMAIN-SUFFIX,nextdns.io
   - DOMAIN-SUFFIX,nextechafrica.net
   - DOMAIN-SUFFIX,nextfilm.com.hk
   - DOMAIN-SUFFIX,nextgenerationcam.com
@@ -23158,6 +23170,7 @@ payload:
   - DOMAIN-SUFFIX,prioned.ac.uk
   - DOMAIN-SUFFIX,prism-break.org
   - DOMAIN-SUFFIX,prism.ac.uk
+  - DOMAIN-SUFFIX,prisma.io
   - DOMAIN-SUFFIX,prismlauncher.org
   - DOMAIN-SUFFIX,prismlive.com
   - DOMAIN-SUFFIX,prisoneralert.com
@@ -23209,6 +23222,7 @@ payload:
   - DOMAIN-SUFFIX,projectshoreline.com
   - DOMAIN-SUFFIX,projectvasari.com
   - DOMAIN-SUFFIX,projectvoyeur.com
+  - DOMAIN-SUFFIX,prometheus.io
   - DOMAIN-SUFFIX,promonsterbeatsbydre.com
   - DOMAIN-SUFFIX,promotingpartnership.ac.uk
   - DOMAIN-SUFFIX,proms.ac.uk
@@ -27364,6 +27378,7 @@ payload:
   - DOMAIN-SUFFIX,tgirlcentral.com
   - DOMAIN-SUFFIX,tgirlpostop.com
   - DOMAIN-SUFFIX,tgp6.com
+  - DOMAIN-SUFFIX,tgstat.com
   - DOMAIN-SUFFIX,tgtube.com
   - DOMAIN-SUFFIX,tgutube.com
   - DOMAIN-SUFFIX,th.hao123.com
