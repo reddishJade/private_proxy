@@ -1,8 +1,10 @@
-# 更新时间: 2025-03-26 20:14:42（北京时间）
-# 规则数量: 156
+# 更新时间: 2025-03-27 08:39:13（北京时间）
+# 规则数量: 158
 payload:
   - DOMAIN,dl.delivery.mp.microsoft.com
   - DOMAIN,epicgames-download1-1251447533.file.myqcloud.com
+  - DOMAIN,gog-cdn-fastly.gog.com
+  - DOMAIN,gog-cdn.akamaized.net
   - DOMAIN,gog.qtlglb.com
   - DOMAIN,gogalaxy.gog-statics.com
   - DOMAIN,menu-static.gog-statics.com
