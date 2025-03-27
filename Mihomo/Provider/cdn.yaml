@@ -1,5 +1,5 @@
-# 更新时间: 2025-03-26 20:14:42（北京时间）
-# 规则数量: 3369
+# 更新时间: 2025-03-27 08:39:13（北京时间）
+# 规则数量: 3371
 payload:
   - DOMAIN,0x0.st
   - DOMAIN,3dna.nationbuilder.com
@@ -1434,6 +1434,7 @@ payload:
   - DOMAIN,media.loom-app.com
   - DOMAIN,media.mas.to
   - DOMAIN,media.masto.nu
+  - DOMAIN,media.minecraftforum.net
   - DOMAIN,media.mstdn.io
   - DOMAIN,media.nationwide.com
   - DOMAIN,media.newyorker.com
@@ -2933,6 +2934,7 @@ payload:
   - DOMAIN-SUFFIX,lzzypic.com
   - DOMAIN-SUFFIX,makeuseofimages.com
   - DOMAIN-SUFFIX,mangadex.network
+  - DOMAIN-SUFFIX,mangguo-youku.com
   - DOMAIN-SUFFIX,mapi.4kvm.net
   - DOMAIN-SUFFIX,marketing.aws.dev
   - DOMAIN-SUFFIX,mcusercontent.com
