@@ -1,5 +1,5 @@
-# 更新时间: 2025-03-27 20:15:08（北京时间）
-# 规则数量: 3374
+# 更新时间: 2025-03-28 08:38:51（北京时间）
+# 规则数量: 3375
 payload:
   - DOMAIN,0x0.st
   - DOMAIN,3dna.nationbuilder.com
@@ -2828,6 +2828,7 @@ payload:
   - DOMAIN-SUFFIX,instant.page
   - DOMAIN-SUFFIX,intercomassets.com
   - DOMAIN-SUFFIX,intercomcdn.com
+  - DOMAIN-SUFFIX,intercomcdn.io
   - DOMAIN-SUFFIX,intuitcdn.net
   - DOMAIN-SUFFIX,invisionapp-cdn.com
   - DOMAIN-SUFFIX,ipfs-gateway.cloud

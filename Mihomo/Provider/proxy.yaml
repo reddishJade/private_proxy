@@ -1,5 +1,5 @@
-# 更新时间: 2025-03-27 20:15:13（北京时间）
-# 规则数量: 32526
+# 更新时间: 2025-03-28 08:38:54（北京时间）
+# 规则数量: 32561
 payload:
   - DOMAIN,adobeereg.com
   - DOMAIN,angle.com.tw
@@ -270,7 +270,9 @@ payload:
   - DOMAIN-SUFFIX,1mobile.com
   - DOMAIN-SUFFIX,1mobile.tw
   - DOMAIN-SUFFIX,1monsterbeatsbydreus.com
+  - DOMAIN-SUFFIX,1password.ca
   - DOMAIN-SUFFIX,1password.com
+  - DOMAIN-SUFFIX,1password.eu
   - DOMAIN-SUFFIX,1passwordservices.com
   - DOMAIN-SUFFIX,1point3acres.com
   - DOMAIN-SUFFIX,1pondo.tv
@@ -735,6 +737,7 @@ payload:
   - DOMAIN-SUFFIX,aabb1803.com
   - DOMAIN-SUFFIX,aacrjournals.org
   - DOMAIN-SUFFIX,aadmv.com
+  - DOMAIN-SUFFIX,aadrm.com
   - DOMAIN-SUFFIX,aaex.uk
   - DOMAIN-SUFFIX,aalah.me
   - DOMAIN-SUFFIX,aamacau.com
@@ -1193,6 +1196,7 @@ payload:
   - DOMAIN-SUFFIX,agemys.org
   - DOMAIN-SUFFIX,agendaweek.com
   - DOMAIN-SUFFIX,agenet.ac.uk
+  - DOMAIN-SUFFIX,agilebits.com
   - DOMAIN-SUFFIX,agnesb.fr
   - DOMAIN-SUFFIX,agocg.ac.uk
   - DOMAIN-SUFFIX,agoogleaday.com
@@ -3940,6 +3944,7 @@ payload:
   - DOMAIN-SUFFIX,biaoqs1.xyz
   - DOMAIN-SUFFIX,biaoqs2.xyz
   - DOMAIN-SUFFIX,biblesforamerica.org
+  - DOMAIN-SUFFIX,bibliocommons.com
   - DOMAIN-SUFFIX,bibliography.ac.uk
   - DOMAIN-SUFFIX,bibox.com
   - DOMAIN-SUFFIX,bic2011.org
@@ -6166,6 +6171,7 @@ payload:
   - DOMAIN-SUFFIX,cfos.de
   - DOMAIN-SUFFIX,cfr.org
   - DOMAIN-SUFFIX,cfs.ac.uk
+  - DOMAIN-SUFFIX,cfsh99.com
   - DOMAIN-SUFFIX,cftfc.com
   - DOMAIN-SUFFIX,cfwives.com
   - DOMAIN-SUFFIX,cgdepot.org
@@ -7010,6 +7016,7 @@ payload:
   - DOMAIN-SUFFIX,comefromchina.com
   - DOMAIN-SUFFIX,comet-study.ac.uk
   - DOMAIN-SUFFIX,cometotheduckside.com
+  - DOMAIN-SUFFIX,comffvpn.com
   - DOMAIN-SUFFIX,comic-mega.me
   - DOMAIN-SUFFIX,comicbox.xyz
   - DOMAIN-SUFFIX,comico.tw
@@ -7719,6 +7726,7 @@ payload:
   - DOMAIN-SUFFIX,data.gov.tw
   - DOMAIN-SUFFIX,datafuturesalphapilot.ac.uk
   - DOMAIN-SUFFIX,datagrid.ac.uk
+  - DOMAIN-SUFFIX,datalabour.com
   - DOMAIN-SUFFIX,dataliberation.org
   - DOMAIN-SUFFIX,datalore.io
   - DOMAIN-SUFFIX,datasheets360.com
@@ -8052,7 +8060,9 @@ payload:
   - DOMAIN-SUFFIX,dify.ai
   - DOMAIN-SUFFIX,digicert-cn.com
   - DOMAIN-SUFFIX,digicert-validation.com
+  - DOMAIN-SUFFIX,digicert.co.jp
   - DOMAIN-SUFFIX,digicert.com
+  - DOMAIN-SUFFIX,digicert.eu
   - DOMAIN-SUFFIX,digiland.tw
   - DOMAIN-SUFFIX,digimap.ac.uk
   - DOMAIN-SUFFIX,digisfera.com
@@ -9600,6 +9610,8 @@ payload:
   - DOMAIN-SUFFIX,enterprisepaging.com
   - DOMAIN-SUFFIX,enterpriseresearch.ac.uk
   - DOMAIN-SUFFIX,enterprisessl.com
+  - DOMAIN-SUFFIX,entrust.cn
+  - DOMAIN-SUFFIX,entrust.com
   - DOMAIN-SUFFIX,entrust.net
   - DOMAIN-SUFFIX,entrustdatacard.com
   - DOMAIN-SUFFIX,enveast.ac.uk
@@ -10844,6 +10856,7 @@ payload:
   - DOMAIN-SUFFIX,firstchancesfife.ac.uk
   - DOMAIN-SUFFIX,firstfivefollowers.com
   - DOMAIN-SUFFIX,firstgynexam.com
+  - DOMAIN-SUFFIX,firstory.me
   - DOMAIN-SUFFIX,firstpelvicexam.com
   - DOMAIN-SUFFIX,firstpost.com
   - DOMAIN-SUFFIX,firstprivatebank.com.mm
@@ -11511,6 +11524,7 @@ payload:
   - DOMAIN-SUFFIX,fulltaboo.tv
   - DOMAIN-SUFFIX,fullxxxmovies.net
   - DOMAIN-SUFFIX,fulue.com
+  - DOMAIN-SUFFIX,funami.tech
   - DOMAIN-SUFFIX,fundaiphone5s.com
   - DOMAIN-SUFFIX,fundfire.com
   - DOMAIN-SUFFIX,fundinginstitutional.com
@@ -13022,6 +13036,7 @@ payload:
   - DOMAIN-SUFFIX,haskellstack.org
   - DOMAIN-SUFFIX,hastings.ac.uk
   - DOMAIN-SUFFIX,hastingsonline.ac.uk
+  - DOMAIN-SUFFIX,hatena.ne.jp
   - DOMAIN-SUFFIX,hath.network
   - DOMAIN-SUFFIX,hau.ac.uk
   - DOMAIN-SUFFIX,hautelook.com
@@ -15694,6 +15709,7 @@ payload:
   - DOMAIN-SUFFIX,iwyn138.com
   - DOMAIN-SUFFIX,ixnxx.tv
   - DOMAIN-SUFFIX,ixquick.com
+  - DOMAIN-SUFFIX,ixsystems.com
   - DOMAIN-SUFFIX,ixxx.com
   - DOMAIN-SUFFIX,iyalc.com
   - DOMAIN-SUFFIX,iyf.tv
@@ -17408,6 +17424,7 @@ payload:
   - DOMAIN-SUFFIX,looporn.com
   - DOMAIN-SUFFIX,looti.net
   - DOMAIN-SUFFIX,lordofultima.com
+  - DOMAIN-SUFFIX,lorenzetti.com.br
   - DOMAIN-SUFFIX,loreto.ac.uk
   - DOMAIN-SUFFIX,lostbetsgames.com
   - DOMAIN-SUFFIX,lotcrap.com
@@ -18366,6 +18383,7 @@ payload:
   - DOMAIN-SUFFIX,metacloud.com
   - DOMAIN-SUFFIX,metacpan.org
   - DOMAIN-SUFFIX,metacritic.com
+  - DOMAIN-SUFFIX,metacubex.one
   - DOMAIN-SUFFIX,metadac.ac.uk
   - DOMAIN-SUFFIX,metafilter.com
   - DOMAIN-SUFFIX,metalpha.finance
@@ -18492,6 +18510,7 @@ payload:
   - DOMAIN-SUFFIX,microsoftadvertisingregionalawards.com
   - DOMAIN-SUFFIX,microsoftaffiliates.com
   - DOMAIN-SUFFIX,microsoftapp.net
+  - DOMAIN-SUFFIX,microsoftazuread-sso.com
   - DOMAIN-SUFFIX,microsoftazuresponsorships.com
   - DOMAIN-SUFFIX,microsoftcloud.com
   - DOMAIN-SUFFIX,microsoftcloudsummit.com
@@ -20852,6 +20871,7 @@ payload:
   - DOMAIN-SUFFIX,nrooms-dh.sbs
   - DOMAIN-SUFFIX,nrp.ac.uk
   - DOMAIN-SUFFIX,nrs.ac.uk
+  - DOMAIN-SUFFIX,ns.ci
   - DOMAIN-SUFFIX,ns01.biz
   - DOMAIN-SUFFIX,ns01.info
   - DOMAIN-SUFFIX,ns01.us
@@ -21157,6 +21177,7 @@ payload:
   - DOMAIN-SUFFIX,nyansa.com
   - DOMAIN-SUFFIX,nybooks.com
   - DOMAIN-SUFFIX,nydus.ca
+  - DOMAIN-SUFFIX,nyinfor.com
   - DOMAIN-SUFFIX,nylon-angel.com
   - DOMAIN-SUFFIX,nylonstockingsonline.com
   - DOMAIN-SUFFIX,nym97.net
@@ -21375,6 +21396,7 @@ payload:
   - DOMAIN-SUFFIX,onbeatsbydresale.com
   - DOMAIN-SUFFIX,oncars.in
   - DOMAIN-SUFFIX,one.com
+  - DOMAIN-SUFFIX,one.one
   - DOMAIN-SUFFIX,one.one.one
   - DOMAIN-SUFFIX,one.one.one.one
   - DOMAIN-SUFFIX,one889.app
@@ -21737,6 +21759,9 @@ payload:
   - DOMAIN-SUFFIX,ozeex.com
   - DOMAIN-SUFFIX,ozodi.org
   - DOMAIN-SUFFIX,ozodlik.org
+  - DOMAIN-SUFFIX,ozon.ru
+  - DOMAIN-SUFFIX,ozone.ru
+  - DOMAIN-SUFFIX,ozonusercontent.com
   - DOMAIN-SUFFIX,ozvoice.org
   - DOMAIN-SUFFIX,ozxw.com
   - DOMAIN-SUFFIX,ozyoyo.com
@@ -22501,6 +22526,8 @@ payload:
   - DOMAIN-SUFFIX,playcover.io
   - DOMAIN-SUFFIX,player.fm
   - DOMAIN-SUFFIX,playerjs.io
+  - DOMAIN-SUFFIX,playfab.com
+  - DOMAIN-SUFFIX,playfabapi.com
   - DOMAIN-SUFFIX,playforceone.com
   - DOMAIN-SUFFIX,playhearthstone.com
   - DOMAIN-SUFFIX,playmation.com
@@ -23977,6 +24004,7 @@ payload:
   - DOMAIN-SUFFIX,reid-kerr.ac.uk
   - DOMAIN-SUFFIX,reidkerr.ac.uk
   - DOMAIN-SUFFIX,reigate.ac.uk
+  - DOMAIN-SUFFIX,reimu.net
   - DOMAIN-SUFFIX,reiporno.com
   - DOMAIN-SUFFIX,relateinstitute.ac.uk
   - DOMAIN-SUFFIX,relateiq.com
@@ -25209,6 +25237,7 @@ payload:
   - DOMAIN-SUFFIX,shadowsocks.com
   - DOMAIN-SUFFIX,shadowsocks.com.hk
   - DOMAIN-SUFFIX,shadowsocks.nl
+  - DOMAIN-SUFFIX,shadowsocks.nu
   - DOMAIN-SUFFIX,shadowsocks.org
   - DOMAIN-SUFFIX,shadowsocks9.com
   - DOMAIN-SUFFIX,shadowverse.jp
@@ -26444,6 +26473,7 @@ payload:
   - DOMAIN-SUFFIX,static.shemalez.com
   - DOMAIN-SUFFIX,static01.nyt.com
   - DOMAIN-SUFFIX,static9.net.au
+  - DOMAIN-SUFFIX,statically.io
   - DOMAIN-SUFFIX,staticflickr.com
   - DOMAIN-SUFFIX,statistics.ac.uk
   - DOMAIN-SUFFIX,statsmakemecry.com
@@ -26604,6 +26634,7 @@ payload:
   - DOMAIN-SUFFIX,stream-mydirtyhobby.biz
   - DOMAIN-SUFFIX,streamable.com
   - DOMAIN-SUFFIX,streamate.com
+  - DOMAIN-SUFFIX,streamguys1.com
   - DOMAIN-SUFFIX,streamhentaimovies.com
   - DOMAIN-SUFFIX,streamingdisney.net
   - DOMAIN-SUFFIX,streamingporn.xyz
@@ -27673,6 +27704,7 @@ payload:
   - DOMAIN-SUFFIX,thrixxx.com
   - DOMAIN-SUFFIX,throughnightsfire.com
   - DOMAIN-SUFFIX,thtmod1.com
+  - DOMAIN-SUFFIX,thu.monster
   - DOMAIN-SUFFIX,thuhole.com
   - DOMAIN-SUFFIX,thumbnailseries.com
   - DOMAIN-SUFFIX,thumbzilla.com
@@ -28175,6 +28207,7 @@ payload:
   - DOMAIN-SUFFIX,truedepth3d.com
   - DOMAIN-SUFFIX,truedwg.com
   - DOMAIN-SUFFIX,truefi.io
+  - DOMAIN-SUFFIX,truenas.com
   - DOMAIN-SUFFIX,trulyergonomic.com
   - DOMAIN-SUFFIX,trunest.com
   - DOMAIN-SUFFIX,truro-penwith.ac.uk
@@ -28918,6 +28951,7 @@ payload:
   - DOMAIN-SUFFIX,unknownspace.org
   - DOMAIN-SUFFIX,unkoscene.com
   - DOMAIN-SUFFIX,unl.ac.uk
+  - DOMAIN-SUFFIX,unlock-music.dev
   - DOMAIN-SUFFIX,unlocklimitlesslearning.com
   - DOMAIN-SUFFIX,unlocktool.net
   - DOMAIN-SUFFIX,unmineable.com
@@ -29643,6 +29677,7 @@ payload:
   - DOMAIN-SUFFIX,visabank.org
   - DOMAIN-SUFFIX,visabg.com
   - DOMAIN-SUFFIX,visabusinessinsights.com
+  - DOMAIN-SUFFIX,visaca.com
   - DOMAIN-SUFFIX,visacarddesignlab.com
   - DOMAIN-SUFFIX,visacards.com
   - DOMAIN-SUFFIX,visacheckout.net
