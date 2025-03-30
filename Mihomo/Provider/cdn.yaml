@@ -1,5 +1,5 @@
-# 更新时间: 2025-03-30 08:43:09（北京时间）
-# 规则数量: 3375
+# 更新时间: 2025-03-30 20:13:11（北京时间）
+# 规则数量: 3379
 payload:
   - DOMAIN,0x0.st
   - DOMAIN,3dna.nationbuilder.com
@@ -434,6 +434,7 @@ payload:
   - DOMAIN,cdn.deta.space
   - DOMAIN,cdn.devolutions.net
   - DOMAIN,cdn.dnsimple.com
+  - DOMAIN,cdn.docsbot.com
   - DOMAIN,cdn.document360.io
   - DOMAIN,cdn.donmai.us
   - DOMAIN,cdn.dotaoutpost.com
@@ -952,6 +953,7 @@ payload:
   - DOMAIN,f002.backblazeb2.com
   - DOMAIN,f003.backblazeb2.com
   - DOMAIN,f004.backblazeb2.com
+  - DOMAIN,fast.appcues.com
   - DOMAIN,fast.wistia.com
   - DOMAIN,fast.wistia.net
   - DOMAIN,fastly-cloud.typenetwork.com
@@ -1478,6 +1480,7 @@ payload:
   - DOMAIN,media9.kissjav.com
   - DOMAIN,medias.meow.social
   - DOMAIN,megapx-assets.dcard.tw
+  - DOMAIN,meta.prismlauncher.org
   - DOMAIN,metrics.kapa.ai
   - DOMAIN,micro.rubiconproject.com
   - DOMAIN,minotar.net
@@ -2303,6 +2306,7 @@ payload:
   - DOMAIN,website-prod.cache.wpscdn.com
   - DOMAIN,webstatic.chargebee.com
   - DOMAIN,widget.automizely.com
+  - DOMAIN,widget.datablocks.se
   - DOMAIN,widget.docsbot.ai
   - DOMAIN,widget.freshworks.com
   - DOMAIN,widget.gotolstoy.com
