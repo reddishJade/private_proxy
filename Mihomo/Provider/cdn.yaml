@@ -1,5 +1,5 @@
-# 更新时间: 2025-03-31 08:42:06（北京时间）
-# 规则数量: 3382
+# 更新时间: 2025-03-31 20:15:13（北京时间）
+# 规则数量: 3383
 payload:
   - DOMAIN,0x0.st
   - DOMAIN,3dna.nationbuilder.com
@@ -1088,6 +1088,7 @@ payload:
   - DOMAIN,icons.leavemealone.com
   - DOMAIN,icons.llamao.fi
   - DOMAIN,icons.ly
+  - DOMAIN,icons.veryicon.com
   - DOMAIN,icons.zeabur.com
   - DOMAIN,iframe.nbcnews.com
   - DOMAIN,ik.imgkit.net
