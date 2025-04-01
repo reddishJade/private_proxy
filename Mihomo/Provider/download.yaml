@@ -1,5 +1,5 @@
-# 更新时间: 2025-04-01 08:45:19（北京时间）
-# 规则数量: 1156
+# 更新时间: 2025-04-01 20:15:34（北京时间）
+# 规则数量: 1157
 payload:
   - DOMAIN,1-mirrors.in.sahilister.net
   - DOMAIN,2-mirrors.in.sahilister.net
@@ -226,6 +226,7 @@ payload:
   - DOMAIN,download.parallels.com
   - DOMAIN,download.pixelexperience.org
   - DOMAIN,download.projectbluefin.io
+  - DOMAIN,download.proxyman.com
   - DOMAIN,download.sketch.com
   - DOMAIN,download.snipaste.com
   - DOMAIN,download.tensorflow.google.com
