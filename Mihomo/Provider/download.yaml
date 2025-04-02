@@ -1,5 +1,5 @@
-# 更新时间: 2025-04-02 08:40:01（北京时间）
-# 规则数量: 1157
+# 更新时间: 2025-04-02 20:14:54（北京时间）
+# 规则数量: 1159
 payload:
   - DOMAIN,1-mirrors.in.sahilister.net
   - DOMAIN,2-mirrors.in.sahilister.net
@@ -607,6 +607,7 @@ payload:
   - DOMAIN,mirrors.xtom.nl
   - DOMAIN,mirrors.xtom.sg
   - DOMAIN,mirrors.xtom.us
+  - DOMAIN,msdl.microsoft.com
   - DOMAIN,muug.ca
   - DOMAIN,nobara-images.nobaraproject.org
   - DOMAIN,objects.githubusercontent.com
@@ -668,6 +669,7 @@ payload:
   - DOMAIN,steampipe.akamaized.net
   - DOMAIN,store.setapp.com
   - DOMAIN,store1.gofile.io
+  - DOMAIN,su.virtualbuddy.app
   - DOMAIN,sunsite.icm.edu.pl
   - DOMAIN,sunsite.informatik.rwth-aachen.de
   - DOMAIN,textures.minecraft.net
