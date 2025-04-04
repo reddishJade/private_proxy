@@ -1,5 +1,5 @@
-# 更新时间: 2025-04-04 08:39:29（北京时间）
-# 规则数量: 32569
+# 更新时间: 2025-04-04 20:14:39（北京时间）
+# 规则数量: 32571
 payload:
   - DOMAIN,adobeereg.com
   - DOMAIN,angle.com.tw
@@ -2776,6 +2776,7 @@ payload:
   - DOMAIN-SUFFIX,auricularesbeatsmarkt.com
   - DOMAIN-SUFFIX,auroraoss.com
   - DOMAIN-SUFFIX,ausbeatsbydrdre.com
+  - DOMAIN-SUFFIX,auth.openai.com
   - DOMAIN-SUFFIX,auth0.com
   - DOMAIN-SUFFIX,authorizeddns.net
   - DOMAIN-SUFFIX,authorizeddns.org
@@ -21510,6 +21511,7 @@ payload:
   - DOMAIN-SUFFIX,opencollective.com
   - DOMAIN-SUFFIX,opencreate.org
   - DOMAIN-SUFFIX,opendemocracy.net
+  - DOMAIN-SUFFIX,opendesktop.org
   - DOMAIN-SUFFIX,opendn.xyz
   - DOMAIN-SUFFIX,opendns.com
   - DOMAIN-SUFFIX,opendroneid.org
