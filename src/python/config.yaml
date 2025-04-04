@@ -256,11 +256,11 @@
   format: yaml
   behavior: classical
   upstream:
-    # DustinWin_domestic:
-    #   type: http
-    #   url: "https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/cn.yaml"
-    #   format: yaml
-    #   behavior: domain
+    DustinWin_domestic:
+      type: http
+      url: "https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/cn.yaml"
+      format: yaml
+      behavior: domain
 
     skk_domestic:
       type: http
@@ -272,11 +272,11 @@
   format: yaml
   behavior: classical
   upstream:    
-    # DustinWin_domestic_ip:
-    #   type: http
-    #   url: "https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/cnip.yaml"
-    #   format: yaml
-    #   behavior: ipcidr
+    DustinWin_domestic_ip:
+      type: http
+      url: "https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/cnip.yaml"
+      format: yaml
+      behavior: ipcidr
 
     skk_domestic_ip:
       type: http
