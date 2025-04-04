@@ -1,5 +1,5 @@
-# 更新时间: 2025-04-04 08:39:24（北京时间）
-# 规则数量: 3394
+# 更新时间: 2025-04-04 20:14:36（北京时间）
+# 规则数量: 3395
 payload:
   - DOMAIN,0x0.st
   - DOMAIN,3dna.nationbuilder.com
@@ -857,6 +857,7 @@ payload:
   - DOMAIN,css.createsend1.com
   - DOMAIN,curl.se
   - DOMAIN,cw-image-resizer.cwg.tw
+  - DOMAIN,d2c.aws.amazon.com
   - DOMAIN,d4.alternativeto.net
   - DOMAIN,dam.freshworks.com
   - DOMAIN,dassets.shimano.com
