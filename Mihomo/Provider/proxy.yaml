@@ -1,5 +1,5 @@
-# 更新时间: 2025-04-05 20:13:02（北京时间）
-# 规则数量: 32571
+# 更新时间: 2025-04-06 08:42:53（北京时间）
+# 规则数量: 32573
 payload:
   - DOMAIN,adobeereg.com
   - DOMAIN,angle.com.tw
@@ -56,6 +56,7 @@ payload:
   - DOMAIN,practivate.adobe.ntp
   - DOMAIN,public-us-pingsx.api.clonoth.com
   - DOMAIN,servd-anthropic-website.b-cdn.net
+  - DOMAIN,sgminorshort.wechat.com
   - DOMAIN,store.ui.com.cn
   - DOMAIN,tesla-cdn.thron.com
   - DOMAIN,tmdb-image-prod.b-cdn.net
@@ -14394,6 +14395,7 @@ payload:
   - DOMAIN-SUFFIX,ibook.net
   - DOMAIN-SUFFIX,ibookpartner.com
   - DOMAIN-SUFFIX,ibooksauthor.com
+  - DOMAIN-SUFFIX,iboysoft.com
   - DOMAIN-SUFFIX,ibradome.com
   - DOMAIN-SUFFIX,ibros.org
   - DOMAIN-SUFFIX,ibss.ac.uk

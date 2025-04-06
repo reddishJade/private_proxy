@@ -1,15 +1,18 @@
-# 更新时间: 2025-04-05 20:12:58（北京时间）
-# 规则数量: 158
+# 更新时间: 2025-04-06 08:42:49（北京时间）
+# 规则数量: 159
 payload:
   - DOMAIN,dl.delivery.mp.microsoft.com
+  - DOMAIN,dl.steam.ksyna.com
   - DOMAIN,epicgames-download1-1251447533.file.myqcloud.com
   - DOMAIN,gog-cdn-fastly.gog.com
   - DOMAIN,gog-cdn.akamaized.net
   - DOMAIN,gog.qtlglb.com
   - DOMAIN,gogalaxy.gog-statics.com
+  - DOMAIN,lv.queniujq.cn
   - DOMAIN,menu-static.gog-statics.com
   - DOMAIN,productcard.gog-statics.com
   - DOMAIN,static-login.gog-statics.com
+  - DOMAIN,steampipe.steamcontent.tnkjmec.com
   - DOMAIN,tlu.dl.delivery.mp.microsoft.com
   - DOMAIN,trts.baishancdnx.cn
   - DOMAIN,uplaypc-s-ubisoft.cdn.ubi.com
@@ -36,7 +39,6 @@ payload:
   - DOMAIN-SUFFIX,codm.com
   - DOMAIN-SUFFIX,csgo.wmsj.cn
   - DOMAIN-SUFFIX,dl.steam.clngaa.com
-  - DOMAIN-SUFFIX,dl.steam.ksyna.com
   - DOMAIN-SUFFIX,dota2.wmsj.cn
   - DOMAIN-SUFFIX,ffbuddy.com
   - DOMAIN-SUFFIX,gamebonfire.com
@@ -123,7 +125,6 @@ payload:
   - DOMAIN-SUFFIX,st.dl.pinyuncloud.com
   - DOMAIN-SUFFIX,steamchina.com
   - DOMAIN-SUFFIX,steamcontent.com
-  - DOMAIN-SUFFIX,steampipe.steamcontent.tnkjmec.com
   - DOMAIN-SUFFIX,steampowered.com.8686c.com
   - DOMAIN-SUFFIX,steamserver.net
   - DOMAIN-SUFFIX,steamstatic.com.8686c.com
