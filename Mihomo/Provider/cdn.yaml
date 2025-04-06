@@ -1,5 +1,5 @@
-# 更新时间: 2025-04-06 08:42:49（北京时间）
-# 规则数量: 3396
+# 更新时间: 2025-04-06 20:12:42（北京时间）
+# 规则数量: 3400
 payload:
   - DOMAIN,0x0.st
   - DOMAIN,3dna.nationbuilder.com
@@ -69,6 +69,7 @@ payload:
   - DOMAIN,apple-relay.fastly-edge.com
   - DOMAIN,apps.bazaarvoice.com
   - DOMAIN,apps.profitihub.com
+  - DOMAIN,apps.sophi.io
   - DOMAIN,archive.mozilla.org
   - DOMAIN,artworks.thetvdb.com
   - DOMAIN,asset-cdn.uscardforum.com
@@ -846,6 +847,7 @@ payload:
   - DOMAIN,craftassets.unraid.net
   - DOMAIN,cravatar.eu
   - DOMAIN,creativajs.altervista.org
+  - DOMAIN,creative.eizzih.com
   - DOMAIN,creator-image.javhd.com
   - DOMAIN,crl.usertrust.com
   - DOMAIN,crl.verisign.com
@@ -1713,6 +1715,7 @@ payload:
   - DOMAIN,resources-cache.prod.sketch.com
   - DOMAIN,resources-live.sketch.cloud
   - DOMAIN,resources.help.salesforce.com
+  - DOMAIN,resources.whatwg.org
   - DOMAIN,rest.happierleads.com
   - DOMAIN,rsi.grafana.com
   - DOMAIN,rsms.me
@@ -2669,6 +2672,7 @@ payload:
   - DOMAIN-SUFFIX,ebayimg.com
   - DOMAIN-SUFFIX,ebaystatic.com
   - DOMAIN-SUFFIX,edge.storage-yahoo.jp
+  - DOMAIN-SUFFIX,edgeone.app
   - DOMAIN-SUFFIX,edgestorewebcdn.azureedge.net
   - DOMAIN-SUFFIX,eggjs.org
   - DOMAIN-SUFFIX,ehgt.org
