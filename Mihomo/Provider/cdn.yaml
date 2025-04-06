@@ -1,5 +1,5 @@
-# 更新时间: 2025-04-05 20:12:58（北京时间）
-# 规则数量: 3395
+# 更新时间: 2025-04-06 08:42:49（北京时间）
+# 规则数量: 3396
 payload:
   - DOMAIN,0x0.st
   - DOMAIN,3dna.nationbuilder.com
@@ -1786,6 +1786,7 @@ payload:
   - DOMAIN,s3.us-west-002.backblazeb2.com
   - DOMAIN,s3.us-west-004.backblazeb2.com
   - DOMAIN,s3media.squarespace.com
+  - DOMAIN,s4.itho.me
   - DOMAIN,s4.maxstream.org
   - DOMAIN,s5.maxstream.org
   - DOMAIN,s6.maxstream.org
