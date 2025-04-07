@@ -1,5 +1,5 @@
-# 更新时间: 2025-04-06 20:12:42（北京时间）
-# 规则数量: 3400
+# 更新时间: 2025-04-07 08:41:25（北京时间）
+# 规则数量: 3402
 payload:
   - DOMAIN,0x0.st
   - DOMAIN,3dna.nationbuilder.com
@@ -759,6 +759,7 @@ payload:
   - DOMAIN,cdnl.tnaflix.com
   - DOMAIN,cdns.gigya.com
   - DOMAIN,cdnstatic.porno-cum.com
+  - DOMAIN,cdnstatic.tencentcs.com
   - DOMAIN,cdnstatic.w1mp.com
   - DOMAIN,cdnstatic.w4nkr.com
   - DOMAIN,cdntranscend.eventbrite.com
@@ -2135,6 +2136,7 @@ payload:
   - DOMAIN,static8.lottiefiles.com
   - DOMAIN,static9.lottiefiles.com
   - DOMAIN,staticctf.ubisoft.com
+  - DOMAIN,staticintl.cloudcachetci.com
   - DOMAIN,statics-marketingsites-eas-ms-com.akamaized.net
   - DOMAIN,statics.erothots.co
   - DOMAIN,statics.goorm.io
