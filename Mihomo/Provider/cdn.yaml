@@ -1,5 +1,5 @@
-# 更新时间: 2025-04-07 08:41:25（北京时间）
-# 规则数量: 3402
+# 更新时间: 2025-04-07 20:15:21（北京时间）
+# 规则数量: 3403
 payload:
   - DOMAIN,0x0.st
   - DOMAIN,3dna.nationbuilder.com
@@ -191,6 +191,7 @@ payload:
   - DOMAIN,assets.pixlee.com
   - DOMAIN,assets.play.xbox.com
   - DOMAIN,assets.plurk.com
+  - DOMAIN,assets.polarbyte.com
   - DOMAIN,assets.poool.fr
   - DOMAIN,assets.positional-bucket.com
   - DOMAIN,assets.prowritingaid.com
