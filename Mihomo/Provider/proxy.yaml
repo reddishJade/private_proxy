@@ -1,5 +1,5 @@
-# 更新时间: 2025-04-07 20:15:25（北京时间）
-# 规则数量: 32577
+# 更新时间: 2025-04-08 08:48:38（北京时间）
+# 规则数量: 32581
 payload:
   - DOMAIN,adobeereg.com
   - DOMAIN,angle.com.tw
@@ -25490,7 +25490,11 @@ payload:
   - DOMAIN-SUFFIX,sign.ac.uk
   - DOMAIN-SUFFIX,sign.new
   - DOMAIN-SUFFIX,signal.art
+  - DOMAIN-SUFFIX,signal.group
+  - DOMAIN-SUFFIX,signal.link
+  - DOMAIN-SUFFIX,signal.me
   - DOMAIN-SUFFIX,signal.org
+  - DOMAIN-SUFFIX,signal.tube
   - DOMAIN-SUFFIX,signalbar.com
   - DOMAIN-SUFFIX,signalprocessingsociety.org
   - DOMAIN-SUFFIX,signalr.net
