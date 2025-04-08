@@ -1,6 +1,7 @@
-# 更新时间: 2025-04-08 08:48:35（北京时间）
-# 规则数量: 273
+# 更新时间: 2025-04-08 20:15:21（北京时间）
+# 规则数量: 274
 payload:
+  - ','
   - DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com
   - DOMAIN,4gtvfreepcvod-cds.cdn.hinet.net
   - DOMAIN,akmcdnoversea-tw.inter.ptqy.gitv.tv

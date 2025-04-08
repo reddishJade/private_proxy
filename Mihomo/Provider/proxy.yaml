@@ -1,5 +1,5 @@
-# 更新时间: 2025-04-08 08:48:38（北京时间）
-# 规则数量: 32581
+# 更新时间: 2025-04-08 20:15:24（北京时间）
+# 规则数量: 32584
 payload:
   - DOMAIN,adobeereg.com
   - DOMAIN,angle.com.tw
@@ -7112,6 +7112,7 @@ payload:
   - DOMAIN-SUFFIX,contentful.com
   - DOMAIN-SUFFIX,contest.com
   - DOMAIN-SUFFIX,contests.twilio.com
+  - DOMAIN-SUFFIX,convertio.co
   - DOMAIN-SUFFIX,convio.net
   - DOMAIN-SUFFIX,convrgencegame.com
   - DOMAIN-SUFFIX,coobay.com
@@ -28242,6 +28243,8 @@ payload:
   - DOMAIN-SUFFIX,trusteddwg.com
   - DOMAIN-SUFFIX,trustedpeach.com
   - DOMAIN-SUFFIX,trustisfps.com
+  - DOMAIN-SUFFIX,trustpilot.com
+  - DOMAIN-SUFFIX,trustpilot.net
   - DOMAIN-SUFFIX,trustsign.ch
   - DOMAIN-SUFFIX,trustwave.com
   - DOMAIN-SUFFIX,truth101.co.tv
