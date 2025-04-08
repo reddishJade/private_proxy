@@ -1,5 +1,5 @@
-# 更新时间: 2025-04-07 20:15:21（北京时间）
-# 规则数量: 3403
+# 更新时间: 2025-04-08 08:48:35（北京时间）
+# 规则数量: 3412
 payload:
   - DOMAIN,0x0.st
   - DOMAIN,3dna.nationbuilder.com
@@ -164,6 +164,7 @@ payload:
   - DOMAIN,assets.jable.tv
   - DOMAIN,assets.jolipage.co
   - DOMAIN,assets.kagi.com
+  - DOMAIN,assets.keysquare.io
   - DOMAIN,assets.kraken.com
   - DOMAIN,assets.leetcode.com
   - DOMAIN,assets.lemonsqueezy.com
@@ -942,6 +943,7 @@ payload:
   - DOMAIN,encrypted-vtbn3.gstatic.com
   - DOMAIN,epic-social-social-modules-prod.ol.epicgames.com
   - DOMAIN,error.rakuten.co.jp
+  - DOMAIN,eslint-react.xyz
   - DOMAIN,eslint.org
   - DOMAIN,eslint.style
   - DOMAIN,eu-images.contentstack.com
@@ -1051,6 +1053,7 @@ payload:
   - DOMAIN,headway-widget.net
   - DOMAIN,heatmap-external-a.strava.com
   - DOMAIN,hentaiworldtv.b-cdn.net
+  - DOMAIN,heroicons.com
   - DOMAIN,hhhhhhome86227170.wordpress.com
   - DOMAIN,hips.hearstapps.com
   - DOMAIN,hls.hentaicity.com
@@ -1175,6 +1178,7 @@ payload:
   - DOMAIN,images.nvidia.com
   - DOMAIN,images.opencollective.com
   - DOMAIN,images.pexels.com
+  - DOMAIN,images.pling.com
   - DOMAIN,images.plurk.com
   - DOMAIN,images.pluto.tv
   - DOMAIN,images.prismic.io
@@ -1716,6 +1720,7 @@ payload:
   - DOMAIN,resource.video.nimg.jp
   - DOMAIN,resources-cache.prod.sketch.com
   - DOMAIN,resources-live.sketch.cloud
+  - DOMAIN,resources.chessbase.com
   - DOMAIN,resources.help.salesforce.com
   - DOMAIN,resources.whatwg.org
   - DOMAIN,rest.happierleads.com
@@ -1885,6 +1890,7 @@ payload:
   - DOMAIN,start-page.buffer.com
   - DOMAIN,static-00.iconduck.com
   - DOMAIN,static-act.imoim.net
+  - DOMAIN,static-assets-1.truthsocial.com
   - DOMAIN,static-assets-prod.epicgames.com
   - DOMAIN,static-assets-web.flixcart.com
   - DOMAIN,static-assets.clubhouseapi.com
@@ -1959,6 +1965,7 @@ payload:
   - DOMAIN,static.captcha-delivery.com
   - DOMAIN,static.chaika.moe
   - DOMAIN,static.change.org
+  - DOMAIN,static.chessarena.com
   - DOMAIN,static.cloud.coveo.com
   - DOMAIN,static.cloudcachetci.com
   - DOMAIN,static.cnbeta.com.tw
@@ -2306,6 +2313,7 @@ payload:
   - DOMAIN,waitlisted.co
   - DOMAIN,wandi-6402.kxcdn.com
   - DOMAIN,wcpstatic.microsoft.com
+  - DOMAIN,wctour-images.worldchess.com
   - DOMAIN,weather.istatmenus.app
   - DOMAIN,web-assets.esetstatic.com
   - DOMAIN,web-assets.ifttt.com
@@ -2455,6 +2463,7 @@ payload:
   - DOMAIN-SUFFIX,akamai-content-network.com
   - DOMAIN-SUFFIX,akidoo.top
   - DOMAIN-SUFFIX,alexdav.id
+  - DOMAIN-SUFFIX,algolianet.com
   - DOMAIN-SUFFIX,alonestreaming.com
   - DOMAIN-SUFFIX,alphafish.top
   - DOMAIN-SUFFIX,amaicdn.com
