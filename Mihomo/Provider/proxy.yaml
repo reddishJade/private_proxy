@@ -1,5 +1,5 @@
-# 更新时间: 2025-04-09 08:39:38（北京时间）
-# 规则数量: 32584
+# 更新时间: 2025-04-10 08:39:35（北京时间）
+# 规则数量: 32585
 payload:
   - DOMAIN,adobeereg.com
   - DOMAIN,angle.com.tw
@@ -23821,6 +23821,7 @@ payload:
   - DOMAIN-SUFFIX,rdnet.ac.uk
   - DOMAIN-SUFFIX,rds-yes.buzz
   - DOMAIN-SUFFIX,rdtcdn.com
+  - DOMAIN-SUFFIX,re
   - DOMAIN-SUFFIX,re-net.ac.uk
   - DOMAIN-SUFFIX,re25.vip
   - DOMAIN-SUFFIX,rea-asia.com
