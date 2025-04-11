@@ -1,5 +1,5 @@
-# 更新时间: 2025-04-11 08:40:09（北京时间）
-# 规则数量: 97608
+# 更新时间: 2025-04-11 20:15:05（北京时间）
+# 规则数量: 97609
 payload:
   - DOMAIN,03.lzzncm.com
   - DOMAIN,04.lzzncm.com
@@ -28921,6 +28921,7 @@ payload:
   - DOMAIN-SUFFIX,dasych.drmartypets.com
   - DOMAIN-SUFFIX,dat.drgkitzmann-akademie.de
   - DOMAIN-SUFFIX,dat.yl-zipper.com
+  - DOMAIN-SUFFIX,data
   - DOMAIN-SUFFIX,data-0034231193.apps.iocnt.de
   - DOMAIN-SUFFIX,data-00460c60fa.eurotransport.de
   - DOMAIN-SUFFIX,data-004e4e6793.wetter.at
