@@ -1,5 +1,5 @@
-# 更新时间: 2025-04-10 20:15:26（北京时间）
-# 规则数量: 3436
+# 更新时间: 2025-04-11 08:40:13（北京时间）
+# 规则数量: 3437
 payload:
   - DOMAIN,0x0.st
   - DOMAIN,3dna.nationbuilder.com
@@ -2182,6 +2182,7 @@ payload:
   - DOMAIN,steamvideo-a.akamaihd.net
   - DOMAIN,storage-b.picacomic.com
   - DOMAIN,storage.crisp.chat
+  - DOMAIN,storage.deepin.org
   - DOMAIN,storage.gra.cloud.ovh.net
   - DOMAIN,storage.ko-fi.com
   - DOMAIN,storage.moegirl.tw
