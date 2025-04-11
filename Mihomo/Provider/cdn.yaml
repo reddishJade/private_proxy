@@ -1,5 +1,5 @@
-# 更新时间: 2025-04-11 08:40:13（北京时间）
-# 规则数量: 3437
+# 更新时间: 2025-04-11 20:15:10（北京时间）
+# 规则数量: 3438
 payload:
   - DOMAIN,0x0.st
   - DOMAIN,3dna.nationbuilder.com
@@ -1521,7 +1521,6 @@ payload:
   - DOMAIN,meta.prismlauncher.org
   - DOMAIN,metrics.kapa.ai
   - DOMAIN,micro.rubiconproject.com
-  - DOMAIN,minotar.net
   - DOMAIN,mintlify.b-cdn.net
   - DOMAIN,mir-s3-cdn-cf.behance.net
   - DOMAIN,miro.medium.com
@@ -2447,6 +2446,7 @@ payload:
   - DOMAIN-REGEX,^static[\w.-]\.tgstat\.ru$
   - DOMAIN-REGEX,^t[\w.-]\.nhentai\.net$
   - DOMAIN-REGEX,^th-[\w.-]*?\.pornone\.com$
+  - DOMAIN-REGEX,^uploads-[\w.-]*?\.insided\.com$
   - DOMAIN-REGEX,^v\.rn[\w.-][\w.-][\w.-]\.xyz$
   - DOMAIN-REGEX,^video-thumbnail2\.fc2\.com$
   - DOMAIN-REGEX,^video-thumbnail[\w.-]\.liaoningmovie\.net$
@@ -3015,6 +3015,7 @@ payload:
   - DOMAIN-SUFFIX,mercdn.net
   - DOMAIN-SUFFIX,metric.gstatic.com
   - DOMAIN-SUFFIX,mfcimg.com
+  - DOMAIN-SUFFIX,minotar.net
   - DOMAIN-SUFFIX,mirror-media.xyz
   - DOMAIN-SUFFIX,mirrors.utermux.dev
   - DOMAIN-SUFFIX,misskeyusercontent.com
