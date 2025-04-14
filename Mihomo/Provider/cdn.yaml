@@ -1,5 +1,5 @@
-# 更新时间: 2025-04-14 08:43:11（北京时间）
-# 规则数量: 3440
+# 更新时间: 2025-04-14 20:15:32（北京时间）
+# 规则数量: 3441
 payload:
   - DOMAIN,0x0.st
   - DOMAIN,3dna.nationbuilder.com
@@ -469,6 +469,7 @@ payload:
   - DOMAIN,cdn.filen.io
   - DOMAIN,cdn.firebase.com
   - DOMAIN,cdn.fluidplayer.com
+  - DOMAIN,cdn.fontshare.com
   - DOMAIN,cdn.forms.office.net
   - DOMAIN,cdn.fosstodon.org
   - DOMAIN,cdn.fourthwall.com
