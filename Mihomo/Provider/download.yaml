@@ -1,5 +1,5 @@
-# 更新时间: 2025-04-14 08:43:11（北京时间）
-# 规则数量: 1160
+# 更新时间: 2025-04-14 20:15:32（北京时间）
+# 规则数量: 1161
 payload:
   - DOMAIN,1-mirrors.in.sahilister.net
   - DOMAIN,2-mirrors.in.sahilister.net
@@ -154,6 +154,7 @@ payload:
   - DOMAIN,ctan.um.ac.ir
   - DOMAIN,ctan.yazd.ac.ir
   - DOMAIN,ctldl.windowsupdate.com
+  - DOMAIN,d.myani.org
   - DOMAIN,de.freedif.org
   - DOMAIN,deb.nodesource.com
   - DOMAIN,debian-archive.trafficmanager.net

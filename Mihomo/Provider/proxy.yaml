@@ -1,5 +1,5 @@
-# 更新时间: 2025-04-14 08:43:15（北京时间）
-# 规则数量: 32715
+# 更新时间: 2025-04-14 20:15:36（北京时间）
+# 规则数量: 32716
 payload:
   - DOMAIN,adobeereg.com
   - DOMAIN,angle.com.tw
@@ -21252,6 +21252,7 @@ payload:
   - DOMAIN-SUFFIX,ny.stgloballink.com
   - DOMAIN-SUFFIX,ny.visiontimes.com
   - DOMAIN-SUFFIX,nyaa.eu
+  - DOMAIN-SUFFIX,nyaa.land
   - DOMAIN-SUFFIX,nyaa.net
   - DOMAIN-SUFFIX,nyaa.si
   - DOMAIN-SUFFIX,nyahentai.re
