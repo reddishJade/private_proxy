@@ -1,5 +1,5 @@
-# 更新时间: 2025-04-13 20:13:24（北京时间）
-# 规则数量: 1159
+# 更新时间: 2025-04-14 08:43:11（北京时间）
+# 规则数量: 1160
 payload:
   - DOMAIN,1-mirrors.in.sahilister.net
   - DOMAIN,2-mirrors.in.sahilister.net
@@ -222,6 +222,7 @@ payload:
   - DOMAIN,download.nodecdn.net
   - DOMAIN,download.nus.edu.sg
   - DOMAIN,download.nust.na
+  - DOMAIN,download.onlyoffice.com
   - DOMAIN,download.opensuse.org
   - DOMAIN,download.parallels.com
   - DOMAIN,download.pixelexperience.org
