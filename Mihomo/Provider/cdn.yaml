@@ -1,5 +1,5 @@
-# 更新时间: 2025-04-13 20:13:24（北京时间）
-# 规则数量: 3438
+# 更新时间: 2025-04-14 08:43:11（北京时间）
+# 规则数量: 3440
 payload:
   - DOMAIN,0x0.st
   - DOMAIN,3dna.nationbuilder.com
@@ -2298,6 +2298,7 @@ payload:
   - DOMAIN,utteranc.es
   - DOMAIN,v.w-x.co
   - DOMAIN,v2.listenloop.com
+  - DOMAIN,v2uploads.zopim.io
   - DOMAIN,vanilla-extract.style
   - DOMAIN,versionbadg.es
   - DOMAIN,vetted.ai
@@ -2983,6 +2984,7 @@ payload:
   - DOMAIN-SUFFIX,lichess1.org
   - DOMAIN-SUFFIX,line-cdn.net
   - DOMAIN-SUFFIX,line-scdn.net
+  - DOMAIN-SUFFIX,live-video.net
   - DOMAIN-SUFFIX,local.webcontainer.io
   - DOMAIN-SUFFIX,localizecdn.com
   - DOMAIN-SUFFIX,lodash.com
