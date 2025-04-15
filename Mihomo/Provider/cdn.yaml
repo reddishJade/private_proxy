@@ -1,5 +1,5 @@
-# 更新时间: 2025-04-15 08:41:07（北京时间）
-# 规则数量: 3441
+# 更新时间: 2025-04-15 20:15:12（北京时间）
+# 规则数量: 3454
 payload:
   - DOMAIN,0x0.st
   - DOMAIN,3dna.nationbuilder.com
@@ -371,6 +371,7 @@ payload:
   - DOMAIN,cdn.17app.co
   - DOMAIN,cdn.18jav.tv
   - DOMAIN,cdn.7tv.app
+  - DOMAIN,cdn.accounts.autodesk.com
   - DOMAIN,cdn.accounts.nintendo.com
   - DOMAIN,cdn.adguard.com
   - DOMAIN,cdn.adguard.info
@@ -876,6 +877,7 @@ payload:
   - DOMAIN,d2c.aws.amazon.com
   - DOMAIN,d4.alternativeto.net
   - DOMAIN,dam.freshworks.com
+  - DOMAIN,damassets.autodesk.net
   - DOMAIN,dassets.shimano.com
   - DOMAIN,data.jsdelivr.com
   - DOMAIN,data.pendo.io
@@ -940,6 +942,7 @@ payload:
   - DOMAIN,embed.tawk.to
   - DOMAIN,embed.ted.com
   - DOMAIN,embed.typeform.com
+  - DOMAIN,embedr.flickr.com
   - DOMAIN,embedwistia-a.akamaihd.net
   - DOMAIN,emoji-css.afeld.me
   - DOMAIN,emos.plurk.com
@@ -990,6 +993,7 @@ payload:
   - DOMAIN,favicons.teams.cloudflare.com
   - DOMAIN,fdn.gsmarena.com
   - DOMAIN,fdn2.gsmarena.com
+  - DOMAIN,featureflags.netlify.com
   - DOMAIN,fesdk.nexon.com
   - DOMAIN,fiddle.fastly.dev
   - DOMAIN,fiddle.jshell.net
@@ -1097,6 +1101,7 @@ payload:
   - DOMAIN,i.jpg.dog
   - DOMAIN,i.kickstarter.com
   - DOMAIN,i.loli.best
+  - DOMAIN,i.mediatek.com
   - DOMAIN,i.mt.lv
   - DOMAIN,i.mydramalist.com
   - DOMAIN,i.nhentai.net
@@ -1197,6 +1202,7 @@ payload:
   - DOMAIN,images.plurk.com
   - DOMAIN,images.pluto.tv
   - DOMAIN,images.prismic.io
+  - DOMAIN,images.profile.autodesk.com
   - DOMAIN,images.ptt.cc
   - DOMAIN,images.purevpn-tools.com
   - DOMAIN,images.scalero.io
@@ -1528,6 +1534,7 @@ payload:
   - DOMAIN,mixin-images.zeromesh.net
   - DOMAIN,mkt-site-asset.crypto.com
   - DOMAIN,mobilecenter.azureedge.net
+  - DOMAIN,moderate.cleantalk.org
   - DOMAIN,momentjs.com
   - DOMAIN,moodular.jotform.com
   - DOMAIN,mosaic-blender.fxtwitter.com
@@ -1889,6 +1896,7 @@ payload:
   - DOMAIN,social-cdn.vivaldi.net
   - DOMAIN,solve-widget.forethought.ai
   - DOMAIN,source.domaintools.com
+  - DOMAIN,source.unsplash.com
   - DOMAIN,sourcemaps.squarespace.net
   - DOMAIN,sourcepoint.theguardian.com
   - DOMAIN,sp-spiegel-de.spiegel.de
@@ -2370,6 +2378,7 @@ payload:
   - DOMAIN,widget.usersnap.com
   - DOMAIN,widget.uservoice.com
   - DOMAIN,widgets-red.media.weather.com
+  - DOMAIN,widgets.flickr.com
   - DOMAIN,widgets.listenlive.co
   - DOMAIN,widgets.media.weather.com
   - DOMAIN,widgets.outbrain.com
@@ -2407,6 +2416,8 @@ payload:
   - DOMAIN-KEYWORD,99avcdn
   - DOMAIN-KEYWORD,cdn.adultempire.com
   - DOMAIN-KEYWORD,dsn.algolia.net
+  - DOMAIN-KEYWORD,fonts.hanime1
+  - DOMAIN-KEYWORD,vdownload.hanime1
   - DOMAIN-KEYWORD,vod-adaptive.akamaized.net
   - DOMAIN-KEYWORD,web-assets.zendesk
   - DOMAIN-REGEX,^[\w.-]*?\.fsvod[\w.-]\.com$
@@ -2440,6 +2451,7 @@ payload:
   - DOMAIN-REGEX,^rr[\w.-]---[\w.-][\w.-]\.ouo\.si$
   - DOMAIN-REGEX,^s3-[\w.-]*?\.figma\.com$
   - DOMAIN-REGEX,^s3\.[\w.-]*?\.wasabisys\.com$
+  - DOMAIN-REGEX,^s[\w.-]*?\.hanime1$
   - DOMAIN-REGEX,^s[\w.-][\w.-][\w.-]\.pornone\.com$
   - DOMAIN-REGEX,^s[\w.-][\w.-]\.maxstream\.org$
   - DOMAIN-REGEX,^s[\w.-]\.maxstream\.org$
@@ -2686,6 +2698,7 @@ payload:
   - DOMAIN-SUFFIX,dlunar.net
   - DOMAIN-SUFFIX,dmcdn.net
   - DOMAIN-SUFFIX,docker.io
+  - DOMAIN-SUFFIX,dockerstatic.com
   - DOMAIN-SUFFIX,dogehls.xyz
   - DOMAIN-SUFFIX,doodcdn.co
   - DOMAIN-SUFFIX,doppiocdn.com

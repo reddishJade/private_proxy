@@ -1,5 +1,5 @@
-# 更新时间: 2025-04-15 08:41:06（北京时间）
-# 规则数量: 50
+# 更新时间: 2025-04-15 20:15:11（北京时间）
+# 规则数量: 53
 payload:
   - DOMAIN,ai.google.dev
   - DOMAIN,alkalicore-pa.clients6.google.com
@@ -28,6 +28,7 @@ payload:
   - DOMAIN-SUFFIX,claude.ai
   - DOMAIN-SUFFIX,claudeusercontent.com
   - DOMAIN-SUFFIX,clipdrop.co
+  - DOMAIN-SUFFIX,codeium.com
   - DOMAIN-SUFFIX,cursor.sh
   - DOMAIN-SUFFIX,deepmind.com
   - DOMAIN-SUFFIX,deepmind.google
@@ -37,6 +38,7 @@ payload:
   - DOMAIN-SUFFIX,generativeai.google
   - DOMAIN-SUFFIX,generativelanguage.googleapis.com
   - DOMAIN-SUFFIX,githubcopilot.com
+  - DOMAIN-SUFFIX,grok.com
   - DOMAIN-SUFFIX,groq.com
   - DOMAIN-SUFFIX,jasper.ai
   - DOMAIN-SUFFIX,makersuite.google.com
@@ -51,3 +53,4 @@ payload:
   - DOMAIN-SUFFIX,poe.com
   - DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
   - DOMAIN-SUFFIX,sora.com
+  - DOMAIN-SUFFIX,x.ai
