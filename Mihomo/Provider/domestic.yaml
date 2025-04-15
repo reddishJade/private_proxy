@@ -1,5 +1,5 @@
-# 更新时间: 2025-04-14 20:15:43（北京时间）
-# 规则数量: 119697
+# 更新时间: 2025-04-15 08:41:17（北京时间）
+# 规则数量: 119700
 payload:
   - DOMAIN,1-fss24-s0.streamhoster.com
   - DOMAIN,14033.live.streamtheworld.com
@@ -34807,6 +34807,7 @@ payload:
   - DOMAIN-SUFFIX,eszzxxz.com
   - DOMAIN-SUFFIX,et-api.com
   - DOMAIN-SUFFIX,et-fine.com
+  - DOMAIN-SUFFIX,et001.com
   - DOMAIN-SUFFIX,et59.com
   - DOMAIN-SUFFIX,et998.com
   - DOMAIN-SUFFIX,etagrfid.com
@@ -41999,6 +42000,7 @@ payload:
   - DOMAIN-SUFFIX,guahaowang.com
   - DOMAIN-SUFFIX,guaiguai.com
   - DOMAIN-SUFFIX,guaihou.com
+  - DOMAIN-SUFFIX,guaiku.com
   - DOMAIN-SUFFIX,guaileicp.com
   - DOMAIN-SUFFIX,guaili.org
   - DOMAIN-SUFFIX,guailuo.com
@@ -70649,6 +70651,7 @@ payload:
   - DOMAIN-SUFFIX,mingxingbobbin.com
   - DOMAIN-SUFFIX,mingxingku.com
   - DOMAIN-SUFFIX,mingxinglai.com
+  - DOMAIN-SUFFIX,mingxuan.store
   - DOMAIN-SUFFIX,mingxuanxz.com
   - DOMAIN-SUFFIX,mingya.mobi
   - DOMAIN-SUFFIX,mingyafeng.com
