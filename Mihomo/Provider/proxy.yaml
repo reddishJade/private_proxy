@@ -1,5 +1,5 @@
-# 更新时间: 2025-04-15 20:15:15（北京时间）
-# 规则数量: 32732
+# 更新时间: 2025-04-16 08:41:08（北京时间）
+# 规则数量: 32734
 payload:
   - DOMAIN,adobeereg.com
   - DOMAIN,angle.com.tw
@@ -11361,6 +11361,7 @@ payload:
   - DOMAIN-SUFFIX,freedominfonetweb.wordpress.com
   - DOMAIN-SUFFIX,freedomplatform.tv
   - DOMAIN-SUFFIX,freedomsherald.org
+  - DOMAIN-SUFFIX,freedownloadmanager.org
   - DOMAIN-SUFFIX,freefacebook.com
   - DOMAIN-SUFFIX,freefacebook.net
   - DOMAIN-SUFFIX,freefacebookads.net
@@ -13503,6 +13504,7 @@ payload:
   - DOMAIN-SUFFIX,hetzner.com
   - DOMAIN-SUFFIX,hetzner.company
   - DOMAIN-SUFFIX,hetzner.de
+  - DOMAIN-SUFFIX,hetzner.social
   - DOMAIN-SUFFIX,heungkongdiscuss.com
   - DOMAIN-SUFFIX,hew.ac.uk
   - DOMAIN-SUFFIX,hewit.ac.uk

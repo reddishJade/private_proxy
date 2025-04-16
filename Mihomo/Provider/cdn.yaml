@@ -1,5 +1,5 @@
-# 更新时间: 2025-04-15 20:15:12（北京时间）
-# 规则数量: 3454
+# 更新时间: 2025-04-16 08:41:04（北京时间）
+# 规则数量: 3455
 payload:
   - DOMAIN,0x0.st
   - DOMAIN,3dna.nationbuilder.com
@@ -2030,6 +2030,7 @@ payload:
   - DOMAIN,static.filestackapi.com
   - DOMAIN,static.foxbusiness.com
   - DOMAIN,static.foxnews.com
+  - DOMAIN,static.freedownloadmanager.org
   - DOMAIN,static.freeimages.com
   - DOMAIN,static.getbutton.io
   - DOMAIN,static.gettyimages.com
