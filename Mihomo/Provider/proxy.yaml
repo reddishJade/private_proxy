@@ -1,5 +1,5 @@
-# 更新时间: 2025-04-16 08:41:08（北京时间）
-# 规则数量: 32734
+# 更新时间: 2025-04-16 20:15:16（北京时间）
+# 规则数量: 32736
 payload:
   - DOMAIN,adobeereg.com
   - DOMAIN,angle.com.tw
@@ -2706,6 +2706,7 @@ payload:
   - DOMAIN-SUFFIX,atlassian.com
   - DOMAIN-SUFFIX,atlassian.net
   - DOMAIN-SUFFIX,atnext.com
+  - DOMAIN-SUFFIX,atom.com
   - DOMAIN-SUFFIX,atom.io
   - DOMAIN-SUFFIX,atos.net
   - DOMAIN-SUFFIX,atp.ac.uk
@@ -13638,6 +13639,7 @@ payload:
   - DOMAIN-SUFFIX,hjb7e9.top
   - DOMAIN-SUFFIX,hjclub.info
   - DOMAIN-SUFFIX,hjd2048.com
+  - DOMAIN-SUFFIX,hk
   - DOMAIN-SUFFIX,hk-pub.com
   - DOMAIN-SUFFIX,hk.file.myqcloud.com
   - DOMAIN-SUFFIX,hk.frienddy.com
