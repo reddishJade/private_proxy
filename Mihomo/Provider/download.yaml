@@ -1,5 +1,5 @@
-# 更新时间: 2025-04-17 08:40:05（北京时间）
-# 规则数量: 1101
+# 更新时间: 2025-04-17 20:15:04（北京时间）
+# 规则数量: 1103
 payload:
   - DOMAIN,addins.deepl.com
   - DOMAIN,amupdatedl.microsoft.com
@@ -223,6 +223,7 @@ payload:
   - DOMAIN,downloads.raspberrypi.com
   - DOMAIN,downloads.sourceforge.net
   - DOMAIN,downloads.wordpress.org
+  - DOMAIN,downloads.x-wrt.com
   - DOMAIN,downloads.xiph.org
   - DOMAIN,downloads.xrite.com
   - DOMAIN,drive.massgrave.dev
@@ -566,6 +567,7 @@ payload:
   - DOMAIN,packages.linuxmint.com
   - DOMAIN,packages.microsoft.com
   - DOMAIN,packages.oth-regensburg.de
+  - DOMAIN,packages.termux.dev
   - DOMAIN,packages.virtfusion.net
   - DOMAIN,packagespc.xboxlive.com
   - DOMAIN,pf-cdn-content-prod.azureedge.net
