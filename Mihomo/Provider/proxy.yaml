@@ -1,5 +1,5 @@
-# 更新时间: 2025-04-16 20:15:16（北京时间）
-# 规则数量: 32736
+# 更新时间: 2025-04-17 08:40:09（北京时间）
+# 规则数量: 32738
 payload:
   - DOMAIN,adobeereg.com
   - DOMAIN,angle.com.tw
@@ -1792,6 +1792,7 @@ payload:
   - DOMAIN-SUFFIX,amoiist.com
   - DOMAIN-SUFFIX,amourangels.com
   - DOMAIN-SUFFIX,amp.dev
+  - DOMAIN-SUFFIX,amplience.com
   - DOMAIN-SUFFIX,amplifi.com
   - DOMAIN-SUFFIX,amplifyapp.com
   - DOMAIN-SUFFIX,amplifyframework.com
@@ -27785,6 +27786,7 @@ payload:
   - DOMAIN-SUFFIX,thieme-connect.com
   - DOMAIN-SUFFIX,thieme-connect.de
   - DOMAIN-SUFFIX,thieme.de
+  - DOMAIN-SUFFIX,thingiverse.com
   - DOMAIN-SUFFIX,thinkboxsoftware.com
   - DOMAIN-SUFFIX,thinkdifferent.us
   - DOMAIN-SUFFIX,thinkgeek.com
