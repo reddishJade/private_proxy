@@ -1,5 +1,5 @@
-# 更新时间: 2025-04-17 20:15:08（北京时间）
-# 规则数量: 32738
+# 更新时间: 2025-04-18 08:39:46（北京时间）
+# 规则数量: 32747
 payload:
   - DOMAIN,adobeereg.com
   - DOMAIN,angle.com.tw
@@ -268,6 +268,7 @@ payload:
   - DOMAIN-SUFFIX,1lib.eu
   - DOMAIN-SUFFIX,1lib.limited
   - DOMAIN-SUFFIX,1lib.pl
+  - DOMAIN-SUFFIX,1lib.sk
   - DOMAIN-SUFFIX,1lib.to
   - DOMAIN-SUFFIX,1lib.tw
   - DOMAIN-SUFFIX,1mobile.com
@@ -5695,6 +5696,7 @@ payload:
   - DOMAIN-SUFFIX,canada-beatsbydre.com
   - DOMAIN-SUFFIX,canadameet.com
   - DOMAIN-SUFFIX,canalporno.com
+  - DOMAIN-SUFFIX,canarymail.io
   - DOMAIN-SUFFIX,cancerandsociety.ac.uk
   - DOMAIN-SUFFIX,candi.ac.uk
   - DOMAIN-SUFFIX,candidforum-videos.com
@@ -12291,6 +12293,7 @@ payload:
   - DOMAIN-SUFFIX,go-lang.net
   - DOMAIN-SUFFIX,go-lang.org
   - DOMAIN-SUFFIX,go-pki.com
+  - DOMAIN-SUFFIX,go-to-library.sk
   - DOMAIN-SUFFIX,go-to-zlibrary.se
   - DOMAIN-SUFFIX,go.com
   - DOMAIN-SUFFIX,go.dev
@@ -15692,6 +15695,7 @@ payload:
   - DOMAIN-SUFFIX,itaeromanga.com
   - DOMAIN-SUFFIX,itaiwan.gov.tw
   - DOMAIN-SUFFIX,italiabeatsbydrdre.com
+  - DOMAIN-SUFFIX,italian-books.sk
   - DOMAIN-SUFFIX,italiatibet.org
   - DOMAIN-SUFFIX,itasoftware.com
   - DOMAIN-SUFFIX,itcanwait.com
@@ -19476,6 +19480,7 @@ payload:
   - DOMAIN-SUFFIX,msgamesresearch.com
   - DOMAIN-SUFFIX,msguancha.com
   - DOMAIN-SUFFIX,msha.gov
+  - DOMAIN-SUFFIX,mshome.net
   - DOMAIN-SUFFIX,msinnovationchallenge.com
   - DOMAIN-SUFFIX,msk.ilnk.info
   - DOMAIN-SUFFIX,msk.kitazawa.me
@@ -32498,9 +32503,13 @@ payload:
   - DOMAIN-SUFFIX,yysub.net
   - DOMAIN-SUFFIX,yzld188.top
   - DOMAIN-SUFFIX,yzzk.com
+  - DOMAIN-SUFFIX,z-lib.gd
+  - DOMAIN-SUFFIX,z-lib.gs
   - DOMAIN-SUFFIX,z-lib.io
   - DOMAIN-SUFFIX,z-lib.org
+  - DOMAIN-SUFFIX,z-lib.ps
   - DOMAIN-SUFFIX,z-library.se
+  - DOMAIN-SUFFIX,z-library.sk
   - DOMAIN-SUFFIX,z00.world
   - DOMAIN-SUFFIX,z18r.co
   - DOMAIN-SUFFIX,z18r.com
