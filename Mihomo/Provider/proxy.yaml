@@ -1,5 +1,5 @@
-# 更新时间: 2025-04-18 08:39:46（北京时间）
-# 规则数量: 32747
+# 更新时间: 2025-04-18 20:14:40（北京时间）
+# 规则数量: 32751
 payload:
   - DOMAIN,adobeereg.com
   - DOMAIN,angle.com.tw
@@ -37,7 +37,6 @@ payload:
   - DOMAIN,licdn.cn.cdn20.com
   - DOMAIN,live-patreon-marketing.pantheonsite.io
   - DOMAIN,mdn.mozillademos.org
-  - DOMAIN,media.steampowered.com
   - DOMAIN,medone-education.thieme.com
   - DOMAIN,muse.jhu.edu
   - DOMAIN,ntp-c.colorado.edu
@@ -14176,6 +14175,8 @@ payload:
   - DOMAIN-SUFFIX,hsex.men
   - DOMAIN-SUFFIX,hsex.tv
   - DOMAIN-SUFFIX,hsfacebook.com
+  - DOMAIN-SUFFIX,hsforms.com
+  - DOMAIN-SUFFIX,hsforms.net
   - DOMAIN-SUFFIX,hshsxkj.com
   - DOMAIN-SUFFIX,hsjp.net
   - DOMAIN-SUFFIX,hsm-works.com
@@ -14241,6 +14242,8 @@ payload:
   - DOMAIN-SUFFIX,huayuworld.org
   - DOMAIN-SUFFIX,hubbard-theory-consortium.ac.uk
   - DOMAIN-SUFFIX,hubblephone.com
+  - DOMAIN-SUFFIX,hubspotlinksstarter.com
+  - DOMAIN-SUFFIX,hubspotstarter.net
   - DOMAIN-SUFFIX,hud.ac.uk
   - DOMAIN-SUFFIX,hudatoriq.web.id
   - DOMAIN-SUFFIX,huddcoll.ac.uk
@@ -26333,6 +26336,7 @@ payload:
   - DOMAIN-SUFFIX,sportstream.com
   - DOMAIN-SUFFIX,sportswomanoftheyear.co.uk
   - DOMAIN-SUFFIX,sportswomenoftheyear.co.uk
+  - DOMAIN-SUFFIX,spot.im
   - DOMAIN-SUFFIX,spotflux.com
   - DOMAIN-SUFFIX,spoti.fi
   - DOMAIN-SUFFIX,spotify-everywhere.com
