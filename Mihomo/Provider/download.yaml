@@ -1,5 +1,5 @@
-# 更新时间: 2025-04-19 08:38:27（北京时间）
-# 规则数量: 1096
+# 更新时间: 2025-04-19 20:12:51（北京时间）
+# 规则数量: 1097
 payload:
   - DOMAIN,addins.deepl.com
   - DOMAIN,amupdatedl.microsoft.com
@@ -553,6 +553,7 @@ payload:
   - DOMAIN,objects.githubusercontent.com
   - DOMAIN,officecdn-microsoft-com.akamaized.net
   - DOMAIN,officecdnmac.microsoft.com
+  - DOMAIN,onepluscommunityserver.com
   - DOMAIN,origin-a.akamaihd.net
   - DOMAIN,os-cdn.virtfusion.net
   - DOMAIN,osl.ugr.es
