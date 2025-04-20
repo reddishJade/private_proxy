@@ -1,5 +1,5 @@
-# 更新时间: 2025-04-20 08:44:07（北京时间）
-# 规则数量: 97660
+# 更新时间: 2025-04-20 20:13:06（北京时间）
+# 规则数量: 97659
 payload:
   - DOMAIN,03.lzzncm.com
   - DOMAIN,04.lzzncm.com
@@ -16981,7 +16981,6 @@ payload:
   - DOMAIN-SUFFIX,amazinelistrun.pro
   - DOMAIN-SUFFIX,amazon-adsystem.com
   - DOMAIN-SUFFIX,amazon-cornerstone.com
-  - DOMAIN-SUFFIX,amazonaws.com
   - DOMAIN-SUFFIX,ambaab.com
   - DOMAIN-SUFFIX,ambasador.rustspolecne.cz
   - DOMAIN-SUFFIX,ambasadorky.zenyzenam.cz
