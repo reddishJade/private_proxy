@@ -1,5 +1,5 @@
-# 更新时间: 2025-04-19 20:13:02（北京时间）
-# 规则数量: 119547
+# 更新时间: 2025-04-20 08:44:28（北京时间）
+# 规则数量: 119531
 payload:
   - DOMAIN,1-fss24-s0.streamhoster.com
   - DOMAIN,14033.live.streamtheworld.com
@@ -43,13 +43,13 @@ payload:
   - DOMAIN,api-p-ap-c.smoot.apple.com
   - DOMAIN,api-p-ap-d.smoot.apple.com
   - DOMAIN,api-p-ap-e.smoot.apple.com
+  - DOMAIN,app-analytics-services.com
   - DOMAIN,app-measurement-cn.com
   - DOMAIN,app-measurement.com
   - DOMAIN,app-site-association.cdn-apple.com
   - DOMAIN,app.xygdcm.com
   - DOMAIN,appldnld.apple.com
   - DOMAIN,appleid.cdn-apple.com
-  - DOMAIN,applemdm.corp.google.com
   - DOMAIN,apps5.oingo.com
   - DOMAIN,apptrailers.itunes.apple.com
   - DOMAIN,as-hls-ww-live.akamaized.net
@@ -70,7 +70,6 @@ payload:
   - DOMAIN,bg4.v4.a.dl.ws.microsoft.com
   - DOMAIN,blzddist1-a.akamaihd.net
   - DOMAIN,bookkeeper.itunes.apple.com
-  - DOMAIN,borgmon.adz.google.com
   - DOMAIN,build.microsoft.com
   - DOMAIN,c.admob.com
   - DOMAIN,c.android.clients.google.com
@@ -157,7 +156,6 @@ payload:
   - DOMAIN,dl.google.com
   - DOMAIN,dl.l.google.com
   - DOMAIN,dl.ubnt.com
-  - DOMAIN,dns.corp.google.com
   - DOMAIN,doh.pub
   - DOMAIN,doubleclick-cn.net
   - DOMAIN,doubleclick.net
@@ -185,18 +183,14 @@ payload:
   - DOMAIN,fm929.cityfm.tw
   - DOMAIN,fm971.cityfm.tw
   - DOMAIN,fm983.cityfm.tw
-  - DOMAIN,fontfiles.googleadapis.com
   - DOMAIN,fontfiles.googleapis.com
-  - DOMAIN,fonts.googleadapis.com
   - DOMAIN,fonts.googleapis.com
   - DOMAIN,fonts.gstatic.com
   - DOMAIN,g0.gstatic.com
   - DOMAIN,g1.gstatic.com
   - DOMAIN,g2.gstatic.com
   - DOMAIN,g3.gstatic.com
-  - DOMAIN,g3doc.corp.google.com
   - DOMAIN,gayotv.net
-  - DOMAIN,gmskiosk-ssl.corp.google.com
   - DOMAIN,go.corp.google.com
   - DOMAIN,gog-cdn-fastly.gog.com
   - DOMAIN,gog-cdn.akamaized.net
@@ -213,7 +207,6 @@ payload:
   - DOMAIN,googleflights-cn.net
   - DOMAIN,googleoptimize-cn.com
   - DOMAIN,googleoptimize.com
-  - DOMAIN,googleplex.com
   - DOMAIN,googlesyndication-cn.com
   - DOMAIN,googlesyndication.com
   - DOMAIN,googletagmanager-cn.com
@@ -223,9 +216,6 @@ payload:
   - DOMAIN,googletraveladservices-cn.com
   - DOMAIN,googletraveladservices.com
   - DOMAIN,googlevads-cn.com
-  - DOMAIN,gorom.corp.google.com
-  - DOMAIN,goto.corp.google.com
-  - DOMAIN,goto.google.com
   - DOMAIN,gpb-hls.streamguys1.com
   - DOMAIN,gs-loc-cn.apple.com
   - DOMAIN,gs-loc.apple.com
@@ -419,10 +409,7 @@ payload:
   - DOMAIN,qualysguard.qcpp1.net
   - DOMAIN,qualysguard.qpdp1.net
   - DOMAIN,r.cert.corp.google.com
-  - DOMAIN,rapture-autopush.corp.google.com
   - DOMAIN,rapture-prod.corp.google.com
-  - DOMAIN,rapture-test.corp.google.com
-  - DOMAIN,rapture.corp.google.com
   - DOMAIN,recaptcha-cn.net
   - DOMAIN,recaptcha.net
   - DOMAIN,redirector.bdn.dev
@@ -436,7 +423,6 @@ payload:
   - DOMAIN,redirector.offline-maps.gvt1.com
   - DOMAIN,redirector.snap.gvt1.com
   - DOMAIN,redirector.xn--ngstr-lra8j.com
-  - DOMAIN,regioninfo-pa.googleapis.com
   - DOMAIN,res-1.cdn.office.net
   - DOMAIN,res.cdn.office.net
   - DOMAIN,reserve-prime.apple.com
@@ -473,13 +459,11 @@ payload:
   - DOMAIN,sms.imagetasks.com
   - DOMAIN,sohucao.duapp.com
   - DOMAIN,sp.itunes.apple.com
-  - DOMAIN,ssh-relay.corp.google.com
   - DOMAIN,ssl-google-analytics.l.google.com
   - DOMAIN,ssl.gstatic.com
   - DOMAIN,sslredirect.corp.google.com
   - DOMAIN,staging-controlbe.floonet.goog
   - DOMAIN,staging-databe.floonet.goog
-  - DOMAIN,staging-regioninfo-pa.googleapis.com
   - DOMAIN,staging.databe.floonet.goog
   - DOMAIN,static-login.gog-statics.com
   - DOMAIN,static.gc.apple.com
@@ -518,7 +502,6 @@ payload:
   - DOMAIN,support-china.apple-support.akadns.net
   - DOMAIN,support.1ucrs.com
   - DOMAIN,support.apple.com
-  - DOMAIN,supportcenter.corp.google.com
   - DOMAIN,surface.downloads.prss.microsoft.com
   - DOMAIN,swallow.apple.com
   - DOMAIN,swcatalog-cdn.apple.com.akadns.net
@@ -531,7 +514,6 @@ payload:
   - DOMAIN,sylvan.apple.com
   - DOMAIN,sync.itunes.apple.com
   - DOMAIN,tac.googleapis.com
-  - DOMAIN,techstop.corp.google.com
   - DOMAIN,test.bugs-qa.chromium.org
   - DOMAIN,test.gbugs-qa.chromium.org
   - DOMAIN,tf-feedback.itunes.apple.com
@@ -542,14 +524,8 @@ payload:
   - DOMAIN,trtcanlitv-lh.akamaihd.net
   - DOMAIN,tv.cnbeijing.xyz
   - DOMAIN,tv.nknews.org
-  - DOMAIN,uberproxy-debug.corp.google.com
   - DOMAIN,uberproxy-debug4.corp.google.com
-  - DOMAIN,uberproxy-pen-redirect.corp.google.com
-  - DOMAIN,uberproxy-with-cn.l.google.com
-  - DOMAIN,uberproxy-with-cn4.l.google.com
-  - DOMAIN,uberproxy-with-cn6.l.google.com
   - DOMAIN,uberproxy.corp.google.com
-  - DOMAIN,uberproxy4.corp.google.com
   - DOMAIN,uberproxy6.corp.google.com
   - DOMAIN,uni6rtmp.tulix.tv
   - DOMAIN,update.crashlytics.com
@@ -563,7 +539,6 @@ payload:
   - DOMAIN,v1.one-tv.com
   - DOMAIN,valid.apple.com
   - DOMAIN,valid.origin-apple.com.akadns.net
-  - DOMAIN,vext.corp.google.com
   - DOMAIN,vip888.kuyun99.com
   - DOMAIN,voa-lh.akamaihd.net
   - DOMAIN,vod.qhdcm.com
@@ -593,7 +568,6 @@ payload:
   - DOMAIN,www.cbsnews.com
   - DOMAIN,www.destinationurl.com
   - DOMAIN,www.filmon.com
-  - DOMAIN,www.googleadapis.com
   - DOMAIN,www.gstatic.com
   - DOMAIN,www.intel.cn
   - DOMAIN,www.layuicdn.com
@@ -10537,6 +10511,7 @@ payload:
   - DOMAIN-SUFFIX,abykt.com
   - DOMAIN-SUFFIX,abyssdawn.com
   - DOMAIN-SUFFIX,abz-sh.com
+  - DOMAIN-SUFFIX,ac.fun
   - DOMAIN-SUFFIX,ac268.com
   - DOMAIN-SUFFIX,ac57.com
   - DOMAIN-SUFFIX,acabridge.net
@@ -10588,6 +10563,7 @@ payload:
   - DOMAIN-SUFFIX,acftu.org
   - DOMAIN-SUFFIX,acfun.cn
   - DOMAIN-SUFFIX,acfun.com
+  - DOMAIN-SUFFIX,acfun.net
   - DOMAIN-SUFFIX,acfun.tv
   - DOMAIN-SUFFIX,acfunchina.com
   - DOMAIN-SUFFIX,acfunchina.net
@@ -22199,6 +22175,8 @@ payload:
   - DOMAIN-SUFFIX,cheshipin.com
   - DOMAIN-SUFFIX,cheshirex.com
   - DOMAIN-SUFFIX,cheshizh.com
+  - DOMAIN-SUFFIX,chesicc.com
+  - DOMAIN-SUFFIX,chesicc.net
   - DOMAIN-SUFFIX,chesir.com
   - DOMAIN-SUFFIX,chesir.net
   - DOMAIN-SUFFIX,chestercharles.com
@@ -39636,6 +39614,8 @@ payload:
   - DOMAIN-SUFFIX,gfan.com
   - DOMAIN-SUFFIX,gfanstore.com
   - DOMAIN-SUFFIX,gfbk.net
+  - DOMAIN-SUFFIX,gfbzb.com
+  - DOMAIN-SUFFIX,gfbzb.net
   - DOMAIN-SUFFIX,gfcdn.xyz
   - DOMAIN-SUFFIX,gfcity.com
   - DOMAIN-SUFFIX,gfcname.com
@@ -51082,6 +51062,7 @@ payload:
   - DOMAIN-SUFFIX,huaweicloud-dns.net
   - DOMAIN-SUFFIX,huaweicloud-dns.org
   - DOMAIN-SUFFIX,huaweicloud-idme.com
+  - DOMAIN-SUFFIX,huaweicloud-koophone.com
   - DOMAIN-SUFFIX,huaweicloud-smn.com
   - DOMAIN-SUFFIX,huaweicloud-smn.net
   - DOMAIN-SUFFIX,huaweicloud.com
@@ -71142,6 +71123,7 @@ payload:
   - DOMAIN-SUFFIX,modb.cc
   - DOMAIN-SUFFIX,modb.pro
   - DOMAIN-SUFFIX,modelarts-infer.com
+  - DOMAIN-SUFFIX,modelarts-maas.com
   - DOMAIN-SUFFIX,modelevel.com
   - DOMAIN-SUFFIX,modelltd.com
   - DOMAIN-SUFFIX,modelones.com
@@ -79767,6 +79749,7 @@ payload:
   - DOMAIN-SUFFIX,qgyqshz.com
   - DOMAIN-SUFFIX,qgysj.org
   - DOMAIN-SUFFIX,qgyyzs.net
+  - DOMAIN-SUFFIX,qgzb.net
   - DOMAIN-SUFFIX,qgzxx.com
   - DOMAIN-SUFFIX,qgzzz.com
   - DOMAIN-SUFFIX,qh-cdn.com
@@ -114534,6 +114517,7 @@ payload:
   - DOMAIN-SUFFIX,zbao.com
   - DOMAIN-SUFFIX,zbao56.com
   - DOMAIN-SUFFIX,zbbar.net
+  - DOMAIN-SUFFIX,zbbm.net
   - DOMAIN-SUFFIX,zbbus.com
   - DOMAIN-SUFFIX,zbc.pub
   - DOMAIN-SUFFIX,zbc.wiki
