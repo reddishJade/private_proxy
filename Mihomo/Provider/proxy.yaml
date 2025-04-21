@@ -1,5 +1,5 @@
-# 更新时间: 2025-04-21 08:43:22（北京时间）
-# 规则数量: 32770
+# 更新时间: 2025-04-21 20:15:08（北京时间）
+# 规则数量: 32776
 payload:
   - DOMAIN,1password.drift.click
   - DOMAIN,adobeereg.com
@@ -35,6 +35,7 @@ payload:
   - DOMAIN,hpstore.corpmerchandise.com
   - DOMAIN,i.jeded.com
   - DOMAIN,imperial.insendi.com
+  - DOMAIN,ingest.apple-studies.com
   - DOMAIN,licdn.cn.cdn20.com
   - DOMAIN,live-patreon-marketing.pantheonsite.io
   - DOMAIN,mdn.mozillademos.org
@@ -650,6 +651,7 @@ payload:
   - DOMAIN-SUFFIX,9001700.com
   - DOMAIN-SUFFIX,908taiwan.org
   - DOMAIN-SUFFIX,90seconds.asia
+  - DOMAIN-SUFFIX,91-cg.com
   - DOMAIN-SUFFIX,91av.one
   - DOMAIN-SUFFIX,91avfuli.com
   - DOMAIN-SUFFIX,91beiyong.com
@@ -683,6 +685,7 @@ payload:
   - DOMAIN-SUFFIX,91sesex.xyz
   - DOMAIN-SUFFIX,91sew.xyz
   - DOMAIN-SUFFIX,91sew40.buzz
+  - DOMAIN-SUFFIX,91short.com
   - DOMAIN-SUFFIX,91vhome.com
   - DOMAIN-SUFFIX,91vps.club
   - DOMAIN-SUFFIX,920share.com
@@ -8941,6 +8944,7 @@ payload:
   - DOMAIN-SUFFIX,dwnews.net
   - DOMAIN-SUFFIX,dx9527.cc
   - DOMAIN-SUFFIX,dxiong.com
+  - DOMAIN-SUFFIX,dxk4h.com
   - DOMAIN-SUFFIX,dxyav.co
   - DOMAIN-SUFFIX,dydx.exchange
   - DOMAIN-SUFFIX,dyfl1.pw
@@ -13043,6 +13047,7 @@ payload:
   - DOMAIN-SUFFIX,hanime.me
   - DOMAIN-SUFFIX,hanime.tv
   - DOMAIN-SUFFIX,hanime.xxx
+  - DOMAIN-SUFFIX,hanime.xyz
   - DOMAIN-SUFFIX,hanime1.me
   - DOMAIN-SUFFIX,hanimeone.me
   - DOMAIN-SUFFIX,hanminzu.org
@@ -23143,6 +23148,7 @@ payload:
   - DOMAIN-SUFFIX,pornvideotube.online
   - DOMAIN-SUFFIX,pornvidhd.club
   - DOMAIN-SUFFIX,pornvisit.com
+  - DOMAIN-SUFFIX,pornvr.me
   - DOMAIN-SUFFIX,pornwatchers.com
   - DOMAIN-SUFFIX,pornwebmasters.com
   - DOMAIN-SUFFIX,pornwhite.com
