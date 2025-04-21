@@ -1,5 +1,5 @@
-# 更新时间: 2025-04-21 08:43:17（北京时间）
-# 规则数量: 1099
+# 更新时间: 2025-04-21 20:15:04（北京时间）
+# 规则数量: 1100
 payload:
   - DOMAIN,addins.deepl.com
   - DOMAIN,amupdatedl.microsoft.com
@@ -182,6 +182,7 @@ payload:
   - DOMAIN,download.cypress.io
   - DOMAIN,download.dlsite.com
   - DOMAIN,download.docker.com
+  - DOMAIN,download.eassos.com
   - DOMAIN,download.edovia.com
   - DOMAIN,download.fydeos.io
   - DOMAIN,download.gigabyte.com
