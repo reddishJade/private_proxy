@@ -1,5 +1,5 @@
-# 更新时间: 2025-04-20 20:13:24（北京时间）
-# 规则数量: 119531
+# 更新时间: 2025-04-21 08:43:30（北京时间）
+# 规则数量: 119508
 payload:
   - DOMAIN,1-fss24-s0.streamhoster.com
   - DOMAIN,14033.live.streamtheworld.com
@@ -21,7 +21,6 @@ payload:
   - DOMAIN,adcdownload.apple.com.akadns.net
   - DOMAIN,admob-cn.com
   - DOMAIN,adservice.google.com
-  - DOMAIN,ai.ytimg.com
   - DOMAIN,aka-amd-njpwworld-hls-enlive.akamaized.net
   - DOMAIN,alibaba.cdn.steampipe.steamcontent.com
   - DOMAIN,aljazeera-eng-hd-live.hls.adaptive.level3.net
@@ -150,9 +149,6 @@ payload:
   - DOMAIN,dejavu.apple.com
   - DOMAIN,dg-meta.video.google.com
   - DOMAIN,discussionschinese.apple.com
-  - DOMAIN,distribution.qatp1.net
-  - DOMAIN,distribution.qcpp1.net
-  - DOMAIN,distribution.qpdp1.net
   - DOMAIN,dl.google.com
   - DOMAIN,dl.l.google.com
   - DOMAIN,dl.ubnt.com
@@ -163,8 +159,6 @@ payload:
   - DOMAIN,download.jetbrains.com
   - DOMAIN,download.mlcc.google.com
   - DOMAIN,download.qatp1.net
-  - DOMAIN,download.qcpp1.net
-  - DOMAIN,download.qpdp1.net
   - DOMAIN,download.tensorflow.google.com
   - DOMAIN,downloaddispatch.itunes.apple.com
   - DOMAIN,e1.vdowowza.vip.hk1.tvb.com
@@ -339,8 +333,6 @@ payload:
   - DOMAIN,misc-assets.itunes.apple.com
   - DOMAIN,ml.cdn-apple.com
   - DOMAIN,mobile.ccdntech.com
-  - DOMAIN,monitoring.qatp1.net
-  - DOMAIN,monitoring.qcpp1.net
   - DOMAIN,monitoring.qpdp1.net
   - DOMAIN,movie.mcas.jp
   - DOMAIN,msgr.dlservice.microsoft.com
@@ -378,7 +370,6 @@ payload:
   - DOMAIN,pd.itunes.apple.com
   - DOMAIN,performanceparameters.googleapis.com
   - DOMAIN,pki-goog.l.google.com
-  - DOMAIN,play.1ucrs.com
   - DOMAIN,play.itunes.apple.com
   - DOMAIN,play.jinnantv.top
   - DOMAIN,play.music.apple.com
@@ -394,19 +385,11 @@ payload:
   - DOMAIN,proxyconfig.corp.google.com
   - DOMAIN,publicassets.cdn-apple.com
   - DOMAIN,qagpublic.qatp1.net
-  - DOMAIN,qagpublic.qcpp1.net
-  - DOMAIN,qagpublic.qpdp1.net
-  - DOMAIN,qgadmin.qatp1.net
   - DOMAIN,qgadmin.qcpp1.net
-  - DOMAIN,qgadmin.qpdp1.net
   - DOMAIN,qh.dlservice.microsoft.com
   - DOMAIN,qpx.googleflights.net
   - DOMAIN,qqlivepull.seedata.top
   - DOMAIN,qualysapi.qatp1.net
-  - DOMAIN,qualysapi.qcpp1.net
-  - DOMAIN,qualysapi.qpdp1.net
-  - DOMAIN,qualysguard.qatp1.net
-  - DOMAIN,qualysguard.qcpp1.net
   - DOMAIN,qualysguard.qpdp1.net
   - DOMAIN,r.cert.corp.google.com
   - DOMAIN,rapture-prod.corp.google.com
@@ -434,9 +417,7 @@ payload:
   - DOMAIN,rtvcdn.com.au
   - DOMAIN,safebrowsing-cache.google.com
   - DOMAIN,safebrowsing.googleapis.com
-  - DOMAIN,scanservice1.qatp1.net
   - DOMAIN,scanservice1.qcpp1.net
-  - DOMAIN,scanservice1.qpdp1.net
   - DOMAIN,sdn-global-live-streaming-packager-cache-3qsdn.akamaized.net
   - DOMAIN,se-edge.itunes.apple.com
   - DOMAIN,se2.itunes.apple.com
@@ -447,7 +428,6 @@ payload:
   - DOMAIN,seed.siri.apple.com
   - DOMAIN,sequoia.apple.com
   - DOMAIN,service.urchin.com
-  - DOMAIN,settings.xn--9trs65b.com
   - DOMAIN,sf-api-token-service.itunes.apple.com
   - DOMAIN,sh-pod2-smp-device.apple.com
   - DOMAIN,shazam-insights.cdn-apple.com
@@ -500,7 +480,6 @@ payload:
   - DOMAIN,sup.corp.google.com
   - DOMAIN,sup.l.google.com
   - DOMAIN,support-china.apple-support.akadns.net
-  - DOMAIN,support.1ucrs.com
   - DOMAIN,support.apple.com
   - DOMAIN,surface.downloads.prss.microsoft.com
   - DOMAIN,swallow.apple.com
@@ -514,7 +493,6 @@ payload:
   - DOMAIN,sylvan.apple.com
   - DOMAIN,sync.itunes.apple.com
   - DOMAIN,tac.googleapis.com
-  - DOMAIN,test.bugs-qa.chromium.org
   - DOMAIN,test.gbugs-qa.chromium.org
   - DOMAIN,tf-feedback.itunes.apple.com
   - DOMAIN,time.xtracloud.net
@@ -579,7 +557,6 @@ payload:
   - DOMAIN,www.yxssp.com
   - DOMAIN,www4-static.gog-statics.com
   - DOMAIN,xb.dlservice.microsoft.com
-  - DOMAIN,xn--9kr7l.com
   - DOMAIN,xn--flw351e.com
   - DOMAIN,xp.apple.com
   - DOMAIN,youku.cdn2-youku.com

@@ -1,5 +1,5 @@
-# 更新时间: 2025-04-20 20:13:16（北京时间）
-# 规则数量: 32769
+# 更新时间: 2025-04-21 08:43:22（北京时间）
+# 规则数量: 32770
 payload:
   - DOMAIN,1password.drift.click
   - DOMAIN,adobeereg.com
@@ -30293,6 +30293,7 @@ payload:
   - DOMAIN-SUFFIX,vpnproxymaster.com
   - DOMAIN-SUFFIX,vpnreactor.com
   - DOMAIN-SUFFIX,vpnreviewz.com
+  - DOMAIN-SUFFIX,vpnrouter.homes
   - DOMAIN-SUFFIX,vpnsecure.me
   - DOMAIN-SUFFIX,vpnshazam.com
   - DOMAIN-SUFFIX,vpnshieldapp.com
