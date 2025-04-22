@@ -1,5 +1,5 @@
-# 更新时间: 2025-04-22 08:40:51（北京时间）
-# 规则数量: 3468
+# 更新时间: 2025-04-22 20:15:08（北京时间）
+# 规则数量: 3470
 payload:
   - DOMAIN,0x0.st
   - DOMAIN,3dna.nationbuilder.com
@@ -2333,6 +2333,7 @@ payload:
   - DOMAIN,videos.ohentai.org
   - DOMAIN,videos2-h.sendvid.com
   - DOMAIN,videos2.edclub.com
+  - DOMAIN,vip.dytt-img.com
   - DOMAIN,vir.wsj.net
   - DOMAIN,viu-static.akamaized.net
   - DOMAIN,vjs.zencdn.net
@@ -2657,7 +2658,6 @@ payload:
   - DOMAIN-SUFFIX,cloud2.influxdata.com
   - DOMAIN-SUFFIX,cloudatacdn.com
   - DOMAIN-SUFFIX,cloudflare-ipfs.com
-  - DOMAIN-SUFFIX,cloudflare-terms-of-service-abuse.com
   - DOMAIN-SUFFIX,cloudflare.docker.com
   - DOMAIN-SUFFIX,cloudflare.ltd
   - DOMAIN-SUFFIX,cloudflarestream.com
@@ -3237,6 +3237,7 @@ payload:
   - DOMAIN-SUFFIX,sciencedirectassets.com
   - DOMAIN-SUFFIX,scorecardresearch.com
   - DOMAIN-SUFFIX,scribdassets.com
+  - DOMAIN-SUFFIX,scripts.gatorapi.com
   - DOMAIN-SUFFIX,seadn.io
   - DOMAIN-SUFFIX,sendspace.com
   - DOMAIN-SUFFIX,senja.io
@@ -3286,6 +3287,7 @@ payload:
   - DOMAIN-SUFFIX,stack.imgur.com
   - DOMAIN-SUFFIX,stackblitz.io
   - DOMAIN-SUFFIX,stapecdn.com
+  - DOMAIN-SUFFIX,static-assets.photoshop.adobe.com
   - DOMAIN-SUFFIX,static-prod-web.miniclip.com
   - DOMAIN-SUFFIX,static.amplience.net
   - DOMAIN-SUFFIX,static.chaosgroup.com

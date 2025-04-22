@@ -1,5 +1,5 @@
-# 更新时间: 2025-04-22 08:40:58（北京时间）
-# 规则数量: 32775
+# 更新时间: 2025-04-22 20:15:10（北京时间）
+# 规则数量: 32778
 payload:
   - DOMAIN,1password.drift.click
   - DOMAIN,adobeereg.com
@@ -1911,6 +1911,7 @@ payload:
   - DOMAIN-SUFFIX,animehentaihub.com
   - DOMAIN-SUFFIX,animeidhentai.com
   - DOMAIN-SUFFIX,animepornhd.com
+  - DOMAIN-SUFFIX,animes.garden
   - DOMAIN-SUFFIX,animesex.me
   - DOMAIN-SUFFIX,animesexhq.com
   - DOMAIN-SUFFIX,animeshippuuden.com
@@ -7842,6 +7843,7 @@ payload:
   - DOMAIN-SUFFIX,ddns.name
   - DOMAIN-SUFFIX,ddns.net
   - DOMAIN-SUFFIX,ddns.us
+  - DOMAIN-SUFFIX,ddys.mov
   - DOMAIN-SUFFIX,de
   - DOMAIN-SUFFIX,de-montfort.ac.uk
   - DOMAIN-SUFFIX,de-sci.org
@@ -22445,6 +22447,7 @@ payload:
   - DOMAIN-SUFFIX,photonicssociety.org
   - DOMAIN-SUFFIX,photonmedia.net
   - DOMAIN-SUFFIX,photos18.com
+  - DOMAIN-SUFFIX,photoshop.adobe.com
   - DOMAIN-SUFFIX,photoshop.com
   - DOMAIN-SUFFIX,php.net
   - DOMAIN-SUFFIX,phprcdn.com
