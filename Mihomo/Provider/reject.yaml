@@ -1,5 +1,5 @@
-# 更新时间: 2025-04-21 20:14:58（北京时间）
-# 规则数量: 97659
+# 更新时间: 2025-04-22 08:40:41（北京时间）
+# 规则数量: 97660
 payload:
   - DOMAIN,03.lzzncm.com
   - DOMAIN,04.lzzncm.com
@@ -744,6 +744,7 @@ payload:
   - DOMAIN,log-dmp.suishenyun.cn
   - DOMAIN,log.ad.xiaomi.com
   - DOMAIN,log.m.sm.cn
+  - DOMAIN,log.mmstat.com
   - DOMAIN,log.qchannel03.cn
   - DOMAIN,log.umsns.com
   - DOMAIN,logs.chelaile.net.cn
