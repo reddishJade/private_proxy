@@ -1,5 +1,5 @@
-# 更新时间: 2025-04-23 08:40:45（北京时间）
-# 规则数量: 3472
+# 更新时间: 2025-04-23 20:15:25（北京时间）
+# 规则数量: 3474
 payload:
   - DOMAIN,0x0.st
   - DOMAIN,3dna.nationbuilder.com
@@ -74,6 +74,7 @@ payload:
   - DOMAIN,apps.bazaarvoice.com
   - DOMAIN,apps.profitihub.com
   - DOMAIN,apps.sophi.io
+  - DOMAIN,apps.voxmedia.com
   - DOMAIN,archive.mozilla.org
   - DOMAIN,artworks.thetvdb.com
   - DOMAIN,asset-cdn.uscardforum.com
@@ -1657,6 +1658,7 @@ payload:
   - DOMAIN,platform.instagram.com
   - DOMAIN,platform.theverge.com
   - DOMAIN,platform.twitter.com
+  - DOMAIN,platform.vox.com
   - DOMAIN,platforms.makemytrip.com
   - DOMAIN,play.gotolstoy.com
   - DOMAIN,play.izanmei.net
