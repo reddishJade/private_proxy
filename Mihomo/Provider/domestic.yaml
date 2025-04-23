@@ -1,5 +1,5 @@
-# 更新时间: 2025-04-23 08:40:51（北京时间）
-# 规则数量: 9786
+# 更新时间: 2025-04-23 20:15:32（北京时间）
+# 规则数量: 9785
 payload:
   - DOMAIN,acg.tv
   - DOMAIN,analytics.strava.com
@@ -97,7 +97,6 @@ payload:
   - DOMAIN-SUFFIX,115img.com
   - DOMAIN-SUFFIX,116cd.com
   - DOMAIN-SUFFIX,116cd.net
-  - DOMAIN-SUFFIX,117.161.2.5
   - DOMAIN-SUFFIX,118yuedu.com
   - DOMAIN-SUFFIX,119you.com
   - DOMAIN-SUFFIX,11dzw.com
