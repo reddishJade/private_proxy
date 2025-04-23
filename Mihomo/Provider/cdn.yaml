@@ -1,5 +1,5 @@
-# 更新时间: 2025-04-22 20:15:08（北京时间）
-# 规则数量: 3470
+# 更新时间: 2025-04-23 08:40:45（北京时间）
+# 规则数量: 3472
 payload:
   - DOMAIN,0x0.st
   - DOMAIN,3dna.nationbuilder.com
@@ -1192,6 +1192,7 @@ payload:
   - DOMAIN,images.flightradar24.com
   - DOMAIN,images.freeimages.com
   - DOMAIN,images.g2crowd.com
+  - DOMAIN,images.github.media
   - DOMAIN,images.idgesg.net
   - DOMAIN,images.kick.com
   - DOMAIN,images.loox.io
@@ -2048,6 +2049,7 @@ payload:
   - DOMAIN,static.heavy-r.com
   - DOMAIN,static.helpjuice.com
   - DOMAIN,static.hotjar.com
+  - DOMAIN,static.hugedomains.com
   - DOMAIN,static.ietf.org
   - DOMAIN,static.ifunny.co
   - DOMAIN,static.incapsula.com
