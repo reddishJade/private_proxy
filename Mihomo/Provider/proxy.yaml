@@ -1,5 +1,5 @@
-# 更新时间: 2025-04-23 20:15:30（北京时间）
-# 规则数量: 32778
+# 更新时间: 2025-04-24 08:40:42（北京时间）
+# 规则数量: 32790
 payload:
   - DOMAIN,1password.drift.click
   - DOMAIN,adobeereg.com
@@ -3220,6 +3220,7 @@ payload:
   - DOMAIN-SUFFIX,badjojo.com
   - DOMAIN-SUFFIX,badoinkvr.com
   - DOMAIN-SUFFIX,badoo.com
+  - DOMAIN-SUFFIX,badoocdn.com
   - DOMAIN-SUFFIX,badsexygirl.com
   - DOMAIN-SUFFIX,badteenspunished.com
   - DOMAIN-SUFFIX,badvirtue.com
@@ -7293,6 +7294,7 @@ payload:
   - DOMAIN-SUFFIX,cranfield.ac.uk
   - DOMAIN-SUFFIX,crankplayer.com
   - DOMAIN-SUFFIX,crash.ac.uk
+  - DOMAIN-SUFFIX,crashlytics.com
   - DOMAIN-SUFFIX,crates.io
   - DOMAIN-SUFFIX,craven-college.ac.uk
   - DOMAIN-SUFFIX,crawley-college.ac.uk
@@ -8098,6 +8100,7 @@ payload:
   - DOMAIN-SUFFIX,dickhardon.com
   - DOMAIN-SUFFIX,dickwhiteacademy.ac.uk
   - DOMAIN-SUFFIX,dictate.ms
+  - DOMAIN-SUFFIX,dictionary.com
   - DOMAIN-SUFFIX,didce.com
   - DOMAIN-SUFFIX,diddykongracing.com
   - DOMAIN-SUFFIX,didet.ac.uk
@@ -14611,6 +14614,7 @@ payload:
   - DOMAIN-SUFFIX,icoco.com
   - DOMAIN-SUFFIX,iconcollege.ac.uk
   - DOMAIN-SUFFIX,iconfactory.net
+  - DOMAIN-SUFFIX,iconfinder.com
   - DOMAIN-SUFFIX,iconnect.ac.uk
   - DOMAIN-SUFFIX,iconpaper.org
   - DOMAIN-SUFFIX,icons8.com
@@ -19654,6 +19658,7 @@ payload:
   - DOMAIN-SUFFIX,myactimes.com
   - DOMAIN-SUFFIX,myamateurgirls.net
   - DOMAIN-SUFFIX,myamateurtv.com
+  - DOMAIN-SUFFIX,myanimelist.net
   - DOMAIN-SUFFIX,myanmar-porn.com
   - DOMAIN-SUFFIX,myanniu.com
   - DOMAIN-SUFFIX,myappleid.com
@@ -20119,6 +20124,7 @@ payload:
   - DOMAIN-SUFFIX,ndonline.ac.uk
   - DOMAIN-SUFFIX,ndr.de
   - DOMAIN-SUFFIX,ndtc.ac.uk
+  - DOMAIN-SUFFIX,ndtv.com
   - DOMAIN-SUFFIX,ne-worcs.ac.uk
   - DOMAIN-SUFFIX,ne-worcscol.ac.uk
   - DOMAIN-SUFFIX,neab.ac.uk
@@ -20814,6 +20820,7 @@ payload:
   - DOMAIN-SUFFIX,nke6.com
   - DOMAIN-SUFFIX,nko.navy.mil
   - DOMAIN-SUFFIX,nkw.ac.uk
+  - DOMAIN-SUFFIX,nl
   - DOMAIN-SUFFIX,nlc.ac.uk
   - DOMAIN-SUFFIX,nlfreevpn.com
   - DOMAIN-SUFFIX,nlgs.ac.uk
@@ -21357,6 +21364,7 @@ payload:
   - DOMAIN-SUFFIX,obs.ac.uk
   - DOMAIN-SUFFIX,observable.net
   - DOMAIN-SUFFIX,observechina.net
+  - DOMAIN-SUFFIX,obsproject.com
   - DOMAIN-SUFFIX,obsrvbl.com
   - DOMAIN-SUFFIX,obutsumania.com
   - DOMAIN-SUFFIX,obutu.com
@@ -21670,6 +21678,7 @@ payload:
   - DOMAIN-SUFFIX,openstreetmap.org
   - DOMAIN-SUFFIX,openstreetmaps.org
   - DOMAIN-SUFFIX,opensuse.org
+  - DOMAIN-SUFFIX,opentable.com
   - DOMAIN-SUFFIX,opentech.fund
   - DOMAIN-SUFFIX,opentgc.com
   - DOMAIN-SUFFIX,openthread.io
@@ -21832,6 +21841,7 @@ payload:
   - DOMAIN-SUFFIX,overapple.com
   - DOMAIN-SUFFIX,overcast.fm
   - DOMAIN-SUFFIX,overdaily.org
+  - DOMAIN-SUFFIX,overdrive.com
   - DOMAIN-SUFFIX,overleaf.com
   - DOMAIN-SUFFIX,overplay.net
   - DOMAIN-SUFFIX,oversea.istarshine.com
@@ -27773,6 +27783,7 @@ payload:
   - DOMAIN-SUFFIX,thesafeporn.com
   - DOMAIN-SUFFIX,thesaturdaypaper.com.au
   - DOMAIN-SUFFIX,thesaurus.ac.uk
+  - DOMAIN-SUFFIX,thesaurus.com
   - DOMAIN-SUFFIX,thescottishsun.co.uk
   - DOMAIN-SUFFIX,thesenses.ac.uk
   - DOMAIN-SUFFIX,thesesalive.ac.uk
@@ -29664,6 +29675,7 @@ payload:
   - DOMAIN-SUFFIX,vicarious.ac.uk
   - DOMAIN-SUFFIX,victimsofcommunism.org
   - DOMAIN-SUFFIX,victoriacountyhistory.ac.uk
+  - DOMAIN-SUFFIX,victoriassecret.com
   - DOMAIN-SUFFIX,vid.me
   - DOMAIN-SUFFIX,vidble.com
   - DOMAIN-SUFFIX,viddeo-jav.net
