@@ -1,5 +1,5 @@
-# 更新时间: 2025-04-23 20:15:26（北京时间）
-# 规则数量: 1100
+# 更新时间: 2025-04-24 08:40:38（北京时间）
+# 规则数量: 1101
 payload:
   - DOMAIN,addins.deepl.com
   - DOMAIN,amupdatedl.microsoft.com
@@ -221,6 +221,7 @@ payload:
   - DOMAIN,downloads.1password.com
   - DOMAIN,downloads.cursor.com
   - DOMAIN,downloads.lemonsqueezy.com
+  - DOMAIN,downloads.majestic.com
   - DOMAIN,downloads.openwrt.org
   - DOMAIN,downloads.raspberrypi.com
   - DOMAIN,downloads.sourceforge.net

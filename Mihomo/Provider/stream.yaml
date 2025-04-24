@@ -1,5 +1,5 @@
-# 更新时间: 2025-04-23 20:15:26（北京时间）
-# 规则数量: 274
+# 更新时间: 2025-04-24 08:40:39（北京时间）
+# 规则数量: 275
 payload:
   - ','
   - DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com
@@ -46,6 +46,7 @@ payload:
   - DOMAIN,ocvideo.apple.com
   - DOMAIN,play-edge.itunes.apple.com
   - DOMAIN,players.brightcove.net
+  - DOMAIN,prod-api.crackle.com
   - DOMAIN,staticasiafox.akamaized.net
   - DOMAIN,upos-bstar-mirrorakam.akamaized.net
   - DOMAIN,upos-bstar1-mirrorakam.akamaized.net
