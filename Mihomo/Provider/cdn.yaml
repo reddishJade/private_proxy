@@ -1,5 +1,5 @@
-# 更新时间: 2025-04-24 08:40:38（北京时间）
-# 规则数量: 3542
+# 更新时间: 2025-04-24 20:15:45（北京时间）
+# 规则数量: 3543
 payload:
   - DOMAIN,0x0.st
   - DOMAIN,3dna.nationbuilder.com
@@ -1883,6 +1883,7 @@ payload:
   - DOMAIN,safebrowsing.googleapis.com
   - DOMAIN,sandpack-cdn-staging.blazingly.io
   - DOMAIN,sandpack-cdn-v2.codesandbox.io
+  - DOMAIN,sato.manyse.com
   - DOMAIN,sbl.onfastspring.com
   - DOMAIN,scdn.clerk.com
   - DOMAIN,scdn.line-apps.com
