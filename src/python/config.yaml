@@ -8,11 +8,11 @@
       format: txt
       behavior: classical
 
-    xndeye_reject:
-      type: http
-      url: "https://cdn.jsdelivr.net/gh/xndeye/adblock_list@beta/rule/clash.yaml"
-      format: yaml
-      behavior: domain
+    # xndeye_reject:
+    #   type: http
+    #   url: "https://cdn.jsdelivr.net/gh/xndeye/adblock_list@beta/rule/clash.yaml"
+    #   format: yaml
+    #   behavior: domain
 
 - path: output/reject@ip.yaml
   format: yaml
@@ -234,11 +234,11 @@
   format: yaml
   behavior: classical
   upstream:
-    DustinWin_proxy:
-      type: http
-      url: "https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/proxy.yaml"
-      format: yaml
-      behavior: domain
+    # DustinWin_proxy:
+    #   type: http
+    #   url: "https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/proxy.yaml"
+    #   format: yaml
+    #   behavior: domain
 
     skk_global:
       type: http
@@ -266,11 +266,11 @@
   format: yaml
   behavior: classical
   upstream:
-    DustinWin_domestic:
-      type: http
-      url: "https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/cn.yaml"
-      format: yaml
-      behavior: domain
+    # DustinWin_domestic:
+    #   type: http
+    #   url: "https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/cn.yaml"
+    #   format: yaml
+    #   behavior: domain
 
     skk_domestic:
       type: http
@@ -282,11 +282,11 @@
   format: yaml
   behavior: classical
   upstream:    
-    DustinWin_domestic_ip:
-      type: http
-      url: "https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/cnip.yaml"
-      format: yaml
-      behavior: ipcidr
+    # DustinWin_domestic_ip:
+    #   type: http
+    #   url: "https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/cnip.yaml"
+    #   format: yaml
+    #   behavior: ipcidr
 
     skk_domestic_ip:
       type: http
