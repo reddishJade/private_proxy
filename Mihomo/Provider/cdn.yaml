@@ -1,5 +1,5 @@
-# 更新时间: 2025-04-25 08:40:57（北京时间）
-# 规则数量: 3543
+# 更新时间: 2025-04-25 20:14:53（北京时间）
+# 规则数量: 3545
 payload:
   - DOMAIN,0x0.st
   - DOMAIN,3dna.nationbuilder.com
@@ -785,6 +785,7 @@ payload:
   - DOMAIN,cdn8.bigcommerce.com
   - DOMAIN,cdn9.bigcommerce.com
   - DOMAIN,cdna.artstation.com
+  - DOMAIN,cdnapi.kaltura.com
   - DOMAIN,cdnapisec.kaltura.com
   - DOMAIN,cdnb.artstation.com
   - DOMAIN,cdne-pics.youjizz.com
@@ -796,6 +797,7 @@ payload:
   - DOMAIN,cdnjs.cloudflare.com
   - DOMAIN,cdnl.tnaflix.com
   - DOMAIN,cdns.gigya.com
+  - DOMAIN,cdnsecakmi.kaltura.com
   - DOMAIN,cdnstatic.porno-cum.com
   - DOMAIN,cdnstatic.tencentcs.com
   - DOMAIN,cdnstatic.w1mp.com
