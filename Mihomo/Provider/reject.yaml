@@ -1,5 +1,5 @@
-# 更新时间: 2025-04-27 08:43:47（北京时间）
-# 规则数量: 255
+# 更新时间: 2025-04-27 20:13:18（北京时间）
+# 规则数量: 256
 payload:
   - DOMAIN,aedns.weixin.qq.com
   - DOMAIN,api-js.mixpanel.com
@@ -154,6 +154,7 @@ payload:
   - DOMAIN-SUFFIX,brightvpn.com
   - DOMAIN-SUFFIX,choyoga.com
   - DOMAIN-SUFFIX,classify-client.services.mozilla.com
+  - DOMAIN-SUFFIX,cnzz.mmstat.com
   - DOMAIN-SUFFIX,crazyegg.com
   - DOMAIN-SUFFIX,data
   - DOMAIN-SUFFIX,earnapp.com
