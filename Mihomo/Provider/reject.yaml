@@ -1,5 +1,5 @@
-# 更新时间: 2025-04-26 20:12:52（北京时间）
-# 规则数量: 253
+# 更新时间: 2025-04-27 08:43:47（北京时间）
+# 规则数量: 255
 payload:
   - DOMAIN,aedns.weixin.qq.com
   - DOMAIN,api-js.mixpanel.com
@@ -53,6 +53,7 @@ payload:
   - DOMAIN,httpsdns.baidu.com
   - DOMAIN,js.iterable.com
   - DOMAIN,log.mmstat.com
+  - DOMAIN,resolver.mi.xiaomi.com
   - DOMAIN,resolver.msg.xiaomi.net
   - DOMAIN,stun.smartgslb.com
   - DOMAIN,ttnet-dig.feishu.cn
@@ -208,6 +209,7 @@ payload:
   - DOMAIN-SUFFIX,pgi.com
   - DOMAIN-SUFFIX,proxy-review.com
   - DOMAIN-SUFFIX,proxyway.com
+  - DOMAIN-SUFFIX,resolver.gslb.mi-idc.com
   - DOMAIN-SUFFIX,rubiconproject.com
   - DOMAIN-SUFFIX,scorecardresearch.com
   - DOMAIN-SUFFIX,shengen.ru
