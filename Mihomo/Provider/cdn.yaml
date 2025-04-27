@@ -1,5 +1,5 @@
-# 更新时间: 2025-04-26 20:12:53（北京时间）
-# 规则数量: 3545
+# 更新时间: 2025-04-27 08:43:52（北京时间）
+# 规则数量: 3547
 payload:
   - DOMAIN,0x0.st
   - DOMAIN,3dna.nationbuilder.com
@@ -2810,6 +2810,7 @@ payload:
   - DOMAIN-SUFFIX,esm.run
   - DOMAIN-SUFFIX,esm.sh
   - DOMAIN-SUFFIX,espncdn.com
+  - DOMAIN-SUFFIX,eth.sucks
   - DOMAIN-SUFFIX,etsystatic.com
   - DOMAIN-SUFFIX,eu-browse.startpage.com
   - DOMAIN-SUFFIX,eu-proxy.startpage.com
@@ -3513,6 +3514,7 @@ payload:
   - DOMAIN-SUFFIX,wsimg.com
   - DOMAIN-SUFFIX,wsrv.nl
   - DOMAIN-SUFFIX,www.s81c.com
+  - DOMAIN-SUFFIX,xascdn.li
   - DOMAIN-SUFFIX,xcdnpro.com
   - DOMAIN-SUFFIX,xda-cdn.com
   - DOMAIN-SUFFIX,xdaimages.com
