@@ -1,5 +1,5 @@
-# 更新时间: 2025-04-28 20:15:12（北京时间）
-# 规则数量: 274
+# 更新时间: 2025-04-29 08:41:05（北京时间）
+# 规则数量: 275
 payload:
   - DOMAIN,aterm.me
   - DOMAIN,captive.apple.com
@@ -120,6 +120,7 @@ payload:
   - DOMAIN-SUFFIX,keepfrds.com
   - DOMAIN-SUFFIX,lan
   - DOMAIN-SUFFIX,leaguehd.com
+  - DOMAIN-SUFFIX,local
   - DOMAIN-SUFFIX,localdomain
   - DOMAIN-SUFFIX,lztr.me
   - DOMAIN-SUFFIX,m-team.cc
