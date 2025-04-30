@@ -1,5 +1,5 @@
-# 更新时间: 2025-04-29 20:16:15（北京时间）
-# 规则数量: 3547
+# 更新时间: 2025-04-30 08:41:16（北京时间）
+# 规则数量: 3548
 payload:
   - DOMAIN,0x0.st
   - DOMAIN,3dna.nationbuilder.com
@@ -1785,6 +1785,7 @@ payload:
   - DOMAIN,res.cloudinary.com
   - DOMAIN,res.craft.do
   - DOMAIN,res2.weblium.site
+  - DOMAIN,resize-image.vocus.cc
   - DOMAIN,resize.blogsys.jp
   - DOMAIN,resize.yandex.net
   - DOMAIN,resizing.flixster.com
