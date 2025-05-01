@@ -1,5 +1,5 @@
-# 更新时间: 2025-04-30 20:15:10（北京时间）
-# 规则数量: 1101
+# 更新时间: 2025-05-01 08:46:07（北京时间）
+# 规则数量: 1103
 payload:
   - DOMAIN,addins.deepl.com
   - DOMAIN,amupdatedl.microsoft.com
@@ -178,6 +178,7 @@ payload:
   - DOMAIN,download.bazzite.gg
   - DOMAIN,download.beeper.com
   - DOMAIN,download.clashverge.dev
+  - DOMAIN,download.cnet.com
   - DOMAIN,download.cpuid.com
   - DOMAIN,download.cypress.io
   - DOMAIN,download.dlsite.com
@@ -498,6 +499,7 @@ payload:
   - DOMAIN,mirror.yer.az
   - DOMAIN,mirror.za.web4africa.net
   - DOMAIN,mirror2.evolution-host.com
+  - DOMAIN,mirrorbits.lineageos.org
   - DOMAIN,mirrors.advancedhosters.com
   - DOMAIN,mirrors.ae-online.de
   - DOMAIN,mirrors.aliyun.com

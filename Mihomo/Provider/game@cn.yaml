@@ -1,5 +1,5 @@
-# 更新时间: 2025-04-30 20:15:09（北京时间）
-# 规则数量: 159
+# 更新时间: 2025-05-01 08:46:07（北京时间）
+# 规则数量: 160
 payload:
   - DOMAIN,dl.delivery.mp.microsoft.com
   - DOMAIN,dl.steam.ksyna.com
@@ -35,6 +35,7 @@ payload:
   - DOMAIN-SUFFIX,biligame.net
   - DOMAIN-SUFFIX,bluearchive-cn.com
   - DOMAIN-SUFFIX,brawlstars.cn
+  - DOMAIN-SUFFIX,client-update.queniuqe.com
   - DOMAIN-SUFFIX,cm.steampowered.com
   - DOMAIN-SUFFIX,codm.com
   - DOMAIN-SUFFIX,csgo.wmsj.cn
