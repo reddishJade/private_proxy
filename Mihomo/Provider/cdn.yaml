@@ -1,5 +1,5 @@
-# 更新时间: 2025-05-01 20:14:46（北京时间）
-# 规则数量: 3568
+# 更新时间: 2025-05-02 08:40:58（北京时间）
+# 规则数量: 3569
 payload:
   - DOMAIN,0x0.st
   - DOMAIN,3dna.nationbuilder.com
@@ -2184,6 +2184,7 @@ payload:
   - DOMAIN,static.replay.io
   - DOMAIN,static.scarf.sh
   - DOMAIN,static.seel.com
+  - DOMAIN,static.serverhunter.com
   - DOMAIN,static.skyassets.com
   - DOMAIN,static.snapchat.com
   - DOMAIN,static.snaptube.in
