@@ -1,5 +1,5 @@
-# 更新时间: 2025-05-03 08:39:59（北京时间）
-# 规则数量: 1152
+# 更新时间: 2025-05-03 20:13:13（北京时间）
+# 规则数量: 1153
 payload:
   - DOMAIN,addins.deepl.com
   - DOMAIN,amupdatedl.microsoft.com
@@ -725,6 +725,7 @@ payload:
   - DOMAIN-SUFFIX,digitaloceanspaces.com
   - DOMAIN-SUFFIX,dl.discordapp.net
   - DOMAIN-SUFFIX,dl.dlsite.com
+  - DOMAIN-SUFFIX,dl.dropboxusercontent.com
   - DOMAIN-SUFFIX,dl.elementary.io
   - DOMAIN-SUFFIX,dl.playstation.net
   - DOMAIN-SUFFIX,dl.sourceforge.net
