@@ -1,5 +1,5 @@
-# 更新时间: 2025-05-03 20:13:14（北京时间）
-# 规则数量: 1011
+# 更新时间: 2025-05-04 08:45:53（北京时间）
+# 规则数量: 1024
 payload:
   - DOMAIN,ccmdl.adobe.com
   - DOMAIN,community.oneplus.com
@@ -74,6 +74,7 @@ payload:
   - DOMAIN-SUFFIX,animes.garden
   - DOMAIN-SUFFIX,annas-archive.org
   - DOMAIN-SUFFIX,ant.design
+  - DOMAIN-SUFFIX,anyporn.com
   - DOMAIN-SUFFIX,anysex.com
   - DOMAIN-SUFFIX,aol.com
   - DOMAIN-SUFFIX,apernet.io
@@ -89,7 +90,6 @@ payload:
   - DOMAIN-SUFFIX,aptoide.com
   - DOMAIN-SUFFIX,arc.net
   - DOMAIN-SUFFIX,archive-it.org
-  - DOMAIN-SUFFIX,archive.md
   - DOMAIN-SUFFIX,archive.org
   - DOMAIN-SUFFIX,archive.today
   - DOMAIN-SUFFIX,archiveofourown.org
@@ -148,7 +148,6 @@ payload:
   - DOMAIN-SUFFIX,bloomberg.com
   - DOMAIN-SUFFIX,bloomberg.net
   - DOMAIN-SUFFIX,bnbstatic.com
-  - DOMAIN-SUFFIX,booth.pm
   - DOMAIN-SUFFIX,box.com
   - DOMAIN-SUFFIX,brave.com
   - DOMAIN-SUFFIX,broadcom.com
@@ -411,8 +410,10 @@ payload:
   - DOMAIN-SUFFIX,hanime1.me
   - DOMAIN-SUFFIX,hanimeone.me
   - DOMAIN-SUFFIX,hanmail.net
+  - DOMAIN-SUFFIX,happy-porn.com
   - DOMAIN-SUFFIX,haproxy.com
   - DOMAIN-SUFFIX,hbg.com
+  - DOMAIN-SUFFIX,hclips.com
   - DOMAIN-SUFFIX,he.net
   - DOMAIN-SUFFIX,hentaifox.com
   - DOMAIN-SUFFIX,hentaipaw.com
@@ -482,6 +483,7 @@ payload:
   - DOMAIN-SUFFIX,javdb.com
   - DOMAIN-SUFFIX,javhd.com
   - DOMAIN-SUFFIX,javhd.today
+  - DOMAIN-SUFFIX,javlibrary.com
   - DOMAIN-SUFFIX,javmost.com
   - DOMAIN-SUFFIX,javtrailers.com
   - DOMAIN-SUFFIX,javtsunami.com
@@ -493,11 +495,13 @@ payload:
   - DOMAIN-SUFFIX,jsbin.com
   - DOMAIN-SUFFIX,jsdelivr.com
   - DOMAIN-SUFFIX,jsdelivr.net
+  - DOMAIN-SUFFIX,jsfiddle.net
   - DOMAIN-SUFFIX,jumpdesktop.com
   - DOMAIN-SUFFIX,justdns.info
   - DOMAIN-SUFFIX,kagi.com
   - DOMAIN-SUFFIX,kakao.com
   - DOMAIN-SUFFIX,kde.org
+  - DOMAIN-SUFFIX,kg
   - DOMAIN-SUFFIX,kick.com
   - DOMAIN-SUFFIX,kik.com
   - DOMAIN-SUFFIX,kinja.com
@@ -514,7 +518,6 @@ payload:
   - DOMAIN-SUFFIX,leetcode.com
   - DOMAIN-SUFFIX,letsencrypt.org
   - DOMAIN-SUFFIX,libgen.fun
-  - DOMAIN-SUFFIX,lih.kg
   - DOMAIN-SUFFIX,lihkg.com
   - DOMAIN-SUFFIX,line-apps-beta.com
   - DOMAIN-SUFFIX,line-apps-rc.com
@@ -552,6 +555,7 @@ payload:
   - DOMAIN-SUFFIX,matrix.org
   - DOMAIN-SUFFIX,matters.town
   - DOMAIN-SUFFIX,mayoclinic.org
+  - DOMAIN-SUFFIX,md
   - DOMAIN-SUFFIX,medallia.com
   - DOMAIN-SUFFIX,mediafire.com
   - DOMAIN-SUFFIX,medium.com
@@ -585,6 +589,7 @@ payload:
   - DOMAIN-SUFFIX,mozilla.org
   - DOMAIN-SUFFIX,ms
   - DOMAIN-SUFFIX,mullvad.net
+  - DOMAIN-SUFFIX,mx
   - DOMAIN-SUFFIX,my
   - DOMAIN-SUFFIX,myanimelist.net
   - DOMAIN-SUFFIX,mydnsleaktest.com
@@ -688,6 +693,7 @@ payload:
   - DOMAIN-SUFFIX,pl
   - DOMAIN-SUFFIX,playboy.com
   - DOMAIN-SUFFIX,plurk.com
+  - DOMAIN-SUFFIX,pm
   - DOMAIN-SUFFIX,podbean.com
   - DOMAIN-SUFFIX,polymer-project.org
   - DOMAIN-SUFFIX,porn.com
@@ -696,6 +702,7 @@ payload:
   - DOMAIN-SUFFIX,pornhub.org
   - DOMAIN-SUFFIX,pornoxo.com
   - DOMAIN-SUFFIX,pornpics.com
+  - DOMAIN-SUFFIX,porntrex.com
   - DOMAIN-SUFFIX,porntube.com
   - DOMAIN-SUFFIX,prisma.io
   - DOMAIN-SUFFIX,prismlauncher.org
@@ -709,6 +716,7 @@ payload:
   - DOMAIN-SUFFIX,proxmox.com
   - DOMAIN-SUFFIX,ps
   - DOMAIN-SUFFIX,ptt.cc
+  - DOMAIN-SUFFIX,pttweb.cc
   - DOMAIN-SUFFIX,pusher.com
   - DOMAIN-SUFFIX,pximg.net
   - DOMAIN-SUFFIX,quad9.net
@@ -738,6 +746,7 @@ payload:
   - DOMAIN-SUFFIX,returnyoutubedislike.com
   - DOMAIN-SUFFIX,returnyoutubedislikeapi.com
   - DOMAIN-SUFFIX,reuters.com
+  - DOMAIN-SUFFIX,reutersmedia.net
   - DOMAIN-SUFFIX,rfa.org
   - DOMAIN-SUFFIX,rfc-editor.org
   - DOMAIN-SUFFIX,rferl.org
@@ -803,6 +812,8 @@ payload:
   - DOMAIN-SUFFIX,south-plus.net
   - DOMAIN-SUFFIX,south-plus.org
   - DOMAIN-SUFFIX,spankbang.com
+  - DOMAIN-SUFFIX,spankinglibrary.com
+  - DOMAIN-SUFFIX,spankingtube.com
   - DOMAIN-SUFFIX,speedtest.net
   - DOMAIN-SUFFIX,speedtestcustom.com
   - DOMAIN-SUFFIX,split.io
@@ -956,6 +967,7 @@ payload:
   - DOMAIN-SUFFIX,wikibooks.org
   - DOMAIN-SUFFIX,wikidata.org
   - DOMAIN-SUFFIX,wikidot.com
+  - DOMAIN-SUFFIX,wikileaks.org
   - DOMAIN-SUFFIX,wikimedia.org
   - DOMAIN-SUFFIX,wikinews.org
   - DOMAIN-SUFFIX,wikipedia.com
@@ -1009,6 +1021,7 @@ payload:
   - DOMAIN-SUFFIX,ytimg.com
   - DOMAIN-SUFFIX,z.com
   - DOMAIN-SUFFIX,za
+  - DOMAIN-SUFFIX,zbporn.com
   - DOMAIN-SUFFIX,zello.com
   - DOMAIN-SUFFIX,zendesk.com
   - DOMAIN-SUFFIX,zndsk.com
