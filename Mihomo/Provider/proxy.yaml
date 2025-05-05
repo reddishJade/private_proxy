@@ -1,5 +1,5 @@
-# 更新时间: 2025-05-05 08:44:11（北京时间）
-# 规则数量: 1024
+# 更新时间: 2025-05-05 20:15:34（北京时间）
+# 规则数量: 1023
 payload:
   - DOMAIN,ccmdl.adobe.com
   - DOMAIN,community.oneplus.com
@@ -804,7 +804,6 @@ payload:
   - DOMAIN-SUFFIX,snapkit.co
   - DOMAIN-SUFFIX,social
   - DOMAIN-SUFFIX,softonic.com
-  - DOMAIN-SUFFIX,solidot.org
   - DOMAIN-SUFFIX,sony.net
   - DOMAIN-SUFFIX,sophos.com
   - DOMAIN-SUFFIX,soundcloud.com

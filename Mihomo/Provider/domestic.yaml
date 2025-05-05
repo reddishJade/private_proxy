@@ -1,5 +1,5 @@
-# 更新时间: 2025-05-05 08:44:11（北京时间）
-# 规则数量: 790
+# 更新时间: 2025-05-05 20:15:34（北京时间）
+# 规则数量: 791
 payload:
   - DOMAIN,acg.tv
   - DOMAIN,assets1.xboxlive.cn
@@ -645,6 +645,7 @@ payload:
   - DOMAIN-SUFFIX,sohu.com
   - DOMAIN-SUFFIX,sohucs.com
   - DOMAIN-SUFFIX,soku.com
+  - DOMAIN-SUFFIX,solidot.org
   - DOMAIN-SUFFIX,soso.com
   - DOMAIN-SUFFIX,soufunimg.com
   - DOMAIN-SUFFIX,soulapp.cn
