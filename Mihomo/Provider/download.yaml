@@ -1,5 +1,5 @@
-# 更新时间: 2025-05-05 20:15:33（北京时间）
-# 规则数量: 1154
+# 更新时间: 2025-05-06 08:41:58（北京时间）
+# 规则数量: 1152
 payload:
   - DOMAIN,addins.deepl.com
   - DOMAIN,amupdatedl.microsoft.com
@@ -28,7 +28,6 @@ payload:
   - DOMAIN,apache.miloslavbrada.cz
   - DOMAIN,apache.mindstudios.com
   - DOMAIN,apache.mivzakim.net
-  - DOMAIN,apache.osuosl.org
   - DOMAIN,apache.otenet.gr
   - DOMAIN,apache.proserve.nl
   - DOMAIN,apache.rediris.es
@@ -660,7 +659,6 @@ payload:
   - DOMAIN,update.code.visualstudio.com
   - DOMAIN,update.googleapis.com
   - DOMAIN,update.greasyfork.org
-  - DOMAIN,update.kiwibrowser.com
   - DOMAIN,update.parallels.com
   - DOMAIN,update.sleazyfork.org
   - DOMAIN,updater.snipaste.com

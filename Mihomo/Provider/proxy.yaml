@@ -1,5 +1,5 @@
-# 更新时间: 2025-05-05 20:15:34（北京时间）
-# 规则数量: 1023
+# 更新时间: 2025-05-06 08:42:00（北京时间）
+# 规则数量: 1025
 payload:
   - DOMAIN,ccmdl.adobe.com
   - DOMAIN,community.oneplus.com
@@ -732,6 +732,8 @@ payload:
   - DOMAIN-SUFFIX,readthedocs.io
   - DOMAIN-SUFFIX,recaptcha.net
   - DOMAIN-SUFFIX,recombee.com
+  - DOMAIN-SUFFIX,redbull.com
+  - DOMAIN-SUFFIX,redbullracing.com
   - DOMAIN-SUFFIX,reddit.com
   - DOMAIN-SUFFIX,redditmail.com
   - DOMAIN-SUFFIX,redditmedia.com
