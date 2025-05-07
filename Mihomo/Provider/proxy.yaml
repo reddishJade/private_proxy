@@ -1,5 +1,5 @@
-# 更新时间: 2025-05-06 20:16:53（北京时间）
-# 规则数量: 1025
+# 更新时间: 2025-05-07 08:41:42（北京时间）
+# 规则数量: 1026
 payload:
   - DOMAIN,ccmdl.adobe.com
   - DOMAIN,community.oneplus.com
@@ -534,6 +534,7 @@ payload:
   - DOMAIN-SUFFIX,lineshoppingseller.com
   - DOMAIN-SUFFIX,lingq.com
   - DOMAIN-SUFFIX,linkedin.com
+  - DOMAIN-SUFFIX,linux.do
   - DOMAIN-SUFFIX,list-manage.com
   - DOMAIN-SUFFIX,live-video.net
   - DOMAIN-SUFFIX,livejasmin.com
