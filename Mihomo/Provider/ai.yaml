@@ -1,5 +1,5 @@
-# 更新时间: 2025-05-07 08:41:40（北京时间）
-# 规则数量: 55
+# 更新时间: 2025-05-07 20:16:11（北京时间）
+# 规则数量: 56
 payload:
   - DOMAIN,ai.google.dev
   - DOMAIN,alkalicore-pa.clients6.google.com
@@ -10,6 +10,7 @@ payload:
   - DOMAIN,copilot.microsoft.com
   - DOMAIN,gateway.ai.cloudflare.com
   - DOMAIN,guzzoni.smoot.apple.com
+  - DOMAIN,llm.zed.dev
   - DOMAIN,o33249.ingest.sentry.io
   - DOMAIN,openaiapi-site.azureedge.net
   - DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
