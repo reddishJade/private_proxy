@@ -1,5 +1,5 @@
-# 更新时间: 2025-05-06 20:16:53（北京时间）
-# 规则数量: 791
+# 更新时间: 2025-05-07 08:41:42（北京时间）
+# 规则数量: 796
 payload:
   - DOMAIN,acg.tv
   - DOMAIN,assets1.xboxlive.cn
@@ -11,6 +11,7 @@ payload:
   - DOMAIN,dl.ubnt.com
   - DOMAIN,doh.pub
   - DOMAIN,gstore.val.manlaxy.com
+  - DOMAIN,i.dell.com
   - DOMAIN,lv.queniujq.cn
   - DOMAIN,media.cdn.queniuqe.com
   - DOMAIN,ocsp.globalsign.com
@@ -178,6 +179,7 @@ payload:
   - DOMAIN-SUFFIX,bosszhipin.com
   - DOMAIN-SUFFIX,byteacctimg.com
   - DOMAIN-SUFFIX,bytecdn.cn
+  - DOMAIN-SUFFIX,bytecdntp.com
   - DOMAIN-SUFFIX,byted-static.com
   - DOMAIN-SUFFIX,bytedance.com
   - DOMAIN-SUFFIX,bytednsdoc.com
@@ -465,6 +467,7 @@ payload:
   - DOMAIN-SUFFIX,leleketang.com
   - DOMAIN-SUFFIX,lenovomm.com
   - DOMAIN-SUFFIX,letvimg.com
+  - DOMAIN-SUFFIX,lf127.net
   - DOMAIN-SUFFIX,lianjia.com
   - DOMAIN-SUFFIX,linkedin.cn
   - DOMAIN-SUFFIX,livechina.cn
@@ -669,6 +672,7 @@ payload:
   - DOMAIN-SUFFIX,taopiaopiao.com
   - DOMAIN-SUFFIX,tb.cn
   - DOMAIN-SUFFIX,tbcache.com
+  - DOMAIN-SUFFIX,tbcdn.cn
   - DOMAIN-SUFFIX,tcdnlive.com
   - DOMAIN-SUFFIX,tencent-cloud.com
   - DOMAIN-SUFFIX,tencent-cloud.net
@@ -727,6 +731,7 @@ payload:
   - DOMAIN-SUFFIX,wmsj.cn
   - DOMAIN-SUFFIX,wmsjsteam.com
   - DOMAIN-SUFFIX,wo.cn
+  - DOMAIN-SUFFIX,wosms.cn
   - DOMAIN-SUFFIX,wps.cn
   - DOMAIN-SUFFIX,wpscdn.cn
   - DOMAIN-SUFFIX,wpscdn.com
