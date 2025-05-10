@@ -1,5 +1,5 @@
-# 更新时间: 2025-05-09 20:14:55（北京时间）
-# 规则数量: 3620
+# 更新时间: 2025-05-10 08:39:29（北京时间）
+# 规则数量: 3624
 payload:
   - DOMAIN,0x0.st
   - DOMAIN,3dna.nationbuilder.com
@@ -153,6 +153,7 @@ payload:
   - DOMAIN,assets.flodesk.com
   - DOMAIN,assets.fonts.adobe.com
   - DOMAIN,assets.foxdcg.com
+  - DOMAIN,assets.freespeechcoalition.com
   - DOMAIN,assets.frontegg.com
   - DOMAIN,assets.fxnetworks.com
   - DOMAIN,assets.garr.it
@@ -220,6 +221,7 @@ payload:
   - DOMAIN,assets.shazam.com
   - DOMAIN,assets.sololearn.com
   - DOMAIN,assets.squarespace.com
+  - DOMAIN,assets.squarewebsites.org
   - DOMAIN,assets.st-note.com
   - DOMAIN,assets.stash.com
   - DOMAIN,assets.static-upwork.com
@@ -617,6 +619,7 @@ payload:
   - DOMAIN,cdn.plyr.io
   - DOMAIN,cdn.pricespider.com
   - DOMAIN,cdn.privacy-mgmt.com
+  - DOMAIN,cdn.privacy.com
   - DOMAIN,cdn.privacy.paramount.com
   - DOMAIN,cdn.prod.ext.web.purview.azure.com
   - DOMAIN,cdn.prod.www.spiegel.de
@@ -663,6 +666,7 @@ payload:
   - DOMAIN,cdn.sprig.com
   - DOMAIN,cdn.sso.mozilla.com
   - DOMAIN,cdn.st-note.com
+  - DOMAIN,cdn.stackoverflow.co
   - DOMAIN,cdn.starapps.studio
   - DOMAIN,cdn.stash.com
   - DOMAIN,cdn.staticdelivr.com
