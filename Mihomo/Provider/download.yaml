@@ -1,5 +1,5 @@
-# 更新时间: 2025-05-11 08:44:48（北京时间）
-# 规则数量: 1152
+# 更新时间: 2025-05-11 20:13:27（北京时间）
+# 规则数量: 1153
 payload:
   - DOMAIN,addins.deepl.com
   - DOMAIN,amupdatedl.microsoft.com
@@ -162,6 +162,7 @@ payload:
   - DOMAIN,dl.pstmn.io
   - DOMAIN,dl.snipaste.com
   - DOMAIN,dl.tailscale.com
+  - DOMAIN,dl.thorium.rocks
   - DOMAIN,dl.ui.com
   - DOMAIN,dl.wechat.com
   - DOMAIN,dl2.nwjs.io
