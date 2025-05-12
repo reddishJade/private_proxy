@@ -1,5 +1,5 @@
-# 更新时间: 2025-05-11 20:13:27（北京时间）
-# 规则数量: 3631
+# 更新时间: 2025-05-12 08:44:16（北京时间）
+# 规则数量: 3632
 payload:
   - DOMAIN,0x0.st
   - DOMAIN,3dna.nationbuilder.com
@@ -2249,6 +2249,7 @@ payload:
   - DOMAIN,static.toiimg.com
   - DOMAIN,static.tokenview.io
   - DOMAIN,static.toss.im
+  - DOMAIN,static.touhoudb.com
   - DOMAIN,static.tp-link.com
   - DOMAIN,static.tradingview.com
   - DOMAIN,static.tronscan.org
