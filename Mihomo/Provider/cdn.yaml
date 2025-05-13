@@ -1,5 +1,5 @@
-# 更新时间: 2025-05-12 20:16:00（北京时间）
-# 规则数量: 3632
+# 更新时间: 2025-05-13 08:42:08（北京时间）
+# 规则数量: 3633
 payload:
   - DOMAIN,0x0.st
   - DOMAIN,3dna.nationbuilder.com
@@ -502,6 +502,7 @@ payload:
   - DOMAIN,cdn.fourthwall.com
   - DOMAIN,cdn.freebiesupply.com
   - DOMAIN,cdn.freecodecamp.org
+  - DOMAIN,cdn.freesound.org
   - DOMAIN,cdn.freshdesk.com
   - DOMAIN,cdn.gamemonkey.org
   - DOMAIN,cdn.gatherings.franchise.minecraft-services.net
