@@ -1,5 +1,5 @@
-# 更新时间: 2025-05-13 20:16:24（北京时间）
-# 规则数量: 1026
+# 更新时间: 2025-05-14 08:41:48（北京时间）
+# 规则数量: 1027
 payload:
   - DOMAIN,ccmdl.adobe.com
   - DOMAIN,community.oneplus.com
@@ -438,6 +438,7 @@ payload:
   - DOMAIN-SUFFIX,huobi.com
   - DOMAIN-SUFFIX,huobi.pro
   - DOMAIN-SUFFIX,hwinfo.com
+  - DOMAIN-SUFFIX,hyvor.com
   - DOMAIN-SUFFIX,iana.org
   - DOMAIN-SUFFIX,ibb.co
   - DOMAIN-SUFFIX,ibm.com
