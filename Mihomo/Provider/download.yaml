@@ -1,5 +1,5 @@
-# 更新时间: 2025-05-16 08:42:29（北京时间）
-# 规则数量: 1153
+# 更新时间: 2025-05-16 20:16:08（北京时间）
+# 规则数量: 1152
 payload:
   - DOMAIN,addins.deepl.com
   - DOMAIN,amupdatedl.microsoft.com
@@ -327,7 +327,6 @@ payload:
   - DOMAIN,ftp.tc.edu.tw
   - DOMAIN,ftp.tsukuba.wide.ad.jp
   - DOMAIN,ftp.tu-chemnitz.de
-  - DOMAIN,ftp.tudelft.nl
   - DOMAIN,ftp.twaren.net
   - DOMAIN,ftp.u-aizu.ac.jp
   - DOMAIN,ftp.ubuntu-tw.org
