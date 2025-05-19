@@ -42,15 +42,17 @@ proxy-providers:
   # use:  &u {type: select,   use: [Provider1, Provider2] }
 
 # ======= 基础设置 =======
-ipv6: true                        # IPV6 开关
+mode: rule                        # 运行模式
+log-level: info                   # 日志级别
+ipv6: false                       # IPV6 开关
 allow-lan: true                   # 允许局域网连接
 mixed-port: 7890                  # 混合端口
 
 # ======= 外部控制 =======
-external-ui: ui                     # UI 路径
-external-ui-name: xd                # UI 下载目录
-external-controller: 127.0.0.1:9090 # 外部控制器监听地址
-external-ui-url: "https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-pages.zip" # UI 下载地址
+# external-ui: ui                     # UI 路径
+# external-ui-name: xd                # UI 下载目录
+# external-controller: 127.0.0.1:9090 # 外部控制器监听地址
+# external-ui-url: "https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-pages.zip" # UI 下载地址
 
 # ======= 连接优化 =======
 unified-delay: true               # 统一延迟显示
@@ -68,7 +70,7 @@ profile:
 # ======= DNS 设置 =======
 dns:
   enable: true    # 启用 DNS 服务
-  ipv6: true      # IPv6 解析开关
+  ipv6: false     # IPv6 解析开关
   listen: :53     # DNS 监听地址
   prefer-h3: true # 优先使用 HTTP/3 DNS
   enhanced-mode: fake-ip
@@ -165,8 +167,8 @@ rule-providers:
 rules:
   - RULE-SET,reject,REJECT
   - RULE-SET,cdn,CDN
-  - RULE-SET,stream,Streaming
   - RULE-SET,ai,AIGC
+  - RULE-SET,stream,Streaming
   - RULE-SET,telegram,Telegram
   - RULE-SET,apple@cn,Apple
   - RULE-SET,microsoft@cn,Microsoft

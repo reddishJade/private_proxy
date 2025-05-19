@@ -33,12 +33,12 @@
 | 规则          | 上游规则来源 | 订阅链接 |
 | ------------- | ------------ | -------- |
 | ai            | • dler_ai | [link](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/ai.yaml) |
-| apple@cn      | • DustinWin_apple_cn | [link](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/apple@cn.yaml) |
+| apple@cn      | • skk_apple_services<br>• skk_apple_cn<br>• skk_apple_cdn<br>• skk_apple_cdn_non_ip | [link](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/apple@cn.yaml) |
 | cdn           | • skk_cdn_domainset<br>• skk_cdn_non_ip | [link](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/cdn.yaml) |
 | cdn@ip        | • skk_cdn_ip | [link](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/cdn@ip.yaml) |
 | direct        | • Loyalsoldier_applications<br>• skk_direct| [link](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/direct.yaml) |
-| domestic      | • DustinWin_domestic<br>• skk_domestic | [link](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/domestic.yaml) |
-| domestic@ip   | • DustinWin_domestic_ip<br>• skk_domestic_ip<br>• skk_china_ip | [link](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/domestic@ip.yaml) |
+| domestic      | • skk_domestic | [link](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/domestic.yaml) |
+| domestic@ip   | • skk_domestic_ip<br>• skk_china_ip | [link](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/domestic@ip.yaml) |
 | download      | • skk_download_domainset<br>• skk_download_non_ip | [link](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/download.yaml) |
 | download@ip   | • skk_download_ip | [link](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/download@ip.yaml) |
 | fakeip-filter | • fakeip-filter | [link](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/fakeip-filter.yaml) |
@@ -46,11 +46,11 @@
 | microsoft@cn  | • DustinWin_microsoft_cn | [link](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/microsoft@cn.yaml) |
 | private       | • DustinWin_private | [link](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/private.yaml) |
 | private@ip    | • DustinWin_privateip | [link](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/private@ip.yaml) |
-| proxy         | • DustinWin_proxy<br>• skk_global | [link](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/proxy.yaml) |
-| reject        | • skk_reject<br>• xndeye_reject | [link](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/reject.yaml) |
+| proxy         | • skk_global | [link](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/proxy.yaml) |
+| reject        | • AWAvenue<br>• d3ward | [link](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/reject.yaml) |
 | reject@ip     | • skk_reject_ip | [link](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/reject@ip.yaml) |
-| stream        | • skk_stream | [link](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/stream.yaml) |
-| stream@ip     | • skk_stream_ip | [link](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/stream@ip.yaml) |
+| stream        | • skk_stream<br>• bilibili_hmt | [link](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/stream.yaml) |
+| stream@ip     | • skk_stream_ip<br>• bilibili_hmt | [link](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/stream@ip.yaml) |
 | telegram      | • skk_telegram | [link](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/telegram.yaml) |
 | telegram@ip   | • skk_telegram_ip | [link](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/telegram@ip.yaml) |
 
