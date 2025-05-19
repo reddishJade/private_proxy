@@ -1,5 +1,5 @@
-# 更新时间: 2025-05-18 20:13:59（北京时间）
-# 规则数量: 138
+# 更新时间: 2025-05-19 08:44:37（北京时间）
+# 规则数量: 139
 payload:
   - DOMAIN,asusrouter.com
   - DOMAIN,board.zash.run.place
@@ -116,6 +116,7 @@ payload:
   - DOMAIN-SUFFIX,example
   - DOMAIN-SUFFIX,hiwifi.com
   - DOMAIN-SUFFIX,home.arpa
+  - DOMAIN-SUFFIX,internal
   - DOMAIN-SUFFIX,invalid
   - DOMAIN-SUFFIX,lan
   - DOMAIN-SUFFIX,leike.cc

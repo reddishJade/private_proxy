@@ -1,5 +1,5 @@
-# 更新时间: 2025-05-18 20:13:54（北京时间）
-# 规则数量: 256
+# 更新时间: 2025-05-19 08:44:34（北京时间）
+# 规则数量: 261
 payload:
   - DOMAIN,aedns.weixin.qq.com
   - DOMAIN,api-js.mixpanel.com
@@ -65,6 +65,7 @@ payload:
   - DOMAIN-KEYWORD,-attr.appsflyersdk.com
   - DOMAIN-KEYWORD,-launches.appsflyersdk.com
   - DOMAIN-KEYWORD,-logging.nextmedia.com
+  - DOMAIN-KEYWORD,-logsdk.kwai-pro.com^
   - DOMAIN-KEYWORD,-pia.appsflyersdk.com
   - DOMAIN-KEYWORD,-rtb.gravite.net
   - DOMAIN-KEYWORD,-s2s.sensic.net
@@ -72,6 +73,10 @@ payload:
   - DOMAIN-KEYWORD,-spiky.clevertap-prod.com
   - DOMAIN-KEYWORD,-tracker.biliapi.net
   - DOMAIN-KEYWORD,-txtagstore
+  - DOMAIN-KEYWORD,-ulog.ksapisrv.com
+  - DOMAIN-KEYWORD,-ulog.kwai-pro.com
+  - DOMAIN-KEYWORD,-ulogl2.kwai-pro.com
+  - DOMAIN-KEYWORD,-ulogl2.kwaipros.com
   - DOMAIN-KEYWORD,.engage.3m.
   - DOMAIN-KEYWORD,.estream.
   - DOMAIN-KEYWORD,.freecontent.
