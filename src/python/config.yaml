@@ -2,11 +2,11 @@
   format: yaml
   behavior: classical
   upstream:
-    # skk_reject:
-    #   type: http
-    #   url: "https://ruleset.skk.moe/Clash/non_ip/reject.txt"
-    #   format: txt
-    #   behavior: classical
+    skk_reject:
+      type: http
+      url: "https://ruleset.skk.moe/Clash/non_ip/reject.txt"
+      format: txt
+      behavior: classical
 
     # xndeye_reject:
     #   type: http
@@ -20,11 +20,11 @@
       format: yaml
       behavior: domain
 
-    d3ward:
-      type: http
-      url: "https://raw.githubusercontent.com/d3ward/toolz/refs/heads/master/src/d3host.txt"
-      format: txt
-      behavior: domain
+    # d3ward:
+    #   type: http
+    #   url: "https://raw.githubusercontent.com/d3ward/toolz/refs/heads/master/src/d3host.txt"
+    #   format: txt
+    #   behavior: domain
 
 - path: output/reject@ip.yaml
   format: yaml
