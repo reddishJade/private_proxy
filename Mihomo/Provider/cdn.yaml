@@ -1,5 +1,5 @@
-# 更新时间: 2025-05-19 08:44:35（北京时间）
-# 规则数量: 3637
+# 更新时间: 2025-05-19 20:16:18（北京时间）
+# 规则数量: 3638
 payload:
   - DOMAIN,0x0.st
   - DOMAIN,3dna.nationbuilder.com
@@ -706,6 +706,7 @@ payload:
   - DOMAIN,cdn.v2ex.com
   - DOMAIN,cdn.vector.co
   - DOMAIN,cdn.verifypass.com
+  - DOMAIN,cdn.viafoura.net
   - DOMAIN,cdn.vidible.tv
   - DOMAIN,cdn.vidyard.com
   - DOMAIN,cdn.viglink.com
