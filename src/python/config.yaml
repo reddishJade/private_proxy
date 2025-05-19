@@ -2,17 +2,29 @@
   format: yaml
   behavior: classical
   upstream:
-    skk_reject:
-      type: http
-      url: "https://ruleset.skk.moe/Clash/non_ip/reject.txt"
-      format: txt
-      behavior: classical
+    # skk_reject:
+    #   type: http
+    #   url: "https://ruleset.skk.moe/Clash/non_ip/reject.txt"
+    #   format: txt
+    #   behavior: classical
 
     # xndeye_reject:
     #   type: http
     #   url: "https://cdn.jsdelivr.net/gh/xndeye/adblock_list@beta/rule/clash.yaml"
     #   format: yaml
     #   behavior: domain
+
+    AWAvenue:
+      type: http
+      url: "https://gcore.jsdelivr.net/gh/TG-Twilight/AWAvenue-Ads-Rule@main/Filters/AWAvenue-Ads-Rule-Clash.yaml"
+      format: yaml
+      behavior: domain
+
+    d3ward:
+      type: http
+      url: "https://raw.githubusercontent.com/d3ward/toolz/refs/heads/master/src/d3host.txt"
+      format: txt
+      behavior: domain
 
 - path: output/reject@ip.yaml
   format: yaml
@@ -50,35 +62,35 @@
   format: yaml
   behavior: classical
   upstream:
-    DustinWin_apple_cn:
+    # DustinWin_apple_cn:
+    #   type: http
+    #   url: "https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/apple-cn.yaml"
+    #   format: yaml
+    #   behavior: domain
+
+    skk_apple_services:
       type: http
-      url: "https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/apple-cn.yaml"
-      format: yaml
+      url: "https://ruleset.skk.moe/Clash/non_ip/apple_services.txt"
+      format: txt
+      behavior: classical
+
+    skk_apple_cn:
+      type: http
+      url: "https://ruleset.skk.moe/Clash/non_ip/apple_cn.txt"
+      format: txt
+      behavior: classical
+
+    skk_apple_cdn:
+      type: http
+      url: "https://ruleset.skk.moe/Clash/domainset/apple_cdn.txt"
+      format: txt
       behavior: domain
 
-    # skk_apple_services:
-    #   type: http
-    #   url: "https://ruleset.skk.moe/Clash/non_ip/apple_services.txt"
-    #   format: txt
-    #   behavior: classical
-
-    # skk_apple_cn:
-    #   type: http
-    #   url: "https://ruleset.skk.moe/Clash/non_ip/apple_cn.txt"
-    #   format: txt
-    #   behavior: classical
-
-    # skk_apple_cdn:
-    #   type: http
-    #   url: "https://ruleset.skk.moe/Clash/domainset/apple_cdn.txt"
-    #   format: txt
-    #   behavior: domain
-
-    # skk_apple_cdn_non_ip:
-    #   type: http
-    #   url: "https://ruleset.skk.moe/Clash/non_ip/apple_cdn.txt"
-    #   format: txt
-    #   behavior: domain
+    skk_apple_cdn_non_ip:
+      type: http
+      url: "https://ruleset.skk.moe/Clash/non_ip/apple_cdn.txt"
+      format: txt
+      behavior: domain
 
 - path: output/microsoft@cn.yaml
   format: yaml
