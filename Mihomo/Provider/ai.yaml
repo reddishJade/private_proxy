@@ -1,5 +1,5 @@
-# 更新时间: 2025-05-18 20:13:56（北京时间）
-# 规则数量: 57
+# 更新时间: 2025-05-19 08:44:35（北京时间）
+# 规则数量: 59
 payload:
   - DOMAIN,ai.google.dev
   - DOMAIN,alkalicore-pa.clients6.google.com
@@ -35,6 +35,7 @@ payload:
   - DOMAIN-SUFFIX,cursor.sh
   - DOMAIN-SUFFIX,deepmind.com
   - DOMAIN-SUFFIX,deepmind.google
+  - DOMAIN-SUFFIX,diabrowser.engineering
   - DOMAIN-SUFFIX,dify.ai
   - DOMAIN-SUFFIX,geller-pa.googleapis.com
   - DOMAIN-SUFFIX,gemini.google.com
@@ -46,6 +47,7 @@ payload:
   - DOMAIN-SUFFIX,jasper.ai
   - DOMAIN-SUFFIX,makersuite.google.com
   - DOMAIN-SUFFIX,meta.ai
+  - DOMAIN-SUFFIX,microsoftonline.com
   - DOMAIN-SUFFIX,notebooklm.google
   - DOMAIN-SUFFIX,notebooklm.google.com
   - DOMAIN-SUFFIX,oaiusercontent.com

@@ -1,5 +1,5 @@
-# 更新时间: 2025-05-18 20:13:57（北京时间）
-# 规则数量: 3636
+# 更新时间: 2025-05-19 08:44:35（北京时间）
+# 规则数量: 3637
 payload:
   - DOMAIN,0x0.st
   - DOMAIN,3dna.nationbuilder.com
@@ -2610,6 +2610,7 @@ payload:
   - DOMAIN-REGEX,^video[\w.-]-thumbnail[\w.-]\.fc2\.com$
   - DOMAIN-REGEX,^video[\w.-]-thumbnail[\w.-]\.liaoningmovie\.net$
   - DOMAIN-REGEX,^vip-videoprem[\w.-]*?-thumbnail[\w.-]\.fc2\.com$
+  - DOMAIN-SUFFIX,1a-1791.com
   - DOMAIN-SUFFIX,1passwordusercontent.ca
   - DOMAIN-SUFFIX,1passwordusercontent.com
   - DOMAIN-SUFFIX,1passwordusercontent.eu
