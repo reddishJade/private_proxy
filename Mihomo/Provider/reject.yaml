@@ -1,5 +1,5 @@
-# 更新时间: 2025-05-19 20:16:12（北京时间）
-# 规则数量: 841
+# 更新时间: 2025-05-20 08:42:46（北京时间）
+# 规则数量: 1100
 payload:
   - DOMAIN,1500020991.vodplayer.wxamedia.com
   - DOMAIN,1500022744.vodplayer.wxamedia.com
@@ -148,6 +148,7 @@ payload:
   - DOMAIN,adx.tuia.cn
   - DOMAIN,adxlog-adnet.vivo.com.cn
   - DOMAIN,adxserver.ad.cmvideo.cn
+  - DOMAIN,aedns.weixin.qq.com
   - DOMAIN,aegis.qq.com
   - DOMAIN,afs.googlesyndication.com
   - DOMAIN,agn.aty.sohu.com
@@ -188,12 +189,14 @@ payload:
   - DOMAIN,api-adservices.apple.com
   - DOMAIN,api-gd.hiaiabc.com
   - DOMAIN,api-htp.beizi.biz
+  - DOMAIN,api-js.mixpanel.com
   - DOMAIN,api.ad.xiaomi.com
   - DOMAIN,api.e.kuaishou.com
   - DOMAIN,api.fu.xcultur.com
   - DOMAIN,api.htp.hubcloud.com.cn
   - DOMAIN,api.hzsanjiaomao.com
   - DOMAIN,api.installer.xiaomi.com
+  - DOMAIN,api.iterable.com
   - DOMAIN,api.jietuhb.com
   - DOMAIN,api.kingdata.ksyun.com
   - DOMAIN,api.ssp.xcultur.com
@@ -302,6 +305,14 @@ payload:
   - DOMAIN,dl.zuimeitianqi.com
   - DOMAIN,dlogs.bwton.com
   - DOMAIN,dm.toutiao.com
+  - DOMAIN,dns.jd.com
+  - DOMAIN,dns.wechat.com
+  - DOMAIN,dns.weibo.cn
+  - DOMAIN,dns.weixin.qq.com
+  - DOMAIN,dns.weixin.qq.com.cn
+  - DOMAIN,doh.iqiyi.com
+  - DOMAIN,doh.ptqy.gitv.tv
+  - DOMAIN,doh.zjurl.cn
   - DOMAIN,domain.aishengji.com
   - DOMAIN,doubleclick-cn.net
   - DOMAIN,download.changhong.upgrade2.huan.tv
@@ -369,6 +380,8 @@ payload:
   - DOMAIN,h5.hpplay.com.cn
   - DOMAIN,hanlanad.com
   - DOMAIN,hc-ssp.sm.cn
+  - DOMAIN,hd.xiaojukeji.com
+  - DOMAIN,hdns.ksyun.com
   - DOMAIN,heads-ak.spotify.com.edgesuite.net
   - DOMAIN,heads-fa.spotify.com
   - DOMAIN,hexagon-analytics.com
@@ -377,8 +390,43 @@ payload:
   - DOMAIN,hotupgrade.hpplay.cn
   - DOMAIN,houyi.kkmh.com
   - DOMAIN,hpplay.cdn.cibn.cc
+  - DOMAIN,httpdns-api.aliyuncs.com
+  - DOMAIN,httpdns-browser.platform.dbankcloud.cn
+  - DOMAIN,httpdns-euex-push.heytapmobile.com
+  - DOMAIN,httpdns-ocloud.heytapmobile.com
+  - DOMAIN,httpdns-push.heytapmobile.com
+  - DOMAIN,httpdns-sc.aliyuncs.com
+  - DOMAIN,httpdns-sdk.n.netease.com
+  - DOMAIN,httpdns-v6.gslb.yy.com
+  - DOMAIN,httpdns.alicdn.com
+  - DOMAIN,httpdns.baidu.com
+  - DOMAIN,httpdns.baidubce.com
   - DOMAIN,httpdns.bcelive.com
+  - DOMAIN,httpdns.bilivideo.com
+  - DOMAIN,httpdns.browser.miui.com
+  - DOMAIN,httpdns.c.cdnhwc2.com
+  - DOMAIN,httpdns.calorietech.com
+  - DOMAIN,httpdns.cctv.com
+  - DOMAIN,httpdns.danuoyi.tbcache.com
+  - DOMAIN,httpdns.gslb.yy.com
+  - DOMAIN,httpdns.huaweicloud.com
+  - DOMAIN,httpdns.kg.qq.com
+  - DOMAIN,httpdns.kwd.inkuai.com
+  - DOMAIN,httpdns.meituan.com
+  - DOMAIN,httpdns.music.163.com
+  - DOMAIN,httpdns.n.shifen.com
+  - DOMAIN,httpdns.ocloud.heytapmobi.com
   - DOMAIN,httpdns.ocloud.oppomobile.com
+  - DOMAIN,httpdns.platform.dbankcloud.com
+  - DOMAIN,httpdns.push.heytapmobi.com
+  - DOMAIN,httpdns.push.oppomobile.com
+  - DOMAIN,httpdns.volcengineapi.com
+  - DOMAIN,httpdns.volces.com
+  - DOMAIN,httpdns.yunxindns.com
+  - DOMAIN,httpdns.zybang.com
+  - DOMAIN,httpdns1.cc.cdnhwc5.com
+  - DOMAIN,httpdnsvip.meituan.com
+  - DOMAIN,httpsdns.baidu.com
   - DOMAIN,hugelog.fcbox.com
   - DOMAIN,huichuan.sm.cn
   - DOMAIN,hw-ot-ad.a.yximgs.com
@@ -427,6 +475,7 @@ payload:
   - DOMAIN,jpush.cn
   - DOMAIN,jpush.html5.qq.com
   - DOMAIN,jpush.io
+  - DOMAIN,js.iterable.com
   - DOMAIN,jswebcollects.kugou.com
   - DOMAIN,kde.qq.com
   - DOMAIN,kepler.jd.com
@@ -471,6 +520,7 @@ payload:
   - DOMAIN,log.byteoversea.com
   - DOMAIN,log.fc.yahoo.com
   - DOMAIN,log.kuwo.cn
+  - DOMAIN,log.mmstat.com
   - DOMAIN,log.pinterest.com
   - DOMAIN,log.popin.cc
   - DOMAIN,log.snssdk.com
@@ -610,6 +660,8 @@ payload:
   - DOMAIN,res2.hubcloud.com.cn
   - DOMAIN,res3.hubcloud.com.cn
   - DOMAIN,resolve.umeng.com
+  - DOMAIN,resolver.mi.xiaomi.com
+  - DOMAIN,resolver.msg.xiaomi.net
   - DOMAIN,rev.aiclk.com
   - DOMAIN,review.gdtimg.com
   - DOMAIN,rlog.popin.cc
@@ -686,6 +738,7 @@ payload:
   - DOMAIN,statsigapi.net
   - DOMAIN,stg-data.ads.heytapmobi.com
   - DOMAIN,stun.hitv.com
+  - DOMAIN,stun.smartgslb.com
   - DOMAIN,success.ctobsnssdk.com
   - DOMAIN,supply.inmobicdn.net
   - DOMAIN,sv-video.play.aiseet.atianqi.com
@@ -743,6 +796,8 @@ payload:
   - DOMAIN,tracker.gitee.com
   - DOMAIN,tracking.miui.com
   - DOMAIN,tracking.rus.miui.com
+  - DOMAIN,ttnet-dig.feishu.cn
+  - DOMAIN,ttnet-doh.feishu.cn
   - DOMAIN,tvapp.hpplay.cn
   - DOMAIN,tvuser-ch.cedock.com
   - DOMAIN,tx-ad.a.yximgs.com
@@ -764,6 +819,7 @@ payload:
   - DOMAIN,umengjmacs.m.taobao.com
   - DOMAIN,umini.shujupie.com
   - DOMAIN,umsns.com
+  - DOMAIN,union-httpdns.gslb.yy.com
   - DOMAIN,union.baidu.cn
   - DOMAIN,union.baidu.com
   - DOMAIN,update.avlyun.sec.miui.com
@@ -840,5 +896,208 @@ payload:
   - DOMAIN,youku-acs.m.taobao.com
   - DOMAIN,youxi.kugou.com
   - DOMAIN,ytx-file.110route.cn
+  - DOMAIN,yyapp-httpdns.gslb.yy.com
   - DOMAIN,zeus.ad.xiaomi.com
   - DOMAIN,zhihu-web-analytics.zhihu.com
+  - DOMAIN-KEYWORD,-adrevenue.appsflyersdk.com
+  - DOMAIN-KEYWORD,-analytics-events.apple.com
+  - DOMAIN-KEYWORD,-attr.appsflyersdk.com
+  - DOMAIN-KEYWORD,-launches.appsflyersdk.com
+  - DOMAIN-KEYWORD,-logging.nextmedia.com
+  - DOMAIN-KEYWORD,-logsdk.kwai-pro.com^
+  - DOMAIN-KEYWORD,-pia.appsflyersdk.com
+  - DOMAIN-KEYWORD,-rtb.gravite.net
+  - DOMAIN-KEYWORD,-s2s.sensic.net
+  - DOMAIN-KEYWORD,-skadsdkless.appsflyersdk.com
+  - DOMAIN-KEYWORD,-spiky.clevertap-prod.com
+  - DOMAIN-KEYWORD,-tracker.biliapi.net
+  - DOMAIN-KEYWORD,-txtagstore
+  - DOMAIN-KEYWORD,-ulog.ksapisrv.com
+  - DOMAIN-KEYWORD,-ulog.kwai-pro.com
+  - DOMAIN-KEYWORD,-ulogl2.kwai-pro.com
+  - DOMAIN-KEYWORD,-ulogl2.kwaipros.com
+  - DOMAIN-KEYWORD,.engage.3m.
+  - DOMAIN-KEYWORD,.estream.
+  - DOMAIN-KEYWORD,.freecontent.
+  - DOMAIN-KEYWORD,.net.daraz.
+  - DOMAIN-KEYWORD,.nimiq.
+  - DOMAIN-KEYWORD,.zooplus.
+  - DOMAIN-KEYWORD,_vmind.qqvideo.tc.qq.com
+  - DOMAIN-KEYWORD,a8clk.
+  - DOMAIN-KEYWORD,a8cv.
+  - DOMAIN-KEYWORD,ad.ixigua.com
+  - DOMAIN-KEYWORD,adjust.
+  - DOMAIN-KEYWORD,adktrack
+  - DOMAIN-KEYWORD,admaster
+  - DOMAIN-KEYWORD,admob
+  - DOMAIN-KEYWORD,adsby
+  - DOMAIN-KEYWORD,adsdk
+  - DOMAIN-KEYWORD,adserve2
+  - DOMAIN-KEYWORD,adserver
+  - DOMAIN-KEYWORD,adspace
+  - DOMAIN-KEYWORD,adsyndication
+  - DOMAIN-KEYWORD,advertmarket
+  - DOMAIN-KEYWORD,adwords
+  - DOMAIN-KEYWORD,analytics-cdn.
+  - DOMAIN-KEYWORD,anybest.
+  - DOMAIN-KEYWORD,appsflyer
+  - DOMAIN-KEYWORD,backstory.ebay.
+  - DOMAIN-KEYWORD,click.rum.
+  - DOMAIN-KEYWORD,cmpworker.
+  - DOMAIN-KEYWORD,cp-home-pl-
+  - DOMAIN-KEYWORD,dc.pimentaafricana
+  - DOMAIN-KEYWORD,dnserror
+  - DOMAIN-KEYWORD,doubleclick.
+  - DOMAIN-KEYWORD,dubester.
+  - DOMAIN-KEYWORD,fb-business-appeal
+  - DOMAIN-KEYWORD,fb-community-standards
+  - DOMAIN-KEYWORD,fb-restriction-appeal
+  - DOMAIN-KEYWORD,fb-restriction-case
+  - DOMAIN-KEYWORD,flightsy
+  - DOMAIN-KEYWORD,gettate
+  - DOMAIN-KEYWORD,hostingcloud
+  - DOMAIN-KEYWORD,insights-collector.
+  - DOMAIN-KEYWORD,jshosting
+  - DOMAIN-KEYWORD,marketing.net
+  - DOMAIN-KEYWORD,mighbest
+  - DOMAIN-KEYWORD,nimiqpool
+  - DOMAIN-KEYWORD,plausible.
+  - DOMAIN-KEYWORD,smetrics.
+  - DOMAIN-KEYWORD,sunnimiq
+  - DOMAIN-KEYWORD,telemetry.officeapps.live.com
+  - DOMAIN-KEYWORD,thetollroads-
+  - DOMAIN-KEYWORD,tlauncher
+  - DOMAIN-KEYWORD,track.msadcenter
+  - DOMAIN-KEYWORD,track.opentable.
+  - DOMAIN-KEYWORD,track.tiara
+  - DOMAIN-KEYWORD,trkcmb.business.hsbc.
+  - DOMAIN-KEYWORD,trkgbm.business.hsbc.
+  - DOMAIN-KEYWORD,trkhinv.business.hsbc.
+  - DOMAIN-KEYWORD,trksvg.business.hsbc.
+  - DOMAIN-KEYWORD,umeng
+  - DOMAIN-KEYWORD,wxsnsdy
+  - DOMAIN-KEYWORD,zymerget
+  - DOMAIN-REGEX,^[\w.-]*?\.ad\.[\w.-]*?\.prod\.hosts\.ooklaserver\.net$
+  - DOMAIN-REGEX,^[\w.-]*?\.tracking\.[\w.-]*?\.miui\.com$
+  - DOMAIN-REGEX,^adv0[\w.-]*?\.msa\.cdn\.mediaset\.net$
+  - DOMAIN-REGEX,^beacons[\w.-]*?\.gvt[\w.-]\.com$
+  - DOMAIN-REGEX,^f-log[\w.-]*?\.grammarly\.io$
+  - DOMAIN-REGEX,^tracking\.[\w.-]*?\.miui\.com$
+  - DOMAIN-SUFFIX,adincube.com
+  - DOMAIN-SUFFIX,adtech.redventures.io
+  - DOMAIN-SUFFIX,advertising.com
+  - DOMAIN-SUFFIX,amplitude.com
+  - DOMAIN-SUFFIX,august.tw
+  - DOMAIN-SUFFIX,bgp.co
+  - DOMAIN-SUFFIX,binaryoptionz.com
+  - DOMAIN-SUFFIX,brdtest.co
+  - DOMAIN-SUFFIX,brdtest.com
+  - DOMAIN-SUFFIX,bright-sdk.com
+  - DOMAIN-SUFFIX,brightdata.com
+  - DOMAIN-SUFFIX,brightinitiative.com
+  - DOMAIN-SUFFIX,brightvpn.com
+  - DOMAIN-SUFFIX,choyoga.com
+  - DOMAIN-SUFFIX,classify-client.services.mozilla.com
+  - DOMAIN-SUFFIX,cnzz.mmstat.com
+  - DOMAIN-SUFFIX,crazyegg.com
+  - DOMAIN-SUFFIX,data
+  - DOMAIN-SUFFIX,earnapp.com
+  - DOMAIN-SUFFIX,esgltc.com
+  - DOMAIN-SUFFIX,h-vpn.org
+  - DOMAIN-SUFFIX,histats.com
+  - DOMAIN-SUFFIX,hola-shopping.com
+  - DOMAIN-SUFFIX,hola.com.sg
+  - DOMAIN-SUFFIX,hola.hk
+  - DOMAIN-SUFFIX,hola.org
+  - DOMAIN-SUFFIX,hola.ph
+  - DOMAIN-SUFFIX,hola.sk
+  - DOMAIN-SUFFIX,holacdn.com
+  - DOMAIN-SUFFIX,holashop.org
+  - DOMAIN-SUFFIX,httpdns.c.163.com
+  - DOMAIN-SUFFIX,httpdns.n.netease.com
+  - DOMAIN-SUFFIX,httpdns.pro
+  - DOMAIN-SUFFIX,hut1.ru
+  - DOMAIN-SUFFIX,incoming-telemetry.thunderbird.net
+  - DOMAIN-SUFFIX,juejin.cn
+  - DOMAIN-SUFFIX,juejin.im
+  - DOMAIN-SUFFIX,kanuassociates.com
+  - DOMAIN-SUFFIX,kimo.tw
+  - DOMAIN-SUFFIX,l-agent.me
+  - DOMAIN-SUFFIX,l-cdn.com
+  - DOMAIN-SUFFIX,l-err.biz
+  - DOMAIN-SUFFIX,lambda-ix.net
+  - DOMAIN-SUFFIX,lum-api.io
+  - DOMAIN-SUFFIX,lum-bext.com
+  - DOMAIN-SUFFIX,lum-cn.io
+  - DOMAIN-SUFFIX,lum-ext.io
+  - DOMAIN-SUFFIX,lum-int.io
+  - DOMAIN-SUFFIX,lum-lpm.com
+  - DOMAIN-SUFFIX,lum-sdk.io
+  - DOMAIN-SUFFIX,luminati-china.biz
+  - DOMAIN-SUFFIX,luminati-china.co
+  - DOMAIN-SUFFIX,luminati-china.io
+  - DOMAIN-SUFFIX,luminati.io
+  - DOMAIN-SUFFIX,luminatichina.net
+  - DOMAIN-SUFFIX,luminatinet.com
+  - DOMAIN-SUFFIX,lumtest.com
+  - DOMAIN-SUFFIX,luxxeeu.com
+  - DOMAIN-SUFFIX,minexmr.com
+  - DOMAIN-SUFFIX,moebgp.com
+  - DOMAIN-SUFFIX,mynextphone.io
+  - DOMAIN-SUFFIX,net.mydays.de
+  - DOMAIN-SUFFIX,newzgames.com
+  - DOMAIN-SUFFIX,notify6.com
+  - DOMAIN-SUFFIX,notifysrv.com
+  - DOMAIN-SUFFIX,omtrdc.net
+  - DOMAIN-SUFFIX,openx.net
+  - DOMAIN-SUFFIX,optmd.com
+  - DOMAIN-SUFFIX,pgi.com
+  - DOMAIN-SUFFIX,proxy-review.com
+  - DOMAIN-SUFFIX,proxyway.com
+  - DOMAIN-SUFFIX,resolver.gslb.mi-idc.com
+  - DOMAIN-SUFFIX,rubiconproject.com
+  - DOMAIN-SUFFIX,scorecardresearch.com
+  - DOMAIN-SUFFIX,shengen.ru
+  - DOMAIN-SUFFIX,svd-cdn.com
+  - DOMAIN-SUFFIX,taxility.com
+  - DOMAIN-SUFFIX,telemetry-coverage.mozilla.org
+  - DOMAIN-SUFFIX,telemetry.mozilla.org
+  - DOMAIN-SUFFIX,thecodeil.com
+  - DOMAIN-SUFFIX,topvpn.io
+  - DOMAIN-SUFFIX,tukif.com
+  - DOMAIN-SUFFIX,wakuwaku.ne.jp
+  - DOMAIN-SUFFIX,whatismyippro.com
+  - DOMAIN-SUFFIX,whoisit.co
+  - DOMAIN-SUFFIX,zon-networks.com
+  - IP-CIDR,101.124.19.122/32,no-resolve
+  - IP-CIDR,101.35.204.35/32,no-resolve
+  - IP-CIDR,103.224.222.208/32,no-resolve
+  - IP-CIDR,103.37.152.97/32,no-resolve
+  - IP-CIDR,106.11.25.31/32,no-resolve
+  - IP-CIDR,114.110.97.97/32,no-resolve
+  - IP-CIDR,115.236.121.195/32,no-resolve
+  - IP-CIDR,115.236.121.51/32,no-resolve
+  - IP-CIDR,118.89.204.198/32,no-resolve
+  - IP-CIDR,119.29.29.98/31,no-resolve
+  - IP-CIDR,123.151.54.50/32,no-resolve
+  - IP-CIDR,180.76.76.200/32,no-resolve
+  - IP-CIDR,182.254.116.117/32,no-resolve
+  - IP-CIDR,182.254.118.119/32,no-resolve
+  - IP-CIDR,202.90.108.13/32,no-resolve
+  - IP-CIDR,202.90.110.46/32,no-resolve
+  - IP-CIDR,203.107.1.0/24,no-resolve
+  - IP-CIDR,203.119.204.66/32,no-resolve
+  - IP-CIDR,203.119.238.194/32,no-resolve
+  - IP-CIDR,39.97.128.148/32,no-resolve
+  - IP-CIDR,39.97.130.51/32,no-resolve
+  - IP-CIDR,42.187.182.106/32,no-resolve
+  - IP-CIDR,42.187.182.123/32,no-resolve
+  - IP-CIDR,42.187.184.154/32,no-resolve
+  - IP-CIDR,42.81.232.18/32,no-resolve
+  - IP-CIDR,59.111.239.61/32,no-resolve
+  - IP-CIDR,59.111.239.62/32,no-resolve
+  - IP-CIDR,59.82.99.47/32,no-resolve
+  - IP-CIDR6,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,no-resolve
+  - IP-CIDR6,2402:4e00:1900:1700:0:9554:1ad9:c3a/128,no-resolve
+  - IP-CIDR6,2402:db40:5100:1011::5/128,no-resolve
+  - IP-CIDR6,240e:928:1400:10::25/128,no-resolve
