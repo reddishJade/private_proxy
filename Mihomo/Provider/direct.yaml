@@ -1,5 +1,5 @@
-# 更新时间: 2025-05-20 20:16:10（北京时间）
-# 规则数量: 275
+# 更新时间: 2025-05-21 08:42:29（北京时间）
+# 规则数量: 276
 payload:
   - DOMAIN,aterm.me
   - DOMAIN,captive.apple.com
@@ -112,6 +112,7 @@ payload:
   - DOMAIN-SUFFIX,hudbt.hust.edu.cn
   - DOMAIN-SUFFIX,icetorrent.org
   - DOMAIN-SUFFIX,ieee.org
+  - DOMAIN-SUFFIX,internal
   - DOMAIN-SUFFIX,j99.info
   - DOMAIN-SUFFIX,joyhd.net
   - DOMAIN-SUFFIX,jpopsuki.eu

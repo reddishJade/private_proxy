@@ -1,5 +1,5 @@
-# 更新时间: 2025-05-20 20:16:10（北京时间）
-# 规则数量: 1100
+# 更新时间: 2025-05-21 08:42:24（北京时间）
+# 规则数量: 1107
 payload:
   - DOMAIN,1500020991.vodplayer.wxamedia.com
   - DOMAIN,1500022744.vodplayer.wxamedia.com
@@ -899,9 +899,11 @@ payload:
   - DOMAIN,yyapp-httpdns.gslb.yy.com
   - DOMAIN,zeus.ad.xiaomi.com
   - DOMAIN,zhihu-web-analytics.zhihu.com
+  - DOMAIN-KEYWORD,-adnow.com
   - DOMAIN-KEYWORD,-adrevenue.appsflyersdk.com
   - DOMAIN-KEYWORD,-analytics-events.apple.com
   - DOMAIN-KEYWORD,-attr.appsflyersdk.com
+  - DOMAIN-KEYWORD,-go.experian.com
   - DOMAIN-KEYWORD,-launches.appsflyersdk.com
   - DOMAIN-KEYWORD,-logging.nextmedia.com
   - DOMAIN-KEYWORD,-logsdk.kwai-pro.com^
@@ -919,8 +921,11 @@ payload:
   - DOMAIN-KEYWORD,.engage.3m.
   - DOMAIN-KEYWORD,.estream.
   - DOMAIN-KEYWORD,.freecontent.
+  - DOMAIN-KEYWORD,.fstsrv
   - DOMAIN-KEYWORD,.net.daraz.
   - DOMAIN-KEYWORD,.nimiq.
+  - DOMAIN-KEYWORD,.sagewwl
+  - DOMAIN-KEYWORD,.srvqck
   - DOMAIN-KEYWORD,.zooplus.
   - DOMAIN-KEYWORD,_vmind.qqvideo.tc.qq.com
   - DOMAIN-KEYWORD,a8clk.
@@ -946,6 +951,7 @@ payload:
   - DOMAIN-KEYWORD,cmpworker.
   - DOMAIN-KEYWORD,cp-home-pl-
   - DOMAIN-KEYWORD,dc.pimentaafricana
+  - DOMAIN-KEYWORD,dkswshap-
   - DOMAIN-KEYWORD,dnserror
   - DOMAIN-KEYWORD,doubleclick.
   - DOMAIN-KEYWORD,dubester.
@@ -982,6 +988,7 @@ payload:
   - DOMAIN-REGEX,^adv0[\w.-]*?\.msa\.cdn\.mediaset\.net$
   - DOMAIN-REGEX,^beacons[\w.-]*?\.gvt[\w.-]\.com$
   - DOMAIN-REGEX,^f-log[\w.-]*?\.grammarly\.io$
+  - DOMAIN-REGEX,^info\.[\w.-]*?\.aleragroup\.com$
   - DOMAIN-REGEX,^tracking\.[\w.-]*?\.miui\.com$
   - DOMAIN-SUFFIX,adincube.com
   - DOMAIN-SUFFIX,adtech.redventures.io

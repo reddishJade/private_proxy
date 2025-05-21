@@ -1,5 +1,5 @@
-# 更新时间: 2025-05-20 20:16:12（北京时间）
-# 规则数量: 1027
+# 更新时间: 2025-05-21 08:42:30（北京时间）
+# 规则数量: 1028
 payload:
   - DOMAIN,ccmdl.adobe.com
   - DOMAIN,community.oneplus.com
@@ -514,6 +514,7 @@ payload:
   - DOMAIN-SUFFIX,kucoin.com
   - DOMAIN-SUFFIX,kwai.com
   - DOMAIN-SUFFIX,la
+  - DOMAIN-SUFFIX,laby.net
   - DOMAIN-SUFFIX,launchdarkly.com
   - DOMAIN-SUFFIX,ledger.com
   - DOMAIN-SUFFIX,leetcode.com
