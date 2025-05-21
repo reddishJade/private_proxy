@@ -1,5 +1,5 @@
-# 更新时间: 2025-05-21 08:42:30（北京时间）
-# 规则数量: 3641
+# 更新时间: 2025-05-21 20:15:56（北京时间）
+# 规则数量: 3643
 payload:
   - DOMAIN,0x0.st
   - DOMAIN,3dna.nationbuilder.com
@@ -1660,6 +1660,7 @@ payload:
   - DOMAIN,netlify.apollo.io
   - DOMAIN,newassets.hcaptcha.com
   - DOMAIN,news-assets.apple.com
+  - DOMAIN,news-data.pts.org.tw
   - DOMAIN,newsletter.postmarkapp.com
   - DOMAIN,next-images.123rf.com
   - DOMAIN,next-images.opencollective.com
@@ -2145,6 +2146,7 @@ payload:
   - DOMAIN,static.filestackapi.com
   - DOMAIN,static.foxbusiness.com
   - DOMAIN,static.foxnews.com
+  - DOMAIN,static.frame.work
   - DOMAIN,static.freedownloadmanager.org
   - DOMAIN,static.freeimages.com
   - DOMAIN,static.getbutton.io
