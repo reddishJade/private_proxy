@@ -1,5 +1,5 @@
-# 更新时间: 2025-05-21 20:15:57（北京时间）
-# 规则数量: 1028
+# 更新时间: 2025-05-22 08:41:45（北京时间）
+# 规则数量: 1029
 payload:
   - DOMAIN,ccmdl.adobe.com
   - DOMAIN,community.oneplus.com
@@ -340,6 +340,7 @@ payload:
   - DOMAIN-SUFFIX,fydeos.io
   - DOMAIN-SUFFIX,g.co
   - DOMAIN-SUFFIX,g2.com
+  - DOMAIN-SUFFIX,gameflare.com
   - DOMAIN-SUFFIX,gameloft.com
   - DOMAIN-SUFFIX,gartner.com
   - DOMAIN-SUFFIX,gate.io
