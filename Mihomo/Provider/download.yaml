@@ -1,5 +1,5 @@
-# 更新时间: 2025-05-21 20:15:56（北京时间）
-# 规则数量: 1152
+# 更新时间: 2025-05-22 08:41:45（北京时间）
+# 规则数量: 1156
 payload:
   - DOMAIN,addins.deepl.com
   - DOMAIN,amupdatedl.microsoft.com
@@ -53,6 +53,7 @@ payload:
   - DOMAIN,aus5.mozilla.org
   - DOMAIN,autoupdate.termius.com
   - DOMAIN,az764295.vo.msecnd.net
+  - DOMAIN,b2.mcarchive.net
   - DOMAIN,binaries.prisma.sh
   - DOMAIN,blizzard.gcdn.cloudn.co.kr
   - DOMAIN,blzddist1-a.akamaihd.net
@@ -69,6 +70,7 @@ payload:
   - DOMAIN,cdn-images.orbstack.dev
   - DOMAIN,cdn-patch.swtor.com
   - DOMAIN,cdn-updates.orbstack.dev
+  - DOMAIN,cdn.azul.com
   - DOMAIN,cdn.cocoapods.org
   - DOMAIN,cdn.cypress.io
   - DOMAIN,cdn.fwupd.org
@@ -135,6 +137,7 @@ payload:
   - DOMAIN,ctan.yazd.ac.ir
   - DOMAIN,ctldl.windowsupdate.com
   - DOMAIN,d.myani.org
+  - DOMAIN,data.gameflare.com
   - DOMAIN,de.freedif.org
   - DOMAIN,deb.nodesource.com
   - DOMAIN,debian-archive.trafficmanager.net
@@ -372,6 +375,7 @@ payload:
   - DOMAIN,kde.cu.be
   - DOMAIN,kde.ip-connect.vn.ua
   - DOMAIN,kr.freebsd.org
+  - DOMAIN,launcher.mojang.com
   - DOMAIN,level3.blizzard.com
   - DOMAIN,lib.ugent.be
   - DOMAIN,libraries.minecraft.net
