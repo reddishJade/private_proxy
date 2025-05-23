@@ -2,11 +2,23 @@
   format: yaml
   behavior: classical
   upstream:
+    skk_reject-no-drop:
+      type: http
+      url: "https://ruleset.skk.moe/Clash/non_ip/reject-no-drop.txt"
+      format: txt
+      behavior: domain
+
+    skk_reject-drop:
+      type: http
+      url: "https://ruleset.skk.moe/Clash/non_ip/reject-drop.txt"
+      format: txt
+      behavior: domain
+
     skk_reject:
       type: http
       url: "https://ruleset.skk.moe/Clash/non_ip/reject.txt"
       format: txt
-      behavior: classical
+      behavior: domain
 
     # xndeye_reject:
     #   type: http
@@ -20,11 +32,11 @@
       format: yaml
       behavior: domain
 
-    # d3ward:
-    #   type: http
-    #   url: "https://raw.githubusercontent.com/d3ward/toolz/refs/heads/master/src/d3host.txt"
-    #   format: txt
-    #   behavior: domain
+    d3ward:
+      type: http
+      url: "https://cdn.jsdelivr.net/gh/reddishJade/private_proxy@refs/heads/main/src/ads.txt"
+      format: txt
+      behavior: domain
 
 - path: output/reject@ip.yaml
   format: yaml
