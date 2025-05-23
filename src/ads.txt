@@ -1,0 +1,207 @@
+#============ Ads =============
+
+# --- Amazon
+DOMAIN,adtago.s3.amazonaws.com
+DOMAIN,analyticsengine.s3.amazonaws.com
+DOMAIN,analytics.s3.amazonaws.com
+DOMAIN,advice-ads.s3.amazonaws.com
+
+# --- Google Ads
+DOMAIN,pagead2.googlesyndication.com
+DOMAIN,adservice.google.com
+DOMAIN,pagead2.googleadservices.com
+DOMAIN,afs.googlesyndication.com
+
+# --- Doubleclick.net
+DOMAIN,stats.g.doubleclick.net
+DOMAIN,ad.doubleclick.net
+DOMAIN,static.doubleclick.net
+DOMAIN,m.doubleclick.net
+DOMAIN,mediavisor.doubleclick.net
+
+# --- Adcolony
+DOMAIN,ads30.adcolony.com
+DOMAIN,adc3-launch.adcolony.com
+DOMAIN,events3alt.adcolony.com
+DOMAIN,wd.adcolony.com
+
+# --- Media.net
+DOMAIN,static.media.net
+DOMAIN,media.net
+DOMAIN,adservetx.media.net
+
+
+#========= Analytics ==========
+
+# --- Google Analytics
+DOMAIN,analytics.google.com
+DOMAIN,click.googleanalytics.com
+DOMAIN,google-analytics.com
+DOMAIN,ssl.google-analytics.com
+
+# --- Hotjar
+DOMAIN,adm.hotjar.com
+DOMAIN,identify.hotjar.com
+DOMAIN,insights.hotjar.com
+DOMAIN,script.hotjar.com
+DOMAIN,surveys.hotjar.com
+DOMAIN,careers.hotjar.com
+DOMAIN,events.hotjar.io
+
+# --- MouseFlow
+DOMAIN,mouseflow.com
+DOMAIN,cdn.mouseflow.com
+DOMAIN,o2.mouseflow.com
+DOMAIN,gtm.mouseflow.com
+DOMAIN,api.mouseflow.com
+DOMAIN,tools.mouseflow.com
+DOMAIN,cdn-test.mouseflow.com
+
+# --- FreshWorks
+DOMAIN,freshmarketer.com
+DOMAIN,claritybt.freshmarketer.com
+DOMAIN,fwtracks.freshmarketer.com
+
+# --- Luckyorange
+DOMAIN,luckyorange.com
+DOMAIN,api.luckyorange.com
+DOMAIN,realtime.luckyorange.com
+DOMAIN,cdn.luckyorange.com
+DOMAIN,w1.luckyorange.com
+DOMAIN,upload.luckyorange.net
+DOMAIN,cs.luckyorange.net
+DOMAIN,settings.luckyorange.net
+
+# --- Stats WP Plugin
+DOMAIN,stats.wp.com
+
+
+#======= Error Trackers =======
+
+# --- Bugsnag
+DOMAIN,notify.bugsnag.com
+DOMAIN,sessions.bugsnag.com
+DOMAIN,api.bugsnag.com
+DOMAIN,app.bugsnag.com
+
+# --- Sentry
+DOMAIN,browser.sentry-cdn.com
+DOMAIN,app.getsentry.com
+
+
+#====== Social Trackers =======
+
+# --- Facebook
+DOMAIN,pixel.facebook.com
+DOMAIN,an.facebook.com
+
+# --- Twitter
+DOMAIN,static.ads-twitter.com
+DOMAIN,ads-api.twitter.com
+
+# --- LinkedIn
+DOMAIN,ads.linkedin.com
+DOMAIN,analytics.pointdrive.linkedin.com
+
+# --- Pinterest
+DOMAIN,ads.pinterest.com
+DOMAIN,log.pinterest.com
+DOMAIN,analytics.pinterest.com
+DOMAIN,trk.pinterest.com
+
+# --- Reddit
+DOMAIN,events.reddit.com
+DOMAIN,events.redditmedia.com
+
+# --- YouTube
+DOMAIN,ads.youtube.com
+
+# --- TikTok
+DOMAIN,ads-api.tiktok.com
+DOMAIN,analytics.tiktok.com
+DOMAIN,ads-sg.tiktok.com
+DOMAIN,analytics-sg.tiktok.com
+DOMAIN,business-api.tiktok.com
+DOMAIN,ads.tiktok.com
+DOMAIN,log.byteoversea.com
+
+
+#============ Mix =============
+
+# --- Yahoo
+DOMAIN,ads.yahoo.com
+DOMAIN,analytics.yahoo.com
+DOMAIN,geo.yahoo.com
+DOMAIN,udc.yahoo.com
+DOMAIN,udcm.yahoo.com
+DOMAIN,analytics.query.yahoo.com
+DOMAIN,partnerads.ysm.yahoo.com
+DOMAIN,log.fc.yahoo.com
+DOMAIN,gemini.yahoo.com
+DOMAIN,adtech.yahooinc.com
+
+# --- Yandex
+DOMAIN,extmaps-api.yandex.net
+DOMAIN,appmetrica.yandex.ru
+DOMAIN,adfstat.yandex.ru
+DOMAIN,metrika.yandex.ru
+DOMAIN,offerwall.yandex.net
+DOMAIN,adfox.yandex.ru
+
+# --- Unity
+DOMAIN,auction.unityads.unity3d.com
+DOMAIN,webview.unityads.unity3d.com
+DOMAIN,config.unityads.unity3d.com
+DOMAIN,adserver.unityads.unity3d.com
+
+
+#============ OEMs ============
+
+# --- Realme
+DOMAIN,iot-eu-logser.realme.com
+DOMAIN,iot-logser.realme.com
+DOMAIN,bdapi-ads.realmemobile.com
+DOMAIN,bdapi-in-ads.realmemobile.com
+
+# --- Xiaomi
+DOMAIN,api.ad.xiaomi.com
+DOMAIN,data.mistat.xiaomi.com
+DOMAIN,data.mistat.india.xiaomi.com
+DOMAIN,data.mistat.rus.xiaomi.com
+DOMAIN,sdkconfig.ad.xiaomi.com
+DOMAIN,sdkconfig.ad.intl.xiaomi.com
+DOMAIN,tracking.rus.miui.com
+
+# --- Oppo
+DOMAIN,adsfs.oppomobile.com
+DOMAIN,adx.ads.oppomobile.com
+DOMAIN,ck.ads.oppomobile.com
+DOMAIN,data.ads.oppomobile.com
+
+# --- Huawei
+DOMAIN,metrics.data.hicloud.com
+DOMAIN,metrics2.data.hicloud.com
+DOMAIN,grs.hicloud.com
+DOMAIN,logservice.hicloud.com
+DOMAIN,logservice1.hicloud.com
+DOMAIN,logbak.hicloud.com
+
+# --- OnePlus
+DOMAIN,click.oneplus.cn
+DOMAIN,open.oneplus.net
+
+# --- Samsung
+DOMAIN,samsungads.com
+DOMAIN,smetrics.samsung.com
+DOMAIN,nmetrics.samsung.com
+DOMAIN,samsung-com.112.2o7.net
+DOMAIN,analytics-api.samsunghealthcn.com
+
+# --- Apple
+DOMAIN,iadsdk.apple.com
+DOMAIN,metrics.icloud.com
+DOMAIN,metrics.mzstatic.com
+DOMAIN,api-adservices.apple.com
+DOMAIN,books-analytics-events.apple.com
+DOMAIN,weather-analytics-events.apple.com
+DOMAIN,notes-analytics-events.apple.com
