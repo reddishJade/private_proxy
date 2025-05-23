@@ -1,5 +1,5 @@
-# 更新时间: 2025-05-23 08:42:08（北京时间）
-# 规则数量: 3648
+# 更新时间: 2025-05-23 20:15:26（北京时间）
+# 规则数量: 3649
 payload:
   - DOMAIN,0x0.st
   - DOMAIN,3dna.nationbuilder.com
@@ -2544,6 +2544,7 @@ payload:
   - DOMAIN,ws2-cache.aptoide.com
   - DOMAIN,ww2-secure.justanswer.com
   - DOMAIN,ww2.justanswer.com
+  - DOMAIN,www-res.cablelabs.com
   - DOMAIN,www-static.ripe.net
   - DOMAIN,www.10086.win
   - DOMAIN,www.bbthat.com
