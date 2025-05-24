@@ -14,9 +14,15 @@
       format: txt
       behavior: domain
 
-    skk_reject:
+    skk_reject_nop_ip:
       type: http
       url: "https://ruleset.skk.moe/Clash/non_ip/reject.txt"
+      format: txt
+      behavior: domain
+
+    skk_reject_domain:
+      type: http
+      url: "https://ruleset.skk.moe/Clash/domainset/reject.txt"
       format: txt
       behavior: domain
 
@@ -216,8 +222,8 @@
     bilibili_hmt:
       type: http
       url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/BilibiliHMT.list"
-      format: yaml
-      behavior: classical
+      format: txt
+      behavior: domain
     
 - path: output/stream@ip.yaml
   format: yaml
@@ -231,8 +237,8 @@
     bilibili_hmt:
       type: http
       url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/BilibiliHMT.list"
-      format: yaml
-      behavior: classical
+      format: txt
+      behavior: ipcidr
     
 - path: output/telegram.yaml
   format: yaml
