@@ -1,7 +1,6 @@
-# 更新时间: 2025-05-24 08:40:20（北京时间）
-# 规则数量: 20
+# 更新时间: 2025-05-24 20:13:39（北京时间）
+# 规则数量: 40
 payload:
-  - ','
   - IP-CIDR,108.175.32.0/20,no-resolve
   - IP-CIDR,150.109.28.51/32,no-resolve
   - IP-CIDR,185.2.220.0/22,no-resolve
@@ -17,6 +16,27 @@ payload:
   - IP-CIDR,64.120.128.0/17,no-resolve
   - IP-CIDR,66.197.128.0/17,no-resolve
   - IP-CIDR,69.53.224.0/19,no-resolve
+  - IP-CIDR,DOMAIN,p-bstarstatic.akamaized.net
+  - IP-CIDR,DOMAIN,p.bstarstatic.com
+  - IP-CIDR,DOMAIN,upos-bstar-mirrorakam.akamaized.net
+  - IP-CIDR,DOMAIN,upos-bstar1-mirrorakam.akamaized.net
+  - IP-CIDR,DOMAIN,upos-hz-mirrorakam.akamaized.net
+  - IP-CIDR,DOMAIN-SUFFIX,acgvideo.com
+  - IP-CIDR,DOMAIN-SUFFIX,bilibili.com
+  - IP-CIDR,DOMAIN-SUFFIX,bilibili.tv
+  - IP-CIDR,IP-CIDR,103.151.150.0/23,no-resolve
+  - IP-CIDR,IP-CIDR,119.29.29.29/32,no-resolve
+  - IP-CIDR,IP-CIDR,128.1.62.200/32,no-resolve
+  - IP-CIDR,IP-CIDR,128.1.62.201/32,no-resolve
+  - IP-CIDR,IP-CIDR,150.116.92.250/32,no-resolve
+  - IP-CIDR,IP-CIDR,164.52.33.178/32,no-resolve
+  - IP-CIDR,IP-CIDR,164.52.33.182/32,no-resolve
+  - IP-CIDR,IP-CIDR,164.52.76.18/32,no-resolve
+  - IP-CIDR,IP-CIDR,203.107.1.33/32,no-resolve
+  - IP-CIDR,IP-CIDR,203.107.1.34/32,no-resolve
+  - IP-CIDR,IP-CIDR,203.107.1.65/32,no-resolve
+  - IP-CIDR,IP-CIDR,203.107.1.66/32,no-resolve
+  - IP-CIDR,IP-CIDR,45.43.32.234/32,no-resolve
   - IP-CIDR6,2607:fb10::/32,no-resolve
   - IP-CIDR6,2620:10c:7000::/44,no-resolve
   - IP-CIDR6,2a00:86c0::/32,no-resolve

@@ -1,5 +1,5 @@
-# 更新时间: 2025-05-24 08:40:19（北京时间）
-# 规则数量: 3649
+# 更新时间: 2025-05-24 20:13:39（北京时间）
+# 规则数量: 3651
 payload:
   - DOMAIN,0x0.st
   - DOMAIN,3dna.nationbuilder.com
@@ -476,6 +476,7 @@ payload:
   - DOMAIN,cdn.designsystem.arm.com
   - DOMAIN,cdn.deta.space
   - DOMAIN,cdn.devolutions.net
+  - DOMAIN,cdn.dexscreener.com
   - DOMAIN,cdn.dnsimple.com
   - DOMAIN,cdn.docsbot.com
   - DOMAIN,cdn.document360.io
@@ -947,6 +948,7 @@ payload:
   - DOMAIN,david-dm.org
   - DOMAIN,db.onlinewebfonts.com
   - DOMAIN,dc-cdn.cdw.com
+  - DOMAIN,dd.dexscreener.com
   - DOMAIN,ddcdn.comtucdncom.com
   - DOMAIN,decart-oasis.azureedge.net
   - DOMAIN,demo.unified-streaming.com
