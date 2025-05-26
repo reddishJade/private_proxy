@@ -1,5 +1,5 @@
-# 更新时间: 2025-05-25 20:13:35（北京时间）
-# 规则数量: 1029
+# 更新时间: 2025-05-26 08:43:50（北京时间）
+# 规则数量: 1031
 payload:
   - DOMAIN,ccmdl.adobe.com
   - DOMAIN,community.oneplus.com
@@ -587,6 +587,7 @@ payload:
   - DOMAIN-SUFFIX,moe
   - DOMAIN-SUFFIX,mojang.com
   - DOMAIN-SUFFIX,monica.im
+  - DOMAIN-SUFFIX,moomoo.com
   - DOMAIN-SUFFIX,motherless.com
   - DOMAIN-SUFFIX,moviefap.com
   - DOMAIN-SUFFIX,mozilla.com
@@ -661,6 +662,7 @@ payload:
   - DOMAIN-SUFFIX,okcoin.com
   - DOMAIN-SUFFIX,okex.com
   - DOMAIN-SUFFIX,okx.com
+  - DOMAIN-SUFFIX,one
   - DOMAIN-SUFFIX,one.com
   - DOMAIN-SUFFIX,opencollective.com
   - DOMAIN-SUFFIX,opensea.io

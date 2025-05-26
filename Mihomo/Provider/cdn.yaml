@@ -1,5 +1,5 @@
-# 更新时间: 2025-05-25 20:13:35（北京时间）
-# 规则数量: 3652
+# 更新时间: 2025-05-26 08:43:50（北京时间）
+# 规则数量: 3653
 payload:
   - DOMAIN,0x0.st
   - DOMAIN,3dna.nationbuilder.com
@@ -2199,6 +2199,7 @@ payload:
   - DOMAIN,static.mocortech.com
   - DOMAIN,static.moegoat.com
   - DOMAIN,static.monei.net
+  - DOMAIN,static.moomoo.com
   - DOMAIN,static.moonpay.com
   - DOMAIN,static.music.com
   - DOMAIN,static.mysph.sph.com.sg
