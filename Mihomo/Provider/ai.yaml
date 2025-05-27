@@ -1,5 +1,5 @@
-# 更新时间: 2025-05-26 20:15:16（北京时间）
-# 规则数量: 59
+# 更新时间: 2025-05-27 08:41:23（北京时间）
+# 规则数量: 60
 payload:
   - DOMAIN,ai.google.dev
   - DOMAIN,alkalicore-pa.clients6.google.com
@@ -23,6 +23,7 @@ payload:
   - DOMAIN-SUFFIX,aistudio.google.com
   - DOMAIN-SUFFIX,anthropic.com
   - DOMAIN-SUFFIX,apis.google.com
+  - DOMAIN-SUFFIX,augment.com
   - DOMAIN-SUFFIX,augmentcode.com
   - DOMAIN-SUFFIX,bard.google.com
   - DOMAIN-SUFFIX,cdn.oaistatic.com
