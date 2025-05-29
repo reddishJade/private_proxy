@@ -1,5 +1,5 @@
-# 更新时间: 2025-05-28 20:16:04（北京时间）
-# 规则数量: 1031
+# 更新时间: 2025-05-29 08:42:27（北京时间）
+# 规则数量: 1033
 payload:
   - DOMAIN,ccmdl.adobe.com
   - DOMAIN,community.oneplus.com
@@ -240,6 +240,7 @@ payload:
   - DOMAIN-SUFFIX,deepl.com
   - DOMAIN-SUFFIX,deepmind.com
   - DOMAIN-SUFFIX,deezer.com
+  - DOMAIN-SUFFIX,deno.com
   - DOMAIN-SUFFIX,detnews.com
   - DOMAIN-SUFFIX,dev
   - DOMAIN-SUFFIX,deviantart.com
@@ -498,6 +499,7 @@ payload:
   - DOMAIN-SUFFIX,jsdelivr.com
   - DOMAIN-SUFFIX,jsdelivr.net
   - DOMAIN-SUFFIX,jsfiddle.net
+  - DOMAIN-SUFFIX,jsr.io
   - DOMAIN-SUFFIX,jumpdesktop.com
   - DOMAIN-SUFFIX,justdns.info
   - DOMAIN-SUFFIX,kagi.com

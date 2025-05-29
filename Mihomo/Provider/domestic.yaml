@@ -1,5 +1,5 @@
-# 更新时间: 2025-05-28 20:16:04（北京时间）
-# 规则数量: 797
+# 更新时间: 2025-05-29 08:42:27（北京时间）
+# 规则数量: 798
 payload:
   - DOMAIN,acg.tv
   - DOMAIN,assets1.xboxlive.cn
@@ -178,6 +178,7 @@ payload:
   - DOMAIN-SUFFIX,blzstatic.cn
   - DOMAIN-SUFFIX,boc.cn
   - DOMAIN-SUFFIX,bosszhipin.com
+  - DOMAIN-SUFFIX,bulicdn2.com
   - DOMAIN-SUFFIX,byteacctimg.com
   - DOMAIN-SUFFIX,bytecdn.cn
   - DOMAIN-SUFFIX,bytecdntp.com
