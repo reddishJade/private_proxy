@@ -1,5 +1,5 @@
-# 更新时间: 2025-05-29 08:42:27（北京时间）
-# 规则数量: 1033
+# 更新时间: 2025-05-29 20:15:49（北京时间）
+# 规则数量: 1034
 payload:
   - DOMAIN,ccmdl.adobe.com
   - DOMAIN,community.oneplus.com
@@ -792,6 +792,7 @@ payload:
   - DOMAIN-SUFFIX,sh
   - DOMAIN-SUFFIX,shadowsocks.org
   - DOMAIN-SUFFIX,shattered.io
+  - DOMAIN-SUFFIX,shodan.io
   - DOMAIN-SUFFIX,short.io
   - DOMAIN-SUFFIX,shutterstock.com
   - DOMAIN-SUFFIX,shw.io
