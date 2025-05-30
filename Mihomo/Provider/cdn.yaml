@@ -1,5 +1,5 @@
-# 更新时间: 2025-05-29 20:15:48（北京时间）
-# 规则数量: 3654
+# 更新时间: 2025-05-30 08:42:19（北京时间）
+# 规则数量: 3657
 payload:
   - DOMAIN,0x0.st
   - DOMAIN,3dna.nationbuilder.com
@@ -1206,6 +1206,8 @@ payload:
   - DOMAIN,ik.imgkit.net
   - DOMAIN,imag.malavida.com
   - DOMAIN,image-forwarder.notaku.so
+  - DOMAIN,image-stgus.samsung.com
+  - DOMAIN,image-us.samsung.com
   - DOMAIN,image.ap-mail.org
   - DOMAIN,image.civitai.com
   - DOMAIN,image.cnbcfm.com
@@ -1289,6 +1291,7 @@ payload:
   - DOMAIN,images.profile.autodesk.com
   - DOMAIN,images.ptt.cc
   - DOMAIN,images.purevpn-tools.com
+  - DOMAIN,images.samsung.com
   - DOMAIN,images.scalero.io
   - DOMAIN,images.scrolller.com
   - DOMAIN,images.spot.im
