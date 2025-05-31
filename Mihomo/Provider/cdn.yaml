@@ -1,4 +1,4 @@
-# 更新时间: 2025-05-30 20:15:24（北京时间）
+# 更新时间: 2025-05-31 08:41:00（北京时间）
 # 规则数量: 3657
 payload:
   - DOMAIN,0x0.st
@@ -997,6 +997,7 @@ payload:
   - DOMAIN,edgestatic.azureedge.net
   - DOMAIN,eep.io
   - DOMAIN,eightcha.com
+  - DOMAIN,embed-cloudfront.wistia.com
   - DOMAIN,embed-ssl.wistia.com
   - DOMAIN,embed-v2.testimonial.to
   - DOMAIN,embed.culturalspot.org
@@ -1636,7 +1637,6 @@ payload:
   - DOMAIN,medias.meow.social
   - DOMAIN,medium-media.vgm.io
   - DOMAIN,megapx-assets.dcard.tw
-  - DOMAIN,meta.prismlauncher.org
   - DOMAIN,meteorclient.com
   - DOMAIN,metrics.kapa.ai
   - DOMAIN,micro.rubiconproject.com
