@@ -1,5 +1,5 @@
-# 更新时间: 2025-05-31 08:40:53（北京时间）
-# 规则数量: 84511
+# 更新时间: 2025-05-31 20:13:44（北京时间）
+# 规则数量: 84515
 payload:
   - DOMAIN,03.lzzncm.com
   - DOMAIN,04.lzzncm.com
@@ -11,6 +11,7 @@ payload:
   - DOMAIN,37bvsblobprodcus311.blob.core.windows.net
   - DOMAIN,80vn.cn
   - DOMAIN,8le8le.com
+  - DOMAIN,8rn1y79f02-1.algolianet.com
   - DOMAIN,9ibbcq2d.sina.cn
   - DOMAIN,a.alimama.cn
   - DOMAIN,a.cntv.cn
@@ -45,6 +46,8 @@ payload:
   - DOMAIN,ad-sdk-config.youdao.com
   - DOMAIN,ad-sdk.huxiu.com
   - DOMAIN,ad-sh-sz-zb.wagbridge.tanx.alimama.com
+  - DOMAIN,ad-splash-tracking.hktvmall.com
+  - DOMAIN,ad-splash.hktvmall.com
   - DOMAIN,ad-stat.ksosoft.com
   - DOMAIN,ad.12306.cn
   - DOMAIN,ad.21cn.com
@@ -1064,6 +1067,7 @@ payload:
   - DOMAIN,links.services.disqus.com
   - DOMAIN,list.z.qingting.fm
   - DOMAIN,litchiads.com
+  - DOMAIN,live-api.hktvmall.com
   - DOMAIN,liveats-vod.video.ptqy.gitv.tv
   - DOMAIN,livec.l.qq.com
   - DOMAIN,livem.l.qq.com
