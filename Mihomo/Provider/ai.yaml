@@ -1,4 +1,4 @@
-# 更新时间: 2025-05-30 20:15:24（北京时间）
+# 更新时间: 2025-05-31 08:41:00（北京时间）
 # 规则数量: 60
 payload:
   - DOMAIN,ai.google.dev
@@ -10,7 +10,6 @@ payload:
   - DOMAIN,copilot.microsoft.com
   - DOMAIN,gateway.ai.cloudflare.com
   - DOMAIN,guzzoni.smoot.apple.com
-  - DOMAIN,llm.zed.dev
   - DOMAIN,o33249.ingest.sentry.io
   - DOMAIN,openaiapi-site.azureedge.net
   - DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
@@ -61,3 +60,4 @@ payload:
   - DOMAIN-SUFFIX,sora.com
   - DOMAIN-SUFFIX,windsurf.com
   - DOMAIN-SUFFIX,x.ai
+  - DOMAIN-SUFFIX,zed.dev

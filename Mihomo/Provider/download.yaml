@@ -1,5 +1,5 @@
-# 更新时间: 2025-05-30 20:15:24（北京时间）
-# 规则数量: 1156
+# 更新时间: 2025-05-31 08:41:00（北京时间）
+# 规则数量: 1158
 payload:
   - DOMAIN,addins.deepl.com
   - DOMAIN,amupdatedl.microsoft.com
@@ -364,6 +364,7 @@ payload:
   - DOMAIN,httpd-mirror.sergal.org
   - DOMAIN,httpupdate118.cpanel.net
   - DOMAIN,httpupdate127.cpanel.net
+  - DOMAIN,i18n.prismlauncher.org
   - DOMAIN,icm.edu.pl
   - DOMAIN,install.virtfusion.net
   - DOMAIN,invent.kde.org
@@ -385,6 +386,7 @@ payload:
   - DOMAIN,mac-release-static.stash.ws
   - DOMAIN,marwan.ma
   - DOMAIN,maven.google.com
+  - DOMAIN,meta.prismlauncher.org
   - DOMAIN,mirror-cdn.xtom.com
   - DOMAIN,mirror-hk.koddos.net
   - DOMAIN,mirror.0x.sg
