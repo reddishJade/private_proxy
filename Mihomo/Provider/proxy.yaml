@@ -1,5 +1,5 @@
-# 更新时间: 2025-05-31 20:13:49（北京时间）
-# 规则数量: 1036
+# 更新时间: 2025-06-01 08:54:02（北京时间）
+# 规则数量: 1037
 payload:
   - DOMAIN,ccmdl.adobe.com
   - DOMAIN,community.oneplus.com
@@ -851,6 +851,7 @@ payload:
   - DOMAIN-SUFFIX,surge-activation.com
   - DOMAIN-SUFFIX,sx
   - DOMAIN-SUFFIX,synergyse.com
+  - DOMAIN-SUFFIX,sysctl-explorer.net
   - DOMAIN-SUFFIX,t.co
   - DOMAIN-SUFFIX,t66y.com
   - DOMAIN-SUFFIX,tailwindcss.com
