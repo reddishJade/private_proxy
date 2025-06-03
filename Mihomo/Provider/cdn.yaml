@@ -1,5 +1,5 @@
-# 更新时间: 2025-06-02 20:15:57（北京时间）
-# 规则数量: 3662
+# 更新时间: 2025-06-03 08:43:32（北京时间）
+# 规则数量: 3664
 payload:
   - DOMAIN,0x0.st
   - DOMAIN,3dna.nationbuilder.com
@@ -74,6 +74,7 @@ payload:
   - DOMAIN,apple-relay.apple.com
   - DOMAIN,apple-relay.cloudflare.com
   - DOMAIN,apple-relay.fastly-edge.com
+  - DOMAIN,apps-static.route4me.com
   - DOMAIN,apps.bazaarvoice.com
   - DOMAIN,apps.profitihub.com
   - DOMAIN,apps.sophi.io
@@ -1810,6 +1811,7 @@ payload:
   - DOMAIN,proxy.spigotmc.org
   - DOMAIN,ps.w.org
   - DOMAIN,psp-logos.uptimerobot.com
+  - DOMAIN,pub.creaders.net
   - DOMAIN,public-assets.typeform.com
   - DOMAIN,public-cdn.bblmw.com
   - DOMAIN,public-files.gumroad.com
