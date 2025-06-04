@@ -1,5 +1,5 @@
-# 更新时间: 2025-06-04 08:43:20（北京时间）
-# 规则数量: 3665
+# 更新时间: 2025-06-04 20:16:14（北京时间）
+# 规则数量: 3666
 payload:
   - DOMAIN,0x0.st
   - DOMAIN,3dna.nationbuilder.com
@@ -2437,6 +2437,7 @@ payload:
   - DOMAIN,ui.trailhead.com
   - DOMAIN,unlimited-cdn.waifu2x.net
   - DOMAIN,unsubscribe-imgs.leavemealone.com
+  - DOMAIN,uos-support-files.svc.ui.com
   - DOMAIN,updates.signal.org
   - DOMAIN,updates2.signal.org
   - DOMAIN,upload.wikimedia.org
