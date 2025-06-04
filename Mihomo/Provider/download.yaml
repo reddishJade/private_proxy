@@ -1,5 +1,5 @@
-# 更新时间: 2025-06-03 20:16:24（北京时间）
-# 规则数量: 1158
+# 更新时间: 2025-06-04 08:43:20（北京时间）
+# 规则数量: 1159
 payload:
   - DOMAIN,addins.deepl.com
   - DOMAIN,amupdatedl.microsoft.com
@@ -250,6 +250,7 @@ payload:
   - DOMAIN,fastly-download.epicgames.com
   - DOMAIN,fedorapeople.org
   - DOMAIN,file.chobit.cc
+  - DOMAIN,files2.freedownloadmanager.org
   - DOMAIN,formulae.brew.sh
   - DOMAIN,fr2.rpmfind.net
   - DOMAIN,freedif.org
