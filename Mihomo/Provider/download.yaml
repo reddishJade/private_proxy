@@ -1,5 +1,5 @@
-# 更新时间: 2025-06-04 08:43:20（北京时间）
-# 规则数量: 1159
+# 更新时间: 2025-06-04 20:16:14（北京时间）
+# 规则数量: 1160
 payload:
   - DOMAIN,addins.deepl.com
   - DOMAIN,amupdatedl.microsoft.com
@@ -687,6 +687,7 @@ payload:
   - DOMAIN-REGEX,^ftp\.[\w.-][\w.-]\.freebsd\.org$
   - DOMAIN-SUFFIX,1fichier.com
   - DOMAIN-SUFFIX,1fichier.info
+  - DOMAIN-SUFFIX,allawnofs.com
   - DOMAIN-SUFFIX,androidfilehost.com
   - DOMAIN-SUFFIX,apache.si
   - DOMAIN-SUFFIX,archive.debian.org
