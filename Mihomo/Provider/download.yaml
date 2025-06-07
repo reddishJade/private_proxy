@@ -1,5 +1,5 @@
-# 更新时间: 2025-06-07 08:42:20（北京时间）
-# 规则数量: 1160
+# 更新时间: 2025-06-07 20:13:49（北京时间）
+# 规则数量: 1165
 payload:
   - DOMAIN,addins.deepl.com
   - DOMAIN,amupdatedl.microsoft.com
@@ -78,6 +78,7 @@ payload:
   - DOMAIN,cdn.kagi.com
   - DOMAIN,cdn.kde.org
   - DOMAIN,cdn.opensuse.org
+  - DOMAIN,cdn.organicmaps.app
   - DOMAIN,cdn.winget.microsoft.com
   - DOMAIN,cdn.zoom.us
   - DOMAIN,ciscobinary.openh264.org
@@ -387,6 +388,7 @@ payload:
   - DOMAIN,mac-release-static.stash.ws
   - DOMAIN,marwan.ma
   - DOMAIN,maven.google.com
+  - DOMAIN,meta.omaps.app
   - DOMAIN,meta.prismlauncher.org
   - DOMAIN,mirror-cdn.xtom.com
   - DOMAIN,mirror-hk.koddos.net
@@ -682,6 +684,9 @@ payload:
   - DOMAIN,xvcf1.xboxlive.com
   - DOMAIN,xvcf2.xboxlive.com
   - DOMAIN-REGEX,^[\w.-]*?\.s3\.[\w.-]*?\.backblazeb2\.com$
+  - DOMAIN-REGEX,^cdn-[\w.-]*?\.comaps\.app$
+  - DOMAIN-REGEX,^cdn-[\w.-]*?\.comaps\.tech$
+  - DOMAIN-REGEX,^cdn-[\w.-]*?\.organicmaps\.app$
   - DOMAIN-REGEX,^download[\w.-]*?\.mediafire\.com$
   - DOMAIN-REGEX,^ftp\.[\w.-][\w.-]\.debian\.org$
   - DOMAIN-REGEX,^ftp\.[\w.-][\w.-]\.freebsd\.org$

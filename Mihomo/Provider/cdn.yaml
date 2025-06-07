@@ -1,5 +1,5 @@
-# 更新时间: 2025-06-07 08:42:20（北京时间）
-# 规则数量: 3672
+# 更新时间: 2025-06-07 20:13:49（北京时间）
+# 规则数量: 3670
 payload:
   - DOMAIN,0x0.st
   - DOMAIN,3dna.nationbuilder.com
@@ -3546,7 +3546,6 @@ payload:
   - DOMAIN-SUFFIX,tile.openstreetmap.de
   - DOMAIN-SUFFIX,tile.openstreetmap.org
   - DOMAIN-SUFFIX,tile.osm.org
-  - DOMAIN-SUFFIX,timg135.top
   - DOMAIN-SUFFIX,tindiemedia.com
   - DOMAIN-SUFFIX,tiqcdn.com
   - DOMAIN-SUFFIX,tkcdns.com
@@ -3602,7 +3601,6 @@ payload:
   - DOMAIN-SUFFIX,vimeocdn.com
   - DOMAIN-SUFFIX,vodvideo.cbsnews.com
   - DOMAIN-SUFFIX,vox-cdn.com
-  - DOMAIN-SUFFIX,vplay.life
   - DOMAIN-SUFFIX,vsassets.io
   - DOMAIN-SUFFIX,vscode-cdn.net
   - DOMAIN-SUFFIX,vscode-unpkg.net
