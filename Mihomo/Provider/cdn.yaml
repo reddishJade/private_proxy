@@ -1,5 +1,5 @@
-# 更新时间: 2025-06-10 20:16:53（北京时间）
-# 规则数量: 3672
+# 更新时间: 2025-06-11 08:43:10（北京时间）
+# 规则数量: 3674
 payload:
   - DOMAIN,0x0.st
   - DOMAIN,3dna.nationbuilder.com
@@ -16,6 +16,7 @@ payload:
   - DOMAIN,accounts-cdn.9gag.com
   - DOMAIN,adkit.9pub.io
   - DOMAIN,aff.equalweb.com
+  - DOMAIN,affportal.bhphoto.com
   - DOMAIN,agi.armorgames.com
   - DOMAIN,aimg.fc2.com
   - DOMAIN,ajax.cat.net
@@ -43,6 +44,7 @@ payload:
   - DOMAIN,api.bintray.com
   - DOMAIN,api.crashguard.me
   - DOMAIN,api.dicebear.com
+  - DOMAIN,api.fontshare.com
   - DOMAIN,api.iconify.design
   - DOMAIN,api.indexnow.org
   - DOMAIN,api.instantly.ai
