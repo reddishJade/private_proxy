@@ -1,5 +1,5 @@
-# 更新时间: 2025-06-12 20:16:19（北京时间）
-# 规则数量: 1165
+# 更新时间: 2025-06-13 08:43:16（北京时间）
+# 规则数量: 1173
 payload:
   - DOMAIN,addins.deepl.com
   - DOMAIN,amupdatedl.microsoft.com
@@ -170,8 +170,13 @@ payload:
   - DOMAIN,dl.ui.com
   - DOMAIN,dl.wechat.com
   - DOMAIN,dl2.nwjs.io
+  - DOMAIN,dl2.osmand.net
   - DOMAIN,dl2.xmind.net
+  - DOMAIN,dl3.osmand.net
   - DOMAIN,dl3.xmind.net
+  - DOMAIN,dl4.osmand.net
+  - DOMAIN,dl8.osmand.net
+  - DOMAIN,dl9.osmand.net
   - DOMAIN,dlcdnets.asus.com
   - DOMAIN,dlgarenanow-a.akamaihd.net
   - DOMAIN,docker.cloudsmith.io
@@ -215,6 +220,7 @@ payload:
   - DOMAIN,download.nust.na
   - DOMAIN,download.onlyoffice.com
   - DOMAIN,download.opensuse.org
+  - DOMAIN,download.osmand.net
   - DOMAIN,download.parallels.com
   - DOMAIN,download.pixelexperience.org
   - DOMAIN,download.projectbluefin.io
@@ -584,6 +590,8 @@ payload:
   - DOMAIN,os-cdn.virtfusion.net
   - DOMAIN,osl.ugr.es
   - DOMAIN,oss-binaries.phusionpassenger.com
+  - DOMAIN,ota-cache1.googlezip.net
+  - DOMAIN,ota.googlezip.net
   - DOMAIN,packagecloud.io
   - DOMAIN,packages-cf.termux.dev
   - DOMAIN,packages.httpie.io
