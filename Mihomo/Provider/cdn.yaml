@@ -1,5 +1,5 @@
-# 更新时间: 2025-06-12 20:16:19（北京时间）
-# 规则数量: 3674
+# 更新时间: 2025-06-13 08:43:16（北京时间）
+# 规则数量: 3676
 payload:
   - DOMAIN,0x0.st
   - DOMAIN,3dna.nationbuilder.com
@@ -950,6 +950,7 @@ payload:
   - DOMAIN,damassets.autodesk.net
   - DOMAIN,dassets.shimano.com
   - DOMAIN,data.jsdelivr.com
+  - DOMAIN,data.osmand.net
   - DOMAIN,data.pendo.io
   - DOMAIN,data.schemaapp.com
   - DOMAIN,data.web.clickup.com
@@ -1550,6 +1551,7 @@ payload:
   - DOMAIN,mantisloader.mantis-awx.com
   - DOMAIN,maps.geoapify.com
   - DOMAIN,maps.gstatic.com
+  - DOMAIN,maptile.osmand.net
   - DOMAIN,marber-cdn.economist.com
   - DOMAIN,marfeelexperimentsexperienceengine.mrf.io
   - DOMAIN,marketing.figma.com

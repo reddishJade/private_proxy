@@ -1,5 +1,5 @@
-# 更新时间: 2025-06-12 20:16:20（北京时间）
-# 规则数量: 1040
+# 更新时间: 2025-06-13 08:43:16（北京时间）
+# 规则数量: 1041
 payload:
   - DOMAIN,ccmdl.adobe.com
   - DOMAIN,community.oneplus.com
@@ -676,6 +676,7 @@ payload:
   - DOMAIN-SUFFIX,opentable.com
   - DOMAIN-SUFFIX,openwrt.org
   - DOMAIN-SUFFIX,oracle.com
+  - DOMAIN-SUFFIX,osmand.net
   - DOMAIN-SUFFIX,overdrive.com
   - DOMAIN-SUFFIX,ovpnleaktest.com
   - DOMAIN-SUFFIX,packagephobia.com
