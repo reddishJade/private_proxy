@@ -1,5 +1,5 @@
-# 更新时间: 2025-06-14 08:41:33（北京时间）
-# 规则数量: 1041
+# 更新时间: 2025-06-14 20:13:58（北京时间）
+# 规则数量: 1042
 payload:
   - DOMAIN,ccmdl.adobe.com
   - DOMAIN,community.oneplus.com
@@ -717,6 +717,7 @@ payload:
   - DOMAIN-SUFFIX,pornpics.com
   - DOMAIN-SUFFIX,porntrex.com
   - DOMAIN-SUFFIX,porntube.com
+  - DOMAIN-SUFFIX,precisionhydration.com
   - DOMAIN-SUFFIX,prisma.io
   - DOMAIN-SUFFIX,prismlauncher.org
   - DOMAIN-SUFFIX,privacytest.info
