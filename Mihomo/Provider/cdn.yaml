@@ -1,5 +1,5 @@
-# 更新时间: 2025-06-15 08:49:18（北京时间）
-# 规则数量: 3682
+# 更新时间: 2025-06-15 20:14:25（北京时间）
+# 规则数量: 3685
 payload:
   - DOMAIN,0x0.st
   - DOMAIN,3dna.nationbuilder.com
@@ -597,6 +597,7 @@ payload:
   - DOMAIN,cdn.nerdschalk.com
   - DOMAIN,cdn.networklessons.com
   - DOMAIN,cdn.neverbounce.com
+  - DOMAIN,cdn.nfcube.com
   - DOMAIN,cdn.nolt.io
   - DOMAIN,cdn.now.gg
   - DOMAIN,cdn.nperf.com
@@ -721,6 +722,7 @@ payload:
   - DOMAIN,cdn.vidyard.com
   - DOMAIN,cdn.viglink.com
   - DOMAIN,cdn.violet.vin
+  - DOMAIN,cdn.virtuoussoftware.com
   - DOMAIN,cdn.vuukle.com
   - DOMAIN,cdn.wccftech.com
   - DOMAIN,cdn.webclicks24.com
@@ -2158,6 +2160,7 @@ payload:
   - DOMAIN,static.dw.com
   - DOMAIN,static.dzeninfra.ru
   - DOMAIN,static.edge.microsoftapp.net
+  - DOMAIN,static.elfsight.com
   - DOMAIN,static.eroterest.net
   - DOMAIN,static.esimplus.net
   - DOMAIN,static.ettoday.net
