@@ -219,11 +219,11 @@
       url: "https://ruleset.skk.moe/Clash/non_ip/stream.txt"
       format: txt
       behavior: classical
-    bilibili_hmt:
-      type: http
-      url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/BilibiliHMT.list"
-      format: txt
-      behavior: domain
+    # bilibili_hmt:
+    #   type: http
+    #   url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/BilibiliHMT.list"
+    #   format: txt
+    #   behavior: domain
     
 - path: output/stream@ip.yaml
   format: yaml
@@ -234,11 +234,11 @@
       url: "https://ruleset.skk.moe/Clash/ip/stream.txt"
       format: txt
       behavior: classical
-    bilibili_hmt:
-      type: http
-      url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/BilibiliHMT.list"
-      format: txt
-      behavior: ipcidr
+    # bilibili_hmt:
+    #   type: http
+    #   url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/BilibiliHMT.list"
+    #   format: txt
+    #   behavior: ipcidr
     
 - path: output/telegram.yaml
   format: yaml
