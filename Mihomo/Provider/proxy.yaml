@@ -1,5 +1,5 @@
-# 更新时间: 2025-06-16 08:45:13（北京时间）
-# 规则数量: 1042
+# 更新时间: 2025-06-16 20:16:57（北京时间）
+# 规则数量: 1043
 payload:
   - DOMAIN,ccmdl.adobe.com
   - DOMAIN,community.oneplus.com
@@ -507,6 +507,7 @@ payload:
   - DOMAIN-SUFFIX,justdns.info
   - DOMAIN-SUFFIX,kagi.com
   - DOMAIN-SUFFIX,kakao.com
+  - DOMAIN-SUFFIX,kali.org
   - DOMAIN-SUFFIX,kde.org
   - DOMAIN-SUFFIX,kg
   - DOMAIN-SUFFIX,kick.com
