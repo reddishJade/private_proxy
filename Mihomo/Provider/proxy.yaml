@@ -1,5 +1,5 @@
-# 更新时间: 2025-06-18 08:43:36（北京时间）
-# 规则数量: 1043
+# 更新时间: 2025-06-18 20:16:44（北京时间）
+# 规则数量: 1046
 payload:
   - DOMAIN,ccmdl.adobe.com
   - DOMAIN,community.oneplus.com
@@ -516,6 +516,8 @@ payload:
   - DOMAIN-SUFFIX,kisscos.net
   - DOMAIN-SUFFIX,ko-fi.com
   - DOMAIN-SUFFIX,kobo.com
+  - DOMAIN-SUFFIX,komoot.com
+  - DOMAIN-SUFFIX,komoot.net
   - DOMAIN-SUFFIX,kr
   - DOMAIN-SUFFIX,kraken.com
   - DOMAIN-SUFFIX,kucoin.com
@@ -634,6 +636,7 @@ payload:
   - DOMAIN-SUFFIX,nikkei.com
   - DOMAIN-SUFFIX,nitter.net
   - DOMAIN-SUFFIX,nj.com
+  - DOMAIN-SUFFIX,njav.com
   - DOMAIN-SUFFIX,nl
   - DOMAIN-SUFFIX,no
   - DOMAIN-SUFFIX,nodeseek.com

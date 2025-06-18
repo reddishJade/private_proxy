@@ -1,5 +1,5 @@
-# 更新时间: 2025-06-18 08:43:27（北京时间）
-# 规则数量: 84529
+# 更新时间: 2025-06-18 20:16:39（北京时间）
+# 规则数量: 84547
 payload:
   - DOMAIN,03.lzzncm.com
   - DOMAIN,04.lzzncm.com
@@ -1614,6 +1614,7 @@ payload:
   - DOMAIN,static.g.iqiyi.com
   - DOMAIN,static.g.ppstream.com
   - DOMAIN,static.g.pptv.com
+  - DOMAIN,static.javcdn.vip
   - DOMAIN,static.jebe.renren.com
   - DOMAIN,static.m.sjzhushou.com
   - DOMAIN,static.mibi.xiaomi.com
@@ -5467,6 +5468,7 @@ payload:
   - DOMAIN-SUFFIX,ads-game-configuration-master.ads.prd.ie.internal.unity3d.com
   - DOMAIN-SUFFIX,ads-gdl.imovideo.ru
   - DOMAIN-SUFFIX,ads-image.production-public.tubi.io
+  - DOMAIN-SUFFIX,ads-img-al.xhscdn.com
   - DOMAIN-SUFFIX,ads-interfaces.sc-cdn.net
   - DOMAIN-SUFFIX,ads-leaseweb.appsgeyser.com
   - DOMAIN-SUFFIX,ads-media.gameforge.com
@@ -8837,7 +8839,10 @@ payload:
   - DOMAIN-SUFFIX,apk02061oo.xyz
   - DOMAIN-SUFFIX,apk02070oo.xyz
   - DOMAIN-SUFFIX,aplobv.xexymix.com
+  - DOMAIN-SUFFIX,apm-fe.xiaohongshu.com
   - DOMAIN-SUFFIX,apm-log-upload-os.hoyoverse.com
+  - DOMAIN-SUFFIX,apm-native.xiaohongshu.com
+  - DOMAIN-SUFFIX,apm-track.xiaohongshu.com
   - DOMAIN-SUFFIX,apm.relationshipone.com
   - DOMAIN-SUFFIX,apm.tnet.nl
   - DOMAIN-SUFFIX,apm.yahoo.co.jp
@@ -18071,6 +18076,7 @@ payload:
   - DOMAIN-SUFFIX,d20903hof2l33q.cloudfront.net
   - DOMAIN-SUFFIX,d20kffh39acpue.cloudfront.net
   - DOMAIN-SUFFIX,d20nuqz94uw3np.cloudfront.net
+  - DOMAIN-SUFFIX,d20vwa69zln1wj.cloudfront.net
   - DOMAIN-SUFFIX,d219kvfj8xp5vh.cloudfront.net
   - DOMAIN-SUFFIX,d21o24qxwf7uku.cloudfront.net
   - DOMAIN-SUFFIX,d21rpkgy8pahcu.cloudfront.net
@@ -24612,6 +24618,8 @@ payload:
   - DOMAIN-SUFFIX,edinmaw.top
   - DOMAIN-SUFFIX,edioca.com
   - DOMAIN-SUFFIX,edipsumw.top
+  - DOMAIN-SUFFIX,edith-seb.xiaohongshu.com
+  - DOMAIN-SUFFIX,edith.xiaohongshu.com
   - DOMAIN-SUFFIX,edition25.com
   - DOMAIN-SUFFIX,editiontowritin.org
   - DOMAIN-SUFFIX,ediuschina.com
@@ -24645,6 +24653,7 @@ payload:
   - DOMAIN-SUFFIX,educontinua.javeriana.edu.co
   - DOMAIN-SUFFIX,educontinua.unisabana.edu.co
   - DOMAIN-SUFFIX,educrated.com
+  - DOMAIN-SUFFIX,edukicationandasm.com
   - DOMAIN-SUFFIX,eduynp.fcl-hid.com
   - DOMAIN-SUFFIX,edvaor.estro.ua
   - DOMAIN-SUFFIX,edvfwlacluo.com
@@ -26354,6 +26363,7 @@ payload:
   - DOMAIN-SUFFIX,eurotax-sk.autovistagroup.com
   - DOMAIN-SUFFIX,eurotaxsrbija-si.autovistagroup.com
   - DOMAIN-SUFFIX,eusdbk.philosophyofficial.com
+  - DOMAIN-SUFFIX,eutecnimzptot.space
   - DOMAIN-SUFFIX,euuniu.htb-energy.co.jp
   - DOMAIN-SUFFIX,euvhrz.naturestore.co.kr
   - DOMAIN-SUFFIX,euvshmpgabfk.com
@@ -27366,6 +27376,7 @@ payload:
   - DOMAIN-SUFFIX,femetrics.grammarly.io
   - DOMAIN-SUFFIX,femetrics.qagr.io
   - DOMAIN-SUFFIX,feminine-branch.pro
+  - DOMAIN-SUFFIX,femininequarter.com
   - DOMAIN-SUFFIX,fenaglesummula.com
   - DOMAIN-SUFFIX,fengkongcloud.com
   - DOMAIN-SUFFIX,fenixm.com
@@ -27730,6 +27741,7 @@ payload:
   - DOMAIN-SUFFIX,flarby.com
   - DOMAIN-SUFFIX,flash.cn
   - DOMAIN-SUFFIX,flash.sec.intl.miui.com
+  - DOMAIN-SUFFIX,flash.xiaohongshu.com
   - DOMAIN-SUFFIX,flashb.id
   - DOMAIN-SUFFIX,flashnetic.com
   - DOMAIN-SUFFIX,flashplayerfeedback.adobe.com
@@ -32034,6 +32046,7 @@ payload:
   - DOMAIN-SUFFIX,guxidrookr.com
   - DOMAIN-SUFFIX,guyuqx.vinorama.at
   - DOMAIN-SUFFIX,gvagns.obelee.com
+  - DOMAIN-SUFFIX,gvdjmcztiqwhw.website
   - DOMAIN-SUFFIX,gvdmkf.major-expert.ru
   - DOMAIN-SUFFIX,gvdqzy.milanoo.com
   - DOMAIN-SUFFIX,gvemhzxalv.com
@@ -36919,6 +36932,7 @@ payload:
   - DOMAIN-SUFFIX,jauntyit.com
   - DOMAIN-SUFFIX,jaup0lake.com
   - DOMAIN-SUFFIX,jauql.top
+  - DOMAIN-SUFFIX,jausheewhocoary.net
   - DOMAIN-SUFFIX,jautauhoch.com
   - DOMAIN-SUFFIX,jauwaust.com
   - DOMAIN-SUFFIX,javascriptcdnlive.com
@@ -40724,6 +40738,7 @@ payload:
   - DOMAIN-SUFFIX,lltmch.zurifurniture.com
   - DOMAIN-SUFFIX,lltrck.com
   - DOMAIN-SUFFIX,lltynlnoui.com
+  - DOMAIN-SUFFIX,llvlzvroqokmj.top
   - DOMAIN-SUFFIX,llvvfz.mariapiacasa.com.br
   - DOMAIN-SUFFIX,llwoyl.mirraw.com
   - DOMAIN-SUFFIX,llykjmzkqvvqy.top
@@ -57080,6 +57095,7 @@ payload:
   - DOMAIN-SUFFIX,qmgwny.autobarn.com.au
   - DOMAIN-SUFFIX,qmgzkb.dedoles.sk
   - DOMAIN-SUFFIX,qmiiln.tower.jp
+  - DOMAIN-SUFFIX,qmjrlbwnlmram.com
   - DOMAIN-SUFFIX,qmlrmarmalebo.top
   - DOMAIN-SUFFIX,qmlzcm.petshop.ru
   - DOMAIN-SUFFIX,qmogjaezcv.club
@@ -64563,6 +64579,7 @@ payload:
   - DOMAIN-SUFFIX,sparrow.uitvaartzorg-vanraemdonck.be
   - DOMAIN-SUFFIX,sparrow.workingincontent.com
   - DOMAIN-SUFFIX,sparrowaboveaveragedefence.com
+  - DOMAIN-SUFFIX,spartollage.top
   - DOMAIN-SUFFIX,spc.personalcreations.com
   - DOMAIN-SUFFIX,spcode.baidu.com
   - DOMAIN-SUFFIX,spdate.com
@@ -69250,6 +69267,7 @@ payload:
   - DOMAIN-SUFFIX,stream.datago.ru
   - DOMAIN-SUFFIX,stream.kolorowey.com
   - DOMAIN-SUFFIX,stream.spongead.com
+  - DOMAIN-SUFFIX,stream27.com
   - DOMAIN-SUFFIX,streamback.ff.avast.com
   - DOMAIN-SUFFIX,streamhg05032026.shop
   - DOMAIN-SUFFIX,streampsh.top
