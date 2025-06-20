@@ -1,5 +1,5 @@
-# 更新时间: 2025-06-20 08:43:25（北京时间）
-# 规则数量: 274
+# 更新时间: 2025-06-20 20:16:16（北京时间）
+# 规则数量: 277
 payload:
   - DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com
   - DOMAIN,4gtvfreepcvod-cds.cdn.hinet.net
@@ -54,7 +54,6 @@ payload:
   - DOMAIN,youtubei.googleapis.com
   - DOMAIN-KEYWORD,-spotify-com
   - DOMAIN-KEYWORD,-tiktokcdn-com
-  - DOMAIN-KEYWORD,.hbogoasia.
   - DOMAIN-KEYWORD,apiproxy-device-prod-nlb-
   - DOMAIN-KEYWORD,avoddashs
   - DOMAIN-KEYWORD,bbcfmt
@@ -139,6 +138,10 @@ payload:
   - DOMAIN-SUFFIX,hbogo.com
   - DOMAIN-SUFFIX,hbogoasia.com
   - DOMAIN-SUFFIX,hbogoasia.hk
+  - DOMAIN-SUFFIX,hbogoasia.id
+  - DOMAIN-SUFFIX,hbogoasia.ph
+  - DOMAIN-SUFFIX,hbogoasia.sg
+  - DOMAIN-SUFFIX,hbogoasia.tw
   - DOMAIN-SUFFIX,hbomax.com
   - DOMAIN-SUFFIX,hbomaxcdn.com
   - DOMAIN-SUFFIX,hbonow.com
