@@ -1,5 +1,5 @@
-# 更新时间: 2025-06-19 20:16:44（北京时间）
-# 规则数量: 3693
+# 更新时间: 2025-06-20 08:43:24（北京时间）
+# 规则数量: 3696
 payload:
   - DOMAIN,0x0.st
   - DOMAIN,3dna.nationbuilder.com
@@ -1983,6 +1983,7 @@ payload:
   - DOMAIN,screenshots.downloadtorrentfile.com
   - DOMAIN,screenshots.webflow.com
   - DOMAIN,scripts.dailymail.co.uk
+  - DOMAIN,scripts.scriptwrapper.com
   - DOMAIN,scripts.webeo.com
   - DOMAIN,sdata.ndtv.com
   - DOMAIN,sdk.customfit.ai
@@ -2270,6 +2271,7 @@ payload:
   - DOMAIN,static.registration.bluehost.com
   - DOMAIN,static.reo.dev
   - DOMAIN,static.replay.io
+  - DOMAIN,static.salidzini.lv
   - DOMAIN,static.scarf.sh
   - DOMAIN,static.seel.com
   - DOMAIN,static.serverhunter.com
@@ -3181,6 +3183,7 @@ payload:
   - DOMAIN-SUFFIX,jdbstatic.com
   - DOMAIN-SUFFIX,jinyingimage.com
   - DOMAIN-SUFFIX,jisuimage.com
+  - DOMAIN-SUFFIX,jotai.org
   - DOMAIN-SUFFIX,jpg5.su
   - DOMAIN-SUFFIX,jpgjingpinx.com
   - DOMAIN-SUFFIX,js-eu1.hubspot.com
