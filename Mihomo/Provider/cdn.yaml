@@ -1,5 +1,5 @@
-# 更新时间: 2025-06-20 20:16:15（北京时间）
-# 规则数量: 3698
+# 更新时间: 2025-06-21 08:42:36（北京时间）
+# 规则数量: 3701
 payload:
   - DOMAIN,0x0.st
   - DOMAIN,3dna.nationbuilder.com
@@ -377,6 +377,7 @@ payload:
   - DOMAIN,cdn-live.foreignaffairs.com
   - DOMAIN,cdn-longterm.mee6.xyz
   - DOMAIN,cdn-main.plus500.com
+  - DOMAIN,cdn-media-0.freecodecamp.org
   - DOMAIN,cdn-media-1.freecodecamp.org
   - DOMAIN,cdn-media-2.freecodecamp.org
   - DOMAIN,cdn-mobile.aptoide.com
@@ -2765,6 +2766,7 @@ payload:
   - DOMAIN-SUFFIX,botsrv2.com
   - DOMAIN-SUFFIX,boxcdn.net
   - DOMAIN-SUFFIX,bp.blogspot.com
+  - DOMAIN-SUFFIX,brightspotcdn.com
   - DOMAIN-SUFFIX,bstarstatic.com
   - DOMAIN-SUFFIX,bstatic.com
   - DOMAIN-SUFFIX,bugly.qcloud.com
@@ -2925,6 +2927,7 @@ payload:
   - DOMAIN-SUFFIX,drtst.com
   - DOMAIN-SUFFIX,dsc.cloud
   - DOMAIN-SUFFIX,dtci-pe-vp-image-resizer.platform.edgedatg.com
+  - DOMAIN-SUFFIX,dubcdn.com
   - DOMAIN-SUFFIX,dummyimage.com
   - DOMAIN-SUFFIX,dummyjson.com
   - DOMAIN-SUFFIX,dwcdn.net
