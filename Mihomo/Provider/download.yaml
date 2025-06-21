@@ -1,5 +1,5 @@
-# 更新时间: 2025-06-21 08:42:36（北京时间）
-# 规则数量: 1174
+# 更新时间: 2025-06-21 20:14:03（北京时间）
+# 规则数量: 1175
 payload:
   - DOMAIN,addins.deepl.com
   - DOMAIN,amupdatedl.microsoft.com
@@ -190,6 +190,7 @@ payload:
   - DOMAIN,download-cdn.jetbrains.com
   - DOMAIN,download-core.sys.truenas.net
   - DOMAIN,download-installer.cdn.mozilla.net
+  - DOMAIN,download.ameliorated.io
   - DOMAIN,download.anydesk.com
   - DOMAIN,download.bazzite.gg
   - DOMAIN,download.beeper.com
