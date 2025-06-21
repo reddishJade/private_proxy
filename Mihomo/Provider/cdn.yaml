@@ -1,5 +1,5 @@
-# 更新时间: 2025-06-21 08:42:36（北京时间）
-# 规则数量: 3701
+# 更新时间: 2025-06-21 20:14:02（北京时间）
+# 规则数量: 3702
 payload:
   - DOMAIN,0x0.st
   - DOMAIN,3dna.nationbuilder.com
@@ -698,6 +698,7 @@ payload:
   - DOMAIN,cdn.theatlantic.com
   - DOMAIN,cdn.thenewstack.io
   - DOMAIN,cdn.thingiverse.com
+  - DOMAIN,cdn.tiny.cloud
   - DOMAIN,cdn.tinypass.com
   - DOMAIN,cdn.tolt.io
   - DOMAIN,cdn.tracxn.com
