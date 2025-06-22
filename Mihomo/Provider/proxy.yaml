@@ -1,5 +1,5 @@
-# 更新时间: 2025-06-22 08:49:04（北京时间）
-# 规则数量: 1048
+# 更新时间: 2025-06-22 20:14:11（北京时间）
+# 规则数量: 1054
 payload:
   - DOMAIN,ccmdl.adobe.com
   - DOMAIN,community.oneplus.com
@@ -136,6 +136,7 @@ payload:
   - DOMAIN-SUFFIX,binance.me
   - DOMAIN-SUFFIX,bing.com
   - DOMAIN-SUFFIX,bitbucket.io
+  - DOMAIN-SUFFIX,bitbucket.org
   - DOMAIN-SUFFIX,bitchute.com
   - DOMAIN-SUFFIX,bitfinex.com
   - DOMAIN-SUFFIX,bitly.com
@@ -213,6 +214,7 @@ payload:
   - DOMAIN-SUFFIX,community
   - DOMAIN-SUFFIX,convertio.co
   - DOMAIN-SUFFIX,cool18.com
+  - DOMAIN-SUFFIX,corecode.io
   - DOMAIN-SUFFIX,cosplay-jav.com
   - DOMAIN-SUFFIX,costco.com
   - DOMAIN-SUFFIX,coveralls.io
@@ -337,6 +339,7 @@ payload:
   - DOMAIN-SUFFIX,foxnews.com
   - DOMAIN-SUFFIX,fr
   - DOMAIN-SUFFIX,freedownloadmanager.org
+  - DOMAIN-SUFFIX,freemacsoft.net
   - DOMAIN-SUFFIX,freepik.com
   - DOMAIN-SUFFIX,ft.com
   - DOMAIN-SUFFIX,fuq.com
@@ -457,6 +460,7 @@ payload:
   - DOMAIN-SUFFIX,ifixit.com
   - DOMAIN-SUFFIX,ifttt.com
   - DOMAIN-SUFFIX,iheart.com
+  - DOMAIN-SUFFIX,iina.io
   - DOMAIN-SUFFIX,iloveimg.com
   - DOMAIN-SUFFIX,imagefap.com
   - DOMAIN-SUFFIX,imagekit.io
@@ -558,6 +562,7 @@ payload:
   - DOMAIN-SUFFIX,m.me
   - DOMAIN-SUFFIX,macaddress.io
   - DOMAIN-SUFFIX,macpaw.com
+  - DOMAIN-SUFFIX,macupdate.com
   - DOMAIN-SUFFIX,madewithcode.com
   - DOMAIN-SUFFIX,majsoul.union-game.com
   - DOMAIN-SUFFIX,makerworld.com
@@ -1030,6 +1035,7 @@ payload:
   - DOMAIN-SUFFIX,xn--ngstr-lra8j.com
   - DOMAIN-SUFFIX,xnxx.com
   - DOMAIN-SUFFIX,xpressunblock.com
+  - DOMAIN-SUFFIX,xquartz.org
   - DOMAIN-SUFFIX,xvideos-cdn.com
   - DOMAIN-SUFFIX,xvideos.com
   - DOMAIN-SUFFIX,xxx
