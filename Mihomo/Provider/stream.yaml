@@ -1,10 +1,11 @@
-# 更新时间: 2025-06-22 08:49:04（北京时间）
-# 规则数量: 277
+# 更新时间: 2025-06-22 20:14:11（北京时间）
+# 规则数量: 278
 payload:
   - DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com
   - DOMAIN,4gtvfreepcvod-cds.cdn.hinet.net
   - DOMAIN,akmcdnoversea-tw.inter.ptqy.gitv.tv
   - DOMAIN,apm-misaka.biliapi.net
+  - DOMAIN,bbc.mp-pxcdn.com
   - DOMAIN,bcbolt446c5271-a.akamaihd.net
   - DOMAIN,cache.video.iqiyi.com
   - DOMAIN,cbsi.live.ott.irdeto.com
