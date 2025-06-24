@@ -1,5 +1,5 @@
-# 更新时间: 2025-06-23 20:17:11（北京时间）
-# 规则数量: 1054
+# 更新时间: 2025-06-24 08:43:52（北京时间）
+# 规则数量: 1056
 payload:
   - DOMAIN,ccmdl.adobe.com
   - DOMAIN,community.oneplus.com
@@ -470,6 +470,7 @@ payload:
   - DOMAIN-SUFFIX,imgur.com
   - DOMAIN-SUFFIX,imo.im
   - DOMAIN-SUFFIX,in
+  - DOMAIN-SUFFIX,indiegogo.com
   - DOMAIN-SUFFIX,influxdata.com
   - DOMAIN-SUFFIX,infoq.com
   - DOMAIN-SUFFIX,initiummall.com
@@ -817,6 +818,7 @@ payload:
   - DOMAIN-SUFFIX,signal.art
   - DOMAIN-SUFFIX,signal.org
   - DOMAIN-SUFFIX,signalusers.org
+  - DOMAIN-SUFFIX,silca.cc
   - DOMAIN-SUFFIX,sk
   - DOMAIN-SUFFIX,sketch.cloud
   - DOMAIN-SUFFIX,sketch.com
