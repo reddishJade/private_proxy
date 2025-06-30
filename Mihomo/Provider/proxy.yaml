@@ -1,5 +1,5 @@
-# 更新时间: 2025-06-30 08:47:31（北京时间）
-# 规则数量: 1056
+# 更新时间: 2025-06-30 20:16:29（北京时间）
+# 规则数量: 1058
 payload:
   - DOMAIN,ccmdl.adobe.com
   - DOMAIN,community.oneplus.com
@@ -367,6 +367,7 @@ payload:
   - DOMAIN-SUFFIX,ghostery.com
   - DOMAIN-SUFFIX,girlsgogames.com
   - DOMAIN-SUFFIX,git.io
+  - DOMAIN-SUFFIX,gitbook.com
   - DOMAIN-SUFFIX,gitbook.io
   - DOMAIN-SUFFIX,github.com
   - DOMAIN-SUFFIX,github.io
@@ -679,6 +680,7 @@ payload:
   - DOMAIN-SUFFIX,okcoin.com
   - DOMAIN-SUFFIX,okex.com
   - DOMAIN-SUFFIX,okx.com
+  - DOMAIN-SUFFIX,olympics.com
   - DOMAIN-SUFFIX,one
   - DOMAIN-SUFFIX,one.com
   - DOMAIN-SUFFIX,onepluscommunityserver.com
