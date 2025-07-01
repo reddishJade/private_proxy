@@ -1,5 +1,5 @@
-# 更新时间: 2025-06-30 20:16:28（北京时间）
-# 规则数量: 3743
+# 更新时间: 2025-07-01 08:51:13（北京时间）
+# 规则数量: 3745
 payload:
   - DOMAIN,0x0.st
   - DOMAIN,3dna.nationbuilder.com
@@ -506,6 +506,7 @@ payload:
   - DOMAIN,cdn.embed.ly
   - DOMAIN,cdn.embedly.com
   - DOMAIN,cdn.engagement.ai
+  - DOMAIN,cdn.episode.ninja
   - DOMAIN,cdn.equalweb.com
   - DOMAIN,cdn.equinix.com
   - DOMAIN,cdn.eu.contentful.com
@@ -3472,6 +3473,7 @@ payload:
   - DOMAIN-SUFFIX,readthedocs.io
   - DOMAIN-SUFFIX,reasoningtheory.net
   - DOMAIN-SUFFIX,recharts.org
+  - DOMAIN-SUFFIX,redcdn.net
   - DOMAIN-SUFFIX,redd.it
   - DOMAIN-SUFFIX,redditmedia.com
   - DOMAIN-SUFFIX,redditstatic.com
