@@ -1,4 +1,4 @@
-# 更新时间: 2025-07-07 08:48:02（北京时间）
+# 更新时间: 2025-07-07 20:16:30（北京时间）
 # 规则数量: 3752
 payload:
   - DOMAIN,0x0.st
@@ -360,6 +360,7 @@ payload:
   - DOMAIN,cc-embed.adobe.com
   - DOMAIN,cc.boyfriendtv.com
   - DOMAIN,cdn-1.ggjav.com
+  - DOMAIN,cdn-1.strava.com
   - DOMAIN,cdn-a.sonyentertainmentnetwork.com
   - DOMAIN,cdn-app.pathfactory.com
   - DOMAIN,cdn-assets.circleci.com
@@ -3291,7 +3292,6 @@ payload:
   - DOMAIN-SUFFIX,macysassets.com
   - DOMAIN-SUFFIX,makeuseofimages.com
   - DOMAIN-SUFFIX,mangadex.network
-  - DOMAIN-SUFFIX,mangguo-youku.com
   - DOMAIN-SUFFIX,mapi.4kvm.net
   - DOMAIN-SUFFIX,marketing.aws.dev
   - DOMAIN-SUFFIX,mcusercontent.com
