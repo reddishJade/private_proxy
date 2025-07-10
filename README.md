@@ -6,22 +6,14 @@
 
 ## 配置文件示例
 
-### 1. moe.yaml
-- 查看链接：[moe.yaml](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Full_Config/moe.yaml)
-- 基于 Sukka(skk.moe) 的配置
-- 参考：[我有特别的 Surge 配置和使用技巧](https://blog.skk.moe/post/i-have-my-unique-surge-setup/)
+查看链接：[mihomo.yaml](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Full_Config/mihomo.yaml)<br>
 
-### 2. win.yaml
-- 查看链接：[win.yaml](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Full_Config/win.yaml)
-- 基于 DustinWin 的配置
-- 参考：[ruleset_geodata](https://github.com/DustinWin/ruleset_geodata)
+参考：[我有特别的 Surge 配置和使用技巧](https://blog.skk.moe/post/i-have-my-unique-surge-setup/)<br>
 
-### 3. mihomo.yaml（推荐）
-- 查看链接：[mihomo.yaml](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Full_Config/mihomo.yaml)
-- 基于本项目规则合并工具生成的配置
-- 融合 Sukka 和 DustinWin 及其他优质规则提供者的规则
+参考：[ruleset_geodata](https://github.com/DustinWin/ruleset_geodata)
 
 ## 使用教程？
+
 [配置文件语法](https://wiki.metacubex.one/handbook/syntax/)   
 
 [配置文件说明](https://wiki.metacubex.one/config/)   
