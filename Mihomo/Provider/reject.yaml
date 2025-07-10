@@ -1,5 +1,5 @@
-# 更新时间: 2025-07-10 08:44:05（北京时间）
-# 规则数量: 84451
+# 更新时间: 2025-07-10 20:16:49（北京时间）
+# 规则数量: 84450
 payload:
   - DOMAIN,03.lzzncm.com
   - DOMAIN,04.lzzncm.com
@@ -1669,7 +1669,6 @@ payload:
   - DOMAIN,telemetry.sdk.inmobi.com
   - DOMAIN,ten.sngapm.qq.com
   - DOMAIN,tencent-dtv.m.cn.miaozhen.com
-  - DOMAIN,terms-drcn.platform.dbankcloud.cn
   - DOMAIN,test.ad.xiaomi.com
   - DOMAIN,test.api.xlmc.sandai.net
   - DOMAIN,test.ark.letv.com
