@@ -1,5 +1,5 @@
-# 更新时间: 2025-07-11 08:45:01（北京时间）
-# 规则数量: 1060
+# 更新时间: 2025-07-11 20:16:17（北京时间）
+# 规则数量: 1079
 payload:
   - DOMAIN,ccmdl.adobe.com
   - DOMAIN,community.oneplus.com
@@ -48,6 +48,7 @@ payload:
   - DOMAIN-SUFFIX,abc.com
   - DOMAIN-SUFFIX,abc.xyz
   - DOMAIN-SUFFIX,abebooks.com
+  - DOMAIN-SUFFIX,about.me
   - DOMAIN-SUFFIX,ac
   - DOMAIN-SUFFIX,accountkit.com
   - DOMAIN-SUFFIX,activated.win
@@ -124,6 +125,7 @@ payload:
   - DOMAIN-SUFFIX,bbc.com
   - DOMAIN-SUFFIX,bblmw.com
   - DOMAIN-SUFFIX,be
+  - DOMAIN-SUFFIX,beacondb.net
   - DOMAIN-SUFFIX,behance.net
   - DOMAIN-SUFFIX,bestbuy.com
   - DOMAIN-SUFFIX,bet365.com
@@ -294,6 +296,7 @@ payload:
   - DOMAIN-SUFFIX,elgoog.im
   - DOMAIN-SUFFIX,engadget.com
   - DOMAIN-SUFFIX,eporner.com
+  - DOMAIN-SUFFIX,ero-video.net
   - DOMAIN-SUFFIX,eroterest.net
   - DOMAIN-SUFFIX,es
   - DOMAIN-SUFFIX,etherscan.io
@@ -380,6 +383,7 @@ payload:
   - DOMAIN-SUFFIX,gitkraken.com
   - DOMAIN-SUFFIX,gitlab.com
   - DOMAIN-SUFFIX,gitlab.io
+  - DOMAIN-SUFFIX,gitlab.net
   - DOMAIN-SUFFIX,gl
   - DOMAIN-SUFFIX,gle
   - DOMAIN-SUFFIX,glitch.com
@@ -449,6 +453,7 @@ payload:
   - DOMAIN-SUFFIX,huobi.pro
   - DOMAIN-SUFFIX,hwinfo.com
   - DOMAIN-SUFFIX,hyvor.com
+  - DOMAIN-SUFFIX,iaea.org
   - DOMAIN-SUFFIX,iana.org
   - DOMAIN-SUFFIX,ibb.co
   - DOMAIN-SUFFIX,ibm.com
@@ -490,6 +495,7 @@ payload:
   - DOMAIN-SUFFIX,it
   - DOMAIN-SUFFIX,itasoftware.com
   - DOMAIN-SUFFIX,ixxx.com
+  - DOMAIN-SUFFIX,j.mp
   - DOMAIN-SUFFIX,jav.pw
   - DOMAIN-SUFFIX,java.com
   - DOMAIN-SUFFIX,javbus.com
@@ -516,11 +522,13 @@ payload:
   - DOMAIN-SUFFIX,kakao.com
   - DOMAIN-SUFFIX,kali.org
   - DOMAIN-SUFFIX,kde.org
+  - DOMAIN-SUFFIX,keycdn.com
   - DOMAIN-SUFFIX,kg
   - DOMAIN-SUFFIX,kick.com
   - DOMAIN-SUFFIX,kik.com
   - DOMAIN-SUFFIX,kinja.com
   - DOMAIN-SUFFIX,kisscos.net
+  - DOMAIN-SUFFIX,kknews.cc
   - DOMAIN-SUFFIX,ko-fi.com
   - DOMAIN-SUFFIX,kobo.com
   - DOMAIN-SUFFIX,komoot.com
@@ -579,6 +587,7 @@ payload:
   - DOMAIN-SUFFIX,md
   - DOMAIN-SUFFIX,medallia.com
   - DOMAIN-SUFFIX,mediafire.com
+  - DOMAIN-SUFFIX,mediawiki.org
   - DOMAIN-SUFFIX,medium.com
   - DOMAIN-SUFFIX,meetup.com
   - DOMAIN-SUFFIX,mega.io
@@ -686,6 +695,7 @@ payload:
   - DOMAIN-SUFFIX,one.com
   - DOMAIN-SUFFIX,onepluscommunityserver.com
   - DOMAIN-SUFFIX,opencollective.com
+  - DOMAIN-SUFFIX,openfreemap.org
   - DOMAIN-SUFFIX,opensea.io
   - DOMAIN-SUFFIX,openstreetmap.org
   - DOMAIN-SUFFIX,opentable.com
@@ -727,8 +737,10 @@ payload:
   - DOMAIN-SUFFIX,polymer-project.org
   - DOMAIN-SUFFIX,porn.com
   - DOMAIN-SUFFIX,porngo.com
+  - DOMAIN-SUFFIX,pornhd.com
   - DOMAIN-SUFFIX,pornhub.com
   - DOMAIN-SUFFIX,pornhub.org
+  - DOMAIN-SUFFIX,pornmd.com
   - DOMAIN-SUFFIX,pornoxo.com
   - DOMAIN-SUFFIX,pornpics.com
   - DOMAIN-SUFFIX,porntrex.com
@@ -807,6 +819,7 @@ payload:
   - DOMAIN-SUFFIX,serverfault.com
   - DOMAIN-SUFFIX,serviporno.com
   - DOMAIN-SUFFIX,setapp.com
+  - DOMAIN-SUFFIX,sex
   - DOMAIN-SUFFIX,sex.com
   - DOMAIN-SUFFIX,sf.net
   - DOMAIN-SUFFIX,sfmcompile.club
@@ -837,6 +850,7 @@ payload:
   - DOMAIN-SUFFIX,snapchat.com
   - DOMAIN-SUFFIX,snapkit.co
   - DOMAIN-SUFFIX,social
+  - DOMAIN-SUFFIX,softonic.cn
   - DOMAIN-SUFFIX,softonic.com
   - DOMAIN-SUFFIX,sony.net
   - DOMAIN-SUFFIX,sophos.com
@@ -877,7 +891,9 @@ payload:
   - DOMAIN-SUFFIX,t.co
   - DOMAIN-SUFFIX,t66y.com
   - DOMAIN-SUFFIX,tailwindcss.com
+  - DOMAIN-SUFFIX,taipei
   - DOMAIN-SUFFIX,talkcc.com
+  - DOMAIN-SUFFIX,techspot.com
   - DOMAIN-SUFFIX,tenor.com
   - DOMAIN-SUFFIX,tensorflow.org
   - DOMAIN-SUFFIX,terabox.com
@@ -983,6 +999,7 @@ payload:
   - DOMAIN-SUFFIX,washingtonpost.com
   - DOMAIN-SUFFIX,watch
   - DOMAIN-SUFFIX,waveprotocol.org
+  - DOMAIN-SUFFIX,waybackmachine.org
   - DOMAIN-SUFFIX,waymo.com
   - DOMAIN-SUFFIX,waze.com
   - DOMAIN-SUFFIX,wdfiles.com
@@ -999,6 +1016,7 @@ payload:
   - DOMAIN-SUFFIX,whoer.net
   - DOMAIN-SUFFIX,widevine.com
   - DOMAIN-SUFFIX,wikawika.xyz
+  - DOMAIN-SUFFIX,wiki2.org
   - DOMAIN-SUFFIX,wikibooks.org
   - DOMAIN-SUFFIX,wikidata.org
   - DOMAIN-SUFFIX,wikidot.com
@@ -1018,6 +1036,7 @@ payload:
   - DOMAIN-SUFFIX,wireguard.com
   - DOMAIN-SUFFIX,wireshark.org
   - DOMAIN-SUFFIX,wix.com
+  - DOMAIN-SUFFIX,wmfusercontent.org
   - DOMAIN-SUFFIX,wnacg.com
   - DOMAIN-SUFFIX,wordpress.com
   - DOMAIN-SUFFIX,wordpress.org
