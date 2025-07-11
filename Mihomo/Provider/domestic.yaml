@@ -1,5 +1,5 @@
-# 更新时间: 2025-07-10 20:16:54（北京时间）
-# 规则数量: 798
+# 更新时间: 2025-07-11 08:45:01（北京时间）
+# 规则数量: 801
 payload:
   - DOMAIN,acg.tv
   - DOMAIN,assets1.xboxlive.cn
@@ -74,6 +74,7 @@ payload:
   - DOMAIN-SUFFIX,36krcdn.com
   - DOMAIN-SUFFIX,39.net
   - DOMAIN-SUFFIX,3dmgame.com
+  - DOMAIN-SUFFIX,4008823823.com
   - DOMAIN-SUFFIX,4399.com
   - DOMAIN-SUFFIX,51cto.com
   - DOMAIN-SUFFIX,51ctocdn.cn
@@ -394,6 +395,7 @@ payload:
   - DOMAIN-SUFFIX,hwccpc.com
   - DOMAIN-SUFFIX,hwht.com
   - DOMAIN-SUFFIX,hwtrip.com
+  - DOMAIN-SUFFIX,hwwt8.com
   - DOMAIN-SUFFIX,ialicdn.com
   - DOMAIN-SUFFIX,ibreader.com
   - DOMAIN-SUFFIX,ibuscloud.com
@@ -440,6 +442,7 @@ payload:
   - DOMAIN-SUFFIX,kaiyanapp.com
   - DOMAIN-SUFFIX,kdslife.com
   - DOMAIN-SUFFIX,keepcdn.com
+  - DOMAIN-SUFFIX,kfcapp.cn
   - DOMAIN-SUFFIX,kingsoft-office-service.com
   - DOMAIN-SUFFIX,kkmh.com
   - DOMAIN-SUFFIX,klook.com
