@@ -1,5 +1,5 @@
-# 更新时间: 2025-07-20 20:15:32（北京时间）
-# 规则数量: 1079
+# 更新时间: 2025-07-21 08:50:52（北京时间）
+# 规则数量: 1080
 payload:
   - DOMAIN,ccmdl.adobe.com
   - DOMAIN,community.oneplus.com
@@ -808,6 +808,7 @@ payload:
   - DOMAIN-SUFFIX,sb
   - DOMAIN-SUFFIX,sc-cdn.net
   - DOMAIN-SUFFIX,schema.org
+  - DOMAIN-SUFFIX,scp-wiki.com
   - DOMAIN-SUFFIX,scp-wiki.net
   - DOMAIN-SUFFIX,scpdb.org
   - DOMAIN-SUFFIX,scpwiki.com

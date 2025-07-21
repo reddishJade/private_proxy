@@ -1,5 +1,5 @@
-# 更新时间: 2025-07-20 20:15:32（北京时间）
-# 规则数量: 1175
+# 更新时间: 2025-07-21 08:50:52（北京时间）
+# 规则数量: 1177
 payload:
   - DOMAIN,addins.deepl.com
   - DOMAIN,amupdatedl.microsoft.com
@@ -623,6 +623,8 @@ payload:
   - DOMAIN,registry.fedoraproject.org
   - DOMAIN,registry.npmjs.com
   - DOMAIN,registry.npmjs.org
+  - DOMAIN,registry.terraform.io
+  - DOMAIN,release-assets.githubusercontent.com
   - DOMAIN,release.runcloud.io
   - DOMAIN,releases.arc.net
   - DOMAIN,releases.grapheneos.org
