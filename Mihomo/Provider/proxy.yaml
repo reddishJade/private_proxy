@@ -1,5 +1,5 @@
-# 更新时间: 2025-07-21 08:50:52（北京时间）
-# 规则数量: 1080
+# 更新时间: 2025-07-21 20:18:13（北京时间）
+# 规则数量: 1081
 payload:
   - DOMAIN,ccmdl.adobe.com
   - DOMAIN,community.oneplus.com
@@ -1021,6 +1021,7 @@ payload:
   - DOMAIN-SUFFIX,wikibooks.org
   - DOMAIN-SUFFIX,wikidata.org
   - DOMAIN-SUFFIX,wikidot.com
+  - DOMAIN-SUFFIX,wikihow.com
   - DOMAIN-SUFFIX,wikileaks.org
   - DOMAIN-SUFFIX,wikimedia.org
   - DOMAIN-SUFFIX,wikinews.org
