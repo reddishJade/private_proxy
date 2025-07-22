@@ -53,11 +53,11 @@
   format: yaml
   behavior: classical
   upstream:
-    # skk_reject_ip:
-    #   type: http
-    #   url: "https://ruleset.skk.moe/Clash/ip/reject.txt"
-    #   format: txt
-    #   behavior: ipcidr
+    skk_reject_ip:
+      type: http
+      url: "https://ruleset.skk.moe/Clash/ip/reject.txt"
+      format: txt
+      behavior: ipcidr
 
 - path: output/direct.yaml
   format: yaml
@@ -229,7 +229,7 @@
       type: http
       url: "https://ruleset.skk.moe/Clash/non_ip/stream.txt"
       format: txt
-      behavior: domain
+      behavior: classical
 
     # bilibili_hmt:
     #   type: http
@@ -261,7 +261,7 @@
       type: http
       url: "https://ruleset.skk.moe/Clash/non_ip/telegram.txt"
       format: txt
-      behavior: domain
+      behavior: classical
         
 - path: output/telegram@ip.yaml
   format: yaml
@@ -287,7 +287,7 @@
       type: http
       url: "https://ruleset.skk.moe/Clash/non_ip/global.txt"
       format: txt
-      behavior: domain
+      behavior: classical
 
     dler_proxy:
       type: http
@@ -325,7 +325,7 @@
       type: http
       url: "https://ruleset.skk.moe/Clash/non_ip/domestic.txt"
       format: txt
-      behavior: domain
+      behavior: classical
 
     dler_dom_ip:
       type: http
