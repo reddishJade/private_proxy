@@ -1,5 +1,5 @@
-# 更新时间: 2025-07-21 20:18:12（北京时间）
-# 规则数量: 3762
+# 更新时间: 2025-07-22 08:46:20（北京时间）
+# 规则数量: 3763
 payload:
   - DOMAIN,0x0.st
   - DOMAIN,3dna.nationbuilder.com
@@ -3589,6 +3589,7 @@ payload:
   - DOMAIN-SUFFIX,statuspage.io
   - DOMAIN-SUFFIX,steamstatic.com
   - DOMAIN-SUFFIX,steamusercontent.com
+  - DOMAIN-SUFFIX,steemitimages.com
   - DOMAIN-SUFFIX,sthlstatic.com
   - DOMAIN-SUFFIX,storage.cloudconvert.com
   - DOMAIN-SUFFIX,storage.googleapis.com
