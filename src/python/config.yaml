@@ -2,35 +2,40 @@
   format: yaml
   behavior: classical
   upstream:
-    skk_reject-no-drop:
-      type: http
-      url: "https://ruleset.skk.moe/Clash/non_ip/reject-no-drop.txt"
-      format: txt
-      behavior: domain
+    # skk_reject-no-drop:
+    #   type: http
+    #   url: "https://ruleset.skk.moe/Clash/non_ip/reject-no-drop.txt"
+    #   format: txt
+    #   behavior: domain
 
-    skk_reject-drop:
-      type: http
-      url: "https://ruleset.skk.moe/Clash/non_ip/reject-drop.txt"
-      format: txt
-      behavior: domain
+    # skk_reject-drop:
+    #   type: http
+    #   url: "https://ruleset.skk.moe/Clash/non_ip/reject-drop.txt"
+    #   format: txt
+    #   behavior: domain
 
-    skk_reject_nop_ip:
-      type: http
-      url: "https://ruleset.skk.moe/Clash/non_ip/reject.txt"
-      format: txt
-      behavior: domain
+    # skk_reject_nop_ip:
+    #   type: http
+    #   url: "https://ruleset.skk.moe/Clash/non_ip/reject.txt"
+    #   format: txt
+    #   behavior: domain
 
-    skk_reject_domain:
-      type: http
-      url: "https://ruleset.skk.moe/Clash/domainset/reject.txt"
-      format: txt
-      behavior: domain
+    # skk_reject_domain:
+    #   type: http
+    #   url: "https://ruleset.skk.moe/Clash/domainset/reject.txt"
+    #   format: txt
+    #   behavior: domain
 
     # xndeye_reject:
     #   type: http
     #   url: "https://cdn.jsdelivr.net/gh/xndeye/adblock_list@beta/rule/clash.yaml"
     #   format: yaml
     #   behavior: domain
+    dler_ad:
+      type: http
+      url: "https://cdn.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/AdBlock.yaml"
+      format: yaml
+      behavior: classical
 
     AWAvenue:
       type: http
@@ -38,37 +43,43 @@
       format: yaml
       behavior: domain
 
-    d3ward:
-      type: http
-      url: "https://cdn.jsdelivr.net/gh/reddishJade/private_proxy@refs/heads/main/src/ads.txt"
-      format: txt
-      behavior: domain
+    # d3ward:
+    #   type: http
+    #   url: "https://cdn.jsdelivr.net/gh/reddishJade/private_proxy@refs/heads/main/src/ads.txt"
+    #   format: txt
+    #   behavior: domain
 
 - path: output/reject@ip.yaml
   format: yaml
   behavior: classical
   upstream:
-    skk_reject_ip:
-      type: http
-      url: "https://ruleset.skk.moe/Clash/ip/reject.txt"
-      format: txt
-      behavior: classical
+    # skk_reject_ip:
+    #   type: http
+    #   url: "https://ruleset.skk.moe/Clash/ip/reject.txt"
+    #   format: txt
+    #   behavior: ipcidr
 
 - path: output/direct.yaml
   format: yaml
   behavior: classical
   upstream:
-    Loyalsoldier_applications:
-      type: http
-      url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@refs/heads/release/applications.txt"
-      format: yaml
-      behavior: classical
+    # Loyalsoldier_applications:
+    #   type: http
+    #   url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@refs/heads/release/applications.txt"
+    #   format: yaml
+    #   behavior: classical
     
     skk_direct:
       type: http
       url: "https://ruleset.skk.moe/Clash/non_ip/direct.txt"
       format: txt
       behavior: classical
+
+    dler_scholar:
+      type: http
+      url: "https://cdn.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/Scholar.yaml"
+      format: yaml
+      behavior: domain
 
     # dler_special:
     #   type: http
@@ -96,7 +107,7 @@
       type: http
       url: "https://ruleset.skk.moe/Clash/non_ip/apple_cn.txt"
       format: txt
-      behavior: classical
+      behavior: domain
 
     skk_apple_cdn:
       type: http
@@ -161,13 +172,13 @@
       url: "https://ruleset.skk.moe/Clash/domainset/cdn.txt"
       format: txt
       behavior: domain
-    
+
     skk_cdn_non_ip:
       type: http
       url: "https://ruleset.skk.moe/Clash/non_ip/cdn.txt"
       format: txt
       behavior: classical
-    
+
 - path: output/cdn@ip.yaml
   format: yaml
   behavior: classical
@@ -176,8 +187,8 @@
       type: http
       url: "https://ruleset.skk.moe/Clash/ip/cdn.txt"
       format: txt
-      behavior: classical
-    
+      behavior: ipcidr
+
 - path: output/download.yaml
   format: yaml
   behavior: classical
@@ -187,13 +198,13 @@
       url: "https://ruleset.skk.moe/Clash/domainset/download.txt"
       format: txt
       behavior: domain
-    
+
     skk_download_non_ip:
       type: http
       url: "https://ruleset.skk.moe/Clash/non_ip/download.txt"
       format: txt
       behavior: classical
-        
+
     # ios_download:
     #   type: http
     #   url: "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Download/Download.yaml"
@@ -208,7 +219,7 @@
       type: http
       url: "https://ruleset.skk.moe/Clash/ip/download.txt"
       format: txt
-      behavior: classical
+      behavior: ipcidr
     
 - path: output/stream.yaml
   format: yaml
@@ -218,7 +229,8 @@
       type: http
       url: "https://ruleset.skk.moe/Clash/non_ip/stream.txt"
       format: txt
-      behavior: classical
+      behavior: domain
+
     # bilibili_hmt:
     #   type: http
     #   url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/BilibiliHMT.list"
@@ -233,7 +245,8 @@
       type: http
       url: "https://ruleset.skk.moe/Clash/ip/stream.txt"
       format: txt
-      behavior: classical
+      behavior: ipcidr
+
     # bilibili_hmt:
     #   type: http
     #   url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/BilibiliHMT.list"
@@ -248,7 +261,7 @@
       type: http
       url: "https://ruleset.skk.moe/Clash/non_ip/telegram.txt"
       format: txt
-      behavior: classical
+      behavior: domain
         
 - path: output/telegram@ip.yaml
   format: yaml
@@ -258,7 +271,7 @@
       type: http
       url: "https://ruleset.skk.moe/Clash/ip/telegram.txt"
       format: txt
-      behavior: classical
+      behavior: ipcidr
           
 - path: output/proxy.yaml
   format: yaml
@@ -274,7 +287,13 @@
       type: http
       url: "https://ruleset.skk.moe/Clash/non_ip/global.txt"
       format: txt
-      behavior: classical
+      behavior: domain
+
+    dler_proxy:
+      type: http
+      url: "https://cdn.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/Proxy.yaml"
+      format: yaml
+      behavior: domain
 
 # - path: output/proxy@ip.yaml
 #   format: yaml
@@ -306,7 +325,13 @@
       type: http
       url: "https://ruleset.skk.moe/Clash/non_ip/domestic.txt"
       format: txt
-      behavior: classical
+      behavior: domain
+
+    dler_dom_ip:
+      type: http
+      url: "https://cdn.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/Domestic.yaml"
+      format: yaml
+      behavior: domain
 
 - path: output/domestic@ip.yaml
   format: yaml
@@ -322,12 +347,18 @@
       type: http
       url: "https://ruleset.skk.moe/Clash/ip/domestic.txt"
       format: txt
-      behavior: classical
+      behavior: ipcidr
 
     skk_china_ip:
       type: http
       url: "https://ruleset.skk.moe/Clash/ip/china_ip.txt"
       format: txt
+      behavior: ipcidr
+
+    dler_dom_ip:
+      type: http
+      url: "https://cdn.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/Domestic%20IPs.yaml"
+      format: yaml
       behavior: ipcidr
 
 - path: output/private.yaml
