@@ -1,10 +1,9 @@
-# 更新时间: 2025-07-23 11:22:02（北京时间）
-# 规则数量: 3764
+# 更新时间: 2025-07-23 14:29:36（北京时间）
+# 规则数量: 3761
 payload:
   - DOMAIN,0x0.st
   - DOMAIN,3dna.nationbuilder.com
   - DOMAIN,4gtvimg2.4gtv.tv
-  - DOMAIN,7h1s_rul35et_i5_mad3_by_5ukk4w-ruleset.skk.moe
   - DOMAIN,a-cdn.anthropic.com
   - DOMAIN,a.deviantart.net
   - DOMAIN,a.fireside.fm
@@ -2696,7 +2695,6 @@ payload:
   - DOMAIN-REGEX,^object-storage-[\w.-]*?\.vexxhost\.net$
   - DOMAIN-REGEX,^ocsp\.[\w.-]*?\.amazontrust\.com$
   - DOMAIN-REGEX,^proxy-[\w.-]*?\.dailymotion\.com$
-  - DOMAIN-REGEX,^rr[\w.-]---[\w.-][\w.-]\.ouo\.si$
   - DOMAIN-REGEX,^s3-[\w.-]*?\.figma\.com$
   - DOMAIN-REGEX,^s3\.[\w.-]*?\.wasabisys\.com$
   - DOMAIN-REGEX,^s[\w.-]*?\.hanime1$
@@ -3405,7 +3403,6 @@ payload:
   - DOMAIN-SUFFIX,pastebin.com
   - DOMAIN-SUFFIX,patientpop.com
   - DOMAIN-SUFFIX,patreonusercontent.com
-  - DOMAIN-SUFFIX,payloadcms.app
   - DOMAIN-SUFFIX,pcdn.co
   - DOMAIN-SUFFIX,permaweb.eu.org
   - DOMAIN-SUFFIX,permaweb.io

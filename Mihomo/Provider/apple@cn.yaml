@@ -1,7 +1,6 @@
-# 更新时间: 2025-07-23 11:21:59（北京时间）
-# 规则数量: 209
+# 更新时间: 2025-07-23 14:29:33（北京时间）
+# 规则数量: 198
 payload:
-  - DOMAIN,7h1s_rul35et_i5_mad3_by_5ukk4w-ruleset.skk.moe
   - DOMAIN,api.smoot.apple.cn
   - DOMAIN,gs-loc-cn.apple.com
   - DOMAIN-SUFFIX,a1.mzstatic.com
@@ -200,13 +199,3 @@ payload:
   - DOMAIN-SUFFIX,www.apple.com.edgekey.net
   - DOMAIN-SUFFIX,www.apple.com.edgekey.net.globalredir.akadns.net
   - DOMAIN-SUFFIX,xp.apple.com
-  - PROCESS-NAME,CoreLocationAgent
-  - PROCESS-NAME,WeatherWidget
-  - PROCESS-NAME,apsd
-  - PROCESS-NAME,com.apple.Maps
-  - PROCESS-NAME,com.apple.geod
-  - PROCESS-NAME,findmydevice-user-agent
-  - PROCESS-NAME,fmfd
-  - PROCESS-NAME,mapspushd
-  - PROCESS-NAME,netbiosd
-  - PROCESS-NAME,trustd
