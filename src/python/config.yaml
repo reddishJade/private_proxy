@@ -51,6 +51,11 @@
       url: "https://ruleset.skk.moe/Clash/ip/reject.txt"
       format: txt
       behavior: ipcidr
+    dler_ad:
+      type: http
+      url: "https://cdn.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/AdBlock.yaml"
+      format: yaml
+      behavior: classical
 - path: output/direct.yaml
   format: yaml
   behavior: domain
@@ -246,7 +251,7 @@
       type: http
       url: "https://cdn.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/Proxy.yaml"
       format: yaml
-      behavior: domain
+      behavior: classical
 # - path: output/proxy@ip.yaml
 #   format: yaml
 #   behavior: classical
