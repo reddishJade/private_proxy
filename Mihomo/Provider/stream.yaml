@@ -1,5 +1,5 @@
-# 更新时间: 2025-07-23 11:22:03（北京时间）
-# 规则数量: 278
+# 更新时间: 2025-07-23 14:29:38（北京时间）
+# 规则数量: 264
 payload:
   - DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com
   - DOMAIN,4gtvfreepcvod-cds.cdn.hinet.net
@@ -265,17 +265,3 @@ payload:
   - DOMAIN-SUFFIX,youtubeeducation.com
   - DOMAIN-SUFFIX,youtubegaming.com
   - DOMAIN-SUFFIX,youtubekids.com
-  - PROCESS-NAME,com.amazon.avod.thirdpartyclient
-  - PROCESS-NAME,com.bstar.intl
-  - PROCESS-NAME,com.hktve.viutv
-  - PROCESS-NAME,com.hulu.plus
-  - PROCESS-NAME,com.linecorp.linetv
-  - PROCESS-NAME,com.netflix.mediaclient
-  - PROCESS-NAME,com.tencent.ibg.joox
-  - PROCESS-NAME,com.twgood.android
-  - PROCESS-NAME,com.viu.pad
-  - PROCESS-NAME,com.viu.phone
-  - PROCESS-NAME,com.vuclip.viu
-  - PROCESS-NAME,music
-  - PROCESS-NAME,tv
-  - PROCESS-NAME,tv.twitch.android.app

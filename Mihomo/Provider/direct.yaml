@@ -1,5 +1,5 @@
-# 更新时间: 2025-07-23 11:21:59（北京时间）
-# 规则数量: 212
+# 更新时间: 2025-07-23 14:29:33（北京时间）
+# 规则数量: 237
 payload:
   - DOMAIN,aterm.me
   - DOMAIN,captive.apple.com
@@ -47,11 +47,20 @@ payload:
   - DOMAIN-SUFFIX,52pt.site
   - DOMAIN-SUFFIX,acg.rip
   - DOMAIN-SUFFIX,acm.org
+  - DOMAIN-SUFFIX,acs.org
   - DOMAIN-SUFFIX,aidoru-online.me
+  - DOMAIN-SUFFIX,aip.org
   - DOMAIN-SUFFIX,alpharatio.cc
+  - DOMAIN-SUFFIX,ams.org
   - DOMAIN-SUFFIX,animebytes.tv
+  - DOMAIN-SUFFIX,annualreviews.org
   - DOMAIN-SUFFIX,anthelion.me
+  - DOMAIN-SUFFIX,aps.org
+  - DOMAIN-SUFFIX,ascelibrary.org
   - DOMAIN-SUFFIX,asiancinema.me
+  - DOMAIN-SUFFIX,asm.org
+  - DOMAIN-SUFFIX,asme.org
+  - DOMAIN-SUFFIX,astm.org
   - DOMAIN-SUFFIX,asusrouter.com
   - DOMAIN-SUFFIX,avgv.cc
   - DOMAIN-SUFFIX,avistaz.to
@@ -61,27 +70,40 @@ payload:
   - DOMAIN-SUFFIX,bibliotik.me
   - DOMAIN-SUFFIX,blackwell-synergy.com
   - DOMAIN-SUFFIX,blutopia.xyz
+  - DOMAIN-SUFFIX,bmj.com
   - DOMAIN-SUFFIX,bogon
   - DOMAIN-SUFFIX,broadcasthe.net
   - DOMAIN-SUFFIX,bt.byr.cn
   - DOMAIN-SUFFIX,bt.neu6.edu.cn
   - DOMAIN-SUFFIX,btschool.club
   - DOMAIN-SUFFIX,cabdirect.org
+  - DOMAIN-SUFFIX,cambridge.org
+  - DOMAIN-SUFFIX,cas.org
   - DOMAIN-SUFFIX,ccfbits.org
+  - DOMAIN-SUFFIX,cell.com
   - DOMAIN-SUFFIX,cgpeers.com
   - DOMAIN-SUFFIX,chdbits.co
   - DOMAIN-SUFFIX,cinemageddon.net
   - DOMAIN-SUFFIX,cinematik.net
   - DOMAIN-SUFFIX,cinemaz.to
+  - DOMAIN-SUFFIX,clarivate.com
   - DOMAIN-SUFFIX,classix-unlimited.co.uk
   - DOMAIN-SUFFIX,comicat.org
   - DOMAIN-SUFFIX,concertos.live
+  - DOMAIN-SUFFIX,csiro.au
+  - DOMAIN-SUFFIX,deepdyve.com
   - DOMAIN-SUFFIX,dicmusic.club
   - DOMAIN-SUFFIX,discfan.net
   - DOMAIN-SUFFIX,doi.org
   - DOMAIN-SUFFIX,dxdhd.com
   - DOMAIN-SUFFIX,eastgame.org
+  - DOMAIN-SUFFIX,ebscohost.com
+  - DOMAIN-SUFFIX,els-cdn.com
+  - DOMAIN-SUFFIX,elsevier.com
+  - DOMAIN-SUFFIX,emerald.com
   - DOMAIN-SUFFIX,empornium.me
+  - DOMAIN-SUFFIX,endnote.com
+  - DOMAIN-SUFFIX,engineeringvillage.com
   - DOMAIN-SUFFIX,et8.org
   - DOMAIN-SUFFIX,exoticaz.to
   - DOMAIN-SUFFIX,filelist.io
@@ -111,58 +133,91 @@ payload:
   - DOMAIN-SUFFIX,huaweimobilewifi.com
   - DOMAIN-SUFFIX,hudbt.hust.edu.cn
   - DOMAIN-SUFFIX,icetorrent.org
+  - DOMAIN-SUFFIX,icevirtuallibrary.com
   - DOMAIN-SUFFIX,ieee.org
+  - DOMAIN-SUFFIX,imf.org
   - DOMAIN-SUFFIX,internal
+  - DOMAIN-SUFFIX,iop.org
   - DOMAIN-SUFFIX,j99.info
+  - DOMAIN-SUFFIX,jamanetwork.com
+  - DOMAIN-SUFFIX,jbc.org
+  - DOMAIN-SUFFIX,jhu.edu
   - DOMAIN-SUFFIX,joyhd.net
   - DOMAIN-SUFFIX,jpopsuki.eu
   - DOMAIN-SUFFIX,jstor.org
   - DOMAIN-SUFFIX,karagarga.in
+  - DOMAIN-SUFFIX,karger.com
   - DOMAIN-SUFFIX,keepfrds.com
   - DOMAIN-SUFFIX,lan
   - DOMAIN-SUFFIX,leaguehd.com
+  - DOMAIN-SUFFIX,libguides.com
+  - DOMAIN-SUFFIX,liebertpub.com
   - DOMAIN-SUFFIX,local
   - DOMAIN-SUFFIX,localdomain
   - DOMAIN-SUFFIX,lztr.me
   - DOMAIN-SUFFIX,m-team.cc
   - DOMAIN-SUFFIX,m2m
   - DOMAIN-SUFFIX,madsrevolution.net
+  - DOMAIN-SUFFIX,mdpi.com
   - DOMAIN-SUFFIX,moecat.best
+  - DOMAIN-SUFFIX,mpg.de
   - DOMAIN-SUFFIX,msg.vg
   - DOMAIN-SUFFIX,myanonamouse.net
+  - DOMAIN-SUFFIX,myilibrary.com
   - DOMAIN-SUFFIX,nanyangpt.com
   - DOMAIN-SUFFIX,nature.com
+  - DOMAIN-SUFFIX,ncbi.nlm.nih.gov
   - DOMAIN-SUFFIX,ncore.cc
   - DOMAIN-SUFFIX,nebulance.io
   - DOMAIN-SUFFIX,nicept.net
   - DOMAIN-SUFFIX,npupt.com
+  - DOMAIN-SUFFIX,oecd-ilibrary.org
   - DOMAIN-SUFFIX,open.cd
   - DOMAIN-SUFFIX,oppaiti.me
   - DOMAIN-SUFFIX,orpheus.network
   - DOMAIN-SUFFIX,osapublishing.org
   - DOMAIN-SUFFIX,oup.com
   - DOMAIN-SUFFIX,ourbits.club
+  - DOMAIN-SUFFIX,ovid.com
+  - DOMAIN-SUFFIX,oxfordartonline.com
+  - DOMAIN-SUFFIX,oxfordbibliographies.com
+  - DOMAIN-SUFFIX,oxfordmusiconline.com
   - DOMAIN-SUFFIX,passthepopcorn.me
   - DOMAIN-SUFFIX,plex.direct
+  - DOMAIN-SUFFIX,pnas.org
   - DOMAIN-SUFFIX,pornbits.net
   - DOMAIN-SUFFIX,privatehd.to
+  - DOMAIN-SUFFIX,proquest.com
   - DOMAIN-SUFFIX,pterclub.com
   - DOMAIN-SUFFIX,pthome.net
   - DOMAIN-SUFFIX,ptsbao.club
+  - DOMAIN-SUFFIX,readcube.com
   - DOMAIN-SUFFIX,redacted.ch
   - DOMAIN-SUFFIX,researchgate.net
   - DOMAIN-SUFFIX,router
   - DOMAIN-SUFFIX,routerlogin.com
   - DOMAIN-SUFFIX,routerlogin.net
+  - DOMAIN-SUFFIX,royalsocietypublishing.org
+  - DOMAIN-SUFFIX,rsc.org
+  - DOMAIN-SUFFIX,sagepub.com
+  - DOMAIN-SUFFIX,sci-hub.tw
+  - DOMAIN-SUFFIX,science.org
+  - DOMAIN-SUFFIX,sciencedirect.com
   - DOMAIN-SUFFIX,sciencemag.org
+  - DOMAIN-SUFFIX,scitation.org
   - DOMAIN-SUFFIX,scopus.com
   - DOMAIN-SUFFIX,sdbits.org
   - DOMAIN-SUFFIX,securelogin.com.cn
+  - DOMAIN-SUFFIX,semanticscholar.org
+  - DOMAIN-SUFFIX,siam.org
   - DOMAIN-SUFFIX,skyey2.com
   - DOMAIN-SUFFIX,soulvoice.club
+  - DOMAIN-SUFFIX,spiedigitallibrary.org
   - DOMAIN-SUFFIX,springer.com
+  - DOMAIN-SUFFIX,springerlink.com
   - DOMAIN-SUFFIX,springernature.com
   - DOMAIN-SUFFIX,springsunday.net
+  - DOMAIN-SUFFIX,tandfonline.com
   - DOMAIN-SUFFIX,tjupt.org
   - DOMAIN-SUFFIX,totheglory.im
   - DOMAIN-SUFFIX,tplinkap.net
@@ -175,41 +230,11 @@ payload:
   - DOMAIN-SUFFIX,u2.dmhy.org
   - DOMAIN-SUFFIX,uhdbits.org
   - DOMAIN-SUFFIX,ui.direct
+  - DOMAIN-SUFFIX,un.org
+  - DOMAIN-SUFFIX,uni-bielefeld.de
+  - DOMAIN-SUFFIX,webofknowledge.com
+  - DOMAIN-SUFFIX,westlaw.com
   - DOMAIN-SUFFIX,wiley.com
+  - DOMAIN-SUFFIX,worldbank.org
+  - DOMAIN-SUFFIX,worldscientific.com
   - DOMAIN-SUFFIX,xunlei.com
-  - PROCESS-NAME,BaiduNetdisk_mac
-  - PROCESS-NAME,BitComet
-  - PROCESS-NAME,ClashX
-  - PROCESS-NAME,DownloadService
-  - PROCESS-NAME,Folx
-  - PROCESS-NAME,LocalSend
-  - PROCESS-NAME,Logi Options
-  - PROCESS-NAME,Logi Options Daemon
-  - PROCESS-NAME,NetTransport
-  - PROCESS-NAME,SunloginClient_Desktop
-  - PROCESS-NAME,SunloginClient_Helper
-  - PROCESS-NAME,Thunder
-  - PROCESS-NAME,ThunderVIP
-  - PROCESS-NAME,Transmission
-  - PROCESS-NAME,UUBooster
-  - PROCESS-NAME,WebTorrent
-  - PROCESS-NAME,WebTorrent Helper
-  - PROCESS-NAME,amuled
-  - PROCESS-NAME,aria2c
-  - PROCESS-NAME,clash
-  - PROCESS-NAME,cloudflared
-  - PROCESS-NAME,fdm
-  - PROCESS-NAME,parsecd
-  - PROCESS-NAME,privoxy
-  - PROCESS-NAME,qBittorrent
-  - PROCESS-NAME,qbittorrent*
-  - PROCESS-NAME,qbittorrent-nox
-  - PROCESS-NAME,ss-local
-  - PROCESS-NAME,tailscaled
-  - PROCESS-NAME,transmission-daemon
-  - PROCESS-NAME,transmission-qt
-  - PROCESS-NAME,trojan
-  - PROCESS-NAME,trojan-go
-  - PROCESS-NAME,uTorrent
-  - PROCESS-NAME,v2ray
-  - PROCESS-NAME,xray

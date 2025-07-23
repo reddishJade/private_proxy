@@ -1,5 +1,5 @@
-# 更新时间: 2025-07-23 11:22:05（北京时间）
-# 规则数量: 964
+# 更新时间: 2025-07-23 14:29:40（北京时间）
+# 规则数量: 954
 payload:
   - DOMAIN,acg.tv
   - DOMAIN,assets1.xboxlive.cn
@@ -955,13 +955,3 @@ payload:
   - DOMAIN-SUFFIX,zui.com
   - DOMAIN-SUFFIX,zuimeitianqi.com
   - DOMAIN-SUFFIX,zuoyebang.com
-  - IP-CIDR,1.255.62.0/24,no-resolve
-  - IP-CIDR,182.254.116.0/24,no-resolve
-  - IP-CIDR,185.188.32.0/24,no-resolve
-  - IP-CIDR,185.188.33.0/24,no-resolve
-  - IP-CIDR,185.188.34.0/24,no-resolve
-  - IP-CIDR,185.188.35.0/24,no-resolve
-  - IP-CIDR6,2a0b:b580::/48,no-resolve
-  - IP-CIDR6,2a0b:b581::/48,no-resolve
-  - IP-CIDR6,2a0b:b582::/48,no-resolve
-  - IP-CIDR6,2a0b:b583::/48,no-resolve

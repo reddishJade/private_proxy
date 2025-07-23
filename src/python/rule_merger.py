@@ -77,11 +77,26 @@ class RuleValidator:
     def validate_classical_rule(self, rule: str) -> Optional[str]:
         """验证经典格式规则"""
         try:
+            # 如果规则不包含逗号，可能是纯域名或IP格式，需要添加前缀
+            if ',' not in rule:
+                # 尝试识别为域名
+                if self._is_valid_domain(rule):
+                    return f"DOMAIN,{rule}"
+                # 尝试识别为域名后缀（+.格式）
+                elif rule.startswith('+.') and self._is_valid_domain(rule[2:]):
+                    return f"DOMAIN-SUFFIX,{rule[2:]}"
+                # 尝试识别为IP CIDR
+                elif (re.match(self.constants.IPV4_CIDR_PATTERN, rule) or 
+                      re.match(self.constants.IPV6_CIDR_PATTERN, rule)):
+                    return f"IP-CIDR6,{rule}" if ':' in rule else f"IP-CIDR,{rule}"
+                else:
+                    return None
+            
             parts = rule.split(',')
             if len(parts) < 2:
                 return None
                 
-            rule_type = parts[0]
+            rule_type = parts[0].strip()
             value = parts[1].strip()
                 
             # 根据规则类型验证值的格式
@@ -100,7 +115,7 @@ class RuleValidator:
 
     def _is_valid_domain(self, domain: str) -> bool:
         """验证是否为有效域名，过滤脏数据"""
-        if not re.match(self.constants.DOMAIN_PATTERN, domain):
+        if not domain or not re.match(self.constants.DOMAIN_PATTERN, domain):
             return False
             
         # 过滤明显的脏数据域名
@@ -109,7 +124,9 @@ class RuleValidator:
             r'.*_made_by_.*',       # 匹配 made_by 模式
             r'^[0-9][a-z0-9_]*_.*', # 匹配数字开头的混合字符串
             r'.*sukkaw.*',          # 匹配 sukkaw 相关
-            r'.*5ukk4w.*'           # 匹配 5ukk4w 变形
+            r'.*5ukk4w.*',          # 匹配 5ukk4w 变形
+            r'.*update.*time.*',    # 匹配包含update time的脏数据
+            r'.*[0-9]{4}-[0-9]{2}-[0-9]{2}.*', # 匹配包含日期的脏数据
         ]
         
         for pattern in dirty_patterns:
@@ -125,16 +142,18 @@ class RuleValidator:
             if ',' in rule:
                 parts = rule.split(',')
                 if len(parts) >= 2:
-                    rule_type = parts[0]
+                    rule_type = parts[0].strip()
                     value = parts[1].strip()
                     # 检查规则类型是否属于ipcidr类型
                     if rule_type in self.constants.RULE_TYPES.get('ipcidr', set()):
                         return rule
                 return None
-            # 如果是纯IP CIDR格式
+            # 如果是纯IP CIDR格式，添加前缀
             else:
-                if re.match(self.constants.IPV4_CIDR_PATTERN, rule) or re.match(self.constants.IPV6_CIDR_PATTERN, rule):
-                    return rule
+                if re.match(self.constants.IPV4_CIDR_PATTERN, rule):
+                    return f"IP-CIDR,{rule}"
+                elif re.match(self.constants.IPV6_CIDR_PATTERN, rule):
+                    return f"IP-CIDR6,{rule}"
                 return None
         except Exception as e:
             self.logger.debug(f"IP CIDR规则验证失败: {rule}, 错误: {str(e)}")
@@ -147,27 +166,27 @@ class RuleValidator:
             if ',' in rule:
                 parts = rule.split(',')
                 if len(parts) >= 2:
-                    rule_type = parts[0]
+                    rule_type = parts[0].strip()
                     value = parts[1].strip()
                     # 检查规则类型是否属于domain类型
                     if rule_type in self.constants.RULE_TYPES.get('domain', set()):
                         # 对于DOMAIN和DOMAIN-SUFFIX类型，验证域名有效性
                         if rule_type in {'DOMAIN', 'DOMAIN-SUFFIX'}:
-                            validator = RuleValidator()
-                            return rule if validator._is_valid_domain(value) else None
+                            return rule if self._is_valid_domain(value) else None
                         # 其他类型直接通过
                         return rule
                 return None
-            # 如果是纯域名格式
+            # 如果是纯域名格式，添加前缀
             else:
                 # 处理域名格式：+.example.com 或 example.com
                 if rule.startswith('+.'):
                     domain = rule[2:]
-                    validator = RuleValidator()
-                    return rule if validator._is_valid_domain(domain) else None
+                    if self._is_valid_domain(domain):
+                        return f"DOMAIN-SUFFIX,{domain}"
                 else:
-                    validator = RuleValidator()
-                    return rule if validator._is_valid_domain(rule) else None
+                    if self._is_valid_domain(rule):
+                        return f"DOMAIN,{rule}"
+                return None
         except Exception as e:
             self.logger.debug(f"域名规则验证失败: {rule}, 错误: {str(e)}")
             return None
@@ -230,9 +249,28 @@ class RuleTransformer:
             return False
             
         try:
-            rule_type = rule.split(',')[0]
-            allowed_types = self.validator.constants.RULE_TYPES.get(target_behavior, set())
-            return rule_type in allowed_types
+            # 如果规则包含逗号，说明是完整格式的规则
+            if ',' in rule:
+                rule_type = rule.split(',')[0].strip()
+                allowed_types = self.validator.constants.RULE_TYPES.get(target_behavior, set())
+                return rule_type in allowed_types
+            else:
+                # 如果是纯域名或IP格式，需要根据target_behavior判断
+                if target_behavior == 'domain':
+                    # 检查是否为有效域名（包括+.格式）
+                    if rule.startswith('+.'):
+                        return self.validator._is_valid_domain(rule[2:])
+                    else:
+                        return self.validator._is_valid_domain(rule)
+                elif target_behavior == 'ipcidr':
+                    # 检查是否为有效IP CIDR
+                    return (re.match(self.validator.constants.IPV4_CIDR_PATTERN, rule) or 
+                           re.match(self.validator.constants.IPV6_CIDR_PATTERN, rule))
+                elif target_behavior == 'classical':
+                    # classical可以包含所有类型
+                    return True
+                else:
+                    return False
         except Exception:
             return False
 
@@ -253,14 +291,11 @@ class RuleTransformer:
             if len(parts) < 2:
                 return None
             
-            rule_type = parts[0]
+            rule_type = parts[0].strip()
             value = parts[1].strip()
             
-            # 对于IP-CIDR和IP-CIDR6，提取IP地址部分
-            if rule_type in {'IP-CIDR', 'IP-CIDR6'}:
-                return value
-            # 对于其他IP相关规则，保持完整格式（因为ipcidr behavior实际上可以包含各种IP相关规则）
-            elif rule_type in self.validator.constants.RULE_TYPES.get('ipcidr', set()):
+            # 对于ipcidr相关规则，保持完整格式（因为ipcidr behavior需要完整的规则格式）
+            if rule_type in self.validator.constants.RULE_TYPES.get('ipcidr', set()):
                 return rule
             
             return None
@@ -274,18 +309,14 @@ class RuleTransformer:
             if len(parts) < 2:
                 return None
                 
-            rule_type = parts[0]
+            rule_type = parts[0].strip()
             value = parts[1].strip()
             
-            # 对于DOMAIN和DOMAIN-SUFFIX，转换为域名格式
-            if rule_type == 'DOMAIN':
-                if self.validator._is_valid_domain(value):
-                    return value
-            elif rule_type == 'DOMAIN-SUFFIX':
-                if self.validator._is_valid_domain(value):
-                    return '+.' + value
-            # 对于其他域名相关规则，保持完整格式（因为domain behavior实际上可以包含各种域名相关规则）
-            elif rule_type in self.validator.constants.RULE_TYPES.get('domain', set()):
+            # 对于domain相关规则，保持完整格式（因为domain behavior需要完整的规则格式）
+            if rule_type in self.validator.constants.RULE_TYPES.get('domain', set()):
+                # 验证域名有效性
+                if rule_type in {'DOMAIN', 'DOMAIN-SUFFIX'} and not self.validator._is_valid_domain(value):
+                    return None
                 return rule
                 
             return None
@@ -294,19 +325,35 @@ class RuleTransformer:
     
     def _ipcidr_to_classical(self, rule: str) -> Optional[str]:
         """将IP CIDR格式转换为经典格式"""
-        return "IP-CIDR6," + rule if ':' in rule else "IP-CIDR," + rule
+        # 如果已经是完整格式，直接返回
+        if ',' in rule:
+            return rule
+            
+        # 如果是纯IP CIDR格式，添加前缀
+        if ':' in rule:
+            return "IP-CIDR6," + rule
+        else:
+            return "IP-CIDR," + rule
     
     def _domain_to_classical(self, rule: str) -> Optional[str]:
         """将域名格式转换为经典格式"""
+        # 如果已经是完整格式，直接返回
+        if ',' in rule:
+            return rule
+            
         if rule.startswith('+.'):
             suffix = rule[2:]
-            if not re.match(self.validator.constants.DOMAIN_PATTERN, suffix):
+            if not self._is_valid_domain(suffix):
                 return None
             return f"DOMAIN-SUFFIX,{suffix}"
         
-        if not re.match(self.validator.constants.DOMAIN_PATTERN, rule):
+        if not self._is_valid_domain(rule):
             return None
         return f"DOMAIN,{rule}"
+    
+    def _is_valid_domain(self, domain: str) -> bool:
+        """验证是否为有效域名"""
+        return re.match(self.validator.constants.DOMAIN_PATTERN, domain) is not None
 
 class RuleFetcher:
     """规则获取器类"""
@@ -324,26 +371,62 @@ class RuleFetcher:
     def _fetch_http_rules(self, url: str, format: str) -> List[str]:
         """从HTTP源获取规则"""
         try:
-            response = requests.get(url, timeout=10)
+            response = requests.get(url, timeout=30)
             response.raise_for_status()
             
             content_type = response.headers.get('content-type', '')
-            if format == 'yaml' or 'yaml' in content_type or url.endswith(('.yml', '.yaml')):
-                data = yaml.safe_load(response.text)
-                return data['payload'] if isinstance(data, dict) and 'payload' in data else data
-            return response.text.splitlines()
+            
+            # 判断是否为YAML格式
+            is_yaml = (format == 'yaml' or 'yaml' in content_type or 
+                      url.endswith(('.yml', '.yaml')) or 
+                      response.text.strip().startswith('payload:'))
+            
+            if is_yaml:
+                try:
+                    data = yaml.safe_load(response.text)
+                    if isinstance(data, dict) and 'payload' in data:
+                        return data['payload'] if isinstance(data['payload'], list) else []
+                    elif isinstance(data, list):
+                        return data
+                    else:
+                        self.logger.warning(f"YAML格式不正确，回退到文本处理: {url}")
+                        return response.text.splitlines()
+                except yaml.YAMLError as e:
+                    self.logger.warning(f"YAML解析失败，回退到文本处理: {url}, 错误: {str(e)}")
+                    return response.text.splitlines()
+            else:
+                # 文本格式，按行分割
+                return response.text.splitlines()
+                
+        except requests.RequestException as e:
+            self.logger.error(f"获取规则失败 {url}: {str(e)}")
+            return []
         except Exception as e:
-            self.logger.error(f"获取规则失败 {url}: {str(e)}", exc_info=True)
+            self.logger.error(f"处理规则失败 {url}: {str(e)}", exc_info=True)
             return []
 
     def _read_local_rules(self, path: str, format: str) -> List[str]:
         """从本地文件读取规则"""
         try:
             with open(path, 'r', encoding='utf-8') as f:
-                if format == 'yaml':
-                    data = yaml.safe_load(f)
-                    return data['payload'] if isinstance(data, dict) and 'payload' in data else data
-                return f.read().splitlines()
+                content = f.read()
+                
+                if format == 'yaml' or path.endswith(('.yml', '.yaml')):
+                    try:
+                        data = yaml.safe_load(content)
+                        if isinstance(data, dict) and 'payload' in data:
+                            return data['payload'] if isinstance(data['payload'], list) else []
+                        elif isinstance(data, list):
+                            return data
+                        else:
+                            self.logger.warning(f"YAML格式不正确，回退到文本处理: {path}")
+                            return content.splitlines()
+                    except yaml.YAMLError as e:
+                        self.logger.warning(f"YAML解析失败，回退到文本处理: {path}, 错误: {str(e)}")
+                        return content.splitlines()
+                else:
+                    return content.splitlines()
+                    
         except Exception as e:
             self.logger.error(f"读取本地规则失败 {path}: {str(e)}")
             return []
@@ -357,22 +440,50 @@ class RuleProcessor:
     def clean_rule(self, rule: str) -> str:
         """清理规则，去除注释和空白"""
         rule = rule.strip()
-        if rule.startswith('#'):
+        
+        # 跳过空行和注释行
+        if not rule or rule.startswith('#'):
             return ''
         
+        # 移除行内注释（在空格后的#）
         parts = re.split(r'\s+#', rule)
-        return parts[0].strip() if len(parts) > 1 else rule.strip()
+        cleaned = parts[0].strip() if len(parts) > 1 else rule.strip()
+        
+        # 过滤掉明显的脏数据行
+        dirty_content_patterns = [
+            r'.*update.*time.*',
+            r'.*更新时间.*',
+            r'.*规则数量.*',
+            r'.*[0-9]{4}-[0-9]{2}-[0-9]{2}.*',
+            r'.*payload.*',
+            r'.*---.*',
+        ]
+        
+        for pattern in dirty_content_patterns:
+            if re.match(pattern, cleaned, re.IGNORECASE):
+                return ''
+        
+        return cleaned
 
     def process_rules(self, rules: List[str], source_behavior: str, target_behavior: str) -> List[str]:
         """处理规则列表"""
         processed_rules = []
+        
         for rule in rules:
             cleaned_rule = self.clean_rule(rule)
             if not cleaned_rule:
                 continue
+                
+            # 记录原始规则用于调试
+            original_rule = cleaned_rule
+            
             transformed_rule = self.transformer.transform(cleaned_rule, source_behavior, target_behavior)
             if transformed_rule:
                 processed_rules.append(transformed_rule)
+            else:
+                # 如果转换失败，记录调试信息
+                self.logger.debug(f"规则转换失败: '{original_rule}' from {source_behavior} to {target_behavior}")
+                
         return processed_rules
 
 class RulesMerger:
