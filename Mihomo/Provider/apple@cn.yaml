@@ -1,6 +1,9 @@
-# 更新时间: 2025-07-23 09:47:16（北京时间）
-# 规则数量: 190
+# 更新时间: 2025-07-23 11:21:59（北京时间）
+# 规则数量: 209
 payload:
+  - DOMAIN,7h1s_rul35et_i5_mad3_by_5ukk4w-ruleset.skk.moe
+  - DOMAIN,api.smoot.apple.cn
+  - DOMAIN,gs-loc-cn.apple.com
   - DOMAIN-SUFFIX,a1.mzstatic.com
   - DOMAIN-SUFFIX,a2.mzstatic.com
   - DOMAIN-SUFFIX,a3.mzstatic.com
@@ -9,7 +12,11 @@ payload:
   - DOMAIN-SUFFIX,aaplimg.com
   - DOMAIN-SUFFIX,adcdownload.apple.com
   - DOMAIN-SUFFIX,adcdownload.apple.com.akadns.net
+  - DOMAIN-SUFFIX,amp-api-updates.apps.apple.com
   - DOMAIN-SUFFIX,amp-api.media.apple.com
+  - DOMAIN-SUFFIX,api-p-ap-c.smoot.apple.com
+  - DOMAIN-SUFFIX,api-p-ap-d.smoot.apple.com
+  - DOMAIN-SUFFIX,api-p-ap-e.smoot.apple.com
   - DOMAIN-SUFFIX,app-site-association.cdn-apple.com
   - DOMAIN-SUFFIX,appldnld.apple.com
   - DOMAIN-SUFFIX,appldnld.g.aaplimg.com
@@ -18,12 +25,14 @@ payload:
   - DOMAIN-SUFFIX,apple-mapkit.com
   - DOMAIN-SUFFIX,apple.co
   - DOMAIN-SUFFIX,apple.com
+  - DOMAIN-SUFFIX,apple.com.cn
   - DOMAIN-SUFFIX,apple.news
   - DOMAIN-SUFFIX,appleid.cdn-apple.com
   - DOMAIN-SUFFIX,apps.apple.com
   - DOMAIN-SUFFIX,apps.mzstatic.com
   - DOMAIN-SUFFIX,appsto.re
   - DOMAIN-SUFFIX,appstore.com
+  - DOMAIN-SUFFIX,bag-cdn.itunes-apple.com.akadns.net
   - DOMAIN-SUFFIX,cdn-apple.com
   - DOMAIN-SUFFIX,cdn-cn1.apple-mapkit.com
   - DOMAIN-SUFFIX,cdn-cn2.apple-mapkit.com
@@ -53,6 +62,9 @@ payload:
   - DOMAIN-SUFFIX,clientflow.apple.com
   - DOMAIN-SUFFIX,clientflow.apple.com.akadns.net
   - DOMAIN-SUFFIX,cn-smp-paymentservices.apple.com
+  - DOMAIN-SUFFIX,cn-ssl.ls.apple.com
+  - DOMAIN-SUFFIX,cn.apple.com
+  - DOMAIN-SUFFIX,cn.ls.apple.com
   - DOMAIN-SUFFIX,configuration.apple.com
   - DOMAIN-SUFFIX,configuration.apple.com.akadns.net
   - DOMAIN-SUFFIX,crl.apple.com
@@ -70,6 +82,7 @@ payload:
   - DOMAIN-SUFFIX,gsp12-cn.ls.apple.com
   - DOMAIN-SUFFIX,gsp13-cn.ls.apple.com
   - DOMAIN-SUFFIX,gsp4-cn.ls.apple.com
+  - DOMAIN-SUFFIX,gsp4-cn.ls.apple.com.edgekey.net
   - DOMAIN-SUFFIX,gsp4-cn.ls.apple.com.edgekey.net.globalredir.akadns.net
   - DOMAIN-SUFFIX,gsp5-cn.ls.apple.com
   - DOMAIN-SUFFIX,gsp85-cn-ssl.ls.apple.com
@@ -79,6 +92,7 @@ payload:
   - DOMAIN-SUFFIX,gspe19-cn.ls-apple.com.akadns.net
   - DOMAIN-SUFFIX,gspe19-cn.ls.apple.com
   - DOMAIN-SUFFIX,gspe21-ssl.ls.apple.com
+  - DOMAIN-SUFFIX,gspe21.ls.apple.com
   - DOMAIN-SUFFIX,gspe35-ssl.ls.apple.com
   - DOMAIN-SUFFIX,gspe79-cn-ssl.ls.apple.com
   - DOMAIN-SUFFIX,guzzoni-apple-com.v.aaplimg.com
@@ -89,6 +103,9 @@ payload:
   - DOMAIN-SUFFIX,icloud-content.com
   - DOMAIN-SUFFIX,icloud.cdn-apple.com
   - DOMAIN-SUFFIX,icloud.com
+  - DOMAIN-SUFFIX,icloud.com.cn
+  - DOMAIN-SUFFIX,images.apple.com
+  - DOMAIN-SUFFIX,images.apple.com.akadns.net
   - DOMAIN-SUFFIX,images.apple.com.edgekey.net.globalredir.akadns.net
   - DOMAIN-SUFFIX,init-kt.apple.com
   - DOMAIN-SUFFIX,init-p01md-lb.push-apple.com.akadns.net
@@ -102,6 +119,7 @@ payload:
   - DOMAIN-SUFFIX,ipcdn.apple.com
   - DOMAIN-SUFFIX,iphone-ld.apple.com
   - DOMAIN-SUFFIX,iphone-ld.origin-apple.com.akadns.net
+  - DOMAIN-SUFFIX,is-ssl.mzstatic.com-cn-lb.itunes-apple.com.akadns.net
   - DOMAIN-SUFFIX,is1-ssl.mzstatic.com
   - DOMAIN-SUFFIX,is1.mzstatic.com
   - DOMAIN-SUFFIX,is2-ssl.mzstatic.com
@@ -179,6 +197,7 @@ payload:
   - DOMAIN-SUFFIX,weather-map2.apple.com
   - DOMAIN-SUFFIX,weatherkit.apple.com
   - DOMAIN-SUFFIX,www.apple.com
+  - DOMAIN-SUFFIX,www.apple.com.edgekey.net
   - DOMAIN-SUFFIX,www.apple.com.edgekey.net.globalredir.akadns.net
   - DOMAIN-SUFFIX,xp.apple.com
   - PROCESS-NAME,CoreLocationAgent
