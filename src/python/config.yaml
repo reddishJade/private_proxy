@@ -32,11 +32,6 @@
     #   url: "https://cdn.jsdelivr.net/gh/xndeye/adblock_list@beta/rule/clash.yaml"
     #   format: yaml
     #   behavior: domain
-    dler_ad:
-      type: http
-      url: "https://cdn.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/AdBlock.yaml"
-      format: yaml
-      behavior: classical
 
     dler_ad:
       type: http
@@ -65,7 +60,7 @@
       type: http
       url: "https://ruleset.skk.moe/Clash/ip/reject.txt"
       format: txt
-      behavior: ipcidr
+      behavior: classical
 
 - path: output/direct.yaml
   format: yaml
@@ -115,7 +110,7 @@
       type: http
       url: "https://ruleset.skk.moe/Clash/non_ip/apple_cn.txt"
       format: txt
-      behavior: domain
+      behavior: classical
 
     skk_apple_cdn:
       type: http
@@ -227,7 +222,7 @@
       type: http
       url: "https://ruleset.skk.moe/Clash/ip/download.txt"
       format: txt
-      behavior: ipcidr
+      behavior: classical
     
 - path: output/stream.yaml
   format: yaml
@@ -267,7 +262,7 @@
       type: http
       url: "https://ruleset.skk.moe/Clash/ip/telegram.txt"
       format: txt
-      behavior: ipcidr
+      behavior: classical
           
 - path: output/proxy.yaml
   format: yaml
@@ -289,7 +284,7 @@
       type: http
       url: "https://cdn.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/Proxy.yaml"
       format: yaml
-      behavior: domain
+      behavior: classical
 
 # - path: output/proxy@ip.yaml
 #   format: yaml
@@ -343,7 +338,7 @@
       type: http
       url: "https://ruleset.skk.moe/Clash/ip/domestic.txt"
       format: txt
-      behavior: ipcidr
+      behavior: classical
 
     skk_china_ip:
       type: http
@@ -356,12 +351,6 @@
       url: "https://cdn.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/Domestic%20IPs.yaml"
       format: yaml
       behavior: classical
-
-    dler_dom_ip:
-      type: http
-      url: "https://cdn.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/Domestic%20IPs.yaml"
-      format: yaml
-      behavior: ipcidr
 
 - path: output/private.yaml
   format: yaml
