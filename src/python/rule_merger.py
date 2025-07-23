@@ -21,16 +21,42 @@ logging.basicConfig(
 class RuleConstants:
     """规则相关的常量定义类"""
     RULE_TYPES: Dict[str, Set[str]] = None  # 存储不同类型规则的集合
-    DOMAIN_PATTERN: str = r'^[a-zA-Z0-9]([a-zA-Z0-9-]*[a-zA-Z0-9])?(\.[a-zA-Z0-9]([a-zA-Z0-9-]*[a-zA-Z0-9])?)*$'  # 域名正则表达式
+    DOMAIN_PATTERN: str = r'^[a-zA-Z0-9_]([a-zA-Z0-9_-]*[a-zA-Z0-9_])?(\.[a-zA-Z0-9_]([a-zA-Z0-9_-]*[a-zA-Z0-9_])?)*$'  # 域名正则表达式（支持下划线）
     IPV4_CIDR_PATTERN: str = r'^(\d{1,3}\.){3}\d{1,3}/\d{1,2}$'  # IPv4 CIDR正则表达式
     IPV6_CIDR_PATTERN: str = r'^([0-9a-fA-F:]+)/\d{1,3}$'  # IPv6 CIDR正则表达式
 
     def __post_init__(self):
+        # 域名相关规则类型
+        domain_rules = {
+            'DOMAIN', 'DOMAIN-SUFFIX', 'DOMAIN-KEYWORD', 
+            'DOMAIN-WILDCARD', 'DOMAIN-REGEX'
+        }
+        
+        # IP相关规则类型
+        ip_rules = {
+            'IP-CIDR', 'IP-CIDR6', 'IP-SUFFIX', 'IP-ASN', 'GEOIP'
+        }
+        
+        # 端口相关规则类型
+        port_rules = {
+            'DST-PORT', 'SRC-PORT', 'IN-PORT'
+        }
+        
+        # 进程相关规则类型
+        process_rules = {
+            'PROCESS-PATH', 'PROCESS-NAME', 'PROCESS-PATH-REGEX', 'PROCESS-NAME-REGEX'
+        }
+        
+        # 其他规则类型
+        other_rules = {
+            'IN-TYPE', 'IN-USER', 'IN-NAME', 'UID', 'NETWORK', 'DSCP'
+        }
+
         # 初始化规则类型集合
         self.RULE_TYPES = {
-            'classical': {'DOMAIN', 'DOMAIN-SUFFIX', 'IP-CIDR', 'IP-CIDR6'},  # 经典规则类型
-            'ipcidr': {'IP-CIDR', 'IP-CIDR6'},  # IP CIDR规则类型
-            'domain': {'DOMAIN', 'DOMAIN-SUFFIX'}  # 域名规则类型
+            'domain': domain_rules,  # 域名规则类型
+            'ipcidr': ip_rules,  # IP相关规则类型
+            'classical': domain_rules | ip_rules | port_rules | process_rules | other_rules,  # 经典规则类型（包含所有）
         }
 
 @dataclass
@@ -60,23 +86,91 @@ class RuleValidator:
                 
             # 根据规则类型验证值的格式
             if rule_type in {'DOMAIN', 'DOMAIN-SUFFIX'}:
-                return rule if re.match(self.constants.DOMAIN_PATTERN, value) else None
+                return rule if self._is_valid_domain(value) else None
             elif rule_type == 'IP-CIDR':
                 return rule if re.match(self.constants.IPV4_CIDR_PATTERN, value) else None
             elif rule_type == 'IP-CIDR6':
                 return rule if re.match(self.constants.IPV6_CIDR_PATTERN, value) else None
+            else:
+                # 对于其他类型的规则，进行基本验证
+                return rule if value else None
         except Exception as e:
             self.logger.debug(f"规则验证失败: {rule}, 错误: {str(e)}")
             return None
-        return rule
+
+    def _is_valid_domain(self, domain: str) -> bool:
+        """验证是否为有效域名，过滤脏数据"""
+        if not re.match(self.constants.DOMAIN_PATTERN, domain):
+            return False
+            
+        # 过滤明显的脏数据域名
+        dirty_patterns = [
+            r'.*_rul[e3]s[e3]t.*',  # 匹配 ruleset 变形
+            r'.*_made_by_.*',       # 匹配 made_by 模式
+            r'^[0-9][a-z0-9_]*_.*', # 匹配数字开头的混合字符串
+            r'.*sukkaw.*',          # 匹配 sukkaw 相关
+            r'.*5ukk4w.*'           # 匹配 5ukk4w 变形
+        ]
+        
+        for pattern in dirty_patterns:
+            if re.match(pattern, domain, re.IGNORECASE):
+                return False
+                
+        return True
 
     def validate_ipcidr_rule(self, rule: str) -> Optional[str]:
         """验证IP CIDR规则"""
-        return rule
+        try:
+            # 如果是完整的规则格式（如 "IP-CIDR,192.168.1.0/24" 或 "IP-ASN,13335"）
+            if ',' in rule:
+                parts = rule.split(',')
+                if len(parts) >= 2:
+                    rule_type = parts[0]
+                    value = parts[1].strip()
+                    # 检查规则类型是否属于ipcidr类型
+                    if rule_type in self.constants.RULE_TYPES.get('ipcidr', set()):
+                        return rule
+                return None
+            # 如果是纯IP CIDR格式
+            else:
+                if re.match(self.constants.IPV4_CIDR_PATTERN, rule) or re.match(self.constants.IPV6_CIDR_PATTERN, rule):
+                    return rule
+                return None
+        except Exception as e:
+            self.logger.debug(f"IP CIDR规则验证失败: {rule}, 错误: {str(e)}")
+            return None
 
     def validate_domain_rule(self, rule: str) -> Optional[str]:
         """验证域名规则"""
-        return rule
+        try:
+            # 如果是完整的规则格式（如 "DOMAIN,example.com" 或 "GEOSITE,youtube"）
+            if ',' in rule:
+                parts = rule.split(',')
+                if len(parts) >= 2:
+                    rule_type = parts[0]
+                    value = parts[1].strip()
+                    # 检查规则类型是否属于domain类型
+                    if rule_type in self.constants.RULE_TYPES.get('domain', set()):
+                        # 对于DOMAIN和DOMAIN-SUFFIX类型，验证域名有效性
+                        if rule_type in {'DOMAIN', 'DOMAIN-SUFFIX'}:
+                            validator = RuleValidator()
+                            return rule if validator._is_valid_domain(value) else None
+                        # 其他类型直接通过
+                        return rule
+                return None
+            # 如果是纯域名格式
+            else:
+                # 处理域名格式：+.example.com 或 example.com
+                if rule.startswith('+.'):
+                    domain = rule[2:]
+                    validator = RuleValidator()
+                    return rule if validator._is_valid_domain(domain) else None
+                else:
+                    validator = RuleValidator()
+                    return rule if validator._is_valid_domain(rule) else None
+        except Exception as e:
+            self.logger.debug(f"域名规则验证失败: {rule}, 错误: {str(e)}")
+            return None
 
 class RuleTransformer:
     """规则转换器类，用于在不同规则格式之间转换"""
@@ -88,7 +182,12 @@ class RuleTransformer:
         if not rule:
             return None
             
+        # 如果源和目标behavior相同，直接验证
         if source_behavior == target_behavior:
+            # 检查规则是否应该包含在目标behavior中
+            if not self._should_include_rule(rule, target_behavior):
+                return None
+
             validators = {
                 'classical': self.validator.validate_classical_rule,
                 'ipcidr': self.validator.validate_ipcidr_rule,
@@ -97,8 +196,45 @@ class RuleTransformer:
             validator = validators.get(source_behavior)
             return validator(rule) if validator else rule
             
+        # 如果需要转换格式，先检查原始规则是否可以转换
+        if not self._can_transform_rule(rule, source_behavior, target_behavior):
+            return None
+            
         transformer = self._get_transformer(source_behavior, target_behavior)
-        return transformer(rule) if transformer else None
+        if not transformer:
+            return None
+            
+        transformed_rule = transformer(rule)
+        return transformed_rule
+        
+    def _can_transform_rule(self, rule: str, source_behavior: str, target_behavior: str) -> bool:
+        """检查规则是否可以从源behavior转换到目标behavior"""
+        if not rule:
+            return False
+            
+        try:
+            rule_type = rule.split(',')[0]
+            
+            # 从classical转换到具体类型时，检查规则类型是否匹配
+            if source_behavior == 'classical':
+                target_types = self.validator.constants.RULE_TYPES.get(target_behavior, set())
+                return rule_type in target_types
+            
+            return True
+        except Exception:
+            return False
+
+    def _should_include_rule(self, rule: str, target_behavior: str) -> bool:
+        """判断规则是否应该包含在目标behavior中"""
+        if not rule:
+            return False
+            
+        try:
+            rule_type = rule.split(',')[0]
+            allowed_types = self.validator.constants.RULE_TYPES.get(target_behavior, set())
+            return rule_type in allowed_types
+        except Exception:
+            return False
 
     def _get_transformer(self, source_behavior: str, target_behavior: str):
         """获取对应的转换函数"""
@@ -112,26 +248,49 @@ class RuleTransformer:
 
     def _classical_to_ipcidr(self, rule: str) -> Optional[str]:
         """将经典格式转换为IP CIDR格式"""
-        if not (rule.startswith('IP-CIDR,') or rule.startswith('IP-CIDR6,')):
+        try:
+            parts = rule.split(',')
+            if len(parts) < 2:
+                return None
+            
+            rule_type = parts[0]
+            value = parts[1].strip()
+            
+            # 对于IP-CIDR和IP-CIDR6，提取IP地址部分
+            if rule_type in {'IP-CIDR', 'IP-CIDR6'}:
+                return value
+            # 对于其他IP相关规则，保持完整格式（因为ipcidr behavior实际上可以包含各种IP相关规则）
+            elif rule_type in self.validator.constants.RULE_TYPES.get('ipcidr', set()):
+                return rule
+            
             return None
-        parts = rule.split(',')
-        return parts[1].strip() if len(parts) >= 2 else None
+        except Exception:
+            return None
     
     def _classical_to_domain(self, rule: str) -> Optional[str]:
         """将经典格式转换为域名格式"""
-        parts = rule.split(',')
-        if len(parts) < 2:
-            return None
+        try:
+            parts = rule.split(',')
+            if len(parts) < 2:
+                return None
+                
+            rule_type = parts[0]
+            value = parts[1].strip()
             
-        domain = parts[1].strip()
-        if not re.match(RuleConstants.DOMAIN_PATTERN, domain):
+            # 对于DOMAIN和DOMAIN-SUFFIX，转换为域名格式
+            if rule_type == 'DOMAIN':
+                if self.validator._is_valid_domain(value):
+                    return value
+            elif rule_type == 'DOMAIN-SUFFIX':
+                if self.validator._is_valid_domain(value):
+                    return '+.' + value
+            # 对于其他域名相关规则，保持完整格式（因为domain behavior实际上可以包含各种域名相关规则）
+            elif rule_type in self.validator.constants.RULE_TYPES.get('domain', set()):
+                return rule
+                
             return None
-            
-        if rule.startswith('DOMAIN,'):
-            return domain
-        elif rule.startswith('DOMAIN-SUFFIX,'):
-            return '+.' + domain
-        return None
+        except Exception:
+            return None
     
     def _ipcidr_to_classical(self, rule: str) -> Optional[str]:
         """将IP CIDR格式转换为经典格式"""
@@ -141,11 +300,11 @@ class RuleTransformer:
         """将域名格式转换为经典格式"""
         if rule.startswith('+.'):
             suffix = rule[2:]
-            if not re.match(RuleConstants.DOMAIN_PATTERN, suffix):
+            if not re.match(self.validator.constants.DOMAIN_PATTERN, suffix):
                 return None
             return f"DOMAIN-SUFFIX,{suffix}"
         
-        if not re.match(RuleConstants.DOMAIN_PATTERN, rule):
+        if not re.match(self.validator.constants.DOMAIN_PATTERN, rule):
             return None
         return f"DOMAIN,{rule}"
 
