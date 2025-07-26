@@ -1,5 +1,5 @@
-# 更新时间: 2025-07-26 08:44:34（北京时间）
-# 规则数量: 1574
+# 更新时间: 2025-07-26 20:15:03（北京时间）
+# 规则数量: 1575
 payload:
   - DOMAIN,api.waqi.info
   - DOMAIN,aqi.aqicn.org
@@ -1241,6 +1241,7 @@ payload:
   - DOMAIN-SUFFIX,t66y.com
   - DOMAIN-SUFFIX,tablesgenerator.com
   - DOMAIN-SUFFIX,tabtter.jp
+  - DOMAIN-SUFFIX,tailfin.cc
   - DOMAIN-SUFFIX,tailwindcss.com
   - DOMAIN-SUFFIX,taipei
   - DOMAIN-SUFFIX,talk853.com

@@ -1,5 +1,5 @@
-# 更新时间: 2025-07-26 08:44:33（北京时间）
-# 规则数量: 3768
+# 更新时间: 2025-07-26 20:15:03（北京时间）
+# 规则数量: 3777
 payload:
   - DOMAIN,0x0.st
   - DOMAIN,3dna.nationbuilder.com
@@ -313,6 +313,7 @@ payload:
   - DOMAIN,bookface-static.ycombinator.com
   - DOMAIN,bot.ivy.ai
   - DOMAIN,brand-sdk.kmsmep.com
+  - DOMAIN,brandwidgets.outtra.com
   - DOMAIN,brick.a.ssl.fastly.net
   - DOMAIN,brick.freetls.fastly.net
   - DOMAIN,bst.icons8.com
@@ -517,6 +518,7 @@ payload:
   - DOMAIN,cdn.evbstatic.com
   - DOMAIN,cdn.faire.com
   - DOMAIN,cdn.fastcomments.com
+  - DOMAIN,cdn.fera.ai
   - DOMAIN,cdn.filen.io
   - DOMAIN,cdn.firebase.com
   - DOMAIN,cdn.fluidplayer.com
@@ -587,6 +589,7 @@ payload:
   - DOMAIN,cdn.lihkg.com
   - DOMAIN,cdn.linearicons.com
   - DOMAIN,cdn.livechatinc.com
+  - DOMAIN,cdn.logbase.io
   - DOMAIN,cdn.loom.com
   - DOMAIN,cdn.macstories.net
   - DOMAIN,cdn.manageengine.com
@@ -927,6 +930,7 @@ payload:
   - DOMAIN,config.extension.grammarly.com
   - DOMAIN,connect-js.stripe.com
   - DOMAIN,connect.facebook.net
+  - DOMAIN,connect.getflowbox.com
   - DOMAIN,connect.nosto.com
   - DOMAIN,connectivitycheck.android.com
   - DOMAIN,connectivitycheck.gstatic.com
@@ -1243,6 +1247,7 @@ payload:
   - DOMAIN,icons.buffer.com
   - DOMAIN,icons.duckduckgo.com
   - DOMAIN,icons.ferndocs.com
+  - DOMAIN,icons.internetbrands.com
   - DOMAIN,icons.leavemealone.com
   - DOMAIN,icons.llamao.fi
   - DOMAIN,icons.ly
@@ -1666,6 +1671,7 @@ payload:
   - DOMAIN,media.shopimind.com
   - DOMAIN,media.smooch.io
   - DOMAIN,media.steampowered.com
+  - DOMAIN,media.tailfin.cc
   - DOMAIN,media.telanganatoday.com
   - DOMAIN,media.tenor.com
   - DOMAIN,media.themoviedb.org
@@ -1878,6 +1884,7 @@ payload:
   - DOMAIN,public.linear.app
   - DOMAIN,public.mocortech.com
   - DOMAIN,public.saasexch.com
+  - DOMAIN,public.zoorix.com
   - DOMAIN,publicsuffix.org
   - DOMAIN,pytorch.org
   - DOMAIN,qmod.quotemedia.com
@@ -2022,6 +2029,7 @@ payload:
   - DOMAIN,screenshots.debian.net
   - DOMAIN,screenshots.downloadtorrentfile.com
   - DOMAIN,screenshots.webflow.com
+  - DOMAIN,script.custobar.com
   - DOMAIN,scripts.dailymail.co.uk
   - DOMAIN,scripts.scriptwrapper.com
   - DOMAIN,scripts.webeo.com
@@ -2625,6 +2633,7 @@ payload:
   - DOMAIN,widgets.listenlive.co
   - DOMAIN,widgets.media.weather.com
   - DOMAIN,widgets.outbrain.com
+  - DOMAIN,widgets.pinterest.com
   - DOMAIN,widgets.tree-nation.com
   - DOMAIN,widgets.turnto.com
   - DOMAIN,widgets.zohosalesiq.com
