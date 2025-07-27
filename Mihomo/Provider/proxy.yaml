@@ -1,5 +1,5 @@
-# 更新时间: 2025-07-27 08:52:28（北京时间）
-# 规则数量: 1577
+# 更新时间: 2025-07-27 20:15:53（北京时间）
+# 规则数量: 1578
 payload:
   - DOMAIN,api.waqi.info
   - DOMAIN,aqi.aqicn.org
@@ -1304,6 +1304,7 @@ payload:
   - DOMAIN-SUFFIX,todoist.com
   - DOMAIN-SUFFIX,togetter.com
   - DOMAIN-SUFFIX,toggleable.com
+  - DOMAIN-SUFFIX,tokto-motion.net
   - DOMAIN-SUFFIX,tokyocn.com
   - DOMAIN-SUFFIX,tokyomotion.net
   - DOMAIN-SUFFIX,tokyonline.com
