@@ -1,5 +1,5 @@
-# 更新时间: 2025-07-26 20:15:03（北京时间）
-# 规则数量: 1575
+# 更新时间: 2025-07-27 08:52:28（北京时间）
+# 规则数量: 1577
 payload:
   - DOMAIN,api.waqi.info
   - DOMAIN,aqi.aqicn.org
@@ -31,6 +31,8 @@ payload:
   - DOMAIN-KEYWORD,tesla
   - DOMAIN-KEYWORD,twitter
   - DOMAIN-KEYWORD,whatsapp
+  - DOMAIN-SUFFIX,123av.com
+  - DOMAIN-SUFFIX,123av.me
   - DOMAIN-SUFFIX,123rf.com
   - DOMAIN-SUFFIX,18comic.org
   - DOMAIN-SUFFIX,18comic.vip
