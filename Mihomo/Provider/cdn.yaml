@@ -1,5 +1,5 @@
-# 更新时间: 2025-07-26 20:15:03（北京时间）
-# 规则数量: 3777
+# 更新时间: 2025-07-27 08:52:27（北京时间）
+# 规则数量: 3779
 payload:
   - DOMAIN,0x0.st
   - DOMAIN,3dna.nationbuilder.com
@@ -2247,6 +2247,7 @@ payload:
   - DOMAIN,static.guim.co.uk
   - DOMAIN,static.heavy-r.com
   - DOMAIN,static.helpjuice.com
+  - DOMAIN,static.hosting.com
   - DOMAIN,static.hotjar.com
   - DOMAIN,static.hubspot.com
   - DOMAIN,static.hugedomains.com
@@ -3367,7 +3368,6 @@ payload:
   - DOMAIN-SUFFIX,nelreports.net
   - DOMAIN-SUFFIX,nest.land
   - DOMAIN-SUFFIX,net.anydesk.com
-  - DOMAIN-SUFFIX,netdna-ssl.com
   - DOMAIN-SUFFIX,netlify.app
   - DOMAIN-SUFFIX,neweggimages.com
   - DOMAIN-SUFFIX,newscdn.com.au
@@ -3546,6 +3546,7 @@ payload:
   - DOMAIN-SUFFIX,shgcdn.com
   - DOMAIN-SUFFIX,shields.io
   - DOMAIN-SUFFIX,shopifycdn.com
+  - DOMAIN-SUFFIX,shoppulse88.store
   - DOMAIN-SUFFIX,shortpixel.ai
   - DOMAIN-SUFFIX,simgbb.com
   - DOMAIN-SUFFIX,similarcdn.com
@@ -3625,6 +3626,7 @@ payload:
   - DOMAIN-SUFFIX,superfiliate-cdn.com
   - DOMAIN-SUFFIX,surge.sh
   - DOMAIN-SUFFIX,surrit.com
+  - DOMAIN-SUFFIX,surrit.store
   - DOMAIN-SUFFIX,susercontent.com
   - DOMAIN-SUFFIX,svbtleusercontent.com
   - DOMAIN-SUFFIX,sway-cdn.com

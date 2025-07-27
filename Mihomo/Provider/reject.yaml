@@ -1,5 +1,5 @@
-# 更新时间: 2025-07-26 20:15:01（北京时间）
-# 规则数量: 9011
+# 更新时间: 2025-07-27 08:52:25（北京时间）
+# 规则数量: 9009
 payload:
   - DOMAIN,118.89.204.198
   - DOMAIN,1500020991.vodplayer.wxamedia.com
@@ -529,7 +529,6 @@ payload:
   - DOMAIN,mobaliyun.res.mgtv.com
   - DOMAIN,mobile.da.mgtv.com
   - DOMAIN,mobilelog.upqzfile.com
-  - DOMAIN,mon.zijieapi.com
   - DOMAIN,monitor-ads-test.huan.tv
   - DOMAIN,monitor-uu.play.aiseet.atianqi.com
   - DOMAIN,monitor.music.qq.com
@@ -746,7 +745,6 @@ payload:
   - DOMAIN,tnc3-aliec2.bytedance.com
   - DOMAIN,tnc3-aliec2.snssdk.com
   - DOMAIN,tnc3-aliec2.toutiaoapi.com
-  - DOMAIN,tnc3-aliec2.zijieapi.com
   - DOMAIN,tnc3-alisc1.bytedance.com
   - DOMAIN,tnc3-alisc1.snssdk.com
   - DOMAIN,tnc3-alisc1.toutiaoapi.com
