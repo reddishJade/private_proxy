@@ -1,5 +1,5 @@
-# 更新时间: 2025-07-29 20:18:16（北京时间）
-# 规则数量: 954
+# 更新时间: 2025-07-30 08:47:15（北京时间）
+# 规则数量: 976
 payload:
   - DOMAIN,acg.tv
   - DOMAIN,assets1.xboxlive.cn
@@ -126,6 +126,7 @@ payload:
   - DOMAIN-SUFFIX,alibabacloud.com
   - DOMAIN-SUFFIX,alibabadns.com
   - DOMAIN-SUFFIX,alibabausercontent.com
+  - DOMAIN-SUFFIX,alibtrip.com
   - DOMAIN-SUFFIX,alicdn.com
   - DOMAIN-SUFFIX,alicloudccp.com
   - DOMAIN-SUFFIX,alidns.com
@@ -208,6 +209,7 @@ payload:
   - DOMAIN-SUFFIX,byted-static.com
   - DOMAIN-SUFFIX,bytedance.com
   - DOMAIN-SUFFIX,bytednsdoc.com
+  - DOMAIN-SUFFIX,byteeffecttos.com
   - DOMAIN-SUFFIX,bytegoofy.com
   - DOMAIN-SUFFIX,byteimg.com
   - DOMAIN-SUFFIX,bytetcc.com
@@ -287,6 +289,7 @@ payload:
   - DOMAIN-SUFFIX,coolapkmarket.net
   - DOMAIN-SUFFIX,cowcs.com
   - DOMAIN-SUFFIX,cowtransfer.com
+  - DOMAIN-SUFFIX,coze.cn
   - DOMAIN-SUFFIX,csdn.com
   - DOMAIN-SUFFIX,csdn.net
   - DOMAIN-SUFFIX,csdnimg.cn
@@ -300,6 +303,11 @@ payload:
   - DOMAIN-SUFFIX,dbankcdn.cn
   - DOMAIN-SUFFIX,dbankcdn.com
   - DOMAIN-SUFFIX,dbankcloud.com
+  - DOMAIN-SUFFIX,dcarapi.com
+  - DOMAIN-SUFFIX,dcarimg.com
+  - DOMAIN-SUFFIX,dcarlive.com
+  - DOMAIN-SUFFIX,dcarstatic.com
+  - DOMAIN-SUFFIX,dcarvod.com
   - DOMAIN-SUFFIX,dct-cloud.com
   - DOMAIN-SUFFIX,dewu.com
   - DOMAIN-SUFFIX,dfcfw.com
@@ -326,9 +334,11 @@ payload:
   - DOMAIN-SUFFIX,docin.com
   - DOMAIN-SUFFIX,docschina.org
   - DOMAIN-SUFFIX,donews.com
+  - DOMAIN-SUFFIX,dongchedi.com
   - DOMAIN-SUFFIX,douban.com
   - DOMAIN-SUFFIX,douban.fm
   - DOMAIN-SUFFIX,doubanio.com
+  - DOMAIN-SUFFIX,doubao.com
   - DOMAIN-SUFFIX,douyin.com
   - DOMAIN-SUFFIX,douyincdn.com
   - DOMAIN-SUFFIX,douyinliving.com
@@ -346,6 +356,7 @@ payload:
   - DOMAIN-SUFFIX,duba.net
   - DOMAIN-SUFFIX,duokan.com
   - DOMAIN-SUFFIX,duoshuo.com
+  - DOMAIN-SUFFIX,dwz.cn
   - DOMAIN-SUFFIX,dxy.cn
   - DOMAIN-SUFFIX,dxycdn.com
   - DOMAIN-SUFFIX,dytt8.net
@@ -383,6 +394,7 @@ payload:
   - DOMAIN-SUFFIX,frdic.com
   - DOMAIN-SUFFIX,fresh-ideas.cc
   - DOMAIN-SUFFIX,freshhema.com
+  - DOMAIN-SUFFIX,freshippo.com
   - DOMAIN-SUFFIX,fun.tv
   - DOMAIN-SUFFIX,funshion.com
   - DOMAIN-SUFFIX,futu5.com
@@ -635,6 +647,7 @@ payload:
   - DOMAIN-SUFFIX,nuomi.com
   - DOMAIN-SUFFIX,oceanengine.com
   - DOMAIN-SUFFIX,officewebapps.cn
+  - DOMAIN-SUFFIX,okr.com
   - DOMAIN-SUFFIX,oneplus.cn
   - DOMAIN-SUFFIX,oneplusbbs.com
   - DOMAIN-SUFFIX,onlinedown.com
@@ -668,6 +681,7 @@ payload:
   - DOMAIN-SUFFIX,pingan.com
   - DOMAIN-SUFFIX,pingan.com.cn
   - DOMAIN-SUFFIX,pingwest.com
+  - DOMAIN-SUFFIX,pipix.com
   - DOMAIN-SUFFIX,pniao.com
   - DOMAIN-SUFFIX,pphimalayanrt.com
   - DOMAIN-SUFFIX,pplive.cn
@@ -675,6 +689,9 @@ payload:
   - DOMAIN-SUFFIX,pps.tv
   - DOMAIN-SUFFIX,ppsimg.com
   - DOMAIN-SUFFIX,pptv.com
+  - DOMAIN-SUFFIX,ppximg.com
+  - DOMAIN-SUFFIX,ppxstatic.com
+  - DOMAIN-SUFFIX,ppxvod.com
   - DOMAIN-SUFFIX,privatehd.to
   - DOMAIN-SUFFIX,psbc.com
   - DOMAIN-SUFFIX,pstatp.com
@@ -843,6 +860,7 @@ payload:
   - DOMAIN-SUFFIX,vmall.com
   - DOMAIN-SUFFIX,vmallres.com
   - DOMAIN-SUFFIX,volccdn.com
+  - DOMAIN-SUFFIX,volcengine.com
   - DOMAIN-SUFFIX,volces.com
   - DOMAIN-SUFFIX,volcvideo.com
   - DOMAIN-SUFFIX,wallstreetcn.com
@@ -877,6 +895,7 @@ payload:
   - DOMAIN-SUFFIX,wpscdn.cn
   - DOMAIN-SUFFIX,wpscdn.com
   - DOMAIN-SUFFIX,wscn.net
+  - DOMAIN-SUFFIX,wukong.com
   - DOMAIN-SUFFIX,x3322.net
   - DOMAIN-SUFFIX,xdrig.com
   - DOMAIN-SUFFIX,xhostfire.com
@@ -896,6 +915,7 @@ payload:
   - DOMAIN-SUFFIX,xiaomixiaoai.com
   - DOMAIN-SUFFIX,xiaomiyoupin.com
   - DOMAIN-SUFFIX,xiaote.net
+  - DOMAIN-SUFFIX,xiaoxiaapi.com
   - DOMAIN-SUFFIX,ximalaya.com
   - DOMAIN-SUFFIX,xincai.com
   - DOMAIN-SUFFIX,xinhuanet.com
@@ -950,8 +970,10 @@ payload:
   - DOMAIN-SUFFIX,zijieapi.com
   - DOMAIN-SUFFIX,zimuzu.tv
   - DOMAIN-SUFFIX,zjcdn.com
+  - DOMAIN-SUFFIX,zjurl.cn
   - DOMAIN-SUFFIX,zmz002.com
   - DOMAIN-SUFFIX,zmzfile.com
   - DOMAIN-SUFFIX,zui.com
   - DOMAIN-SUFFIX,zuimeitianqi.com
   - DOMAIN-SUFFIX,zuoyebang.com
+  - DOMAIN-SUFFIX,zybang.com
