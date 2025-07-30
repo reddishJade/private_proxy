@@ -1,5 +1,5 @@
-# 更新时间: 2025-07-29 20:18:15（北京时间）
-# 规则数量: 3783
+# 更新时间: 2025-07-30 08:47:14（北京时间）
+# 规则数量: 3784
 payload:
   - DOMAIN,0x0.st
   - DOMAIN,3dna.nationbuilder.com
@@ -1331,6 +1331,7 @@ payload:
   - DOMAIN,images.freeimages.com
   - DOMAIN,images.g2crowd.com
   - DOMAIN,images.github.media
+  - DOMAIN,images.hothardware.com
   - DOMAIN,images.idgesg.net
   - DOMAIN,images.kick.com
   - DOMAIN,images.loox.io
