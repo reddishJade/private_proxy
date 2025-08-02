@@ -1,5 +1,5 @@
-# 更新时间: 2025-08-01 20:17:33（北京时间）
-# 规则数量: 60
+# 更新时间: 2025-08-02 08:44:28（北京时间）
+# 规则数量: 61
 payload:
   - DOMAIN,ai.google.dev
   - DOMAIN,alkalicore-pa.clients6.google.com
@@ -27,6 +27,7 @@ payload:
   - DOMAIN-SUFFIX,bard.google.com
   - DOMAIN-SUFFIX,cdn.oaistatic.com
   - DOMAIN-SUFFIX,chatgpt.com
+  - DOMAIN-SUFFIX,chorus.sh
   - DOMAIN-SUFFIX,claude.ai
   - DOMAIN-SUFFIX,claudeusercontent.com
   - DOMAIN-SUFFIX,clipdrop.co
