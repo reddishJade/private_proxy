@@ -1,5 +1,5 @@
-# 更新时间: 2025-08-01 20:17:34（北京时间）
-# 规则数量: 1178
+# 更新时间: 2025-08-02 08:44:29（北京时间）
+# 规则数量: 1179
 payload:
   - DOMAIN,addins.deepl.com
   - DOMAIN,amupdatedl.microsoft.com
@@ -203,6 +203,7 @@ payload:
   - DOMAIN,download.docker.com
   - DOMAIN,download.eassos.com
   - DOMAIN,download.edovia.com
+  - DOMAIN,download.fosshub.com
   - DOMAIN,download.fydeos.io
   - DOMAIN,download.gigabyte.com
   - DOMAIN,download.gimp.org

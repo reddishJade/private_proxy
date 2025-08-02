@@ -1,5 +1,5 @@
-# 更新时间: 2025-08-01 20:17:34（北京时间）
-# 规则数量: 3799
+# 更新时间: 2025-08-02 08:44:29（北京时间）
+# 规则数量: 3804
 payload:
   - DOMAIN,0x0.st
   - DOMAIN,3dna.nationbuilder.com
@@ -1226,6 +1226,7 @@ payload:
   - DOMAIN,i.hentaifox.com
   - DOMAIN,i.ibb.co
   - DOMAIN,i.iheart.com
+  - DOMAIN,i.imagepost.com
   - DOMAIN,i.imgflip.com
   - DOMAIN,i.imgur.com
   - DOMAIN,i.insider.com
@@ -1479,6 +1480,7 @@ payload:
   - DOMAIN,img1.ak.crunchyroll.com
   - DOMAIN,img1.socialshopwave.com
   - DOMAIN,img1.yna.co.kr
+  - DOMAIN,img2.javdove.com
   - DOMAIN,img2.socialshopwave.com
   - DOMAIN,img2.tnaflix.com
   - DOMAIN,img2.yna.co.kr
@@ -2587,6 +2589,7 @@ payload:
   - DOMAIN,videos.ohentai.org
   - DOMAIN,videos2-h.sendvid.com
   - DOMAIN,videos2.edclub.com
+  - DOMAIN,vids.imagepost.com
   - DOMAIN,vip.dytt-img.com
   - DOMAIN,vir.wsj.net
   - DOMAIN,viu-static.akamaized.net
@@ -3490,6 +3493,7 @@ payload:
   - DOMAIN-SUFFIX,proxy1.startpage.com
   - DOMAIN-SUFFIX,proxy2.startpage.com
   - DOMAIN-SUFFIX,proxy3.startpage.com
+  - DOMAIN-SUFFIX,prppsn.com
   - DOMAIN-SUFFIX,pstatic.net
   - DOMAIN-SUFFIX,pstorage.space
   - DOMAIN-SUFFIX,public.cdn.office.net
@@ -3663,6 +3667,7 @@ payload:
   - DOMAIN-SUFFIX,thesourcemediaassets.com
   - DOMAIN-SUFFIX,thirdwebcdn.com
   - DOMAIN-SUFFIX,thisiscdn.com
+  - DOMAIN-SUFFIX,tiktokcdn-eu.com
   - DOMAIN-SUFFIX,tiktokcdn-us.com
   - DOMAIN-SUFFIX,tiktokcdn.com
   - DOMAIN-SUFFIX,tildacdn.com
