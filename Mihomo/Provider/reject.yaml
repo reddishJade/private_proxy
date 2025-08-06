@@ -1,5 +1,5 @@
-# 更新时间: 2025-08-05 20:18:45（北京时间）
-# 规则数量: 9019
+# 更新时间: 2025-08-06 08:47:41（北京时间）
+# 规则数量: 9020
 payload:
   - DOMAIN,118.89.204.198
   - DOMAIN,1500020991.vodplayer.wxamedia.com
@@ -528,6 +528,7 @@ payload:
   - DOMAIN,mobads.baidu.com
   - DOMAIN,mobaliyun.res.mgtv.com
   - DOMAIN,mobile.da.mgtv.com
+  - DOMAIN,mobilead.kuwo.cn
   - DOMAIN,mobilelog.upqzfile.com
   - DOMAIN,monitor-ads-test.huan.tv
   - DOMAIN,monitor-uu.play.aiseet.atianqi.com

@@ -1,5 +1,5 @@
-# 更新时间: 2025-08-05 20:18:47（北京时间）
-# 规则数量: 3804
+# 更新时间: 2025-08-06 08:47:43（北京时间）
+# 规则数量: 3806
 payload:
   - DOMAIN,0x0.st
   - DOMAIN,3dna.nationbuilder.com
@@ -89,6 +89,7 @@ payload:
   - DOMAIN,asset-cdn.uscardforum.com
   - DOMAIN,asset.booth.pm
   - DOMAIN,asset.chase.com
+  - DOMAIN,asset.jamieoliver.com
   - DOMAIN,asset.mansionglobal.com
   - DOMAIN,assets-app.circleci.com
   - DOMAIN,assets-cdn.123rf.com
@@ -567,6 +568,7 @@ payload:
   - DOMAIN,cdn.ip2location.io
   - DOMAIN,cdn.iporntv.net
   - DOMAIN,cdn.ipregistry.co
+  - DOMAIN,cdn.jamieoliver.com
   - DOMAIN,cdn.javmg.com
   - DOMAIN,cdn.javsts.com
   - DOMAIN,cdn.jetboost.io
