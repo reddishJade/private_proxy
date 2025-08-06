@@ -1,5 +1,5 @@
-# 更新时间: 2025-08-06 08:47:43（北京时间）
-# 规则数量: 3806
+# 更新时间: 2025-08-06 20:18:51（北京时间）
+# 规则数量: 3814
 payload:
   - DOMAIN,0x0.st
   - DOMAIN,3dna.nationbuilder.com
@@ -1369,6 +1369,7 @@ payload:
   - DOMAIN,images.spr.so
   - DOMAIN,images.store.crowdstrike.com
   - DOMAIN,images.svc.ui.com
+  - DOMAIN,images.tg.cc
   - DOMAIN,images.tokopedia.net
   - DOMAIN,images.typeform.com
   - DOMAIN,images.unsplash.com
@@ -1403,6 +1404,7 @@ payload:
   - DOMAIN,img-s-msn-com.akamaized.net
   - DOMAIN,img.177pica.com
   - DOMAIN,img.3movs.com
+  - DOMAIN,img.4gamers.com.tw
   - DOMAIN,img.4khd.com
   - DOMAIN,img.adspower.net
   - DOMAIN,img.agrd.eu
@@ -1467,6 +1469,7 @@ payload:
   - DOMAIN,img.sparknotes.com
   - DOMAIN,img.supjav.com
   - DOMAIN,img.telemetr.io
+  - DOMAIN,img.tg.cc
   - DOMAIN,img.thingiverse.com
   - DOMAIN,img.timero.xyz
   - DOMAIN,img.toto.im
@@ -1614,6 +1617,7 @@ payload:
   - DOMAIN,mangaz-books.j-comi.jp
   - DOMAIN,mangaz-static.j-comi.jp
   - DOMAIN,mantisloader.mantis-awx.com
+  - DOMAIN,map.vesselfinder.net
   - DOMAIN,maps.geoapify.com
   - DOMAIN,maps.gstatic.com
   - DOMAIN,maptile.osmand.net
@@ -1904,6 +1908,7 @@ payload:
   - DOMAIN,public.saasexch.com
   - DOMAIN,public.zoorix.com
   - DOMAIN,publicsuffix.org
+  - DOMAIN,puku-dist.4gamers.com.tw
   - DOMAIN,pytorch.org
   - DOMAIN,qmod.quotemedia.com
   - DOMAIN,quriobot.com
@@ -2121,6 +2126,7 @@ payload:
   - DOMAIN,st.agrd.eu
   - DOMAIN,st.deviantart.net
   - DOMAIN,st.dynamicyield.com
+  - DOMAIN,st.transfer.it
   - DOMAIN,st1.zoom.us
   - DOMAIN,st2.zoom.us
   - DOMAIN,st3.zoom.us
@@ -2381,6 +2387,7 @@ payload:
   - DOMAIN,static.uptimia.com
   - DOMAIN,static.v2ex.com
   - DOMAIN,static.vanta.com
+  - DOMAIN,static.vesselfinder.net
   - DOMAIN,static.vinted.com
   - DOMAIN,static.vocadb.net
   - DOMAIN,static.webclicks24.com
@@ -2493,6 +2500,7 @@ payload:
   - DOMAIN,thumbnailer.mixcloud.com
   - DOMAIN,thumbnails.applegamingwiki.com
   - DOMAIN,thumbnails.cbsig.net
+  - DOMAIN,thumbor.4gamers.com.tw
   - DOMAIN,thumbor.forbes.com
   - DOMAIN,thumbs.onlyfans.com
   - DOMAIN,thumbs2.sendvid.com
