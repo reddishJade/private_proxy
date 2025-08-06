@@ -1,5 +1,5 @@
-# 更新时间: 2025-08-06 08:47:45（北京时间）
-# 规则数量: 1592
+# 更新时间: 2025-08-06 20:18:52（北京时间）
+# 规则数量: 1595
 payload:
   - DOMAIN,api.waqi.info
   - DOMAIN,aqi.aqicn.org
@@ -1426,7 +1426,10 @@ payload:
   - DOMAIN-SUFFIX,vercel.live
   - DOMAIN-SUFFIX,verizon.com
   - DOMAIN-SUFFIX,verizonwireless.com
+  - DOMAIN-SUFFIX,vesselfinder.com
+  - DOMAIN-SUFFIX,vesselfinder.net
   - DOMAIN-SUFFIX,viber.com
+  - DOMAIN-SUFFIX,vice.com
   - DOMAIN-SUFFIX,victoriassecret.com
   - DOMAIN-SUFFIX,vid.me
   - DOMAIN-SUFFIX,videomega.tv
