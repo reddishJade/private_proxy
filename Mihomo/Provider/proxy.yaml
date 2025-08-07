@@ -1,5 +1,5 @@
-# 更新时间: 2025-08-06 20:18:52（北京时间）
-# 规则数量: 1595
+# 更新时间: 2025-08-07 08:48:52（北京时间）
+# 规则数量: 1599
 payload:
   - DOMAIN,api.waqi.info
   - DOMAIN,aqi.aqicn.org
@@ -86,6 +86,7 @@ payload:
   - DOMAIN-SUFFIX,airav.cc
   - DOMAIN-SUFFIX,airav.io
   - DOMAIN-SUFFIX,airtable.com
+  - DOMAIN-SUFFIX,airtableusercontent.com
   - DOMAIN-SUFFIX,akamai.net
   - DOMAIN-SUFFIX,akamaihd.net
   - DOMAIN-SUFFIX,alfredapp.com
@@ -613,6 +614,7 @@ payload:
   - DOMAIN-SUFFIX,hitun.io
   - DOMAIN-SUFFIX,hk
   - DOMAIN-SUFFIX,hk01.com
+  - DOMAIN-SUFFIX,hkepc.com
   - DOMAIN-SUFFIX,hockeyapp.net
   - DOMAIN-SUFFIX,holopin.io
   - DOMAIN-SUFFIX,homedepot.com
@@ -1267,6 +1269,7 @@ payload:
   - DOMAIN-SUFFIX,teamviewer.com
   - DOMAIN-SUFFIX,techcrunch.com
   - DOMAIN-SUFFIX,technorati.com
+  - DOMAIN-SUFFIX,techpowerup.com
   - DOMAIN-SUFFIX,techsmith.com
   - DOMAIN-SUFFIX,techspot.com
   - DOMAIN-SUFFIX,teddysun.com
@@ -1552,6 +1555,7 @@ payload:
   - DOMAIN-SUFFIX,xhlive.org
   - DOMAIN-SUFFIX,xing.com
   - DOMAIN-SUFFIX,xiti.com
+  - DOMAIN-SUFFIX,xkcd.com
   - DOMAIN-SUFFIX,xn--ngstr-lra8j.com
   - DOMAIN-SUFFIX,xnxx.com
   - DOMAIN-SUFFIX,xpressunblock.com
