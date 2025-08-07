@@ -1,3 +1,43 @@
+#!/usr/bin/env python3
+"""
+规则合并器 - 已弃用版本
+
+⚠️  此文件已被重构为模块化版本，不推荐继续使用！
+
+新版本特性：
+- 模块化设计，更好的代码组织
+- 更强的可维护性和扩展性  
+- 完善的错误处理和日志
+- 类型注解和文档完善
+
+请使用新的入口文件：
+    python rule_merger_main.py [config_file]
+
+新版本文件结构：
+- core/: 核心功能模块
+- rule_merger_main.py: 主入口文件
+- utils.py: 实用工具
+- config_docs.py: 配置文档
+
+详细说明请参考 README_v2.md
+
+原始代码保留在下方，仅供参考。
+建议迁移到新版本以获得更好的开发体验。
+"""
+
+import warnings
+
+warnings.warn(
+    "rule_merger.py 已弃用，请使用 rule_merger_main.py。"
+    "新版本提供更好的模块化结构和功能。",
+    DeprecationWarning,
+    stacklevel=2
+)
+
+# ============================================================================
+# 以下是原始代码（已弃用）
+# ============================================================================
+
 import yaml
 import requests
 import os
@@ -5,7 +45,7 @@ import logging
 import sys
 from typing import List, Dict, Optional, Literal, Set
 import re
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from datetime import datetime
 import pytz  # 导入时区支持
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -20,7 +60,7 @@ logging.basicConfig(
 @dataclass
 class RuleConstants:
     """规则相关的常量定义类"""
-    RULE_TYPES: Dict[str, Set[str]] = None  # 存储不同类型规则的集合
+    RULE_TYPES: Dict[str, Set[str]] = field(default_factory=dict)  # 存储不同类型规则的集合
     DOMAIN_PATTERN: str = r'^[a-zA-Z0-9_]([a-zA-Z0-9_-]*[a-zA-Z0-9_])?(\.[a-zA-Z0-9_]([a-zA-Z0-9_-]*[a-zA-Z0-9_])?)*$'  # 域名正则表达式（支持下划线）
     IPV4_CIDR_PATTERN: str = r'^(\d{1,3}\.){3}\d{1,3}/\d{1,2}$'  # IPv4 CIDR正则表达式
     IPV6_CIDR_PATTERN: str = r'^([0-9a-fA-F:]+)/\d{1,3}$'  # IPv6 CIDR正则表达式
@@ -264,8 +304,10 @@ class RuleTransformer:
                         return self.validator._is_valid_domain(rule)
                 elif target_behavior == 'ipcidr':
                     # 检查是否为有效IP CIDR
-                    return (re.match(self.validator.constants.IPV4_CIDR_PATTERN, rule) or 
-                           re.match(self.validator.constants.IPV6_CIDR_PATTERN, rule))
+                    return (
+                        re.match(self.validator.constants.IPV4_CIDR_PATTERN, rule) is not None or
+                        re.match(self.validator.constants.IPV6_CIDR_PATTERN, rule) is not None
+                    )
                 elif target_behavior == 'classical':
                     # classical可以包含所有类型
                     return True
