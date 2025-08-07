@@ -150,5 +150,3 @@ rule-providers:
     interval: 43200
     url: https://cdn.jsdelivr.net/gh/reddishJade/private_proxy@refs/heads/main/Mihomo/Provider/telegram@ip.yaml
     path: ./rules/telegram@ip.yaml
-
-

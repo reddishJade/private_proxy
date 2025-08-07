@@ -5,7 +5,7 @@ name: update rules
 on:
   # 定时触发：每12小时运行一次
   schedule:
-    - cron: '0 */12 * * *'
+    - cron: "0 */12 * * *"
   # 支持手动触发
   workflow_dispatch:
 
@@ -22,19 +22,17 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.10"
-          cache: 'pip'    # 启用pip缓存加速依赖安装
+          cache: "pip" # 启用pip缓存加速依赖安装
 
       # 安装项目依赖
       - name: Install dependencies
         run: |
           pip install -r requirements.txt
 
-      # 运行规则合并脚本
+      # 运行规则合并脚本（新版入口）
       - name: Run script
         run: |
-          cd src/python
-          python rule_merger.py
-          cd ../..
+          python src/python/rule_merger_main.py
 
       # 获取当前时间
       - name: Get current time
@@ -62,18 +60,17 @@ jobs:
           commit_message: 🚀 Update at ${{ steps.time.outputs.TIME }}
           branch: main
           skip_dirty_check: true
-          push_options: '--force'
+          push_options: "--force"
           create_branch: true
           skip_fetch: true
           skip_checkout: true
-          commit_options: '--allow-empty'
-      
+          commit_options: "--allow-empty"
+
       # 清理旧的工作流运行记录
       - name: Delete Workflow Runs
         uses: Mattraks/delete-workflow-runs@v2
         with:
           token: ${{ github.token }}
           repository: ${{ github.repository }}
-          retain_days: 1            # 保留最近1天的记录
-          keep_minimum_runs: 1      # 至少保留1次运行记录
-
+          retain_days: 1 # 保留最近1天的记录
+          keep_minimum_runs: 1 # 至少保留1次运行记录
