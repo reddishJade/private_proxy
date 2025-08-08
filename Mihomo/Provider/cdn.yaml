@@ -1,5 +1,5 @@
-# 更新时间: 2025-08-08 08:50:39（北京时间）
-# 规则数量: 3822
+# 更新时间: 2025-08-08 20:17:54（北京时间）
+# 规则数量: 3824
 payload:
   - DOMAIN,0x0.st
   - DOMAIN,3dna.nationbuilder.com
@@ -961,6 +961,7 @@ payload:
   - DOMAIN,content.any.run
   - DOMAIN,content.api.news
   - DOMAIN,content.arduino.cc
+  - DOMAIN,content.gitbook.com
   - DOMAIN,content.invisioncic.com
   - DOMAIN,content.jwplatform.com
   - DOMAIN,content.kaspersky-labs.com
@@ -2142,6 +2143,7 @@ payload:
   - DOMAIN,static-00.iconduck.com
   - DOMAIN,static-1.bitchute.com
   - DOMAIN,static-2.bitchute.com
+  - DOMAIN,static-2v.gitbook.com
   - DOMAIN,static-3.bitchute.com
   - DOMAIN,static-4.bitchute.com
   - DOMAIN,static-act.imoim.net
@@ -2718,54 +2720,6 @@ payload:
   - DOMAIN-KEYWORD,vdownload.hanime1
   - DOMAIN-KEYWORD,vod-adaptive.akamaized.net
   - DOMAIN-KEYWORD,web-assets.zendesk
-  - DOMAIN-REGEX,^[\w.-]*?\.fsvod[\w.-]\.com$
-  - DOMAIN-REGEX,^[\w.-]*?\.img\.[\w.-]*?\.sendibm[\w.-]\.com$
-  - DOMAIN-REGEX,^[\w.-]*?\.kuaikan-cdn[\w.-]\.com$
-  - DOMAIN-REGEX,^[\w.-]*?\.skyearth[\w.-]\.xyz$
-  - DOMAIN-REGEX,^appcenter-filemanagement-[\w.-]*?\.cloudapp\.net$
-  - DOMAIN-REGEX,^assets[\w.-]*?\.freshdesk\.com$
-  - DOMAIN-REGEX,^blog-imgs-[\w.-][\w.-]\.2nt\.com$
-  - DOMAIN-REGEX,^blog-imgs-[\w.-][\w.-]\.fc2\.com$
-  - DOMAIN-REGEX,^browser-intake-[\w.-]*?-datadoghq\.com$
-  - DOMAIN-REGEX,^cdn-msp[\w.-]\.18comic\.org$
-  - DOMAIN-REGEX,^cdn-msp[\w.-]\.18comic\.vip$
-  - DOMAIN-REGEX,^cdn-msp[\w.-]\.jmcomic-zzz\.one$
-  - DOMAIN-REGEX,^cdn-msp[\w.-]\.jmcomic\.me$
-  - DOMAIN-REGEX,^cdn[\w.-]-dl\.pornhost\.com$
-  - DOMAIN-REGEX,^cdn[\w.-]\.18girlssex\.com$
-  - DOMAIN-REGEX,^cdn[\w.-]\.mikuclub\.fun$
-  - DOMAIN-REGEX,^cdns\.[\w.-]*?\.gigya\.com$
-  - DOMAIN-REGEX,^chunk-[\w.-]*?\.mux\.com$
-  - DOMAIN-REGEX,^file[\w.-]\.mikuclub\.fun$
-  - DOMAIN-REGEX,^i[\w.-]\.nhentai\.net$
-  - DOMAIN-REGEX,^image[\w.-]*?\.cloudokyo\.cloud$
-  - DOMAIN-REGEX,^img-[\w.-]*?\.now\.com$
-  - DOMAIN-REGEX,^img[\w.-][\w.-]\.porngo\.com$
-  - DOMAIN-REGEX,^img[\w.-]\.porngo\.com$
-  - DOMAIN-REGEX,^media[\w.-][\w.-]\.kissjav\.com$
-  - DOMAIN-REGEX,^media[\w.-]\.kissjav\.com$
-  - DOMAIN-REGEX,^object-storage-[\w.-]*?\.vexxhost\.net$
-  - DOMAIN-REGEX,^ocsp\.[\w.-]*?\.amazontrust\.com$
-  - DOMAIN-REGEX,^proxy-[\w.-]*?\.dailymotion\.com$
-  - DOMAIN-REGEX,^s3-[\w.-]*?\.figma\.com$
-  - DOMAIN-REGEX,^s3\.[\w.-]*?\.wasabisys\.com$
-  - DOMAIN-REGEX,^s[\w.-]*?\.hanime1$
-  - DOMAIN-REGEX,^s[\w.-][\w.-][\w.-]\.pornone\.com$
-  - DOMAIN-REGEX,^s[\w.-][\w.-]\.maxstream\.org$
-  - DOMAIN-REGEX,^s[\w.-]\.maxstream\.org$
-  - DOMAIN-REGEX,^sdk\.[\w.-]*?\.braze\.eu$
-  - DOMAIN-REGEX,^static[\w.-][\w.-]\.tgstat\.ru$
-  - DOMAIN-REGEX,^static[\w.-]\.tgstat\.ru$
-  - DOMAIN-REGEX,^t[\w.-]\.nhentai\.net$
-  - DOMAIN-REGEX,^th-[\w.-]*?\.pornone\.com$
-  - DOMAIN-REGEX,^uploads-[\w.-]*?\.insided\.com$
-  - DOMAIN-REGEX,^v\.rn[\w.-][\w.-][\w.-]\.xyz$
-  - DOMAIN-REGEX,^video-thumbnail2\.fc2\.com$
-  - DOMAIN-REGEX,^video-thumbnail[\w.-]\.liaoningmovie\.net$
-  - DOMAIN-REGEX,^video[\w.-]*?\.cloudokyo\.cloud$
-  - DOMAIN-REGEX,^video[\w.-]-thumbnail[\w.-]\.fc2\.com$
-  - DOMAIN-REGEX,^video[\w.-]-thumbnail[\w.-]\.liaoningmovie\.net$
-  - DOMAIN-REGEX,^vip-videoprem[\w.-]*?-thumbnail[\w.-]\.fc2\.com$
   - DOMAIN-SUFFIX,1a-1791.com
   - DOMAIN-SUFFIX,1passwordusercontent.ca
   - DOMAIN-SUFFIX,1passwordusercontent.com
@@ -3823,3 +3777,51 @@ payload:
   - DOMAIN-SUFFIX,zohostatic.eu
   - DOMAIN-SUFFIX,zohowebstatic.com
   - DOMAIN-SUFFIX,zorocdn.xyz
+  - DOMAIN-WILDCARD,*.fsvod?.com
+  - DOMAIN-WILDCARD,*.img.*.sendibm?.com
+  - DOMAIN-WILDCARD,*.kuaikan-cdn?.com
+  - DOMAIN-WILDCARD,*.skyearth?.xyz
+  - DOMAIN-WILDCARD,appcenter-filemanagement-*.cloudapp.net
+  - DOMAIN-WILDCARD,assets*.freshdesk.com
+  - DOMAIN-WILDCARD,blog-imgs-??.2nt.com
+  - DOMAIN-WILDCARD,blog-imgs-??.fc2.com
+  - DOMAIN-WILDCARD,browser-intake-*-datadoghq.com
+  - DOMAIN-WILDCARD,cdn-msp?.18comic.org
+  - DOMAIN-WILDCARD,cdn-msp?.18comic.vip
+  - DOMAIN-WILDCARD,cdn-msp?.jmcomic-zzz.one
+  - DOMAIN-WILDCARD,cdn-msp?.jmcomic.me
+  - DOMAIN-WILDCARD,cdn?-dl.pornhost.com
+  - DOMAIN-WILDCARD,cdn?.18girlssex.com
+  - DOMAIN-WILDCARD,cdn?.mikuclub.fun
+  - DOMAIN-WILDCARD,cdns.*.gigya.com
+  - DOMAIN-WILDCARD,chunk-*.mux.com
+  - DOMAIN-WILDCARD,file?.mikuclub.fun
+  - DOMAIN-WILDCARD,i?.nhentai.net
+  - DOMAIN-WILDCARD,image*.cloudokyo.cloud
+  - DOMAIN-WILDCARD,img-*.now.com
+  - DOMAIN-WILDCARD,img?.porngo.com
+  - DOMAIN-WILDCARD,img??.porngo.com
+  - DOMAIN-WILDCARD,media?.kissjav.com
+  - DOMAIN-WILDCARD,media??.kissjav.com
+  - DOMAIN-WILDCARD,object-storage-*.vexxhost.net
+  - DOMAIN-WILDCARD,ocsp.*.amazontrust.com
+  - DOMAIN-WILDCARD,proxy-*.dailymotion.com
+  - DOMAIN-WILDCARD,s*.hanime1
+  - DOMAIN-WILDCARD,s3-*.figma.com
+  - DOMAIN-WILDCARD,s3.*.wasabisys.com
+  - DOMAIN-WILDCARD,s?.maxstream.org
+  - DOMAIN-WILDCARD,s??.maxstream.org
+  - DOMAIN-WILDCARD,s???.pornone.com
+  - DOMAIN-WILDCARD,sdk.*.braze.eu
+  - DOMAIN-WILDCARD,static?.tgstat.ru
+  - DOMAIN-WILDCARD,static??.tgstat.ru
+  - DOMAIN-WILDCARD,t?.nhentai.net
+  - DOMAIN-WILDCARD,th-*.pornone.com
+  - DOMAIN-WILDCARD,uploads-*.insided.com
+  - DOMAIN-WILDCARD,v.rn???.xyz
+  - DOMAIN-WILDCARD,video*.cloudokyo.cloud
+  - DOMAIN-WILDCARD,video-thumbnail2.fc2.com
+  - DOMAIN-WILDCARD,video-thumbnail?.liaoningmovie.net
+  - DOMAIN-WILDCARD,video?-thumbnail?.fc2.com
+  - DOMAIN-WILDCARD,video?-thumbnail?.liaoningmovie.net
+  - DOMAIN-WILDCARD,vip-videoprem*-thumbnail?.fc2.com
