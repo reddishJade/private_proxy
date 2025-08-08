@@ -32,7 +32,8 @@ jobs:
       # 运行规则合并脚本（新版入口）
       - name: Run script
         run: |
-          python src/python/rule_merger_main.py
+          cd src/python/
+          python ./rule_merger_main.py ./config.yaml
 
       # 获取当前时间
       - name: Get current time

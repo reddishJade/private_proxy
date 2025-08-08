@@ -16,9 +16,6 @@
     python rule_merger_main.py [config_file]
 
 配置文件格式请参考 config.yaml 示例文件。
-
-作者: RuleMerger Team
-版本: 2.0.0
 """
 
 import sys
@@ -67,7 +64,7 @@ def get_config_path() -> str:
 def print_help():
     """打印帮助信息"""
     help_text = """
-规则合并器 v2.0 - 模块化版本
+规则合并器 v2.0
 
 用法:
     python rule_merger_main.py [配置文件路径]
@@ -86,7 +83,6 @@ def print_help():
     python utils.py validate <配置文件>            # 验证配置文件
     python config_docs.py                         # 创建示例配置
 
-更多信息请参考 README_v2.md
     """
     print(help_text)
 
