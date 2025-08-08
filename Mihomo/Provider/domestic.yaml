@@ -1,5 +1,5 @@
-# 更新时间: 2025-08-08 08:50:40（北京时间）
-# 规则数量: 976
+# 更新时间: 2025-08-08 20:17:55（北京时间）
+# 规则数量: 977
 payload:
   - DOMAIN,acg.tv
   - DOMAIN,assets1.xboxlive.cn
@@ -23,11 +23,6 @@ payload:
   - DOMAIN,www.intel.cn
   - DOMAIN,www.layuicdn.com
   - DOMAIN-KEYWORD,beplay
-  - DOMAIN-REGEX,^[\w.-]*?\.ffzy-online[\w.-]\.com$
-  - DOMAIN-REGEX,^[\w.-]*?\.ffzy-play[\w.-]\.com$
-  - DOMAIN-REGEX,^[\w.-]*?\.lz-cdn[\w.-][\w.-]\.com$
-  - DOMAIN-REGEX,^[\w.-]*?\.lz-cdn[\w.-]\.com$
-  - DOMAIN-REGEX,^[\w.-]*?\.qhimgs[\w.-]\.com$
   - DOMAIN-SUFFIX,10010.com
   - DOMAIN-SUFFIX,10086.cn
   - DOMAIN-SUFFIX,110.com
@@ -521,6 +516,7 @@ payload:
   - DOMAIN-SUFFIX,jsboxbbs.com
   - DOMAIN-SUFFIX,jstarkan.com
   - DOMAIN-SUFFIX,kaiyanapp.com
+  - DOMAIN-SUFFIX,kdocs.cn
   - DOMAIN-SUFFIX,kdslife.com
   - DOMAIN-SUFFIX,keepcdn.com
   - DOMAIN-SUFFIX,kfcapp.cn
@@ -977,3 +973,8 @@ payload:
   - DOMAIN-SUFFIX,zuimeitianqi.com
   - DOMAIN-SUFFIX,zuoyebang.com
   - DOMAIN-SUFFIX,zybang.com
+  - DOMAIN-WILDCARD,*.ffzy-online?.com
+  - DOMAIN-WILDCARD,*.ffzy-play?.com
+  - DOMAIN-WILDCARD,*.lz-cdn?.com
+  - DOMAIN-WILDCARD,*.lz-cdn??.com
+  - DOMAIN-WILDCARD,*.qhimgs?.com

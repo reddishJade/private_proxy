@@ -1,5 +1,5 @@
-# 更新时间: 2025-08-08 08:50:39（北京时间）
-# 规则数量: 1179
+# 更新时间: 2025-08-08 20:17:54（北京时间）
+# 规则数量: 1180
 payload:
   - DOMAIN,addins.deepl.com
   - DOMAIN,amupdatedl.microsoft.com
@@ -81,6 +81,7 @@ payload:
   - DOMAIN,cdn.organicmaps.app
   - DOMAIN,cdn.winget.microsoft.com
   - DOMAIN,cdn.zoom.us
+  - DOMAIN,charts.verdaccio.org
   - DOMAIN,ciscobinary.openh264.org
   - DOMAIN,clarkson.edu
   - DOMAIN,client.hikarifield.co.jp
@@ -697,13 +698,6 @@ payload:
   - DOMAIN,xenia.sote.hu
   - DOMAIN,xvcf1.xboxlive.com
   - DOMAIN,xvcf2.xboxlive.com
-  - DOMAIN-REGEX,^[\w.-]*?\.s3\.[\w.-]*?\.backblazeb2\.com$
-  - DOMAIN-REGEX,^cdn-[\w.-]*?\.comaps\.app$
-  - DOMAIN-REGEX,^cdn-[\w.-]*?\.comaps\.tech$
-  - DOMAIN-REGEX,^cdn-[\w.-]*?\.organicmaps\.app$
-  - DOMAIN-REGEX,^download[\w.-]*?\.mediafire\.com$
-  - DOMAIN-REGEX,^ftp\.[\w.-][\w.-]\.debian\.org$
-  - DOMAIN-REGEX,^ftp\.[\w.-][\w.-]\.freebsd\.org$
   - DOMAIN-SUFFIX,1fichier.com
   - DOMAIN-SUFFIX,1fichier.info
   - DOMAIN-SUFFIX,allawnofs.com
@@ -1180,3 +1174,10 @@ payload:
   - DOMAIN-SUFFIX,wup.eshop.nintendo.net
   - DOMAIN-SUFFIX,wup.shop.nintendo.net
   - DOMAIN-SUFFIX,yarnpkg.com
+  - DOMAIN-WILDCARD,*.s3.*.backblazeb2.com
+  - DOMAIN-WILDCARD,cdn-*.comaps.app
+  - DOMAIN-WILDCARD,cdn-*.comaps.tech
+  - DOMAIN-WILDCARD,cdn-*.organicmaps.app
+  - DOMAIN-WILDCARD,download*.mediafire.com
+  - DOMAIN-WILDCARD,ftp.??.debian.org
+  - DOMAIN-WILDCARD,ftp.??.freebsd.org
