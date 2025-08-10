@@ -1,5 +1,5 @@
-# 更新时间: 2025-08-09 20:14:54（北京时间）
-# 规则数量: 1599
+# 更新时间: 2025-08-10 08:51:53（北京时间）
+# 规则数量: 1602
 payload:
   - DOMAIN,api.waqi.info
   - DOMAIN,aqi.aqicn.org
@@ -363,6 +363,7 @@ payload:
   - DOMAIN-SUFFIX,demdex.net
   - DOMAIN-SUFFIX,deno.com
   - DOMAIN-SUFFIX,deskconnect.com
+  - DOMAIN-SUFFIX,desmos.com
   - DOMAIN-SUFFIX,detnews.com
   - DOMAIN-SUFFIX,dev
   - DOMAIN-SUFFIX,deviantart.com
@@ -468,6 +469,7 @@ payload:
   - DOMAIN-SUFFIX,fide.com
   - DOMAIN-SUFFIX,fiftythree.com
   - DOMAIN-SUFFIX,figma.com
+  - DOMAIN-SUFFIX,findagrave.com
   - DOMAIN-SUFFIX,firebase.com
   - DOMAIN-SUFFIX,firebaseio.com
   - DOMAIN-SUFFIX,firefox.com
@@ -818,6 +820,7 @@ payload:
   - DOMAIN-SUFFIX,manhuabika.com
   - DOMAIN-SUFFIX,manhuaren.com
   - DOMAIN-SUFFIX,mapbox.com
+  - DOMAIN-SUFFIX,maptiler.com
   - DOMAIN-SUFFIX,marketwatch.com
   - DOMAIN-SUFFIX,mashable.com
   - DOMAIN-SUFFIX,material.io

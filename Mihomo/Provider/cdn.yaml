@@ -1,5 +1,5 @@
-# 更新时间: 2025-08-09 20:14:53（北京时间）
-# 规则数量: 3830
+# 更新时间: 2025-08-10 08:51:52（北京时间）
+# 规则数量: 3840
 payload:
   - DOMAIN,0x0.st
   - DOMAIN,3dna.nationbuilder.com
@@ -687,6 +687,7 @@ payload:
   - DOMAIN,cdn.royaleapi.com
   - DOMAIN,cdn.safecharge.com
   - DOMAIN,cdn.sanity.io
+  - DOMAIN,cdn.sapphire.microsoftapp.net
   - DOMAIN,cdn.sc.gl
   - DOMAIN,cdn.scaleflex.it
   - DOMAIN,cdn.schemaapp.com
@@ -721,6 +722,7 @@ payload:
   - DOMAIN,cdn.staticdelivr.com
   - DOMAIN,cdn.staticswin.com
   - DOMAIN,cdn.stellarhosted.com
+  - DOMAIN,cdn.streamlabs.com
   - DOMAIN,cdn.substack.com
   - DOMAIN,cdn.sunofbeaches.com
   - DOMAIN,cdn.svgator.com
@@ -1074,6 +1076,7 @@ payload:
   - DOMAIN,embed.savvycal.com
   - DOMAIN,embed.tawk.to
   - DOMAIN,embed.ted.com
+  - DOMAIN,embed.twitch.tv
   - DOMAIN,embed.typeform.com
   - DOMAIN,embedr.flickr.com
   - DOMAIN,embedwistia-a.akamaihd.net
@@ -1263,6 +1266,7 @@ payload:
   - DOMAIN,i2.anysex.com
   - DOMAIN,i2.bahamut.com.tw
   - DOMAIN,i2.hentaifox.com
+  - DOMAIN,i2.nhentai.net
   - DOMAIN,i3.anysex.com
   - DOMAIN,i4.anysex.com
   - DOMAIN,ias.r10s.jp
@@ -1335,6 +1339,7 @@ payload:
   - DOMAIN,images.axios.com
   - DOMAIN,images.bfmtv.com
   - DOMAIN,images.blackmagicdesign.com
+  - DOMAIN,images.blockscan.com
   - DOMAIN,images.carfax.com
   - DOMAIN,images.contentful.com
   - DOMAIN,images.contentstack.io
@@ -1348,6 +1353,7 @@ payload:
   - DOMAIN,images.everyplate.com
   - DOMAIN,images.fandango.com
   - DOMAIN,images.financemagnates.com
+  - DOMAIN,images.findagrave.com
   - DOMAIN,images.flightradar24.com
   - DOMAIN,images.freeimages.com
   - DOMAIN,images.g2crowd.com
@@ -2128,6 +2134,7 @@ payload:
   - DOMAIN,sp-spiegel-de.spiegel.de
   - DOMAIN,sp.nba.com
   - DOMAIN,sp.replit.com
+  - DOMAIN,sp.streamlabs.com
   - DOMAIN,spcdn.incartupsell.com
   - DOMAIN,spoprod-a.akamaihd.net
   - DOMAIN,sprig.figma.com
@@ -2147,6 +2154,7 @@ payload:
   - DOMAIN,static-00.iconduck.com
   - DOMAIN,static-1.bitchute.com
   - DOMAIN,static-2.bitchute.com
+  - DOMAIN,static-2c.gitbook.com
   - DOMAIN,static-2v.gitbook.com
   - DOMAIN,static-3.bitchute.com
   - DOMAIN,static-4.bitchute.com
@@ -2485,6 +2493,7 @@ payload:
   - DOMAIN,t1.gstatic.com
   - DOMAIN,t1.picb.cc
   - DOMAIN,t2.gstatic.com
+  - DOMAIN,t2.nhentai.net
   - DOMAIN,t2.picb.cc
   - DOMAIN,t3.gstatic.com
   - DOMAIN,t3.picb.cc
@@ -2764,6 +2773,7 @@ payload:
   - DOMAIN-SUFFIX,alphafish.top
   - DOMAIN-SUFFIX,amaicdn.com
   - DOMAIN-SUFFIX,ampproject.org
+  - DOMAIN-SUFFIX,ancestrycdn.com
   - DOMAIN-SUFFIX,angular.dev
   - DOMAIN-SUFFIX,angular.io
   - DOMAIN-SUFFIX,angularjs.org
