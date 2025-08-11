@@ -54,7 +54,6 @@ rules:
 
 ### 📚 相关文档
 
-- [详细使用教程](./GUIDE.md)
 - [Mihomo 配置语法](https://wiki.metacubex.one/handbook/syntax/)
 - [配置文件说明](https://wiki.metacubex.one/config/)
 
@@ -148,21 +147,12 @@ private_proxy/
 
 感谢以下开源项目和个人贡献者，本项目的规则内容基于他们的优秀工作：
 
-### 🌟 核心贡献者
-
+### 📚 参考项目
 - **[Sukka](https://github.com/SukkaW)** - [Surge Ruleset](https://github.com/SukkaW/Surge)
 - **[DustinWin](https://github.com/DustinWin)** - [ruleset_geodata](https://github.com/DustinWin/ruleset_geodata)
 - **[dler-io](https://github.com/dler-io)** - [Rules](https://github.com/dler-io/Rules)
 - **[xndeye](https://github.com/xndeye)** - [rule-merger](https://github.com/xndeye/rule-merger)
 - **[Loyalsoldier](https://github.com/Loyalsoldier)** - [clash-rules](https://github.com/Loyalsoldier/clash-rules)
-- **[juewuy](https://github.com/juewuy)**
-
-### 📚 参考项目
-
-- [我有特别的 Surge 配置和使用技巧](https://blog.skk.moe/post/i-have-my-unique-surge-setup/) - Sukka's Blog
-- [Mihomo 官方文档](https://wiki.metacubex.one/) - Mihomo Core 团队
-- [AWAvenue-Adblock-Rule](https://github.com/TG-Twilight/AWAvenue-Adblock-Rule) - 广告拦截规则
-- [d3ward AdBlock List](https://github.com/d3ward/toolz) - 广告拦截规则
 
 感谢所有为开源社区贡献力量的开发者们！🎉
 
