@@ -1,5 +1,5 @@
-# 更新时间: 2025-08-10 08:51:53（北京时间）
-# 规则数量: 1602
+# 更新时间: 2025-08-11 23:38:14（北京时间）
+# 规则数量: 1603
 payload:
   - DOMAIN,api.waqi.info
   - DOMAIN,aqi.aqicn.org
@@ -380,6 +380,7 @@ payload:
   - DOMAIN-SUFFIX,disq.us
   - DOMAIN-SUFFIX,disqus.com
   - DOMAIN-SUFFIX,disquscdn.com
+  - DOMAIN-SUFFIX,distrowatch.com
   - DOMAIN-SUFFIX,dk
   - DOMAIN-SUFFIX,dler.io
   - DOMAIN-SUFFIX,dlsite.com
