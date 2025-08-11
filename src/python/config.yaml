@@ -22,21 +22,21 @@
     #   url: "https://ruleset.skk.moe/Clash/domainset/reject.txt"
     #   format: txt
     #   behavior: domain
-    # xndeye_reject:
-    #   type: http
-    #   url: "https://cdn.jsdelivr.net/gh/xndeye/adblock_list@beta/rule/clash.yaml"
-    #   format: yaml
-    #   behavior: domain
+    xndeye_reject:
+      type: http
+      url: "https://cdn.jsdelivr.net/gh/xndeye/adblock_list@beta/rule/clash.yaml"
+      format: yaml
+      behavior: domain
     dler_ad:
       type: http
       url: "https://cdn.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/AdBlock.yaml"
       format: yaml
       behavior: classical
-    AWAvenue:
-      type: http
-      url: "https://gcore.jsdelivr.net/gh/TG-Twilight/AWAvenue-Ads-Rule@main/Filters/AWAvenue-Ads-Rule-Clash.yaml"
-      format: yaml
-      behavior: domain
+    # AWAvenue:
+    #   type: http
+    #   url: "https://gcore.jsdelivr.net/gh/TG-Twilight/AWAvenue-Ads-Rule@main/Filters/AWAvenue-Ads-Rule-Clash.yaml"
+    #   format: yaml
+    #   behavior: domain
     # d3ward:
     #   type: http
     #   url: "https://cdn.jsdelivr.net/gh/reddishJade/private_proxy@refs/heads/main/src/ads.txt"
@@ -84,11 +84,11 @@
   format: yaml
   behavior: domain
   upstream:
-    # DustinWin_apple_cn:
-    #   type: http
-    #   url: "https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/apple-cn.yaml"
-    #   format: yaml
-    #   behavior: domain
+    DustinWin_apple_cn:
+      type: http
+      url: "https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/apple-cn.yaml"
+      format: yaml
+      behavior: domain
     skk_apple_services:
       type: http
       url: "https://ruleset.skk.moe/Clash/non_ip/apple_services.txt"
