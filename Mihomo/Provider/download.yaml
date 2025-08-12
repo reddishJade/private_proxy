@@ -1,5 +1,5 @@
-# 更新时间: 2025-08-12 08:43:34（北京时间）
-# 规则数量: 1182
+# 更新时间: 2025-08-12 20:16:59（北京时间）
+# 规则数量: 1181
 payload:
   - DOMAIN,addins.deepl.com
   - DOMAIN,amupdatedl.microsoft.com
@@ -67,6 +67,7 @@ payload:
   - DOMAIN,cache.agilebits.com
   - DOMAIN,cache.pack.google.com
   - DOMAIN,cdimage.kali.org
+  - DOMAIN,cdn-builds.paw.cloud
   - DOMAIN,cdn-images.orbstack.dev
   - DOMAIN,cdn-patch.swtor.com
   - DOMAIN,cdn-updates.orbstack.dev
@@ -658,10 +659,8 @@ payload:
   - DOMAIN,snt.utwente.nl
   - DOMAIN,softwareupdate.pilotmoon.com
   - DOMAIN,sotirov-bg.net
-  - DOMAIN,static-production.npmjs.com
   - DOMAIN,static.adguard.com
   - DOMAIN,static.adtidy.org
-  - DOMAIN,static.npmjs.com
   - DOMAIN,static.redox-os.org
   - DOMAIN,static.rust-lang.org
   - DOMAIN,stats.snipaste.com
