@@ -1,5 +1,5 @@
-# 更新时间: 2025-08-13 17:28:30（北京时间）
-# 规则数量: 1603
+# 更新时间: 2025-08-13 20:17:08（北京时间）
+# 规则数量: 1600
 payload:
   - DOMAIN,api.waqi.info
   - DOMAIN,aqi.aqicn.org
@@ -21,7 +21,6 @@ payload:
   - DOMAIN-KEYWORD,discord
   - DOMAIN-KEYWORD,dlercloud
   - DOMAIN-KEYWORD,dropbox
-  - DOMAIN-KEYWORD,duolingo
   - DOMAIN-KEYWORD,facebook
   - DOMAIN-KEYWORD,github
   - DOMAIN-KEYWORD,google
@@ -409,8 +408,6 @@ payload:
   - DOMAIN-SUFFIX,duck.com
   - DOMAIN-SUFFIX,duckduckgo.com
   - DOMAIN-SUFFIX,dueapp.com
-  - DOMAIN-SUFFIX,duolingo.cn
-  - DOMAIN-SUFFIX,duolingo.com
   - DOMAIN-SUFFIX,dw.com
   - DOMAIN-SUFFIX,dweb.link
   - DOMAIN-SUFFIX,dwnews.com
