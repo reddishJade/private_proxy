@@ -1,9 +1,8 @@
-# 更新时间: 2025-08-12 20:17:01（北京时间）
-# 规则数量: 139
+# 更新时间: 2025-08-13 08:44:44（北京时间）
+# 规则数量: 138
 payload:
   - DOMAIN,asusrouter.com
   - DOMAIN,board.zash.run.place
-  - DOMAIN,d.metacubex.one
   - DOMAIN,instant.arubanetworks.com
   - DOMAIN,metacubex.github.io
   - DOMAIN,metacubexd.pages.dev
