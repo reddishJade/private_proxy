@@ -50,7 +50,7 @@ def compare_rules(base_path: Path) -> bool:
     print(f"开始检测 {len(rule_files)} 个规则文件...")
 
     for file_path in rule_files:
-        relative_path = str(file_path.relative_to(Path.cwd()))
+        relative_path = str(file_path)
         print(f"  - 正在处理: {relative_path}")
 
         # 获取当前文件内容
