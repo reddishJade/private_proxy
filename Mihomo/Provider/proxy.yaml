@@ -1,5 +1,5 @@
-# 更新时间: 2025-08-14 07:12:13
-# 规则数量: 1600
+# 更新时间: 2025-08-14 12:17:38
+# 规则数量: 1620
 payload:
   - 123av.com
   - 123av.me
@@ -57,6 +57,7 @@ payload:
   - airav.io
   - airtable.com
   - airtableusercontent.com
+  - ajay.app
   - akamai.net
   - akamaihd.net
   - alfredapp.com
@@ -101,7 +102,6 @@ payload:
   - apkpure.com
   - apkpure.net
   - apnews.com
-  - app
   - app.smartmailcloud.com
   - appdownloader.net
   - apple-dns.net
@@ -155,6 +155,7 @@ payload:
   - bandisoft.com
   - bandwagonhost.com
   - bang.com
+  - bangumi.moe
   - battle.net
   - battlenet.com
   - bbc.com
@@ -167,6 +168,7 @@ payload:
   - bestbuy.com
   - bet365.com
   - betvictor.com
+  - bgp.tools
   - bibox.com
   - bigsound.org
   - bikaa.xyz
@@ -191,7 +193,6 @@ payload:
   - bkrtx.com
   - bleepingcomputer.com
   - blizzard.com
-  - blog
   - blog.com
   - blogblog.com
   - blogcdn.com
@@ -213,6 +214,7 @@ payload:
   - brave.com
   - broadcom.com
   - browserleaks
+  - bsky.app
   - businessinsider.com
   - bwh1.net
   - bybit.com
@@ -315,6 +317,7 @@ payload:
   - cuty.io
   - cx
   - cy
+  - cyberghost.app
   - cygames.jp
   - cz
   - d.pr
@@ -344,7 +347,6 @@ payload:
   - deskconnect.com
   - desmos.com
   - detnews.com
-  - dev
   - deviantart.com
   - deviantart.net
   - diagrams.net
@@ -369,6 +371,7 @@ payload:
   - dns-check.info
   - dns-leak.com
   - dns-oarc.net
+  - dnscheck.tools
   - dnschecker.org
   - dnsimple.com
   - dnsleak.asn247.net
@@ -402,6 +405,7 @@ payload:
   - economist.com
   - edgeapp.net
   - edgecastcdn.net
+  - edgecompute.app
   - edgekey.net
   - edgesuite.net
   - edns.ip-api.com
@@ -465,6 +469,7 @@ payload:
   - flipkart.com
   - flitto.com
   - flurry.com
+  - fly.dev
   - fly.io
   - fm
   - fo
@@ -520,15 +525,19 @@ payload:
   - gitbook.com
   - gitbook.io
   - github
+  - github.blog
   - github.com
+  - github.dev
   - github.io
   - github.media
   - githubapp.com
   - githubassets.com
   - githubcopilot.com
+  - githubpreview.dev
   - githubstatus.com
   - githubusercontent.com
   - gitkraken.com
+  - gitkraken.dev
   - gitlab.com
   - gitlab.io
   - gitlab.net
@@ -543,6 +552,7 @@ payload:
   - gmodules.com
   - gnc.com
   - go.com
+  - go.dev
   - go.jp
   - godaddy.com
   - godoc.org
@@ -564,6 +574,7 @@ payload:
   - greasyfork.org
   - greatfire.org
   - greenhouse.io
+  - grep.app
   - grindr.com
   - gs
   - gstatic.cn
@@ -682,6 +693,7 @@ payload:
   - is.gd
   - ishowsapp.com
   - issuu.com
+  - istatmenus.app
   - istockphoto.com
   - it
   - itasoftware.com
@@ -734,6 +746,7 @@ payload:
   - kisscos.net
   - kknews.cc
   - klip.me
+  - knock.app
   - ko-fi.com
   - kobo.com
   - kobobooks.com
@@ -766,6 +779,7 @@ payload:
   - line.biz
   - line.me
   - line.naver.jp
+  - linear.app
   - linecorp.com
   - linefriends.com
   - linemobile.com
@@ -836,6 +850,7 @@ payload:
   - mindnode.com
   - minecraft-services.net
   - minecraft.net
+  - minecraft.tools
   - minecraft.wiki
   - minecraftforum.net
   - minecraftservices.com
@@ -850,7 +865,6 @@ payload:
   - mobile01.com
   - modmyi.com
   - modrinth.com
-  - moe
   - mojang.com
   - monica.im
   - moomoo.com
@@ -968,6 +982,7 @@ payload:
   - openvpn.net
   - openwrt.org
   - oracle.com
+  - orbstack.dev
   - orkut.com
   - osha.gov
   - osmand.net
@@ -1117,6 +1132,7 @@ payload:
   - ru
   - rule34video.com
   - rumble.com
+  - run.app
   - sa
   - sagernet.org
   - saucenao.com
@@ -1136,6 +1152,7 @@ payload:
   - search.com
   - sendbird.com
   - sendgrid.net
+  - sentry.dev
   - sentry.io
   - servebom.com
   - serverfault.com
@@ -1172,6 +1189,7 @@ payload:
   - sketch.cloud
   - sketch.com
   - sketchappsources.com
+  - skk.moe
   - slack-edge.com
   - slack-msgs.com
   - slack.com
@@ -1324,7 +1342,6 @@ payload:
   - tokyonline.com
   - tomshardware.com
   - toolforge.org
-  - tools
   - torcn.com
   - toroporno.com
   - torproject.org
@@ -1424,6 +1441,7 @@ payload:
   - venchina.com
   - venturebeat.com
   - veoh.com
+  - vercel.app
   - vercel.com
   - vercel.live
   - verizon.com
@@ -1475,6 +1493,7 @@ payload:
   - waze.com
   - wdfiles.com
   - weather.com
+  - web.dev
   - web2project.net
   - webflow.com
   - webfreer.com
@@ -1529,6 +1548,7 @@ payload:
   - wordpress.org
   - wordtune.com
   - workday.com
+  - workers.dev
   - workflow.is
   - workflowy.com
   - worldcat.org
