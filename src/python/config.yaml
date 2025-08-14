@@ -84,11 +84,11 @@
   format: yaml
   behavior: domain
   upstream:
-    DustinWin_apple_cn:
-      type: http
-      url: "https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/apple-cn.yaml"
-      format: yaml
-      behavior: domain
+    # DustinWin_apple_cn:
+    #   type: http
+    #   url: "https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/apple-cn.yaml"
+    #   format: yaml
+    #   behavior: domain
     skk_apple_services:
       type: http
       url: "https://ruleset.skk.moe/Clash/non_ip/apple_services.txt"
@@ -109,15 +109,15 @@
       url: "https://ruleset.skk.moe/Clash/non_ip/apple_cdn.txt"
       format: txt
       behavior: classical
-- path: output/microsoft@cn.yaml
-  format: yaml
-  behavior: domain
-  upstream:
-    DustinWin_microsoft_cn:
-      type: http
-      url: "https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/microsoft-cn.yaml"
-      format: yaml
-      behavior: domain
+# - path: output/microsoft@cn.yaml
+#   format: yaml
+#   behavior: domain
+#   upstream:
+#     DustinWin_microsoft_cn:
+#       type: http
+#       url: "https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/microsoft-cn.yaml"
+#       format: yaml
+#       behavior: domain
     # skk_microsoft_cdn:
     #   type: http
     #   url: "https://ruleset.skk.moe/Clash/non_ip/microsoft_cdn.txt"
@@ -137,13 +137,9 @@
       url: "https://cdn.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/AI%20Suite.yaml"
       format: yaml
       behavior: domain
-- path: output/game@cn.yaml
-  format: yaml
-  behavior: domain
-  upstream:
-    DustinWin_games_cn:
+    ACL4SSR_ai:
       type: http
-      url: "https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/games-cn.yaml"
+      url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Ruleset/AI.list"
       format: yaml
       behavior: domain
 - path: output/cdn.yaml
@@ -315,7 +311,7 @@
   upstream:
     DustinWin_private:
       type: http
-      url: "https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/private.yaml"
+      url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Lan/Lan.yaml"
       format: yaml
       behavior: domain
 - path: output/private@ip.yaml
@@ -324,7 +320,7 @@
   upstream:
     DustinWin_privateip:
       type: http
-      url: "https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/privateip.yaml"
+      url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Lan/Lan.yaml"
       format: yaml
       behavior: ipcidr
 - path: output/fakeip-filter.yaml

@@ -92,21 +92,19 @@ private_proxy/
 
 ### 🌐 域名规则
 
-| 规则名称               | 上游来源                              | 订阅链接                                                                                                         |
-| ---------------------- | ------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
-| **reject**       | AWAvenue, d3ward                      | [📥](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/reject.yaml)       |
-| **proxy**        | skk_global, dler_proxy                | [📥](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/proxy.yaml)        |
-| **domestic**     | skk_domestic                          | [📥](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/domestic.yaml)     |
-| **cdn**          | skk_cdn                               | [📥](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/cdn.yaml)          |
-| **streaming**    | skk_streaming                         | [📥](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/stream.yaml)       |
-| **ai**           | dler_ai                               | [📥](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/ai.yaml)           |
-| **telegram**     | skk_telegram                          | [📥](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/telegram.yaml)     |
-| **apple@cn**     | skk_apple                             | [📥](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/apple@cn.yaml)     |
-| **microsoft@cn** | DustinWin_microsoft_cn                | [📥](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/microsoft@cn.yaml) |
-| **game@cn**      | DustinWin_games_cn                    | [📥](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/game@cn.yaml)      |
-| **download**     | skk_download                          | [📥](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/download.yaml)     |
-| **private**      | DustinWin_private                     | [📥](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/private.yaml)      |
-| **direct**       | Loyalsoldier_applications, skk_direct | [📥](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/direct.yaml)       |
+| 规则名称            | 上游来源                              | 订阅链接                                                                                                     |
+| ------------------- | ------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
+| **reject**    | xndeye, dler_ad                       | [📥](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/reject.yaml)   |
+| **proxy**     | skk_global, dler_proxy                | [📥](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/proxy.yaml)    |
+| **domestic**  | skk_domestic                          | [📥](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/domestic.yaml) |
+| **cdn**       | skk_cdn                               | [📥](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/cdn.yaml)      |
+| **streaming** | skk_streaming                         | [📥](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/stream.yaml)   |
+| **ai**        | dler_ai, ACL4SSR_ai                   | [📥](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/ai.yaml)       |
+| **telegram**  | skk_telegram                          | [📥](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/telegram.yaml) |
+| **apple@cn**  | skk_apple, DustinWin_apple_cn         | [📥](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/apple@cn.yaml) |
+| **download**  | skk_download                          | [📥](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/download.yaml) |
+| **private**   | ios_rule_script_lan                   | [📥](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/private.yaml)  |
+| **direct**    | Loyalsoldier_applications, skk_direct | [📥](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/direct.yaml)   |
 
 ### 🌍 IP 地址规则
 
@@ -140,19 +138,20 @@ private_proxy/
 
 - [**Sukka's Surge Ruleset**](https://github.com/SukkaW/Surge)
 - [**DustinWin's Ruleset**](https://github.com/DustinWin/ruleset_geodata)
-- [**dler-io AI Rules**](https://github.com/dler-io/Rules)
+- [**dler-io Rules**](https://github.com/dler-io/Rules)
 - [**Loyalsoldier's Rules**](https://github.com/Loyalsoldier/clash-rules)
+- [**ios_rule_script**](https://github.com/blackmatrix7/ios_rule_script)
+- [**ACL4SSR**](https://github.com/ACL4SSR/ACL4SSR/tree/master)
 
 ## 🙏 致谢
 
 感谢以下开源项目和个人贡献者，本项目的规则内容基于他们的优秀工作：
 
 ### 📚 参考项目
+
 - **[Sukka](https://github.com/SukkaW)** - [Surge Ruleset](https://github.com/SukkaW/Surge)
 - **[DustinWin](https://github.com/DustinWin)** - [ruleset_geodata](https://github.com/DustinWin/ruleset_geodata)
-- **[dler-io](https://github.com/dler-io)** - [Rules](https://github.com/dler-io/Rules)
 - **[xndeye](https://github.com/xndeye)** - [rule-merger](https://github.com/xndeye/rule-merger)
-- **[Loyalsoldier](https://github.com/Loyalsoldier)** - [clash-rules](https://github.com/Loyalsoldier/clash-rules)
 
 感谢所有为开源社区贡献力量的开发者们！🎉
 
