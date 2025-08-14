@@ -1,0 +1,133 @@
+# 简洁的规则配置 - 只保留有效的源，去掉注释垃圾
+
+- path: output/reject.yaml
+  behavior: domain
+  upstream:
+    xndeye_reject:
+      type: http
+      url: "https://cdn.jsdelivr.net/gh/xndeye/adblock_list@beta/rule/clash.yaml"
+    dler_ad:
+      type: http
+      url: "https://cdn.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/AdBlock.yaml"
+
+- path: output/reject@ip.yaml
+  behavior: ipcidr
+  upstream:
+    skk_reject_ip:
+      type: http
+      url: "https://ruleset.skk.moe/Clash/ip/reject.txt"
+    dler_ad:
+      type: http
+      url: "https://cdn.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/AdBlock.yaml"
+
+- path: output/direct.yaml
+  behavior: domain
+  upstream:
+    skk_direct:
+      type: http
+      url: "https://ruleset.skk.moe/Clash/non_ip/direct.txt"
+    dler_scholar:
+      type: http
+      url: "https://cdn.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/Scholar.yaml"
+
+- path: output/apple@cn.yaml
+  behavior: domain
+  upstream:
+    skk_apple_services:
+      type: http
+      url: "https://ruleset.skk.moe/Clash/non_ip/apple_services.txt"
+    skk_apple_cn:
+      type: http
+      url: "https://ruleset.skk.moe/Clash/non_ip/apple_cn.txt"
+    skk_apple_cdn:
+      type: http
+      url: "https://ruleset.skk.moe/Clash/domainset/apple_cdn.txt"
+
+- path: output/ai.yaml
+  behavior: domain
+  upstream:
+    dler_ai:
+      type: http
+      url: "https://cdn.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/AI%20Suite.yaml"
+    ACL4SSR_ai:
+      type: http
+      url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Ruleset/AI.list"
+
+- path: output/cdn.yaml
+  behavior: domain
+  upstream:
+    skk_cdn:
+      type: http
+      url: "https://ruleset.skk.moe/Clash/domainset/cdn.txt"
+
+- path: output/cdn@ip.yaml
+  behavior: ipcidr
+  upstream:
+    skk_cdn_ip:
+      type: http
+      url: "https://ruleset.skk.moe/Clash/ip/cdn.txt"
+
+- path: output/domestic.yaml
+  behavior: domain
+  upstream:
+    skk_domestic:
+      type: http
+      url: "https://ruleset.skk.moe/Clash/non_ip/domestic.txt"
+    dler_domestic:
+      type: http
+      url: "https://cdn.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/Domestic.yaml"
+
+- path: output/domestic@ip.yaml
+  behavior: ipcidr
+  upstream:
+    skk_domestic_ip:
+      type: http
+      url: "https://ruleset.skk.moe/Clash/ip/domestic.txt"
+
+- path: output/proxy.yaml
+  behavior: domain
+  upstream:
+    skk_proxy:
+      type: http
+      url: "https://ruleset.skk.moe/Clash/non_ip/global.txt"
+    dler_proxy:
+      type: http
+      url: "https://cdn.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/Proxy.yaml"
+
+- path: output/stream.yaml
+  behavior: domain
+  upstream:
+    skk_stream:
+      type: http
+      url: "https://ruleset.skk.moe/Clash/non_ip/stream.txt"
+    dler_media:
+      type: http
+      url: "https://cdn.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/Media.yaml"
+
+- path: output/telegram.yaml
+  behavior: domain
+  upstream:
+    skk_telegram:
+      type: http
+      url: "https://ruleset.skk.moe/Clash/non_ip/telegram.txt"
+
+- path: output/telegram@ip.yaml
+  behavior: ipcidr
+  upstream:
+    skk_telegram_ip:
+      type: http
+      url: "https://ruleset.skk.moe/Clash/ip/telegram.txt"
+
+- path: output/private.yaml
+  behavior: domain
+  upstream:
+    skk_private:
+      type: http
+      url: "https://ruleset.skk.moe/Clash/non_ip/lan.txt"
+
+- path: output/private@ip.yaml
+  behavior: ipcidr
+  upstream:
+    skk_private_ip:
+      type: http
+      url: "https://ruleset.skk.moe/Clash/ip/lan.txt"

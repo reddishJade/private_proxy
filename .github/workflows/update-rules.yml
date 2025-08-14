@@ -29,11 +29,11 @@ jobs:
         run: |
           pip install -r requirements.txt
 
-      # 运行规则合并脚本（新版入口）
+      # 运行简化的规则合并脚本
       - name: Run script
         run: |
           cd src/python/
-          python ./rule_merger_main.py ./config.yaml
+          python ./simple_merger.py ./config_clean.yaml
 
       # 检测规则是否发生变更
       - name: Check for rule changes
