@@ -100,8 +100,7 @@ private_proxy/
 | **cdn**       | skk_cdn                               | [📥](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/cdn.yaml)      |
 | **streaming** | skk_streaming                         | [📥](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/stream.yaml)   |
 | **ai**        | dler_ai, ACL4SSR_ai                   | [📥](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/ai.yaml)       |
-| **telegram**  | skk_telegram                          | [📥](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/telegram.yaml) |
-| **apple@cn**  | skk_apple, DustinWin_apple_cn         | [📥](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/apple@cn.yaml) |
+| **apple@cn**  | skk_apple                             | [📥](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/apple@cn.yaml) |
 | **download**  | skk_download                          | [📥](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/download.yaml) |
 | **private**   | ios_rule_script_lan                   | [📥](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/private.yaml)  |
 | **direct**    | Loyalsoldier_applications, skk_direct | [📥](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/direct.yaml)   |
@@ -117,12 +116,6 @@ private_proxy/
 | **cdn@ip**      | [📥](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/cdn@ip.yaml)      |
 | **download@ip** | [📥](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/download@ip.yaml) |
 | **private@ip**  | [📥](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/private@ip.yaml)  |
-
-### 🎭 FakeIP 过滤器
-
-| 规则名称                | 订阅链接                                                                                                          |
-| ----------------------- | ----------------------------------------------------------------------------------------------------------------- |
-| **fakeip-filter** | [📥](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/fakeip-filter.yaml) |
 
 ## 🔄 自动更新机制
 
