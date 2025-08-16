@@ -50,7 +50,7 @@ jobs:
       - name: Run script
         run: |
           cd src/python/
-          python ./rule_merger_main.py ./config.yaml
+          python ./rule_merger_main.py ./config_clean.yaml
 
       # 检测规则是否发生变更
       - name: Check for rule changes
