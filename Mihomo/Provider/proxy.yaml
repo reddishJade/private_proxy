@@ -1,5 +1,5 @@
-# 更新时间: 2025-08-16 08:41:47（北京时间）
-# 规则数量: 1620
+# 更新时间: 2025-08-16 20:14:30（北京时间）
+# 规则数量: 1621
 payload:
   - DOMAIN,api.waqi.info
   - DOMAIN,aqi.aqicn.org
@@ -1075,6 +1075,7 @@ payload:
   - DOMAIN-SUFFIX,prometheus.io
   - DOMAIN-SUFFIX,proporn.com
   - DOMAIN-SUFFIX,proton.me
+  - DOMAIN-SUFFIX,protonweb.com
   - DOMAIN-SUFFIX,prowritingaid.com
   - DOMAIN-SUFFIX,proxfree.com
   - DOMAIN-SUFFIX,proxmox.com
