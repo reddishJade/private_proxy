@@ -1,5 +1,5 @@
-# 更新时间: 2025-08-16 08:41:46（北京时间）
-# 规则数量: 198
+# 更新时间: 2025-08-24 08:46:06（北京时间）
+# 规则数量: 195
 payload:
   - DOMAIN,api.smoot.apple.cn
   - DOMAIN,gs-loc-cn.apple.com
@@ -46,7 +46,6 @@ payload:
   - DOMAIN-SUFFIX,cds.apple.com
   - DOMAIN-SUFFIX,cds.apple.com.akadns.net
   - DOMAIN-SUFFIX,cdsassets.apple.com
-  - DOMAIN-SUFFIX,certs.apple.com
   - DOMAIN-SUFFIX,cl1-cdn.origin-apple.com.akadns.net
   - DOMAIN-SUFFIX,cl1.apple.com
   - DOMAIN-SUFFIX,cl2-cn.apple.com
@@ -71,8 +70,6 @@ payload:
   - DOMAIN-SUFFIX,cstat.cdn-apple.com
   - DOMAIN-SUFFIX,dd-cdn.origin-apple.com.akadns.net
   - DOMAIN-SUFFIX,dejavu.apple.com
-  - DOMAIN-SUFFIX,devimages-cdn.apple.com
-  - DOMAIN-SUFFIX,devstreaming-cdn.apple.com
   - DOMAIN-SUFFIX,download.developer.apple.com
   - DOMAIN-SUFFIX,experiments.apple.com
   - DOMAIN-SUFFIX,gs-loc-cn.apple.com

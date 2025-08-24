@@ -1,5 +1,5 @@
-# 更新时间: 2025-08-16 08:41:47（北京时间）
-# 规则数量: 266
+# 更新时间: 2025-08-24 08:46:17（北京时间）
+# 规则数量: 263
 payload:
   - DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com
   - DOMAIN,4gtvfreepcvod-cds.cdn.hinet.net
@@ -41,7 +41,6 @@ payload:
   - DOMAIN,hls.itunes.apple.com
   - DOMAIN,itvpnpmobile-a.akamaihd.net
   - DOMAIN,linear.tv.apple.com
-  - DOMAIN,litvfreemobile-hichannel.cdn.hinet.net
   - DOMAIN,manifest.prod.boltdns.net
   - DOMAIN,np-edge.itunes.apple.com
   - DOMAIN,ocvideo.apple.com
@@ -157,7 +156,6 @@ payload:
   - DOMAIN-SUFFIX,ibytedtos.com
   - DOMAIN-SUFFIX,indazn.com
   - DOMAIN-SUFFIX,indaznlab.com
-  - DOMAIN-SUFFIX,inter.iqiyi.com
   - DOMAIN-SUFFIX,intl-rcd.iqiyi.com
   - DOMAIN-SUFFIX,intl-subscription.iqiyi.com
   - DOMAIN-SUFFIX,intl.iqiyi.com
@@ -176,7 +174,6 @@ payload:
   - DOMAIN-SUFFIX,kktv.com.tw
   - DOMAIN-SUFFIX,kktv.me
   - DOMAIN-SUFFIX,linetv.tw
-  - DOMAIN-SUFFIX,litv.tv
   - DOMAIN-SUFFIX,location-plus.nhk.jp
   - DOMAIN-SUFFIX,max.com
   - DOMAIN-SUFFIX,media-amazon.com

@@ -1,5 +1,5 @@
-# 更新时间: 2025-08-16 08:41:46（北京时间）
-# 规则数量: 237
+# 更新时间: 2025-08-24 08:46:07（北京时间）
+# 规则数量: 239
 payload:
   - DOMAIN,aterm.me
   - DOMAIN,captive.apple.com
@@ -26,6 +26,8 @@ payload:
   - DOMAIN-KEYWORD,wanfangdata
   - DOMAIN-KEYWORD,westlawchina
   - DOMAIN-SUFFIX,10.in-addr.arpa
+  - DOMAIN-SUFFIX,127.0.0.1.sslip.io
+  - DOMAIN-SUFFIX,127.atlas.skk.moe
   - DOMAIN-SUFFIX,16.172.in-addr.arpa
   - DOMAIN-SUFFIX,168.192.in-addr.arpa
   - DOMAIN-SUFFIX,17.172.in-addr.arpa
