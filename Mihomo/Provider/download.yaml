@@ -1,5 +1,5 @@
-# 更新时间: 2025-08-24 21:48:55（北京时间）
-# 规则数量: 1175
+# 更新时间: 2025-08-25 08:43:29（北京时间）
+# 规则数量: 1177
 payload:
   - DOMAIN,addins.deepl.com
   - DOMAIN,amupdatedl.microsoft.com
@@ -45,6 +45,7 @@ payload:
   - DOMAIN,app-updates.agilebits.com
   - DOMAIN,apt.xpipe.io
   - DOMAIN,archive.cs.uu.nl
+  - DOMAIN,archive.kali.org
   - DOMAIN,artifacts.electronjs.org
   - DOMAIN,assets-production.packagecloud.io
   - DOMAIN,assets1.xboxlive.com
@@ -1172,6 +1173,7 @@ payload:
   - DOMAIN-SUFFIX,swupdate.vray.com
   - DOMAIN-SUFFIX,temp.sh
   - DOMAIN-SUFFIX,tmpfiles.org
+  - DOMAIN-SUFFIX,update.microsoft.com
   - DOMAIN-SUFFIX,vultrobjects.com
   - DOMAIN-SUFFIX,wup.eshop.nintendo.net
   - DOMAIN-SUFFIX,wup.shop.nintendo.net
