@@ -1,5 +1,5 @@
-# 更新时间: 2025-08-24 08:46:07（北京时间）
-# 规则数量: 977
+# 更新时间: 2025-08-30 20:13:54（北京时间）
+# 规则数量: 973
 payload:
   - DOMAIN,acg.tv
   - DOMAIN,assets1.xboxlive.cn
@@ -973,8 +973,4 @@ payload:
   - DOMAIN-SUFFIX,zuimeitianqi.com
   - DOMAIN-SUFFIX,zuoyebang.com
   - DOMAIN-SUFFIX,zybang.com
-  - DOMAIN-WILDCARD,*.ffzy-online?.com
-  - DOMAIN-WILDCARD,*.ffzy-play?.com
-  - DOMAIN-WILDCARD,*.lz-cdn?.com
-  - DOMAIN-WILDCARD,*.lz-cdn??.com
   - DOMAIN-WILDCARD,*.qhimgs?.com
