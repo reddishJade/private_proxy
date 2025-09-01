@@ -1,5 +1,5 @@
-# 更新时间: 2025-08-24 08:46:09（北京时间）
-# 规则数量: 1621
+# 更新时间: 2025-09-01 08:50:52（北京时间）
+# 规则数量: 1624
 payload:
   - DOMAIN,api.waqi.info
   - DOMAIN,aqi.aqicn.org
@@ -242,6 +242,7 @@ payload:
   - DOMAIN-SUFFIX,bwh1.net
   - DOMAIN-SUFFIX,bybit.com
   - DOMAIN-SUFFIX,bycsi.com
+  - DOMAIN-SUFFIX,c-span.org
   - DOMAIN-SUFFIX,c.mi.com
   - DOMAIN-SUFFIX,ca
   - DOMAIN-SUFFIX,cachefly.net
@@ -306,6 +307,8 @@ payload:
   - DOMAIN-SUFFIX,cnyes.com
   - DOMAIN-SUFFIX,cocoapods.org
   - DOMAIN-SUFFIX,codecov.io
+  - DOMAIN-SUFFIX,codeforces.com
+  - DOMAIN-SUFFIX,codeforces.org
   - DOMAIN-SUFFIX,codepen.io
   - DOMAIN-SUFFIX,codesandbox.io
   - DOMAIN-SUFFIX,codeshare.io
