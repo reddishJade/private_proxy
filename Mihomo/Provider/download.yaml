@@ -1,5 +1,5 @@
-# 更新时间: 2025-08-24 21:48:55（北京时间）
-# 规则数量: 1175
+# 更新时间: 2025-09-05 20:14:59（北京时间）
+# 规则数量: 1169
 payload:
   - DOMAIN,addins.deepl.com
   - DOMAIN,amupdatedl.microsoft.com
@@ -39,17 +39,16 @@ payload:
   - DOMAIN,apache.uib.no
   - DOMAIN,apache.uniminuto.edu
   - DOMAIN,apache.uvigo.es
-  - DOMAIN,apache.volia.net
   - DOMAIN,apache.website-solution.net
   - DOMAIN,api-updates.orbstack.dev
   - DOMAIN,app-updates.agilebits.com
   - DOMAIN,apt.xpipe.io
   - DOMAIN,archive.cs.uu.nl
+  - DOMAIN,archive.kali.org
   - DOMAIN,artifacts.electronjs.org
   - DOMAIN,assets-production.packagecloud.io
   - DOMAIN,assets1.xboxlive.com
   - DOMAIN,assets2.xboxlive.com
-  - DOMAIN,aus2-community.mozilla.org
   - DOMAIN,aus5.mozilla.org
   - DOMAIN,autoupdate.termius.com
   - DOMAIN,az764295.vo.msecnd.net
@@ -109,7 +108,6 @@ payload:
   - DOMAIN,cpan.mmgdesigns.com.ar
   - DOMAIN,cpan.noris.de
   - DOMAIN,cpan.pair.com
-  - DOMAIN,cpan.perl.pt
   - DOMAIN,cpan.pesat.net.id
   - DOMAIN,cpan.rinet.ru
   - DOMAIN,cpan.saix.net
@@ -288,7 +286,6 @@ payload:
   - DOMAIN,ftp.cs.uu.nl
   - DOMAIN,ftp.cse.buffalo.edu
   - DOMAIN,ftp.cvut.cz
-  - DOMAIN,ftp.download-by.net
   - DOMAIN,ftp.eq.uc.pt
   - DOMAIN,ftp.eutelia.it
   - DOMAIN,ftp.fau.de
@@ -326,7 +323,6 @@ payload:
   - DOMAIN,ftp.nluug.nl
   - DOMAIN,ftp.ntua.gr
   - DOMAIN,ftp.osuosl.org
-  - DOMAIN,ftp.panu.it
   - DOMAIN,ftp.piotrkosoft.net
   - DOMAIN,ftp.ps.pl
   - DOMAIN,ftp.rediris.es
@@ -377,8 +373,6 @@ payload:
   - DOMAIN,gwdg.de
   - DOMAIN,http.kali.org
   - DOMAIN,httpd-mirror.sergal.org
-  - DOMAIN,httpupdate118.cpanel.net
-  - DOMAIN,httpupdate127.cpanel.net
   - DOMAIN,i18n.prismlauncher.org
   - DOMAIN,icm.edu.pl
   - DOMAIN,install.virtfusion.net
@@ -553,7 +547,6 @@ payload:
   - DOMAIN,mirrors.mit.edu
   - DOMAIN,mirrors.mivocloud.com
   - DOMAIN,mirrors.myaegean.gr
-  - DOMAIN,mirrors.namecheap.com
   - DOMAIN,mirrors.nav.ro
   - DOMAIN,mirrors.neterra.net
   - DOMAIN,mirrors.netix.net
@@ -1172,6 +1165,7 @@ payload:
   - DOMAIN-SUFFIX,swupdate.vray.com
   - DOMAIN-SUFFIX,temp.sh
   - DOMAIN-SUFFIX,tmpfiles.org
+  - DOMAIN-SUFFIX,update.microsoft.com
   - DOMAIN-SUFFIX,vultrobjects.com
   - DOMAIN-SUFFIX,wup.eshop.nintendo.net
   - DOMAIN-SUFFIX,wup.shop.nintendo.net
