@@ -1,98 +1,55 @@
-# 工作流名称
 name: update rules
 
-# 触发条件
 on:
-  # 定时触发：每12小时运行一次
   schedule:
     - cron: "0 */12 * * *"
-  # 支持手动触发
   workflow_dispatch:
 
 jobs:
   run:
-    # 指定运行环境为最新版Ubuntu
     runs-on: ubuntu-latest
     steps:
-      # 检出代码（获取完整历史以便检查上一次提交）
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 0 # 获取完整git历史
+          fetch-depth: 0
 
-      # 设置Python环境
       - name: Set up Python 3.10
         uses: actions/setup-python@v5
         with:
           python-version: "3.10"
-          cache: "pip" # 启用pip缓存加速依赖安装
+          cache: "pip"
 
-      # 安装项目依赖
       - name: Install dependencies
         run: |
           pip install -r requirements.txt
 
-      # 检查上一次提交是否为机器人更新
-      - name: Check if last commit was bot update
-        id: check_last_commit
-        run: |
-          LAST_COMMIT_MSG=$(git log -1 --pretty=format:"%s")
-          echo "Last commit message: $LAST_COMMIT_MSG"
-
-          if [[ "$LAST_COMMIT_MSG" =~ ^🚀\ Update\ at\ [0-9]{4}-[0-9]{2}-[0-9]{2}\ [0-9]{2}:[0-9]{2}:[0-9]{2}$ ]]; then
-            echo "last_was_bot=true" >> $GITHUB_OUTPUT
-            echo "✅ Last commit was bot update, will overwrite"
-          else
-            echo "last_was_bot=false" >> $GITHUB_OUTPUT
-            echo "✅ Last commit was manual, will append new commit"
-          fi
-
-      # 运行简化的规则合并脚本
       - name: Run script
         run: |
           cd src/python/
           python ./rule_merger_main.py ./config_clean.yaml
 
-      # 检测规则是否发生变更
-      - name: Check for rule changes
-        id: checker
-        run: python src/python/core/checker.py Mihomo/Provider
-
-      # 获取当前时间
       - name: Get current time
         id: time
         run: |
           echo "TIME=$(TZ='Asia/Shanghai' date +'%Y-%m-%d %H:%M:%S')" >> $GITHUB_OUTPUT
 
-      # 智能提交和推送（覆盖或新建）
-      - name: Smart commit and push
-        if: steps.checker.outputs.has_changed == 'true'
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
+      - name: Commit Changes
+        id: commit
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 🚀 Update at ${{ steps.time.outputs.TIME }}
+          branch: release
+          skip_dirty_check: true
+          push_options: '--force'
+          create_branch: true
+          skip_fetch: true
+          skip_checkout: true
+          commit_options: '--allow-empty'
 
-          # 如果上一次是机器人提交，就重置到它的父提交
-          if [[ "${{ steps.check_last_commit.outputs.last_was_bot }}" == "true" ]]; then
-            echo "🔄 Resetting last bot commit to keep git history clean..."
-            git reset --soft HEAD~1
-          fi
-
-          git add .
-          git commit -m "🚀 Update at ${{ steps.time.outputs.TIME }}"
-
-          # 如果重置了提交，需要强制推送
-          if [[ "${{ steps.check_last_commit.outputs.last_was_bot }}" == "true" ]]; then
-            echo "📤 Force pushing to overwrite previous bot commit..."
-            git push --force-with-lease
-          else
-            echo "📤 Normal push for new commit..."
-            git push
-          fi
-
-      # 清理旧的工作流运行记录
       - name: Delete Workflow Runs
         uses: Mattraks/delete-workflow-runs@v2
         with:
           token: ${{ github.token }}
           repository: ${{ github.repository }}
-          retain_days: 1 # 保留最近1天的记录
-          keep_minimum_runs: 1 # 至少保留1次运行记录
+          retain_days: 1
+          keep_minimum_runs: 1
