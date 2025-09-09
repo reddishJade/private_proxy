@@ -1,5 +1,5 @@
-# 更新时间: 2025-09-01 08:50:52（北京时间）
-# 规则数量: 1169
+# 更新时间: 2025-09-09 08:39:57（北京时间）
+# 规则数量: 1173
 payload:
   - DOMAIN,addins.deepl.com
   - DOMAIN,amupdatedl.microsoft.com
@@ -83,6 +83,7 @@ payload:
   - DOMAIN,cdn.zoom.us
   - DOMAIN,cdnorg.d.miui.com
   - DOMAIN,charts.verdaccio.org
+  - DOMAIN,chnroutes2.cdn.skk.moe
   - DOMAIN,ciscobinary.openh264.org
   - DOMAIN,clarkson.edu
   - DOMAIN,client.hikarifield.co.jp
@@ -263,6 +264,7 @@ payload:
   - DOMAIN,fedorapeople.org
   - DOMAIN,file.chobit.cc
   - DOMAIN,files2.freedownloadmanager.org
+  - DOMAIN,filters.cdn.skk.moe
   - DOMAIN,formulae.brew.sh
   - DOMAIN,fr2.rpmfind.net
   - DOMAIN,freedif.org
@@ -643,6 +645,7 @@ payload:
   - DOMAIN,repository.jboss.org
   - DOMAIN,repository.su
   - DOMAIN,rpm.xpipe.io
+  - DOMAIN,ruleset.skk.moe
   - DOMAIN,s3.teckids.org
   - DOMAIN,searchcpan.org
   - DOMAIN,security.debian.org
@@ -653,6 +656,7 @@ payload:
   - DOMAIN,snt.utwente.nl
   - DOMAIN,softwareupdate.pilotmoon.com
   - DOMAIN,sotirov-bg.net
+  - DOMAIN,speedtest-net-servers.cdn.skk.moe
   - DOMAIN,static.adguard.com
   - DOMAIN,static.adtidy.org
   - DOMAIN,static.redox-os.org

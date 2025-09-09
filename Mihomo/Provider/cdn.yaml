@@ -1,5 +1,5 @@
-# 更新时间: 2025-09-01 08:50:49（北京时间）
-# 规则数量: 3897
+# 更新时间: 2025-09-09 08:39:54（北京时间）
+# 规则数量: 3925
 payload:
   - DOMAIN,0x0.st
   - DOMAIN,3dna.nationbuilder.com
@@ -49,6 +49,10 @@ payload:
   - DOMAIN,api.iconify.design
   - DOMAIN,api.indexnow.org
   - DOMAIN,api.instantly.ai
+<<<<<<< HEAD
+=======
+  - DOMAIN,api.media.atlassian.com
+>>>>>>> 3439d86d0e629e0b4c1f30a43307919d6051c540
   - DOMAIN,api.mixpanel.com
   - DOMAIN,api.producthunt.com
   - DOMAIN,api.pwnedpasswords.com
@@ -231,6 +235,10 @@ payload:
   - DOMAIN,assets.science.nasa.gov
   - DOMAIN,assets.sendinblue.com
   - DOMAIN,assets.shazam.com
+<<<<<<< HEAD
+=======
+  - DOMAIN,assets.slater.app
+>>>>>>> 3439d86d0e629e0b4c1f30a43307919d6051c540
   - DOMAIN,assets.sololearn.com
   - DOMAIN,assets.speedvitals.com
   - DOMAIN,assets.squarespace.com
@@ -281,6 +289,10 @@ payload:
   - DOMAIN,assetscdn-wchat.eu.freshchat.com
   - DOMAIN,assetscdn.jable.tv
   - DOMAIN,at.cbsi.com
+<<<<<<< HEAD
+=======
+  - DOMAIN,atl-global.atlassian.com
+>>>>>>> 3439d86d0e629e0b4c1f30a43307919d6051c540
   - DOMAIN,attach.mobile01.com
   - DOMAIN,attach2.mobile01.com
   - DOMAIN,attachments.office.net
@@ -309,6 +321,12 @@ payload:
   - DOMAIN,badges.frapsoft.com
   - DOMAIN,badges.gitter.im
   - DOMAIN,badges.greenkeeper.io
+<<<<<<< HEAD
+=======
+  - DOMAIN,banners.chessbase.com
+  - DOMAIN,barracuda-assets.zoovu.com
+  - DOMAIN,barracuda-cdn.zoovu.com
+>>>>>>> 3439d86d0e629e0b4c1f30a43307919d6051c540
   - DOMAIN,bcdn.starapps.studio
   - DOMAIN,bcmedia.bitchute.com
   - DOMAIN,before.good-apps.co
@@ -339,6 +357,10 @@ payload:
   - DOMAIN,bunnycdn-video-assets.b-cdn.net
   - DOMAIN,businessunitprofile-cdn.trustpilot.net
   - DOMAIN,busuanzi.ibruce.info
+<<<<<<< HEAD
+=======
+  - DOMAIN,c-bin.b-cdn.net
+>>>>>>> 3439d86d0e629e0b4c1f30a43307919d6051c540
   - DOMAIN,c.1password.com
   - DOMAIN,c.animaapp.com
   - DOMAIN,c.fantia.jp
@@ -393,12 +415,20 @@ payload:
   - DOMAIN,cdn-fck.tnaflix.com
   - DOMAIN,cdn-forum.networklessons.com
   - DOMAIN,cdn-front.freepik.com
+<<<<<<< HEAD
+=======
+  - DOMAIN,cdn-icons-png.flaticon.com
+>>>>>>> 3439d86d0e629e0b4c1f30a43307919d6051c540
   - DOMAIN,cdn-images-1.medium.com
   - DOMAIN,cdn-images.mailchimp.com
   - DOMAIN,cdn-img2.iporntv.net
   - DOMAIN,cdn-img3.iporntv.net
   - DOMAIN,cdn-live.foreignaffairs.com
   - DOMAIN,cdn-longterm.mee6.xyz
+<<<<<<< HEAD
+=======
+  - DOMAIN,cdn-loyalty.yotpo.com
+>>>>>>> 3439d86d0e629e0b4c1f30a43307919d6051c540
   - DOMAIN,cdn-main.plus500.com
   - DOMAIN,cdn-media-0.freecodecamp.org
   - DOMAIN,cdn-media-1.freecodecamp.org
@@ -515,6 +545,10 @@ payload:
   - DOMAIN,cdn.designerapp.osi.office.net
   - DOMAIN,cdn.designsystem.arm.com
   - DOMAIN,cdn.deta.space
+<<<<<<< HEAD
+=======
+  - DOMAIN,cdn.devdojo.com
+>>>>>>> 3439d86d0e629e0b4c1f30a43307919d6051c540
   - DOMAIN,cdn.devolutions.net
   - DOMAIN,cdn.dexscreener.com
   - DOMAIN,cdn.dnsimple.com
@@ -540,6 +574,10 @@ payload:
   - DOMAIN,cdn.evbstatic.com
   - DOMAIN,cdn.faire.com
   - DOMAIN,cdn.fastcomments.com
+<<<<<<< HEAD
+=======
+  - DOMAIN,cdn.fasterthanli.me
+>>>>>>> 3439d86d0e629e0b4c1f30a43307919d6051c540
   - DOMAIN,cdn.fera.ai
   - DOMAIN,cdn.filen.io
   - DOMAIN,cdn.firebase.com
@@ -600,6 +638,10 @@ payload:
   - DOMAIN,cdn.joinhoney.com
   - DOMAIN,cdn.jolipage.co
   - DOMAIN,cdn.jotfor.ms
+<<<<<<< HEAD
+=======
+  - DOMAIN,cdn.joypixels.com
+>>>>>>> 3439d86d0e629e0b4c1f30a43307919d6051c540
   - DOMAIN,cdn.judge.me
   - DOMAIN,cdn.jwplayer.com
   - DOMAIN,cdn.kinopio.club
@@ -723,6 +765,10 @@ payload:
   - DOMAIN,cdn.setapp.com
   - DOMAIN,cdn.sheetjs.com
   - DOMAIN,cdn.shopify.com
+<<<<<<< HEAD
+=======
+  - DOMAIN,cdn.shoplineapp.com
+>>>>>>> 3439d86d0e629e0b4c1f30a43307919d6051c540
   - DOMAIN,cdn.shoppinggives.com
   - DOMAIN,cdn.sift.com
   - DOMAIN,cdn.simpleicons.org
@@ -799,6 +845,11 @@ payload:
   - DOMAIN,cdn.xeiaso.net
   - DOMAIN,cdn.xgroovy.com
   - DOMAIN,cdn.xvidzz.com
+<<<<<<< HEAD
+=======
+  - DOMAIN,cdn.yamibuy.com
+  - DOMAIN,cdn.yamibuy.net
+>>>>>>> 3439d86d0e629e0b4c1f30a43307919d6051c540
   - DOMAIN,cdn.yinghuazy.xyz
   - DOMAIN,cdn.you.com
   - DOMAIN,cdn.ywxi.net
@@ -1175,6 +1226,10 @@ payload:
   - DOMAIN,files.slack.com
   - DOMAIN,files.smashing.media
   - DOMAIN,files.svc.ui.com
+<<<<<<< HEAD
+=======
+  - DOMAIN,files.webfe.shopee.io
+>>>>>>> 3439d86d0e629e0b4c1f30a43307919d6051c540
   - DOMAIN,files.writefreely.org
   - DOMAIN,files.yande.re
   - DOMAIN,filestore.fortinet.com
@@ -1457,6 +1512,10 @@ payload:
   - DOMAIN,img.agrd.eu
   - DOMAIN,img.announcekit.app
   - DOMAIN,img.api.video
+<<<<<<< HEAD
+=======
+  - DOMAIN,img.apk.cafe
+>>>>>>> 3439d86d0e629e0b4c1f30a43307919d6051c540
   - DOMAIN,img.applealmond.com
   - DOMAIN,img.apponic.com
   - DOMAIN,img.atlasobscura.com
@@ -1593,7 +1652,10 @@ payload:
   - DOMAIN,jac.yahoosandbox.com
   - DOMAIN,jaws.pbs.org
   - DOMAIN,jfe-cdn.qualtrics.com
+<<<<<<< HEAD
   - DOMAIN,jira-frontend-bifrost.prod-east.frontend.public.atl-paas.net
+=======
+>>>>>>> 3439d86d0e629e0b4c1f30a43307919d6051c540
   - DOMAIN,jnmedia.ero-video.net
   - DOMAIN,js-1-cdn.airdroid.com
   - DOMAIN,js-cdn.blockchair.io
@@ -1952,6 +2014,10 @@ payload:
   - DOMAIN,ps.w.org
   - DOMAIN,psp-logos.uptimerobot.com
   - DOMAIN,pub.creaders.net
+<<<<<<< HEAD
+=======
+  - DOMAIN,public-assets.postmarkapp.com
+>>>>>>> 3439d86d0e629e0b4c1f30a43307919d6051c540
   - DOMAIN,public-assets.typeform.com
   - DOMAIN,public-cdn.bblmw.com
   - DOMAIN,public-files.gumroad.com
@@ -1971,6 +2037,10 @@ payload:
   - DOMAIN,r.r10s.jp
   - DOMAIN,r2.1hanime.com
   - DOMAIN,r2.leadsy.ai
+<<<<<<< HEAD
+=======
+  - DOMAIN,r2cdn.myshopline.com
+>>>>>>> 3439d86d0e629e0b4c1f30a43307919d6051c540
   - DOMAIN,r2cdn.perplexity.ai
   - DOMAIN,rapid-cdn.yottaa.com
   - DOMAIN,raw.github.com
@@ -2137,6 +2207,10 @@ payload:
   - DOMAIN,sf-flow-web-cdn.ciciai.com
   - DOMAIN,sfiles.cnyes.cool
   - DOMAIN,sg-thumbnail-drive.mypikpak.com
+<<<<<<< HEAD
+=======
+  - DOMAIN,share.chessbase.com
+>>>>>>> 3439d86d0e629e0b4c1f30a43307919d6051c540
   - DOMAIN,shell.cdn.office.net
   - DOMAIN,shopify.cleverecommerce.com
   - DOMAIN,shots.codepen.io
@@ -2165,6 +2239,10 @@ payload:
   - DOMAIN,solve-widget.forethought.ai
   - DOMAIN,source.domaintools.com
   - DOMAIN,source.unsplash.com
+<<<<<<< HEAD
+=======
+  - DOMAIN,sourcemap.webfe.shopeemobile.com
+>>>>>>> 3439d86d0e629e0b4c1f30a43307919d6051c540
   - DOMAIN,sourcemaps.squarespace.net
   - DOMAIN,sourcepoint.theguardian.com
   - DOMAIN,sp-spiegel-de.spiegel.de
@@ -2488,6 +2566,10 @@ payload:
   - DOMAIN,statics.goorm.io
   - DOMAIN,statics.simpshub.com
   - DOMAIN,statics.streamable.com
+<<<<<<< HEAD
+=======
+  - DOMAIN,staticsource1.redotpay.com
+>>>>>>> 3439d86d0e629e0b4c1f30a43307919d6051c540
   - DOMAIN,staticw2.yotpo.com
   - DOMAIN,stats.codesandbox.io
   - DOMAIN,stats.setapp.com
@@ -2569,6 +2651,10 @@ payload:
   - DOMAIN,tiles.windy.com
   - DOMAIN,time-a.nist.gov
   - DOMAIN,time.akamai.com
+<<<<<<< HEAD
+=======
+  - DOMAIN,time.apple.com
+>>>>>>> 3439d86d0e629e0b4c1f30a43307919d6051c540
   - DOMAIN,time.cloudflare.com
   - DOMAIN,time.google.com
   - DOMAIN,time.windows.com
@@ -2585,6 +2671,10 @@ payload:
   - DOMAIN,tourpic-vector.maps.komoot.net
   - DOMAIN,townsquare.media
   - DOMAIN,tracking.inflection.io
+<<<<<<< HEAD
+=======
+  - DOMAIN,trekcdnprod.azureedge.net
+>>>>>>> 3439d86d0e629e0b4c1f30a43307919d6051c540
   - DOMAIN,truth.bahamut.com.tw
   - DOMAIN,tuf-repo-cdn.sigstore.dev
   - DOMAIN,tuf-repo.github.com
@@ -2736,6 +2826,10 @@ payload:
   - DOMAIN,ws2-cache.aptoide.com
   - DOMAIN,ww2-secure.justanswer.com
   - DOMAIN,ww2.justanswer.com
+<<<<<<< HEAD
+=======
+  - DOMAIN,www-cdn.uscardforum.com
+>>>>>>> 3439d86d0e629e0b4c1f30a43307919d6051c540
   - DOMAIN,www-res.cablelabs.com
   - DOMAIN,www-static.ripe.net
   - DOMAIN,www.10086.win
@@ -3522,6 +3616,10 @@ payload:
   - DOMAIN-SUFFIX,pressidiumcdn.com
   - DOMAIN-SUFFIX,prhcdn.com
   - DOMAIN-SUFFIX,privacy-gateway.cloudflare.com
+<<<<<<< HEAD
+=======
+  - DOMAIN-SUFFIX,prod-east.frontend.public.atl-paas.net
+>>>>>>> 3439d86d0e629e0b4c1f30a43307919d6051c540
   - DOMAIN-SUFFIX,prod.public.atl-paas.net
   - DOMAIN-SUFFIX,project1content.com
   - DOMAIN-SUFFIX,proxy.startpage.com
@@ -3578,7 +3676,10 @@ payload:
   - DOMAIN-SUFFIX,rsb.net
   - DOMAIN-SUFFIX,rspcdn.net
   - DOMAIN-SUFFIX,rss3.dev
+<<<<<<< HEAD
   - DOMAIN-SUFFIX,ruleset.skk.moe
+=======
+>>>>>>> 3439d86d0e629e0b4c1f30a43307919d6051c540
   - DOMAIN-SUFFIX,rum.cronitor.io
   - DOMAIN-SUFFIX,runkit-packages.com
   - DOMAIN-SUFFIX,runkitcdn.com
@@ -3609,6 +3710,10 @@ payload:
   - DOMAIN-SUFFIX,shgcdn.com
   - DOMAIN-SUFFIX,shields.io
   - DOMAIN-SUFFIX,shopifycdn.com
+<<<<<<< HEAD
+=======
+  - DOMAIN-SUFFIX,shoplineimg.com
+>>>>>>> 3439d86d0e629e0b4c1f30a43307919d6051c540
   - DOMAIN-SUFFIX,shoppulse88.store
   - DOMAIN-SUFFIX,shortpixel.ai
   - DOMAIN-SUFFIX,simgbb.com
@@ -3686,6 +3791,10 @@ payload:
   - DOMAIN-SUFFIX,strpst.com
   - DOMAIN-SUFFIX,stylexjs.com
   - DOMAIN-SUFFIX,substackcdn.com
+<<<<<<< HEAD
+=======
+  - DOMAIN-SUFFIX,supabase.co
+>>>>>>> 3439d86d0e629e0b4c1f30a43307919d6051c540
   - DOMAIN-SUFFIX,superfiliate-cdn.com
   - DOMAIN-SUFFIX,surge.sh
   - DOMAIN-SUFFIX,surrit.com
@@ -3715,6 +3824,10 @@ payload:
   - DOMAIN-SUFFIX,tile.openstreetmap.org
   - DOMAIN-SUFFIX,tile.osm.org
   - DOMAIN-SUFFIX,tiles-api.maps.komoot.net
+<<<<<<< HEAD
+=======
+  - DOMAIN-SUFFIX,tiles.mapbox.com
+>>>>>>> 3439d86d0e629e0b4c1f30a43307919d6051c540
   - DOMAIN-SUFFIX,tindiemedia.com
   - DOMAIN-SUFFIX,tiqcdn.com
   - DOMAIN-SUFFIX,tkcdns.com
@@ -3735,6 +3848,10 @@ payload:
   - DOMAIN-SUFFIX,ttwstatic.com
   - DOMAIN-SUFFIX,tunnels.api.visualstudio.com
   - DOMAIN-SUFFIX,turboimg.net
+<<<<<<< HEAD
+=======
+  - DOMAIN-SUFFIX,tutu1.space
+>>>>>>> 3439d86d0e629e0b4c1f30a43307919d6051c540
   - DOMAIN-SUFFIX,twimg.com
   - DOMAIN-SUFFIX,typedoc.org
   - DOMAIN-SUFFIX,typography.com

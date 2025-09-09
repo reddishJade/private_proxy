@@ -1,5 +1,5 @@
-# 更新时间: 2025-09-01 08:50:52（北京时间）
-# 规则数量: 1624
+# 更新时间: 2025-09-09 08:39:58（北京时间）
+# 规则数量: 1625
 payload:
   - DOMAIN,api.waqi.info
   - DOMAIN,aqi.aqicn.org
@@ -1066,6 +1066,7 @@ payload:
   - DOMAIN-SUFFIX,pornpics.com
   - DOMAIN-SUFFIX,porntrex.com
   - DOMAIN-SUFFIX,porntube.com
+  - DOMAIN-SUFFIX,postmarkapp.com
   - DOMAIN-SUFFIX,potato.im
   - DOMAIN-SUFFIX,precisionhydration.com
   - DOMAIN-SUFFIX,prfct.co
