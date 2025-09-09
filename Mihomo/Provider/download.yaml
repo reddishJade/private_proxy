@@ -1,5 +1,5 @@
-# 更新时间: 2025-08-24 21:48:55（北京时间）
-# 规则数量: 1175
+# 更新时间: 2025-09-09 08:39:57（北京时间）
+# 规则数量: 1173
 payload:
   - DOMAIN,addins.deepl.com
   - DOMAIN,amupdatedl.microsoft.com
@@ -39,17 +39,16 @@ payload:
   - DOMAIN,apache.uib.no
   - DOMAIN,apache.uniminuto.edu
   - DOMAIN,apache.uvigo.es
-  - DOMAIN,apache.volia.net
   - DOMAIN,apache.website-solution.net
   - DOMAIN,api-updates.orbstack.dev
   - DOMAIN,app-updates.agilebits.com
   - DOMAIN,apt.xpipe.io
   - DOMAIN,archive.cs.uu.nl
+  - DOMAIN,archive.kali.org
   - DOMAIN,artifacts.electronjs.org
   - DOMAIN,assets-production.packagecloud.io
   - DOMAIN,assets1.xboxlive.com
   - DOMAIN,assets2.xboxlive.com
-  - DOMAIN,aus2-community.mozilla.org
   - DOMAIN,aus5.mozilla.org
   - DOMAIN,autoupdate.termius.com
   - DOMAIN,az764295.vo.msecnd.net
@@ -84,6 +83,7 @@ payload:
   - DOMAIN,cdn.zoom.us
   - DOMAIN,cdnorg.d.miui.com
   - DOMAIN,charts.verdaccio.org
+  - DOMAIN,chnroutes2.cdn.skk.moe
   - DOMAIN,ciscobinary.openh264.org
   - DOMAIN,clarkson.edu
   - DOMAIN,client.hikarifield.co.jp
@@ -109,7 +109,6 @@ payload:
   - DOMAIN,cpan.mmgdesigns.com.ar
   - DOMAIN,cpan.noris.de
   - DOMAIN,cpan.pair.com
-  - DOMAIN,cpan.perl.pt
   - DOMAIN,cpan.pesat.net.id
   - DOMAIN,cpan.rinet.ru
   - DOMAIN,cpan.saix.net
@@ -265,6 +264,7 @@ payload:
   - DOMAIN,fedorapeople.org
   - DOMAIN,file.chobit.cc
   - DOMAIN,files2.freedownloadmanager.org
+  - DOMAIN,filters.cdn.skk.moe
   - DOMAIN,formulae.brew.sh
   - DOMAIN,fr2.rpmfind.net
   - DOMAIN,freedif.org
@@ -288,7 +288,6 @@ payload:
   - DOMAIN,ftp.cs.uu.nl
   - DOMAIN,ftp.cse.buffalo.edu
   - DOMAIN,ftp.cvut.cz
-  - DOMAIN,ftp.download-by.net
   - DOMAIN,ftp.eq.uc.pt
   - DOMAIN,ftp.eutelia.it
   - DOMAIN,ftp.fau.de
@@ -326,7 +325,6 @@ payload:
   - DOMAIN,ftp.nluug.nl
   - DOMAIN,ftp.ntua.gr
   - DOMAIN,ftp.osuosl.org
-  - DOMAIN,ftp.panu.it
   - DOMAIN,ftp.piotrkosoft.net
   - DOMAIN,ftp.ps.pl
   - DOMAIN,ftp.rediris.es
@@ -377,8 +375,6 @@ payload:
   - DOMAIN,gwdg.de
   - DOMAIN,http.kali.org
   - DOMAIN,httpd-mirror.sergal.org
-  - DOMAIN,httpupdate118.cpanel.net
-  - DOMAIN,httpupdate127.cpanel.net
   - DOMAIN,i18n.prismlauncher.org
   - DOMAIN,icm.edu.pl
   - DOMAIN,install.virtfusion.net
@@ -553,7 +549,6 @@ payload:
   - DOMAIN,mirrors.mit.edu
   - DOMAIN,mirrors.mivocloud.com
   - DOMAIN,mirrors.myaegean.gr
-  - DOMAIN,mirrors.namecheap.com
   - DOMAIN,mirrors.nav.ro
   - DOMAIN,mirrors.neterra.net
   - DOMAIN,mirrors.netix.net
@@ -650,6 +645,7 @@ payload:
   - DOMAIN,repository.jboss.org
   - DOMAIN,repository.su
   - DOMAIN,rpm.xpipe.io
+  - DOMAIN,ruleset.skk.moe
   - DOMAIN,s3.teckids.org
   - DOMAIN,searchcpan.org
   - DOMAIN,security.debian.org
@@ -660,6 +656,7 @@ payload:
   - DOMAIN,snt.utwente.nl
   - DOMAIN,softwareupdate.pilotmoon.com
   - DOMAIN,sotirov-bg.net
+  - DOMAIN,speedtest-net-servers.cdn.skk.moe
   - DOMAIN,static.adguard.com
   - DOMAIN,static.adtidy.org
   - DOMAIN,static.redox-os.org
@@ -1172,6 +1169,7 @@ payload:
   - DOMAIN-SUFFIX,swupdate.vray.com
   - DOMAIN-SUFFIX,temp.sh
   - DOMAIN-SUFFIX,tmpfiles.org
+  - DOMAIN-SUFFIX,update.microsoft.com
   - DOMAIN-SUFFIX,vultrobjects.com
   - DOMAIN-SUFFIX,wup.eshop.nintendo.net
   - DOMAIN-SUFFIX,wup.shop.nintendo.net

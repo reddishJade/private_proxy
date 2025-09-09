@@ -1,5 +1,5 @@
-# 更新时间: 2025-08-24 08:46:07（北京时间）
-# 规则数量: 977
+# 更新时间: 2025-09-09 08:39:55（北京时间）
+# 规则数量: 976
 payload:
   - DOMAIN,acg.tv
   - DOMAIN,assets1.xboxlive.cn
@@ -805,12 +805,15 @@ payload:
   - DOMAIN-SUFFIX,taobao.org
   - DOMAIN-SUFFIX,taobaocdn.com
   - DOMAIN-SUFFIX,taopiaopiao.com
+  - DOMAIN-SUFFIX,tapimg.com
+  - DOMAIN-SUFFIX,taptap.cn
   - DOMAIN-SUFFIX,tawk.link
   - DOMAIN-SUFFIX,tawk.to
   - DOMAIN-SUFFIX,tb.cn
   - DOMAIN-SUFFIX,tbcache.com
   - DOMAIN-SUFFIX,tbcdn.cn
   - DOMAIN-SUFFIX,tcdnlive.com
+  - DOMAIN-SUFFIX,tencent-cloud.cn
   - DOMAIN-SUFFIX,tencent-cloud.com
   - DOMAIN-SUFFIX,tencent-cloud.net
   - DOMAIN-SUFFIX,tencent.com
@@ -973,8 +976,4 @@ payload:
   - DOMAIN-SUFFIX,zuimeitianqi.com
   - DOMAIN-SUFFIX,zuoyebang.com
   - DOMAIN-SUFFIX,zybang.com
-  - DOMAIN-WILDCARD,*.ffzy-online?.com
-  - DOMAIN-WILDCARD,*.ffzy-play?.com
-  - DOMAIN-WILDCARD,*.lz-cdn?.com
-  - DOMAIN-WILDCARD,*.lz-cdn??.com
   - DOMAIN-WILDCARD,*.qhimgs?.com
