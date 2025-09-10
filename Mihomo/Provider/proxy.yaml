@@ -1,5 +1,5 @@
-# 更新时间: 2025-09-10 10:53:54（北京时间）
-# 规则数量: 1625
+# 更新时间: 2025-09-10 20:15:34（北京时间）
+# 规则数量: 1626
 payload:
   - DOMAIN,api.waqi.info
   - DOMAIN,aqi.aqicn.org
@@ -167,6 +167,7 @@ payload:
   - DOMAIN-SUFFIX,avtoday.io
   - DOMAIN-SUFFIX,aweber.com
   - DOMAIN-SUFFIX,aws
+  - DOMAIN-SUFFIX,aws.dev
   - DOMAIN-SUFFIX,awsstatic.com
   - DOMAIN-SUFFIX,axios.com
   - DOMAIN-SUFFIX,azure-mobile.net

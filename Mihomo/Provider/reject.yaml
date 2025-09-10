@@ -1,22 +1,233 @@
-# 更新时间: 2025-09-10 10:53:54（北京时间）
-# 规则数量: 8178
+# 更新时间: 2025-09-10 20:15:38（北京时间）
+# 规则数量: 8483
 payload:
   - DOMAIN,118.89.204.198
+  - DOMAIN,Banner468x60
+  - DOMAIN,_120_600_
+  - DOMAIN,_120x600_
+  - DOMAIN,_125x600_
+  - DOMAIN,_140x600_
+  - DOMAIN,_150x700_
+  - DOMAIN,_160_600_
+  - DOMAIN,_160x300_
+  - DOMAIN,_160x600_
+  - DOMAIN,_300x250.js
+  - DOMAIN,_300x250_
+  - DOMAIN,_300x600_
+  - DOMAIN,_320x250_
+  - DOMAIN,_323x120_
+  - DOMAIN,_350_100_
+  - DOMAIN,_420x80_
+  - DOMAIN,_438x60_
+  - DOMAIN,_468_60_
+  - DOMAIN,_468_80_
+  - DOMAIN,_468x060_
+  - DOMAIN,_468x100_
+  - DOMAIN,_468x60_
+  - DOMAIN,_468x80_
+  - DOMAIN,_468x90_
+  - DOMAIN,_480_80_
+  - DOMAIN,_480x60_
+  - DOMAIN,_486x60_
+  - DOMAIN,_700_100_
+  - DOMAIN,_700_150_
+  - DOMAIN,_700_200_
+  - DOMAIN,_720x90_
+  - DOMAIN,_728-90_
+  - DOMAIN,_728_90_
+  - DOMAIN,_728x90_
+  - DOMAIN,_768x90_
+  - DOMAIN,_800x80_
+  - DOMAIN,_adblocker_detected
+  - DOMAIN,_cookie_policy_
+  - DOMAIN,_cookiebar_
+  - DOMAIN,_eu_cookie_
+  - DOMAIN,_eucookie_compliance_
+  - DOMAIN,_fioiwhfo_
+  - DOMAIN,_float_fuo.js
+  - DOMAIN,_naimabdd_
+  - DOMAIN,_tm11_pmt_
+  - DOMAIN,_yad_jsonp_
+  - DOMAIN,a.hl.mi.com
+  - DOMAIN,a.stat.xiaomi.com
+  - DOMAIN,a.union.mi.com
+  - DOMAIN,a460.cell.phone.ringtone.samsung.sms13.de
+  - DOMAIN,acr0.samsungcloudsolution.com
+  - DOMAIN,activeqq.3g.qq.com
   - DOMAIN,ad.bn.netease.com
+  - DOMAIN,ad.mi.com
   - DOMAIN,ad.yixin.im
+  - DOMAIN,ads.samsungads.com
+  - DOMAIN,adups.com
+  - DOMAIN,adx-dra.op.dbankcloud.com
+  - DOMAIN,adx-dra.op.hicloud.com
+  - DOMAIN,adx-drcn.op.dbankcloud.cn
+  - DOMAIN,adx-dre.op.dbankcloud.com
+  - DOMAIN,adx-dre.op.dbankcloud.com.edgekey.net
+  - DOMAIN,adx-dre.op.hicloud.com
+  - DOMAIN,adx-drru.op.dbankcloud.com
+  - DOMAIN,aiclean.us.cloud.360safe.com
+  - DOMAIN,akcjasamsung.e-kei.pl
+  - DOMAIN,api.collect.data.intl.miui.com
+  - DOMAIN,api.comm.miui.com
+  - DOMAIN,api.cupid.ptqy.gitv.tv
+  - DOMAIN,api.d.xiaomi.com
+  - DOMAIN,api.g.micloud.xiaomi.net
+  - DOMAIN,api.jr.mi.com
+  - DOMAIN,api.sec.intl.miui.com
+  - DOMAIN,api.tuisong.baidu.com
+  - DOMAIN,api.tw06.xlmc.sec.miui.com
+  - DOMAIN,api.vip.miui.com
+  - DOMAIN,apisgame.iqiyi.com
+  - DOMAIN,app.chat.xiaomi.net
+  - DOMAIN,app.migc.xiaomi.com
   - DOMAIN,appcloud2.in.zhihu.com
+  - DOMAIN,appstore.cdn.pandora.xiaomi.com
+  - DOMAIN,appstore.pandora.xiaomi.com
+  - DOMAIN,apu.samsungelectronics.com
+  - DOMAIN,atlas-emui-drcn.hicloud.com
+  - DOMAIN,au.ff.avast.com
+  - DOMAIN,awsusor0-cdn.fds-ssl.api.xiaomi.com
+  - DOMAIN,banana.le.com
+  - DOMAIN,bgp.fe01.c3.xiaomi.com
+  - DOMAIN,bigdata.adups.com
+  - DOMAIN,bpu.samsungelectronics.com
+  - DOMAIN,bss.pandora.xiaomi.com
+  - DOMAIN,c.id.mi.com
+  - DOMAIN,cad.youku.com
+  - DOMAIN,cc.sys.intl.xiaomi.com
+  - DOMAIN,cc.sys.miui.com
+  - DOMAIN,ccc.sys.intl.xiaomi.com
+  - DOMAIN,ccc.sys.miui.com
+  - DOMAIN,cdn.fds-ssl.api.xiaomi.com
+  - DOMAIN,cm.l.qq.com
+  - DOMAIN,config.kuyun.com
+  - DOMAIN,config.samsungads.com
+  - DOMAIN,configserver-dra.platform.hicloud.com
+  - DOMAIN,connecttv.pelmorex.com
+  - DOMAIN,contactapi.micloud.xiaomi.net
+  - DOMAIN,controller.intl.xiaomi.com
+  - DOMAIN,cpu.samsungelectronics.com
+  - DOMAIN,d.g.mi.com
+  - DOMAIN,d1oxlq5h9kq8q5.cloudfront.net
+  - DOMAIN,data.game.xiaomi.com
+  - DOMAIN,data.hicloud.com
+  - DOMAIN,datacollector-dra.dt.dbankcloud.cn
+  - DOMAIN,datacollector-dra.dt.hicloud.com
+  - DOMAIN,datacollector-drcn.dt.dbankcloud.cn
+  - DOMAIN,datacollector-drcn.dt.hicloud.com
+  - DOMAIN,datacollector-dre.dt.dbankcloud.cn
+  - DOMAIN,datacollector-dre.dt.hicloud.com
+  - DOMAIN,datacollector-drru.dt.hicloud.com
+  - DOMAIN,de.as.pptv.com
+  - DOMAIN,de.pandora.xiaomi.com
+  - DOMAIN,dnkeeper.dbankcloud.com
+  - DOMAIN,dnkeeper.hicloud.com
+  - DOMAIN,dnkeeper.platform.dbankcloud.cn
   - DOMAIN,duclick.baidu.com
+  - DOMAIN,dvb.pandora.xiaomi.com
+  - DOMAIN,events-dra.op.hicloud.com
+  - DOMAIN,events.samsungads.com
+  - DOMAIN,f1.g.mi.com
+  - DOMAIN,f4.market.xiaomi.com
+  - DOMAIN,fcanr.tracking.miui.com
+  - DOMAIN,fclick.baidu.com
+  - DOMAIN,feedback-dre.platform.hicloud.com
+  - DOMAIN,fkp.samsungcloudsolution.com
+  - DOMAIN,fkp.samsungcloudsolution.net
+  - DOMAIN,fota4.adups.cn
+  - DOMAIN,g.cn.miaozhen.com
+  - DOMAIN,g.huya.com
+  - DOMAIN,gallery.cdn.pandora.xiaomi.com
+  - DOMAIN,game.xiaomi.com
+  - DOMAIN,gdt.qq.com
+  - DOMAIN,geo.hicloud.com
+  - DOMAIN,geofence.sys.miui.com
+  - DOMAIN,global.search.xiaomi.net
+  - DOMAIN,go.sohu.com
+  - DOMAIN,gpm.samsungqbe.com
+  - DOMAIN,grs.dbankcloud.asia
+  - DOMAIN,grs.dbankcloud.cn
+  - DOMAIN,grs.dbankcloud.com
+  - DOMAIN,grs.dbankcloud.eu
+  - DOMAIN,healthdata.hicloud.com
+  - DOMAIN,heyue.xiaomi.com
+  - DOMAIN,hisearch-dra.dt.dbankcloud.com
+  - DOMAIN,hk.mibi.xiaomi.com
   - DOMAIN,hm.baidu.com
   - DOMAIN,hmma.baidu.com
+  - DOMAIN,huosai.xiaomi.com
+  - DOMAIN,i.xiaomi.com
   - DOMAIN,iadmat.nosdn.127.net
   - DOMAIN,iadmusicmat.music.126.net
   - DOMAIN,iadmusicmatvideo.music.126.net
+  - DOMAIN,image.box.xiaomi.com
+  - DOMAIN,image.cdn.mvideo.xiaomi.com
+  - DOMAIN,imgg.traffic-media.co
   - DOMAIN,impservice.dictapp.youdao.com
   - DOMAIN,impservice.youdao.com
+  - DOMAIN,infolink.pavv.co.kr
+  - DOMAIN,invitation.samsungiotcloud.com
+  - DOMAIN,ipinyou.com
+  - DOMAIN,iwan-s.video.qq.com
+  - DOMAIN,jads.co
+  - DOMAIN,kpu.samsungelectronics.com
+  - DOMAIN,lcprd1.samsungcloudsolution.net
+  - DOMAIN,lcprd2.samsungcloudsolution.net
+  - DOMAIN,lockersamsungs8.r.xoxknct.com
+  - DOMAIN,lockersamsungs8.s.xoxknct.com
+  - DOMAIN,log-config.samsungacr.com
+  - DOMAIN,log-ingestion-eu.samsungacr.com
+  - DOMAIN,log-ingestion.samsungacr.com
   - DOMAIN,log-yex.youdao.com
   - DOMAIN,log.star.ele.me
   - DOMAIN,log.yex.youdao.com
+  - DOMAIN,log1.17173.com
+  - DOMAIN,logonext.tv.kuyun.com
+  - DOMAIN,logservice-dra.platform.hicloud.com
+  - DOMAIN,logservice-dre.platform.dbankcloud.cn
+  - DOMAIN,logservice-dre.platform.hicloud.com
+  - DOMAIN,logservice-drru.dt.hicloud.com
+  - DOMAIN,lxcdn.dl.files.xiaomi.net
+  - DOMAIN,m.bss.pandora.xiaomi.com
+  - DOMAIN,m.sjzhushou.com
+  - DOMAIN,m.track.ad.xiaomi.com
+  - DOMAIN,masdk.3g.qq.com
+  - DOMAIN,max.ad.xiaomi.com
+  - DOMAIN,mazu.3g.qq.com
+  - DOMAIN,mcc.intl.inf.miui.com
+  - DOMAIN,mdap.alipaylog.com
+  - DOMAIN,mepodownload.mediatek.com
+  - DOMAIN,metrics-dra.dt.dbankcloud.cn
+  - DOMAIN,metrics-dra.dt.hicloud.com
+  - DOMAIN,metrics-drcn.dt.hicloud.com
+  - DOMAIN,metrics-dre.data.dbankcloud.cn
+  - DOMAIN,metrics-dre.dt.dbankcloud.cn
+  - DOMAIN,metrics.data.hicloud.com
+  - DOMAIN,metrics.dt.dbankcloud.cn
+  - DOMAIN,metrics.dt.hicloud.com
+  - DOMAIN,metrics1-drcn.dt.dbankcloud.cn
+  - DOMAIN,metrics1.data.dbankcloud.cn
+  - DOMAIN,metrics1.data.hicloud.com
+  - DOMAIN,metrics2.data.hicloud.com
+  - DOMAIN,metrics3.data.hicloud.com
+  - DOMAIN,metrics5.data.hicloud.com
+  - DOMAIN,metrics6.dt.hicloud.com
+  - DOMAIN,mgepodownload.mediatek.com
+  - DOMAIN,miaozhen.com
+  - DOMAIN,mibi.api.xiaomi.com
+  - DOMAIN,mibi.xiaomi.com
+  - DOMAIN,micardapi.micloud.xiaomi.net
+  - DOMAIN,migc.g.mi.com
+  - DOMAIN,migcreport.g.mi.com
+  - DOMAIN,milink.pandora.xiaomi.com
   - DOMAIN,miniapp.bilibili.com
+  - DOMAIN,mis.g.mi.com
+  - DOMAIN,mis.migc.xiaomi.com
+  - DOMAIN,mishop.cdn.pandora.xiaomi.com
+  - DOMAIN,mishop.pandora.xiaomi.com
+  - DOMAIN,mitv.tracking.intl.miui.com
+  - DOMAIN,mlog.search.xiaomi.net
   - DOMAIN,mobads-logs.baidu.com
   - DOMAIN,mobads.baidu.com
   - DOMAIN,mqtt.zhihu.com
@@ -25,19 +236,113 @@ payload:
   - DOMAIN,newloc.map.n.shifen.com
   - DOMAIN,newvector.map.baidu.com
   - DOMAIN,nex.163.com
+  - DOMAIN,notice.game.xiaomi.com
+  - DOMAIN,noticecdn.samsungcloudsolution.com
+  - DOMAIN,ns11.whois.co.kr
   - DOMAIN,nsclick.baidu.com
+  - DOMAIN,oempprd.samsungcloudsolution.com
   - DOMAIN,offnavi.map.baidu.com
+  - DOMAIN,openlocation-drcn.platform.dbankcloud.com
+  - DOMAIN,opsdata.hicloud.com
+  - DOMAIN,osb-krsvc.samsungqbe.com
+  - DOMAIN,osb-ussvc.samsungqbe.com
+  - DOMAIN,osb.samsungqbe.com
+  - DOMAIN,outlook.live.com._6tqjFb_HmyQup_NPe6dhC
+  - DOMAIN,p.alimama.com
+  - DOMAIN,pdc.micloud.xiaomi.net
+  - DOMAIN,phonecallapi.micloud.xiaomi.net
+  - DOMAIN,pmir.3g.qq.com
   - DOMAIN,pr.da.netease.com
+  - DOMAIN,proxy.sec.miui.com
   - DOMAIN,ps.map.baidu.com
+  - DOMAIN,ptmi.gitv.pandora.xiaomi.com
+  - DOMAIN,pub.funshion.com
+  - DOMAIN,qiye.xiaomi.com
+  - DOMAIN,r.sg.sec.miui.com
   - DOMAIN,rd.da.netease.com
+  - DOMAIN,reke.at.sohu.com
+  - DOMAIN,resolver.msg.xiaomi.net
+  - DOMAIN,s.w-x.co
+  - DOMAIN,s3-config.samsungacr.com
+  - DOMAIN,sa.tuisong.baidu.com
+  - DOMAIN,sa3.tuisong.baidu.com
+  - DOMAIN,samsung-akcja.e-kei.pl
+  - DOMAIN,samsung-com.112.2o7.net
+  - DOMAIN,samsung-germany.demdex.net
+  - DOMAIN,samsung-produkcja.24.eu
+  - DOMAIN,samsung.demdex.net
+  - DOMAIN,samsung3.solution.weborama.fr
+  - DOMAIN,samsungeurope.eu.qualtrics.com
+  - DOMAIN,samsungindiaelectronics.demdex.net
+  - DOMAIN,samsungmsc.d1.sc.omtrdc.net
+  - DOMAIN,samsungus.btttag.com
+  - DOMAIN,sdk.open.phone.igexin.com
+  - DOMAIN,sdk.open.talk.igexin.com
+  - DOMAIN,sdkserver-dra.op.hicloud.com
+  - DOMAIN,sec-cdn.static.xiaomi.net
+  - DOMAIN,sec.resource.xiaomi.net
+  - DOMAIN,secode2.hd.xiaomi.com
+  - DOMAIN,security.browser.miui.com
+  - DOMAIN,servicesupport.hicloud.com
+  - DOMAIN,sfsapi.micloud.xiaomi.net
+  - DOMAIN,shoes.app-xae.xiaomi.com
+  - DOMAIN,shouji.sougou.com
+  - DOMAIN,show.ssports.com
+  - DOMAIN,sobot.com
+  - DOMAIN,sousuo.xm.sjzhushou.com
+  - DOMAIN,ssdk.adkmob.com
+  - DOMAIN,ssl-cdn.static.browser.mi-img.com
+  - DOMAIN,sso.internetat.tv
+  - DOMAIN,stat.pandora.xiaomi.com
+  - DOMAIN,static.g.iqiyi.com
+  - DOMAIN,static.game.xiaomi.com
+  - DOMAIN,statwup.huya.com
+  - DOMAIN,stgowan.com
+  - DOMAIN,streamback.ff.avast.com
   - DOMAIN,sugar.zhihu.com
+  - DOMAIN,synacast.com
+  - DOMAIN,t.email1.samsung.ca
+  - DOMAIN,t.yesware.com
+  - DOMAIN,t1.g.mi.com
+  - DOMAIN,t4.a.market.xiaomi.com
+  - DOMAIN,t5.a.market.xiaomi.com
+  - DOMAIN,t7z.cupid.iqiyi.com
+  - DOMAIN,test.api.xlmc.sandai.net
   - DOMAIN,thirdparty.biliapi.com
+  - DOMAIN,tools.3g.qq.com
+  - DOMAIN,tv.app.migc.xiaomi.com
+  - DOMAIN,ubacollect-drcn.cloud.dbankcloud.cn
+  - DOMAIN,ubmcmm.baidustatic.com
   - DOMAIN,ulog.imap.baidu.com
+  - DOMAIN,url8807.global.passport.xiaomi.com
+  - DOMAIN,userid.xiaomi.com
+  - DOMAIN,v2.reachmax.cn
+  - DOMAIN,va.huya.com
+  - DOMAIN,vdterms.samsungcloudsolution.com
+  - DOMAIN,wallpaper.cdn.pandora.xiaomi.com
+  - DOMAIN,wan.douyu.com
+  - DOMAIN,wap.game.xiaomi.com
+  - DOMAIN,weatherapi.market.xioami.com
   - DOMAIN,wn.pos.baidu.com
   - DOMAIN,wr.da.netease.com
+  - DOMAIN,wtradv.market.xiaomi.com
+  - DOMAIN,www.adview.cn
+  - DOMAIN,www.akcjasamsung.e-kei.pl
+  - DOMAIN,www.samsungotn.net
+  - DOMAIN,xiaomi-mipdx.cn.miaozhen.com
+  - DOMAIN,xiaomi.m.cn.miaozhen.com
+  - DOMAIN,xiazai.xiaomi.com
+  - DOMAIN,ypu.samsungelectronics.com
   - DOMAIN,yt-adp.nosdn.127.net
+  - DOMAIN,yun.rili.cn
+  - DOMAIN,z4a.net
   - DOMAIN,zhihu-analytics.zhihu.com
   - DOMAIN,zhihu-web-analytics.zhihu.com
+  - DOMAIN,zhwnlapi.etouch.cn
+  - DOMAIN,zn3xeosihqjqivq8l-samsungeurope.siteintercept.qualtrics.com
+  - DOMAIN,zn6lro0hnnzevxtpz-samsungeurope.siteintercept.qualtrics.com
+  - DOMAIN,zn8a1gd8ckeekprrz-samsunggdc.siteintercept.qualtrics.com
+  - DOMAIN,zpu.samsungelectronics.com
   - DOMAIN-SUFFIX,0.r.msn.com
   - DOMAIN-SUFFIX,000dn.com
   - DOMAIN-SUFFIX,001union.com
