@@ -1,5 +1,5 @@
-# 更新时间: 2025-09-10 20:15:38（北京时间）
-# 规则数量: 8483
+# 更新时间: 2025-09-11 11:45:12（北京时间）
+# 规则数量: 8485
 payload:
   - DOMAIN,118.89.204.198
   - DOMAIN,Banner468x60
@@ -270,6 +270,8 @@ payload:
   - DOMAIN,samsung-com.112.2o7.net
   - DOMAIN,samsung-germany.demdex.net
   - DOMAIN,samsung-produkcja.24.eu
+  - DOMAIN,samsung-stop.24.eu
+  - DOMAIN,samsung.24.eu
   - DOMAIN,samsung.demdex.net
   - DOMAIN,samsung3.solution.weborama.fr
   - DOMAIN,samsungeurope.eu.qualtrics.com

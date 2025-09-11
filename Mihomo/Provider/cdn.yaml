@@ -1,5 +1,5 @@
-# 更新时间: 2025-09-10 20:15:32（北京时间）
-# 规则数量: 3943
+# 更新时间: 2025-09-11 11:45:06（北京时间）
+# 规则数量: 3945
 payload:
   - DOMAIN,0x0.st
   - DOMAIN,3dna.nationbuilder.com
@@ -1412,6 +1412,7 @@ payload:
   - DOMAIN,images.github.media
   - DOMAIN,images.hothardware.com
   - DOMAIN,images.idgesg.net
+  - DOMAIN,images.indianexpress.com
   - DOMAIN,images.kick.com
   - DOMAIN,images.loox.io
   - DOMAIN,images.macrumors.com
@@ -1722,6 +1723,7 @@ payload:
   - DOMAIN,media-cdn.atlassian.com
   - DOMAIN,media-cdn.comfy.social
   - DOMAIN,media-cdn.epicgames.com
+  - DOMAIN,media-central.indianexpress.com
   - DOMAIN,media-cms.onesignal.com
   - DOMAIN,media-s3-us-east-1.ceros.com
   - DOMAIN,media.beehiiv.com
