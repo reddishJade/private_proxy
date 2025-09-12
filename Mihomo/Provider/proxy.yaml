@@ -1,5 +1,5 @@
-# 更新时间: 2025-09-11 20:15:24（北京时间）
-# 规则数量: 1626
+# 更新时间: 2025-09-12 08:38:26（北京时间）
+# 规则数量: 1629
 payload:
   - DOMAIN,api.waqi.info
   - DOMAIN,aqi.aqicn.org
@@ -106,6 +106,7 @@ payload:
   - DOMAIN-SUFFIX,androidify.com
   - DOMAIN-SUFFIX,androidpolice.com
   - DOMAIN-SUFFIX,angularjs.org
+  - DOMAIN-SUFFIX,anilist.co
   - DOMAIN-SUFFIX,animes.garden
   - DOMAIN-SUFFIX,annas-archive.org
   - DOMAIN-SUFFIX,ant.design
@@ -521,6 +522,7 @@ payload:
   - DOMAIN-SUFFIX,gcr.io
   - DOMAIN-SUFFIX,gd
   - DOMAIN-SUFFIX,geekbench.com
+  - DOMAIN-SUFFIX,gelbooru.com
   - DOMAIN-SUFFIX,geni.us
   - DOMAIN-SUFFIX,genius.com
   - DOMAIN-SUFFIX,get.how
@@ -1624,6 +1626,7 @@ payload:
   - DOMAIN-SUFFIX,zbporn.com
   - DOMAIN-SUFFIX,zello.com
   - DOMAIN-SUFFIX,zendesk.com
+  - DOMAIN-SUFFIX,zerochan.net
   - DOMAIN-SUFFIX,zeutch.com
   - DOMAIN-SUFFIX,zndsk.com
   - DOMAIN-SUFFIX,zynamics.com
