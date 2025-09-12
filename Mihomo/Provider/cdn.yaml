@@ -1,5 +1,5 @@
-# 更新时间: 2025-09-12 08:38:24（北京时间）
-# 规则数量: 3963
+# 更新时间: 2025-09-12 20:15:46（北京时间）
+# 规则数量: 3966
 payload:
   - DOMAIN,0x0.st
   - DOMAIN,3dna.nationbuilder.com
@@ -661,6 +661,7 @@ payload:
   - DOMAIN,cdn.neverbounce.com
   - DOMAIN,cdn.nfcube.com
   - DOMAIN,cdn.nolt.io
+  - DOMAIN,cdn.northropgrumman.com
   - DOMAIN,cdn.now.gg
   - DOMAIN,cdn.nperf.com
   - DOMAIN,cdn.omnicalculator.com
@@ -2327,6 +2328,7 @@ payload:
   - DOMAIN,static.chaika.moe
   - DOMAIN,static.change.org
   - DOMAIN,static.chessarena.com
+  - DOMAIN,static.chrome-stats.com
   - DOMAIN,static.clips4sale.com
   - DOMAIN,static.cloud.coveo.com
   - DOMAIN,static.cloudcachetci.com
@@ -3742,6 +3744,7 @@ payload:
   - DOMAIN-SUFFIX,stream.publicradio.org
   - DOMAIN-SUFFIX,streamhentai.org
   - DOMAIN-SUFFIX,streamhk.com
+  - DOMAIN-SUFFIX,striiiipst.com
   - DOMAIN-SUFFIX,stripcdn.com
   - DOMAIN-SUFFIX,stripeassets.com
   - DOMAIN-SUFFIX,stripecdn.com
