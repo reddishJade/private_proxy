@@ -1,4 +1,4 @@
-# 更新时间: 2025-09-13 20:13:10（北京时间）
+# 更新时间: 2025-09-14 08:42:22（北京时间）
 # 规则数量: 3966
 payload:
   - DOMAIN,0x0.st
@@ -608,7 +608,7 @@ payload:
   - DOMAIN,cdn.ipregistry.co
   - DOMAIN,cdn.jamieoliver.com
   - DOMAIN,cdn.javmg.com
-  - DOMAIN,cdn.javsts.com
+  - DOMAIN,cdn.javmiku.com
   - DOMAIN,cdn.jetboost.io
   - DOMAIN,cdn.jetphotos.com
   - DOMAIN,cdn.jitbit.com
@@ -1201,7 +1201,6 @@ payload:
   - DOMAIN,files.slack.com
   - DOMAIN,files.smashing.media
   - DOMAIN,files.svc.ui.com
-  - DOMAIN,files.webfe.shopee.io
   - DOMAIN,files.writefreely.org
   - DOMAIN,files.yande.re
   - DOMAIN,filestore.fortinet.com
@@ -2211,7 +2210,6 @@ payload:
   - DOMAIN,solve-widget.forethought.ai
   - DOMAIN,source.domaintools.com
   - DOMAIN,source.unsplash.com
-  - DOMAIN,sourcemap.webfe.shopeemobile.com
   - DOMAIN,sourcemaps.squarespace.net
   - DOMAIN,sourcepoint.theguardian.com
   - DOMAIN,sp-spiegel-de.spiegel.de
@@ -3829,6 +3827,7 @@ payload:
   - DOMAIN-SUFFIX,v-cdn.net
   - DOMAIN-SUFFIX,v2ex.co
   - DOMAIN-SUFFIX,valnetcdn.com
+  - DOMAIN-SUFFIX,vancdn.com
   - DOMAIN-SUFFIX,vanillicon.com
   - DOMAIN-SUFFIX,vcmdiawe.com
   - DOMAIN-SUFFIX,vercel.app
@@ -3854,6 +3853,7 @@ payload:
   - DOMAIN-SUFFIX,watchlycdn.com
   - DOMAIN-SUFFIX,wdfiles.com
   - DOMAIN-SUFFIX,web.app
+  - DOMAIN-SUFFIX,webfe.shopee.io
   - DOMAIN-SUFFIX,webinfcdn.net
   - DOMAIN-SUFFIX,webp.se
   - DOMAIN-SUFFIX,webpkgcache.com

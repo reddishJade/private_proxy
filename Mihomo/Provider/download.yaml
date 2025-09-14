@@ -1,5 +1,5 @@
-# 更新时间: 2025-09-13 20:13:12（北京时间）
-# 规则数量: 1177
+# 更新时间: 2025-09-14 08:42:24（北京时间）
+# 规则数量: 1176
 payload:
   - DOMAIN,addins.deepl.com
   - DOMAIN,amupdatedl.microsoft.com
@@ -94,7 +94,6 @@ payload:
   - DOMAIN,componentupdater.brave.com
   - DOMAIN,content-origin.steampowered.com
   - DOMAIN,cpan-mirror.rbc.ru
-  - DOMAIN,cpan.catalyst.net.nz
   - DOMAIN,cpan.cpantesters.org
   - DOMAIN,cpan.cs.utah.edu
   - DOMAIN,cpan.dcc.uchile.cl
