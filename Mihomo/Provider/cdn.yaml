@@ -1,5 +1,5 @@
-# 更新时间: 2025-09-14 20:13:11（北京时间）
-# 规则数量: 3966
+# 更新时间: 2025-09-15 08:42:46（北京时间）
+# 规则数量: 3971
 payload:
   - DOMAIN,0x0.st
   - DOMAIN,3dna.nationbuilder.com
@@ -374,6 +374,7 @@ payload:
   - DOMAIN,c8.patreon.com
   - DOMAIN,ca.nfs.pub
   - DOMAIN,cacerts.digicert.com
+  - DOMAIN,cacerts.rapidssl.com
   - DOMAIN,cache-05.filehippo.net
   - DOMAIN,cache.armorgames.com
   - DOMAIN,cache.hackedfreegames.com
@@ -766,6 +767,7 @@ payload:
   - DOMAIN,cdn.substack.com
   - DOMAIN,cdn.sunofbeaches.com
   - DOMAIN,cdn.svgator.com
+  - DOMAIN,cdn.syftdata.com
   - DOMAIN,cdn.tailwindcss.com
   - DOMAIN,cdn.techcommunity.microsoft.com
   - DOMAIN,cdn.termius.com
@@ -907,6 +909,7 @@ payload:
   - DOMAIN,cdn9.bigcommerce.com
   - DOMAIN,cdna.artstation.com
   - DOMAIN,cdnapi.kaltura.com
+  - DOMAIN,cdnassets.roboflow.com
   - DOMAIN,cdnb.artstation.com
   - DOMAIN,cdnc.imagefap.com
   - DOMAIN,cdne-pics.youjizz.com
@@ -2154,6 +2157,7 @@ payload:
   - DOMAIN,scripts.webeo.com
   - DOMAIN,sdata.ndtv.com
   - DOMAIN,sdk.customfit.ai
+  - DOMAIN,sdk.gleap.io
   - DOMAIN,sdk.listenlive.co
   - DOMAIN,sdk.loyaltylion.net
   - DOMAIN,sdk.privacy-center.org
@@ -2459,6 +2463,7 @@ payload:
   - DOMAIN,static.registration.bluehost.com
   - DOMAIN,static.reo.dev
   - DOMAIN,static.replay.io
+  - DOMAIN,static.roboflow.com
   - DOMAIN,static.salidzini.lv
   - DOMAIN,static.scarf.sh
   - DOMAIN,static.seel.com
