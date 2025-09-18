@@ -1,5 +1,5 @@
-# 更新时间: 2025-09-18 08:38:19（北京时间）
-# 规则数量: 1630
+# 更新时间: 2025-09-18 20:15:31（北京时间）
+# 规则数量: 1631
 payload:
   - DOMAIN,api.waqi.info
   - DOMAIN,aqi.aqicn.org
@@ -1627,6 +1627,7 @@ payload:
   - DOMAIN-SUFFIX,zbporn.com
   - DOMAIN-SUFFIX,zello.com
   - DOMAIN-SUFFIX,zendesk.com
+  - DOMAIN-SUFFIX,zenn.dev
   - DOMAIN-SUFFIX,zerochan.net
   - DOMAIN-SUFFIX,zeutch.com
   - DOMAIN-SUFFIX,zndsk.com

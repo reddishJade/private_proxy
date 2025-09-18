@@ -1,5 +1,5 @@
-# 更新时间: 2025-09-18 08:38:16（北京时间）
-# 规则数量: 3993
+# 更新时间: 2025-09-18 20:15:28（北京时间）
+# 规则数量: 3995
 payload:
   - DOMAIN,0x0.st
   - DOMAIN,3dna.nationbuilder.com
@@ -1141,6 +1141,7 @@ payload:
   - DOMAIN,embed.ted.com
   - DOMAIN,embed.twitch.tv
   - DOMAIN,embed.typeform.com
+  - DOMAIN,embed.zenn.studio
   - DOMAIN,embedr.flickr.com
   - DOMAIN,embedwistia-a.akamaihd.net
   - DOMAIN,emoji-css.afeld.me
@@ -2533,6 +2534,7 @@ payload:
   - DOMAIN,static.yfsp.tv
   - DOMAIN,static.zaobao.com
   - DOMAIN,static.zaobao.com.sg
+  - DOMAIN,static.zenn.studio
   - DOMAIN,static.zerochan.net
   - DOMAIN,static.zuora.com
   - DOMAIN,static01.nyt.com
