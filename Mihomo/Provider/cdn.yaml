@@ -1,5 +1,5 @@
-# 更新时间: 2025-09-21 08:43:29（北京时间）
-# 规则数量: 3997
+# 更新时间: 2025-09-21 20:13:45（北京时间）
+# 规则数量: 3999
 payload:
   - DOMAIN,0x0.st
   - DOMAIN,3dna.nationbuilder.com
@@ -715,6 +715,7 @@ payload:
   - DOMAIN,cdn.quickemailverification.com
   - DOMAIN,cdn.rauno.me
   - DOMAIN,cdn.readme.io
+  - DOMAIN,cdn.readmoo.com
   - DOMAIN,cdn.ready-market.com.tw
   - DOMAIN,cdn.rebuyengine.com
   - DOMAIN,cdn.recovermycart.com
@@ -2040,6 +2041,7 @@ payload:
   - DOMAIN,raw.github.com
   - DOMAIN,rawmarkdown.cloudflareaccess.org
   - DOMAIN,rbds-static.redbull.com
+  - DOMAIN,reader.readmoo.com
   - DOMAIN,rebound.postmarkapp.com
   - DOMAIN,redircdn.com
   - DOMAIN,registry.api.cnn.io
