@@ -10,7 +10,7 @@
     ACL4SSR_ai:
       type: http
       url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Ruleset/AI.list"
-      format: yaml
+      format: text
       behavior: domain
 
 - path: output/apple@cn.yaml
@@ -137,6 +137,21 @@
       url: "https://ruleset.skk.moe/Clash/ip/download.txt"
       format: txt
       behavior: ipcidr
+
+- path: output/microsoft@cn.yaml
+  format: yaml
+  behavior: domain
+  upstream:
+    DustinWin_microsoft_cn:
+      type: http
+      url: "https://raw.githubusercontent.com/DustinWin/ruleset_geodata/refs/heads/mihomo-ruleset/microsoft-cn.list"
+      format: text
+      behavior: domain
+    skk_microsoft_cdn:
+      type: http
+      url: "https://ruleset.skk.moe/Clash/non_ip/microsoft_cdn.txt"
+      format: txt
+      behavior: classical
 
 - path: output/private.yaml
   format: yaml

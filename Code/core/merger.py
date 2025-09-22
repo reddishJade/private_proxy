@@ -164,9 +164,9 @@ class RulesMerger:
         Returns:
             str: Provider目录的绝对路径
         """
-        # 从 core/merger.py -> src/python/core -> src/python -> src -> 根目录 -> Mihomo/Provider  
+        # 从 core/merger.py -> Code/core -> Code -> 根目录 -> Mihomo/Provider  
         return os.path.join(
-            os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(__file__)))), 
+            os.path.dirname(os.path.dirname(os.path.dirname(__file__))), 
             'Mihomo', 
             'Provider'
         )

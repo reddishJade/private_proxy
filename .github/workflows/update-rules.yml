@@ -25,8 +25,8 @@ jobs:
 
       - name: Run script
         run: |
-          cd src/python/
-          python ./rule_merger_main.py ./config_clean.yaml
+          cd Code/
+          python ./rule_merger.py ./config.yaml
 
       - name: Get current time
         id: time
@@ -39,12 +39,10 @@ jobs:
         with:
           commit_message: 🚀 Update at ${{ steps.time.outputs.TIME }}
           branch: main
-          skip_dirty_check: true
-          push_options: '--force'
-          create_branch: true
-          skip_fetch: true
-          skip_checkout: true
-          commit_options: '--allow-empty'
+          push_options: "--force"
+          file_pattern: |
+            Mihomo/Rule.yaml
+            Mihomo/Provider/*.yaml
 
       - name: Delete Workflow Runs
         uses: Mattraks/delete-workflow-runs@v2
