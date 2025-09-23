@@ -28,18 +28,27 @@ jobs:
           cd Code/
           python ./rule_merger.py ./config.yaml
 
+      - name: Check for rule changes
+        id: checker
+        run: python Code/core/checker.py Mihomo/Provider
+
       - name: Get current time
         id: time
         run: |
           echo "TIME=$(TZ='Asia/Shanghai' date +'%Y-%m-%d %H:%M:%S')" >> $GITHUB_OUTPUT
 
       - name: Commit Changes
+        if: steps.checker.outputs.has_changed == 'true'
         id: commit
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: 🚀 Update at ${{ steps.time.outputs.TIME }}
           branch: main
+          skip_dirty_check: true
           push_options: "--force"
+          skip_fetch: true
+          skip_checkout: true
+          commit_options: "--allow-empty"
           file_pattern: |
             Mihomo/Rule.yaml
             Mihomo/Provider/*.yaml
