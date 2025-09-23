@@ -49,9 +49,6 @@ jobs:
           skip_fetch: true
           skip_checkout: true
           commit_options: "--allow-empty"
-          file_pattern: |
-            Mihomo/Rule.yaml
-            Mihomo/Provider/*.yaml
 
       - name: Delete Workflow Runs
         uses: Mattraks/delete-workflow-runs@v2
