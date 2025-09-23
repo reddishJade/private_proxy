@@ -1,5 +1,5 @@
-# 更新时间: 2025-09-23 11:25:15（北京时间）
-# 规则数量: 1180
+# 更新时间: 2025-09-23 20:15:33（北京时间）
+# 规则数量: 1182
 payload:
   - DOMAIN,addins.deepl.com
   - DOMAIN,amupdatedl.microsoft.com
@@ -400,9 +400,11 @@ payload:
   - DOMAIN,lysator.liu.se
   - DOMAIN,mac-release-static.stash.ws
   - DOMAIN,marwan.ma
+  - DOMAIN,maven.fabricmc.net
   - DOMAIN,maven.google.com
   - DOMAIN,maven.is-quite.gay
   - DOMAIN,maven.neoforged.net
+  - DOMAIN,mediafilez.forgecdn.net
   - DOMAIN,meta.omaps.app
   - DOMAIN,meta.prismlauncher.org
   - DOMAIN,mirror-cdn.xtom.com
