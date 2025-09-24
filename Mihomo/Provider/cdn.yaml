@@ -1,5 +1,5 @@
-# 更新时间: 2025-09-23 20:15:32（北京时间）
-# 规则数量: 3999
+# 更新时间: 2025-09-24 08:39:52（北京时间）
+# 规则数量: 4000
 payload:
   - DOMAIN,0x0.st
   - DOMAIN,3dna.nationbuilder.com
@@ -1758,6 +1758,7 @@ payload:
   - DOMAIN,media-s3-us-east-1.ceros.com
   - DOMAIN,media.beehiiv.com
   - DOMAIN,media.breitbart.com
+  - DOMAIN,media.bundlehunt.com
   - DOMAIN,media.cleanshot.cloud
   - DOMAIN,media.cmx.edu.kg
   - DOMAIN,media.cnn.com
