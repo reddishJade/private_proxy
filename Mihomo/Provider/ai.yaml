@@ -1,5 +1,5 @@
-# 更新时间: 2025-09-25 08:40:09（北京时间）
-# 规则数量: 91
+# 更新时间: 2025-10-08 20:16:49（北京时间）
+# 规则数量: 93
 payload:
   - DOMAIN,ai.google.dev
   - DOMAIN,aistudio.google.com
@@ -34,6 +34,7 @@ payload:
   - DOMAIN-KEYWORD,openai
   - DOMAIN-SUFFIX,ai.azure.com
   - DOMAIN-SUFFIX,ai.com
+  - DOMAIN-SUFFIX,aisandbox-pa.googleapis.com
   - DOMAIN-SUFFIX,aistudio.google.com
   - DOMAIN-SUFFIX,anthropic.com
   - DOMAIN-SUFFIX,apis.google.com
@@ -88,6 +89,7 @@ payload:
   - DOMAIN-SUFFIX,perplexity.ai
   - DOMAIN-SUFFIX,poe.com
   - DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
+  - DOMAIN-SUFFIX,robinfrontend-pa.googleapis.com
   - DOMAIN-SUFFIX,sora.com
   - DOMAIN-SUFFIX,windsurf.com
   - DOMAIN-SUFFIX,x.ai
