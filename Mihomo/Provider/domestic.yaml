@@ -1,10 +1,11 @@
-# 更新时间: 2025-09-25 08:40:12（北京时间）
-# 规则数量: 979
+# 更新时间: 2025-10-04 20:13:16（北京时间）
+# 规则数量: 982
 payload:
   - DOMAIN,acg.tv
   - DOMAIN,assets1.xboxlive.cn
   - DOMAIN,assets2.xboxlive.cn
   - DOMAIN,b23.tv
+  - DOMAIN,cdn.lilyemby.com
   - DOMAIN,cdnstatic.tencentcs.com
   - DOMAIN,client.amplifi.com
   - DOMAIN,cn.download.nvidia.com
@@ -21,6 +22,7 @@ payload:
   - DOMAIN,media.cdn.queniuqe.com
   - DOMAIN,ocsp.globalsign.com
   - DOMAIN,ocsp2.globalsign.com
+  - DOMAIN,tx.lilyemby.com
   - DOMAIN,url.cn
   - DOMAIN,www.intel.cn
   - DOMAIN,www.layuicdn.com
@@ -199,7 +201,6 @@ payload:
   - DOMAIN-SUFFIX,boc.cn
   - DOMAIN-SUFFIX,bochk.com
   - DOMAIN-SUFFIX,bosszhipin.com
-  - DOMAIN-SUFFIX,broadcasthe.net
   - DOMAIN-SUFFIX,bulicdn2.com
   - DOMAIN-SUFFIX,byteacctimg.com
   - DOMAIN-SUFFIX,bytecdn.cn
@@ -271,7 +272,6 @@ payload:
   - DOMAIN-SUFFIX,cmpassport.com
   - DOMAIN-SUFFIX,cmvideo.cn
   - DOMAIN-SUFFIX,cn
-  - DOMAIN-SUFFIX,cn88.net
   - DOMAIN-SUFFIX,cnblogs.com
   - DOMAIN-SUFFIX,cnlang.org
   - DOMAIN-SUFFIX,cnnic.cn
@@ -511,6 +511,7 @@ payload:
   - DOMAIN-SUFFIX,jianshu.io
   - DOMAIN-SUFFIX,jianshuapi.com
   - DOMAIN-SUFFIX,jiathis.com
+  - DOMAIN-SUFFIX,jiedaibao.gs
   - DOMAIN-SUFFIX,jiemian.com
   - DOMAIN-SUFFIX,jiguang.cn
   - DOMAIN-SUFFIX,jomodns.com
@@ -729,6 +730,7 @@ payload:
   - DOMAIN-SUFFIX,qlogo.cn
   - DOMAIN-SUFFIX,qpic.cn
   - DOMAIN-SUFFIX,qq.com
+  - DOMAIN-SUFFIX,qq.net
   - DOMAIN-SUFFIX,qqmail.com
   - DOMAIN-SUFFIX,qqurl.com
   - DOMAIN-SUFFIX,qy.net
@@ -754,6 +756,7 @@ payload:
   - DOMAIN-SUFFIX,sankuai.com
   - DOMAIN-SUFFIX,saxyit.com
   - DOMAIN-SUFFIX,segmentfault.com
+  - DOMAIN-SUFFIX,servicewechat.com
   - DOMAIN-SUFFIX,sevencdn.com
   - DOMAIN-SUFFIX,sf-express.com
   - DOMAIN-SUFFIX,sharepoint.cn

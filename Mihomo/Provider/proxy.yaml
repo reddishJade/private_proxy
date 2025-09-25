@@ -1,5 +1,5 @@
-# 更新时间: 2025-09-25 08:40:14（北京时间）
-# 规则数量: 1631
+# 更新时间: 2025-10-04 20:13:18（北京时间）
+# 规则数量: 1633
 payload:
   - DOMAIN,api.waqi.info
   - DOMAIN,aqi.aqicn.org
@@ -141,6 +141,7 @@ payload:
   - DOMAIN-SUFFIX,arcgis.com
   - DOMAIN-SUFFIX,archive-it.org
   - DOMAIN-SUFFIX,archive.is
+  - DOMAIN-SUFFIX,archive.li
   - DOMAIN-SUFFIX,archive.org
   - DOMAIN-SUFFIX,archive.today
   - DOMAIN-SUFFIX,archiveofourown.org
@@ -587,6 +588,7 @@ payload:
   - DOMAIN-SUFFIX,gooogle.com
   - DOMAIN-SUFFIX,gosetsuden.jp
   - DOMAIN-SUFFIX,gov
+  - DOMAIN-SUFFIX,gqhongkong.com
   - DOMAIN-SUFFIX,grammarly.com
   - DOMAIN-SUFFIX,grammarly.io
   - DOMAIN-SUFFIX,gravatar.com

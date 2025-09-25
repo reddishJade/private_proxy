@@ -1,4 +1,4 @@
-# 更新时间: 2025-09-25 08:40:13（北京时间）
+# 更新时间: 2025-10-04 20:13:17（北京时间）
 # 规则数量: 1182
 payload:
   - DOMAIN,addins.deepl.com
@@ -107,7 +107,6 @@ payload:
   - DOMAIN,cpan.metacpan.org
   - DOMAIN,cpan.mines-albi.fr
   - DOMAIN,cpan.mmgdesigns.com.ar
-  - DOMAIN,cpan.noris.de
   - DOMAIN,cpan.pair.com
   - DOMAIN,cpan.pesat.net.id
   - DOMAIN,cpan.rinet.ru
@@ -639,6 +638,7 @@ payload:
   - DOMAIN,releases.arc.net
   - DOMAIN,releases.grapheneos.org
   - DOMAIN,releases.obsidian.md
+  - DOMAIN,releases.stash.ws
   - DOMAIN,releases.warp.dev
   - DOMAIN,releases.whatpulse.org
   - DOMAIN,replicate.npmjs.com
