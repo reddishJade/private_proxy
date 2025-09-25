@@ -1,4 +1,4 @@
-# 更新时间: 2025-09-25 08:40:12（北京时间）
+# 更新时间: 2025-09-27 20:13:35（北京时间）
 # 规则数量: 979
 payload:
   - DOMAIN,acg.tv
@@ -199,7 +199,6 @@ payload:
   - DOMAIN-SUFFIX,boc.cn
   - DOMAIN-SUFFIX,bochk.com
   - DOMAIN-SUFFIX,bosszhipin.com
-  - DOMAIN-SUFFIX,broadcasthe.net
   - DOMAIN-SUFFIX,bulicdn2.com
   - DOMAIN-SUFFIX,byteacctimg.com
   - DOMAIN-SUFFIX,bytecdn.cn
@@ -271,7 +270,6 @@ payload:
   - DOMAIN-SUFFIX,cmpassport.com
   - DOMAIN-SUFFIX,cmvideo.cn
   - DOMAIN-SUFFIX,cn
-  - DOMAIN-SUFFIX,cn88.net
   - DOMAIN-SUFFIX,cnblogs.com
   - DOMAIN-SUFFIX,cnlang.org
   - DOMAIN-SUFFIX,cnnic.cn
@@ -729,6 +727,7 @@ payload:
   - DOMAIN-SUFFIX,qlogo.cn
   - DOMAIN-SUFFIX,qpic.cn
   - DOMAIN-SUFFIX,qq.com
+  - DOMAIN-SUFFIX,qq.net
   - DOMAIN-SUFFIX,qqmail.com
   - DOMAIN-SUFFIX,qqurl.com
   - DOMAIN-SUFFIX,qy.net
@@ -754,6 +753,7 @@ payload:
   - DOMAIN-SUFFIX,sankuai.com
   - DOMAIN-SUFFIX,saxyit.com
   - DOMAIN-SUFFIX,segmentfault.com
+  - DOMAIN-SUFFIX,servicewechat.com
   - DOMAIN-SUFFIX,sevencdn.com
   - DOMAIN-SUFFIX,sf-express.com
   - DOMAIN-SUFFIX,sharepoint.cn
