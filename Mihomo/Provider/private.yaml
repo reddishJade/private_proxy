@@ -1,12 +1,17 @@
-# 更新时间: 2025-10-08 20:16:52（北京时间）
-# 规则数量: 123
+# 更新时间: 2025-10-08 22:01:31（北京时间）
+# 规则数量: 136
 payload:
   - DOMAIN,asusrouter.com
   - DOMAIN,instant.arubanetworks.com
+  - DOMAIN,miwifi.com
   - DOMAIN,oasisauth.h3c.com
   - DOMAIN,router.asus.com
+  - DOMAIN,routerlogin.com
   - DOMAIN,setmeup.arubanetworks.com
+  - DOMAIN,tplogin.cn
   - DOMAIN,www.asusrouter.com
+  - DOMAIN,www.miwifi.com
+  - DOMAIN,www.routerlogin.com
   - DOMAIN-SUFFIX,0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa
   - DOMAIN-SUFFIX,0.in-addr.arpa
   - DOMAIN-SUFFIX,1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa
@@ -105,9 +110,16 @@ payload:
   - DOMAIN-SUFFIX,acl4.ssr
   - DOMAIN-SUFFIX,b.e.f.ip6.arpa
   - DOMAIN-SUFFIX,d.f.ip6.arpa
+  - DOMAIN-SUFFIX,example
   - DOMAIN-SUFFIX,hiwifi.com
   - DOMAIN-SUFFIX,home.arpa
+  - DOMAIN-SUFFIX,internal
+  - DOMAIN-SUFFIX,invalid
+  - DOMAIN-SUFFIX,lan
   - DOMAIN-SUFFIX,leike.cc
+  - DOMAIN-SUFFIX,local
+  - DOMAIN-SUFFIX,localdomain
+  - DOMAIN-SUFFIX,localhost
   - DOMAIN-SUFFIX,localhost.ptlogin2.qq.com
   - DOMAIN-SUFFIX,localhost.sec.qq.com
   - DOMAIN-SUFFIX,my.router
@@ -118,6 +130,7 @@ payload:
   - DOMAIN-SUFFIX,router.ctc
   - DOMAIN-SUFFIX,routerlogin.com
   - DOMAIN-SUFFIX,tendawifi.com
+  - DOMAIN-SUFFIX,test
   - DOMAIN-SUFFIX,test.steampowered.com
   - DOMAIN-SUFFIX,tplinkwifi.net
   - DOMAIN-SUFFIX,tplogin.cn
