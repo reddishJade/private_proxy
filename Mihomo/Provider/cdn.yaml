@@ -1,5 +1,5 @@
-# 更新时间: 2025-10-08 22:01:20（北京时间）
-# 规则数量: 4047
+# 更新时间: 2025-10-09 08:39:27（北京时间）
+# 规则数量: 4049
 payload:
   - DOMAIN,0x0.st
   - DOMAIN,3dna.nationbuilder.com
@@ -1291,6 +1291,7 @@ payload:
   - DOMAIN,graph.facebook.com
   - DOMAIN,gravatar.cat.net
   - DOMAIN,gravatar.tapglb.com
+  - DOMAIN,groundnews.b-cdn.net
   - DOMAIN,gstatic.com
   - DOMAIN,gstatic.olympics.com
   - DOMAIN,gt1.onlyhentaistuff.com
@@ -2809,6 +2810,7 @@ payload:
   - DOMAIN,wcpstatic.microsoft.com
   - DOMAIN,wctour-images.worldchess.com
   - DOMAIN,weather.istatmenus.app
+  - DOMAIN,web-api-cdn.ground.news
   - DOMAIN,web-assets.esetstatic.com
   - DOMAIN,web-assets.ifttt.com
   - DOMAIN,web-assets.otogi-frontier.com
