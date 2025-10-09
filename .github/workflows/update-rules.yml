@@ -28,6 +28,44 @@ jobs:
           cd Code/
           python ./rule_merger.py ./config.yaml
 
+      - name: Convert YAML to MRS format
+        run: |
+          # 确保mihomo二进制文件可执行
+          chmod +x .github/bin/mihomo
+
+          # 转换所有YAML文件为MRS格式
+          cd Mihomo/Provider
+          echo "开始转换YAML文件为MRS格式..."
+
+          for yaml_file in *.yaml; do
+            if [[ -f "$yaml_file" ]]; then
+              filename=$(basename "$yaml_file" .yaml)
+              echo "Converting $yaml_file to ${filename}.mrs"
+              
+              # 根据文件名确定behavior类型
+              if [[ "$filename" == *"@ip"* ]]; then
+                behavior="ipcidr"
+              else
+                behavior="domain"  # 默认为domain
+              fi
+              
+              # 执行转换
+              ../../.github/bin/mihomo convert-ruleset "$behavior" yaml "$yaml_file" "${filename}.mrs" || {
+                echo "Warning: Failed to convert $yaml_file, skipping..."
+                continue
+              }
+              
+              echo "✓ Successfully converted $yaml_file to ${filename}.mrs"
+            fi
+          done
+
+          echo "MRS转换完成！"
+
+          # 显示转换结果统计
+          yaml_count=$(ls -1 *.yaml 2>/dev/null | wc -l)
+          mrs_count=$(ls -1 *.mrs 2>/dev/null | wc -l)
+          echo "转换统计: $yaml_count 个YAML文件 -> $mrs_count 个MRS文件"
+
       - name: Check for rule changes
         id: checker
         run: python Code/core/checker.py Mihomo/Provider
