@@ -57,65 +57,33 @@ rules:
 - [Mihomo 配置语法](https://wiki.metacubex.one/handbook/syntax/)
 - [配置文件说明](https://wiki.metacubex.one/config/)
 
-## 📁 项目结构
-
-```
-private_proxy/
-├── 📄 README.md              		# 项目说明文档
-├── 📄 GUIDE.md               		# 详细使用教程
-├── 📄 requirements.txt       		# Python 环境依赖
-├── 📂 Mihomo/                		# Mihomo 配置和规则
-│   ├── 📄 README.md          		# Mihomo 配置说明
-│   ├── 📄 Rule.yaml          		# 纯规则配置文件
-│   ├── 📂 Full_Config/       		# 完整配置文件模板
-│   │   ├── mihomo.yaml       		# 标准配置模板
-│   └── 📂 Provider/          		# 规则文件目录
-│       ├── reject.yaml       		# 广告拦截规则
-│       ├── proxy.yaml        		# 代理规则
-│       └── ...               		# 其他规则文件
-└── 📂 src/                   		# 源代码和工具
-    ├── 📄 ads.txt            		# 广告域名数据源
-    └── 📂 python/            		# Python 规则处理工具
-        ├── 📄 config.yaml    		# 规则源配置文件
-        ├── 📄 rule_merger_main.py  # 主程序入口
-        ├── 📄 utils.py      		# 通用工具函数
-        └── 📂 core/         		# 核心处理模块
-            ├── constants.py  		# 规则常量定义
-            ├── validators.py 		# 规则验证器
-            ├── transformers.py 	# 格式转换器
-            ├── fetchers.py   		# 规则获取器
-            ├── processors.py 		# 规则处理器
-            └── merger.py     		# 规则合并器
-```
-
 ## 📋 规则列表
 
-### 🌐 域名规则
-
-| 规则名称            | 上游来源                              | 订阅链接                                                                                                     |
-| ------------------- | ------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
-| **reject**    | xndeye, dler_ad                       | [📥](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/reject.yaml)   |
-| **proxy**     | skk_global, dler_proxy                | [📥](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/proxy.yaml)    |
-| **domestic**  | skk_domestic                          | [📥](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/domestic.yaml) |
-| **cdn**       | skk_cdn                               | [📥](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/cdn.yaml)      |
-| **streaming** | skk_streaming                         | [📥](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/stream.yaml)   |
-| **ai**        | dler_ai, ACL4SSR_ai                   | [📥](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/ai.yaml)       |
-| **apple@cn**  | skk_apple                             | [📥](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/apple@cn.yaml) |
-| **download**  | skk_download                          | [📥](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/download.yaml) |
-| **private**   | ios_rule_script_lan                   | [📥](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/private.yaml)  |
-| **direct**    | Loyalsoldier_applications, skk_direct | [📥](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/direct.yaml)   |
-
-### 🌍 IP 地址规则
-
-| 规则名称              | 订阅链接                                                                                                        |
-| --------------------- | --------------------------------------------------------------------------------------------------------------- |
-| **reject@ip**   | [📥](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/reject@ip.yaml)   |
-| **domestic@ip** | [📥](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/domestic@ip.yaml) |
-| **telegram@ip** | [📥](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/telegram@ip.yaml) |
-| **stream@ip**   | [📥](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/stream@ip.yaml)   |
-| **cdn@ip**      | [📥](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/cdn@ip.yaml)      |
-| **download@ip** | [📥](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/download@ip.yaml) |
-| **private@ip**  | [📥](https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/private@ip.yaml)  |
+| 规则名称     | 订阅链接 |
+| ------------ | -------- |
+| ai           | [📥](raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/ai.yaml) |
+| ai@cn        | [📥](raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/ai@cn.yaml) |
+| apple        | [📥](raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/apple.yaml) |
+| apple@cn     | [📥](raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/apple@cn.yaml) |
+| cdn          | [📥](raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/cdn.yaml) |
+| cdn@ip       | [📥](raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/cdn@ip.yaml) |
+| direct       | [📥](raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/direct.yaml) |
+| domestic     | [📥](raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/domestic.yaml) |
+| domestic@ip  | [📥](raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/domestic@ip.yaml) |
+| download     | [📥](raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/download.yaml) |
+| download@ip  | [📥](raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/download@ip.yaml) |
+| games        | [📥](raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/games.yaml) |
+| games@cn     | [📥](raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/games@cn.yaml) |
+| games@ip     | [📥](raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/games@ip.yaml) |
+| microsoft@cn | [📥](raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/microsoft@cn.yaml) |
+| private      | [📥](raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/private.yaml) |
+| private@ip   | [📥](raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/private@ip.yaml) |
+| proxy        | [📥](raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/proxy.yaml) |
+| reject       | [📥](raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/reject.yaml) |
+| reject@ip    | [📥](raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/reject@ip.yaml) |
+| streaming    | [📥](raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/stream.yaml) |
+| streaming@ip | [📥](raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/stream@ip.yaml) |
+| telegram@ip  | [📥](raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/telegram@ip.yaml) |
 
 ## 🔄 自动更新机制
 
@@ -123,7 +91,6 @@ private_proxy/
 
 - **定时更新**: 每天 08:00 和 20:00 (UTC+8) 自动运行
 - **触发条件**: GitHub Actions 自动触发
-- **更新频率**: 每 12 小时检查一次上游规则源变化
 
 ### 📊 规则源监控
 
@@ -131,6 +98,7 @@ private_proxy/
 
 - [**Sukka's Surge Ruleset**](https://github.com/SukkaW/Surge)
 - [**DustinWin's Ruleset**](https://github.com/DustinWin/ruleset_geodata)
+- [**Meta rules**](https://github.com/MetaCubeX/meta-rules-dat)
 - [**dler-io Rules**](https://github.com/dler-io/Rules)
 - [**Loyalsoldier's Rules**](https://github.com/Loyalsoldier/clash-rules)
 - [**ios_rule_script**](https://github.com/blackmatrix7/ios_rule_script)

@@ -2,7 +2,7 @@
   format: yaml
   behavior: domain
   upstream:
-    category-ai-cn:
+    meta_category-ai-cn:
       type: http
       url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/category-ai-cn.yaml"
       format: yaml
@@ -22,7 +22,7 @@
       url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Ruleset/AI.list"
       format: text
       behavior: domain
-    category-ai-!cn:
+    meta_category-ai-!cn:
       type: http
       url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/category-ai-!cn.yaml"
       format: yaml
@@ -52,7 +52,7 @@
       url: "https://ruleset.skk.moe/Clash/non_ip/apple_cdn.txt"
       format: txt
       behavior: classical
-    mihomo_apple-cn:
+    meta_apple-cn:
       type: http
       url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/apple-cn.yaml"
       format: yaml
@@ -67,7 +67,7 @@
       url: "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Apple/Apple_Classical.yaml"
       format: yaml
       behavior: classical
-    mihomo_apple:
+    meta_apple:
       type: http
       url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/apple.yaml"
       format: yaml
@@ -142,7 +142,7 @@
       url: "https://cdn.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/Domestic%20IPs.yaml"
       format: yaml
       behavior: ipcidr
-    mihomo_cn_ip:
+    meta_cn_ip:
       type: http
       url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geoip/cn.yaml"
       format: yaml
@@ -168,6 +168,46 @@
       format: txt
       behavior: ipcidr
 
+- path: output/fakeip-filter.yaml
+  format: yaml
+  behavior: domain
+  upstream:
+    fake_ip_filter:
+      type: http
+      url: "https://cdn.jsdelivr.net/gh/juewuy/ShellCrash@dev/public/fake_ip_filter.list"
+      format: text
+      behavior: domain
+
+- path: output/games@cn.yaml
+  format: yaml
+  behavior: domain
+  upstream:
+    DustinWin_games_cn:
+      type: http
+      url: "https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/games-cn.list"
+      format: text
+      behavior: domain
+
+- path: output/games.yaml
+  format: yaml
+  behavior: domain
+  upstream:
+    DustinWin_games:
+      type: http
+      url: "https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/games.list"
+      format: text
+      behavior: domain
+
+- path: output/games@ip.yaml
+  format: yaml
+  behavior: ipcidr
+  upstream:
+    DustinWin_games:
+      type: http
+      url: "https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/gamesip.list"
+      format: text
+      behavior: ipcidr
+
 - path: output/microsoft@cn.yaml
   format: yaml
   behavior: domain
@@ -182,7 +222,7 @@
       url: "https://ruleset.skk.moe/Clash/non_ip/microsoft_cdn.txt"
       format: txt
       behavior: classical
-    mihomo_microsoft_cn:
+    meta_microsoft_cn:
       type: http
       url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/microsoft@cn.yaml"
       format: yaml
@@ -197,7 +237,7 @@
       url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Lan/Lan.yaml"
       format: yaml
       behavior: domain
-    mihomo_private:
+    meta_private:
       type: http
       url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/private.yaml"
       format: yaml
@@ -212,7 +252,7 @@
       url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Lan/Lan.yaml"
       format: yaml
       behavior: ipcidr
-    mihomo_private_ip:
+    meta_private_ip:
       type: http
       url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/private.yaml"
       format: yaml
@@ -263,7 +303,7 @@
       format: yaml
       behavior: classical
 
-- path: output/stream.yaml
+- path: output/streaming.yaml
   format: yaml
   behavior: domain
   upstream:
@@ -273,7 +313,7 @@
       format: txt
       behavior: domain
 
-- path: output/stream@ip.yaml
+- path: output/streaming@ip.yaml
   format: yaml
   behavior: ipcidr
   upstream:

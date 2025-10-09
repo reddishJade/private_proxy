@@ -1,5 +1,5 @@
-# 更新时间: 2025-08-16 08:41:49（北京时间）
-# 规则数量: 66
+# 更新时间: 2025-10-09 10:47:35（北京时间）
+# 规则数量: 65
 payload:
   - DOMAIN,adguardteam.github.io
   - DOMAIN,adrules.top
@@ -30,7 +30,6 @@ payload:
   - DOMAIN,songsearch.kugou.com
   - DOMAIN,static.adtidy.org
   - DOMAIN,streamoc.music.tc.qq.com
-  - DOMAIN,stun.l.google.com
   - DOMAIN,swcdn.apple.com
   - DOMAIN,swdist.apple.com
   - DOMAIN,swdownload.apple.com
@@ -58,10 +57,10 @@ payload:
   - DOMAIN-SUFFIX,oray.com
   - DOMAIN-SUFFIX,orayimg.com
   - DOMAIN-SUFFIX,pool.ntp.org
+  - DOMAIN-SUFFIX,pub.3gppnetwork.org
   - DOMAIN-SUFFIX,sandai.net
   - DOMAIN-SUFFIX,srv.nintendo.net
   - DOMAIN-SUFFIX,steamcontent.com
-  - DOMAIN-SUFFIX,stun.playstation.net
   - DOMAIN-SUFFIX,uu.163.com
   - DOMAIN-SUFFIX,wargaming.net
   - DOMAIN-SUFFIX,wggames.cn
