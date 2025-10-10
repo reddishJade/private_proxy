@@ -1,5 +1,5 @@
-# 更新时间: 2025-10-10 08:35:11（北京时间）
-# 规则数量: 146
+# 更新时间: 2025-10-10 09:16:09（北京时间）
+# 规则数量: 115
 payload:
   - +.ai.azure.com
   - +.ai.com
@@ -12,25 +12,34 @@ payload:
   - +.auth0.com
   - +.bard.google.com
   - +.cdn.oaistatic.com
+  - +.chat.com
   - +.chatgpt.com
+  - +.chatgpt.livekit.cloud
   - +.chorus.sh
+  - +.chutes.ai
   - +.claude.ai
   - +.claudeusercontent.com
   - +.client-api.arkoselabs.com
   - +.clipdrop.co
   - +.codeium.com
   - +.codeiumdata.com
+  - +.coderabbit.ai
+  - +.coderabbit.gallery.vsassets.io
   - +.copilot.cloud.microsoft
   - +.copilot.microsoft.com
+  - +.cursor-cdn.com
   - +.cursor.com
   - +.cursor.sh
+  - +.cursorapi.com
   - +.deepmind.com
   - +.deepmind.google
   - +.diabrowser.engineering
   - +.dify.ai
   - +.events.statsigapi.net
   - +.featuregates.org
+  - +.gateway.ai.cloudflare.com
   - +.geller-pa.googleapis.com
+  - +.gemini.google
   - +.gemini.google.com
   - +.generativeai.google
   - +.generativelanguage.googleapis.com
@@ -39,10 +48,16 @@ payload:
   - +.grazie.aws.intellij.net
   - +.grok.com
   - +.groq.com
+  - +.hf.co
+  - +.host.livekit.cloud
+  - +.huggingface.co
   - +.identrust.com
   - +.intercom.io
   - +.intercomcdn.com
   - +.jasper.ai
+  - +.jules.google
+  - +.jules.google.com
+  - +.labs.google
   - +.makersuite.google.com
   - +.meta.ai
   - +.microsoftonline.com
@@ -52,23 +67,26 @@ payload:
   - +.oaistatic.com
   - +.oaiusercontent.com
   - +.openai.com
+  - +.openai.com.cdn.cloudflare.net
   - +.openaiapi-site.azureedge.net
   - +.openart.ai
   - +.openrouter.ai
   - +.perplexity.ai
+  - +.perplexity.com
   - +.poe.com
+  - +.poecdn.net
+  - +.pplx.ai
   - +.proactivebackend-pa.googleapis.com
   - +.robinfrontend-pa.googleapis.com
   - +.sora.com
+  - +.turn.livekit.cloud
   - +.windsurf.com
   - +.x.ai
   - +.zed.dev
   - ai.google.dev
-  - aisandbox-pa.googleapis.com
   - aistudio.google.com
   - alkalicore-pa.clients6.google.com
   - alkalimakersuite-pa.clients6.google.com
-  - anthropic.com
   - api.github.com
   - api.githubcopilot.com
   - api.groq.com
@@ -77,73 +95,24 @@ payload:
   - apple-relay.cloudflare.com
   - bard.google.com
   - browser-intake-datadoghq.com
-  - chat.com
   - chat.openai.com.cdn.cloudflare.net
-  - chatgpt.com
-  - chatgpt.livekit.cloud
-  - chutes.ai
-  - claude.ai
-  - claudeusercontent.com
-  - clipdrop.co
-  - coderabbit.ai
-  - coderabbit.gallery.vsassets.io
   - console.groq.com
   - copilot-proxy.githubusercontent.com
   - copilot.microsoft.com
-  - cursor-cdn.com
-  - cursor.com
-  - cursor.sh
-  - cursorapi.com
-  - deepmind.com
-  - deepmind.google
-  - dify.ai
   - gateway.ai.cloudflare.com
-  - geller-pa.googleapis.com
-  - gemini.google
   - gemini.google.com
-  - generativeai.google
   - generativelanguage.googleapis.com
-  - grok.com
-  - groq.com
   - gspe1-ssl.ls.apple.com
   - guzzoni.smoot.apple.com
-  - hf.co
-  - host.livekit.cloud
-  - huggingface.co
-  - jasper.ai
-  - jules.google
-  - jules.google.com
-  - labs.google
-  - makersuite.google.com
-  - meta.ai
-  - mistral.ai
-  - notebooklm.google
-  - notebooklm.google.com
   - o33249.ingest.sentry.io
-  - oaistatic.com
-  - oaiusercontent.com
-  - openai.com
-  - openai.com.cdn.cloudflare.net
   - openaiapi-site.azureedge.net
   - openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
   - openaicom.imgix.net
   - openaicomproductionae4b.blob.core.windows.net
-  - openart.ai
-  - openrouter.ai
-  - perplexity.ai
-  - perplexity.com
-  - poe.com
-  - poecdn.net
   - pplx-res.cloudinary.com
-  - pplx.ai
-  - proactivebackend-pa.googleapis.com
   - production-openaicom-storage.azureedge.net
-  - robinfrontend-pa.googleapis.com
   - servd-anthropic-website.b-cdn.net
   - sora-cdn.oaistatic.com
-  - sora.com
   - sydney.bing.com
-  - turn.livekit.cloud
   - waa-pa.clients6.google.com
   - webchannel-alkalimakersuite-pa.clients6.google.com
-  - x.ai

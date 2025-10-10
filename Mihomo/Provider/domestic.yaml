@@ -1,5 +1,5 @@
-# 更新时间: 2025-10-10 08:35:17（北京时间）
-# 规则数量: 981
+# 更新时间: 2025-10-10 09:16:13（北京时间）
+# 规则数量: 982
 payload:
   - +.10010.com
   - +.10086.cn
@@ -978,6 +978,7 @@ payload:
   - media.cdn.queniuqe.com
   - ocsp.globalsign.com
   - ocsp2.globalsign.com
+  - smart.uhdnow.com
   - tx.lilyemby.com
   - url.cn
   - www.intel.cn

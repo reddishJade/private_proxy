@@ -1,32 +1,32 @@
-# 更新时间: 2025-10-10 08:35:11（北京时间）
+# 更新时间: 2025-10-10 09:16:08（北京时间）
 # 规则数量: 29
 payload:
+  - +.baichuan-ai.com
+  - +.bigmodel.cn
+  - +.botvip.cn
+  - +.chatglm.cn
+  - +.cueme.cn
+  - +.deepseek.com
+  - +.doubao.com
+  - +.hailuoai.com
+  - +.hunyuan.tencent.com
+  - +.liblib.art
+  - +.marscode.cn
+  - +.minimaxi.com
+  - +.moonshot.cn
+  - +.n.cn
+  - +.namiso.com
+  - +.qianwen.aliyun.com
+  - +.qwen.ai
+  - +.qwenlm.ai
+  - +.rwkv.cn
+  - +.rwkv.com
+  - +.tiangong.cn
+  - +.tongyi.aliyun.com
+  - +.tongyi.com
+  - +.xinghuo.xfyun.cn
+  - +.xingyeai.com
+  - +.yiyan.baidu.com
+  - +.zhipuai.cn
   - ai.zhaomi.cn
-  - baichuan-ai.com
-  - bigmodel.cn
-  - botvip.cn
-  - chatglm.cn
   - cueme-api.quark.cn
-  - cueme.cn
-  - deepseek.com
-  - doubao.com
-  - hailuoai.com
-  - hunyuan.tencent.com
-  - liblib.art
-  - marscode.cn
-  - minimaxi.com
-  - moonshot.cn
-  - n.cn
-  - namiso.com
-  - qianwen.aliyun.com
-  - qwen.ai
-  - qwenlm.ai
-  - rwkv.cn
-  - rwkv.com
-  - tiangong.cn
-  - tongyi.aliyun.com
-  - tongyi.com
-  - xinghuo.xfyun.cn
-  - xingyeai.com
-  - yiyan.baidu.com
-  - zhipuai.cn

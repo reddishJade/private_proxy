@@ -1,7 +1,32 @@
-# 更新时间: 2025-10-10 08:35:21（北京时间）
+# 更新时间: 2025-10-10 09:16:18（北京时间）
 # 规则数量: 65
 payload:
-  - 3gppnetwork.org
+  - +.3gppnetwork.org
+  - +.battle.net
+  - +.battlenet.com.cn
+  - +.cdn.nintendo.net
+  - +.cmbchina.com
+  - +.cmbimg.com
+  - +.gcloudcs.com
+  - +.gcloudsdk.com
+  - +.market.xiaomi.com
+  - +.media.dssott.com
+  - +.msftconnecttest.com
+  - +.msftncsi.com
+  - +.n0808.com
+  - +.nflxvideo.net
+  - +.oray.com
+  - +.orayimg.com
+  - +.pool.ntp.org
+  - +.pub.3gppnetwork.org
+  - +.sandai.net
+  - +.srv.nintendo.net
+  - +.steamcontent.com
+  - +.uu.163.com
+  - +.wargaming.net
+  - +.wggames.cn
+  - +.wotgame.cn
+  - +.wowsgame.cn
   - adguardteam.github.io
   - adrules.top
   - amobile.music.tc.qq.com
@@ -9,15 +34,8 @@ payload:
   - api-jooxtt.sanook.com
   - api.joox.com
   - aqqmusic.tc.qq.com
-  - battle.net
-  - battlenet.com.cn
-  - cdn.nintendo.net
-  - cmbchina.com
-  - cmbimg.com
   - dl.stream.qqmusic.qq.com
   - ff.dorado.sdo.com
-  - gcloudcs.com
-  - gcloudsdk.com
   - heartbeat.belkin.com
   - isure.stream.qqmusic.qq.com
   - joox.com
@@ -25,31 +43,18 @@ payload:
   - local.adguard.org
   - localhost.ptlogin2.qq.com
   - localhost.sec.qq.com
-  - market.xiaomi.com
-  - media.dssott.com
   - mesu.apple.com
   - mobileoc.music.tc.qq.com
-  - msftconnecttest.com
-  - msftncsi.com
   - music.163.com
   - music.migu.cn
   - music.taihe.com
   - musicapi.taihe.com
-  - n0808.com
   - na.b.g-tun.com
-  - nflxvideo.net
-  - oray.com
-  - orayimg.com
-  - pool.ntp.org
   - proxy.golang.org
   - ps.res.netease.com
-  - pub.3gppnetwork.org
-  - sandai.net
   - shark007.net
   - songsearch.kugou.com
-  - srv.nintendo.net
   - static.adtidy.org
-  - steamcontent.com
   - streamoc.music.tc.qq.com
   - swcdn.apple.com
   - swdist.apple.com
@@ -59,10 +64,5 @@ payload:
   - time-ios.apple.com
   - time1.cloud.tencent.com
   - trackercdn.kugou.com
-  - uu.163.com
-  - wargaming.net
-  - wggames.cn
-  - wotgame.cn
-  - wowsgame.cn
   - xnotify.xboxlive.com
   - y.qq.com

@@ -80,7 +80,7 @@ class RuleTransformer:
 
     def _normalize_to_domain_format(self, rule: str) -> Optional[str]:
         """
-        将规则标准化为domain格式（纯域名格式）
+        将规则标准化为domain格式（Clash通配符格式）
 
         Args:
             rule: 待标准化的规则
@@ -103,20 +103,25 @@ class RuleTransformer:
                         if self.validator._is_valid_domain(value):
                             return f"+.{value}"
                     # 对于其他域名相关规则类型（如DOMAIN-KEYWORD），在domain behavior中应该被过滤
-                    elif rule_type in self.validator.constants.RULE_TYPES.get(
-                        "domain", set()
-                    ):
-                        # 根据严格模式，domain behavior只应该包含纯域名
-                        return None
-                    else:
-                        return None
+                    # 因为domain behavior只支持纯域名和通配符格式
+                    return None
                 return None
             else:
-                # 如果是纯域名格式，直接验证并返回
+                # 如果是已经是Clash通配符格式，验证并返回
                 if rule.startswith("+."):
+                    # +.格式（类似DOMAIN-SUFFIX），保持不变
                     domain = rule[2:]
-                    return domain if self.validator._is_valid_domain(domain) else None
+                    return rule if self.validator._is_valid_domain(domain) else None
+                elif rule.startswith("."):
+                    # .格式（多级匹配但不包含根域名），保持不变
+                    domain = rule[1:]
+                    return rule if self.validator._is_valid_domain(domain) else None
+                elif rule.startswith("*."):
+                    # *.格式（单级通配符），保持不变
+                    domain = rule[2:]
+                    return rule if self.validator._is_valid_domain(domain) else None
                 else:
+                    # 纯域名，直接返回
                     return rule if self.validator._is_valid_domain(rule) else None
         except Exception:
             return None
@@ -141,11 +146,12 @@ class RuleTransformer:
                     # 对于IP-CIDR和IP-CIDR6，返回纯IP CIDR
                     if rule_type in {"IP-CIDR", "IP-CIDR6"}:
                         return value
-                    # 对于其他IP相关规则类型，保持完整格式
+                    # 对于其他IP相关规则类型（如GEOIP、IP-ASN等），过滤掉
+                    # 因为ipcidr behavior只应该包含纯IP CIDR格式
                     elif rule_type in self.validator.constants.RULE_TYPES.get(
                         "ipcidr", set()
                     ):
-                        return rule
+                        return None
                 return None
             else:
                 # 如果是纯IP CIDR格式，直接验证并返回
@@ -297,13 +303,14 @@ class RuleTransformer:
             rule_type = parts[0].strip()
             value = parts[1].strip()
 
-            # 对于ipcidr相关规则，转换为纯IP CIDR格式
+            # 对于ipcidr behavior，只转换纯IP CIDR规则
             if rule_type in self.validator.constants.RULE_TYPES.get("ipcidr", set()):
                 # 对于IP-CIDR和IP-CIDR6，返回纯IP CIDR
                 if rule_type in {"IP-CIDR", "IP-CIDR6"}:
                     return value
-                # 对于其他IP相关规则类型（如GEOIP、IP-ASN等），保持完整格式
-                return rule
+                # 对于其他IP相关规则类型（如GEOIP、IP-ASN等），过滤掉（返回None）
+                # 因为ipcidr behavior只应该包含纯IP CIDR格式
+                return None
 
             return None
         except Exception:
@@ -311,13 +318,13 @@ class RuleTransformer:
 
     def _classical_to_domain(self, rule: str) -> Optional[str]:
         """
-        将经典格式转换为域名格式
+        将经典格式转换为域名格式（Clash通配符格式）
 
         Args:
             rule: 经典格式规则
 
         Returns:
-            Optional[str]: 转换后的域名格式规则（纯域名格式）
+            Optional[str]: 转换后的域名格式规则（Clash通配符格式）
         """
         try:
             parts = rule.split(",")
@@ -327,7 +334,7 @@ class RuleTransformer:
             rule_type = parts[0].strip()
             value = parts[1].strip()
 
-            # 对于domain相关规则，转换为纯域名格式
+            # 对于domain相关规则，转换为Clash通配符格式
             if rule_type in self.validator.constants.RULE_TYPES.get("domain", set()):
                 # 验证域名有效性
                 if rule_type in {
@@ -335,11 +342,17 @@ class RuleTransformer:
                     "DOMAIN-SUFFIX",
                 } and not self.validator._is_valid_domain(value):
                     return None
-                # 对于DOMAIN和DOMAIN-SUFFIX，返回纯域名
-                if rule_type in {"DOMAIN", "DOMAIN-SUFFIX"}:
+
+                # 根据Mihomo官方文档进行转换
+                if rule_type == "DOMAIN":
+                    # DOMAIN规则转换为纯域名
                     return value
-                # 对于其他域名相关规则类型，保持完整格式
-                return rule
+                elif rule_type == "DOMAIN-SUFFIX":
+                    # DOMAIN-SUFFIX规则转换为+.格式（类似DOMAIN-SUFFIX的通配符）
+                    return f"+.{value}"
+                # 对于其他域名相关规则类型（如DOMAIN-KEYWORD），在domain behavior中应该被过滤
+                # 因为domain behavior只支持纯域名和通配符格式
+                return None
 
             return None
         except Exception:
@@ -370,7 +383,7 @@ class RuleTransformer:
         将域名格式转换为经典格式
 
         Args:
-            rule: 域名格式规则
+            rule: 域名格式规则（Clash通配符格式）
 
         Returns:
             Optional[str]: 转换后的经典格式规则
@@ -379,12 +392,27 @@ class RuleTransformer:
         if "," in rule:
             return rule
 
+        # 处理各种Clash通配符格式
         if rule.startswith("+."):
+            # +.格式转换为DOMAIN-SUFFIX
             suffix = rule[2:]
             if not self.validator._is_valid_domain(suffix):
                 return None
             return f"DOMAIN-SUFFIX,{suffix}"
-
-        if not self.validator._is_valid_domain(rule):
-            return None
-        return f"DOMAIN,{rule}"
+        elif rule.startswith("."):
+            # .格式转换为DOMAIN-SUFFIX（因为功能相似）
+            suffix = rule[1:]
+            if not self.validator._is_valid_domain(suffix):
+                return None
+            return f"DOMAIN-SUFFIX,{suffix}"
+        elif rule.startswith("*."):
+            # *.格式也转换为DOMAIN-SUFFIX（因为classical不支持*通配符）
+            suffix = rule[2:]
+            if not self.validator._is_valid_domain(suffix):
+                return None
+            return f"DOMAIN-SUFFIX,{suffix}"
+        else:
+            # 纯域名转换为DOMAIN
+            if not self.validator._is_valid_domain(rule):
+                return None
+            return f"DOMAIN,{rule}"

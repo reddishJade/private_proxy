@@ -4,7 +4,7 @@
   upstream:
     meta_category-ai-cn:
       type: http
-      url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/category-ai-cn.yaml"
+      url: "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/category-ai-cn.yaml"
       format: yaml
       behavior: domain
 
@@ -19,12 +19,12 @@
       behavior: domain
     ACL4SSR_ai:
       type: http
-      url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Ruleset/AI.list"
+      url: "https://cdn.jsdelivr.net/gh/ACL4SSR/ACL4SSR@refs/heads/master/Clash/Ruleset/AI.list"
       format: text
       behavior: domain
     meta_category-ai-!cn:
       type: http
-      url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/category-ai-!cn.yaml"
+      url: "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/category-ai-!cn.yaml"
       format: yaml
       behavior: domain
 
@@ -54,7 +54,7 @@
       behavior: classical
     meta_apple-cn:
       type: http
-      url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/apple-cn.yaml"
+      url: "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/apple-cn.yaml"
       format: yaml
       behavior: domain
 
@@ -69,7 +69,7 @@
       behavior: classical
     meta_apple:
       type: http
-      url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/apple.yaml"
+      url: "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/apple.yaml"
       format: yaml
       behavior: domain
 
@@ -144,7 +144,7 @@
       behavior: ipcidr
     meta_cn_ip:
       type: http
-      url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geoip/cn.yaml"
+      url: "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@refs/heads/meta/geo/geoip/cn.yaml"
       format: yaml
       behavior: ipcidr
 
@@ -214,7 +214,7 @@
   upstream:
     DustinWin_microsoft_cn:
       type: http
-      url: "https://raw.githubusercontent.com/DustinWin/ruleset_geodata/refs/heads/mihomo-ruleset/microsoft-cn.list"
+      url: "https://cdn.jsdelivr.net/gh/DustinWin/ruleset_geodata@refs/heads/mihomo-ruleset/microsoft-cn.list"
       format: text
       behavior: domain
     skk_microsoft_cdn:
@@ -224,7 +224,7 @@
       behavior: classical
     meta_microsoft_cn:
       type: http
-      url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/microsoft@cn.yaml"
+      url: "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/microsoft@cn.yaml"
       format: yaml
       behavior: domain
 
@@ -234,12 +234,12 @@
   upstream:
     private:
       type: http
-      url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Lan/Lan.yaml"
+      url: "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Lan/Lan.yaml"
       format: yaml
       behavior: domain
     meta_private:
       type: http
-      url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/private.yaml"
+      url: "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/private.yaml"
       format: yaml
       behavior: domain
 
@@ -249,12 +249,12 @@
   upstream:
     privateip:
       type: http
-      url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Lan/Lan.yaml"
+      url: "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Lan/Lan.yaml"
       format: yaml
       behavior: ipcidr
     meta_private_ip:
       type: http
-      url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/private.yaml"
+      url: "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/private.yaml"
       format: yaml
       behavior: ipcidr
 
@@ -279,7 +279,7 @@
   upstream:
     xndeye_reject:
       type: http
-      url: "https://raw.githubusercontent.com/xndeye/adblock_list/refs/heads/release/clash.yaml"
+      url: "https://cdn.jsdelivr.net/gh/xndeye/adblock_list@refs/heads/release/clash.yaml"
       format: yaml
       behavior: domain
     dler_ad:
