@@ -1,8 +1,6 @@
 # 规则合并器
 
-本项目是一个用于合并和处理各种格式规则文件的工具，经过重构后具有更好的代码结构和可维护性。
-
-## 📁 项目结构
+📁 项目结构
 
 ```
 src/python/
@@ -58,29 +56,3 @@ python config_docs.py
       behavior: "classical"			# 源规则格式
       format: "yaml"				# 文件格式: yaml/text
 ```
-
-## 🔍 规则类型说明
-
-### Classical (经典格式)
-
-包含所有类型的规则，如：
-
-- `DOMAIN,example.com`
-- `DOMAIN-SUFFIX,google.com`
-- `IP-CIDR,192.168.1.0/24`
-- `DST-PORT,80`
-
-### Domain (域名格式)
-
-只包含域名相关规则：
-
-- `DOMAIN,example.com`
-- `DOMAIN-SUFFIX,google.com`
-- `DOMAIN-KEYWORD,ads`
-
-### IP CIDR (IP格式)
-
-只包含IP相关规则：
-
-- `IP-CIDR,192.168.1.0/24`
-- `IP-CIDR6,2001:db8::/32`

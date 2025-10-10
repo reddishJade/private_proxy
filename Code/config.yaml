@@ -208,6 +208,21 @@
       format: text
       behavior: ipcidr
 
+- path: output/microsoft.yaml
+  format: yaml
+  behavior: domain
+  upstream:
+    apple_all:
+      type: http
+      url: "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Microsoft/Microsoft.yaml"
+      format: yaml
+      behavior: classical
+    meta_apple:
+      type: http
+      url: "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/microsoft.yaml"
+      format: yaml
+      behavior: domain
+
 - path: output/microsoft@cn.yaml
   format: yaml
   behavior: domain

@@ -59,8 +59,8 @@ rules:
 
 ## 📋 规则列表
 
-| 规则名称     | 订阅链接 |
-| ------------ | -------- |
+| 规则名称     | 订阅链接                                                     |
+| ------------ | ------------------------------------------------------------ |
 | ai           | [📥](raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/ai.yaml) |
 | ai@cn        | [📥](raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/ai@cn.yaml) |
 | apple        | [📥](raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/apple.yaml) |
@@ -75,6 +75,7 @@ rules:
 | games        | [📥](raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/games.yaml) |
 | games@cn     | [📥](raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/games@cn.yaml) |
 | games@ip     | [📥](raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/games@ip.yaml) |
+| microsoft    | [📥](raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/microsoft.yaml) |
 | microsoft@cn | [📥](raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/microsoft@cn.yaml) |
 | private      | [📥](raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/private.yaml) |
 | private@ip   | [📥](raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/private@ip.yaml) |
