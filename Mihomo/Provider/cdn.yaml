@@ -1,5 +1,5 @@
-# 更新时间: 2025-10-10 14:42:29（北京时间）
-# 规则数量: 3977
+# 更新时间: 2025-10-11 08:37:15（北京时间）
+# 规则数量: 3978
 payload:
   - +.1a-1791.com
   - +.1passwordusercontent.ca
@@ -3777,6 +3777,7 @@ payload:
   - thumbs2.sendvid.com
   - thumbsnap.com
   - tile2.intervals.icu
+  - tiles.meteoguard.dtn.com
   - tiles.openfreemap.org
   - tiles.stadiamaps.com
   - tiles.versatiles.org
