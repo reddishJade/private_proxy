@@ -1,5 +1,5 @@
-# 更新时间: 2025-10-09 23:12:56（北京时间）
-# 规则数量: 980
+# 更新时间: 2025-10-10 08:35:17（北京时间）
+# 规则数量: 981
 payload:
   - +.10010.com
   - +.10086.cn
@@ -440,6 +440,7 @@ payload:
   - +.hwtrip.com
   - +.hwwt8.com
   - +.hxcdn.net
+  - +.i4.cn
   - +.ialicdn.com
   - +.ibreader.com
   - +.ibuscloud.com
