@@ -1,5 +1,5 @@
-# 更新时间: 2025-10-11 08:37:15（北京时间）
-# 规则数量: 982
+# 更新时间: 2025-10-12 20:14:17（北京时间）
+# 规则数量: 981
 payload:
   - +.10010.com
   - +.10086.cn
@@ -298,7 +298,6 @@ payload:
   - +.dl.delivery.mp.microsoft.com
   - +.dl.eccdnx.com
   - +.dl.pinyuncloud.com
-  - +.dler.cloud
   - +.dnspod.cn
   - +.dnspod.com
   - +.dnsv1.com
