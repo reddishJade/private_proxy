@@ -4,7 +4,8 @@ proxy:        &p  {type: select, proxies: [Select, Direct, HongKong, TaiWan, Jap
 groups:       &g  {type: select, proxies: [HongKong, TaiWan, Japan, Singapore, USA]}
 use:          &u  {type: select, include-all-providers: true}
 region:       &r  {type: url-test, include-all-providers: true, exclude-filter: "(?i)下载|低倍率"}
-classical:    &c  {type: http, behavior: classical, interval: 43200}
+mrs_d:        &md {type: http, format: mrs, behavior: domain, interval: 43200}
+mrs_i:        &mi {type: http, format: mrs, behavior: ipcidr, interval: 43200}
 proxy_direct: &pd {type: select, proxies: [Proxy, Direct]}
 direct_proxy: &dp {type: select, proxies: [Direct, Proxy]}
 
@@ -130,59 +131,52 @@ proxy-groups:
 
 # ======= 规则集合配置 =======
 rule-providers:
-  # Domain 规则
-  ai:            {<<: *c, url: https://cdn.jsdelivr.net/gh/reddishJade/private_proxy@refs/heads/main/Mihomo/Provider/ai.yaml,               path: ./rules/ai.yaml}
-  ai@cn:         {<<: *c, url: https://cdn.jsdelivr.net/gh/reddishJade/private_proxy@refs/heads/main/Mihomo/Provider/ai@cn.yaml,            path: ./rules/ai.yaml}
-  apple:         {<<: *c, url: https://cdn.jsdelivr.net/gh/reddishJade/private_proxy@refs/heads/main/Mihomo/Provider/apple.yaml,            path: ./rules/apple@cn.yaml}
-  apple@cn:      {<<: *c, url: https://cdn.jsdelivr.net/gh/reddishJade/private_proxy@refs/heads/main/Mihomo/Provider/apple@cn.yaml,         path: ./rules/apple@cn.yaml}
-  cdn:           {<<: *c, url: https://cdn.jsdelivr.net/gh/reddishJade/private_proxy@refs/heads/main/Mihomo/Provider/cdn.yaml,              path: ./rules/cdn.yaml}
-  direct:        {<<: *c, url: https://cdn.jsdelivr.net/gh/reddishJade/private_proxy@refs/heads/main/Mihomo/Provider/direct.yaml,           path: ./rules/direct.yaml}
-  domestic:      {<<: *c, url: https://cdn.jsdelivr.net/gh/reddishJade/private_proxy@refs/heads/main/Mihomo/Provider/domestic.yaml,         path: ./rules/domestic.yaml}
-  download:      {<<: *c, url: https://cdn.jsdelivr.net/gh/reddishJade/private_proxy@refs/heads/main/Mihomo/Provider/download.yaml,         path: ./rules/download.yaml}
-  fakeip-filter: {<<: *c, url: https://cdn.jsdelivr.net/gh/reddishJade/private_proxy@refs/heads/main/Mihomo/Provider/fakeip-filter.yaml,    path: ./rules/fakeip-filter.yaml}
-  game:          {<<: *c, url: https://cdn.jsdelivr.net/gh/reddishJade/private_proxy@refs/heads/main/Mihomo/Provider/game.yaml,             path: ./rules/game.yaml}
-  game@cn:       {<<: *c, url: https://cdn.jsdelivr.net/gh/reddishJade/private_proxy@refs/heads/main/Mihomo/Provider/game@cn.yaml,          path: ./rules/game@cn.yaml}
-  game@ip:       {<<: *c, url: https://cdn.jsdelivr.net/gh/reddishJade/private_proxy@refs/heads/main/Mihomo/Provider/game@ip.yaml,          path: ./rules/game@ip.yaml}
-  microsoft@cn:  {<<: *c, url: https://cdn.jsdelivr.net/gh/reddishJade/private_proxy@refs/heads/main/Mihomo/Provider/microsoft@cn.yaml,     path: ./rules/microsoft@cn.yaml}
-  private:       {<<: *c, url: https://cdn.jsdelivr.net/gh/reddishJade/private_proxy@refs/heads/main/Mihomo/Provider/private.yaml,          path: ./rules/private.yaml}
-  proxy:         {<<: *c, url: https://cdn.jsdelivr.net/gh/reddishJade/private_proxy@refs/heads/main/Mihomo/Provider/proxy.yaml,            path: ./rules/proxy.yaml}
-  reject:        {<<: *c, url: https://cdn.jsdelivr.net/gh/reddishJade/private_proxy@refs/heads/main/Mihomo/Provider/reject.yaml,           path: ./rules/reject.yaml}
-  streaming:     {<<: *c, url: https://cdn.jsdelivr.net/gh/reddishJade/private_proxy@refs/heads/main/Mihomo/Provider/streaming.yaml,        path: ./rules/streaming.yaml}
-  
-  # IP 规则
-  cdn@ip:        {<<: *c, url: https://cdn.jsdelivr.net/gh/reddishJade/private_proxy@refs/heads/main/Mihomo/Provider/cdn@ip.yaml,           path: ./rules/cdn@ip.yaml}
-  domestic@ip:   {<<: *c, url: https://cdn.jsdelivr.net/gh/reddishJade/private_proxy@refs/heads/main/Mihomo/Provider/domestic@ip.yaml,      path: ./rules/domestic@ip.yaml}
-  download@ip:   {<<: *c, url: https://cdn.jsdelivr.net/gh/reddishJade/private_proxy@refs/heads/main/Mihomo/Provider/download@ip.yaml,      path: ./rules/download@ip.yaml}
-  private@ip:    {<<: *c, url: https://cdn.jsdelivr.net/gh/reddishJade/private_proxy@refs/heads/main/Mihomo/Provider/private@ip.yaml,       path: ./rules/private@ip.yaml}
-  reject@ip:     {<<: *c, url: https://cdn.jsdelivr.net/gh/reddishJade/private_proxy@refs/heads/main/Mihomo/Provider/reject@ip.yaml,        path: ./rules/reject@ip.yaml}
-  streaming@ip:  {<<: *c, url: https://cdn.jsdelivr.net/gh/reddishJade/private_proxy@refs/heads/main/Mihomo/Provider/streaming@ip.yaml,     path: ./rules/streaming@ip.yaml}
-  telegram@ip:   {<<: *c, url: https://cdn.jsdelivr.net/gh/reddishJade/private_proxy@refs/heads/main/Mihomo/Provider/telegram@ip.yaml,      path: ./rules/telegram@ip.yaml}
-  
+  ai:             {<<: *md, url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/ai.mrs,              path: ./rules/ai.mrs}
+  ai@cn:          {<<: *md, url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/ai@cn.mrs,           path: ./rules/ai@cn.mrs}
+  apple:          {<<: *md, url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/apple.mrs,           path: ./rules/apple.mrs}
+  apple@cn:       {<<: *md, url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/apple@cn.mrs,        path: ./rules/apple@cn.mrs}
+  cdn:            {<<: *md, url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/cdn.mrs,             path: ./rules/cdn.mrs}
+  direct:         {<<: *md, url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/direct.mrs,          path: ./rules/direct.mrs}
+  domestic:       {<<: *md, url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/domestic.mrs,        path: ./rules/domestic.mrs}
+  download:       {<<: *md, url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/download.mrs,        path: ./rules/download.mrs}
+  game:           {<<: *md, url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/games.mrs,           path: ./rules/game.mrs}
+  game@cn:        {<<: *md, url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/games@cn.mrs,        path: ./rules/game@cn.mrs}
+  microsoft:      {<<: *md, url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/microsoft.mrs,       path: ./rules/microsoft.mrs}
+  microsoft@cn:   {<<: *md, url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/microsoft@cn.mrs,    path: ./rules/microsoft@cn.mrs}
+  private:        {<<: *md, url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/private.mrs,         path: ./rules/private.mrs}
+  proxy:          {<<: *md, url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/proxy.mrs,           path: ./rules/proxy.mrs}
+  reject:         {<<: *md, url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/reject.mrs,          path: ./rules/reject.mrs}
+  streaming:      {<<: *md, url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/streaming.mrs,       path: ./rules/streaming.mrs}
+
+  domestic@ip:    {<<: *mi, url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/domestic@ip.mrs,     path: ./rules/domestic@ip.mrs}
+  game@ip:        {<<: *mi, url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/games@ip.mrs,        path: ./rules/game@ip.mrs}
+  private@ip:     {<<: *mi, url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/private@ip.mrs,      path: ./rules/private@ip.mrs}
+  reject@ip:      {<<: *mi, url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/reject@ip.mrs,       path: ./rules/reject@ip.mrs}
+  telegram@ip:    {<<: *mi, url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/telegram@ip.mrs,     path: ./rules/telegram@ip.mrs}
+
 # ======= 分流规则 =======
 rules:
-  - RULE-SET,private,Private
+  - RULE-SET,private,DIRECT
   - RULE-SET,reject,REJECT
   - RULE-SET,cdn,CDN
-  - RULE-SET,ai@cn,Direct
+  - RULE-SET,ai@cn,DIRECT
   - RULE-SET,ai,AIGC
   - RULE-SET,streaming,Streaming
-  - RULE-SET,apple@cn,Direct
-  - RULE-SET,apple,Apple
-  - RULE-SET,microsoft@cn,Direct
-  - RULE-SET,game@cn,Direct
-  - RULE-SET,game,Game
-  - RULE-SET,download,Download
-  - RULE-SET,domestic,Domestic
-  - RULE-SET,direct,Direct
-  - RULE-SET,proxy,Global
-  # IP规则
-  - RULE-SET,private@ip,Private
+  - RULE-SET,game@cn,DIRECT
+  - RULE-SET,game,Proxy
+  - RULE-SET,download,CDN
+  - RULE-SET,apple@cn,DIRECT
+  - RULE-SET,apple,Proxy
+  - RULE-SET,microsoft@cn,DIRECT
+  - RULE-SET,microsoft,Proxy
+  - RULE-SET,direct,DIRECT
+  - RULE-SET,domestic,DIRECT
+  - RULE-SET,proxy,Proxy
+
   - RULE-SET,reject@ip,REJECT
-  - RULE-SET,cdn@ip,CDN
-  - RULE-SET,streaming@ip,Streaming
-  - RULE-SET,game@ip,Game
-  - RULE-SET,telegram@ip,Telegram
-  - RULE-SET,download@ip,Download
-  - RULE-SET,domestic@ip,Domestic
-  # 漏网之鱼
+  - RULE-SET,private@ip,DIRECT,no-resolve
+  - RULE-SET,game@ip,Proxy
+  - RULE-SET,telegram@ip,Proxy
+  - RULE-SET,domestic@ip,DIRECT
+
   - MATCH,Final
