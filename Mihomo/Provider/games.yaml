@@ -1,5 +1,5 @@
-# 更新时间: 2025-10-12 20:14:22（北京时间）
-# 规则数量: 670
+# 更新时间: 2025-10-18 20:14:00（北京时间）
+# 规则数量: 671
 payload:
   - +.100classicbooks.com
   - +.2k.com
@@ -668,6 +668,7 @@ payload:
   - prodforza.blob.core.windows.net
   - sentry.ppy.sh
   - spectator.ppy.sh
+  - steamcloudsweden.blob.core.windows.net
   - steamcommunity-a.akamaihd.net.edgesuite.net
   - store-images.s-microsoft.com
   - ubistatic3-a.akamaihd.net

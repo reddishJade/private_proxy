@@ -1,5 +1,5 @@
-# 更新时间: 2025-10-12 20:14:16（北京时间）
-# 规则数量: 115
+# 更新时间: 2025-10-18 20:13:54（北京时间）
+# 规则数量: 118
 payload:
   - +.ai.azure.com
   - +.ai.com
@@ -12,12 +12,15 @@ payload:
   - +.auth0.com
   - +.bard.google.com
   - +.cdn.oaistatic.com
+  - +.cerebras.ai
   - +.chat.com
   - +.chatgpt.com
   - +.chatgpt.livekit.cloud
   - +.chorus.sh
   - +.chutes.ai
   - +.claude.ai
+  - +.claude.com
+  - +.claudemcpclient.com
   - +.claudeusercontent.com
   - +.client-api.arkoselabs.com
   - +.clipdrop.co

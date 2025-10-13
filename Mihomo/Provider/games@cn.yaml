@@ -1,5 +1,5 @@
-# 更新时间: 2025-10-12 20:14:22（北京时间）
-# 规则数量: 260
+# 更新时间: 2025-10-18 20:14:00（北京时间）
+# 规则数量: 268
 payload:
   - +.17roco.com
   - +.3304399.com
@@ -37,6 +37,7 @@ payload:
   - +.5054399.net
   - +.71acg.com
   - +.71acg.net
+  - +.9xgame.com
   - +.aki-game.com
   - +.akspeedy.com
   - +.anticheatexpert.com
@@ -72,9 +73,12 @@ payload:
   - +.forevernine.com
   - +.funjsq.com
   - +.funnycore.com
+  - +.fxt365.com
+  - +.gameabc.com
   - +.gamebonfire.com
   - +.gameitop.com
   - +.gameloop.com
+  - +.gamemei.com
   - +.gcloudcs.com
   - +.gcloudcstest.com
   - +.gcloudcstestonly.com
@@ -116,6 +120,7 @@ payload:
   - +.ledu.com
   - +.leigod.com
   - +.liuxing.com
+  - +.longtugame.com
   - +.lorhf.com
   - +.ludosuperstar.cn
   - +.ludoworld.net
@@ -137,6 +142,7 @@ payload:
   - +.mihoyogift.com
   - +.mihoyomall.com
   - +.miyoushe.com
+  - +.morefreegame.com
   - +.mszdld.cn
   - +.mszdld.com
   - +.mszdld.net
@@ -217,6 +223,7 @@ payload:
   - +.wegame.com.cn
   - +.wegameplus.com
   - +.werepository.com.cn
+  - +.winegame.net
   - +.wo1wan.com
   - +.xd.cn
   - +.xd.com
@@ -224,6 +231,7 @@ payload:
   - +.xindong.com
   - +.xn--owtw8cc49ajfl.cn
   - +.xunyou.com
+  - +.ycgame.com
   - +.yebaojiasu.com
   - +.youba.com
   - +.yuanshen.com

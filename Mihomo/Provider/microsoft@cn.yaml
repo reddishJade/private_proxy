@@ -1,5 +1,5 @@
-# 更新时间: 2025-10-12 20:14:23（北京时间）
-# 规则数量: 192
+# 更新时间: 2025-10-18 20:14:01（北京时间）
+# 规则数量: 226
 payload:
   - +.21vbc.com
   - +.21vbluecloud.com
@@ -55,15 +55,20 @@ payload:
   - +.azurecr.cn
   - +.azurehdinsight.cn
   - +.azureiotsuite.cn
+  - +.azuremigrate.download.prss.microsoft.com
+  - +.azuremigratetest.download.prss.microsoft.com
   - +.azuremresolver.cn
   - +.azureprivatedns.cn
   - +.azurerms.cn
   - +.azuresandbox.cn
+  - +.azurestackhub.download.prss.microsoft.com
+  - +.azurestackhubuat.download.prss.microsoft.com
   - +.b2clogin.cn
   - +.b3itech.cn
   - +.bing.com.cn
   - +.blueaggrestore.com
   - +.bluecloudprod.com
+  - +.cbdstest.download.prss.microsoft.com
   - +.cegid-cloud.cn
   - +.chinacloud-mobile.cn
   - +.chinacloudapi.cn
@@ -73,6 +78,8 @@ payload:
   - +.cn.bing.net
   - +.cn.mm.bing.net
   - +.cn.windowssearch.com
+  - +.collaborate.download.prss.microsoft.com
+  - +.collaborateppe.download.prss.microsoft.com
   - +.ctldl.windowsupdate.com
   - +.dcg.microsoft.com
   - +.devblogs.microsoft.com
@@ -81,17 +88,23 @@ payload:
   - +.dl.delivery.mp.microsoft.com
   - +.docs.microsoft.com
   - +.download.microsoft.com
-  - +.download.prss.microsoft.com
   - +.download.visualstudio.microsoft.com
   - +.download.windowsupdate.com
+  - +.dreamspark.download.prss.microsoft.com
+  - +.dreamsparkuat.download.prss.microsoft.com
   - +.dynamics.cn
   - +.engkoo.com
   - +.fs.microsoft.com
   - +.hdinsightservices.cn
+  - +.itacademy.download.prss.microsoft.com
+  - +.itacademyuat.download.prss.microsoft.com
   - +.learn.microsoft.com
+  - +.lex.download.prss.microsoft.com
+  - +.lexuat.download.prss.microsoft.com
   - +.lync.cn
   - +.management-azure-devices-provisioning.cn
   - +.management-azure-devices.cn
+  - +.mbs.download.prss.microsoft.com
   - +.mcchcdn.com
   - +.mgmt-azure-api.cn
   - +.microsoft-smb.cn
@@ -111,10 +124,15 @@ payload:
   - +.microsoftstore.com.cn
   - +.microsofttranslator-int.cn
   - +.mncmsidlab1.cn
+  - +.mpnbenefits.download.prss.microsoft.com
+  - +.mpnbenefitsrtl.download.prss.microsoft.com
+  - +.mpnbenefitsrtluat.download.prss.microsoft.com
   - +.msappproxy.cn
   - +.msauth.cn
   - +.msauthimages.cn
   - +.mschcdn.com
+  - +.msdn.download.prss.microsoft.com
+  - +.msdprod-ad.download.prss.microsoft.com
   - +.msftauth.cn
   - +.msftauthimages.cn
   - +.msftcloudes.cn
@@ -122,15 +140,22 @@ payload:
   - +.msidlabpbmc.cn
   - +.msn.cn
   - +.mspil.cn
+  - +.msproduct.download.prss.microsoft.com
   - +.msra.cn
+  - +.myvs.download.prss.microsoft.com
   - +.o365cn.com
   - +.o365files.cn
+  - +.oemsoc.download.prss.microsoft.com
+  - +.oemsocuat.download.prss.microsoft.com
   - +.office365-net.cn
   - +.office365.cn
   - +.officecdn.microsoft.com
+  - +.officemkt.download.prss.microsoft.com
+  - +.officemktuat.download.prss.microsoft.com
   - +.officeplus.cn
   - +.officewebapps.cn
   - +.onmschina.cn
+  - +.osrelease.download.prss.microsoft.com
   - +.outlook.cn
   - +.pbiwebcontent.cn
   - +.powerapps.cn
@@ -139,14 +164,23 @@ payload:
   - +.powerbi.cn
   - +.r.bing.com
   - +.reactorms.com.cn
+  - +.rsm.download.prss.microsoft.com
   - +.sdx.microsoft.com
   - +.sharepoint.cn
+  - +.software.download.prss.microsoft.com
+  - +.storecorefulfillment.download.prss.microsoft.com
   - +.storeedge.microsoft.com
   - +.storeedgefd.dsx.mp.microsoft.com
+  - +.surface.download.prss.microsoft.com
   - +.th.bing.com
   - +.trafficmanager.cn
   - +.trustcenter.cn
   - +.unity3dcloud.cn
+  - +.vlportal.download.prss.microsoft.com
+  - +.volic.download.prss.microsoft.com
+  - +.vscode.download.prss.microsoft.com
+  - +.vz.download.prss.microsoft.com
+  - +.windbg.download.prss.microsoft.com
   - +.windowsazure.cn
   - +.windowsazurestatus.cn
   - +.wscont1.apps.microsoft.com
