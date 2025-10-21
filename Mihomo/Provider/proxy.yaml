@@ -1,5 +1,5 @@
-# 更新时间: 2025-10-21 09:42:30（北京时间）
-# 规则数量: 6845
+# 更新时间: 2025-10-25 20:13:58（北京时间）
+# 规则数量: 6848
 payload:
   - +.000webhost.com
   - +.030buy.com
@@ -495,6 +495,7 @@ payload:
   - +.aweber.com
   - +.aws
   - +.aws.dev
+  - +.awscloud.com
   - +.awsstatic.com
   - +.axios.com
   - +.axureformac.com
@@ -1574,6 +1575,7 @@ payload:
   - +.doc.new
   - +.docker.com
   - +.docker.io
+  - +.dockerstatus.com
   - +.docs.deno.com
   - +.docs.new
   - +.doctorvoice.org
@@ -5562,6 +5564,7 @@ payload:
   - +.theinitium.com
   - +.themoviedb.org
   - +.thenewslens.com
+  - +.thenewstack.io
   - +.thepiratebay.org
   - +.theporndude.com
   - +.theportalwiki.com

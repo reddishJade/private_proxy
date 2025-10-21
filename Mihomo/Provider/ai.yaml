@@ -1,12 +1,18 @@
-# 更新时间: 2025-10-21 09:42:07（北京时间）
-# 规则数量: 119
+# 更新时间: 2025-10-25 20:13:50（北京时间）
+# 规则数量: 128
 payload:
   - +.ai.azure.com
   - +.ai.com
   - +.aisandbox-pa.googleapis.com
   - +.aistudio.google.com
+  - +.amp-api.apps.apple.com
   - +.anthropic.com
   - +.apis.google.com
+  - +.apple-relay.apple.com
+  - +.apple-relay.cloudflare.com
+  - +.apple-relay.fastly-edge.com
+  - +.apple-relay.mask.apple-dns.net
+  - +.apps.mzstatic.com
   - +.augment.com
   - +.augmentcode.com
   - +.auth0.com
@@ -30,18 +36,21 @@ payload:
   - +.coderabbit.gallery.vsassets.io
   - +.copilot.cloud.microsoft
   - +.copilot.microsoft.com
+  - +.cp4.cloudflare.com
   - +.cursor-cdn.com
   - +.cursor.com
   - +.cursor.sh
   - +.cursorapi.com
   - +.deepmind.com
   - +.deepmind.google
+  - +.devin.ai
   - +.diabrowser.com
   - +.diabrowser.engineering
   - +.dify.ai
   - +.events.statsigapi.net
   - +.featuregates.org
   - +.gateway.ai.cloudflare.com
+  - +.gateway.icloud.com
   - +.geller-pa.googleapis.com
   - +.gemini.google
   - +.gemini.google.com
@@ -52,6 +61,8 @@ payload:
   - +.grazie.aws.intellij.net
   - +.grok.com
   - +.groq.com
+  - +.gspe1-ssl.ls.apple.com
+  - +.guzzoni.apple.com
   - +.hf.co
   - +.host.livekit.cloud
   - +.huggingface.co
@@ -82,8 +93,10 @@ payload:
   - +.pplx.ai
   - +.proactivebackend-pa.googleapis.com
   - +.robinfrontend-pa.googleapis.com
+  - +.smoot.apple.com
   - +.sora.com
   - +.turn.livekit.cloud
+  - +.updates.cdn-apple.com
   - +.windsurf.com
   - +.x.ai
   - +.zed.dev
@@ -95,8 +108,6 @@ payload:
   - api.githubcopilot.com
   - api.groq.com
   - api.together.xyz
-  - apple-relay.apple.com
-  - apple-relay.cloudflare.com
   - bard.google.com
   - browser-intake-datadoghq.com
   - chat.openai.com.cdn.cloudflare.net
@@ -106,8 +117,6 @@ payload:
   - gateway.ai.cloudflare.com
   - gemini.google.com
   - generativelanguage.googleapis.com
-  - gspe1-ssl.ls.apple.com
-  - guzzoni.smoot.apple.com
   - o33249.ingest.sentry.io
   - openaiapi-site.azureedge.net
   - openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net

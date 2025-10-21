@@ -1,5 +1,5 @@
-# 更新时间: 2025-10-21 09:42:16（北京时间）
-# 规则数量: 1187
+# 更新时间: 2025-10-25 20:13:54（北京时间）
+# 规则数量: 1189
 payload:
   - +.1fichier.com
   - +.1fichier.info
@@ -678,6 +678,7 @@ payload:
   - download.cnet.com
   - download.cpuid.com
   - download.cypress.io
+  - download.delta.chat
   - download.dlsite.com
   - download.docker.com
   - download.eassos.com
@@ -1098,6 +1099,7 @@ payload:
   - pkg-containers.githubusercontent.com
   - pkg.cloudflare.com
   - pkg.cloudflareclient.com
+  - pkgs.netbird.io
   - pkgs.tailscale.com
   - playwright-akamai.azureedge.net
   - playwright.azureedge.net

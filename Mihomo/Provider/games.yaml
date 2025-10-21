@@ -1,5 +1,5 @@
-# 更新时间: 2025-10-21 09:42:22（北京时间）
-# 规则数量: 671
+# 更新时间: 2025-10-25 20:13:56（北京时间）
+# 规则数量: 677
 payload:
   - +.100classicbooks.com
   - +.2k.com
@@ -598,6 +598,10 @@ payload:
   - +.visceralgames.com
   - +.wariolandshakeit.com
   - +.wariowarediy.com
+  - +.warnerbrosgames.com
+  - +.wbagora.com
+  - +.wbgames.com
+  - +.wbinsights.com
   - +.wii-u.com
   - +.wiifit.com
   - +.wiifitu.com
@@ -649,6 +653,7 @@ payload:
   - blizzard.gcdn.cloudn.co.kr
   - c.ppy.sh
   - client.hikarifield.co.jp
+  - datarouter.apps.netherrealm.com
   - dlgarenanow-a.akamaihd.net
   - download.hikarifield.co.jp
   - eaasserts-a.akamaihd.net
@@ -672,3 +677,4 @@ payload:
   - steamcommunity-a.akamaihd.net.edgesuite.net
   - store-images.s-microsoft.com
   - ubistatic3-a.akamaihd.net
+  - wb-agora-hydra-file-storage-k1.s3.amazonaws.com
