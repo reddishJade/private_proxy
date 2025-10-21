@@ -16,18 +16,20 @@ class RuleConstants:
     定义了各种规则类型的分类和用于验证的正则表达式模式
     """
 
-    RULE_TYPES: Dict[str, Set[str]] = field(
+    rule_types: Dict[str, Set[str]] = field(
         default_factory=dict
     )  # 存储不同类型规则的集合
 
     # 域名正则表达式（支持下划线）
-    DOMAIN_PATTERN: str = r"^[a-zA-Z0-9_]([a-zA-Z0-9_-]*[a-zA-Z0-9_])?(\.[a-zA-Z0-9_]([a-zA-Z0-9_-]*[a-zA-Z0-9_])?)*$"
+    domain_pattern: str = (
+        r"^[a-zA-Z0-9_]([a-zA-Z0-9_-]*[a-zA-Z0-9_])?(\.[a-zA-Z0-9_]([a-zA-Z0-9_-]*[a-zA-Z0-9_])?)*$"
+    )
 
     # IPv4 CIDR正则表达式
-    IPV4_CIDR_PATTERN: str = r"^(\d{1,3}\.){3}\d{1,3}/\d{1,2}$"
+    ipv4_cidr_pattern: str = r"^(\d{1,3}\.){3}\d{1,3}/\d{1,2}$"
 
     # IPv6 CIDR正则表达式
-    IPV6_CIDR_PATTERN: str = r"^([0-9a-fA-F:]+)/\d{1,3}$"
+    ipv6_cidr_pattern: str = r"^([0-9a-fA-F:]+)/\d{1,3}$"
 
     def __post_init__(self):
         """初始化规则类型分类"""
@@ -58,7 +60,7 @@ class RuleConstants:
         other_rules = {"IN-TYPE", "IN-USER", "IN-NAME", "UID", "NETWORK", "DSCP"}
 
         # 初始化规则类型集合
-        self.RULE_TYPES = {
+        self.rule_types = {
             "domain": domain_rules,  # 域名规则类型
             "ipcidr": ip_rules,  # IP相关规则类型
             "classical": domain_rules

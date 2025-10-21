@@ -21,11 +21,11 @@ from .processors import RuleProcessor
 from .merger import RulesMerger
 
 __all__ = [
-    'RuleConstants',
-    'RuleSource', 
-    'RuleValidator',
-    'RuleTransformer',
-    'RuleFetcher',
-    'RuleProcessor',
-    'RulesMerger'
+    "RuleConstants",
+    "RuleSource",
+    "RuleValidator",
+    "RuleTransformer",
+    "RuleFetcher",
+    "RuleProcessor",
+    "RulesMerger",
 ]

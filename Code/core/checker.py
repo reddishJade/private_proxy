@@ -1,7 +1,9 @@
-# -*- coding: utf-8 -*-
+"""Mihomo规则文件变更检测模块。"""
+
 import argparse
 import subprocess
 import sys
+import os
 from pathlib import Path
 from typing import Any, Dict, List, Optional
 
@@ -12,11 +14,11 @@ def get_git_file_content(file_path: str) -> Optional[str]:
     """获取 Git 中最新提交的单个文件内容"""
     try:
         # 使用'/'作为路径分隔符，以兼容不同系统
-        git_path = file_path.replace('\\', '/')
+        git_path = file_path.replace("\\", "/")
         content = subprocess.check_output(
-            ['git', 'show', f'HEAD:{git_path}'],
-            encoding='utf-8',
-            stderr=subprocess.PIPE
+            ["git", "show", f"HEAD:{git_path}"],
+            encoding="utf-8",
+            stderr=subprocess.PIPE,
         )
         return content
     except subprocess.CalledProcessError:
@@ -28,8 +30,8 @@ def get_payload(content: str) -> Optional[List[str]]:
     """从文件内容中解析并提取 payload"""
     try:
         data: Dict[str, Any] = yaml.safe_load(content)
-        if data and 'payload' in data:
-            return data['payload']
+        if data and "payload" in data:
+            return data["payload"]
     except yaml.YAMLError:
         return None
     return None
@@ -42,7 +44,7 @@ def compare_rules(base_path: Path) -> bool:
     :param base_path: 规则文件所在的根目录。
     :return: 如果有任何文件的payload发生变化，则返回True，否则返回False。
     """
-    rule_files = list(base_path.glob('**/*.yaml'))
+    rule_files = list(base_path.glob("**/*.yaml"))
     if not rule_files:
         print("未找到任何.yaml规则文件。")
         return False
@@ -55,7 +57,7 @@ def compare_rules(base_path: Path) -> bool:
 
         # 获取当前文件内容
         try:
-            current_content = file_path.read_text(encoding='utf-8')
+            current_content = file_path.read_text(encoding="utf-8")
         except IOError as e:
             print(f"    - 错误: 无法读取当前文件: {e}")
             continue
@@ -96,11 +98,12 @@ def compare_rules(base_path: Path) -> bool:
 
 
 def main():
-    parser = argparse.ArgumentParser(description="检测Mihomo规则文件的payload是否发生变化。")
+    """主函数：解析命令行参数并执行规则检测。"""
+    parser = argparse.ArgumentParser(
+        description="检测Mihomo规则文件的payload是否发生变化。"
+    )
     parser.add_argument(
-        "check_path",
-        type=str,
-        help="需要检测的规则文件所在的目录路径。"
+        "check_path", type=str, help="需要检测的规则文件所在的目录路径。"
     )
     args = parser.parse_args()
 
@@ -114,16 +117,15 @@ def main():
     if has_changed:
         print("检测到规则变更。")
         # 在GitHub Actions中设置输出变量
-        if 'GITHUB_OUTPUT' in os.environ:
-            with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
-                f.write('has_changed=true\n')
+        if "GITHUB_OUTPUT" in os.environ:
+            with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as f:
+                f.write("has_changed=true\n")
     else:
         print("未检测到规则变更。")
-        if 'GITHUB_OUTPUT' in os.environ:
-            with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
-                f.write('has_changed=false\n')
+        if "GITHUB_OUTPUT" in os.environ:
+            with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as f:
+                f.write("has_changed=false\n")
 
 
-if __name__ == '__main__':
-    import os
+if __name__ == "__main__":
     main()
