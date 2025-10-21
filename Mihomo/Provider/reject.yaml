@@ -1,5 +1,5 @@
-# 更新时间: 2025-10-21 09:42:31（北京时间）
-# 规则数量: 9026
+# 更新时间: 2025-10-30 08:43:09（北京时间）
+# 规则数量: 9025
 payload:
   - +.0.r.msn.com
   - +.000dn.com
@@ -8658,7 +8658,6 @@ payload:
   - m-adnet.hiaiabc.com
   - m.ad.zhangyue.com
   - m.atm.youku.com
-  - m.iqiyipic.com
   - m1.ad.10010.com
   - mapi.m.jd.com
   - masdkv6.3g.qq.com

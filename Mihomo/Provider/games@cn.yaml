@@ -1,5 +1,5 @@
-# 更新时间: 2025-10-21 09:42:20（北京时间）
-# 规则数量: 268
+# 更新时间: 2025-10-30 08:43:02（北京时间）
+# 规则数量: 273
 payload:
   - +.17roco.com
   - +.3304399.com
@@ -103,6 +103,9 @@ payload:
   - +.haydaypop.cn
   - +.hdyxgame.com
   - +.heavenlywind.cc
+  - +.hero.com
+  - +.heroesports.com
+  - +.herogame.com
   - +.hkgcloudcs.com
   - +.htjsq.com
   - +.htjsq.mobi
@@ -175,6 +178,7 @@ payload:
   - +.scescdn.cn
   - +.scid.cn
   - +.scsentry.cn
+  - +.shyxhy.com
   - +.skydweller.cn
   - +.sl916.com
   - +.steam302.xyz
@@ -233,6 +237,7 @@ payload:
   - +.xunyou.com
   - +.ycgame.com
   - +.yebaojiasu.com
+  - +.yingxiong.com
   - +.youba.com
   - +.yuanshen.com
   - +.yuelun.com
