@@ -1,5 +1,5 @@
-# 更新时间: 2025-10-12 20:14:17（北京时间）
-# 规则数量: 3978
+# 更新时间: 2025-10-21 08:41:15（北京时间）
+# 规则数量: 3991
 payload:
   - +.1a-1791.com
   - +.1passwordusercontent.ca
@@ -26,6 +26,7 @@ payload:
   - +.abcnewsfe.com
   - +.abebookscdn.com
   - +.addons.business
+  - +.adguardcdn.com
   - +.adobeccstatic.com
   - +.adtidy.org
   - +.agechecker-northern-apps.com
@@ -785,6 +786,7 @@ payload:
   - +.quip-marketing.com
   - +.quoracdn.net
   - +.qy0.ru
+  - +.rackcdn.com
   - +.radix-ui.com
   - +.randomuser.me
   - +.ravencoinipfs-gateway.com
@@ -1884,6 +1886,7 @@ payload:
   - cdn.termius.com
   - cdn.theatlantic.com
   - cdn.thenewstack.io
+  - cdn.thewirecutter.com
   - cdn.thingiverse.com
   - cdn.tiny.cloud
   - cdn.tinypass.com
@@ -2069,6 +2072,7 @@ payload:
   - chatwidgetmetrics-proxy.usepylon.com
   - checkout-sdk.bigcommerce.com
   - checkout.stripe.com
+  - chunk-composing.canva.com
   - ci.testling.com
   - cimg.cnyes.cool
   - claritystatic.azureedge.net
@@ -2336,6 +2340,7 @@ payload:
   - fiverr-res.cloudinary.com
   - flo.uri.sh
   - flows.trysavvy.com
+  - font-public.canva.com
   - fonts.bunny.net
   - fonts.cat.net
   - fonts.codeberg.org
@@ -2502,6 +2507,7 @@ payload:
   - image.tmdb.org
   - image.vuukle.com
   - image.westinyou.com
+  - image.yuntu.com.tw
   - imagecdn.clips4sale.com
   - imagehost.player.fm
   - imageio.forbes.com
@@ -2569,6 +2575,7 @@ payload:
   - images.samsung.com
   - images.scalero.io
   - images.scrolller.com
+  - images.softwaresuggest.com
   - images.spot.im
   - images.spr.so
   - images.store.crowdstrike.com
@@ -2872,6 +2879,7 @@ payload:
   - media.beehiiv.com
   - media.breitbart.com
   - media.bundlehunt.com
+  - media.canva.com
   - media.cleanshot.cloud
   - media.cmx.edu.kg
   - media.cnn.com
@@ -2915,6 +2923,7 @@ payload:
   - media.nbclosangeles.com
   - media.nbcnewyork.com
   - media.newyorker.com
+  - media.nngroup.com
   - media.nownews.com
   - media.npr.org
   - media.orz.uno
@@ -2927,6 +2936,7 @@ payload:
   - media.smooch.io
   - media.steampowered.com
   - media.tailfin.cc
+  - media.technologycounter.com
   - media.telanganatoday.com
   - media.tenor.com
   - media.themoviedb.org
@@ -2999,12 +3009,14 @@ payload:
   - object.innei.in
   - objects.g0v.social
   - objects.hit.moe
+  - ocsp.comodoca.com
   - ocsp.digicert.com
   - ocsp.godaddy.com
   - ocsp.sectigo.com
   - ocsp.usertrust.com
   - oct8neproxy.azurewebsites.net
   - ohttp-relay1.fastly-edge.com
+  - oneocsp.microsoft.com
   - ooo.0o0.ooo
   - open-vsx.org
   - openapi.vercel.sh
@@ -3747,6 +3759,7 @@ payload:
   - t3.picb.cc
   - t4.picb.cc
   - tag.trovo-tag.com
+  - tag.tvads.ai
   - tag.unifyintent.com
   - tags.nationwide.com
   - tags.nba.com

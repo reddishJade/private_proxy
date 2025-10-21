@@ -1,5 +1,5 @@
-# 更新时间: 2025-10-12 20:14:20（北京时间）
-# 规则数量: 1183
+# 更新时间: 2025-10-21 08:41:18（北京时间）
+# 规则数量: 1187
 payload:
   - +.1fichier.com
   - +.1fichier.info
@@ -562,6 +562,7 @@ payload:
   - cdnorg.d.miui.com
   - charts.verdaccio.org
   - chnroutes2.cdn.skk.moe
+  - cisco.yuntu.com.tw
   - ciscobinary.openh264.org
   - clarkson.edu
   - client.hikarifield.co.jp
@@ -740,6 +741,7 @@ payload:
   - epicgames-download1.akamaized.net
   - espejito.fder.edu.uy
   - fastly-download.epicgames.com
+  - fdisk.5play.app
   - fedorapeople.org
   - file.chobit.cc
   - files2.freedownloadmanager.org
@@ -1062,6 +1064,7 @@ payload:
   - mirrors.xtom.nl
   - mirrors.xtom.sg
   - mirrors.xtom.us
+  - mirrors.yuntu.com.tw
   - msdl.microsoft.com
   - muug.ca
   - nobara-images.nobaraproject.org
@@ -1166,6 +1169,7 @@ payload:
   - tux.rainside.sk
   - u.keka.io
   - update.code.visualstudio.com
+  - update.cyberduck.io
   - update.googleapis.com
   - update.greasyfork.org
   - update.parallels.com

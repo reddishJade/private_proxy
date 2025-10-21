@@ -1,5 +1,5 @@
-# 更新时间: 2025-10-12 20:14:24（北京时间）
-# 规则数量: 6839
+# 更新时间: 2025-10-21 08:41:24（北京时间）
+# 规则数量: 6845
 payload:
   - +.000webhost.com
   - +.030buy.com
@@ -195,6 +195,8 @@ payload:
   - +.adguard-dns.io
   - +.adguard.com
   - +.adguard.org
+  - +.adguardaccount.com
+  - +.adguardcdn.com
   - +.adidas.com
   - +.admin.recaptcha.net
   - +.admob.com
@@ -434,6 +436,7 @@ payload:
   - +.asiaharvest.org
   - +.asianage.com
   - +.asianews.it
+  - +.asianfanfics.com
   - +.asiansexdiary.com
   - +.asiaone.com
   - +.asiatgp.com
@@ -874,7 +877,6 @@ payload:
   - +.btcbank.bank
   - +.btctrade.im
   - +.btdig.com
-  - +.btdigg.org
   - +.btguard.com
   - +.btku.me
   - +.btku.org
@@ -5809,6 +5811,7 @@ payload:
   - +.trustasiassl.com
   - +.trustpilot.com
   - +.trustpilot.net
+  - +.trustwallet.com
   - +.truthsocial.com
   - +.truveo.com
   - +.tryheart.jp
@@ -6332,6 +6335,7 @@ payload:
   - +.webrtc.org
   - +.webrush.net
   - +.webs-tv.net
+  - +.websdr.org
   - +.website.informer.com
   - +.website.new
   - +.websitepulse.com
@@ -6606,6 +6610,7 @@ payload:
   - +.xn--noss43i.com
   - +.xn--oiq.cc
   - +.xn--p8j9a0d9c9a.xn--q9jyb4c
+  - +.xn--u2u927b.com
   - +.xnpool.com
   - +.xnxx.com
   - +.xpdo.net
@@ -6744,6 +6749,7 @@ payload:
   - +.z-lib.gl
   - +.z-lib.io
   - +.z-lib.org
+  - +.z-library.ec
   - +.z-library.sk
   - +.z.com
   - +.za

@@ -1,32 +1,60 @@
-# 更新时间: 2025-10-12 20:14:16（北京时间）
-# 规则数量: 29
+# 更新时间: 2025-10-21 08:41:13（北京时间）
+# 规则数量: 57
 payload:
   - +.baichuan-ai.com
   - +.bigmodel.cn
   - +.botvip.cn
+  - +.butterfly-static.cn
+  - +.butterflyai.cn
   - +.chatglm.cn
+  - +.coze.cn
+  - +.coze.com
+  - +.coze.site
+  - +.cozebaas.cn
+  - +.cozefn.cn
+  - +.cozeide.cn
   - +.cueme.cn
   - +.deepseek.com
   - +.doubao.com
+  - +.doubaocdn.com
+  - +.doudou.com
   - +.hailuoai.com
+  - +.hi-butterfly.cn
   - +.hunyuan.tencent.com
   - +.liblib.art
+  - +.maoxiangai.com
   - +.marscode.cn
+  - +.marscode.com
+  - +.marscode.com.cn
+  - +.mcbaas.work
+  - +.mcdemo.show
+  - +.mchost.guru
+  - +.mcprev.cn
+  - +.miaoyanai.com
   - +.minimaxi.com
   - +.moonshot.cn
+  - +.myparallelstory.com
   - +.n.cn
   - +.namiso.com
+  - +.picpic-ai.cn
+  - +.pixeldance.com
   - +.qianwen.aliyun.com
   - +.qwen.ai
   - +.qwenlm.ai
   - +.rwkv.cn
   - +.rwkv.com
+  - +.tcwqqdy.guru
   - +.tiangong.cn
   - +.tongyi.aliyun.com
   - +.tongyi.com
+  - +.trae.ai
+  - +.trae.cn
+  - +.trae.com.cn
+  - +.trae.guru
   - +.xinghuo.xfyun.cn
   - +.xingyeai.com
   - +.yiyan.baidu.com
+  - +.yoma.cn
   - +.zhipuai.cn
   - ai.zhaomi.cn
   - cueme-api.quark.cn

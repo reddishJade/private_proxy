@@ -1,5 +1,5 @@
-# 更新时间: 2025-10-12 20:14:17（北京时间）
-# 规则数量: 1801
+# 更新时间: 2025-10-21 08:41:14（北京时间）
+# 规则数量: 1802
 payload:
   - +.100beatscheap.com
   - +.12diasdepresentesdeitunes.com
@@ -814,6 +814,7 @@ payload:
   - +.cooliphonecasesstore.com
   - +.coolmonster.net
   - +.coreml.net
+  - +.courier-push-apple.com.akadns.net
   - +.cozydrdrebeats.com
   - +.cqcorea.com
   - +.crashlytics.com
@@ -1623,9 +1624,9 @@ payload:
   - cma.itunes.apple.com
   - cn-smp-paymentservices.apple.com
   - communities.apple.com
+  - configuration-lb.ls-apple.com.akadns.net
   - configuration.apple.com
   - configuration.apple.com.akadns.net
-  - courier-push-apple.com.akadns.net
   - crl-lb.apple.com.akadns.net
   - crl.apple.com
   - cstat.apple.com
