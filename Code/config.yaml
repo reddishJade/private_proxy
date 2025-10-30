@@ -212,12 +212,12 @@
   format: yaml
   behavior: domain
   upstream:
-    apple_all:
+    Microsoft:
       type: http
       url: "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Microsoft/Microsoft.yaml"
       format: yaml
       behavior: classical
-    meta_apple:
+    meta_microsoft:
       type: http
       url: "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/microsoft.yaml"
       format: yaml
@@ -312,6 +312,11 @@
       url: "https://cdn.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/AdBlock.yaml"
       format: yaml
       behavior: classical
+    meta_ads:
+      type: http
+      url: "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/category-ads-all.yaml"
+      format: yaml
+      behavior: domain
 
 - path: output/reject@ip.yaml
   format: yaml
