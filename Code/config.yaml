@@ -107,6 +107,21 @@
       url: "https://ruleset.skk.moe/Clash/non_ip/direct.txt"
       format: txt
       behavior: classical
+    meta_category-ntp:
+      type: http
+      url: "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@refs/heads/meta/geo/geosite/category-ntp.yaml"
+      format: yaml
+      behavior: domain
+    meta_connectivity_check:
+      type: http
+      url: "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/connectivity-check.yaml"
+      format: yaml
+      behavior: domain
+    meta_tracker:
+      type: http
+      url: "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@refs/heads/meta/geo/geosite/tracker.yaml"
+      format: yaml
+      behavior: domain
 
 - path: output/domestic.yaml
   format: yaml
