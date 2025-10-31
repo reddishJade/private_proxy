@@ -1,5 +1,5 @@
-# 更新时间: 2025-10-31 08:41:31（北京时间）
-# 规则数量: 6850
+# 更新时间: 2025-11-02 08:45:07（北京时间）
+# 规则数量: 6851
 payload:
   - +.000webhost.com
   - +.030buy.com
@@ -5518,6 +5518,7 @@ payload:
   - +.telesco.pe
   - +.tellapart.com
   - +.tellme.pw
+  - +.temu.com
   - +.tenacy.com
   - +.tenor.com
   - +.tensorflow.org

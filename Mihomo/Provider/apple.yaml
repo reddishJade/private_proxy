@@ -1,5 +1,5 @@
-# 更新时间: 2025-10-31 08:41:21（北京时间）
-# 规则数量: 1802
+# 更新时间: 2025-11-02 08:44:59（北京时间）
+# 规则数量: 1778
 payload:
   - +.100beatscheap.com
   - +.12diasdepresentesdeitunes.com
@@ -53,7 +53,6 @@ payload:
   - +.airtunes.info
   - +.airtunes.net
   - +.ajtalk.com
-  - +.akadns.net
   - +.albeats.com
   - +.alchemysynth.com
   - +.annstores.net
@@ -126,7 +125,6 @@ payload:
   - +.apple.com.au
   - +.apple.com.bo
   - +.apple.com.br
-  - +.apple.com.cdn20.com
   - +.apple.com.cn
   - +.apple.com.co
   - +.apple.com.de
@@ -136,8 +134,6 @@ payload:
   - +.apple.com.jm
   - +.apple.com.lk
   - +.apple.com.mg
-  - +.apple.com.mwcloudcdn.com
-  - +.apple.com.mwcname.com
   - +.apple.com.mx
   - +.apple.com.my
   - +.apple.com.pa
@@ -331,7 +327,6 @@ payload:
   - +.applereach.com
   - +.applereach.net
   - +.apples-msk.ru
-  - +.appleschoolcontent.com
   - +.applescreensavers.com
   - +.applescript.info
   - +.appleshare.info
@@ -386,7 +381,6 @@ payload:
   - +.appletv.wang
   - +.appletv4.cn
   - +.appletv4.com.cn
-  - +.appletvapp.apple
   - +.applewallet.com
   - +.applewallet.tv
   - +.applewatch.hk
@@ -414,7 +408,6 @@ payload:
   - +.appule.com
   - +.appye.com
   - +.apyle.com
-  - +.apzones.com
   - +.asto.re
   - +.aucheapbeats.com
   - +.audiobeatsau.com
@@ -750,7 +743,6 @@ payload:
   - +.casquemonsterbeatsbydre2013.com
   - +.casquesbeatsaudio.com
   - +.catalina.hk
-  - +.cdn-apple-mapkit.com
   - +.cdn-apple.com
   - +.cheap-beats-by-dre.net
   - +.cheap-beatsbydre.com
@@ -817,7 +809,6 @@ payload:
   - +.courier-push-apple.com.akadns.net
   - +.cozydrdrebeats.com
   - +.cqcorea.com
-  - +.crashlytics.com
   - +.cuffiesaldi.com
   - +.cups.org
   - +.custom-iphonecase.com
@@ -848,12 +839,10 @@ payload:
   - +.detaliczny.com
   - +.developer-advisor.com
   - +.device-manager.us
-  - +.digicert.com
   - +.digitalhub.com
   - +.discountbeatsbydre-us.com
   - +.discountbeatsstore.com
   - +.discussionsapple.com
-  - +.dispatcher.is.autonavi.com
   - +.dkbeatsbydre.com
   - +.dl-iphone.com
   - +.dot-mac.de
@@ -958,7 +947,6 @@ payload:
   - +.gobeatsye.com
   - +.gobuyonlinestore.net
   - +.goodsdunk.net
-  - +.gsp4-cn.ls.apple.com.edgekey.net
   - +.headphonepubs.com
   - +.headphones-cool.com
   - +.headphones-dre.com
@@ -1003,7 +991,6 @@ payload:
   - +.ichat.co.in
   - +.icloud-apple.cn
   - +.icloud-content.com
-  - +.icloud-content.com.cn
   - +.icloud-isupport.com
   - +.icloud-sandbox.com
   - +.icloud.ch
@@ -1201,7 +1188,6 @@ payload:
   - +.itunes.co
   - +.itunes.co.th
   - +.itunes.com
-  - +.itunes.com.edgekey.net
   - +.itunes.hk
   - +.itunes.mx
   - +.itunes.org
@@ -1245,7 +1231,6 @@ payload:
   - +.lojaiphone.com.br
   - +.lovebeatsdr.com
   - +.lovemarca.com
-  - +.ls.apple.com.edgesuite.net
   - +.luckyissue.com
   - +.lyzsxx.com
   - +.mac-mini.com
@@ -1427,6 +1412,7 @@ payload:
   - +.promonsterbeatsbydre.com
   - +.prostudiobeatscybersale.com
   - +.pullstring.net
+  - +.push-apple.com.akadns.net
   - +.quatrowireless.com
   - +.quicktime.cc
   - +.quicktime.com
@@ -1446,7 +1432,6 @@ payload:
   - +.researchkit.net
   - +.researchkit.org
   - +.researchkit.tv
-  - +.safebrowsing.apple
   - +.salebeatslasteststyle4you.com
   - +.saleblackfridaydrebeats.com
   - +.salecheaphandbags.com
@@ -1476,7 +1461,6 @@ payload:
   - +.specialtyheadphones.com
   - +.spektral.cc
   - +.spiritclubs.com
-  - +.store.apple.com.edgekey.net
   - +.straightouttasomewhere.com
   - +.studiobeatsbydrdre.com
   - +.sulwerphoto.com
@@ -1514,7 +1498,6 @@ payload:
   - +.unstyle.us
   - +.usa-beatsbydreheadphonesonsale.net
   - +.v-has.com
-  - +.vertexsmb.com
   - +.vip-beats.com
   - +.vipbeatsbydre.com
   - +.vipheadphones.com
@@ -1536,7 +1519,6 @@ payload:
   - +.wuxiapple.com
   - +.wwapple.net
   - +.www-sms-apple.com
-  - +.www.apple.com.edgekey.net
   - +.wwwapple.com
   - +.wwwapple.net
   - +.wwwapplemusic.com
@@ -1575,9 +1557,7 @@ payload:
   - api-edge.apps.apple.com
   - app-site-association.cdn-apple.com
   - appldnld.apple.com
-  - appldnld.apple.com.edgesuite.net
   - appldnld.g.aaplimg.com
-  - apple-events.akamaized.net
   - apple-tv-plus-press.apple.com
   - apple.com.akadns.net
   - appleid.cdn-apple.com
@@ -1638,8 +1618,6 @@ payload:
   - discussionschinese.apple.com
   - download.developer.apple.com
   - downloaddispatch.itunes.apple.com
-  - e16991.b.akamaiedge.net
-  - edge.apple
   - experiments.apple.com
   - fides-pol.apple.com
   - gs-loc-cn.apple.com
@@ -1669,7 +1647,6 @@ payload:
   - hls.itunes.apple.com
   - icloud-cdn.icloud.com.akadns.net
   - icloud.cdn-apple.com
-  - icons.axm-usercontent-apple.com
   - images.apple.com.edgekey.net.globalredir.akadns.net
   - inappcheck-cn.itunes-apple.com.akadns.net
   - inappcheck-lb.itunes-apple.com.akadns.net
@@ -1707,7 +1684,6 @@ payload:
   - itunesconnect.apple.com
   - js-cdn.music.apple.com
   - km.support.apple.com
-  - lookup-api.apple.com.edgekey.net
   - maps.apple.com
   - mesu-cdn.apple.com.akadns.net
   - mesu-china.apple.com.akadns.net

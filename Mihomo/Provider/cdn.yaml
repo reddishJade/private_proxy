@@ -1,5 +1,5 @@
-# 更新时间: 2025-10-31 08:41:22（北京时间）
-# 规则数量: 3999
+# 更新时间: 2025-11-02 08:44:59（北京时间）
+# 规则数量: 4001
 payload:
   - +.1a-1791.com
   - +.1passwordusercontent.ca
@@ -543,6 +543,7 @@ payload:
   - +.ipfscdn.io
   - +.ipfsgateway.makersplace.com
   - +.ipns.co
+  - +.ismcdn.jp
   - +.itsre-sumo.mozilla.net
   - +.itvstatic.com
   - +.javcdn.li
@@ -2374,6 +2375,7 @@ payload:
   - g1.nyt.com
   - gamemedia.armorgames.com
   - gdb.rferl.org
+  - gdb.voanews.com
   - gearbox.imgix.com
   - genesis-cdn.ff.com
   - geoip-js.com

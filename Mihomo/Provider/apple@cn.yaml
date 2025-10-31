@@ -1,12 +1,11 @@
-# 更新时间: 2025-10-31 08:41:21（北京时间）
-# 规则数量: 364
+# 更新时间: 2025-11-02 08:44:59（北京时间）
+# 规则数量: 348
 payload:
   - +.a1.mzstatic.com
   - +.a2.mzstatic.com
   - +.a3.mzstatic.com
   - +.a4.mzstatic.com
   - +.a5.mzstatic.com
-  - +.aaplimg.com
   - +.adcdownload.apple.com
   - +.adcdownload.apple.com.akadns.net
   - +.amp-api-updates.apps.apple.com
@@ -17,20 +16,11 @@ payload:
   - +.app-site-association.cdn-apple.com
   - +.appldnld.apple.com
   - +.appldnld.g.aaplimg.com
-  - +.apple-cloudkit.com
-  - +.apple-dns.net
-  - +.apple-mapkit.com
-  - +.apple.co
-  - +.apple.com
   - +.apple.com.cn
-  - +.apple.news
   - +.appleid.cdn-apple.com
   - +.apps.apple.com
   - +.apps.mzstatic.com
-  - +.appsto.re
-  - +.appstore.com
   - +.bag-cdn.itunes-apple.com.akadns.net
-  - +.cdn-apple.com
   - +.cdn-cn1.apple-mapkit.com
   - +.cdn-cn2.apple-mapkit.com
   - +.cdn-cn3.apple-mapkit.com
@@ -97,9 +87,7 @@ payload:
   - +.guzzoni.smoot.apple.com
   - +.iadsdk.apple.com
   - +.icloud-cdn.icloud.com.akadns.net
-  - +.icloud-content.com
   - +.icloud.cdn-apple.com
-  - +.icloud.com
   - +.icloud.com.cn
   - +.images.apple.com
   - +.images.apple.com.akadns.net
@@ -129,9 +117,7 @@ payload:
   - +.is5.mzstatic.com
   - +.itunes-apple.com.akadns.net
   - +.itunes.apple.com
-  - +.itunes.com
   - +.itunesconnect.apple.com
-  - +.me.com
   - +.mesu-cdn.apple.com.akadns.net
   - +.mesu-china.apple.com.akadns.net
   - +.mesu.apple.com
@@ -141,7 +127,6 @@ payload:
   - +.ocsp.apple.com
   - +.ocsp2-lb.apple.com.akadns.net
   - +.ocsp2.apple.com
-  - +.organicfruitapps.com
   - +.oscdn.apple.com
   - +.oscdn.origin-apple.com.akadns.net
   - +.osxapps.itunes.g.aaplimg.com
@@ -151,7 +136,6 @@ payload:
   - +.probe.siri.apple.com
   - +.prod-support.apple-support.akadns.net
   - +.publicassets.cdn-apple.com
-  - +.push-apple.com.akadns.net
   - +.reserve-prime.apple.com
   - +.s.mzstatic.com
   - +.seed-sequoia.siri.apple.com

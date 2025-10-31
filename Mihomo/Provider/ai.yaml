@@ -1,5 +1,5 @@
-# 更新时间: 2025-10-31 08:41:20（北京时间）
-# 规则数量: 128
+# 更新时间: 2025-11-02 08:44:58（北京时间）
+# 规则数量: 129
 payload:
   - +.ai.azure.com
   - +.ai.com
@@ -70,6 +70,7 @@ payload:
   - +.intercom.io
   - +.intercomcdn.com
   - +.jasper.ai
+  - +.jetbrains.ai
   - +.jules.google
   - +.jules.google.com
   - +.labs.google
