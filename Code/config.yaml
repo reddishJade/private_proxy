@@ -32,11 +32,6 @@
   format: yaml
   behavior: domain
   upstream:
-    skk_apple_services:
-      type: http
-      url: "https://ruleset.skk.moe/Clash/non_ip/apple_services.txt"
-      format: txt
-      behavior: classical
     skk_apple_cn:
       type: http
       url: "https://ruleset.skk.moe/Clash/non_ip/apple_cn.txt"
@@ -62,10 +57,10 @@
   format: yaml
   behavior: domain
   upstream:
-    apple_all:
+    skk_apple_services:
       type: http
-      url: "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Apple/Apple_Classical.yaml"
-      format: yaml
+      url: "https://ruleset.skk.moe/Clash/non_ip/apple_services.txt"
+      format: txt
       behavior: classical
     meta_apple:
       type: http
@@ -107,21 +102,6 @@
       url: "https://ruleset.skk.moe/Clash/non_ip/direct.txt"
       format: txt
       behavior: classical
-    meta_category-ntp:
-      type: http
-      url: "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@refs/heads/meta/geo/geosite/category-ntp.yaml"
-      format: yaml
-      behavior: domain
-    meta_connectivity_check:
-      type: http
-      url: "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/connectivity-check.yaml"
-      format: yaml
-      behavior: domain
-    meta_tracker:
-      type: http
-      url: "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@refs/heads/meta/geo/geosite/tracker.yaml"
-      format: yaml
-      behavior: domain
 
 - path: output/domestic.yaml
   format: yaml
@@ -262,7 +242,7 @@
   format: yaml
   behavior: domain
   upstream:
-    private:
+    lan:
       type: http
       url: "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Lan/Lan.yaml"
       format: yaml
@@ -312,11 +292,6 @@
   format: yaml
   behavior: domain
   upstream:
-    # xndeye_reject:
-    #   type: http
-    #   url: "https://cdn.jsdelivr.net/gh/xndeye/adblock_list@refs/heads/release/clash.yaml"
-    #   format: yaml
-    #   behavior: domain
     AWAvenue:
       type: http
       url: "https://cdn.uura.cn/AWAvenue/AWAvenue-Ads-Rule-Clash.yaml"
