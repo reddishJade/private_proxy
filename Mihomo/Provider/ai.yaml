@@ -1,18 +1,16 @@
-# 更新时间: 2025-11-04 14:56:29（北京时间）
-# 规则数量: 129
+# 更新时间: 2025-11-10 08:44:38（北京时间）
+# 规则数量: 134
 payload:
   - +.ai.azure.com
   - +.ai.com
+  - +.aida.googleapis.com
   - +.aisandbox-pa.googleapis.com
   - +.aistudio.google.com
-  - +.amp-api.apps.apple.com
   - +.anthropic.com
   - +.apis.google.com
   - +.apple-relay.apple.com
   - +.apple-relay.cloudflare.com
   - +.apple-relay.fastly-edge.com
-  - +.apple-relay.mask.apple-dns.net
-  - +.apps.mzstatic.com
   - +.augment.com
   - +.augmentcode.com
   - +.auth0.com
@@ -24,6 +22,9 @@ payload:
   - +.chatgpt.livekit.cloud
   - +.chorus.sh
   - +.chutes.ai
+  - +.cici.com
+  - +.ciciai.com
+  - +.ciciaicdn.com
   - +.claude.ai
   - +.claude.com
   - +.claudemcpclient.com
@@ -36,6 +37,7 @@ payload:
   - +.coderabbit.gallery.vsassets.io
   - +.copilot.cloud.microsoft
   - +.copilot.microsoft.com
+  - +.coze.com
   - +.cp4.cloudflare.com
   - +.cursor-cdn.com
   - +.cursor.com
@@ -47,10 +49,12 @@ payload:
   - +.diabrowser.com
   - +.diabrowser.engineering
   - +.dify.ai
+  - +.dola.com
+  - +.elevenlabs.com
+  - +.elevenlabs.io
   - +.events.statsigapi.net
   - +.featuregates.org
   - +.gateway.ai.cloudflare.com
-  - +.gateway.icloud.com
   - +.geller-pa.googleapis.com
   - +.gemini.google
   - +.gemini.google.com
@@ -75,6 +79,7 @@ payload:
   - +.jules.google.com
   - +.labs.google
   - +.makersuite.google.com
+  - +.marscode.com
   - +.meta.ai
   - +.microsoftonline.com
   - +.mistral.ai
@@ -96,8 +101,8 @@ payload:
   - +.robinfrontend-pa.googleapis.com
   - +.smoot.apple.com
   - +.sora.com
+  - +.trae.ai
   - +.turn.livekit.cloud
-  - +.updates.cdn-apple.com
   - +.windsurf.com
   - +.x.ai
   - +.zed.dev

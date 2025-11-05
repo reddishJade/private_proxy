@@ -1,5 +1,5 @@
-# 更新时间: 2025-11-04 14:56:33（北京时间）
-# 规则数量: 1189
+# 更新时间: 2025-11-10 08:44:43（北京时间）
+# 规则数量: 1193
 payload:
   - +.1fichier.com
   - +.1fichier.info
@@ -555,8 +555,10 @@ payload:
   - cdn.hyperbeam.com
   - cdn.kagi.com
   - cdn.kde.org
+  - cdn.oneget.org
   - cdn.opensuse.org
   - cdn.organicmaps.app
+  - cdn.powershellgallery.com
   - cdn.winget.microsoft.com
   - cdn.zoom.us
   - cdnorg.d.miui.com
@@ -860,6 +862,7 @@ payload:
   - httpd-mirror.sergal.org
   - i18n.prismlauncher.org
   - icm.edu.pl
+  - index.rubygems.org
   - install.virtfusion.net
   - invent.kde.org
   - it.apache.contactlab.it
@@ -1137,6 +1140,7 @@ payload:
   - repository.jboss.org
   - repository.su
   - rpm.xpipe.io
+  - rubygems.org
   - ruleset.skk.moe
   - s3.teckids.org
   - searchcpan.org

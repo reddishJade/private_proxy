@@ -1,5 +1,5 @@
-# 更新时间: 2025-11-04 14:56:40（北京时间）
-# 规则数量: 250
+# 更新时间: 2025-11-10 08:44:54（北京时间）
+# 规则数量: 252
 payload:
   - +.4gtv.tv
   - +.5itv.tv
@@ -61,6 +61,7 @@ payload:
   - +.dzcdn.net
   - +.encoretvb.com
   - +.ext-twitch.tv
+  - +.fanfox.net
   - +.fls-na.amazon.com
   - +.fox.com
   - +.foxdcg.com
@@ -109,6 +110,7 @@ payload:
   - +.kktv.me
   - +.linetv.tw
   - +.location-plus.nhk.jp
+  - +.mangafox.me
   - +.max.com
   - +.media-amazon.com
   - +.muscdn.com

@@ -1,5 +1,5 @@
-# 更新时间: 2025-11-04 14:56:35（北京时间）
-# 规则数量: 680
+# 更新时间: 2025-11-10 08:44:47（北京时间）
+# 规则数量: 681
 payload:
   - +.100classicbooks.com
   - +.2k.com
@@ -149,6 +149,7 @@ payload:
   - +.easyanticheat.net
   - +.edge.steam-dns.top.comcast.net
   - +.eft-store.com
+  - +.egdownload.fastly-edge.com
   - +.elderscrolls.com
   - +.electronicarts.com
   - +.electronicarts.fr

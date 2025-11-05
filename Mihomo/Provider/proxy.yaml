@@ -1,5 +1,5 @@
-# 更新时间: 2025-11-04 14:56:37（北京时间）
-# 规则数量: 6851
+# 更新时间: 2025-11-10 08:44:51（北京时间）
+# 规则数量: 6858
 payload:
   - +.000webhost.com
   - +.030buy.com
@@ -56,6 +56,7 @@ payload:
   - +.24.com
   - +.24hrs.ca
   - +.25u.com
+  - +.2ch.sc
   - +.2lipstube.com
   - +.2mdn.net
   - +.2o7.net
@@ -477,6 +478,7 @@ payload:
   - +.av.com
   - +.av.movie
   - +.av01.tv
+  - +.av28.com
   - +.avaaz.org
   - +.avcool.com
   - +.avdb.in
@@ -949,6 +951,7 @@ payload:
   - +.canadameet.com
   - +.canalporno.com
   - +.canarymail.io
+  - +.cangku.moe
   - +.canyu.org
   - +.caobian.info
   - +.caochangqing.com
@@ -1476,10 +1479,8 @@ payload:
   - +.definebabe.com
   - +.deja.com
   - +.delcamp.net
-  - +.delicious.com
   - +.demdex.net
   - +.demo.unlock-music.dev
-  - +.democrats.org
   - +.demosisto.hk
   - +.deno.com
   - +.deno.dev
@@ -2003,6 +2004,7 @@ payload:
   - +.flecheinthepeche.fr
   - +.fleshbot.com
   - +.fleursdeslettres.com
+  - +.flexclip.com
   - +.flexibits.com
   - +.flexpool.io
   - +.flgjustice.org
@@ -3034,6 +3036,7 @@ payload:
   - +.imagekit.io
   - +.imagepost.com
   - +.images-gaytube.com
+  - +.images.prismic.io
   - +.imageshack.us
   - +.imagevenue.com
   - +.imagezilla.net
@@ -3089,6 +3092,7 @@ payload:
   - +.insecam.org
   - +.inside.com.tw
   - +.insidevoa.com
+  - +.instagr.am
   - +.instagram.com
   - +.instanthq.com
   - +.instapaper.com
@@ -4545,6 +4549,7 @@ payload:
   - +.polymarket.com
   - +.polymer-project.org
   - +.polymerhk.com
+  - +.pomf.cat
   - +.poolbinance.com
   - +.poolin.com
   - +.popai.pro
@@ -6281,6 +6286,7 @@ payload:
   - +.w-pool.com
   - +.w.idaiwan.com
   - +.w.org
+  - +.w.wiki
   - +.w3s.link
   - +.w3schools.com
   - +.wa.me
@@ -6767,6 +6773,7 @@ payload:
   - +.zattoo.com
   - +.zb.com
   - +.zbporn.com
+  - +.zdnet.com
   - +.zdnet.com.tw
   - +.zello.com
   - +.zendesk.com

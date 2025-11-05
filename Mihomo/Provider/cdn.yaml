@@ -1,5 +1,5 @@
-# 更新时间: 2025-11-04 14:56:30（北京时间）
-# 规则数量: 3997
+# 更新时间: 2025-11-10 08:44:40（北京时间）
+# 规则数量: 4024
 payload:
   - +.1a-1791.com
   - +.1passwordusercontent.ca
@@ -122,6 +122,7 @@ payload:
   - +.bytebucket.org
   - +.bytedapm.com
   - +.c-dn.net
+  - +.capcutstatic.com
   - +.cartocdn.com
   - +.cas-bridge.xethub.hf.co
   - +.cbsnewsstatic.com
@@ -460,6 +461,7 @@ payload:
   - +.imageban.ru
   - +.imagedelivery.net
   - +.imagehub.cc
+  - +.images-dnxlive.com
   - +.images-iherb.com
   - +.images.androeed.ru
   - +.images.arcpublishing.com
@@ -548,6 +550,7 @@ payload:
   - +.itvstatic.com
   - +.javcdn.li
   - +.javcdn.vip
+  - +.javhucdn.com
   - +.javplayer.me
   - +.javtxt.com
   - +.jbkcdn.com
@@ -1107,6 +1110,7 @@ payload:
   - a.gawby.com
   - a.kickstarter.com
   - a.klaviyo.com
+  - a.pomf.cat
   - a5.behance.net
   - a57.foxnews.com
   - academy-public.coinmarketcap.com
@@ -1389,6 +1393,7 @@ payload:
   - at.cbsi.com
   - atl-global.atlassian.com
   - attach.mobile01.com
+  - attach.setn.com
   - attach2.mobile01.com
   - attachments.office.net
   - audio.rfa.org
@@ -1647,6 +1652,7 @@ payload:
   - cdn.docsbot.com
   - cdn.document360.io
   - cdn.donmai.us
+  - cdn.doofinder.com
   - cdn.dotaoutpost.com
   - cdn.downdetector.com
   - cdn.download.it
@@ -1927,6 +1933,7 @@ payload:
   - cdn.wccftech.com
   - cdn.webclicks24.com
   - cdn.weglot.com
+  - cdn.whoer.com
   - cdn.wikimg.net
   - cdn.wikiwand.com
   - cdn.wikiwiki.jp
@@ -1972,6 +1979,7 @@ payload:
   - cdn1.techbang.com
   - cdn1.telegram.space
   - cdn1.telesco.pe
+  - cdn1.tubeteen18.com
   - cdn1.unrealengine.com
   - cdn10.bigcommerce.com
   - cdn11.bigcommerce.com
@@ -1995,6 +2003,7 @@ payload:
   - cdn2.sysgears.com
   - cdn2.techbang.com
   - cdn2.ttloli.com
+  - cdn2.tubeteen18.com
   - cdn2.turboviplay.cc
   - cdn2.unrealengine.com
   - cdn3.bigcommerce.com
@@ -2005,6 +2014,7 @@ payload:
   - cdn3.onlyfans.com
   - cdn3.stamped.io
   - cdn3.sysgears.com
+  - cdn3.tubeteen18.com
   - cdn3.unrealengine.com
   - cdn4.bigcommerce.com
   - cdn4.edgedatg.com
@@ -2012,12 +2022,14 @@ payload:
   - cdn4.sysgears.com
   - cdn4.telegram.space
   - cdn4.telesco.pe
+  - cdn4.tubeteen18.com
   - cdn5.bigcommerce.com
   - cdn5.edgedatg.com
   - cdn5.hextom.com
   - cdn5.iconfinder.com
   - cdn5.telegram.space
   - cdn5.telesco.pe
+  - cdn5.tubeteen18.com
   - cdn6.aptoide.com
   - cdn6.bigcommerce.com
   - cdn6.edgedatg.com
@@ -2327,6 +2339,7 @@ payload:
   - files.scamadviser.com
   - files.slack.com
   - files.smashing.media
+  - files.stripe.com
   - files.svc.ui.com
   - files.writefreely.org
   - files.yande.re
@@ -2459,6 +2472,7 @@ payload:
   - ias.r10s.jp
   - icdn.javxx.com
   - ichef.bbci.co.uk
+  - icon.icepanel.io
   - icons.buffer.com
   - icons.duckduckgo.com
   - icons.ferndocs.com
@@ -2591,6 +2605,7 @@ payload:
   - images.voguehk.com
   - images.web3.storage
   - images.weserv.nl
+  - images.whoer.com
   - images.wikia.com
   - images.wsj.net
   - images.wsjcommerce.net
@@ -2664,6 +2679,7 @@ payload:
   - img.jsdelivr.com
   - img.kbhgames.com
   - img.kemono.su
+  - img.logokit.com
   - img.ltyears.com
   - img.lvv2.com
   - img.m.mw
@@ -2673,6 +2689,7 @@ payload:
   - img.moegirl.tw
   - img.moviefap.com
   - img.mresou.com
+  - img.news.ebc.net.tw
   - img.noy.asia
   - img.olympics.com
   - img.openshop.com.hk
@@ -2747,6 +2764,7 @@ payload:
   - imgs.plurk.com
   - imgs.search.brave.com
   - imgs.xkcd.com
+  - imgs02.aventertainments.com
   - imgs3.hcaptcha.com
   - imgsrv.crunchyroll.com
   - imgssl.constantcontact.com
@@ -2988,6 +3006,7 @@ payload:
   - nav.yumenosora.co.jp
   - navismithapis-cdn.com
   - nbcnewsdigital-static.nbcuni.com
+  - nel.teo-rum.com
   - net-fe-static-assets.network-controller.svc.ui.com
   - netlify.apollo.io
   - newassets.hcaptcha.com
@@ -3168,6 +3187,7 @@ payload:
   - quriobot.com
   - r.r10s.jp
   - r2.1hanime.com
+  - r2.gear4music.com
   - r2.leadsy.ai
   - r2cdn.myshopline.com
   - r2cdn.perplexity.ai
@@ -3447,6 +3467,7 @@ payload:
   - static-overlay.ubisoft.com
   - static-production.npmjs.com
   - static-r.kamihimeproject.net
+  - static-r2.gear4music.com
   - static-redesign.cnbcfm.com
   - static-resource.np.community.playstation.net
   - static-secure-uploads.ui.com
@@ -3489,6 +3510,7 @@ payload:
   - static.canva.com
   - static.captcha-delivery.com
   - static.carfax.com
+  - static.cdnlogo.com
   - static.chaika.moe
   - static.change.org
   - static.chessarena.com
@@ -3535,6 +3557,7 @@ payload:
   - static.frame.work
   - static.freedownloadmanager.org
   - static.freeimages.com
+  - static.generated.photos
   - static.getbutton.io
   - static.gettyimages.com
   - static.giant-bicycles.com
@@ -3712,8 +3735,10 @@ payload:
   - staticintl.cloudcachetci.com
   - staticm.fastcomments.com
   - statics-marketingsites-eas-ms-com.akamaized.net
+  - statics-prod.mirrordaily.news
   - statics.erothots.co
   - statics.goorm.io
+  - statics.mnnews.tw
   - statics.simpshub.com
   - statics.streamable.com
   - staticsource1.redotpay.com
@@ -3818,6 +3843,7 @@ payload:
   - topbar-static.piano.io
   - torrindex.net
   - touchgal-image.moyu.moe
+  - tour-content-cdn.kellymadisonmedia.com
   - tourpic-vector.maps.komoot.net
   - townsquare.media
   - tracking.inflection.io
@@ -3998,3 +4024,4 @@ payload:
   - yep.video.yahoo.com
   - zephr-templates.cnbc.com
   - zod.dev
+  - zzz.wxw.moe
