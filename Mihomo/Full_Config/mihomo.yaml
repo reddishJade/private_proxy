@@ -1,0 +1,182 @@
+#========= 锚点定义 ==========#
+provider:     &pr {type: http, interval: 43200, health-check: {enable: true, url: "https://cp.cloudflare.com", interval: 300}}
+proxy:        &p  {type: select, proxies: [Select, Direct, HongKong, TaiWan, Japan, Singapore, USA]}
+groups:       &g  {type: select, proxies: [HongKong, TaiWan, Japan, Singapore, USA]}
+use:          &u  {type: select, include-all-providers: true}
+region:       &r  {type: url-test, include-all-providers: true, exclude-filter: "(?i)下载|低倍率"}
+mrs_d:        &md {type: http, format: mrs, behavior: domain, interval: 43200}
+mrs_i:        &mi {type: http, format: mrs, behavior: ipcidr, interval: 43200}
+proxy_direct: &pd {type: select, proxies: [Proxy, Direct]}
+direct_proxy: &dp {type: select, proxies: [Direct, Proxy]}
+
+# ======= 订阅配置 =======
+proxy-providers:
+  # 订阅链接一
+  provider1:
+    <<: *pr
+    url: ""                               # 必选：填入机场订阅链接
+    # filter: "(?i)港|hk|hongkong"        # 可选：使用关键词或正则表达式筛选节点
+    # exclude-filter: "(?i)测试"          # 可选：排除匹配的节点
+    # override: {
+    #   additional-prefix: "[provider1]"  # 可选：为节点名添加前缀
+    # }
+    path: ./proxies/provider1.yaml        # 可选：填入节点文件保存路径
+  # 订阅链接二
+  # provider2: {
+  #   <<: *pr,
+  #   url: "",
+  #   path: ./proxies/provider2.yaml
+  # }
+
+  # 默认在分组内使用全部订阅：
+  # include-all-providers: true
+  # 如有特殊需求可以在分组内使用指定订阅：
+  # use:
+  #   - provider1
+  #   - provider2
+  # 或在锚点处修改：
+  # use:  &u {type: select,   use: [Provider1, Provider2] }
+
+# ======= 基础设置 =======
+mode: rule                        # 运行模式
+log-level: info                   # 日志级别
+ipv6: false                       # IPV6 开关
+allow-lan: true                   # 允许局域网连接
+mixed-port: 7890                  # 混合端口
+
+# ======= 外部控制 =======
+# external-ui: ui                     # UI 路径
+# external-ui-name: xd                # UI 下载目录
+# external-controller: 127.0.0.1:9090 # 外部控制器监听地址
+# external-ui-url: "https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-pages.zip" # UI 下载地址
+
+# ======= 连接优化 =======
+unified-delay: true               # 统一延迟显示
+tcp-concurrent: true              # TCP 并发
+keep-alive-idle: 600              # TCP Keep Alive 空闲时间
+keep-alive-interval: 30           # TCP Keep Alive 间隔时间
+find-process-mode: strict         # 进程匹配模式
+global-client-fingerprint: chrome # 全局客户端指纹
+
+# ======= 缓存配置 =======
+profile:
+  store-selected: true # 缓存策略组选择
+  # store-fake-ip: true # 缓存 Fake-IP 映射
+
+# ======= DNS 设置 =======
+dns:
+  enable: true                          # 启用 DNS 服务
+  ipv6: false                           # IPv6 解析开关
+  listen: :53                           # DNS 监听地址
+  prefer-h3: true                       # 优先使用 HTTP/3 DNS
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter: ["geosite:connectivity-check", "rule-set:private", 'rule-set:fakeip-filter']
+  nameserver:                           # 默认域名解析服务器
+    - https://doh.pub/dns-query
+    - https://dns.alidns.com/dns-query
+
+# ======= 域名嗅探 =======
+sniffer:
+  enable: true  # 启用域名嗅探
+  sniff:        # 嗅探规则
+    HTTP:
+      ports: [80, 8080-8880]
+      override-destination: true
+    TLS:
+      ports: [443, 8443]
+    QUIC:
+      ports: [443, 8443]
+  skip-domain:  # 跳过嗅探的域名
+    - "dlg.io.mi.com"
+    - "+.push.apple.com"
+
+# ======= TUN 配置 =======
+tun:
+  enable: true                # 启用 TUN 模式
+  stack: mixed                # 协议栈模式
+  dns-hijack:                 # DNS 劫持
+    - any:53
+    - tcp://any:53
+  auto-route: true            # 自动设置全局路由
+  auto-redirect: true         # 自动重定向流量
+  auto-detect-interface: true # 自动选择出口网卡
+
+# ======= 代理配置 =======
+proxies:
+  - {name: Direct, type: direct, udp: true}
+
+# ======= 代理组配置 =======
+proxy-groups:
+  - {name: Proxy,      <<: *p,  icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Proxy.png}
+  - {name: Select,     <<: *u,  icon: https://fastly.jsdelivr.net/gh/shindgewongxj/WHATSINStash@master/icon/select.png}
+  - {name: Final,      <<: *pd, icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Final.png}
+  - {name: Apple,      <<: *dp, icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Apple.png}
+  - {name: Microsoft,  <<: *dp, icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Microsoft.png}
+  - {name: AIGC,       <<: *g, icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/AI.png}
+  - {name: Game,       <<: *g, icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Game.png}
+  - {name: Streaming,  <<: *g, icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/YouTube.png}
+  - {name: Telegram,   <<: *g, icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Telegram.png}
+  - {name: CDN,        type: fallback, proxies: [Download, Proxy], icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Speedtest.png}
+  - {name: Download,   <<: *u,  filter: "(?i)下载|低倍率", icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Download.png}
+  - {name: Global,     <<: *pd, icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Global.png}
+  - {name: Domestic,   <<: *dp, icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Domestic.png}
+  - {name: Private,    <<: *dp, icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Lock.png}
+
+  - {name: HongKong,   <<: *r,  filter: "(?i)港|hk|Hong Kong",      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Hong_Kong.png}
+  - {name: TaiWan,     <<: *r,  filter: "(?i)台|tw|Taiwan",         icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Taiwan.png}
+  - {name: Japan,      <<: *r,  filter: "(?i)日|jp|Japan",          icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Japan.png}
+  - {name: Singapore,  <<: *r,  filter: "(?i)新|狮|sg|Singapore",   icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Singapore.png}
+  - {name: USA,        <<: *r,  filter: "(?i)美|us|United States",  icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/United_States.png}
+
+# ======= 规则集合配置 =======
+rule-providers:
+  ai:             {<<: *md, url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/ai.mrs,              path: ./rules/ai.mrs}
+  ai@cn:          {<<: *md, url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/ai@cn.mrs,           path: ./rules/ai@cn.mrs}
+  apple:          {<<: *md, url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/apple.mrs,           path: ./rules/apple.mrs}
+  apple@cn:       {<<: *md, url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/apple@cn.mrs,        path: ./rules/apple@cn.mrs}
+  cdn:            {<<: *md, url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/cdn.mrs,             path: ./rules/cdn.mrs}
+  direct:         {<<: *md, url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/direct.mrs,          path: ./rules/direct.mrs}
+  domestic:       {<<: *md, url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/domestic.mrs,        path: ./rules/domestic.mrs}
+  download:       {<<: *md, url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/download.mrs,        path: ./rules/download.mrs}
+  game:           {<<: *md, url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/games.mrs,           path: ./rules/game.mrs}
+  game@cn:        {<<: *md, url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/games@cn.mrs,        path: ./rules/game@cn.mrs}
+  microsoft:      {<<: *md, url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/microsoft.mrs,       path: ./rules/microsoft.mrs}
+  microsoft@cn:   {<<: *md, url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/microsoft@cn.mrs,    path: ./rules/microsoft@cn.mrs}
+  private:        {<<: *md, url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/private.mrs,         path: ./rules/private.mrs}
+  proxy:          {<<: *md, url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/proxy.mrs,           path: ./rules/proxy.mrs}
+  reject:         {<<: *md, url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/reject.mrs,          path: ./rules/reject.mrs}
+  streaming:      {<<: *md, url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/streaming.mrs,       path: ./rules/streaming.mrs}
+
+  domestic@ip:    {<<: *mi, url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/domestic@ip.mrs,     path: ./rules/domestic@ip.mrs}
+  game@ip:        {<<: *mi, url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/games@ip.mrs,        path: ./rules/game@ip.mrs}
+  private@ip:     {<<: *mi, url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/private@ip.mrs,      path: ./rules/private@ip.mrs}
+  reject@ip:      {<<: *mi, url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/reject@ip.mrs,       path: ./rules/reject@ip.mrs}
+  telegram@ip:    {<<: *mi, url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/telegram@ip.mrs,     path: ./rules/telegram@ip.mrs}
+
+# ======= 分流规则 =======
+rules:
+  - RULE-SET,private,DIRECT
+  - RULE-SET,reject,REJECT
+  - RULE-SET,cdn,CDN
+  - RULE-SET,ai@cn,DIRECT
+  - RULE-SET,ai,AIGC
+  - RULE-SET,streaming,Streaming
+  - RULE-SET,game@cn,DIRECT
+  - RULE-SET,game,Proxy
+  - RULE-SET,download,CDN
+  - RULE-SET,apple@cn,DIRECT
+  - RULE-SET,apple,Proxy
+  - RULE-SET,microsoft@cn,DIRECT
+  - RULE-SET,microsoft,Proxy
+  - RULE-SET,direct,DIRECT
+  - RULE-SET,domestic,DIRECT
+  - RULE-SET,proxy,Proxy
+
+  - RULE-SET,reject@ip,REJECT
+  - RULE-SET,private@ip,DIRECT,no-resolve
+  - RULE-SET,game@ip,Proxy
+  - RULE-SET,telegram@ip,Proxy
+  - RULE-SET,domestic@ip,DIRECT
+
+  - MATCH,Final

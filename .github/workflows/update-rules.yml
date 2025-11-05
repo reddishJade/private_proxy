@@ -1,0 +1,107 @@
+name: update rules
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python 3.10
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Run script
+        run: |
+          cd Code/
+          python ./rule_merger.py ./config.yaml
+
+      - name: Convert YAML to MRS format
+        run: |
+          # 确保mihomo二进制文件可执行
+          chmod +x .github/bin/mihomo
+
+          # 转换所有YAML文件为MRS格式
+          cd Mihomo/Provider
+          echo "开始转换YAML文件为MRS格式..."
+
+          for yaml_file in *.yaml; do
+            if [[ -f "$yaml_file" ]]; then
+              filename=$(basename "$yaml_file" .yaml)
+              echo "Converting $yaml_file to ${filename}.mrs"
+              
+              # 根据文件名确定behavior类型
+              if [[ "$filename" == *"@ip"* ]]; then
+                behavior="ipcidr"
+              else
+                behavior="domain"  # 默认为domain
+              fi
+              
+              # 执行转换
+              ../../.github/bin/mihomo convert-ruleset "$behavior" yaml "$yaml_file" "${filename}.mrs" || {
+                echo "Warning: Failed to convert $yaml_file, skipping..."
+                continue
+              }
+              
+              echo "✓ Successfully converted $yaml_file to ${filename}.mrs"
+            fi
+          done
+
+          echo "MRS转换完成！"
+
+          # 显示转换结果统计
+          yaml_count=$(ls -1 *.yaml 2>/dev/null | wc -l)
+          mrs_count=$(ls -1 *.mrs 2>/dev/null | wc -l)
+          echo "转换统计: $yaml_count 个YAML文件 -> $mrs_count 个MRS文件"
+
+      - name: Check for rule changes
+        id: checker
+        run: python Code/core/checker.py Mihomo/Provider
+
+      - name: Get current time
+        id: time
+        run: |
+          echo "TIME=$(TZ='Asia/Shanghai' date +'%Y-%m-%d %H:%M:%S')" >> $GITHUB_OUTPUT
+
+      - name: Check if last commit is from bot
+        id: last_commit
+        run: |
+          LAST_COMMIT_AUTHOR=$(git log -1 --pretty=format:'%an')
+          if [[ "$LAST_COMMIT_AUTHOR" == *"github-actions"* ]] || [[ "$LAST_COMMIT_AUTHOR" == *"reddishJade"* && $(git log -1 --pretty=format:'%s') == *"🚀 Update at"* ]]; then
+            echo "is_bot_commit=true" >> $GITHUB_OUTPUT
+          else
+            echo "is_bot_commit=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit Changes
+        if: steps.checker.outputs.has_changed == 'true'
+        id: commit
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 🚀 Update at ${{ steps.time.outputs.TIME }}
+          branch: main
+          skip_dirty_check: true
+          push_options: "--force"
+          skip_fetch: true
+          skip_checkout: true
+          commit_options: "${{ steps.last_commit.outputs.is_bot_commit == 'true' && '--amend --no-edit' || '--allow-empty' }}"
+
+      - name: Delete Workflow Runs
+        uses: Mattraks/delete-workflow-runs@v2
+        with:
+          token: ${{ github.token }}
+          repository: ${{ github.repository }}
+          retain_days: 1
+          keep_minimum_runs: 1
