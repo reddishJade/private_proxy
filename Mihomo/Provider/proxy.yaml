@@ -1,5 +1,5 @@
-# 更新时间: 2025-11-10 08:44:51（北京时间）
-# 规则数量: 6858
+# 更新时间: 2025-11-13 08:42:30（北京时间）
+# 规则数量: 6869
 payload:
   - +.000webhost.com
   - +.030buy.com
@@ -2744,6 +2744,7 @@ payload:
   - +.hentaifox.com
   - +.hentaipaw.com
   - +.hentaiplay.net
+  - +.hentaistream.com
   - +.hentaitube.tv
   - +.hentaivideoworld.com
   - +.heqinglian.net
@@ -3233,6 +3234,7 @@ payload:
   - +.javtrailers.com
   - +.javtsunami.com
   - +.javwind.com
+  - +.javynow.com
   - +.javzoo.com
   - +.jbtalks.cc
   - +.jbtalks.com
@@ -3844,6 +3846,7 @@ payload:
   - +.modmyi.com
   - +.modrinth.com
   - +.moeerolibrary.com
+  - +.moeload.com
   - +.moeshare.cc
   - +.mofos.com
   - +.mog.com
@@ -3923,6 +3926,7 @@ payload:
   - +.my03.com
   - +.myactimes.com
   - +.myanimelist.net
+  - +.myanimeshelf.com
   - +.myaudiocast.com
   - +.myav.com.tw
   - +.mybbs.us
@@ -4561,7 +4565,9 @@ payload:
   - +.porn.com
   - +.porn2.com
   - +.porn5.com
+  - +.porn87.com
   - +.pornbase.org
+  - +.porndig.com
   - +.pornerbros.com
   - +.porngo.com
   - +.pornhd.com
@@ -5146,6 +5152,7 @@ payload:
   - +.slack-msgs.com
   - +.slack.com
   - +.slacker.com
+  - +.slackhq.com
   - +.slashine.onl
   - +.slaytizle.com
   - +.sleazydream.com
@@ -6020,6 +6027,7 @@ payload:
   - +.ultravpn.fr
   - +.ultraxs.com
   - +.ulyssesapp.com
+  - +.umblr.com
   - +.umich.edu
   - +.unblock-us.com
   - +.unblock.cn.com
@@ -6054,6 +6062,7 @@ payload:
   - +.updownradar.com
   - +.upghsbc.com
   - +.upholdjustice.org
+  - +.upjav.org
   - +.uploaded.net
   - +.uploaded.to
   - +.uploadstation.com
@@ -6414,6 +6423,7 @@ payload:
   - +.wikibooks.org
   - +.wikidata.org
   - +.wikidot.com
+  - +.wikifunctions.org
   - +.wikihow.com
   - +.wikileaks-forum.com
   - +.wikileaks.ch
@@ -6428,6 +6438,7 @@ payload:
   - +.wikilivres.info
   - +.wikimapia.org
   - +.wikimedia.org
+  - +.wikimediafoundation.org
   - +.wikinews.org
   - +.wikipedia.com
   - +.wikipedia.org

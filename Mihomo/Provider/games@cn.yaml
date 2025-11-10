@@ -1,5 +1,5 @@
-# 更新时间: 2025-11-10 08:44:46（北京时间）
-# 规则数量: 273
+# 更新时间: 2025-11-13 08:42:27（北京时间）
+# 规则数量: 272
 payload:
   - +.17roco.com
   - +.3304399.com
@@ -187,7 +187,6 @@ payload:
   - +.steampp.net
   - +.steamserver.net
   - +.steamusercontent.com
-  - +.supercell.com
   - +.supercellcommunity.cn
   - +.supercellsupport.cn
   - +.syxlgame.com

@@ -1,5 +1,5 @@
-# 更新时间: 2025-11-10 08:44:43（北京时间）
-# 规则数量: 1193
+# 更新时间: 2025-11-13 08:42:25（北京时间）
+# 规则数量: 1858
 payload:
   - +.1fichier.com
   - +.1fichier.info
@@ -43,6 +43,7 @@ payload:
   - +.crates.io
   - +.deb.debian.org
   - +.debian.map.fastlydns.net
+  - +.debian.petiak.ir
   - +.delivery.mp.microsoft.com
   - +.desktop.docker.com
   - +.digitaloceanspaces.com
@@ -91,37 +92,68 @@ payload:
   - +.mega.co.nz
   - +.mega.io
   - +.mega.nz
+  - +.mirror.ac.ke
   - +.mirror.ac.za
   - +.mirror.amaze.com.au
   - +.mirror.anlx.net
   - +.mirror.ba
+  - +.mirror.blendbyte.net
   - +.mirror.cdnetworks.com
   - +.mirror.choon.net
   - +.mirror.clarkson.edu
+  - +.mirror.coganng.com
   - +.mirror.colo-serv.net
   - +.mirror.constant.com
   - +.mirror.digionline.de
   - +.mirror.digitalpacific.com.au
   - +.mirror.edgeuno.com
+  - +.mirror.famaserver.com
+  - +.mirror.flokinet.net
+  - +.mirror.frontiernet.net
   - +.mirror.ftn.uns.ac.rs
   - +.mirror.garr.it
   - +.mirror.globo.tech
+  - +.mirror.gnc.am
   - +.mirror.gtcomm.net
+  - +.mirror.guzel.net.tr
+  - +.mirror.homacloud.ai
+  - +.mirror.intermax.nl
   - +.mirror.iphh.net
   - +.mirror.iweb.ca
   - +.mirror.iweb.com
+  - +.mirror.letscloud.io
+  - +.mirror.linux.ro
+  - +.mirror.liquidtelecom.com
+  - +.mirror.lrz.de
   - +.mirror.nl
   - +.mirror.noc.one
   - +.mirror.norbert-ruehl.de
+  - +.mirror.rackspace.com
   - +.mirror.rafal.ca
+  - +.mirror.rain.co.za
+  - +.mirror.root.lu
   - +.mirror.serveriai.lt
   - +.mirror.serversaustralia.com.au
+  - +.mirror.shastacoe.net
+  - +.mirror.tefexia.net
+  - +.mirror.thegigabit.com
   - +.mirror.triple-it.nl
+  - +.mirror.true.nl
+  - +.mirror.tudos.de
+  - +.mirror.uk.sargasso.net
   - +.mirror.vexxhost.com
+  - +.mirror.vhosting-it.com
   - +.mirror.vu.lt
+  - +.mirror.wearetriple.com
+  - +.mirror.web4u.cz
+  - +.mirror.zzunipark.com
+  - +.mirrors.blix.com
+  - +.mirrors.cicku.me
+  - +.mirrors.clouvider.net
   - +.mirrors.dotsrc.org
   - +.mirrors.hoobly.com
   - +.mirrors.ionfish.org
+  - +.mirrors.linux.ro
   - +.mirrors.lucidnetworks.net
   - +.mirrors.nublue.co.uk
   - +.mirrors.omnilance.com
@@ -132,6 +164,7 @@ payload:
   - +.mirrors.tds.net.org
   - +.mirrors.uk2.net
   - +.mirrors.utermux.dev
+  - +.mirrors.zagrio.net
   - +.mirrorservice.org
   - +.mm.fcix.net
   - +.mvnrepository.com
@@ -164,6 +197,7 @@ payload:
   - +.releases.hashicorp.com
   - +.repo.anaconda.com
   - +.repo.jing.rocks
+  - +.rsync.kr
   - +.s3-1.amazonaws.com
   - +.s3-accelerate.amazonaws.com
   - +.s3-accesspoint-fips.ca-central-1.amazonaws.com
@@ -473,12 +507,19 @@ payload:
   - +.swupdate.vray.com
   - +.temp.sh
   - +.tmpfiles.org
+  - +.ubuntu.csg.uzh.ch
+  - +.ubuntu.moon127.net
+  - +.ubuntu.nautile.nc
+  - +.ubuntu.petiak.ir
+  - +.ubuntumirror.dei.uc.pt
   - +.update.microsoft.com
   - +.vultrobjects.com
   - +.wup.eshop.nintendo.net
   - +.wup.shop.nintendo.net
   - +.yarnpkg.com
   - addins.deepl.com
+  - alpha-gnu-org.ip-connect.vn.ua
+  - alpha.gnu.org
   - amupdatedl.microsoft.com
   - amupdatedl2.microsoft.com
   - amupdatedl3.microsoft.com
@@ -519,9 +560,12 @@ payload:
   - apache.website-solution.net
   - api-updates.orbstack.dev
   - app-updates.agilebits.com
+  - apt.tetaneutral.net
   - apt.xpipe.io
   - archive.cs.uu.nl
+  - archive.g4t1.pro
   - archive.kali.org
+  - archive.linux.duke.edu
   - artifacts.electronjs.org
   - assets-production.packagecloud.io
   - assets1.xboxlive.com
@@ -540,7 +584,9 @@ payload:
   - boot.netboot.xyz
   - builds.paranoidandroid.co
   - builds.parsec.app
+  - bzip.org
   - c.1password.com
+  - ca.dyi.ng
   - cache.agilebits.com
   - cache.pack.google.com
   - cdimage.kali.org
@@ -559,14 +605,21 @@ payload:
   - cdn.opensuse.org
   - cdn.organicmaps.app
   - cdn.powershellgallery.com
+  - cdn.repo.cloudeka.id
+  - cdn.ubuntu.repo.cloudeka.id
   - cdn.winget.microsoft.com
   - cdn.zoom.us
   - cdnorg.d.miui.com
+  - centos-stream-distro.1gservers.com
+  - centos-stream.ip-connect.info
+  - centos-stream.koyanet.lv
+  - centos.anexia.at
+  - centos.is
+  - cesium.di.uminho.pt
   - charts.verdaccio.org
   - chnroutes2.cdn.skk.moe
   - cisco.yuntu.com.tw
   - ciscobinary.openh264.org
-  - clarkson.edu
   - client.hikarifield.co.jp
   - cloud.daporkchop.net
   - cloudfront.debian.net
@@ -619,12 +672,79 @@ payload:
   - ctan.yazd.ac.ir
   - ctldl.windowsupdate.com
   - d.myani.org
+  - dafi.inf.um.es
   - data.gameflare.com
-  - de.freedif.org
+  - deb-mir1.naitways.net
+  - deb.bbxnet.sk
+  - deb.campolargo.pr.gov.br
+  - deb.nextgen.ch
   - deb.nodesource.com
   - debian-archive.trafficmanager.net
+  - debian-mirror.behostings.net
+  - debian-mirror.puq.apoapsis.cl
+  - debian-mirror.sakura.ne.jp
+  - debian.a1.bg
+  - debian.anexia.at
+  - debian.apt-mirror.de
+  - debian.balt.net
+  - debian.c3sl.ufpr.br
+  - debian.carnet.hr
+  - debian.cc.lehigh.edu
+  - debian.ccns.ncku.edu.tw
+  - debian.charite.de
+  - debian.connesi.it
+  - debian.cs.binghamton.edu
+  - debian.cs.nycu.edu.tw
+  - debian.csail.mit.edu
+  - debian.csie.ntu.edu.tw
+  - debian.dynamica.it
+  - debian.ethz.ch
+  - debian.grena.ge
+  - debian.grn.cat
+  - debian.inf.tu-dresden.de
+  - debian.intergenia.de
+  - debian.interhost.co.il
+  - debian.ipacct.com
+  - debian.ipsys.bf
+  - debian.iskon.hr
+  - debian.koyanet.lv
+  - debian.lagis.at
+  - debian.linux.n0c.ca
+  - debian.lth.se
+  - debian.ludost.net
+  - debian.mithril.re
+  - debian.mnet.bg
+  - debian.mur.at
+  - debian.nautile.nc
+  - debian.netcologne.de
+  - debian.netforce.hosting
+  - debian.nic.cz
+  - debian.obspm.fr
+  - debian.osuosl.org
+  - debian.otenet.gr
+  - debian.polytech-lille.fr
+  - debian.pop-sc.rnp.br
+  - debian.proxad.net
+  - debian.redimadrid.es
+  - debian.repo.cure.edu.uy
+  - debian.sil.at
+  - debian.snt.utwente.nl
+  - debian.superhosting.cz
+  - debian.telecoms.bg
+  - debian.tu-bs.de
+  - debian.uchicago.edu
+  - debian.uevora.pt
+  - debian.univ-tlse2.fr
+  - debian.unnoba.edu.ar
+  - debian.uvigo.es
+  - debian.volia.net
+  - debian.web.trex.fi
+  - debian.xtdv.net
+  - dennou-k.gfd-dennou.org
+  - depot-debian.univ-reunion.fr
   - desktop.parallels.com
   - desktop.wifiman.com
+  - directory.fsf.org
   - disks.webvm.io
   - dist.blizzard.com
   - dist.creeper.host
@@ -710,6 +830,7 @@ payload:
   - download.pixelexperience.org
   - download.projectbluefin.io
   - download.proxyman.com
+  - download.savannah.gnu.org
   - download.sketch.com
   - download.snipaste.com
   - download.tensorflow.google.com
@@ -736,10 +857,12 @@ payload:
   - downloads.xrite.com
   - downloads2.broadcom.com
   - drive.massgrave.dev
+  - drmirror.physi.uni-heidelberg.de
   - dw.uptodown.net
   - edge.steam-dns.top.comcast.net
   - edgedl.me.gvt1.com
   - edgeupdates.microsoft.com
+  - elmirror.cl
   - enterprise.proxmox.com
   - epicgames-download1.akamaized.net
   - espejito.fder.edu.uy
@@ -750,8 +873,10 @@ payload:
   - files2.freedownloadmanager.org
   - filters.cdn.skk.moe
   - formulae.brew.sh
+  - fosszone.csd.auth.gr
   - fr2.rpmfind.net
-  - freedif.org
+  - free.hands.com
+  - free.nchc.org.tw
   - ftp-chi.osuosl.org
   - ftp-gnu-org.ip-connect.vn.ua
   - ftp-nyc.osuosl.org
@@ -761,245 +886,610 @@ payload:
   - ftp.agdsn.de
   - ftp.agh.edu.pl
   - ftp.aha.ru
+  - ftp.antik.sk
   - ftp.arnes.si
+  - ftp.at.debian.org
+  - ftp.au.debian.org
   - ftp.auckland.ac.nz
+  - ftp.be.debian.org
   - ftp.belnet.be
+  - ftp.bg.debian.org
+  - ftp.bme.hu
+  - ftp.br.debian.org
   - ftp.byfly.by
   - ftp.byfly.by.org
+  - ftp.ca.debian.org
+  - ftp.caliu.cat
   - ftp.carnet.hr
+  - ftp.cc.uoc.gr
+  - ftp.ch.debian.org
+  - ftp.cica.es
   - ftp.cixug.es
+  - ftp.cl.debian.org
+  - ftp.cn.debian.org
+  - ftp.corbina.net
   - ftp.cpan.org
   - ftp.cs.uu.nl
   - ftp.cse.buffalo.edu
+  - ftp.csuc.cat
   - ftp.cvut.cz
+  - ftp.cz.debian.org
+  - ftp.daum.net
+  - ftp.de.debian.org
+  - ftp.debian.cz
+  - ftp.debian.sk
+  - ftp.debianclub.org
+  - ftp.dei.uc.pt
+  - ftp.dk.debian.org
+  - ftp.ec-m.fr
+  - ftp.energotel.sk
   - ftp.eq.uc.pt
+  - ftp.es.debian.org
   - ftp.eutelia.it
   - ftp.fau.de
+  - ftp.fi.debian.org
   - ftp.fi.muni.cz
   - ftp.forthnet.gr
+  - ftp.fr.debian.org
   - ftp.fu-berlin.de
   - ftp.funet.fi
   - ftp.gnome.org
   - ftp.gnu.org
   - ftp.gnu.org.ua
+  - ftp.gtlib.gatech.edu
   - ftp.gust.org.pl
   - ftp.gwdg.de
   - ftp.halifax.rwth-aachen.de
   - ftp.harukasan.org
   - ftp.heanet.ie
+  - ftp.hk.debian.org
   - ftp.hosteurope.de
+  - ftp.hr.debian.org
   - ftp.icm.edu.pl
+  - ftp.iij.ad.jp
+  - ftp.iinet.net.au
+  - ftp.iitm.ac.in
   - ftp.is.co.za
+  - ftp.is.debian.org
+  - ftp.it.debian.org
   - ftp.jaist.ac.jp
+  - ftp.jp.debian.org
   - ftp.kaist.ac.kr
   - ftp.kddilabs.jp
   - ftp.kddlabs.co.jp
+  - ftp.klid.dk
   - ftp.kr.freebsd.org
   - ftp.ktug.org
+  - ftp.lanet.kr
   - ftp.leg.uct.ac.za
+  - ftp.linux.cz
+  - ftp.linux.edu.lv
+  - ftp.linux.it
+  - ftp.linux.org.tr
+  - ftp.linux.ro
   - ftp.lip6.fr
   - ftp.litnet.lt
+  - ftp.lt.debian.org
+  - ftp.ludd.ltu.se
   - ftp.lug.ro
+  - ftp.lysator.liu.se
   - ftp.man.poznan.pl
   - ftp.meisei-u.ac.jp
+  - ftp.mirror.tw
   - ftp.mpi-inf.mpg.de
   - ftp.mpi-sb.mpg.de
   - ftp.muug.ca
   - ftp.nara.wide.ad.jp
+  - ftp.nc.debian.org
+  - ftp.nl.debian.org
   - ftp.nluug.nl
+  - ftp.nsc.ru
   - ftp.ntua.gr
+  - ftp.nz.debian.org
   - ftp.osuosl.org
+  - ftp.otenet.gr
   - ftp.piotrkosoft.net
+  - ftp.pl.debian.org
   - ftp.ps.pl
+  - ftp.psn.ru
+  - ftp.psnc.pl
+  - ftp.pt.debian.org
   - ftp.rediris.es
+  - ftp.rezopole.net
   - ftp.riken.jp
+  - ftp.rnl.tecnico.ulisboa.pt
   - ftp.rpmfind.net
   - ftp.rrze.uni-erlangen.de
   - ftp.rrzn.uni-hannover.de
+  - ftp.ru.debian.org
+  - ftp.rz.tu-bs.de
   - ftp.rz.uni-wuerzburg.de
   - ftp.saix.net
+  - ftp.sakura.ad.jp
+  - ftp.se.debian.org
+  - ftp.sh.cvut.cz
+  - ftp.si.debian.org
+  - ftp.sk.debian.org
   - ftp.snt.utwente.nl
   - ftp.sotirov-bg.net
   - ftp.stu.edu.tw
+  - ftp.stw-bonn.de
   - ftp.sun.ac.za
   - ftp.surfnet.nl
   - ftp.task.gda.pl
   - ftp.tc.edu.tw
+  - ftp.ticklers.org
+  - ftp.tku.edu.tw
   - ftp.tsukuba.wide.ad.jp
   - ftp.tu-chemnitz.de
+  - ftp.tu-graz.ac.at
+  - ftp.tu-ilmenau.de
+  - ftp.tudelft.nl
+  - ftp.tw.debian.org
   - ftp.twaren.net
   - ftp.u-aizu.ac.jp
+  - ftp.u-picardie.fr
+  - ftp.u-strasbg.fr
+  - ftp.ubuntu-tw.net
   - ftp.ubuntu-tw.org
+  - ftp.udc.es
+  - ftp.udx.icscoe.jp
+  - ftp.uk.debian.org
+  - ftp.uni-bayreuth.de
+  - ftp.uni-hannover.de
+  - ftp.uni-kl.de
+  - ftp.uni-mainz.de
+  - ftp.uni-sofia.bg
+  - ftp.uni-stuttgart.de
   - ftp.unicamp.br
+  - ftp.uninett.no
+  - ftp.univ-pau.fr
+  - ftp.upjs.sk
+  - ftp.us.debian.org
+  - ftp.usf.edu
   - ftp.ussg.iu.edu
+  - ftp.uvigo.es
   - ftp.wayne.edu
   - ftp.wrz.de
   - ftp.yz.yamagata-u.ac.jp
+  - ftp.zcu.cz
   - ftp1.nluug.nl
   - ftp2.nluug.nl
+  - ftp5.gwdg.de
   - ftpdownloads.broadcom.com
   - ftpmirror.gnu.org
+  - ftpmirror.your.org
   - ftpmirror1.infania.net
+  - ftpserv.tudelft.nl
   - gamedownloads-rockstargames-com.akamaized.net
   - get.pixelexperience.org
   - ghfast.top
   - ghgo.xyz
   - ghp.ci
+  - giano.com.dist.unige.it
   - gimp.astra.in.ua
   - gimp.ca
   - gimp.ip-connect.info
   - gimp.ip-connect.vn.ua
+  - glua.ua.pt
   - gnu.askapache.com
   - gnu.c3sl.ufpr.br
   - gnu.freemirror.org
+  - gnualpha.uib.no
   - gnuftp.uib.no
   - go-updater.brave.com
   - gog-cdn-fastly-cp77.gog.com
   - gog-cdn-fastly.gog.com
   - gopkg.in
-  - gwdg.de
+  - gpl.savoirfairelinux.net
   - http.kali.org
+  - http.krfoss.org
   - httpd-mirror.sergal.org
   - i18n.prismlauncher.org
-  - icm.edu.pl
   - index.rubygems.org
   - install.virtfusion.net
   - invent.kde.org
-  - it.apache.contactlab.it
+  - ir.ubuntu.sindad.cloud
   - iterm2.com
   - jing.rocks
+  - kambing.uu.sg
   - kartolo.sby.datautama.net.id
   - kde.c3sl.ufpr.br
   - kde.cu.be
   - kde.ip-connect.vn.ua
-  - kr.freebsd.org
+  - kebo.pens.ac.id
+  - kebo.vlsm.org
+  - labs.eif.urjc.es
   - launcher.mojang.com
+  - lethe.chinstrap.org
   - level3.blizzard.com
   - lib.ugent.be
   - libraries.minecraft.net
+  - lidsol.fi-b.unam.mx
   - linorg.usp.br
-  - lip6.fr
-  - lysator.liu.se
+  - linux-mirrors.fnal.gov
+  - linux.domainesia.com
+  - linux.purple-cat.net
+  - linux.yz.yamagata-u.ac.jp
+  - linuxsoft.cern.ch
+  - lug.mines.edu
+  - lzip.nongnu.org
   - mac-release-static.stash.ws
-  - marwan.ma
   - maven.fabricmc.net
   - maven.google.com
   - maven.is-quite.gay
   - maven.neoforged.net
   - mediafilez.forgecdn.net
+  - merlin.fit.vutbr.cz
   - meta.omaps.app
   - meta.prismlauncher.org
+  - mir.linux.kg
+  - miroir.univ-lorraine.fr
   - mirror-cdn.xtom.com
+  - mirror-gw.elastis.id
   - mirror-hk.koddos.net
+  - mirror-mk.interspace.com
+  - mirror.0-1.cloud
+  - mirror.01link.hk
   - mirror.0x.sg
+  - mirror.0x626b.com
+  - mirror.23m.com
   - mirror.23media.de
+  - mirror.2degrees.nz
+  - mirror.5i.fi
+  - mirror.a1.mk
   - mirror.aarnet.edu.au
   - mirror.accum.se
+  - mirror.aktkn.sg
+  - mirror.alastyr.com
+  - mirror.alwyzon.net
   - mirror.amberit.com.bd
+  - mirror.aminidc.com
+  - mirror.ams.macarne.com
+  - mirror.amscloud.co.id
+  - mirror.anigil.com
   - mirror.apache-kr.org
   - mirror.apad.pro
+  - mirror.applebred.net
+  - mirror.aptus.co.tz
+  - mirror.arizona.edu
+  - mirror.arvancloud.ir
+  - mirror.as.kamatera.com
+  - mirror.as24220.net
+  - mirror.as29550.net
+  - mirror.as35701.net
   - mirror.as43289.net
+  - mirror.ati.tn
   - mirror.aut.ac.nz
+  - mirror.azvps.vn
+  - mirror.bacloud.com
+  - mirror.bahnhof.net
+  - mirror.battern.eu
+  - mirror.bg.host.ag
+  - mirror.bgp.rodeo
+  - mirror.bharatdatacenter.com
   - mirror.bibleonline.ru
+  - mirror.bizflycloud.vn
   - mirror.biznetgio.com
+  - mirror.blue3.com.br
   - mirror.bom.albony.in
   - mirror.bom2.albony.in
+  - mirror.braindrainlan.nu
+  - mirror.brightridge.com
   - mirror.bytemark.co.uk
+  - mirror.ca-tr.kamatera.com
   - mirror.cat.net
   - mirror.cc.columbia.edu
+  - mirror.cc.vt.edu
   - mirror.cedia.org.ec
   - mirror.checkdomain.de
+  - mirror.chmuri.net
+  - mirror.citrahost.com
+  - mirror.clearsky.vn
   - mirror.clientvps.com
+  - mirror.cloudhosting.lv
   - mirror.cogentco.com
+  - mirror.corbina.net
+  - mirror.cov.ukservers.com
+  - mirror.cpsc.ucalgary.ca
+  - mirror.creoline.net
+  - mirror.cs.jmu.edu
+  - mirror.cs.odu.edu
   - mirror.csclub.uwaterloo.ca
+  - mirror.cse.iitk.ac.in
+  - mirror.cyberbits.asia
   - mirror.cyberbits.eu
+  - mirror.cyberchains.org
+  - mirror.d.umn.edu
+  - mirror.dal.nexril.net
+  - mirror.daniel-jost.net
+  - mirror.datacenter.az
   - mirror.datacenter.by
+  - mirror.datacenter.mn
+  - mirror.datamossa.io
   - mirror.datapipe.net
+  - mirror.dc.uz
   - mirror.de.leaseweb.net
+  - mirror.debian.ikoula.com
   - mirror.del.albony.in
+  - mirror.dewabiz.com
+  - mirror.digitaloceans.dev
+  - mirror.djvg.sg
   - mirror.dkm.cz
+  - mirror.docker.ru
   - mirror.dogado.de
+  - mirror.domainhizmetleri.com
   - mirror.downloadvn.com
   - mirror.dsrg.utoronto.ca
+  - mirror.dst.ca
+  - mirror.duocast.net
   - mirror.easyname.at
   - mirror.easyname.ch
+  - mirror.efect.ro
+  - mirror.ekiphost.com
+  - mirror.elice.io
+  - mirror.eliv.digital
+  - mirror.enzu.com
+  - mirror.esecuredata.com
+  - mirror.estone.ca
+  - mirror.eu-fr.kamatera.com
+  - mirror.eu-lo.kamatera.com
+  - mirror.eu.4psacloud.com
+  - mirror.eu.kamatera.com
+  - mirror.eu.oneandone.net
   - mirror.evowise.com
+  - mirror.facebook.net
+  - mirror.faraso.org
   - mirror.fcix.net
+  - mirror.fi.ossplanet.net
+  - mirror.fjordos.com
+  - mirror.flo.c-f.ro
   - mirror.freedif.org
+  - mirror.freethought-internet.co.uk
+  - mirror.fsmg.org.nz
+  - mirror.fst.kz
   - mirror.funkfreundelandshut.de
   - mirror.ghproxy.com
+  - mirror.gi.co.id
+  - mirror.gofoss.xyz
+  - mirror.gotmyhost.com
+  - mirror.greennet.gl
+  - mirror.grid.uchicago.edu
+  - mirror.group.one
+  - mirror.gsl.icu
+  - mirror.hashy0917.net
+  - mirror.hep.gg
+  - mirror.hnd.cl
+  - mirror.hoobly.com
   - mirror.host.ag
+  - mirror.hostafrica.co.za
+  - mirror.hoster.kz
+  - mirror.hosthink.net
+  - mirror.hostiko.network
   - mirror.hosting90.cz
+  - mirror.hostnet.nl
   - mirror.hs-esslingen.de
+  - mirror.hyperdedic.ru
+  - mirror.i3d.net
   - mirror.ibcp.fr
+  - mirror.ietlucknow.ac.in
+  - mirror.ihost.md
+  - mirror.il-ha.kamatera.com
+  - mirror.il-pt.kamatera.com
+  - mirror.il-rh.kamatera.com
+  - mirror.il-ta.kamatera.com
+  - mirror.il.kamatera.com
+  - mirror.improve.nordlo.cloud
+  - mirror.imt-systems.com
+  - mirror.in2p3.fr
+  - mirror.infomaniak.ch
   - mirror.informatik.hs-fulda.de
+  - mirror.informatik.tu-freiberg.de
+  - mirror.init7.net
   - mirror.inode.at
+  - mirror.insacom.cl
   - mirror.intergrid.com.au
+  - mirror.internet.asn.au
   - mirror.internode.on.net
+  - mirror.ipb.de
+  - mirror.iranserver.com
   - mirror.is.co.za
+  - mirror.isoc.org.il
+  - mirror.it.ubc.ca
+  - mirror.it4i.cz
+  - mirror.its-tps.fr
   - mirror.its.dal.ca
+  - mirror.its.umich.edu
+  - mirror.iway.ch
+  - mirror.ixirhost.com
   - mirror.jax.hugeserver.com
+  - mirror.jeonnam.school
+  - mirror.johnnybegood.fr
   - mirror.kakao.com
+  - mirror.kamp.de
+  - mirror.kapteyan.com.tr
   - mirror.karneval.cz
+  - mirror.katapult.io
+  - mirror.keiminem.com
+  - mirror.kernel.ir
   - mirror.keystealth.org
+  - mirror.kkg.berlin
+  - mirror.kku.ac.th
   - mirror.klaus-uwe.me
   - mirror.koddos.net
+  - mirror.kpfu.ru
+  - mirror.krfoss.org
   - mirror.kumi.systems
   - mirror.lagoon.nc
   - mirror.las.iastate.edu
+  - mirror.lc
+  - mirror.lchost.net
   - mirror.leitecastro.com
+  - mirror.library.ucy.ac.cy
+  - mirror.limda.net
+  - mirror.linkdata.com
   - mirror.linux-ia64.org
-  - mirror.liquidtelecom.com
+  - mirror.linux.ncsu.edu
+  - mirror.linux.org.au
+  - mirror.liquidrp.de
+  - mirror.litnet.lt
+  - mirror.logol.ru
   - mirror.low-orbit.net
   - mirror.lyrahosting.com
   - mirror.macomnet.net
+  - mirror.maeen.sa
+  - mirror.mangohost.net
+  - mirror.marcusn.net
   - mirror.marwan.ma
+  - mirror.math.princeton.edu
+  - mirror.math.ucdavis.edu
+  - mirror.mci-1.serverforge.org
+  - mirror.mephi.ru
   - mirror.metanet.ch
   - mirror.metrocast.net
+  - mirror.mia.velocihost.net
+  - mirror.mirohost.net
+  - mirror.mrjester.net
+  - mirror.mvizn.com
+  - mirror.mythic-beasts.com
   - mirror.navercorp.com
   - mirror.nbtelecom.com.br
+  - mirror.neftm.ru
+  - mirror.neolabs.kz
   - mirror.netcologne.de
   - mirror.netcologne.de.org
-  - mirror.netinch.com
+  - mirror.netone.nl
+  - mirror.netsite.dk
+  - mirror.netspace.net.au
+  - mirror.netzwerge.de
+  - mirror.nevacloud.com
+  - mirror.nforce.com
+  - mirror.niif.hu
+  - mirror.nishi.network
+  - mirror.nitc.ac.in
+  - mirror.nl.altushost.com
+  - mirror.nl.as215296.net
+  - mirror.nl.cdn-perfprod.com
+  - mirror.nl.datapacket.com
   - mirror.nl.leaseweb.net
+  - mirror.nodesdirect.com
   - mirror.nohup.it
   - mirror.novg.net
+  - mirror.nus.edu.sg
   - mirror.nyi.net
   - mirror.olnevhost.net
+  - mirror.one.com
   - mirror.ossplanet.net
+  - mirror.ourhost.az
+  - mirror.overthewire.com.au
   - mirror.ox.ac.uk
+  - mirror.papua.go.id
   - mirror.physik-pool.tu-berlin.de
+  - mirror.pilotfiber.com
+  - mirror.pit.teraswitch.com
+  - mirror.plusline.net
+  - mirror.plusserver.com
+  - mirror.pmf.kg.ac.rs
   - mirror.pop-sc.rnp.br
+  - mirror.positive-internet.com
   - mirror.pregi.net
+  - mirror.previder.nl
   - mirror.ps.kz
+  - mirror.raiolanetworks.com
+  - mirror.rcg.sfu.ca
+  - mirror.realcompute.io
+  - mirror.reenigne.net
+  - mirror.renu.ac.ug
+  - mirror.retentionrange.co.bw
   - mirror.reverse.net
   - mirror.rise.ph
   - mirror.rit.edu
   - mirror.rol.ru
+  - mirror.rustytel.net
+  - mirror.sabay.com.kh
   - mirror.sbb.rs
+  - mirror.scaleuptech.com
+  - mirror.servaxnet.com
+  - mirror.server.net
   - mirror.serverion.com
+  - mirror.serverloft.eu
+  - mirror.sg.gs
+  - mirror.sh.com.tr
+  - mirror.siati.ch
+  - mirror.siena.edu
+  - mirror.sinavps.ch
+  - mirror.sitsa.com.ar
+  - mirror.siwoo.org
   - mirror.softaculous.com
+  - mirror.solnet.ch
+  - mirror.solnode.io
+  - mirror.soonkeat.sg
   - mirror.sov.uk.goscomb.net
   - mirror.squ.edu.om
   - mirror.stjschools.org
   - mirror.switch.ch
   - mirror.szerverem.hu
+  - mirror.t-home.mk
   - mirror.team-cymru.com
   - mirror.team-cymru.org
+  - mirror.team-host.ru
+  - mirror.techlabs.co.kr
+  - mirror.telepoint.bg
+  - mirror.thunderhosting.cloud
+  - mirror.timeweb.ru
+  - mirror.timkevin.us
+  - mirror.tngnet.com
   - mirror.tochlab.net
   - mirror.transip.net
   - mirror.truenetwork.ru
   - mirror.twds.com.tw
+  - mirror.ubuntu.ikoula.com
+  - mirror.ubuntu.serverforge.org
+  - mirror.uchile.cl
   - mirror.ucu.ac.ug
+  - mirror.uepg.br
+  - mirror.ufam.edu.br
+  - mirror.ufro.cl
   - mirror.ufs.ac.za
+  - mirror.ufscar.br
   - mirror.uic.edu
+  - mirror.ukrnames.com
   - mirror.umd.edu
+  - mirror.unair.ac.id
+  - mirror.unesp.br
+  - mirror.unet.by
+  - mirror.unimagdalena.edu.co
+  - mirror.united-gameserver.de
+  - mirror.units.it
+  - mirror.unix-solutions.be
   - mirror.unpad.ac.id
   - mirror.uoregon.edu
   - mirror.us-midwest-1.nexcess.net
+  - mirror.us-ny2.kamatera.com
+  - mirror.us-sc.kamatera.com
+  - mirror.us-tx.kamatera.com
+  - mirror.us.leaseweb.net
+  - mirror.us.mirhosting.net
+  - mirror.us.oneandone.net
+  - mirror.usi.edu
+  - mirror.vcu.edu
+  - mirror.veesp.com
   - mirror.ventraip.net.au
+  - mirror.verinomi.com
+  - mirror.vietnix.vn
+  - mirror.viettelcloud.vn
+  - mirror.vinehost.net
+  - mirror.virtury.com
+  - mirror.visiontech.com.bd
+  - mirror.vnet.sk
   - mirror.vorboss.net
+  - mirror.vpgrp.io
+  - mirror.vpsnet.com
   - mirror.webtastix.net
+  - mirror.webworld.ie
+  - mirror.wtnet.de
+  - mirror.xenyth.net
+  - mirror.xeonbd.com
   - mirror.xmission.com
   - mirror.xtom.au
   - mirror.xtom.com
@@ -1014,48 +1504,116 @@ payload:
   - mirror.yandex.ru
   - mirror.yannic-bonenberger.com
   - mirror.yer.az
+  - mirror.yuki.net.uk
+  - mirror.za.abantu.cloud
   - mirror.za.web4africa.net
+  - mirror1.hs-esslingen.de
+  - mirror1.infomaniak.com
+  - mirror1.ku.ac.th
+  - mirror1.sox.rs
+  - mirror1.totbb.net
   - mirror2.evolution-host.com
+  - mirror2.infomaniak.com
+  - mirror2.tuxinator.org
   - mirrorbits.lineageos.org
+  - mirrors-ubuntu.behostings.com
+  - mirrors.accretive-networks.net
   - mirrors.advancedhosters.com
   - mirrors.ae-online.de
   - mirrors.aliyun.com
+  - mirrors.arpnetworks.com
+  - mirrors.asnet.am
+  - mirrors.atlas.net.co
+  - mirrors.bangmod.cloud
+  - mirrors.binaryracks.com
+  - mirrors.bkns.vn
+  - mirrors.bloomu.edu
+  - mirrors.bmcc.edu
+  - mirrors.c0urier.net
   - mirrors.cat.net
+  - mirrors.cat.pdx.edu
+  - mirrors.centos.behostings.net
+  - mirrors.chroot.ro
+  - mirrors.cloudforest.co.th
+  - mirrors.cmich.edu
+  - mirrors.codec-cluster.org
   - mirrors.concertpass.com
   - mirrors.coreix.net
+  - mirrors.datapark.ro
+  - mirrors.dc.clear.net.ar
   - mirrors.de.sahilister.net
   - mirrors.edge.kernel.org
+  - mirrors.egr.msu.edu
+  - mirrors.esto.network
+  - mirrors.evoluso.com
   - mirrors.evowise.com
   - mirrors.fedoraproject.org
+  - mirrors.fibianet.dk
+  - mirrors.gbnetwork.com
   - mirrors.gethosted.online
   - mirrors.gigenet.com
+  - mirrors.glesys.net
+  - mirrors.gofiber.vn
+  - mirrors.hopbox.net
+  - mirrors.hosterion.ro
+  - mirrors.hostico.ro
   - mirrors.hostingromania.ro.org
+  - mirrors.hostiserver.com
   - mirrors.ibiblio.org
+  - mirrors.ic.unicamp.br
+  - mirrors.iitd.ac.in
+  - mirrors.ipserverone.com
   - mirrors.ircam.fr
   - mirrors.iu13.net
   - mirrors.kernel.org
+  - mirrors.layeronline.com
   - mirrors.linux-bulgaria.org
+  - mirrors.liquidweb.com
+  - mirrors.lug.mtu.edu
   - mirrors.m247.ro
+  - mirrors.maine.edu
+  - mirrors.melbourne.co.uk
+  - mirrors.middlendian.com
   - mirrors.mit.edu
   - mirrors.mivocloud.com
   - mirrors.myaegean.gr
   - mirrors.nav.ro
+  - mirrors.nepalicloud.com
   - mirrors.neterra.net
   - mirrors.netix.net
+  - mirrors.nhanhoa.com
   - mirrors.nic.cz
+  - mirrors.nxtgen.com
   - mirrors.nxthost.com
   - mirrors.ocf.berkeley.edu
+  - mirrors.opensource.is
+  - mirrors.pardisco.co
+  - mirrors.pidginhost.com
+  - mirrors.powernet.com.ru
+  - mirrors.ptisp.pt
   - mirrors.rackhosting.com
   - mirrors.rit.edu
   - mirrors.rpmfusion.org
+  - mirrors.sarak.as
   - mirrors.sarata.com
   - mirrors.saswata.cc
   - mirrors.sonic.net
   - mirrors.standaloneinstaller.com
+  - mirrors.storpool.com
+  - mirrors.teamcloud.am
+  - mirrors.tino.org
+  - mirrors.ubuntu.dimit.cloud
   - mirrors.ucr.ac.cr
   - mirrors.ukfast.co.uk
   - mirrors.up.pt
+  - mirrors.upr.edu
+  - mirrors.us.kernel.org
+  - mirrors.usinternet.com
+  - mirrors.vcea.wsu.edu
+  - mirrors.webhs.pt
   - mirrors.whoishostingthis.com
+  - mirrors.wikimedia.org
+  - mirrors.xmission.com
   - mirrors.xmissions.com
   - mirrors.xservers.ro
   - mirrors.xtom.au
@@ -1069,6 +1627,7 @@ payload:
   - mirrors.xtom.sg
   - mirrors.xtom.us
   - mirrors.yuntu.com.tw
+  - mr.heru.id
   - msdl.microsoft.com
   - muug.ca
   - nobara-images.nobaraproject.org
@@ -1078,16 +1637,20 @@ payload:
   - officecdn-microsoft-com.akamaized.net
   - officecdnmac.microsoft.com
   - onepluscommunityserver.com
+  - opensource.nchc.org.tw
+  - opensource.xtdv.net
   - opfiles.b-cdn.net
   - origin-a.akamaihd.net
   - os-cdn.virtfusion.net
   - osl.ugr.es
   - oss-binaries.phusionpassenger.com
   - oss.ypt.com
+  - ossmirror.mycloud.services
   - ota-cache1.googlezip.net
   - ota.googlezip.net
   - packagecloud.io
   - packages-cf.termux.dev
+  - packages.hs-regensburg.de
   - packages.httpie.io
   - packages.linuxmint.com
   - packages.microsoft.com
@@ -1096,20 +1659,24 @@ payload:
   - packages.virtfusion.net
   - packagespc.xboxlive.com
   - pf-cdn-content-prod.azureedge.net
-  - piotrkosoft.net
   - piston-data.mojang.com
   - piston-meta.mojang.com
   - pkg-containers.githubusercontent.com
+  - pkg.adfinis-on-exoscale.ch
+  - pkg.adfinis.com
   - pkg.cloudflare.com
   - pkg.cloudflareclient.com
   - pkgs.netbird.io
   - pkgs.tailscale.com
   - playwright-akamai.azureedge.net
   - playwright.azureedge.net
+  - plug-mirror.rcac.purdue.edu
   - plugins-artifacts.gradle.org
   - ppa.launchpad.net
   - product-downloads.atlassian.com
   - proxy.golang.org
+  - pubmirror.plutex.de
+  - pubmirrors.dal.corespace.com
   - quantum-mirror.hu
   - redstone-launcher.mojang.com
   - registry-1.docker.io
@@ -1127,31 +1694,51 @@ payload:
   - releases.stash.ws
   - releases.warp.dev
   - releases.whatpulse.org
+  - rep-ubuntu-il.upress.io
   - replicate.npmjs.com
   - repo.carbon.sh
   - repo.debiancn.org
+  - repo.extreme-ix.org
   - repo.gradle.org
   - repo.hex.pm
+  - repo.ialab.dsu.edu
+  - repo.ifca.es
+  - repo.iut.ac.ir
+  - repo.jztkft.hu
+  - repo.linuxmirrors.ir
   - repo.maven.apache.org
+  - repo.morgan.kr
   - repo.nextdns.io
   - repo.powerdns.com
   - repo.sleeping.town
+  - repo.ugm.ac.id
+  - repo.usk.ac.id
   - repo1.maven.org
+  - repo2.shinjiru.com
+  - repos.del.extreme-ix.org
+  - repos.interior.edu.uy
   - repository.jboss.org
   - repository.su
   - rpm.xpipe.io
+  - rsync-linuxsoft.cern.ch
+  - rsync.fjordos.com
+  - rsync.gtlib.gatech.edu
+  - rsync.icm.edu.pl
+  - rsync.udc.es
+  - rsync.uni-bayreuth.de
+  - rsync.yuki.net.uk
   - rubygems.org
   - ruleset.skk.moe
   - s3.teckids.org
   - searchcpan.org
   - security.debian.org
   - security.ubuntu.com
-  - sh.cvut.cz
+  - sft.if.usp.br
+  - sg-mirrors.vhost.vn
   - share.riseup.net
   - skimdb.npmjs.com
-  - snt.utwente.nl
+  - softlibre.unizar.es
   - softwareupdate.pilotmoon.com
-  - sotirov-bg.net
   - speedtest-net-servers.cdn.skk.moe
   - static.adguard.com
   - static.adtidy.org
@@ -1170,10 +1757,80 @@ payload:
   - su.virtualbuddy.app
   - sunsite.icm.edu.pl
   - sunsite.informatik.rwth-aachen.de
+  - suro.ubaya.ac.id
+  - suse.uni-leipzig.de
   - textures.minecraft.net
   - tug.ctan.org
+  - tug.org
+  - tukaani.org
   - tux.rainside.sk
   - u.keka.io
+  - ubuntu-archive.interhost.co.il
+  - ubuntu-archive.locaweb.com.br
+  - ubuntu-mirror.ati.tn
+  - ubuntu-mirror.bhtelecom.ba
+  - ubuntu-mirror.kimiahost.com
+  - ubuntu-mirror.puq.apoapsis.cl
+  - ubuntu-mirror.snu.edu.in
+  - ubuntu.anexia.at
+  - ubuntu.avalicense.com
+  - ubuntu.btit.nz
+  - ubuntu.c3sl.ufpr.br
+  - ubuntu.ccns.ncku.edu.tw
+  - ubuntu.cica.es
+  - ubuntu.cs.nctu.edu.tw
+  - ubuntu.cs.utah.edu
+  - ubuntu.dcc.fc.up.pt
+  - ubuntu.dts.mg
+  - ubuntu.ethz.ch
+  - ubuntu.gjolly.dev
+  - ubuntu.grad.hr
+  - ubuntu.grena.ge
+  - ubuntu.grn.cat
+  - ubuntu.hi.no
+  - ubuntu.hysing.is
+  - ubuntu.ip-connect.vn.ua
+  - ubuntu.ipacct.com
+  - ubuntu.koyanet.lv
+  - ubuntu.lafibre.info
+  - ubuntu.lagis.at
+  - ubuntu.lagoon.nc
+  - ubuntu.letscloud.io
+  - ubuntu.linux-bg.org
+  - ubuntu.linux.n0c.ca
+  - ubuntu.man.lodz.pl
+  - ubuntu.mobinhost.com
+  - ubuntu.mti.mt.gov.br
+  - ubuntu.netforce.hosting
+  - ubuntu.org.ua
+  - ubuntu.osuosl.org
+  - ubuntu.otenet.gr
+  - ubuntu.pars.host
+  - ubuntu.parsvds.com
+  - ubuntu.phoenixnap.com
+  - ubuntu.pishgaman.net
+  - ubuntu.repo.cure.edu.uy
+  - ubuntu.rootlicense.com
+  - ubuntu.securedservers.com
+  - ubuntu.servering.info
+  - ubuntu.syxpi.fr
+  - ubuntu.task.gda.pl
+  - ubuntu.tuxuri.com
+  - ubuntu.ucr.ac.cr
+  - ubuntu.uib.no
+  - ubuntu.unc.edu.ar
+  - ubuntu.uni-klu.ac.at
+  - ubuntu.univ-nantes.fr
+  - ubuntu.univ-reims.fr
+  - ubuntu.uvigo.es
+  - ubuntu.volia.net
+  - ubuntu.vpsttt.com
+  - ubuntu.web.trex.fi
+  - ubuntu.zero.com.ar
+  - ubuntutym.u-toyama.ac.jp
+  - ucho.ignum.cz
+  - ucmirror.canterbury.ac.nz
+  - ulises.hostalia.com
   - update.code.visualstudio.com
   - update.cyberduck.io
   - update.googleapis.com
@@ -1185,11 +1842,19 @@ payload:
   - updates.bravesoftware.com
   - updates.edovia.com
   - updates.istatmenus.app
+  - us.dyi.ng
   - versioncheck-bg.addons.mozilla.org
   - versioncheck.addons.mozilla.org
   - vesta.informatik.rwth-aachen.de
   - vfat.classicreload.com
+  - vn-mirrors.techhost.vn
+  - vn-mirrors.vhost.vn
   - www-ftp.lip6.fr
+  - www.club.cc.cmu.edu
+  - www.gnu.org
+  - www.gnupg.org
+  - www.gtlib.gatech.edu
+  - www.gutscheinrausch.de
   - www2.aomeisoftware.com
   - xenia.sote.hu
   - xvcf1.xboxlive.com

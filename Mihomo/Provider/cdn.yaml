@@ -1,5 +1,5 @@
-# 更新时间: 2025-11-10 08:44:40（北京时间）
-# 规则数量: 4024
+# 更新时间: 2025-11-13 08:42:21（北京时间）
+# 规则数量: 4036
 payload:
   - +.1a-1791.com
   - +.1passwordusercontent.ca
@@ -262,6 +262,7 @@ payload:
   - +.design-system.economist.com
   - +.devrum.uptime.com
   - +.dilcdn.com
+  - +.directupload.net
   - +.disconnect.me
   - +.discourse-cdn.com
   - +.disquscdn.com
@@ -289,6 +290,7 @@ payload:
   - +.dwcdn.net
   - +.dweb.eu.org
   - +.dweb.link
+  - +.dwncdn.net
   - +.dynamic-static-assets.com
   - +.e.crashlytics.com
   - +.easylist.to
@@ -461,6 +463,7 @@ payload:
   - +.imageban.ru
   - +.imagedelivery.net
   - +.imagehub.cc
+  - +.images-amazon.com
   - +.images-dnxlive.com
   - +.images-iherb.com
   - +.images.androeed.ru
@@ -597,6 +600,7 @@ payload:
   - +.line-scdn.net
   - +.live-video.net
   - +.livemediahost.com
+  - +.lllcdn.autos
   - +.local.webcontainer.io
   - +.localizecdn.com
   - +.locimg.com
@@ -946,6 +950,7 @@ payload:
   - +.swiftypecdn.com
   - +.sxccdn.com
   - +.szjal.cn
+  - +.t8cdn.com
   - +.tapecontent.net
   - +.targetimg1.com
   - +.tauri.app
@@ -1131,6 +1136,7 @@ payload:
   - ak.sail-horizon.com
   - akamai-assets.squarespace.com
   - akamai-origin.myanimelist.net
+  - alcdn.msauth.net
   - alt.idgesg.net
   - amazon-omni-cdn.com
   - amp.akamaized.net
@@ -1239,7 +1245,6 @@ payload:
   - assets.cello.so
   - assets.change.org
   - assets.chaos.social
-  - assets.chess24.com
   - assets.clever-cloud.com
   - assets.clickfunnels.com
   - assets.cloudpilot.ai
@@ -1257,7 +1262,6 @@ payload:
   - assets.dnsfilter.com
   - assets.documentcloud.org
   - assets.dub.co
-  - assets.dwncdn.net
   - assets.ecomm.ui.com
   - assets.embeddables.com
   - assets.euractiv.com
@@ -1325,6 +1329,7 @@ payload:
   - assets.plurk.com
   - assets.polarbyte.com
   - assets.poool.fr
+  - assets.porndig.com
   - assets.positional-bucket.com
   - assets.prowritingaid.com
   - assets.queue-it.net
@@ -1497,7 +1502,10 @@ payload:
   - cc-embed.adobe.com
   - cc.boyfriendtv.com
   - cdn-1.ggjav.com
+  - cdn-1.porn87.com
   - cdn-1.strava.com
+  - cdn-2.porn87.com
+  - cdn-3.porn87.com
   - cdn-a.sonyentertainmentnetwork.com
   - cdn-app.cart-bot.net
   - cdn-app.pathfactory.com
@@ -1543,6 +1551,7 @@ payload:
   - cdn-service.jp.sumologic.com
   - cdn-share-sprites.flaticon.com
   - cdn-static-1.medium.com
+  - cdn-static-push.porndig.com
   - cdn-static.paw.cloud
   - cdn-static.talent.com
   - cdn-swell-assets.yotpo.com
@@ -1568,7 +1577,6 @@ payload:
   - cdn.adsninja.ca
   - cdn.aimerce.ai
   - cdn.amcharts.com
-  - cdn.amh.moe
   - cdn.announcekit.app
   - cdn.answeroverflow.com
   - cdn.app.fossa.com
@@ -1606,7 +1614,6 @@ payload:
   - cdn.cfr.org
   - cdn.changelog.com
   - cdn.channel.io
-  - cdn.chess24.com
   - cdn.circle.so
   - cdn.clever-cloud.com
   - cdn.cliqz.com
@@ -1719,6 +1726,7 @@ payload:
   - cdn.icon-icons.com
   - cdn.iconfinder.com
   - cdn.imageengine.io
+  - cdn.imago-images.com
   - cdn.img.ly
   - cdn.infoq.com
   - cdn.insightmediagroup.io
@@ -1751,6 +1759,7 @@ payload:
   - cdn.libravatar.org
   - cdn.lihkg.com
   - cdn.linearicons.com
+  - cdn.lineicons.com
   - cdn.livechatinc.com
   - cdn.logbase.io
   - cdn.login.unity.com
@@ -1771,6 +1780,7 @@ payload:
   - cdn.miohentai.com
   - cdn.missav.com
   - cdn.modrinth.com
+  - cdn.moeload.com
   - cdn.music.com
   - cdn.myanimelist.net
   - cdn.myfonts.net
@@ -1843,6 +1853,7 @@ payload:
   - cdn.road.cc
   - cdn.robinpro.gallery
   - cdn.roboflow.com
+  - cdn.roof.ai
   - cdn.royaleapi.com
   - cdn.safecharge.com
   - cdn.sanity.io
@@ -1923,7 +1934,6 @@ payload:
   - cdn.vector.co
   - cdn.verifypass.com
   - cdn.viafoura.net
-  - cdn.vidible.tv
   - cdn.vidyard.com
   - cdn.viglink.com
   - cdn.violet.vin
@@ -2146,7 +2156,6 @@ payload:
   - consumersite-assets.trustpilot.net
   - consumersiteimages.trustpilot.net
   - content-a.strava.com
-  - content-cdn.y2mate.com
   - content-management-files.canva.com
   - content-prod-live.cert.starbucks.com
   - content.any.run
@@ -2312,6 +2321,8 @@ payload:
   - fast.wistia.com
   - fast.wistia.net
   - fastly-cloud.typenetwork.com
+  - fastly-gce.allmovie.com
+  - fastly-s3.allmovie.com
   - fastporndelivery.hqporner.com
   - favicon.pirsch.io
   - favicon.yandex.net
@@ -2491,6 +2502,7 @@ payload:
   - ih3.redbubble.net
   - ik.imgkit.net
   - imag.malavida.com
+  - image-cdn.porndig.com
   - image-forwarder.notaku.so
   - image-stgus.samsung.com
   - image-us.samsung.com
@@ -2602,7 +2614,6 @@ payload:
   - images.typeform.com
   - images.unsplash.com
   - images.videolan.org
-  - images.voguehk.com
   - images.web3.storage
   - images.weserv.nl
   - images.whoer.com
@@ -2672,10 +2683,11 @@ payload:
   - img.icons8.com
   - img.ifunny.co
   - img.imgdd.com
+  - img.imoutomoe.net
   - img.informer.com
   - img.itch.zone
   - img.javstore.net
-  - img.jjbb.me
+  - img.javynow.com
   - img.jsdelivr.com
   - img.kbhgames.com
   - img.kemono.su
@@ -2714,6 +2726,7 @@ payload:
   - img.toto.im
   - img.utdstc.com
   - img.vim-cn.com
+  - img.voguehk.com
   - img.washingtonpost.com
   - img.windy.com
   - img.xhacgn.com
@@ -2897,6 +2910,7 @@ payload:
   - media-central.indianexpress.com
   - media-cms.ayoba.me
   - media-cms.onesignal.com
+  - media-hls.growcdnssedge.com
   - media-s3-us-east-1.ceros.com
   - media.beehiiv.com
   - media.breitbart.com
@@ -2954,6 +2968,7 @@ payload:
   - media.printables.com
   - media.pullopen.xyz
   - media.ra.kroll.com
+  - media.remax-prod.eng.remax.tech
   - media.shopimind.com
   - media.smooch.io
   - media.steampowered.com
@@ -3432,7 +3447,6 @@ payload:
   - static-assets.clubhouseapi.com
   - static-assets.codecademy.com
   - static-assets.coinbase.com
-  - static-assets.freeanimehentai.net
   - static-assets.juksy.com
   - static-assets.mapbox.com
   - static-assets.npr.org
@@ -3459,6 +3473,7 @@ payload:
   - static-forms.klaviyo.com
   - static-gcp.freepikcompany.com
   - static-id.fc2.com
+  - static-images.remax.com
   - static-landing.probiplacehold.cot.com
   - static-lccn.leetcode.com
   - static-main.moovit.com
@@ -3588,7 +3603,6 @@ payload:
   - static.itch.io
   - static.iyf.tv
   - static.j51.net
-  - static.javcdn.info
   - static.javhd.com
   - static.jsbin.com
   - static.k2s.cc
@@ -3738,7 +3752,6 @@ payload:
   - statics-prod.mirrordaily.news
   - statics.erothots.co
   - statics.goorm.io
-  - statics.mnnews.tw
   - statics.simpshub.com
   - statics.streamable.com
   - staticsource1.redotpay.com
@@ -3810,7 +3823,6 @@ payload:
   - texture.laby.net
   - th.bing.com
   - themes.fourthwall.com
-  - thingproxy.freeboard.io
   - thumbnail.missav.com
   - thumbnailer.mixcloud.com
   - thumbnails.applegamingwiki.com

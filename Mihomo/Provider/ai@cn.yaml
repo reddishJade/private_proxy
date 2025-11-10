@@ -1,5 +1,5 @@
-# 更新时间: 2025-11-10 08:44:37（北京时间）
-# 规则数量: 62
+# 更新时间: 2025-11-13 08:42:19（北京时间）
+# 规则数量: 59
 payload:
   - +.baichuan-ai.com
   - +.bigmodel.cn
@@ -8,7 +8,6 @@ payload:
   - +.butterflyai.cn
   - +.chatglm.cn
   - +.coze.cn
-  - +.coze.com
   - +.coze.site
   - +.cozebaas.cn
   - +.cozefn.cn
@@ -25,7 +24,6 @@ payload:
   - +.liblib.art
   - +.maoxiangai.com
   - +.marscode.cn
-  - +.marscode.com
   - +.marscode.com.cn
   - +.mcbaas.work
   - +.mcdemo.show
@@ -51,7 +49,6 @@ payload:
   - +.tiangong.cn
   - +.tongyi.aliyun.com
   - +.tongyi.com
-  - +.trae.ai
   - +.trae.cn
   - +.trae.com.cn
   - +.trae.guru

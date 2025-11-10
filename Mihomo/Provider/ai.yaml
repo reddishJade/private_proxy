@@ -1,5 +1,5 @@
-# 更新时间: 2025-11-10 08:44:38（北京时间）
-# 规则数量: 134
+# 更新时间: 2025-11-13 08:42:20（北京时间）
+# 规则数量: 136
 payload:
   - +.ai.azure.com
   - +.ai.com
@@ -35,6 +35,8 @@ payload:
   - +.codeiumdata.com
   - +.coderabbit.ai
   - +.coderabbit.gallery.vsassets.io
+  - +.cohere.ai
+  - +.cohere.com
   - +.copilot.cloud.microsoft
   - +.copilot.microsoft.com
   - +.coze.com

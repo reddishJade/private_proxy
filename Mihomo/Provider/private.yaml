@@ -1,5 +1,5 @@
-# 更新时间: 2025-11-10 08:44:49（北京时间）
-# 规则数量: 136
+# 更新时间: 2025-11-13 08:42:29（北京时间）
+# 规则数量: 141
 payload:
   - +.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa
   - +.0.in-addr.arpa
@@ -127,7 +127,10 @@ payload:
   - +.wifi.cmcc
   - +.zte.home
   - asusrouter.com
+  - board.zash.run.place
   - instant.arubanetworks.com
+  - metacubex.github.io
+  - metacubexd.pages.dev
   - miwifi.com
   - oasisauth.h3c.com
   - router.asus.com
@@ -137,3 +140,5 @@ payload:
   - www.asusrouter.com
   - www.miwifi.com
   - www.routerlogin.com
+  - yacd.haishan.me
+  - yacd.metacubex.one
