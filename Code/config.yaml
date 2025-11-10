@@ -21,12 +21,12 @@
       type: http
       url: "https://cdn.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/AI%20Suite.yaml"
       format: yaml
-      behavior: classical
+      behavior: domain
     ACL4SSR_ai:
       type: http
       url: "https://cdn.jsdelivr.net/gh/ACL4SSR/ACL4SSR@refs/heads/master/Clash/Ruleset/AI.list"
-      format: text
-      behavior: classical
+      format: txt
+      behavior: domain
     meta_category-ai-!cn:
       type: http
       url: "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/category-ai-!cn.yaml"
@@ -182,6 +182,11 @@
       url: "https://cdn.jsdelivr.net/gh/juewuy/ShellCrash@dev/public/fake_ip_filter.list"
       format: text
       behavior: domain
+    DustinWin-fakeip-filter:
+      type: http
+      url: "https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/fakeip-filter.list"
+      format: txt
+      behavior: domain
 
 - path: output/games@cn.yaml
   format: yaml
@@ -261,6 +266,11 @@
       type: http
       url: "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/private.yaml"
       format: yaml
+      behavior: domain
+    DustinWin_private:
+      type: http
+      url: "https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/private.list"
+      format: txt
       behavior: domain
 
 - path: output/private@ip.yaml
