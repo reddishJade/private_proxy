@@ -1,5 +1,5 @@
-# 更新时间: 2025-11-13 08:42:19（北京时间）
-# 规则数量: 59
+# 更新时间: 2025-11-14 20:17:28（北京时间）
+# 规则数量: 58
 payload:
   - +.baichuan-ai.com
   - +.bigmodel.cn
@@ -31,7 +31,6 @@ payload:
   - +.mcprev.cn
   - +.miaoyanai.com
   - +.minimax.chat
-  - +.minimax.com
   - +.minimax.io
   - +.minimaxi.com
   - +.moonshot.cn

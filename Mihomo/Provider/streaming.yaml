@@ -1,5 +1,5 @@
-# 更新时间: 2025-11-13 08:42:34（北京时间）
-# 规则数量: 252
+# 更新时间: 2025-11-14 20:17:43（北京时间）
+# 规则数量: 258
 payload:
   - +.4gtv.tv
   - +.5itv.tv
@@ -145,6 +145,7 @@ payload:
   - +.primevideo.info
   - +.primevideo.org
   - +.primevideo.tv
+  - +.production-public.tubi.io
   - +.pscdn.co
   - +.psg.cdn.hgc.com.hk
   - +.scdn.co
@@ -190,7 +191,6 @@ payload:
   - +.viu.com
   - +.viu.now.com
   - +.viu.tv
-  - +.vudu.com
   - +.wetv.vip
   - +.wetvinfo.com
   - +.winticket.jp
@@ -205,6 +205,7 @@ payload:
   - akmcdnoversea-tw.inter.ptqy.gitv.tv
   - ana.video.friday.tw
   - apm-misaka.biliapi.net
+  - athome.fandango.com
   - bbc.mp-pxcdn.com
   - bcbolt446c5271-a.akamaihd.net
   - cache.video.iqiyi.com
@@ -247,9 +248,14 @@ payload:
   - players.brightcove.net
   - prod-api.crackle.com
   - staticasiafox.akamaized.net
+  - tubi.tv
+  - tubitv.com
   - upos-bstar-mirrorakam.akamaized.net
   - upos-bstar1-mirrorakam.akamaized.net
   - uts-api.itunes.apple.com
   - video.friday.tw
+  - vudu.com
+  - www.tubi.tv
+  - www.tubitv.com
   - youtube.googleapis.com
   - youtubei.googleapis.com

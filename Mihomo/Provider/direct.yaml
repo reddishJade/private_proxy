@@ -1,10 +1,11 @@
-# 更新时间: 2025-11-13 08:42:22（北京时间）
-# 规则数量: 521
+# 更新时间: 2025-11-14 20:17:31（北京时间）
+# 规则数量: 615
 payload:
   - DOMAIN,0123456789nonexistent.com
   - DOMAIN,0d.kebhana.mx
   - DOMAIN,1337.abcvg.info
   - DOMAIN,1c.premierzal.ru
+  - DOMAIN,6ahddutb1ucc3cp.ru
   - DOMAIN,aboutbeautifulgallopinghorsesinthegreenpasture.online
   - DOMAIN,admin.52ywp.com
   - DOMAIN,anna.bt.bontal.net
@@ -44,7 +45,7 @@ payload:
   - DOMAIN,lucke.fenesisu.moe
   - DOMAIN,martin-gebhardt.eu
   - DOMAIN,mobile.hotspot
-  - DOMAIN,ns-1.x-fins.com
+  - DOMAIN,ns3109441.mypdns.org
   - DOMAIN,ntp-b.nist.gov
   - DOMAIN,ntp-c.colorado.edu
   - DOMAIN,ntp-d.nist.gov
@@ -157,7 +158,6 @@ payload:
   - DOMAIN,tr4ck3r.duckdns.org
   - DOMAIN,tracker-de-2.cutie.dating
   - DOMAIN,tracker-zhuqiy.dgj055.icu
-  - DOMAIN,tracker.1h.is
   - DOMAIN,tracker.23794.top
   - DOMAIN,tracker.alaskantf.com
   - DOMAIN,tracker.beeimg.com
@@ -185,6 +185,7 @@ payload:
   - DOMAIN,tracker.ghostchu-services.top
   - DOMAIN,tracker.gmi.gd
   - DOMAIN,tracker.hifimarket.in
+  - DOMAIN,tracker.hifitechindia.com
   - DOMAIN,tracker.iperson.xyz
   - DOMAIN,tracker.ipv6tracker.org
   - DOMAIN,tracker.ipv6tracker.ru
@@ -194,18 +195,22 @@ payload:
   - DOMAIN,tracker.moeblog.cn
   - DOMAIN,tracker.moxing.party
   - DOMAIN,tracker.mywaifu.best
+  - DOMAIN,tracker.ololosh.space
   - DOMAIN,tracker.opentrackr.org
   - DOMAIN,tracker.openwebtorrent.com
   - DOMAIN,tracker.playground.ru
   - DOMAIN,tracker.plx.im
   - DOMAIN,tracker.pmman.tech
+  - DOMAIN,tracker.qingwa.pro
   - DOMAIN,tracker.qu.ax
   - DOMAIN,tracker.renfei.net
   - DOMAIN,tracker.rescuecrew7.com
   - DOMAIN,tracker.sbsub.com
+  - DOMAIN,tracker.skillindia.site
   - DOMAIN,tracker.skyts.net
   - DOMAIN,tracker.srv00.com
   - DOMAIN,tracker.startwork.cv
+  - DOMAIN,tracker.theoks.net
   - DOMAIN,tracker.therarbg.to
   - DOMAIN,tracker.torrent.eu.org
   - DOMAIN,tracker.torrust-demo.com
@@ -242,6 +247,7 @@ payload:
   - DOMAIN,www.torrent.eu.org
   - DOMAIN,www.torrentsnipe.info
   - DOMAIN,www.wareztorrent.com
+  - DOMAIN-KEYWORD,aria2
   - DOMAIN-KEYWORD,cnki.net
   - DOMAIN-KEYWORD,deepdyve
   - DOMAIN-KEYWORD,els-cdn
@@ -249,8 +255,12 @@ payload:
   - DOMAIN-KEYWORD,pkulaw
   - DOMAIN-KEYWORD,readcube
   - DOMAIN-KEYWORD,sciencedirect
+  - DOMAIN-KEYWORD,thunder
   - DOMAIN-KEYWORD,wanfangdata
   - DOMAIN-KEYWORD,westlawchina
+  - DOMAIN-KEYWORD,xlliveud
+  - DOMAIN-KEYWORD,xunlei
+  - DOMAIN-KEYWORD,yunpan
   - DOMAIN-SUFFIX,10.in-addr.arpa
   - DOMAIN-SUFFIX,127.0.0.1.sslip.io
   - DOMAIN-SUFFIX,127.atlas.skk.moe
@@ -448,6 +458,7 @@ payload:
   - DOMAIN-SUFFIX,ptsbao.club
   - DOMAIN-SUFFIX,pttime.org
   - DOMAIN-SUFFIX,pussytorrents.org
+  - DOMAIN-SUFFIX,qbittorrent.org
   - DOMAIN-SUFFIX,qingwa.pro
   - DOMAIN-SUFFIX,redacted.ch
   - DOMAIN-SUFFIX,researchgate.net
@@ -488,37 +499,120 @@ payload:
   - DOMAIN-SUFFIX,xunlei.com
   - PROCESS-NAME,BaiduNetdisk_mac
   - PROCESS-NAME,BitComet
+  - PROCESS-NAME,BitComet.exe
+  - PROCESS-NAME,BitComet_x64.exe
   - PROCESS-NAME,ClashX
+  - PROCESS-NAME,DownloadSDKServer.exe
   - PROCESS-NAME,DownloadService
+  - PROCESS-NAME,DownloadService.exe
   - PROCESS-NAME,Folx
+  - PROCESS-NAME,Folx.exe
   - PROCESS-NAME,LocalSend
   - PROCESS-NAME,Logi Options
   - PROCESS-NAME,Logi Options Daemon
+  - PROCESS-NAME,NeatDM
+  - PROCESS-NAME,NeatDM.exe
   - PROCESS-NAME,NetTransport
+  - PROCESS-NAME,NetTransport.exe
   - PROCESS-NAME,SunloginClient_Desktop
   - PROCESS-NAME,SunloginClient_Helper
+  - PROCESS-NAME,Surge
+  - PROCESS-NAME,Surge 2
+  - PROCESS-NAME,Surge 3
+  - PROCESS-NAME,Surge 4
+  - PROCESS-NAME,Surge%202
+  - PROCESS-NAME,Surge%203
+  - PROCESS-NAME,Surge%204
   - PROCESS-NAME,Thunder
+  - PROCESS-NAME,Thunder.exe
   - PROCESS-NAME,ThunderVIP
+  - PROCESS-NAME,ThunderVIP.exe
   - PROCESS-NAME,Transmission
+  - PROCESS-NAME,Transmission.exe
   - PROCESS-NAME,UUBooster
   - PROCESS-NAME,WebTorrent
   - PROCESS-NAME,WebTorrent Helper
+  - PROCESS-NAME,WebTorrent.exe
+  - PROCESS-NAME,WebTorrentHelper
+  - PROCESS-NAME,WebTorrentHelper.exe
+  - PROCESS-NAME,Weiyun
+  - PROCESS-NAME,Weiyun.exe
   - PROCESS-NAME,amuled
+  - PROCESS-NAME,aria2
+  - PROCESS-NAME,aria2.exe
   - PROCESS-NAME,aria2c
+  - PROCESS-NAME,aria2c.exe
+  - PROCESS-NAME,baidunetdisk.exe
   - PROCESS-NAME,clash
   - PROCESS-NAME,cloudflared
   - PROCESS-NAME,fdm
+  - PROCESS-NAME,fdm.exe
+  - PROCESS-NAME,frpc
+  - PROCESS-NAME,frpc.exe
+  - PROCESS-NAME,frps
+  - PROCESS-NAME,frps.exe
+  - PROCESS-NAME,hysteria
+  - PROCESS-NAME,hysteria.exe
+  - PROCESS-NAME,leaf
+  - PROCESS-NAME,leaf.exe
+  - PROCESS-NAME,naive
+  - PROCESS-NAME,naive.exe
   - PROCESS-NAME,parsecd
   - PROCESS-NAME,privoxy
+  - PROCESS-NAME,privoxy.exe
+  - PROCESS-NAME,proxifier
+  - PROCESS-NAME,proxifier.exe
   - PROCESS-NAME,qBittorrent
+  - PROCESS-NAME,qbittorrent
   - PROCESS-NAME,qbittorrent*
   - PROCESS-NAME,qbittorrent-nox
+  - PROCESS-NAME,qbittorrent.exe
+  - PROCESS-NAME,shadowsocks
+  - PROCESS-NAME,shadowsocks.exe
+  - PROCESS-NAME,shadowsocksr
+  - PROCESS-NAME,shadowsocksr.exe
+  - PROCESS-NAME,sing-box
+  - PROCESS-NAME,sing-box.exe
+  - PROCESS-NAME,speeder
+  - PROCESS-NAME,speeder.exe
+  - PROCESS-NAME,speederv2
+  - PROCESS-NAME,speederv2.exe
   - PROCESS-NAME,ss-local
+  - PROCESS-NAME,ss-local.exe
+  - PROCESS-NAME,sslocal
+  - PROCESS-NAME,sslocal.exe
+  - PROCESS-NAME,tailscale
+  - PROCESS-NAME,tailscale.exe
   - PROCESS-NAME,tailscaled
+  - PROCESS-NAME,tailscaled.exe
+  - PROCESS-NAME,tinyvpn
+  - PROCESS-NAME,tinyvpn.exe
   - PROCESS-NAME,transmission-daemon
+  - PROCESS-NAME,transmission-daemon.exe
   - PROCESS-NAME,transmission-qt
+  - PROCESS-NAME,transmission-qt.exe
   - PROCESS-NAME,trojan
   - PROCESS-NAME,trojan-go
+  - PROCESS-NAME,trojan-go.exe
+  - PROCESS-NAME,trojan.exe
+  - PROCESS-NAME,tuic
+  - PROCESS-NAME,tuic-client
+  - PROCESS-NAME,tuic-client.exe
+  - PROCESS-NAME,tuic.exe
   - PROCESS-NAME,uTorrent
+  - PROCESS-NAME,uTorrent.exe
+  - PROCESS-NAME,udp2raw
+  - PROCESS-NAME,udp2raw.exe
+  - PROCESS-NAME,udp2raw_mp
+  - PROCESS-NAME,udp2raw_mp.exe
   - PROCESS-NAME,v2ray
+  - PROCESS-NAME,v2ray.exe
+  - PROCESS-NAME,xdm
+  - PROCESS-NAME,xdm.exe
+  - PROCESS-NAME,xdman
+  - PROCESS-NAME,xdman.exe
   - PROCESS-NAME,xray
+  - PROCESS-NAME,xray.exe
+  - PROCESS-NAME,zerotier-one
+  - PROCESS-NAME,zerotier-one.exe
+  - PROCESS-NAME,zerotier-one_x64.exe

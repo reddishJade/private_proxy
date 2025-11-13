@@ -1,5 +1,5 @@
-# 更新时间: 2025-11-13 08:42:21（北京时间）
-# 规则数量: 4036
+# 更新时间: 2025-11-14 20:17:30（北京时间）
+# 规则数量: 4043
 payload:
   - +.1a-1791.com
   - +.1passwordusercontent.ca
@@ -1497,6 +1497,7 @@ payload:
   - cache.omnicalculator.com
   - cached.rebuyengine.com
   - canny-assets.io
+  - canvas-lb.tubitv.com
   - cassette.sphdigital.com.sg
   - categoriespages-cdn.trustpilot.net
   - cc-embed.adobe.com
@@ -2581,6 +2582,7 @@ payload:
   - images.icon-icons.com
   - images.idgesg.net
   - images.indianexpress.com
+  - images.justwatch.com
   - images.kick.com
   - images.loox.io
   - images.macrumors.com
@@ -2614,6 +2616,7 @@ payload:
   - images.typeform.com
   - images.unsplash.com
   - images.videolan.org
+  - images.vudu.com
   - images.web3.storage
   - images.weserv.nl
   - images.whoer.com
@@ -2626,6 +2629,7 @@ payload:
   - images1.welcomesoftware.com
   - images2.cmp.optimizely.com
   - images2.giant-bicycles.com
+  - images2.vudu.com
   - images2.welcomesoftware.com
   - images3.cmp.optimizely.com
   - images3.welcomesoftware.com
@@ -2901,6 +2905,7 @@ payload:
   - marketing.figma.com
   - marketing.thingiverse.com
   - marketplace-web-assets.vinted.com
+  - mcdn.tubi.tv
   - mcdn.vrporn.com
   - mcdnds.vrporn.com
   - mcdns.vrporn.com
@@ -3472,6 +3477,7 @@ payload:
   - static-files.bitchute.com
   - static-forms.klaviyo.com
   - static-gcp.freepikcompany.com
+  - static-homepage-en.pluto.tv
   - static-id.fc2.com
   - static-images.remax.com
   - static-landing.probiplacehold.cot.com
@@ -3861,6 +3867,7 @@ payload:
   - tracking.inflection.io
   - trekcdnprod.azureedge.net
   - truth.bahamut.com.tw
+  - tubi.video
   - tuf-repo-cdn.sigstore.dev
   - tuf-repo.github.com
   - turbo.build
