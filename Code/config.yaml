@@ -32,11 +32,6 @@
       url: "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/category-ai-!cn.yaml"
       format: yaml
       behavior: domain
-    meta_category-ai-cn@!cn:
-      type: http
-      url: "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/category-ai-cn@!cn.yaml"
-      format: yaml
-      behavior: domain
 
 - path: output/apple@cn.yaml
   format: yaml
@@ -57,6 +52,11 @@
       url: "https://ruleset.skk.moe/Clash/non_ip/apple_cdn.txt"
       format: txt
       behavior: classical
+    DustinWin_apple_cn:
+      type: http
+      url: "https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/apple-cn.list"
+      format: text
+      behavior: domain
     meta_apple-cn:
       type: http
       url: "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/apple-cn.yaml"
@@ -111,6 +111,16 @@
       type: http
       url: "https://ruleset.skk.moe/Clash/non_ip/direct.txt"
       format: txt
+      behavior: classical
+    DustinWin_trackerslist:
+      type: http
+      url: "https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/trackerslist.list"
+      format: text
+      behavior: domain
+    DustinWin_applications:
+      type: http
+      url: "https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/applications.list"
+      format: text
       behavior: classical
     meta_connectivity-check:
       type: http
