@@ -23,7 +23,7 @@ jobs:
         run: |
           pip install -r requirements.txt
 
-      - name: Run script
+      - name: Run mihomo script
         run: |
           cd Code/
           python ./rule_merger.py ./config.yaml
@@ -69,6 +69,11 @@ jobs:
       - name: Check for rule changes
         id: checker
         run: python Code/core/checker.py Mihomo/Provider
+
+      - name: Run shadowrocket script
+        run: |
+          cd Code/
+          python ./rule_merger.py ./rocket.yaml
 
       - name: Get current time
         id: time
