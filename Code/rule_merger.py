@@ -137,7 +137,17 @@ def main():
         merger = RulesMerger(config_path)
         merger.merge_rules()
         logger.info("规则合并完成！")
-        logger.info("所有规则文件已迁移到 Mihomo/Provider 目录下。")
+        # 输出实际迁移目标路径
+        try:
+            target_dir = merger.get_target_provider_dir()
+            logger.info("所有规则文件已迁移到 %s 目录下。", target_dir)
+        except Exception:
+            # 如果因某种原因无法获取，回退到以前的静态提示
+            config_basename = Path(config_path).name.lower()
+            if config_basename == 'rocket.yaml':
+                logger.info("所有规则文件已迁移到 Shadowrocket/ruleset 目录下。")
+            else:
+                logger.info("所有规则文件已迁移到 Mihomo/Provider 目录下。")
         
     except KeyboardInterrupt:
         logger.info("用户中断操作")

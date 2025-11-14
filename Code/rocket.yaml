@@ -1,6 +1,6 @@
-- path: output/ai@cn.yaml
-  format: yaml
-  behavior: domain
+- path: output/ai@cn.list
+  format: txt
+  behavior: classical
   upstream:
     meta_category-ai-cn:
       type: http
@@ -13,9 +13,9 @@
       format: yaml
       behavior: domain
 
-- path: output/ai.yaml
-  format: yaml
-  behavior: domain
+- path: output/ai.list
+  format: txt
+  behavior: classical
   upstream:
     dler_ai:
       type: http
@@ -33,9 +33,9 @@
       format: yaml
       behavior: domain
 
-- path: output/apple@cn.yaml
-  format: yaml
-  behavior: domain
+- path: output/apple@cn.list
+  format: txt
+  behavior: classical
   upstream:
     skk_apple_cn:
       type: http
@@ -63,9 +63,9 @@
       format: yaml
       behavior: domain
 
-- path: output/apple.yaml
-  format: yaml
-  behavior: domain
+- path: output/apple.list
+  format: txt
+  behavior: classical
   upstream:
     skk_apple_services:
       type: http
@@ -78,9 +78,9 @@
       format: yaml
       behavior: domain
 
-- path: output/cdn.yaml
-  format: yaml
-  behavior: domain
+- path: output/cdn.list
+  format: txt
+  behavior: classical
   upstream:
     skk_cdn_domainset:
       type: http
@@ -92,19 +92,14 @@
       url: "https://ruleset.skk.moe/Clash/non_ip/cdn.txt"
       format: txt
       behavior: classical
-
-- path: output/cdn@ip.yaml
-  format: yaml
-  behavior: ipcidr
-  upstream:
     skk_cdn_ip:
       type: http
       url: "https://ruleset.skk.moe/Clash/ip/cdn.txt"
       format: txt
       behavior: ipcidr
 
-- path: output/direct.yaml
-  format: yaml
+- path: output/direct.list
+  format: txt
   behavior: classical
   upstream:
     skk_direct:
@@ -138,9 +133,9 @@
       format: yaml
       behavior: domain
 
-- path: output/domestic.yaml
-  format: yaml
-  behavior: domain
+- path: output/domestic.list
+  format: txt
+  behavior: classical
   upstream:
     skk_domestic:
       type: http
@@ -152,11 +147,6 @@
       url: "https://cdn.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/Domestic.yaml"
       format: yaml
       behavior: classical
-
-- path: output/domestic@ip.yaml
-  format: yaml
-  behavior: ipcidr
-  upstream:
     skk_domestic_ip:
       type: http
       url: "https://ruleset.skk.moe/Clash/ip/domestic.txt"
@@ -178,44 +168,24 @@
       format: yaml
       behavior: ipcidr
 
-- path: output/download.yaml
-  format: yaml
-  behavior: domain
+- path: output/download.list
+  format: txt
+  behavior: classical
   upstream:
     skk_download_domainset:
       type: http
       url: "https://ruleset.skk.moe/Clash/domainset/download.txt"
       format: txt
       behavior: domain
-
-- path: output/download@ip.yaml
-  format: yaml
-  behavior: ipcidr
-  upstream:
     skk_download_ip:
       type: http
       url: "https://ruleset.skk.moe/Clash/ip/download.txt"
       format: txt
       behavior: ipcidr
 
-- path: output/fakeip-filter.yaml
-  format: yaml
-  behavior: domain
-  upstream:
-    fake_ip_filter:
-      type: http
-      url: "https://cdn.jsdelivr.net/gh/juewuy/ShellCrash@dev/public/fake_ip_filter.list"
-      format: text
-      behavior: domain
-    DustinWin-fakeip-filter:
-      type: http
-      url: "https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/fakeip-filter.list"
-      format: txt
-      behavior: domain
-
-- path: output/games@cn.yaml
-  format: yaml
-  behavior: domain
+- path: output/games@cn.list
+  format: txt
+  behavior: classical
   upstream:
     DustinWin_games_cn:
       type: http
@@ -223,29 +193,24 @@
       format: text
       behavior: domain
 
-- path: output/games.yaml
-  format: yaml
-  behavior: domain
+- path: output/games.list
+  format: txt
+  behavior: classical
   upstream:
     DustinWin_games:
       type: http
       url: "https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/games.list"
       format: text
       behavior: domain
-
-- path: output/games@ip.yaml
-  format: yaml
-  behavior: ipcidr
-  upstream:
-    DustinWin_games:
+    DustinWin_games_ip:
       type: http
       url: "https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/gamesip.list"
       format: text
       behavior: ipcidr
 
-- path: output/microsoft.yaml
-  format: yaml
-  behavior: domain
+- path: output/microsoft.list
+  format: txt
+  behavior: classical
   upstream:
     Microsoft:
       type: http
@@ -258,9 +223,9 @@
       format: yaml
       behavior: domain
 
-- path: output/microsoft@cn.yaml
-  format: yaml
-  behavior: domain
+- path: output/microsoft@cn.list
+  format: txt
+  behavior: classical
   upstream:
     DustinWin_microsoft_cn:
       type: http
@@ -278,9 +243,9 @@
       format: yaml
       behavior: domain
 
-- path: output/private.yaml
-  format: yaml
-  behavior: domain
+- path: output/private.list
+  format: txt
+  behavior: classical
   upstream:
     lan:
       type: http
@@ -297,11 +262,6 @@
       url: "https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/private.list"
       format: txt
       behavior: domain
-
-- path: output/private@ip.yaml
-  format: yaml
-  behavior: ipcidr
-  upstream:
     privateip:
       type: http
       url: "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Lan/Lan.yaml"
@@ -313,9 +273,9 @@
       format: yaml
       behavior: ipcidr
 
-- path: output/proxy.yaml
-  format: yaml
-  behavior: domain
+- path: output/proxy.list
+  format: txt
+  behavior: classical
   upstream:
     skk_global:
       type: http
@@ -333,9 +293,9 @@
       format: yaml
       behavior: domain
 
-- path: output/reject.yaml
-  format: yaml
-  behavior: domain
+- path: output/reject.list
+  format: txt
+  behavior: classical
   upstream:
     AWAvenue:
       type: http
@@ -362,50 +322,30 @@
       url: "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/category-ads-all.yaml"
       format: yaml
       behavior: domain
-
-- path: output/reject@ip.yaml
-  format: yaml
-  behavior: ipcidr
-  upstream:
-    BanProgramAD:
-      type: http
-      url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list"
-      format: txt
-      behavior: classical
     skk_reject_ip:
       type: http
       url: "https://ruleset.skk.moe/Clash/ip/reject.txt"
       format: txt
       behavior: ipcidr
-    dler_ad:
-      type: http
-      url: "https://cdn.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/AdBlock.yaml"
-      format: yaml
-      behavior: classical
 
-- path: output/streaming.yaml
-  format: yaml
-  behavior: domain
+- path: output/streaming.list
+  format: txt
+  behavior: classical
   upstream:
     skk_stream:
       type: http
       url: "https://ruleset.skk.moe/Clash/non_ip/stream.txt"
       format: txt
       behavior: classical
-
-- path: output/streaming@ip.yaml
-  format: yaml
-  behavior: ipcidr
-  upstream:
     skk_stream_ip:
       type: http
       url: "https://ruleset.skk.moe/Clash/ip/stream.txt"
       format: txt
       behavior: ipcidr
 
-- path: output/telegram@ip.yaml
-  format: yaml
-  behavior: ipcidr
+- path: output/telegram@ip.list
+  format: txt
+  behavior: classical
   upstream:
     skk_telegram_ip:
       type: http

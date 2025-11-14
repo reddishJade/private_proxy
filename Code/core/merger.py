@@ -5,6 +5,7 @@
 """
 
 import os
+from pathlib import Path
 import logging
 from datetime import datetime
 from typing import Dict, List
@@ -36,6 +37,9 @@ class RulesMerger:
         self.logger = logging.getLogger(__name__)
         self.fetcher = RuleFetcher()
         self.processor = RuleProcessor()
+        # store the config path and filename so we can choose target directories later
+        self._config_path = config_path
+        self._config_filename = Path(config_path).name.lower()
 
     def _load_config(self, path: str) -> dict:
         """
@@ -90,7 +94,7 @@ class RulesMerger:
 
         return processed_rules
 
-    def _write_rules(self, output_path: str, rules: List[str]) -> None:
+    def _write_rules(self, output_path: str, rules: List[str], format_type: str = "yaml") -> None:
         """
         将处理后的规则写入文件
 
@@ -111,24 +115,29 @@ class RulesMerger:
             beijing_tz = pytz.timezone("Asia/Shanghai")
             current_time = datetime.now(beijing_tz).strftime("%Y-%m-%d %H:%M:%S")
 
-            # 写入文件
+            # 写入文件（根据 format_type 决定输出是 YAML 还是 plain text）
             with open(output_path, "w", encoding="utf-8") as f:
-                # 添加头部注释
+                # 添加头部注释（纯文本格式下以 # 开头的注释通常也可以被接受）
                 f.write(f"# 更新时间: {current_time}（北京时间）\n")
                 f.write(f"# 规则数量: {len(rules)}\n")
 
-                # 生成YAML格式
-                yaml_str = yaml.dump(
-                    {"payload": rules},
-                    allow_unicode=True,
-                    indent=2,
-                    default_flow_style=False,
-                    sort_keys=False,
-                )
+                # 文本格式（txt/text/list等）
+                if isinstance(format_type, str) and format_type.lower() in {"txt", "text", "list"}:
+                    for rule in rules:
+                        f.write(rule.rstrip() + "\n")
+                else:
+                    # 生成YAML格式
+                    yaml_str = yaml.dump(
+                        {"payload": rules},
+                        allow_unicode=True,
+                        indent=2,
+                        default_flow_style=False,
+                        sort_keys=False,
+                    )
 
-                # 格式化YAML输出
-                formatted_yaml = yaml_str.replace("\n-", "\n  -")
-                f.write(formatted_yaml)
+                    # 格式化YAML输出
+                    formatted_yaml = yaml_str.replace("\n-", "\n  -")
+                    f.write(formatted_yaml)
 
             self.logger.info(
                 "已生成规则文件: %s, 共 %d 条规则", output_path, len(rules)
@@ -145,8 +154,16 @@ class RulesMerger:
         这个方法会将生成的规则文件从临时output目录移动到最终的Provider目录
         """
         try:
-            # 计算目标目录路径
+            # 计算目标目录路径，默认是Mihomo/Provider
             provider_dir = self._get_provider_directory()
+
+            # 如果是 rocket.yaml，则把文件移动到 Shadowrocket/ruleset
+            if self._config_filename == "rocket.yaml":
+                provider_dir = os.path.join(
+                    os.path.dirname(os.path.dirname(os.path.dirname(__file__))),
+                    "Shadowrocket",
+                    "ruleset",
+                )
             output_dir = self._get_output_directory()
 
             os.makedirs(provider_dir, exist_ok=True)
@@ -156,8 +173,8 @@ class RulesMerger:
                 self.logger.warning("output目录不存在: %s", output_dir)
                 return
 
-            # 移动所有yaml文件
-            self._move_yaml_files(output_dir, provider_dir)
+            # 移动output目录中所有支持的文件（包括 .yaml/.yml/.txt/.list）
+            self._move_output_files(output_dir, provider_dir)
 
         except (OSError, IOError) as e:
             self.logger.error("移动规则文件失败: %s", str(e))
@@ -186,7 +203,19 @@ class RulesMerger:
         # 从当前文件位置计算output目录：core/../output
         return os.path.join(os.path.dirname(os.path.dirname(__file__)), "output")
 
-    def _move_yaml_files(self, output_dir: str, provider_dir: str) -> None:
+    def get_target_provider_dir(self) -> str:
+        """
+        返回将要把生成文件迁移到的目标目录（Mihomo/Provider 或 Shadowrocket/ruleset）
+        """
+        if self._config_filename == "rocket.yaml":
+            return os.path.join(
+                os.path.dirname(os.path.dirname(os.path.dirname(__file__))),
+                "Shadowrocket",
+                "ruleset",
+            )
+        return self._get_provider_directory()
+
+    def _move_output_files(self, output_dir: str, provider_dir: str) -> None:
         """
         移动YAML文件从output目录到provider目录
 
@@ -194,8 +223,9 @@ class RulesMerger:
             output_dir: 源目录
             provider_dir: 目标目录
         """
+        supported_ext = (".yaml", ".yml", ".txt", ".list")
         for filename in os.listdir(output_dir):
-            if filename.endswith(".yaml"):
+            if any(filename.endswith(ext) for ext in supported_ext):
                 src_path = os.path.join(output_dir, filename)
                 dst_path = os.path.join(provider_dir, filename)
                 try:
@@ -203,7 +233,9 @@ class RulesMerger:
                     if os.path.exists(dst_path):
                         os.remove(dst_path)
                     os.rename(src_path, dst_path)
-                    self.logger.info("已移动规则文件: %s 到 Mihomo/Provider/", filename)
+                    # 显示实际的目标目录
+                    # provider_dir 可能是 Mihomo/Provider 或 Shadowrocket/ruleset
+                    self.logger.info("已移动规则文件: %s 到 %s", filename, provider_dir)
                 except (OSError, IOError) as e:
                     self.logger.error("移动文件 %s 失败: %s", filename, str(e))
 
@@ -248,8 +280,9 @@ class RulesMerger:
         # 去重并排序
         final_rules = self.processor.deduplicate_and_sort(merged_rules)
 
-        # 写入文件
-        self._write_rules(config["path"], final_rules)
+        # 写入文件，根据配置格式决定输出格式
+        format_type = config.get("format", "yaml")
+        self._write_rules(config["path"], final_rules, format_type)
 
     def _collect_processing_results(self, futures: List) -> List[str]:
         """
