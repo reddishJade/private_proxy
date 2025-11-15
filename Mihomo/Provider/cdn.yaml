@@ -1,5 +1,5 @@
-# 更新时间: 2025-11-15 08:41:37（北京时间）
-# 规则数量: 4051
+# 更新时间: 2025-11-16 08:46:05（北京时间）
+# 规则数量: 4052
 payload:
   - +.1a-1791.com
   - +.1passwordusercontent.ca
@@ -1734,6 +1734,7 @@ payload:
   - cdn.insightmediagroup.io
   - cdn.ionos.de
   - cdn.ip2location.io
+  - cdn.iplocation.net
   - cdn.iporntv.net
   - cdn.ipregistry.co
   - cdn.jamieoliver.com
