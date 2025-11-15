@@ -2,7 +2,7 @@
   format: yaml
   behavior: domain
   upstream:
-    meta_category-ai-cn:
+    meta_category_ai_cn:
       type: http
       url: "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/category-ai-cn.yaml"
       format: yaml
@@ -26,8 +26,8 @@
       type: http
       url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/AI.list"
       format: txt
-      behavior: domain
-    meta_category-ai-!cn:
+      behavior: classical
+    meta_category_ai_!cn:
       type: http
       url: "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/category-ai-!cn.yaml"
       format: yaml
@@ -57,7 +57,7 @@
       url: "https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/apple-cn.list"
       format: text
       behavior: domain
-    meta_apple-cn:
+    meta_apple_cn:
       type: http
       url: "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/apple-cn.yaml"
       format: yaml
@@ -157,11 +157,6 @@
   format: yaml
   behavior: ipcidr
   upstream:
-    skk_domestic_ip:
-      type: http
-      url: "https://ruleset.skk.moe/Clash/ip/domestic.txt"
-      format: txt
-      behavior: ipcidr
     skk_china_ip:
       type: http
       url: "https://ruleset.skk.moe/Clash/ip/china_ip.txt"
@@ -302,7 +297,7 @@
   format: yaml
   behavior: ipcidr
   upstream:
-    privateip:
+    lan_ip:
       type: http
       url: "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Lan/Lan.yaml"
       format: yaml
