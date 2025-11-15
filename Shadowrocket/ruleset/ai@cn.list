@@ -1,5 +1,5 @@
-# 更新时间: 2025-11-15 11:40:41（北京时间）
-# 规则数量: 58
+# 更新时间: 2025-11-20 08:42:00（北京时间）
+# 规则数量: 59
 DOMAIN,ai.zhaomi.cn
 DOMAIN,cueme-api.quark.cn
 DOMAIN-SUFFIX,baichuan-ai.com
@@ -18,6 +18,7 @@ DOMAIN-SUFFIX,deepseek.com
 DOMAIN-SUFFIX,doubao.com
 DOMAIN-SUFFIX,doubaocdn.com
 DOMAIN-SUFFIX,doudou.com
+DOMAIN-SUFFIX,faxingbao.com
 DOMAIN-SUFFIX,hailuoai.com
 DOMAIN-SUFFIX,hi-butterfly.cn
 DOMAIN-SUFFIX,hunyuan.tencent.com

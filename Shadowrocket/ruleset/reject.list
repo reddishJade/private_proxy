@@ -1,5 +1,5 @@
-# 更新时间: 2025-11-15 11:40:47（北京时间）
-# 规则数量: 9991
+# 更新时间: 2025-11-20 08:42:03（北京时间）
+# 规则数量: 10000
 DOMAIN,118.89.204.198
 DOMAIN,1500020991.vodplayer.wxamedia.com
 DOMAIN,1500022744.vodplayer.wxamedia.com
@@ -139,12 +139,14 @@ DOMAIN,advertising.yandex.ru
 DOMAIN,advice-ads.s3.amazonaws.com
 DOMAIN,adview.cn
 DOMAIN,adx-ad.smart-tv.cn
+DOMAIN,adx-api.jinmo.tech
 DOMAIN,adx-bj-req.anythinktech.com
 DOMAIN,adx-bj.anythinktech.com
 DOMAIN,adx-cn.anythinktech.com
 DOMAIN,adx-drcn.op.dbankcloud.cn
 DOMAIN,adx-open-service.youku.com
 DOMAIN,adx-os.anythinktech.com
+DOMAIN,adx-saas.advlion.com
 DOMAIN,adx.ads.heytapmobi.com
 DOMAIN,adx.ads.oppomobile.com
 DOMAIN,adx.appsdk.com.cn
@@ -246,6 +248,7 @@ DOMAIN,bgg.baidu.com
 DOMAIN,bianxian.com
 DOMAIN,bingads.microsoft.com
 DOMAIN,biz.weibo.com
+DOMAIN,bj-td-menta-01-callback.advlion.com
 DOMAIN,bj.ad.track.66mobi.com
 DOMAIN,bloodhound.spotify.com
 DOMAIN,books-analytics-events.apple.com
@@ -257,6 +260,7 @@ DOMAIN,bsrv.qq.com
 DOMAIN,bugly.qq.com
 DOMAIN,business-api.tiktok.com
 DOMAIN,c.bidtoolads.com
+DOMAIN,c.etoolads.cn
 DOMAIN,c.evidon.com
 DOMAIN,c.gj.qq.com
 DOMAIN,c.kuaiduizuoye.com
@@ -547,6 +551,7 @@ DOMAIN,mobilead.kuwo.cn
 DOMAIN,mobilelog.upqzfile.com
 DOMAIN,monitor-ads-test.huan.tv
 DOMAIN,monitor-uu.play.aiseet.atianqi.com
+DOMAIN,monitor.adxsenmeng.com
 DOMAIN,monitor.music.qq.com
 DOMAIN,monitor.uu.qq.com
 DOMAIN,monsetting.toutiao.com
@@ -642,6 +647,7 @@ DOMAIN,proxy.advp.apple.com
 DOMAIN,ps.map.baidu.com
 DOMAIN,public.gdtimg.com
 DOMAIN,q.i.gdt.qq.com
+DOMAIN,qmlog.baertt.com
 DOMAIN,qn-cdnfile1pcdn.msstatic.com
 DOMAIN,qqdata.ab.qq.com
 DOMAIN,qzs.gdtimg.com
@@ -663,8 +669,10 @@ DOMAIN,rps.hpplay.cn
 DOMAIN,rpt.gdt.qq.com
 DOMAIN,rt.applovin.com
 DOMAIN,rt.applvn.com
+DOMAIN,rtb.adxsenmeng.com
 DOMAIN,rtb.voiceads.cn
 DOMAIN,s.amazon-adsystem.com
+DOMAIN,s1.cdn-sg.advlion.com
 DOMAIN,s8t.teads.tv
 DOMAIN,saad.ms.zhangyue.net
 DOMAIN,saas.hpplay.cn
@@ -750,6 +758,7 @@ DOMAIN,t3.a.market.xiaomi.com
 DOMAIN,t7z.cupid.iqiyi.com
 DOMAIN,t7z.cupid.ptqy.gitv.tv
 DOMAIN,tangram.e.qq.com
+DOMAIN,target.ads.jihuoniao.com
 DOMAIN,tdc.qq.com
 DOMAIN,tdsdk.cpatrk.net
 DOMAIN,tdsdk.xdrig.com

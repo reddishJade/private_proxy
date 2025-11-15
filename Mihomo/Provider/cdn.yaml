@@ -1,5 +1,5 @@
-# 更新时间: 2025-11-15 08:41:37（北京时间）
-# 规则数量: 4051
+# 更新时间: 2025-11-20 08:41:44（北京时间）
+# 规则数量: 4085
 payload:
   - +.1a-1791.com
   - +.1passwordusercontent.ca
@@ -216,6 +216,7 @@ payload:
   - +.cloudfront.net
   - +.cloudfront.net.in
   - +.cloudimg.io
+  - +.cloudinary.vpsvc.com
   - +.cloudlin.vip
   - +.cmail19.com
   - +.cmail20.com
@@ -452,6 +453,7 @@ payload:
   - +.i.optimole.com
   - +.ibytedtos.com
   - +.ibyteimg.com
+  - +.icfcdn.com
   - +.icon.horse
   - +.iframe.ly
   - +.iggcdn.com
@@ -697,6 +699,7 @@ payload:
   - +.npmcdn.com
   - +.npmfs.com
   - +.npms.io
+  - +.nsimg.net
   - +.nv7s.com
   - +.nxcli.io
   - +.nxedge.io
@@ -915,6 +918,7 @@ payload:
   - +.staticblitz.com
   - +.staticflickr.com
   - +.staticimgly.com
+  - +.staticstack.net
   - +.staticworld.net
   - +.statuspage.io
   - +.steamstatic.com
@@ -936,6 +940,7 @@ payload:
   - +.stripeassets.com
   - +.stripecdn.com
   - +.stripst.com
+  - +.strpssts-ana.com
   - +.strpst.com
   - +.stylexjs.com
   - +.substackcdn.com
@@ -1250,6 +1255,7 @@ payload:
   - assets.clickfunnels.com
   - assets.cloudpilot.ai
   - assets.cmcmarkets.com
+  - assets.codeguru.com
   - assets.codepen.io
   - assets.coinbase.com
   - assets.coingecko.com
@@ -1598,6 +1604,7 @@ payload:
   - cdn.bfldr.com
   - cdn.bigcloud.click
   - cdn.birdie.so
+  - cdn.blogarama.com
   - cdn.botframework.com
   - cdn.branch.io
   - cdn.brandfetch.io
@@ -1650,6 +1657,7 @@ payload:
   - cdn.db-ip.com
   - cdn.db.io
   - cdn.decrypt.co
+  - cdn.decrypt.day
   - cdn.delight-vr.com
   - cdn.designerapp.osi.office.net
   - cdn.designsystem.arm.com
@@ -1734,6 +1742,7 @@ payload:
   - cdn.insightmediagroup.io
   - cdn.ionos.de
   - cdn.ip2location.io
+  - cdn.iplocation.net
   - cdn.iporntv.net
   - cdn.ipregistry.co
   - cdn.jamieoliver.com
@@ -1816,6 +1825,7 @@ payload:
   - cdn.perfops.net
   - cdn.permutive.com
   - cdn.pgvt.io
+  - cdn.pi.spectrum.net
   - cdn.piano.io
   - cdn.pickystory.com
   - cdn.picrew.me
@@ -2092,6 +2102,7 @@ payload:
   - cf.eip.telegraph.co.uk
   - cf.hamreus.com
   - cf.javfree.me
+  - cf.mhgui.com
   - cf.shopee.tw
   - cfvod.kaltura.com
   - chart.googleapis.com
@@ -2126,6 +2137,7 @@ payload:
   - cms-cdn.goat.com
   - cms-cdn.now.gg
   - cms.blavity.com
+  - cms.myfonts.com
   - cms.recordedfuture.com
   - cms.therecord.media
   - cms.typenetwork.com
@@ -2178,6 +2190,7 @@ payload:
   - cookie-cdn.cookiepro.com
   - corp-backend.brevo.com
   - cors-proxy.htmldriven.com
+  - covers.openlibrary.org
   - cpwebassets.codepen.io
   - craftassets.unraid.net
   - cravatar.eu
@@ -2302,6 +2315,9 @@ payload:
   - eu.cdnbye.com
   - eu.hamreus.com
   - eu01ccistatic.zoom.us
+  - eu1.hamreus.com
+  - eu2.hamreus.com
+  - eu3.hamreus.com
   - euc-widget.freshworks.com
   - event.ithome.com.tw
   - events-delivery.apple.com
@@ -2433,6 +2449,7 @@ payload:
   - hhhhhhome86227170.wordpress.com
   - himeko.iwara.tv
   - hips.hearstapps.com
+  - hiveplayer-static.bamgrid.com
   - hls.hentaicity.com
   - home.integrate.com
   - hp.foxnews.com
@@ -2449,6 +2466,7 @@ payload:
   - i.gawby.com
   - i.geekflare.com
   - i.giphy.com
+  - i.git99.com
   - i.guim.co.uk
   - i.gzn.jp
   - i.hamreus.com
@@ -2612,6 +2630,7 @@ payload:
   - images.scalero.io
   - images.scrolller.com
   - images.softwaresuggest.com
+  - images.spectrumnews1.com
   - images.spot.im
   - images.spr.so
   - images.store.crowdstrike.com
@@ -2739,6 +2758,7 @@ payload:
   - img.voguehk.com
   - img.washingtonpost.com
   - img.windy.com
+  - img.xbooru.com
   - img.xhacgn.com
   - img.xjh.me
   - img.youtube.com
@@ -2979,6 +2999,7 @@ payload:
   - media.printables.com
   - media.pullopen.xyz
   - media.ra.kroll.com
+  - media.raven.news
   - media.remax-prod.eng.remax.tech
   - media.shopimind.com
   - media.smooch.io
@@ -3164,6 +3185,7 @@ payload:
   - polyfill.bbhub.io
   - pomf2.lain.la
   - pool.jortage.com
+  - pp-static.monotype.com
   - pplx-next-static-public.perplexity.ai
   - pplx-res.cloudinary.com
   - pptstatic.iyf.tv
@@ -3288,6 +3310,7 @@ payload:
   - s1.coincarp.com
   - s1.divhunt.com
   - s1.feedly.com
+  - s1.freebeacon.com
   - s1.maxstream.org
   - s1.qwant.com
   - s1.zerochan.net
@@ -3295,6 +3318,7 @@ payload:
   - s11.maxstream.org
   - s13.maxstream.org
   - s2.coinmarketcap.com
+  - s2.freebeacon.com
   - s2.qwant.com
   - s3-alpha-sig.figma.com
   - s3-alpha.figma.com
@@ -3318,6 +3342,7 @@ payload:
   - s3.eu-central-003.backblazeb2.com
   - s3.eu-central-2.wasabisys.com
   - s3.filebase.com
+  - s3.freebeacon.com
   - s3.go2778.com
   - s3.m.0x.mk
   - s3.masto.ai
@@ -3333,6 +3358,7 @@ payload:
   - s3.us-west-004.backblazeb2.com
   - s3media.squarespace.com
   - s4.anilist.co
+  - s4.freebeacon.com
   - s4.itho.me
   - s8.maxstream.org
   - s9.maxstream.org
@@ -3379,6 +3405,7 @@ payload:
   - secure.telegraph.co.uk
   - segapi.clerk.com
   - segment.digitalocean.com
+  - sellon.shiprocket.in
   - sentry.ainopara.com
   - seo-wp.airdroid.com
   - sequoia.cdn-apple.com
@@ -3428,6 +3455,7 @@ payload:
   - spoprod-a.akamaihd.net
   - spotlightimage.biggo.com
   - sprig.figma.com
+  - sr-cdn-1.shiprocket.in
   - ss7.vzw.com
   - ssl.gstatic.com
   - st-eu.dynamicyield.com
@@ -3503,6 +3531,7 @@ payload:
   - static-us.afterpay.com
   - static-web-prod.skillshare.com
   - static-web.grammarly.com
+  - static-webfonts.myfonts.com
   - static-www.onlyoffice.com
   - static.3dporndude.com
   - static.4shared.com
@@ -3662,6 +3691,7 @@ payload:
   - static.oomol.com
   - static.openreplay.com
   - static.opensea.io
+  - static.opensuse.org
   - static.oracle.com
   - static.parallels.com
   - static.peatio.com
@@ -3804,6 +3834,7 @@ payload:
   - stubdownloader.services.mozilla.com
   - styleguide-assets.shannons.com.au
   - support.content.office.net
+  - swan.prod.merch.vpsvc.com
   - sync.getpublica.com
   - t.betterstack.com
   - t.nhentai.net
@@ -3916,6 +3947,9 @@ payload:
   - us.hamreus.com
   - us01ccistatic.zoom.us
   - us1-prod-images.disco-api.com
+  - us1.hamreus.com
+  - us2.hamreus.com
+  - us3.hamreus.com
   - use.fortawesome.com
   - use.typekit.com
   - use.typekit.net

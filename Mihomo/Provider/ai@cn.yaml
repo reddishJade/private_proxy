@@ -1,5 +1,5 @@
-# 更新时间: 2025-11-15 08:41:35（北京时间）
-# 规则数量: 58
+# 更新时间: 2025-11-20 08:41:42（北京时间）
+# 规则数量: 59
 payload:
   - +.baichuan-ai.com
   - +.bigmodel.cn
@@ -17,6 +17,7 @@ payload:
   - +.doubao.com
   - +.doubaocdn.com
   - +.doudou.com
+  - +.faxingbao.com
   - +.hailuoai.com
   - +.hi-butterfly.cn
   - +.hunyuan.tencent.com

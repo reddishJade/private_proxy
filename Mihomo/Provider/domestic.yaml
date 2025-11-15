@@ -1,5 +1,5 @@
-# 更新时间: 2025-11-15 08:41:38（北京时间）
-# 规则数量: 981
+# 更新时间: 2025-11-20 08:41:45（北京时间）
+# 规则数量: 980
 payload:
   - +.10010.com
   - +.10086.cn
@@ -207,7 +207,6 @@ payload:
   - +.cdnjtzy.com
   - +.cebbank.com
   - +.changyan.com
-  - +.chaoxing.cc
   - +.chaoxing.com
   - +.chaoxingv.com
   - +.chazidian.com

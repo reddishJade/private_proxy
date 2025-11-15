@@ -1,5 +1,5 @@
-# 更新时间: 2025-11-15 08:41:44（北京时间）
-# 规则数量: 6889
+# 更新时间: 2025-11-20 08:41:53（北京时间）
+# 规则数量: 6920
 payload:
   - +.000webhost.com
   - +.030buy.com
@@ -195,6 +195,7 @@ payload:
   - +.addyoutube.com
   - +.adelaidebbs.com
   - +.adguard-dns.io
+  - +.adguard-vpn.com
   - +.adguard.com
   - +.adguard.org
   - +.adguardaccount.com
@@ -229,6 +230,7 @@ payload:
   - +.agro.hk
   - +.ai
   - +.ai.binwang.me
+  - +.ai.dev
   - +.aicoin.com
   - +.aimoon.com
   - +.aiosearch.com
@@ -477,6 +479,7 @@ payload:
   - +.autodesk.com
   - +.autodraw.com
   - +.av-e-body.com
+  - +.av-wiki.net
   - +.av.com
   - +.av.movie
   - +.av01.tv
@@ -620,6 +623,7 @@ payload:
   - +.bestvpnserver.com
   - +.bestvpnservice.com
   - +.bestvpnusa.com
+  - +.bet
   - +.bet365.com
   - +.betaclouds.net
   - +.betfair.com
@@ -633,6 +637,7 @@ payload:
   - +.beyondfirewall.com
   - +.bfnn.org
   - +.bfsh.hk
+  - +.bg
   - +.bgme.me
   - +.bgp.tools
   - +.bgvpn.com
@@ -1709,6 +1714,7 @@ payload:
   - +.ebookbrowse.com
   - +.ebookee.com
   - +.ebtcbank.com
+  - +.ec
   - +.ecfa.org.tw
   - +.echofon.com
   - +.ecimg.tw
@@ -2073,6 +2079,7 @@ payload:
   - +.fq.wikia.com
   - +.fqrouter.com
   - +.fr
+  - +.framer.com
   - +.frank2019.me
   - +.franklc.com
   - +.freakshare.com
@@ -2089,6 +2096,7 @@ payload:
   - +.freechina.net
   - +.freechina.news
   - +.freechinaweibo.com
+  - +.freecodecamp.org
   - +.freeddns.com
   - +.freeddns.org
   - +.freedomcollection.org
@@ -2732,6 +2740,7 @@ payload:
   - +.have8.com
   - +.hbg.com
   - +.hbo.com
+  - +.hbomax.com
   - +.hclips.com
   - +.hd.stheadline.com
   - +.hdtvb.net
@@ -3013,6 +3022,7 @@ payload:
   - +.idouga.com
   - +.idrive.com
   - +.idv.tw
+  - +.ie
   - +.ied2k.net
   - +.ienergy1.com
   - +.ietf.org
@@ -3036,6 +3046,7 @@ payload:
   - +.iipdigital.usembassy.gov
   - +.ikstar.com
   - +.ikwb.com
+  - +.il
   - +.ilbe.com
   - +.ilhamtohtiinstitute.org
   - +.illawarramercury.com.au
@@ -3151,6 +3162,7 @@ payload:
   - +.iptv.com.tw
   - +.iptvbin.com
   - +.ipvanish.com
+  - +.ir
   - +.irangov.ir
   - +.iredmail.org
   - +.irna.ir
@@ -3505,6 +3517,7 @@ payload:
   - +.libertysculpturepark.com
   - +.libertytimes.com.tw
   - +.libgen.fun
+  - +.library-access.sk
   - +.library.usc.cuhk.edu.hk
   - +.libredd.it
   - +.libsyn.com
@@ -3655,6 +3668,7 @@ payload:
   - +.mahjongsoul.com
   - +.maiio.net
   - +.mail-archive.com
+  - +.mailchimp.com
   - +.main-ecnpaper-economist.content.pugpig.com
   - +.maiplus.com
   - +.maizhong.org
@@ -3673,6 +3687,7 @@ payload:
   - +.mangaup.jp
   - +.mangmang.run
   - +.manhuabika.com
+  - +.manhuagui.com
   - +.manhuaren.com
   - +.maniash.com
   - +.manicur4ik.ru
@@ -3712,6 +3727,7 @@ payload:
   - +.maven.neoforged.net
   - +.maven.org
   - +.maxing.jp
+  - +.maxjav.com
   - +.mayimayi.com
   - +.mayoclinic.org
   - +.mcadforums.com
@@ -3776,14 +3792,17 @@ payload:
   - +.mewe.com
   - +.mexc.com
   - +.mfxmedia.com
+  - +.mg
   - +.mgoon.com
   - +.mgstage.com
   - +.mh4u.org
   - +.mhradio.org
+  - +.micro.blog
   - +.microvpn.com
   - +.middle-way.net
   - +.mihr.com
   - +.mihua.org
+  - +.mij.rip
   - +.mikanani.me
   - +.mike.cz.cc
   - +.mikesoltys.com
@@ -3841,6 +3860,8 @@ payload:
   - +.mixpod.com
   - +.mixx.com
   - +.mizzmona.com
+  - +.mji.rip
+  - +.mjj.rip
   - +.mjlsh.usc.cuhk.edu.hk
   - +.mlc.ai
   - +.mlcool.com
@@ -4231,6 +4252,7 @@ payload:
   - +.nvquan.org
   - +.nvtongzhisheng.org
   - +.nwtca.org
+  - +.ny1.com
   - +.nyaa.eu
   - +.nyaa.land
   - +.nyaa.si
@@ -4334,6 +4356,7 @@ payload:
   - +.openfreemap.org
   - +.openid.net
   - +.openleaks.org
+  - +.openlibrary.org
   - +.opensea.io
   - +.openstreetmap.org
   - +.opentable.com
@@ -4528,6 +4551,7 @@ payload:
   - +.pixiv.org
   - +.pixivsketch.net
   - +.pixnet.net
+  - +.pk
   - +.pk.com
   - +.pki.goog
   - +.pkqjiasu.com
@@ -4875,12 +4899,14 @@ payload:
   - +.rlwlw.com
   - +.rmbl.ws
   - +.rmjdw.com
+  - +.ro
   - +.roadshow.hk
   - +.roboflow.com
   - +.roboforex.com
   - +.robustnessiskey.com
   - +.rocket-inc.net
   - +.rocket.chat
+  - +.rocks
   - +.rocksdb.org
   - +.rojo.com
   - +.rolfoundation.org
@@ -4913,6 +4939,7 @@ payload:
   - +.run.app
   - +.runbtx.com
   - +.rushbee.com
+  - +.rustdesk.com
   - +.rusvpn.com
   - +.ruten.com.tw
   - +.rutracker.net
@@ -6058,6 +6085,7 @@ payload:
   - +.uncyclomedia.org
   - +.uncyclopedia.hk
   - +.uncyclopedia.tw
+  - +.underhentai.net
   - +.underwoodammo.com
   - +.unfiltered.news
   - +.unholyknight.com
@@ -6599,6 +6627,7 @@ payload:
   - +.xanga.com
   - +.xbabe.com
   - +.xbookcn.com
+  - +.xbooru.com
   - +.xbtce.com
   - +.xcafe.in
   - +.xchina.co
@@ -6646,6 +6675,7 @@ payload:
   - +.xmovies.com
   - +.xn--11xs86f.icu
   - +.xn--4gq171p.com
+  - +.xn--9iqy04a7fi01l.com
   - +.xn--9pr62r24a.com
   - +.xn--czq75pvv1aj5c.org
   - +.xn--i2ru8q2qg.com
@@ -6672,6 +6702,7 @@ payload:
   - +.xuehua.us
   - +.xuite.net
   - +.xvbelink.com
+  - +.xvideo-jp.com
   - +.xvideo.cc
   - +.xvideos-cdn.com
   - +.xvideos.com

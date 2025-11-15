@@ -1,12 +1,9 @@
-# 更新时间: 2025-11-15 11:40:43（北京时间）
-# 规则数量: 403
+# 更新时间: 2025-11-20 08:42:01（北京时间）
+# 规则数量: 402
 DOMAIN,0123456789nonexistent.com
 DOMAIN,0d.kebhana.mx
 DOMAIN,1337.abcvg.info
-DOMAIN,1c.premierzal.ru
-DOMAIN,6ahddutb1ucc3cp.ru
 DOMAIN,aboutbeautifulgallopinghorsesinthegreenpasture.online
-DOMAIN,admin.52ywp.com
 DOMAIN,anna.bt.bontal.net
 DOMAIN,bandito.byterunner.io
 DOMAIN,bittorrent-tracker.e-n-c-r-y-p-t.net
@@ -35,6 +32,7 @@ DOMAIN,ipv4announce.sktorrent.eu
 DOMAIN,ipv6.rer.lol
 DOMAIN,lucke.fenesisu.moe
 DOMAIN,martin-gebhardt.eu
+DOMAIN,ns-1.x-fins.com
 DOMAIN,ns3109441.mypdns.org
 DOMAIN,ntp-b.nist.gov
 DOMAIN,ntp-c.colorado.edu
@@ -88,7 +86,6 @@ DOMAIN,share.hkg-fansub.info
 DOMAIN,shubt.net
 DOMAIN,t-backup.213891.xyz
 DOMAIN,t.213891.xyz
-DOMAIN,t.overflow.biz
 DOMAIN,threads.canofsocks.com
 DOMAIN,time-a-b.nist.gov
 DOMAIN,time-a-g.nist.gov
@@ -139,21 +136,21 @@ DOMAIN,tr.abir.ga
 DOMAIN,tr.highstar.shop
 DOMAIN,tr.kxmp.cf
 DOMAIN,tr.nyacat.pw
+DOMAIN,tr.zukizuki.org
 DOMAIN,tr3.ysagin.top
 DOMAIN,tr4ck3r.duckdns.org
 DOMAIN,tracker-de-2.cutie.dating
 DOMAIN,tracker-zhuqiy.dgj055.icu
+DOMAIN,tracker.1h.is
 DOMAIN,tracker.23794.top
 DOMAIN,tracker.alaskantf.com
 DOMAIN,tracker.beeimg.com
 DOMAIN,tracker.belmult.online
 DOMAIN,tracker.bitcoinindia.space
 DOMAIN,tracker.bittor.pw
-DOMAIN,tracker.breizh.pm
 DOMAIN,tracker.bt-hash.com
 DOMAIN,tracker.bt4g.com
 DOMAIN,tracker.bz
-DOMAIN,tracker.cloudbase.store
 DOMAIN,tracker.corpscorp.online
 DOMAIN,tracker.cutie.dating
 DOMAIN,tracker.cyberia.is
@@ -170,7 +167,6 @@ DOMAIN,tracker.gcrenwp.top
 DOMAIN,tracker.ghostchu-services.top
 DOMAIN,tracker.gmi.gd
 DOMAIN,tracker.hifimarket.in
-DOMAIN,tracker.hifitechindia.com
 DOMAIN,tracker.iperson.xyz
 DOMAIN,tracker.ipv6tracker.org
 DOMAIN,tracker.ipv6tracker.ru
@@ -178,9 +174,9 @@ DOMAIN,tracker.kuroy.me
 DOMAIN,tracker.leechshield.link
 DOMAIN,tracker.lintk.me
 DOMAIN,tracker.moeblog.cn
+DOMAIN,tracker.moeking.me
 DOMAIN,tracker.moxing.party
 DOMAIN,tracker.mywaifu.best
-DOMAIN,tracker.ololosh.space
 DOMAIN,tracker.opentrackr.org
 DOMAIN,tracker.openwebtorrent.com
 DOMAIN,tracker.playground.ru
@@ -191,10 +187,11 @@ DOMAIN,tracker.renfei.net
 DOMAIN,tracker.rescuecrew7.com
 DOMAIN,tracker.sbsub.com
 DOMAIN,tracker.skillindia.site
+DOMAIN,tracker.skynetcloud.site
 DOMAIN,tracker.skyts.net
 DOMAIN,tracker.srv00.com
 DOMAIN,tracker.startwork.cv
-DOMAIN,tracker.theoks.net
+DOMAIN,tracker.t-1.org
 DOMAIN,tracker.therarbg.to
 DOMAIN,tracker.torrent.eu.org
 DOMAIN,tracker.torrust-demo.com
@@ -211,9 +208,11 @@ DOMAIN,tracker.zhuqiy.dgj055.icu
 DOMAIN,tracker.zupix.online
 DOMAIN,tracker1.520.jp
 DOMAIN,tracker1.bt.moack.co.kr
+DOMAIN,tracker1.t-1.org
 DOMAIN,tracker2.dler.org
 DOMAIN,tracker2.itzmx.com
 DOMAIN,tracker3.itzmx.com
+DOMAIN,tracker3.t-1.org
 DOMAIN,tracker4.itzmx.com
 DOMAIN,tracker810.xyz
 DOMAIN,ttk2.nbaonlineservice.com

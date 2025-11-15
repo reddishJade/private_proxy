@@ -1,5 +1,5 @@
-# 更新时间: 2025-11-15 08:41:47（北京时间）
-# 规则数量: 9908
+# 更新时间: 2025-11-20 08:41:55（北京时间）
+# 规则数量: 9917
 payload:
   - +.0.r.msn.com
   - +.000dn.com
@@ -9144,12 +9144,14 @@ payload:
   - advice-ads.s3.amazonaws.com
   - adview.cn
   - adx-ad.smart-tv.cn
+  - adx-api.jinmo.tech
   - adx-bj-req.anythinktech.com
   - adx-bj.anythinktech.com
   - adx-cn.anythinktech.com
   - adx-drcn.op.dbankcloud.cn
   - adx-open-service.youku.com
   - adx-os.anythinktech.com
+  - adx-saas.advlion.com
   - adx.ads.heytapmobi.com
   - adx.ads.oppomobile.com
   - adx.appsdk.com.cn
@@ -9251,6 +9253,7 @@ payload:
   - bianxian.com
   - bingads.microsoft.com
   - biz.weibo.com
+  - bj-td-menta-01-callback.advlion.com
   - bj.ad.track.66mobi.com
   - bloodhound.spotify.com
   - books-analytics-events.apple.com
@@ -9262,6 +9265,7 @@ payload:
   - bugly.qq.com
   - business-api.tiktok.com
   - c.bidtoolads.com
+  - c.etoolads.cn
   - c.evidon.com
   - c.gj.qq.com
   - c.kuaiduizuoye.com
@@ -9552,6 +9556,7 @@ payload:
   - mobilelog.upqzfile.com
   - monitor-ads-test.huan.tv
   - monitor-uu.play.aiseet.atianqi.com
+  - monitor.adxsenmeng.com
   - monitor.music.qq.com
   - monitor.uu.qq.com
   - monsetting.toutiao.com
@@ -9647,6 +9652,7 @@ payload:
   - ps.map.baidu.com
   - public.gdtimg.com
   - q.i.gdt.qq.com
+  - qmlog.baertt.com
   - qn-cdnfile1pcdn.msstatic.com
   - qqdata.ab.qq.com
   - qzs.gdtimg.com
@@ -9668,8 +9674,10 @@ payload:
   - rpt.gdt.qq.com
   - rt.applovin.com
   - rt.applvn.com
+  - rtb.adxsenmeng.com
   - rtb.voiceads.cn
   - s.amazon-adsystem.com
+  - s1.cdn-sg.advlion.com
   - s8t.teads.tv
   - saad.ms.zhangyue.net
   - saas.hpplay.cn
@@ -9755,6 +9763,7 @@ payload:
   - t7z.cupid.iqiyi.com
   - t7z.cupid.ptqy.gitv.tv
   - tangram.e.qq.com
+  - target.ads.jihuoniao.com
   - tdc.qq.com
   - tdsdk.cpatrk.net
   - tdsdk.xdrig.com
