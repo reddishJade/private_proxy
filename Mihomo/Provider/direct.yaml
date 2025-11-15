@@ -1,5 +1,5 @@
-# 更新时间: 2025-11-14 20:17:31（北京时间）
-# 规则数量: 615
+# 更新时间: 2025-11-15 08:41:38（北京时间）
+# 规则数量: 617
 payload:
   - DOMAIN,0123456789nonexistent.com
   - DOMAIN,0d.kebhana.mx
@@ -154,6 +154,7 @@ payload:
   - DOMAIN,tr.highstar.shop
   - DOMAIN,tr.kxmp.cf
   - DOMAIN,tr.nyacat.pw
+  - DOMAIN,tr.zukizuki.org
   - DOMAIN,tr3.ysagin.top
   - DOMAIN,tr4ck3r.duckdns.org
   - DOMAIN,tracker-de-2.cutie.dating
@@ -247,6 +248,7 @@ payload:
   - DOMAIN,www.torrent.eu.org
   - DOMAIN,www.torrentsnipe.info
   - DOMAIN,www.wareztorrent.com
+  - DOMAIN,yuki.bt.bontal.net
   - DOMAIN-KEYWORD,aria2
   - DOMAIN-KEYWORD,cnki.net
   - DOMAIN-KEYWORD,deepdyve
