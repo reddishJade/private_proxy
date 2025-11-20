@@ -1,10 +1,12 @@
-# 更新时间: 2025-11-20 08:41:45（北京时间）
-# 规则数量: 614
+# 更新时间: 2025-12-03 08:43:24（北京时间）
+# 规则数量: 623
 payload:
   - DOMAIN,0123456789nonexistent.com
   - DOMAIN,0d.kebhana.mx
   - DOMAIN,1337.abcvg.info
+  - DOMAIN,6ahddutb1ucc3cp.ru
   - DOMAIN,aboutbeautifulgallopinghorsesinthegreenpasture.online
+  - DOMAIN,admin.52ywp.com
   - DOMAIN,anna.bt.bontal.net
   - DOMAIN,aterm.me
   - DOMAIN,bandito.byterunner.io
@@ -18,13 +20,13 @@ payload:
   - DOMAIN,burmese.app
   - DOMAIN,bvarf.tracker.sh
   - DOMAIN,captive.apple.com
-  - DOMAIN,cny.fan
   - DOMAIN,concen.org
   - DOMAIN,connect.rom.miui.com
   - DOMAIN,connectivitycheck.platform.hicloud.com
   - DOMAIN,connectivitycheck.platform.hihonorcloud.com
   - DOMAIN,console.gl-inet.com
   - DOMAIN,d40969.acod.regrucolo.ru
+  - DOMAIN,discord.heihachi.pw
   - DOMAIN,echostar.ddnsfree.com
   - DOMAIN,evan.im
   - DOMAIN,exodus.desync.com
@@ -33,16 +35,17 @@ payload:
   - DOMAIN,home.yxgz.club
   - DOMAIN,homerouter.cpe
   - DOMAIN,hotspot.cslwifi.com
+  - DOMAIN,ibksturm.synology.me
   - DOMAIN,injections.adguard.org
   - DOMAIN,instant.arubanetworks.com
   - DOMAIN,ipv4.rer.lol
   - DOMAIN,ipv4announce.sktorrent.eu
   - DOMAIN,ipv6.rer.lol
+  - DOMAIN,isk.richardsw.club
   - DOMAIN,local.adguard.org
   - DOMAIN,lucke.fenesisu.moe
   - DOMAIN,martin-gebhardt.eu
   - DOMAIN,mobile.hotspot
-  - DOMAIN,ns-1.x-fins.com
   - DOMAIN,ns3109441.mypdns.org
   - DOMAIN,ntp-b.nist.gov
   - DOMAIN,ntp-c.colorado.edu
@@ -85,7 +88,6 @@ payload:
   - DOMAIN,p4p.arenabg.com
   - DOMAIN,pi.hole
   - DOMAIN,public.demonoid.ch
-  - DOMAIN,rekcart.duckdns.org
   - DOMAIN,repeater.asus.com
   - DOMAIN,retracker.hotplug.ru
   - DOMAIN,retracker.lanta.me
@@ -101,6 +103,7 @@ payload:
   - DOMAIN,shubt.net
   - DOMAIN,t-backup.213891.xyz
   - DOMAIN,t.213891.xyz
+  - DOMAIN,t.overflow.biz
   - DOMAIN,threads.canofsocks.com
   - DOMAIN,time-a-b.nist.gov
   - DOMAIN,time-a-g.nist.gov
@@ -143,9 +146,7 @@ payload:
   - DOMAIN,torrent.tracker.durukanbal.com
   - DOMAIN,torrentclub.online
   - DOMAIN,torrentsmd.com
-  - DOMAIN,tr-rh-zhuqiy.dgj055.icu
   - DOMAIN,tr-zhuqiy-1.dgj055.icu
-  - DOMAIN,tr-zhuqiy-2.dgj055.icu
   - DOMAIN,tr.abiir.top
   - DOMAIN,tr.abir.ga
   - DOMAIN,tr.highstar.shop
@@ -155,7 +156,8 @@ payload:
   - DOMAIN,tr3.ysagin.top
   - DOMAIN,tr4ck3r.duckdns.org
   - DOMAIN,tracker-de-2.cutie.dating
-  - DOMAIN,tracker-zhuqiy.dgj055.icu
+  - DOMAIN,tracker-udp.gbitt.info
+  - DOMAIN,tracker.0x7c0.com
   - DOMAIN,tracker.1h.is
   - DOMAIN,tracker.23794.top
   - DOMAIN,tracker.alaskantf.com
@@ -163,9 +165,11 @@ payload:
   - DOMAIN,tracker.belmult.online
   - DOMAIN,tracker.bitcoinindia.space
   - DOMAIN,tracker.bittor.pw
+  - DOMAIN,tracker.breizh.pm
   - DOMAIN,tracker.bt-hash.com
   - DOMAIN,tracker.bt4g.com
   - DOMAIN,tracker.bz
+  - DOMAIN,tracker.cloudbase.store
   - DOMAIN,tracker.corpscorp.online
   - DOMAIN,tracker.cutie.dating
   - DOMAIN,tracker.cyberia.is
@@ -176,12 +180,16 @@ payload:
   - DOMAIN,tracker.dmcomic.org
   - DOMAIN,tracker.ducks.party
   - DOMAIN,tracker.filemail.com
+  - DOMAIN,tracker.flatuslifir.is
   - DOMAIN,tracker.fnix.net
   - DOMAIN,tracker.foreverpirates.co
   - DOMAIN,tracker.gcrenwp.top
   - DOMAIN,tracker.ghostchu-services.top
   - DOMAIN,tracker.gmi.gd
+  - DOMAIN,tracker.guguan.dpdns.org
   - DOMAIN,tracker.hifimarket.in
+  - DOMAIN,tracker.hifitechindia.com
+  - DOMAIN,tracker.iochimari.moe
   - DOMAIN,tracker.iperson.xyz
   - DOMAIN,tracker.ipv6tracker.org
   - DOMAIN,tracker.ipv6tracker.ru
@@ -192,6 +200,7 @@ payload:
   - DOMAIN,tracker.moeking.me
   - DOMAIN,tracker.moxing.party
   - DOMAIN,tracker.mywaifu.best
+  - DOMAIN,tracker.ololosh.space
   - DOMAIN,tracker.opentrackr.org
   - DOMAIN,tracker.openwebtorrent.com
   - DOMAIN,tracker.playground.ru
@@ -203,11 +212,11 @@ payload:
   - DOMAIN,tracker.rescuecrew7.com
   - DOMAIN,tracker.sbsub.com
   - DOMAIN,tracker.skillindia.site
-  - DOMAIN,tracker.skynetcloud.site
   - DOMAIN,tracker.skyts.net
   - DOMAIN,tracker.srv00.com
   - DOMAIN,tracker.startwork.cv
   - DOMAIN,tracker.t-1.org
+  - DOMAIN,tracker.theoks.net
   - DOMAIN,tracker.therarbg.to
   - DOMAIN,tracker.torrent.eu.org
   - DOMAIN,tracker.torrust-demo.com
@@ -220,10 +229,9 @@ payload:
   - DOMAIN,tracker.xiaoduola.xyz
   - DOMAIN,tracker.yemekyedim.com
   - DOMAIN,tracker.zhuqiy.com
-  - DOMAIN,tracker.zhuqiy.dgj055.icu
   - DOMAIN,tracker.zupix.online
   - DOMAIN,tracker1.520.jp
-  - DOMAIN,tracker1.bt.moack.co.kr
+  - DOMAIN,tracker1.myporn.club
   - DOMAIN,tracker1.t-1.org
   - DOMAIN,tracker2.dler.org
   - DOMAIN,tracker2.itzmx.com
@@ -246,6 +254,7 @@ payload:
   - DOMAIN,www.torrent.eu.org
   - DOMAIN,www.torrentsnipe.info
   - DOMAIN,www.wareztorrent.com
+  - DOMAIN,yuki.bt.bontal.net
   - DOMAIN-KEYWORD,aria2
   - DOMAIN-KEYWORD,cnki.net
   - DOMAIN-KEYWORD,deepdyve

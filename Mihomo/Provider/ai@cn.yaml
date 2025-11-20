@@ -1,5 +1,5 @@
-# 更新时间: 2025-11-20 08:41:42（北京时间）
-# 规则数量: 59
+# 更新时间: 2025-12-03 08:43:22（北京时间）
+# 规则数量: 63
 payload:
   - +.baichuan-ai.com
   - +.bigmodel.cn
@@ -30,6 +30,8 @@ payload:
   - +.mcdemo.show
   - +.mchost.guru
   - +.mcprev.cn
+  - +.meta.law
+  - +.metaso.cn
   - +.miaoyanai.com
   - +.minimax.chat
   - +.minimax.io
@@ -41,6 +43,7 @@ payload:
   - +.picpic-ai.cn
   - +.pixeldance.com
   - +.qianwen.aliyun.com
+  - +.qianwen.com
   - +.qwen.ai
   - +.qwenlm.ai
   - +.rwkv.cn
@@ -52,6 +55,7 @@ payload:
   - +.trae.cn
   - +.trae.com.cn
   - +.trae.guru
+  - +.xiezuocat.com
   - +.xinghuo.xfyun.cn
   - +.xingyeai.com
   - +.yiyan.baidu.com

@@ -1,5 +1,5 @@
-# 更新时间: 2025-11-20 08:42:00（北京时间）
-# 规则数量: 59
+# 更新时间: 2025-12-03 08:43:38（北京时间）
+# 规则数量: 63
 DOMAIN,ai.zhaomi.cn
 DOMAIN,cueme-api.quark.cn
 DOMAIN-SUFFIX,baichuan-ai.com
@@ -31,6 +31,8 @@ DOMAIN-SUFFIX,mcbaas.work
 DOMAIN-SUFFIX,mcdemo.show
 DOMAIN-SUFFIX,mchost.guru
 DOMAIN-SUFFIX,mcprev.cn
+DOMAIN-SUFFIX,meta.law
+DOMAIN-SUFFIX,metaso.cn
 DOMAIN-SUFFIX,miaoyanai.com
 DOMAIN-SUFFIX,minimax.chat
 DOMAIN-SUFFIX,minimax.io
@@ -42,6 +44,7 @@ DOMAIN-SUFFIX,namiso.com
 DOMAIN-SUFFIX,picpic-ai.cn
 DOMAIN-SUFFIX,pixeldance.com
 DOMAIN-SUFFIX,qianwen.aliyun.com
+DOMAIN-SUFFIX,qianwen.com
 DOMAIN-SUFFIX,qwen.ai
 DOMAIN-SUFFIX,qwenlm.ai
 DOMAIN-SUFFIX,rwkv.cn
@@ -53,6 +56,7 @@ DOMAIN-SUFFIX,tongyi.com
 DOMAIN-SUFFIX,trae.cn
 DOMAIN-SUFFIX,trae.com.cn
 DOMAIN-SUFFIX,trae.guru
+DOMAIN-SUFFIX,xiezuocat.com
 DOMAIN-SUFFIX,xinghuo.xfyun.cn
 DOMAIN-SUFFIX,xingyeai.com
 DOMAIN-SUFFIX,yiyan.baidu.com

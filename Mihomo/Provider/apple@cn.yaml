@@ -1,5 +1,5 @@
-# 更新时间: 2025-11-20 08:41:43（北京时间）
-# 规则数量: 463
+# 更新时间: 2025-12-03 08:43:23（北京时间）
+# 规则数量: 464
 payload:
   - +.a1.mzstatic.com
   - +.a2.mzstatic.com
@@ -259,6 +259,7 @@ payload:
   - appldnld.apple.com
   - appldnld.g.aaplimg.com
   - appleid.cdn-apple.com
+  - appleintelligencefeedback.care.apple.com
   - apps.apple.com
   - apps.mzstatic.com
   - apptrailers.itunes.apple.com

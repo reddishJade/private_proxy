@@ -1,5 +1,5 @@
-# 更新时间: 2025-11-20 08:41:43（北京时间）
-# 规则数量: 136
+# 更新时间: 2025-12-03 08:43:22（北京时间）
+# 规则数量: 143
 payload:
   - +.ai.azure.com
   - +.ai.com
@@ -37,6 +37,9 @@ payload:
   - +.coderabbit.gallery.vsassets.io
   - +.cohere.ai
   - +.cohere.com
+  - +.comfy.org
+  - +.comfyci.org
+  - +.comfyregistry.org
   - +.copilot.cloud.microsoft
   - +.copilot.microsoft.com
   - +.coze.com
@@ -66,10 +69,12 @@ payload:
   - +.grazie.ai
   - +.grazie.aws.intellij.net
   - +.grok.com
+  - +.grok.x.com
   - +.groq.com
   - +.gspe1-ssl.ls.apple.com
   - +.guzzoni.apple.com
   - +.hf.co
+  - +.hf.space
   - +.host.livekit.cloud
   - +.huggingface.co
   - +.identrust.com
@@ -94,6 +99,7 @@ payload:
   - +.openaiapi-site.azureedge.net
   - +.openart.ai
   - +.openrouter.ai
+  - +.oystermercury.top
   - +.perplexity.ai
   - +.perplexity.com
   - +.poe.com
@@ -112,6 +118,7 @@ payload:
   - aistudio.google.com
   - alkalicore-pa.clients6.google.com
   - alkalimakersuite-pa.clients6.google.com
+  - antigravity-unleash.goog
   - api.github.com
   - api.githubcopilot.com
   - api.groq.com

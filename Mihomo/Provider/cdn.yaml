@@ -1,5 +1,5 @@
-# 更新时间: 2025-11-20 08:41:44（北京时间）
-# 规则数量: 4085
+# 更新时间: 2025-12-03 08:43:24（北京时间）
+# 规则数量: 4109
 payload:
   - +.1a-1791.com
   - +.1passwordusercontent.ca
@@ -252,6 +252,7 @@ payload:
   - +.dataplane.rudderstack.com
   - +.datocms-assets.com
   - +.daumcdn.net
+  - +.dc-telemetry.net
   - +.dditsadn.com
   - +.dditscdn.com
   - +.ddpic.info
@@ -262,6 +263,7 @@ payload:
   - +.descopecdn.com
   - +.design-system.economist.com
   - +.devrum.uptime.com
+  - +.digikeyassets.com
   - +.dilcdn.com
   - +.directupload.net
   - +.disconnect.me
@@ -438,6 +440,7 @@ payload:
   - +.hs-scripts.net
   - +.hsappstatic.net
   - +.hscollectedforms.net
+  - +.hsstatic.net
   - +.hsto.org
   - +.hubspotlinks.com
   - +.hubspotusercontent-eu1.net
@@ -640,6 +643,7 @@ payload:
   - +.metric.gstatic.com
   - +.mfcimg.com
   - +.minotar.net
+  - +.mintcdn.com
   - +.mirror-media.xyz
   - +.misskeyusercontent.com
   - +.misskeyusercontent.jp
@@ -925,6 +929,7 @@ payload:
   - +.steamusercontent.com
   - +.steemitimages.com
   - +.sthlstatic.com
+  - +.storage.boilerplate.com
   - +.storage.cloudconvert.com
   - +.storage.googleapis.com
   - +.storage.infomaniak.com
@@ -977,6 +982,7 @@ payload:
   - +.tile.osm.org
   - +.tiles-api.maps.komoot.net
   - +.tiles.mapbox.com
+  - +.tiles.virtualearth.net
   - +.tindiemedia.com
   - +.tiqcdn.com
   - +.tkcdns.com
@@ -1152,6 +1158,7 @@ payload:
   - analytics.welcomesoftware.com
   - anchor.digitalocean.com
   - android-safebrowsing.google.com
+  - api-cdn.shutterstock.com
   - api-esp-ap.piano.io
   - api-eu.mixpanel.com
   - api-frameworks.vercel.sh
@@ -1563,6 +1570,7 @@ payload:
   - cdn-static.paw.cloud
   - cdn-static.talent.com
   - cdn-swell-assets.yotpo.com
+  - cdn-teams-slug.flaticon.com
   - cdn-thumbs.imagevenue.com
   - cdn-uicons.flaticon.com
   - cdn-us.readspeaker.com
@@ -1803,6 +1811,7 @@ payload:
   - cdn.networklessons.com
   - cdn.neverbounce.com
   - cdn.nfcube.com
+  - cdn.nodeimage.com
   - cdn.nolt.io
   - cdn.northropgrumman.com
   - cdn.now.gg
@@ -2190,6 +2199,8 @@ payload:
   - cookie-cdn.cookiepro.com
   - corp-backend.brevo.com
   - cors-proxy.htmldriven.com
+  - cover.comicbz.com
+  - cover.yymanhua.com
   - covers.openlibrary.org
   - cpwebassets.codepen.io
   - craftassets.unraid.net
@@ -2206,7 +2217,9 @@ payload:
   - css-1-cdn.airdroid.com
   - css.4jpg.top
   - css.blackmagicdesign.com
+  - css.comicbz.com
   - css.createsend1.com
+  - css.yymanhua.com
   - curl.se
   - cw-image-resizer.cwg.tw
   - cwsimages.ingramcontent.com
@@ -2263,6 +2276,7 @@ payload:
   - e3.365dm.com
   - eaassets-a.akamaihd.net
   - easylist-downloads.adblockplus.org
+  - ecn.dev.virtualearth.net
   - ecommplugins-scripts.trustpilot.com
   - ecommplugins-trustboxsettings.trustpilot.com
   - edata.ndtv.com
@@ -2534,6 +2548,7 @@ payload:
   - image.ap-mail.org
   - image.civitai.com
   - image.cnbcfm.com
+  - image.comicbz.com
   - image.crisp.chat
   - image.dooo.ng
   - image.email.microsoftemail.com
@@ -2560,7 +2575,9 @@ payload:
   - image.tmdb.org
   - image.vuukle.com
   - image.westinyou.com
+  - image.xmanhua.net
   - image.yuntu.com.tw
+  - image.yymanhua.com
   - imagecdn.clips4sale.com
   - imagehost.player.fm
   - imageio.forbes.com
@@ -2647,6 +2664,7 @@ payload:
   - images.wikia.com
   - images.wsj.net
   - images.wsjcommerce.net
+  - images.wurstclient.net
   - images.youracclaim.com
   - images1.cmp.optimizely.com
   - images1.vinted.net
@@ -3223,6 +3241,7 @@ payload:
   - public-pages.cbinsights.com
   - public.flourish.studio
   - public.hare200.com
+  - public.komiic.com
   - public.linear.app
   - public.mocortech.com
   - public.saasexch.com
@@ -3233,6 +3252,7 @@ payload:
   - qmod.quotemedia.com
   - quests.armorgames.com
   - quriobot.com
+  - r.bing.com
   - r.r10s.jp
   - r2.1hanime.com
   - r2.gear4music.com
@@ -3409,6 +3429,7 @@ payload:
   - sentry.ainopara.com
   - seo-wp.airdroid.com
   - sequoia.cdn-apple.com
+  - server.arcgisonline.com
   - service-icons.zeabur.com
   - services.linkfire.com
   - sf-coze-web-cdn.coze.com
@@ -3580,6 +3601,7 @@ payload:
   - static.cohere.so
   - static.coinall.ltd
   - static.coingecko.com
+  - static.comicbz.com
   - static.community.workday.com
   - static.convertio.co
   - static.corp.google.com
@@ -3934,6 +3956,8 @@ payload:
   - uos-support-files.svc.ui.com
   - updates.signal.org
   - updates2.signal.org
+  - upload.movim.eu
+  - upload.teftera.com
   - upload.wikimedia.org
   - uploads-cdn.omnicalculator.com
   - uploads.codesandbox.io
