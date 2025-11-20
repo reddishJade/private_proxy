@@ -1,5 +1,5 @@
-# 更新时间: 2025-11-20 08:41:42（北京时间）
-# 规则数量: 59
+# 更新时间: 2025-11-30 20:14:45（北京时间）
+# 规则数量: 60
 payload:
   - +.baichuan-ai.com
   - +.bigmodel.cn
@@ -41,6 +41,7 @@ payload:
   - +.picpic-ai.cn
   - +.pixeldance.com
   - +.qianwen.aliyun.com
+  - +.qianwen.com
   - +.qwen.ai
   - +.qwenlm.ai
   - +.rwkv.cn

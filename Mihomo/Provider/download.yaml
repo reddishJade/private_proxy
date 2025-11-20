@@ -1,5 +1,5 @@
-# 更新时间: 2025-11-20 08:41:47（北京时间）
-# 规则数量: 1858
+# 更新时间: 2025-11-30 20:14:49（北京时间）
+# 规则数量: 1860
 payload:
   - +.1fichier.com
   - +.1fichier.info
@@ -868,6 +868,7 @@ payload:
   - espejito.fder.edu.uy
   - fastly-download.epicgames.com
   - fdisk.5play.app
+  - fdroid.tetaneutral.net
   - fedorapeople.org
   - file.chobit.cc
   - files2.freedownloadmanager.org
@@ -1325,6 +1326,7 @@ payload:
   - mirror.lc
   - mirror.lchost.net
   - mirror.leitecastro.com
+  - mirror.level66.network
   - mirror.library.ucy.ac.cy
   - mirror.limda.net
   - mirror.linkdata.com

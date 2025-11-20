@@ -1,5 +1,5 @@
-# 更新时间: 2025-11-20 08:41:50（北京时间）
-# 规则数量: 681
+# 更新时间: 2025-11-30 20:14:51（北京时间）
+# 规则数量: 691
 payload:
   - +.100classicbooks.com
   - +.2k.com
@@ -451,6 +451,9 @@ payload:
   - +.quixel.com
   - +.quixel.se
   - +.radgametools.com
+  - +.rblx.org
+  - +.rbx.com
+  - +.rbxcdn.com
   - +.realityscan.com
   - +.renovacionxboxlive.com
   - +.rgpub.io
@@ -468,6 +471,9 @@ payload:
   - +.riotgames.zendesk.com
   - +.riotpin.com
   - +.riotpoints.com
+  - +.roblox-api.arkoselabs.co
+  - +.roblox.com
+  - +.robloxlabs.com
   - +.roborecall.com
   - +.rockstargames.com
   - +.rsg.sc
@@ -657,6 +663,7 @@ payload:
   - blizzard.gcdn.cloudn.co.kr
   - c.ppy.sh
   - client.hikarifield.co.jp
+  - d1unuk07s6td74.cloudfront.net
   - datarouter.apps.netherrealm.com
   - dlgarenanow-a.akamaihd.net
   - download.hikarifield.co.jp
@@ -675,6 +682,9 @@ payload:
   - originasserts.akamaized.net
   - osu.ppy.sh
   - prodforza.blob.core.windows.net
+  - roblox-load-generator-configuration.s3.us-east-2.amazonaws.com
+  - roblox-poc.global.ssl.fastly.net
+  - robloxcorp.s.llnwi.net
   - sentry.ppy.sh
   - spectator.ppy.sh
   - steamcloudsweden.blob.core.windows.net

@@ -1,5 +1,5 @@
-# 更新时间: 2025-11-20 08:42:00（北京时间）
-# 规则数量: 463
+# 更新时间: 2025-11-30 20:15:00（北京时间）
+# 规则数量: 464
 DOMAIN,a1.mzstatic.com
 DOMAIN,a2.mzstatic.com
 DOMAIN,a3.mzstatic.com
@@ -22,6 +22,7 @@ DOMAIN,app-site-association.cdn-apple.com
 DOMAIN,appldnld.apple.com
 DOMAIN,appldnld.g.aaplimg.com
 DOMAIN,appleid.cdn-apple.com
+DOMAIN,appleintelligencefeedback.care.apple.com
 DOMAIN,apps.apple.com
 DOMAIN,apps.mzstatic.com
 DOMAIN,apptrailers.itunes.apple.com

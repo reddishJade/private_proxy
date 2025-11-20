@@ -1,5 +1,5 @@
-# 更新时间: 2025-11-20 08:41:53（北京时间）
-# 规则数量: 6920
+# 更新时间: 2025-11-30 20:14:53（北京时间）
+# 规则数量: 6924
 payload:
   - +.000webhost.com
   - +.030buy.com
@@ -1840,6 +1840,7 @@ payload:
   - +.evchk.wikia.com
   - +.everipedia.org
   - +.evernote.com
+  - +.everymac.com
   - +.evschool.net
   - +.exblog.jp
   - +.exchristian.hk
@@ -2655,6 +2656,7 @@ payload:
   - +.greasyfork.org
   - +.greatfire.org
   - +.greatfire.us7.list-manage.com
+  - +.greatfirevpn.com
   - +.greatfirewall.biz
   - +.greatfirewallofchina.org
   - +.greatroc.org
@@ -3646,7 +3648,6 @@ payload:
   - +.lynxjs.org
   - +.lzjscript.com
   - +.lzmtnews.org
-  - +.m-team.cc
   - +.m.me
   - +.m.moegirl.org
   - +.ma.hao123.com
@@ -4025,6 +4026,7 @@ payload:
   - +.name.com
   - +.namgyal.org
   - +.namgyalmonastery.org
+  - +.namu.wiki
   - +.nanopool.org
   - +.nanyang.com
   - +.nanyangpost.com
@@ -4522,6 +4524,7 @@ payload:
   - +.picasaweb.com
   - +.picidae.net
   - +.picjs.xyz
+  - +.picsart.com
   - +.picturedip.com
   - +.picturesocial.com
   - +.picuki.com
@@ -6492,6 +6495,7 @@ payload:
   - +.wikipedia.org
   - +.wikiquote.org
   - +.wikisource.org
+  - +.wikiunblocked.org
   - +.wikiversity.org
   - +.wikivoyage.org
   - +.wikiwand.com

@@ -1,5 +1,5 @@
-# 更新时间: 2025-11-20 08:41:49（北京时间）
-# 规则数量: 272
+# 更新时间: 2025-11-30 20:14:50（北京时间）
+# 规则数量: 280
 payload:
   - +.17roco.com
   - +.3304399.com
@@ -64,6 +64,7 @@ payload:
   - +.cm.steampowered.com
   - +.codm.com
   - +.cowlevel.net
+  - +.dobest.com
   - +.edu4399.com
   - +.et-api.com
   - +.et001.com
@@ -120,6 +121,7 @@ payload:
   - +.kk1.vip
   - +.kurogames.com
   - +.labycore.cn
+  - +.langrenclub.com
   - +.ledu.com
   - +.leigod.com
   - +.liuxing.com
@@ -173,6 +175,7 @@ payload:
   - +.roblox.qq.com
   - +.robloxdev.cn
   - +.roco.qq.com
+  - +.sanguosha.com
   - +.sccreator.cn
   - +.sccreators.cn
   - +.scescdn.cn
@@ -211,6 +214,7 @@ payload:
   - +.timibase.com
   - +.tmjiasuqi.com
   - +.tuer123.com
+  - +.tuyoo.com
   - +.uu.163.com
   - +.vgtime.com
   - +.videoxiaoyouxi.com
@@ -218,6 +222,7 @@ payload:
   - +.vrzwk.com
   - +.vrzwk.net
   - +.vrzwk.top
+  - +.wanmei.com
   - +.wanwan4399.com
   - +.wcbygame.com
   - +.we4399.com
@@ -227,16 +232,20 @@ payload:
   - +.wegameplus.com
   - +.werepository.com.cn
   - +.winegame.net
+  - +.wmsj.cn
   - +.wo1wan.com
   - +.xd.cn
   - +.xd.com
   - +.xdcdn.net
+  - +.xhlsgs.com
   - +.xindong.com
+  - +.xinwuji.com
   - +.xn--owtw8cc49ajfl.cn
   - +.xunyou.com
   - +.ycgame.com
   - +.yebaojiasu.com
   - +.yingxiong.com
+  - +.yokaverse.com
   - +.youba.com
   - +.yuanshen.com
   - +.yuelun.com
@@ -246,6 +255,7 @@ payload:
   - +.yxwsgame.com
   - +.yzyxgame.com
   - +.zcjbgame.com
+  - +.zhuoyou.com
   - +.zhuoyuegame.com
   - assets1.xboxlive.cn
   - assets2.xboxlive.cn
@@ -254,11 +264,9 @@ payload:
   - blzdist-ow.necdn.leihuo.netease.com
   - blzdist-phx.necdn.leihuo.netease.com
   - blzdist-wow.necdn.leihuo.netease.com
-  - csgo.wmsj.cn
   - dl.delivery.mp.microsoft.com
   - dl.steam.clngaa.com
   - dl.steam.ksyna.com
-  - dota2.wmsj.cn
   - epicgames-download1-1251447533.file.myqcloud.com
   - lv.queniujq.cn
   - st-bak.viv.wanwang.space
