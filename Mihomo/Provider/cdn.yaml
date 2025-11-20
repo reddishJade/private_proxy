@@ -1,5 +1,5 @@
-# 更新时间: 2025-11-20 08:41:44（北京时间）
-# 规则数量: 4085
+# 更新时间: 2025-11-23 08:49:52（北京时间）
+# 规则数量: 4091
 payload:
   - +.1a-1791.com
   - +.1passwordusercontent.ca
@@ -252,6 +252,7 @@ payload:
   - +.dataplane.rudderstack.com
   - +.datocms-assets.com
   - +.daumcdn.net
+  - +.dc-telemetry.net
   - +.dditsadn.com
   - +.dditscdn.com
   - +.ddpic.info
@@ -262,6 +263,7 @@ payload:
   - +.descopecdn.com
   - +.design-system.economist.com
   - +.devrum.uptime.com
+  - +.digikeyassets.com
   - +.dilcdn.com
   - +.directupload.net
   - +.disconnect.me
@@ -925,6 +927,7 @@ payload:
   - +.steamusercontent.com
   - +.steemitimages.com
   - +.sthlstatic.com
+  - +.storage.boilerplate.com
   - +.storage.cloudconvert.com
   - +.storage.googleapis.com
   - +.storage.infomaniak.com
@@ -1152,6 +1155,7 @@ payload:
   - analytics.welcomesoftware.com
   - anchor.digitalocean.com
   - android-safebrowsing.google.com
+  - api-cdn.shutterstock.com
   - api-esp-ap.piano.io
   - api-eu.mixpanel.com
   - api-frameworks.vercel.sh
@@ -1803,6 +1807,7 @@ payload:
   - cdn.networklessons.com
   - cdn.neverbounce.com
   - cdn.nfcube.com
+  - cdn.nodeimage.com
   - cdn.nolt.io
   - cdn.northropgrumman.com
   - cdn.now.gg
@@ -3409,6 +3414,7 @@ payload:
   - sentry.ainopara.com
   - seo-wp.airdroid.com
   - sequoia.cdn-apple.com
+  - server.arcgisonline.com
   - service-icons.zeabur.com
   - services.linkfire.com
   - sf-coze-web-cdn.coze.com

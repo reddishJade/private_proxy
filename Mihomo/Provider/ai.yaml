@@ -1,5 +1,5 @@
-# 更新时间: 2025-11-20 08:41:43（北京时间）
-# 规则数量: 136
+# 更新时间: 2025-11-23 08:49:50（北京时间）
+# 规则数量: 137
 payload:
   - +.ai.azure.com
   - +.ai.com
@@ -112,6 +112,7 @@ payload:
   - aistudio.google.com
   - alkalicore-pa.clients6.google.com
   - alkalimakersuite-pa.clients6.google.com
+  - antigravity-unleash.goog
   - api.github.com
   - api.githubcopilot.com
   - api.groq.com
