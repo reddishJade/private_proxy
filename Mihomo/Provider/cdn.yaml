@@ -1,5 +1,5 @@
-# 更新时间: 2025-12-03 09:52:13（北京时间）
-# 规则数量: 4109
+# 更新时间: 2025-12-05 08:43:54（北京时间）
+# 规则数量: 4113
 payload:
   - +.1a-1791.com
   - +.1passwordusercontent.ca
@@ -595,6 +595,7 @@ payload:
   - +.kwcdn.com
   - +.kym-cdn.com
   - +.larksuitecdn.com
+  - +.lazcdn.com
   - +.lbpicpic.com
   - +.lbpictupian.com
   - +.ldstatic.com
@@ -2521,6 +2522,7 @@ payload:
   - ias.r10s.jp
   - icdn.javxx.com
   - ichef.bbci.co.uk
+  - icms-image.slatic.net
   - icon.icepanel.io
   - icons.buffer.com
   - icons.duckduckgo.com
@@ -2929,6 +2931,7 @@ payload:
   - logos.speedtestcustom.com
   - loutre.blockchair.io
   - lumiere-a.akamaihd.net
+  - lzd-img-global.slatic.net
   - m-cdn.phonearena.com
   - m.porn3dx.com
   - m.wsj.net
@@ -4054,6 +4057,7 @@ payload:
   - webobjects2.cdw.com
   - webp.frostming.com
   - website-cdn.ipinfo.io
+  - website-media.deel.com
   - website-prod.cache.wpscdn.com
   - webstatic.chargebee.com
   - widget.automizely.com

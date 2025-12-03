@@ -1,5 +1,5 @@
-# 更新时间: 2025-12-03 08:43:40（北京时间）
-# 规则数量: 10042
+# 更新时间: 2025-12-05 08:44:12（北京时间）
+# 规则数量: 10053
 DOMAIN,118.89.204.198
 DOMAIN,1500020991.vodplayer.wxamedia.com
 DOMAIN,1500022744.vodplayer.wxamedia.com
@@ -522,6 +522,10 @@ DOMAIN,log.web.kugou.com
 DOMAIN,log.yex.youdao.com
 DOMAIN,log.zijieapi.com
 DOMAIN,log1.cmpassport.com
+DOMAIN,log3-applog-hl.fqnovel.com
+DOMAIN,log3-applog.fqnovel.com
+DOMAIN,log5-applog-hl.fqnovel.com
+DOMAIN,log5-applog.fqnovel.com
 DOMAIN,logbak.hicloud.com
 DOMAIN,logrcv.aiclk.com
 DOMAIN,logrcv.yunxish.com
@@ -621,13 +625,16 @@ DOMAIN,p2pchunk-table.douyucdn.cn
 DOMAIN,p2plive-ali.douyucdn.cn
 DOMAIN,p2pupdate.gamedl.qq.com
 DOMAIN,p2pupgrade.gamedl.qq.com
+DOMAIN,p3-ad-sign.byteimg.com
 DOMAIN,p3-be-pack-sign.pglstatp-toutiao.com
 DOMAIN,p3-lm.adkwai.com
 DOMAIN,p3-tt.byteimg.com
 DOMAIN,p4-be-pack-sign.pglstatp-toutiao.com
 DOMAIN,p5-be-pack-sign.pglstatp-toutiao.com
+DOMAIN,p6-ad-sign.byteimg.com
 DOMAIN,p6-be-pack-sign.pglstatp-toutiao.com
 DOMAIN,p66-ad.adkwai.com
+DOMAIN,p9-ad-sign.byteimg.com
 DOMAIN,pagead2.googleadservices.com
 DOMAIN,pagead2.googlesyndication.com
 DOMAIN,pangolin-sdk-toutiao-b.com
@@ -689,6 +696,10 @@ DOMAIN,rt.applovin.com
 DOMAIN,rt.applvn.com
 DOMAIN,rtb.adxsenmeng.com
 DOMAIN,rtb.voiceads.cn
+DOMAIN,rtlog3-applog-hl.fqnovel.com
+DOMAIN,rtlog3-applog.fqnovel.com
+DOMAIN,rtlog5-applog-hl.fqnovel.com
+DOMAIN,rtlog5-applog.fqnovel.com
 DOMAIN,s.amazon-adsystem.com
 DOMAIN,s1.cdn-sg.advlion.com
 DOMAIN,s8t.teads.tv
