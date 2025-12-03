@@ -1,13 +1,17 @@
-# 更新时间: 2025-12-03 08:43:28（北京时间）
-# 规则数量: 90
+# 更新时间: 2025-12-03 09:52:24（北京时间）
+# 规则数量: 100
 payload:
   - +.126.net
   - +.3gppnetwork.org
   - +.battle.net
   - +.battlenet.com.cn
+  - +.captive.apple.com
   - +.cdn.nintendo.net
   - +.cmbchina.com
   - +.cmbimg.com
+  - +.connectivitycheck.gstatic.com
+  - +.cp.cloudflare.com
+  - +.detectportal.firefox.com
   - +.direct
   - +.example
   - +.ff14.sdo.com
@@ -32,10 +36,13 @@ payload:
   - +.music.163.com
   - +.music.migu.cn
   - +.n0808.com
+  - +.network-test.debian.org
+  - +.networkcheck.kde.org
   - +.nflxvideo.net
   - +.ntp.org.cn
   - +.oray.com
   - +.orayimg.com
+  - +.ping.archlinux.org
   - +.pool.ntp.org
   - +.pub.3gppnetwork.org
   - +.router.asus.com
@@ -59,6 +66,9 @@ payload:
   - api-jooxtt.sanook.com
   - api.joox.com
   - aqqmusic.tc.qq.com
+  - connect.rom.miui.com
+  - connectivitycheck.platform.hicloud.com
+  - connectivitycheck.platform.hihonorcloud.com
   - dl.stream.qqmusic.qq.com
   - ff.dorado.sdo.com
   - heartbeat.belkin.com

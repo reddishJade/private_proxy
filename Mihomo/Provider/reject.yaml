@@ -1,5 +1,5 @@
-# 更新时间: 2025-12-03 08:43:33（北京时间）
-# 规则数量: 9959
+# 更新时间: 2025-12-03 09:52:39（北京时间）
+# 规则数量: 9970
 payload:
   - +.0.r.msn.com
   - +.000dn.com
@@ -9545,6 +9545,10 @@ payload:
   - log.yex.youdao.com
   - log.zijieapi.com
   - log1.cmpassport.com
+  - log3-applog-hl.fqnovel.com
+  - log3-applog.fqnovel.com
+  - log5-applog-hl.fqnovel.com
+  - log5-applog.fqnovel.com
   - logbak.hicloud.com
   - logrcv.aiclk.com
   - logrcv.yunxish.com
@@ -9644,13 +9648,16 @@ payload:
   - p2plive-ali.douyucdn.cn
   - p2pupdate.gamedl.qq.com
   - p2pupgrade.gamedl.qq.com
+  - p3-ad-sign.byteimg.com
   - p3-be-pack-sign.pglstatp-toutiao.com
   - p3-lm.adkwai.com
   - p3-tt.byteimg.com
   - p4-be-pack-sign.pglstatp-toutiao.com
   - p5-be-pack-sign.pglstatp-toutiao.com
+  - p6-ad-sign.byteimg.com
   - p6-be-pack-sign.pglstatp-toutiao.com
   - p66-ad.adkwai.com
+  - p9-ad-sign.byteimg.com
   - pagead2.googleadservices.com
   - pagead2.googlesyndication.com
   - pangolin-sdk-toutiao-b.com
@@ -9712,6 +9719,10 @@ payload:
   - rt.applvn.com
   - rtb.adxsenmeng.com
   - rtb.voiceads.cn
+  - rtlog3-applog-hl.fqnovel.com
+  - rtlog3-applog.fqnovel.com
+  - rtlog5-applog-hl.fqnovel.com
+  - rtlog5-applog.fqnovel.com
   - s.amazon-adsystem.com
   - s1.cdn-sg.advlion.com
   - s8t.teads.tv

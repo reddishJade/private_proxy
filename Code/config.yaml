@@ -22,11 +22,6 @@
       url: "https://cdn.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/AI%20Suite.yaml"
       format: yaml
       behavior: domain
-    ACL4SSR_ai:
-      type: http
-      url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/AI.list"
-      format: txt
-      behavior: classical
     meta_category_ai_!cn:
       type: http
       url: "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/category-ai-!cn.yaml"
@@ -211,6 +206,11 @@
       type: http
       url: "https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/fakeip-filter.list"
       format: txt
+      behavior: domain
+    meta_connectivity-check:
+      type: http
+      url: "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@refs/heads/meta/geo/geosite/connectivity-check.yaml"
+      format: yaml
       behavior: domain
 
 - path: output/games@cn.yaml

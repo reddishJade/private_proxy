@@ -1,7 +1,6 @@
-# 更新时间: 2025-12-03 08:43:22（北京时间）
-# 规则数量: 143
+# 更新时间: 2025-12-03 09:52:09（北京时间）
+# 规则数量: 121
 payload:
-  - +.ai.azure.com
   - +.ai.com
   - +.aida.googleapis.com
   - +.aisandbox-pa.googleapis.com
@@ -13,7 +12,6 @@ payload:
   - +.apple-relay.fastly-edge.com
   - +.augment.com
   - +.augmentcode.com
-  - +.auth0.com
   - +.bard.google.com
   - +.cdn.oaistatic.com
   - +.cerebras.ai
@@ -29,7 +27,6 @@ payload:
   - +.claude.com
   - +.claudemcpclient.com
   - +.claudeusercontent.com
-  - +.client-api.arkoselabs.com
   - +.clipdrop.co
   - +.codeium.com
   - +.codeiumdata.com
@@ -40,7 +37,6 @@ payload:
   - +.comfy.org
   - +.comfyci.org
   - +.comfyregistry.org
-  - +.copilot.cloud.microsoft
   - +.copilot.microsoft.com
   - +.coze.com
   - +.cp4.cloudflare.com
@@ -57,8 +53,6 @@ payload:
   - +.dola.com
   - +.elevenlabs.com
   - +.elevenlabs.io
-  - +.events.statsigapi.net
-  - +.featuregates.org
   - +.gateway.ai.cloudflare.com
   - +.geller-pa.googleapis.com
   - +.gemini.google
@@ -66,8 +60,6 @@ payload:
   - +.generativeai.google
   - +.generativelanguage.googleapis.com
   - +.githubcopilot.com
-  - +.grazie.ai
-  - +.grazie.aws.intellij.net
   - +.grok.com
   - +.grok.x.com
   - +.groq.com
@@ -77,9 +69,6 @@ payload:
   - +.hf.space
   - +.host.livekit.cloud
   - +.huggingface.co
-  - +.identrust.com
-  - +.intercom.io
-  - +.intercomcdn.com
   - +.jasper.ai
   - +.jetbrains.ai
   - +.jules.google
@@ -96,7 +85,6 @@ payload:
   - +.oaiusercontent.com
   - +.openai.com
   - +.openai.com.cdn.cloudflare.net
-  - +.openaiapi-site.azureedge.net
   - +.openart.ai
   - +.openrouter.ai
   - +.oystermercury.top
@@ -115,23 +103,14 @@ payload:
   - +.x.ai
   - +.zed.dev
   - ai.google.dev
-  - aistudio.google.com
   - alkalicore-pa.clients6.google.com
   - alkalimakersuite-pa.clients6.google.com
   - antigravity-unleash.goog
   - api.github.com
-  - api.githubcopilot.com
-  - api.groq.com
-  - api.together.xyz
-  - bard.google.com
   - browser-intake-datadoghq.com
   - chat.openai.com.cdn.cloudflare.net
-  - console.groq.com
-  - copilot-proxy.githubusercontent.com
   - copilot.microsoft.com
   - gateway.ai.cloudflare.com
-  - gemini.google.com
-  - generativelanguage.googleapis.com
   - o33249.ingest.sentry.io
   - openaiapi-site.azureedge.net
   - openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
@@ -141,6 +120,5 @@ payload:
   - production-openaicom-storage.azureedge.net
   - servd-anthropic-website.b-cdn.net
   - sora-cdn.oaistatic.com
-  - sydney.bing.com
   - waa-pa.clients6.google.com
   - webchannel-alkalimakersuite-pa.clients6.google.com
