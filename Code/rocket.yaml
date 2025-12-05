@@ -22,14 +22,14 @@
       url: "https://cdn.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/AI%20Suite.yaml"
       format: yaml
       behavior: domain
-    ACL4SSR_ai:
-      type: http
-      url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/AI.list"
-      format: txt
-      behavior: classical
     meta_category_ai_!cn:
       type: http
       url: "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/category-ai-!cn.yaml"
+      format: yaml
+      behavior: domain
+    local_ai:
+      type: file
+      path: "local/ai.yaml"
       format: yaml
       behavior: domain
 
@@ -116,6 +116,11 @@
       type: http
       url: "https://ruleset.skk.moe/Clash/ip/china_ip.txt"
       format: txt
+      behavior: ipcidr
+    dler_dom_ip:
+      type: http
+      url: "https://cdn.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/Domestic%20IPs.yaml"
+      format: yaml
       behavior: ipcidr
 
 - path: output/microsoft.list

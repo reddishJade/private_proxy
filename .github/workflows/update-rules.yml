@@ -30,26 +30,26 @@ jobs:
 
       - name: Convert YAML to MRS format
         run: |
-          # 确保mihomo二进制文件可执行
+          # Make mihomo binary executable
           chmod +x .github/bin/mihomo
 
-          # 转换所有YAML文件为MRS格式
+          # Convert all YAML files to MRS format
           cd Mihomo/Provider
-          echo "开始转换YAML文件为MRS格式..."
+          echo "Starting YAML to MRS conversion..."
 
           for yaml_file in *.yaml; do
             if [[ -f "$yaml_file" ]]; then
               filename=$(basename "$yaml_file" .yaml)
               echo "Converting $yaml_file to ${filename}.mrs"
               
-              # 根据文件名确定behavior类型
+              # Determine behavior type based on filename
               if [[ "$filename" == *"@ip"* ]]; then
                 behavior="ipcidr"
               else
-                behavior="domain"  # 默认为domain
+                behavior="domain"  # Default to domain
               fi
               
-              # 执行转换
+              # Execute conversion
               ../../.github/bin/mihomo convert-ruleset "$behavior" yaml "$yaml_file" "${filename}.mrs" || {
                 echo "Warning: Failed to convert $yaml_file, skipping..."
                 continue
@@ -59,12 +59,12 @@ jobs:
             fi
           done
 
-          echo "MRS转换完成！"
+          echo "MRS conversion completed!"
 
-          # 显示转换结果统计
+          # Show conversion statistics
           yaml_count=$(ls -1 *.yaml 2>/dev/null | wc -l)
           mrs_count=$(ls -1 *.mrs 2>/dev/null | wc -l)
-          echo "转换统计: $yaml_count 个YAML文件 -> $mrs_count 个MRS文件"
+          echo "Conversion stats: $yaml_count YAML files -> $mrs_count MRS files"
 
       - name: Check for rule changes
         id: checker
@@ -99,8 +99,6 @@ jobs:
           branch: main
           skip_dirty_check: true
           push_options: "--force"
-          skip_fetch: true
-          skip_checkout: true
           commit_options: "${{ steps.last_commit.outputs.is_bot_commit == 'true' && '--amend --no-edit' || '--allow-empty' }}"
 
       - name: Delete Workflow Runs
