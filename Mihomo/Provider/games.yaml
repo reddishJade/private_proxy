@@ -1,5 +1,5 @@
-# 更新时间: 2025-12-05 08:43:59（北京时间）
-# 规则数量: 729
+# 更新时间: 2025-12-11 08:45:36（北京时间）
+# 规则数量: 735
 payload:
   - +.100classicbooks.com
   - +.2k.com
@@ -11,6 +11,7 @@ payload:
   - +.anthemgame.com
   - +.anthemthegame.com
   - +.apexlegends.com
+  - +.arcraiders.com
   - +.artstation.com
   - +.asobostudio.com
   - +.avatargarenanow-a.akamaihd.net
@@ -154,6 +155,8 @@ payload:
   - +.elderscrolls.com
   - +.electronicarts.com
   - +.electronicarts.fr
+  - +.embark-studios.com
+  - +.embark.games
   - +.epicgames.com
   - +.epicgames.dev
   - +.epicgamescdn.com
@@ -162,6 +165,8 @@ payload:
   - +.f3b7q2p3.ssl.hwcdn.net
   - +.fab.com
   - +.fabricmc.net
+  - +.faceit-cdn.net
+  - +.faceit.com
   - +.fanatical.com
   - +.fifastreet.com
   - +.fifastreet3.com
@@ -464,6 +469,7 @@ payload:
   - +.rbxinfra.net
   - +.rbxlabs.com
   - +.rbxtrk.com
+  - +.reachthefinals.com
   - +.realityscan.com
   - +.renovacionxboxlive.com
   - +.rgpub.io

@@ -1,22 +1,14 @@
-# 更新时间: 2025-12-05 08:44:09（北京时间）
-# 规则数量: 146
+# 更新时间: 2025-12-11 08:45:45（北京时间）
+# 规则数量: 122
 DOMAIN,ai.google.dev
-DOMAIN,aistudio.google.com
 DOMAIN,alkalicore-pa.clients6.google.com
 DOMAIN,alkalimakersuite-pa.clients6.google.com
+DOMAIN,antigravity-unleash.goog
 DOMAIN,api.github.com
-DOMAIN,api.githubcopilot.com
-DOMAIN,api.groq.com
-DOMAIN,api.together.xyz
-DOMAIN,bard.google.com
 DOMAIN,browser-intake-datadoghq.com
 DOMAIN,chat.openai.com.cdn.cloudflare.net
-DOMAIN,console.groq.com
-DOMAIN,copilot-proxy.githubusercontent.com
 DOMAIN,copilot.microsoft.com
 DOMAIN,gateway.ai.cloudflare.com
-DOMAIN,gemini.google.com
-DOMAIN,generativelanguage.googleapis.com
 DOMAIN,o33249.ingest.sentry.io
 DOMAIN,openaiapi-site.azureedge.net
 DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
@@ -26,14 +18,9 @@ DOMAIN,pplx-res.cloudinary.com
 DOMAIN,production-openaicom-storage.azureedge.net
 DOMAIN,servd-anthropic-website.b-cdn.net
 DOMAIN,sora-cdn.oaistatic.com
-DOMAIN,sydney.bing.com
 DOMAIN,waa-pa.clients6.google.com
 DOMAIN,webchannel-alkalimakersuite-pa.clients6.google.com
 DOMAIN-KEYWORD,alkalimakersuite-pa.clients6.google.com
-DOMAIN-KEYWORD,anthropic
-DOMAIN-KEYWORD,claude
-DOMAIN-KEYWORD,openai
-DOMAIN-SUFFIX,ai.azure.com
 DOMAIN-SUFFIX,ai.com
 DOMAIN-SUFFIX,aida.googleapis.com
 DOMAIN-SUFFIX,aisandbox-pa.googleapis.com
@@ -45,7 +32,6 @@ DOMAIN-SUFFIX,apple-relay.cloudflare.com
 DOMAIN-SUFFIX,apple-relay.fastly-edge.com
 DOMAIN-SUFFIX,augment.com
 DOMAIN-SUFFIX,augmentcode.com
-DOMAIN-SUFFIX,auth0.com
 DOMAIN-SUFFIX,bard.google.com
 DOMAIN-SUFFIX,cdn.oaistatic.com
 DOMAIN-SUFFIX,cerebras.ai
@@ -61,7 +47,6 @@ DOMAIN-SUFFIX,claude.ai
 DOMAIN-SUFFIX,claude.com
 DOMAIN-SUFFIX,claudemcpclient.com
 DOMAIN-SUFFIX,claudeusercontent.com
-DOMAIN-SUFFIX,client-api.arkoselabs.com
 DOMAIN-SUFFIX,clipdrop.co
 DOMAIN-SUFFIX,codeium.com
 DOMAIN-SUFFIX,codeiumdata.com
@@ -72,7 +57,6 @@ DOMAIN-SUFFIX,cohere.com
 DOMAIN-SUFFIX,comfy.org
 DOMAIN-SUFFIX,comfyci.org
 DOMAIN-SUFFIX,comfyregistry.org
-DOMAIN-SUFFIX,copilot.cloud.microsoft
 DOMAIN-SUFFIX,copilot.microsoft.com
 DOMAIN-SUFFIX,coze.com
 DOMAIN-SUFFIX,cp4.cloudflare.com
@@ -89,8 +73,6 @@ DOMAIN-SUFFIX,dify.ai
 DOMAIN-SUFFIX,dola.com
 DOMAIN-SUFFIX,elevenlabs.com
 DOMAIN-SUFFIX,elevenlabs.io
-DOMAIN-SUFFIX,events.statsigapi.net
-DOMAIN-SUFFIX,featuregates.org
 DOMAIN-SUFFIX,gateway.ai.cloudflare.com
 DOMAIN-SUFFIX,geller-pa.googleapis.com
 DOMAIN-SUFFIX,gemini.google
@@ -98,8 +80,6 @@ DOMAIN-SUFFIX,gemini.google.com
 DOMAIN-SUFFIX,generativeai.google
 DOMAIN-SUFFIX,generativelanguage.googleapis.com
 DOMAIN-SUFFIX,githubcopilot.com
-DOMAIN-SUFFIX,grazie.ai
-DOMAIN-SUFFIX,grazie.aws.intellij.net
 DOMAIN-SUFFIX,grok.com
 DOMAIN-SUFFIX,grok.x.com
 DOMAIN-SUFFIX,groq.com
@@ -109,9 +89,6 @@ DOMAIN-SUFFIX,hf.co
 DOMAIN-SUFFIX,hf.space
 DOMAIN-SUFFIX,host.livekit.cloud
 DOMAIN-SUFFIX,huggingface.co
-DOMAIN-SUFFIX,identrust.com
-DOMAIN-SUFFIX,intercom.io
-DOMAIN-SUFFIX,intercomcdn.com
 DOMAIN-SUFFIX,jasper.ai
 DOMAIN-SUFFIX,jetbrains.ai
 DOMAIN-SUFFIX,jules.google
@@ -128,7 +105,6 @@ DOMAIN-SUFFIX,oaistatic.com
 DOMAIN-SUFFIX,oaiusercontent.com
 DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,openai.com.cdn.cloudflare.net
-DOMAIN-SUFFIX,openaiapi-site.azureedge.net
 DOMAIN-SUFFIX,openart.ai
 DOMAIN-SUFFIX,openrouter.ai
 DOMAIN-SUFFIX,oystermercury.top

@@ -1,5 +1,5 @@
-# 更新时间: 2025-12-05 08:44:04（北京时间）
-# 规则数量: 9970
+# 更新时间: 2025-12-11 08:45:40（北京时间）
+# 规则数量: 9965
 payload:
   - +.0.r.msn.com
   - +.000dn.com
@@ -3439,7 +3439,6 @@ payload:
   - +.epowernetworktrackerimages.s3.amazonaws.com
   - +.epro.sogou.com
   - +.epro.sohu.com
-  - +.eq.10jqka.com.cn
   - +.eqads.com
   - +.er.dlhygj.com
   - +.erdoscs.com
@@ -6216,7 +6215,6 @@ payload:
   - +.owneriq.net
   - +.ox.furaffinity.net
   - +.oyzsverimywg.com
-  - +.ozone.10jqka.com.cn
   - +.p-l.play.aiseet.atianqi.com
   - +.p-log.ykimg.com
   - +.p.7060.la
@@ -7087,7 +7085,6 @@ payload:
   - +.sapi.sina.cn
   - +.savebt.net
   - +.sax.mobile.sina.cn
-  - +.sax.sina.com.cn
   - +.saxd.sina.com.cn
   - +.saxxaz.taohuayuan8888.com
   - +.sb.scorecardresearch.com
@@ -7256,6 +7253,7 @@ payload:
   - +.shop.admin.yinyuetai.com
   - +.shop.yinyuetai.com
   - +.shop265.com
+  - +.shoppingads.cn
   - +.shoppingpartners2.futurenet.com
   - +.shouji.360.cn
   - +.shouyoutan.com
@@ -7294,7 +7292,6 @@ payload:
   - +.simaba.taobao.com
   - +.simba.6.cn
   - +.simba.m.taobao.com
-  - +.similarweb.com
   - +.sina.wrating.com
   - +.sina.yinstar.org
   - +.sinaalicdn.com
@@ -7489,7 +7486,6 @@ payload:
   - +.startup.oupeng.com
   - +.stat-y.xywy.com
   - +.stat-z.xywy.com
-  - +.stat.10jqka.com.cn
   - +.stat.360safe.com
   - +.stat.chinaso.com
   - +.stat.funshion.com
@@ -8169,7 +8165,6 @@ payload:
   - +.vamaker.com
   - +.vangmobi.com
   - +.vas.funshion.com
-  - +.vaserviece.10jqka.com.cn
   - +.vatrack.hinet.net
   - +.vcbn65.xyz
   - +.vcfs6ip5h6.bid

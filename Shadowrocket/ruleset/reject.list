@@ -1,5 +1,5 @@
-# 更新时间: 2025-12-05 08:44:12（北京时间）
-# 规则数量: 10053
+# 更新时间: 2025-12-11 08:45:49（北京时间）
+# 规则数量: 10048
 DOMAIN,118.89.204.198
 DOMAIN,1500020991.vodplayer.wxamedia.com
 DOMAIN,1500022744.vodplayer.wxamedia.com
@@ -4411,7 +4411,6 @@ DOMAIN-SUFFIX,epochweekly.com
 DOMAIN-SUFFIX,epowernetworktrackerimages.s3.amazonaws.com
 DOMAIN-SUFFIX,epro.sogou.com
 DOMAIN-SUFFIX,epro.sohu.com
-DOMAIN-SUFFIX,eq.10jqka.com.cn
 DOMAIN-SUFFIX,eqads.com
 DOMAIN-SUFFIX,er.dlhygj.com
 DOMAIN-SUFFIX,erdoscs.com
@@ -7188,7 +7187,6 @@ DOMAIN-SUFFIX,owin.biqugego.com
 DOMAIN-SUFFIX,owneriq.net
 DOMAIN-SUFFIX,ox.furaffinity.net
 DOMAIN-SUFFIX,oyzsverimywg.com
-DOMAIN-SUFFIX,ozone.10jqka.com.cn
 DOMAIN-SUFFIX,p-l.play.aiseet.atianqi.com
 DOMAIN-SUFFIX,p-log.ykimg.com
 DOMAIN-SUFFIX,p.7060.la
@@ -8059,7 +8057,6 @@ DOMAIN-SUFFIX,sape.ru
 DOMAIN-SUFFIX,sapi.sina.cn
 DOMAIN-SUFFIX,savebt.net
 DOMAIN-SUFFIX,sax.mobile.sina.cn
-DOMAIN-SUFFIX,sax.sina.com.cn
 DOMAIN-SUFFIX,saxd.sina.com.cn
 DOMAIN-SUFFIX,saxxaz.taohuayuan8888.com
 DOMAIN-SUFFIX,sb.scorecardresearch.com
@@ -8228,6 +8225,7 @@ DOMAIN-SUFFIX,shke.kuuad.com
 DOMAIN-SUFFIX,shop.admin.yinyuetai.com
 DOMAIN-SUFFIX,shop.yinyuetai.com
 DOMAIN-SUFFIX,shop265.com
+DOMAIN-SUFFIX,shoppingads.cn
 DOMAIN-SUFFIX,shoppingpartners2.futurenet.com
 DOMAIN-SUFFIX,shouji.360.cn
 DOMAIN-SUFFIX,shouyoutan.com
@@ -8266,7 +8264,6 @@ DOMAIN-SUFFIX,simaba.m.taobao.com
 DOMAIN-SUFFIX,simaba.taobao.com
 DOMAIN-SUFFIX,simba.6.cn
 DOMAIN-SUFFIX,simba.m.taobao.com
-DOMAIN-SUFFIX,similarweb.com
 DOMAIN-SUFFIX,sina.wrating.com
 DOMAIN-SUFFIX,sina.yinstar.org
 DOMAIN-SUFFIX,sinaalicdn.com
@@ -8461,7 +8458,6 @@ DOMAIN-SUFFIX,startappservice.com
 DOMAIN-SUFFIX,startup.oupeng.com
 DOMAIN-SUFFIX,stat-y.xywy.com
 DOMAIN-SUFFIX,stat-z.xywy.com
-DOMAIN-SUFFIX,stat.10jqka.com.cn
 DOMAIN-SUFFIX,stat.360safe.com
 DOMAIN-SUFFIX,stat.chinaso.com
 DOMAIN-SUFFIX,stat.funshion.com
@@ -9141,7 +9137,6 @@ DOMAIN-SUFFIX,valf.atm.cp31.ott.cibntv.net
 DOMAIN-SUFFIX,vamaker.com
 DOMAIN-SUFFIX,vangmobi.com
 DOMAIN-SUFFIX,vas.funshion.com
-DOMAIN-SUFFIX,vaserviece.10jqka.com.cn
 DOMAIN-SUFFIX,vatrack.hinet.net
 DOMAIN-SUFFIX,vcbn65.xyz
 DOMAIN-SUFFIX,vcfs6ip5h6.bid

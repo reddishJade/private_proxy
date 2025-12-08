@@ -1,5 +1,5 @@
-# 更新时间: 2025-12-05 08:43:59（北京时间）
-# 规则数量: 280
+# 更新时间: 2025-12-11 08:45:35（北京时间）
+# 规则数量: 283
 payload:
   - +.17roco.com
   - +.3304399.com
@@ -85,6 +85,7 @@ payload:
   - +.gcloudcstestonly.com
   - +.gclouddolphin.com
   - +.gcloudsdk.com
+  - +.gcloudsvcs.com
   - +.gdtimg.com
   - +.ggkuai.com
   - +.gijsq.com
@@ -123,6 +124,7 @@ payload:
   - +.labycore.cn
   - +.langrenclub.com
   - +.ledu.com
+  - +.leigod.cn
   - +.leigod.com
   - +.liuxing.com
   - +.longtugame.com
@@ -242,6 +244,7 @@ payload:
   - +.xinwuji.com
   - +.xn--owtw8cc49ajfl.cn
   - +.xunyou.com
+  - +.xunyou.mobi
   - +.ycgame.com
   - +.yebaojiasu.com
   - +.yingxiong.com

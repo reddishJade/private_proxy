@@ -1,10 +1,11 @@
-# 更新时间: 2025-12-05 08:44:10（北京时间）
-# 规则数量: 403
+# 更新时间: 2025-12-11 08:45:46（北京时间）
+# 规则数量: 397
 DOMAIN,0123456789nonexistent.com
 DOMAIN,0d.kebhana.mx
 DOMAIN,1337.abcvg.info
 DOMAIN,6ahddutb1ucc3cp.ru
 DOMAIN,aboutbeautifulgallopinghorsesinthegreenpasture.online
+DOMAIN,admin.52ywp.com
 DOMAIN,anna.bt.bontal.net
 DOMAIN,bandito.byterunner.io
 DOMAIN,bittorrent-tracker.e-n-c-r-y-p-t.net
@@ -16,13 +17,13 @@ DOMAIN,bt1.xxxxbt.cc
 DOMAIN,buny.uk
 DOMAIN,burmese.app
 DOMAIN,bvarf.tracker.sh
+DOMAIN,cny.fan
 DOMAIN,concen.org
 DOMAIN,connect.rom.miui.com
 DOMAIN,connectivitycheck.platform.hicloud.com
 DOMAIN,connectivitycheck.platform.hihonorcloud.com
 DOMAIN,d40969.acod.regrucolo.ru
 DOMAIN,echostar.ddnsfree.com
-DOMAIN,evan.im
 DOMAIN,exodus.desync.com
 DOMAIN,explodie.org
 DOMAIN,extracker.dahrkael.net
@@ -30,7 +31,6 @@ DOMAIN,home.yxgz.club
 DOMAIN,ipv4.rer.lol
 DOMAIN,ipv4announce.sktorrent.eu
 DOMAIN,ipv6.rer.lol
-DOMAIN,leet-tracker.moe
 DOMAIN,lucke.fenesisu.moe
 DOMAIN,martin-gebhardt.eu
 DOMAIN,ns3109441.mypdns.org
@@ -66,7 +66,6 @@ DOMAIN,open-tracker.demonoid.ch
 DOMAIN,open.acgtracker.com
 DOMAIN,open.demonii.com
 DOMAIN,open.demonoid.ch
-DOMAIN,open.dstud.io
 DOMAIN,open.stealth.si
 DOMAIN,open.trackerlist.xyz
 DOMAIN,opentor.org
@@ -77,7 +76,6 @@ DOMAIN,retracker.hotplug.ru
 DOMAIN,retracker.lanta.me
 DOMAIN,retracker.spark-rostov.ru
 DOMAIN,retracker01-msk-virt.corbina.net
-DOMAIN,run.publictracker.xyz
 DOMAIN,seeders-paradise.org
 DOMAIN,servandroidkino.ru
 DOMAIN,shahidrazi.online
@@ -85,8 +83,6 @@ DOMAIN,share.hkg-fansub.info
 DOMAIN,shubt.net
 DOMAIN,t-backup.213891.xyz
 DOMAIN,t.213891.xyz
-DOMAIN,t.overflow.biz
-DOMAIN,threads.canofsocks.com
 DOMAIN,time-a-b.nist.gov
 DOMAIN,time-a-g.nist.gov
 DOMAIN,time-a-wwv.nist.gov
@@ -128,8 +124,6 @@ DOMAIN,torrent.hificode.in
 DOMAIN,torrent.tracker.durukanbal.com
 DOMAIN,torrentclub.online
 DOMAIN,torrentsmd.com
-DOMAIN,tr-zhuqiy-1.dgj055.icu
-DOMAIN,tr-zhuqiy-2.dgj055.icu
 DOMAIN,tr.abiir.top
 DOMAIN,tr.abir.ga
 DOMAIN,tr.highstar.shop
@@ -140,13 +134,11 @@ DOMAIN,tr3.ysagin.top
 DOMAIN,tr4ck3r.duckdns.org
 DOMAIN,tracker-de-2.cutie.dating
 DOMAIN,tracker-udp.gbitt.info
-DOMAIN,tracker-zhuqiy.dgj055.icu
 DOMAIN,tracker.0x7c0.com
 DOMAIN,tracker.1h.is
 DOMAIN,tracker.23794.top
 DOMAIN,tracker.alaskantf.com
 DOMAIN,tracker.beeimg.com
-DOMAIN,tracker.belmult.online
 DOMAIN,tracker.bitcoinindia.space
 DOMAIN,tracker.bittor.pw
 DOMAIN,tracker.breizh.pm
@@ -170,9 +162,8 @@ DOMAIN,tracker.foreverpirates.co
 DOMAIN,tracker.gcrenwp.top
 DOMAIN,tracker.ghostchu-services.top
 DOMAIN,tracker.gmi.gd
-DOMAIN,tracker.guguan.dpdns.org
 DOMAIN,tracker.hifimarket.in
-DOMAIN,tracker.hifitechindia.com
+DOMAIN,tracker.iochimari.moe
 DOMAIN,tracker.iperson.xyz
 DOMAIN,tracker.ipv6tracker.org
 DOMAIN,tracker.ipv6tracker.ru
@@ -200,6 +191,8 @@ DOMAIN,tracker.startwork.cv
 DOMAIN,tracker.t-1.org
 DOMAIN,tracker.therarbg.to
 DOMAIN,tracker.torrent.eu.org
+DOMAIN,tracker.torrust-demo.com
+DOMAIN,tracker.tricitytorrents.com
 DOMAIN,tracker.tritan.gg
 DOMAIN,tracker.tryhackx.org
 DOMAIN,tracker.tvunderground.org.ru
@@ -216,6 +209,7 @@ DOMAIN,tracker1.t-1.org
 DOMAIN,tracker2.dler.org
 DOMAIN,tracker2.itzmx.com
 DOMAIN,tracker3.itzmx.com
+DOMAIN,tracker3.t-1.org
 DOMAIN,tracker4.itzmx.com
 DOMAIN,tracker810.xyz
 DOMAIN,udp.tracker.projectk.org
@@ -225,7 +219,7 @@ DOMAIN,utcnist.colorado.edu
 DOMAIN,utcnist2.colorado.edu
 DOMAIN,utcnist3.colorado.edu
 DOMAIN,v74853.hosted-by-vdsina.com
-DOMAIN,wepzone.net
+DOMAIN,www.all4nothin.net
 DOMAIN,www.genesis-sp.org
 DOMAIN,www.torrent.eu.org
 DOMAIN,www.torrentsnipe.info

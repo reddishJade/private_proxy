@@ -1,5 +1,5 @@
-# 更新时间: 2025-12-05 08:43:57（北京时间）
-# 规则数量: 1866
+# 更新时间: 2025-12-11 08:45:34（北京时间）
+# 规则数量: 1865
 payload:
   - +.1fichier.com
   - +.1fichier.info
@@ -73,6 +73,7 @@ payload:
   - +.files.1drv.com
   - +.finkmirrors.net
   - +.fnbuilds.services
+  - +.freemirror.org
   - +.ftp-master.debian.org
   - +.ftp.debian.org
   - +.ftp2.de.debian.org
@@ -657,7 +658,6 @@ payload:
   - ctan.dcc.uchile.cl
   - ctan.ebinger.cc
   - ctan.gutenberg.eu.org
-  - ctan.imsc.res.in
   - ctan.math.ca
   - ctan.math.illinois.edu
   - ctan.math.utah.edu
@@ -1075,7 +1075,6 @@ payload:
   - glua.ua.pt
   - gnu.askapache.com
   - gnu.c3sl.ufpr.br
-  - gnu.freemirror.org
   - gnualpha.uib.no
   - gnuftp.uib.no
   - go-updater.brave.com
