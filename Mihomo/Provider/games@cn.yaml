@@ -1,5 +1,5 @@
-# 更新时间: 2025-12-11 08:45:35（北京时间）
-# 规则数量: 283
+# 更新时间: 2025-12-14 08:50:19（北京时间）
+# 规则数量: 285
 payload:
   - +.17roco.com
   - +.3304399.com
@@ -37,6 +37,8 @@ payload:
   - +.5054399.net
   - +.71acg.com
   - +.71acg.net
+  - +.7k7k.com
+  - +.9game.cn
   - +.9xgame.com
   - +.aki-game.com
   - +.akspeedy.com
@@ -207,7 +209,6 @@ payload:
   - +.texasholdemcup.cn
   - +.texasholdemcup.com
   - +.texasholdemcup.net
-  - +.tgbus.com
   - +.tgpro.top
   - +.tgprocs.net
   - +.themisweeps.com
@@ -218,7 +219,6 @@ payload:
   - +.tuer123.com
   - +.tuyoo.com
   - +.uu.163.com
-  - +.vgtime.com
   - +.videoxiaoyouxi.com
   - +.vrzwk.cn
   - +.vrzwk.com
@@ -262,6 +262,7 @@ payload:
   - +.zhuoyuegame.com
   - assets1.xboxlive.cn
   - assets2.xboxlive.cn
+  - blzdist-d3.necdn.leihuo.netease.com
   - blzdist-di.necdn.leihuo.netease.com
   - blzdist-hs.necdn.leihuo.netease.com
   - blzdist-ow.necdn.leihuo.netease.com
@@ -281,6 +282,7 @@ payload:
   - steamstatic.com.8686c.com
   - tlu.dl.delivery.mp.microsoft.com
   - trts.baishancdnx.cn
+  - ubisoftconnect.eo-edgefunctions7.com
   - uplaypc-s-ubisoft.cdn.ubionline.com.cn
   - wmsjsteam.com
   - xz.pphimalayanrt.com

@@ -1,5 +1,5 @@
-# 更新时间: 2025-12-11 08:45:34（北京时间）
-# 规则数量: 1865
+# 更新时间: 2025-12-14 08:50:16（北京时间）
+# 规则数量: 1870
 payload:
   - +.1fichier.com
   - +.1fichier.info
@@ -623,6 +623,7 @@ payload:
   - ciscobinary.openh264.org
   - client.hikarifield.co.jp
   - cloud.daporkchop.net
+  - cloudflare.f-droid.org
   - cloudfront.debian.net
   - codeload.github.com
   - componentupdater.brave.com
@@ -679,6 +680,7 @@ payload:
   - deb.campolargo.pr.gov.br
   - deb.nextgen.ch
   - deb.nodesource.com
+  - deb.torproject.org
   - debian-archive.trafficmanager.net
   - debian-mirror.behostings.net
   - debian-mirror.puq.apoapsis.cl
@@ -866,6 +868,7 @@ payload:
   - enterprise.proxmox.com
   - epicgames-download1.akamaized.net
   - espejito.fder.edu.uy
+  - f-droid.org
   - fastly-download.epicgames.com
   - fdisk.5play.app
   - fdroid.tetaneutral.net
@@ -1242,6 +1245,7 @@ payload:
   - mirror.eu.4psacloud.com
   - mirror.eu.kamatera.com
   - mirror.eu.oneandone.net
+  - mirror.eu.ossplanet.net
   - mirror.evowise.com
   - mirror.facebook.net
   - mirror.faraso.org
@@ -1750,6 +1754,7 @@ payload:
   - static.adtidy.org
   - static.redox-os.org
   - static.rust-lang.org
+  - static.torproject.org
   - stats.snipaste.com
   - steam.apac.qtlglb.com
   - steam.eca.qtlglb.com

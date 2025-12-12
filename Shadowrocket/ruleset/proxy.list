@@ -1,5 +1,5 @@
-# 更新时间: 2025-12-11 08:45:48（北京时间）
-# 规则数量: 7001
+# 更新时间: 2025-12-14 08:50:30（北京时间）
+# 规则数量: 7007
 DOMAIN,api.waqi.info
 DOMAIN,aqi.aqicn.org
 DOMAIN,ccmdl.adobe.com
@@ -378,6 +378,7 @@ DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,antichristendom.com
 DOMAIN-SUFFIX,antiwave.net
 DOMAIN-SUFFIX,antpool.com
+DOMAIN-SUFFIX,anuneko.com
 DOMAIN-SUFFIX,anyporn.com
 DOMAIN-SUFFIX,anysex.com
 DOMAIN-SUFFIX,ao3.org
@@ -3301,6 +3302,7 @@ DOMAIN-SUFFIX,jeanyim.com
 DOMAIN-SUFFIX,jetos.com
 DOMAIN-SUFFIX,jex.com
 DOMAIN-SUFFIX,jgoodies.com
+DOMAIN-SUFFIX,jhelab.org
 DOMAIN-SUFFIX,jiangweiping.com
 DOMAIN-SUFFIX,jiaoyou8.com
 DOMAIN-SUFFIX,jiehua.cz
@@ -3877,6 +3879,7 @@ DOMAIN-SUFFIX,mirrorbooks.com
 DOMAIN-SUFFIX,mirrormedia.mg
 DOMAIN-SUFFIX,missav.com
 DOMAIN-SUFFIX,missav.ws
+DOMAIN-SUFFIX,missav123.com
 DOMAIN-SUFFIX,misskey.io
 DOMAIN-SUFFIX,mist.vip
 DOMAIN-SUFFIX,mitbbs.com
@@ -4613,6 +4616,7 @@ DOMAIN-SUFFIX,pobieramy.top
 DOMAIN-SUFFIX,podbean.com
 DOMAIN-SUFFIX,podcast.co
 DOMAIN-SUFFIX,podictionary.com
+DOMAIN-SUFFIX,podwise.ai
 DOMAIN-SUFFIX,poe.com
 DOMAIN-SUFFIX,poeditor.com
 DOMAIN-SUFFIX,points-media.com
@@ -4811,9 +4815,11 @@ DOMAIN-SUFFIX,radicalparty.org
 DOMAIN-SUFFIX,radiko.jp
 DOMAIN-SUFFIX,radio-canada.ca
 DOMAIN-SUFFIX,radio-en-ligne.fr
+DOMAIN-SUFFIX,radio.co
 DOMAIN-SUFFIX,radio.garden
 DOMAIN-SUFFIX,radioaustralia.net.au
 DOMAIN-SUFFIX,radiohilight.net
+DOMAIN-SUFFIX,radiojar.com
 DOMAIN-SUFFIX,radioline.co
 DOMAIN-SUFFIX,radiovaticana.org
 DOMAIN-SUFFIX,radiovncr.com

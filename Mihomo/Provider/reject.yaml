@@ -1,5 +1,5 @@
-# 更新时间: 2025-12-11 08:45:40（北京时间）
-# 规则数量: 9965
+# 更新时间: 2025-12-14 08:50:24（北京时间）
+# 规则数量: 9984
 payload:
   - +.0.r.msn.com
   - +.000dn.com
@@ -582,6 +582,7 @@ payload:
   - +.aa0.pub.funshion.com
   - +.aa1.pub.funshion.com
   - +.aafanke.cc
+  - +.aaid.umeng.com
   - +.aam.adsremote.scrippsnetworks.com
   - +.aaxads.com
   - +.ab-gb.mgid.com
@@ -1162,6 +1163,7 @@ payload:
   - +.adss.dotdo.net
   - +.adss.yahoo.com
   - +.adstat.cp11.ott.cibntv.net
+  - +.adstats.tencentmusic.com
   - +.adstestview.qq.com
   - +.adstextview.qq.com
   - +.adstil.indiatimes.com
@@ -1702,6 +1704,7 @@ payload:
   - +.bad1.51gxqm.com
   - +.badad.googleplex.com
   - +.badao37.net
+  - +.badjs.weixinbridge.com
   - +.bai3.gushiwen.org
   - +.baiapk.com
   - +.baichuan-sdk.alicdn.com
@@ -1942,6 +1945,8 @@ payload:
   - +.breezily168.com
   - +.brizads.com
   - +.bro.flyme.cn
+  - +.browser.events.data.msn.cn
+  - +.browser.events.data.msn.com
   - +.brucelead.com
   - +.bryonypie.com
   - +.bs.5442.com
@@ -2318,6 +2323,7 @@ payload:
   - +.cl4.webterren.com
   - +.cl5.webterren.com
   - +.clarity.abacast.com
+  - +.clarity.ms
   - +.cleaner.baidu.com
   - +.clearbit.com
   - +.clearbitjs.com
@@ -2459,6 +2465,7 @@ payload:
   - +.coinnebula.com
   - +.col.hztags.net
   - +.col.pagechoice.net
+  - +.collector.github.com
   - +.collector.githubapp.com
   - +.collector.viki.io
   - +.collector.wasu.cn
@@ -2501,6 +2508,7 @@ payload:
   - +.cootek-dialer-download.oss-cn-hangzhou.aliyuncs.com
   - +.cootek-file.cdn.cootekservice.com
   - +.cop.my
+  - +.copilot-telemetry.githubusercontent.com
   - +.coreldrawchina.com
   - +.coremetrics.com
   - +.corner.houyi.baofeng.net
@@ -2576,6 +2584,7 @@ payload:
   - +.cr-p16.ladsp.com
   - +.cr.m.liebao.cn
   - +.crash.163.com
+  - +.crash2.zhihu.com
   - +.crashapi.growingio.com
   - +.crashes.mo.wps.cn
   - +.crasheye.cn
@@ -3092,6 +3101,7 @@ payload:
   - +.dt.adsafeprotected.com
   - +.dtrk.slimcdn.com
   - +.dts.akamai.startappexchange.com
+  - +.dualstack-logs.amap.com
   - +.duanat.com
   - +.duapp.com
   - +.duapps.com
@@ -3583,6 +3593,7 @@ payload:
   - +.fenggejiaju.com
   - +.fenqihome.com
   - +.fenvm.com
+  - +.fenxi.360.cn
   - +.fenxi.com
   - +.fexclick.baidu.com
   - +.ff.nsg.org.ua
@@ -4145,6 +4156,7 @@ payload:
   - +.html.350.com
   - +.html.sunday8.com
   - +.html.yuntzs.com
+  - +.htrace.wetvinfo.com
   - +.httpdns.push.oppomobile.com
   - +.httpool.com
   - +.huahuaka.com
@@ -5155,6 +5167,7 @@ payload:
   - +.logic.cpm.cm.kankan.com
   - +.logonext.tv.kuyun.com
   - +.logoshejishi.com
+  - +.logs.amap.com
   - +.logstat.caixin.com
   - +.logstat.t.sfht.com
   - +.logupdate.avlyun.sec.miui.com
@@ -5735,6 +5748,7 @@ payload:
   - +.microad-cn.com
   - +.microad.co.jp
   - +.microad.jp
+  - +.microsoftads.com
   - +.mid.houyi.baofeng.net
   - +.midas.rong360.com
   - +.midinfo.baofeng.com
@@ -5848,6 +5862,7 @@ payload:
   - +.mon.xtgreat.com
   - +.monero.how
   - +.money.qz828.com
+  - +.monitor.music.qq.com
   - +.monitor.qq.com
   - +.monitor.uu.qq.com
   - +.moodoocrv.com.cn
@@ -5996,6 +6011,7 @@ payload:
   - +.ne.1rtb.com
   - +.ne9377.com
   - +.neirong.baidu.com
+  - +.nelreports.net
   - +.nend.net
   - +.nest.youwatch.org
   - +.net.rayjump.com
@@ -6191,6 +6207,7 @@ payload:
   - +.optimix.cn
   - +.optimized-by.rubiconproject.com
   - +.optimizelyapis.com
+  - +.optimus-ads.amap.com
   - +.oq68.com
   - +.orchidscape.net
   - +.oredero.com
@@ -6835,6 +6852,7 @@ payload:
   - +.rencai56.com
   - +.renren2.maoyun.tv
   - +.report.qq.com
+  - +.report.qqweb.qq.com
   - +.req.startappservice.com
   - +.res-ga.smzdm.com
   - +.res.cocounion.com
@@ -8117,6 +8135,7 @@ payload:
   - +.utility.rogersmedia.com
   - +.utk.baidu.cn
   - +.utk.baidu.com
+  - +.utoken.umeng.com
   - +.utp.ucweb.com
   - +.utrack.hexun.com
   - +.uu.feipukeplus.com
@@ -8932,6 +8951,7 @@ payload:
   - +.zhidian3g.cn
   - +.zhifenjie.com
   - +.zhihei.com
+  - +.zhihu-web-analytics.zhihu.com
   - +.zhihu.xmcimg.com
   - +.zhiong.net
   - +.zhiyuanteam.com
@@ -9397,7 +9417,6 @@ payload:
   - gemini.yahoo.com
   - geo.yahoo.com
   - getui.cn
-  - getui.com
   - ggx.cmvideo.cn
   - ggx01.miguvideo.com
   - ggx03.miguvideo.com

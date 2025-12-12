@@ -1,5 +1,5 @@
-# 更新时间: 2025-12-11 08:45:45（北京时间）
-# 规则数量: 122
+# 更新时间: 2025-12-14 08:50:28（北京时间）
+# 规则数量: 123
 DOMAIN,ai.google.dev
 DOMAIN,alkalicore-pa.clients6.google.com
 DOMAIN,alkalimakersuite-pa.clients6.google.com
@@ -71,6 +71,7 @@ DOMAIN-SUFFIX,diabrowser.com
 DOMAIN-SUFFIX,diabrowser.engineering
 DOMAIN-SUFFIX,dify.ai
 DOMAIN-SUFFIX,dola.com
+DOMAIN-SUFFIX,duck.ai
 DOMAIN-SUFFIX,elevenlabs.com
 DOMAIN-SUFFIX,elevenlabs.io
 DOMAIN-SUFFIX,gateway.ai.cloudflare.com
