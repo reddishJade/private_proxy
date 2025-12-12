@@ -1,5 +1,5 @@
-# 更新时间: 2025-12-11 08:45:35（北京时间）
-# 规则数量: 100
+# 更新时间: 2025-12-22 20:18:39（北京时间）
+# 规则数量: 99
 payload:
   - +.126.net
   - +.3gppnetwork.org
@@ -38,7 +38,6 @@ payload:
   - +.n0808.com
   - +.network-test.debian.org
   - +.networkcheck.kde.org
-  - +.nflxvideo.net
   - +.ntp.org.cn
   - +.oray.com
   - +.orayimg.com

@@ -1,5 +1,5 @@
-# 更新时间: 2025-12-11 08:45:37（北京时间）
-# 规则数量: 219
+# 更新时间: 2025-12-22 20:18:40（北京时间）
+# 规则数量: 218
 payload:
   - +.21vbc.com
   - +.21vbluecloud.com
@@ -86,7 +86,6 @@ payload:
   - +.developer.microsoft.com
   - +.ditu.live.com
   - +.dl.delivery.mp.microsoft.com
-  - +.docs.microsoft.com
   - +.download.microsoft.com
   - +.download.visualstudio.microsoft.com
   - +.download.windowsupdate.com

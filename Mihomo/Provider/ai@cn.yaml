@@ -1,6 +1,7 @@
-# 更新时间: 2025-12-11 08:45:29（北京时间）
-# 规则数量: 63
+# 更新时间: 2025-12-22 20:18:33（北京时间）
+# 规则数量: 68
 payload:
+  - +.askdiandian.com
   - +.baichuan-ai.com
   - +.bigmodel.cn
   - +.botvip.cn
@@ -14,6 +15,7 @@ payload:
   - +.cozeide.cn
   - +.cueme.cn
   - +.deepseek.com
+  - +.diandianlife.top
   - +.doubao.com
   - +.doubaocdn.com
   - +.doudou.com
@@ -32,6 +34,7 @@ payload:
   - +.mcprev.cn
   - +.meta.law
   - +.metaso.cn
+  - +.miaibox.com
   - +.miaoyanai.com
   - +.minimax.chat
   - +.minimax.io
@@ -55,6 +58,8 @@ payload:
   - +.trae.cn
   - +.trae.com.cn
   - +.trae.guru
+  - +.xiaoaiassist.com
+  - +.xiaomimimo.com
   - +.xiezuocat.com
   - +.xinghuo.xfyun.cn
   - +.xingyeai.com

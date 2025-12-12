@@ -1,5 +1,5 @@
-# 更新时间: 2025-12-11 08:45:31（北京时间）
-# 规则数量: 980
+# 更新时间: 2025-12-22 20:18:35（北京时间）
+# 规则数量: 983
 payload:
   - +.10010.com
   - +.10086.cn
@@ -152,6 +152,7 @@ payload:
   - +.bdatu.com
   - +.bdimg.com
   - +.bdstatic.com
+  - +.bdurl.net
   - +.bdydns.com
   - +.beatsbydre.com
   - +.bendibao.com
@@ -185,7 +186,9 @@ payload:
   - +.byteeffecttos.com
   - +.bytegoofy.com
   - +.byteimg.com
+  - +.bytescm.com
   - +.bytetcc.com
+  - +.bytetos.com
   - +.c-ctrip.com
   - +.c-t.work
   - +.cailianpress.com

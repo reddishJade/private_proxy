@@ -1,5 +1,5 @@
-# 更新时间: 2025-12-11 08:45:29（北京时间）
-# 规则数量: 121
+# 更新时间: 2025-12-22 20:18:34（北京时间）
+# 规则数量: 125
 payload:
   - +.ai.com
   - +.aida.googleapis.com
@@ -51,6 +51,7 @@ payload:
   - +.diabrowser.engineering
   - +.dify.ai
   - +.dola.com
+  - +.duck.ai
   - +.elevenlabs.com
   - +.elevenlabs.io
   - +.gateway.ai.cloudflare.com
@@ -73,6 +74,7 @@ payload:
   - +.jetbrains.ai
   - +.jules.google
   - +.jules.google.com
+  - +.kiro.dev
   - +.labs.google
   - +.makersuite.google.com
   - +.marscode.com
@@ -83,6 +85,8 @@ payload:
   - +.notebooklm.google.com
   - +.oaistatic.com
   - +.oaiusercontent.com
+  - +.opal.google
+  - +.opal.google.com
   - +.openai.com
   - +.openai.com.cdn.cloudflare.net
   - +.openart.ai
