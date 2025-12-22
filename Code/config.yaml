@@ -112,6 +112,11 @@
       url: "https://ruleset.skk.moe/Clash/non_ip/direct.txt"
       format: txt
       behavior: classical
+    dler_specical:
+      type: http
+      url: "https://cdn.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/Special.yaml"
+      format: yaml
+      behavior: classical
     DustinWin_trackerslist:
       type: http
       url: "https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/trackerslist.list"

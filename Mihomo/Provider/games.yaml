@@ -1,5 +1,5 @@
-# 更新时间: 2025-12-22 20:18:39（北京时间）
-# 规则数量: 736
+# 更新时间: 2025-12-22 22:45:51（北京时间）
+# 规则数量: 739
 payload:
   - +.100classicbooks.com
   - +.2k.com
@@ -651,6 +651,9 @@ payload:
   - +.valvesoftware.com
   - +.videos-rockstargames-com.akamaized.net
   - +.visceralgames.com
+  - +.vrchat.cloud
+  - +.vrchat.com
+  - +.vrchat.net
   - +.wariolandshakeit.com
   - +.wariowarediy.com
   - +.warnerbrosgames.com
