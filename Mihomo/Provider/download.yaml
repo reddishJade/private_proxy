@@ -1,5 +1,5 @@
-# 更新时间: 2025-12-22 22:45:44（北京时间）
-# 规则数量: 1873
+# 更新时间: 2025-12-27 20:15:32（北京时间）
+# 规则数量: 1876
 payload:
   - +.1fichier.com
   - +.1fichier.info
@@ -796,6 +796,7 @@ payload:
   - download-cdn.jetbrains.com
   - download-core.sys.truenas.net
   - download-installer.cdn.mozilla.net
+  - download.amelabs.net
   - download.ameliorated.io
   - download.anydesk.com
   - download.bazzite.gg
@@ -837,6 +838,7 @@ payload:
   - download.savannah.gnu.org
   - download.sketch.com
   - download.snipaste.com
+  - download.sysinternals.com
   - download.tensorflow.google.com
   - download.todesktop.com
   - download.typora.io
@@ -1854,6 +1856,7 @@ payload:
   - update.sleazyfork.org
   - updater.snipaste.com
   - updates-cdn.bravesoftware.com
+  - updates.64gr.am
   - updates.bravesoftware.com
   - updates.edovia.com
   - updates.istatmenus.app

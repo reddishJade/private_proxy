@@ -1,5 +1,5 @@
-# 更新时间: 2025-12-22 22:46:16（北京时间）
-# 规则数量: 9999
+# 更新时间: 2025-12-27 20:15:37（北京时间）
+# 规则数量: 10003
 payload:
   - +.0.r.msn.com
   - +.000dn.com
@@ -9192,6 +9192,7 @@ payload:
   - adtago.s3.amazonaws.com
   - adtech.yahooinc.com
   - adtrack.quark.cn
+  - adtracker.medproad.com
   - adv-api.shenshiads.com
   - adv.sec.intl.miui.com
   - adv.sec.miui.com
@@ -9599,6 +9600,7 @@ payload:
   - mazu.m.qq.com
   - mbdlog.iqiyi.com
   - mcs.zijieapi.com
+  - medproad.com
   - metrics.data.hicloud.com
   - metrics.icloud.com
   - metrics.mzstatic.com
@@ -9725,6 +9727,7 @@ payload:
   - ps.map.baidu.com
   - public.gdtimg.com
   - q.i.gdt.qq.com
+  - qcwx.medproad.com
   - qmlog.baertt.com
   - qn-cdnfile1pcdn.msstatic.com
   - qqdata.ab.qq.com
@@ -9829,6 +9832,7 @@ payload:
   - syh-imp.cdnjtzy.com
   - syh.zybang.com
   - szbdyd.com
+  - t-adx.52qumao.com
   - t-dsp.pinduoduo.com
   - t.applovin.com
   - t.l.qq.com

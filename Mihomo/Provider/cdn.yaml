@@ -1,5 +1,5 @@
-# 更新时间: 2025-12-22 22:45:35（北京时间）
-# 规则数量: 4162
+# 更新时间: 2025-12-27 20:15:29（北京时间）
+# 规则数量: 4171
 payload:
   - +.1a-1791.com
   - +.1passwordusercontent.ca
@@ -745,6 +745,7 @@ payload:
   - +.pastebin.com
   - +.patientpop.com
   - +.patreonusercontent.com
+  - +.paypalobjects.com
   - +.pcdn.co
   - +.permaweb.eu.org
   - +.permaweb.io
@@ -837,6 +838,7 @@ payload:
   - +.redditstatic.com
   - +.registry.gitplac.si
   - +.replicate.delivery
+  - +.replicateassets.com
   - +.report-uri.com
   - +.res.office365.com
   - +.rescript-lang.org
@@ -980,6 +982,7 @@ payload:
   - +.teamtailor-cdn.com
   - +.tedcdn.com
   - +.telemetry.services.yofi.ai
+  - +.teo-rum.com
   - +.teraboxcdn.com
   - +.thesourcemediaassets.com
   - +.thirdwebcdn.com
@@ -1848,6 +1851,7 @@ payload:
   - cdn.one.store
   - cdn.onesignal.com
   - cdn.onetime.dog
+  - cdn.onfastspring.com
   - cdn.onlyhentaistuff.com
   - cdn.openai.com
   - cdn.osxdaily.com
@@ -2612,6 +2616,7 @@ payload:
   - image.tmdb.org
   - image.vuukle.com
   - image.westinyou.com
+  - image.worthepenny.com
   - image.xmanhua.net
   - image.yuntu.com.tw
   - image.yymanhua.com
@@ -3115,7 +3120,6 @@ payload:
   - navismithapis-cdn.com
   - nbcnewsdigital-static.nbcuni.com
   - nel.heroku.com
-  - nel.teo-rum.com
   - net-fe-static-assets.network-controller.svc.ui.com
   - netlify.apollo.io
   - newassets.hcaptcha.com
@@ -3303,6 +3307,7 @@ payload:
   - r.bing.com
   - r.r10s.jp
   - r2.1hanime.com
+  - r2.dejavu.moe
   - r2.gear4music.com
   - r2.leadsy.ai
   - r2cdn.corespeed.io
@@ -3365,6 +3370,7 @@ payload:
   - s.gishan.cc
   - s.imgflip.com
   - s.imgur.com
+  - s.linear.app
   - s.midishow.net
   - s.namemc.com
   - s.pacn.ws
@@ -3479,6 +3485,7 @@ payload:
   - server.arcgisonline.com
   - service-icons.zeabur.com
   - services.linkfire.com
+  - sessions-bugsnag.docker.com
   - sf-coze-web-cdn.coze.com
   - sf-flow-web-cdn.ciciai.com
   - sfiles.cnyes.cool
@@ -3767,6 +3774,7 @@ payload:
   - static.oracle.com
   - static.parallels.com
   - static.peatio.com
+  - static.pepy.tech
   - static.pfrt.yna.co.kr
   - static.pingcap.com
   - static.planetminecraft.com
@@ -3940,6 +3948,7 @@ payload:
   - texture.laby.net
   - th.bing.com
   - themes.fourthwall.com
+  - themes.hibootstrap.com
   - thumbnail.missav.com
   - thumbnailer.mixcloud.com
   - thumbnails.applegamingwiki.com
@@ -4150,8 +4159,8 @@ payload:
   - www.10086.win
   - www.acgpix.de
   - www.bbthat.com
+  - www.envoyproxy.io
   - www.gstatic.com
-  - www.paypalobjects.com
   - www.pngmart.com
   - www.tbstat.com
   - www.typescriptlang.org

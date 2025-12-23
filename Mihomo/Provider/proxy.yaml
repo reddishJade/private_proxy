@@ -1,4 +1,4 @@
-# 更新时间: 2025-12-22 22:46:05（北京时间）
+# 更新时间: 2025-12-27 20:15:36（北京时间）
 # 规则数量: 6936
 payload:
   - +.000webhost.com
@@ -3622,6 +3622,7 @@ payload:
   - +.looktoronto.com
   - +.lotsawahouse.org
   - +.lotuslight.org.tw
+  - +.lovart.ai
   - +.lovetvshow.com
   - +.lpsg.com
   - +.lrfz.com
@@ -4071,6 +4072,7 @@ payload:
   - +.nemesis2.qx.net
   - +.neo-miracle.com
   - +.neowin.net
+  - +.nephobox.com
   - +.nest.com
   - +.netalert.me
   - +.netbirds.com
@@ -4866,6 +4868,7 @@ payload:
   - +.redtubepremium.com
   - +.referer.us
   - +.reflectivecode.com
+  - +.regex101.com
   - +.reimu.net
   - +.relaxbbs.com
   - +.relay.com.tw
@@ -6932,8 +6935,5 @@ payload:
   - ees.elsevier.com
   - help.ubnt.com
   - news.ycombinator.com
-  - sglong.wechat.com
-  - sgminorshort.wechat.com
-  - sgshort.wechat.com
   - store.ui.com.cn
   - wego.here.com

@@ -1,4 +1,4 @@
-# 更新时间: 2025-12-22 20:18:57（北京时间）
+# 更新时间: 2025-12-27 20:15:44（北京时间）
 # 规则数量: 7012
 DOMAIN,api.waqi.info
 DOMAIN,aqi.aqicn.org
@@ -8,9 +8,6 @@ DOMAIN,community.oneplus.com
 DOMAIN,ees.elsevier.com
 DOMAIN,help.ubnt.com
 DOMAIN,news.ycombinator.com
-DOMAIN,sglong.wechat.com
-DOMAIN,sgminorshort.wechat.com
-DOMAIN,sgshort.wechat.com
 DOMAIN,store.ui.com.cn
 DOMAIN,wego.here.com
 DOMAIN-KEYWORD,appledaily
@@ -3650,6 +3647,7 @@ DOMAIN-SUFFIX,lookpic.com
 DOMAIN-SUFFIX,looktoronto.com
 DOMAIN-SUFFIX,lotsawahouse.org
 DOMAIN-SUFFIX,lotuslight.org.tw
+DOMAIN-SUFFIX,lovart.ai
 DOMAIN-SUFFIX,lovetvshow.com
 DOMAIN-SUFFIX,lpsg.com
 DOMAIN-SUFFIX,lrfz.com
@@ -4099,6 +4097,7 @@ DOMAIN-SUFFIX,nekoslovakia.net
 DOMAIN-SUFFIX,nemesis2.qx.net
 DOMAIN-SUFFIX,neo-miracle.com
 DOMAIN-SUFFIX,neowin.net
+DOMAIN-SUFFIX,nephobox.com
 DOMAIN-SUFFIX,nest.com
 DOMAIN-SUFFIX,netalert.me
 DOMAIN-SUFFIX,netbirds.com
@@ -4894,6 +4893,7 @@ DOMAIN-SUFFIX,redtube.com
 DOMAIN-SUFFIX,redtubepremium.com
 DOMAIN-SUFFIX,referer.us
 DOMAIN-SUFFIX,reflectivecode.com
+DOMAIN-SUFFIX,regex101.com
 DOMAIN-SUFFIX,reimu.net
 DOMAIN-SUFFIX,relaxbbs.com
 DOMAIN-SUFFIX,relay.com.tw
