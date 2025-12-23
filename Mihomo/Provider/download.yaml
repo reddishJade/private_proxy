@@ -1,5 +1,5 @@
-# 更新时间: 2025-12-22 22:45:44（北京时间）
-# 规则数量: 1873
+# 更新时间: 2026-01-04 08:53:18（北京时间）
+# 规则数量: 1887
 payload:
   - +.1fichier.com
   - +.1fichier.info
@@ -151,6 +151,7 @@ payload:
   - +.mirrors.blix.com
   - +.mirrors.cicku.me
   - +.mirrors.clouvider.net
+  - +.mirrors.cu.be
   - +.mirrors.dotsrc.org
   - +.mirrors.hoobly.com
   - +.mirrors.ionfish.org
@@ -536,7 +537,6 @@ payload:
   - apache.cs.utah.edu
   - apache.cs.utah.edu.org
   - apache.cs.uu.nl
-  - apache.cu.be
   - apache.forthnet.gr
   - apache.hippo.nl
   - apache.ip-connect.vn.ua
@@ -681,6 +681,7 @@ payload:
   - deb.campolargo.pr.gov.br
   - deb.nextgen.ch
   - deb.nodesource.com
+  - deb.sury.org
   - deb.torproject.org
   - debian-archive.trafficmanager.net
   - debian-mirror.behostings.net
@@ -796,6 +797,7 @@ payload:
   - download-cdn.jetbrains.com
   - download-core.sys.truenas.net
   - download-installer.cdn.mozilla.net
+  - download.amelabs.net
   - download.ameliorated.io
   - download.anydesk.com
   - download.bazzite.gg
@@ -837,6 +839,7 @@ payload:
   - download.savannah.gnu.org
   - download.sketch.com
   - download.snipaste.com
+  - download.sysinternals.com
   - download.tensorflow.google.com
   - download.todesktop.com
   - download.typora.io
@@ -864,6 +867,7 @@ payload:
   - drive.massgrave.dev
   - drmirror.physi.uni-heidelberg.de
   - dw.uptodown.net
+  - eclats.crans.org
   - edge.steam-dns.top.comcast.net
   - edgedl.me.gvt1.com
   - edgeupdates.microsoft.com
@@ -871,6 +875,7 @@ payload:
   - enterprise.proxmox.com
   - epicgames-download1.akamaized.net
   - espejito.fder.edu.uy
+  - eu.edge.kernel.org
   - f-droid.org
   - fastly-download.epicgames.com
   - fdisk.5play.app
@@ -916,6 +921,7 @@ payload:
   - ftp.cn.debian.org
   - ftp.corbina.net
   - ftp.cpan.org
+  - ftp.crihan.fr
   - ftp.cs.uu.nl
   - ftp.cse.buffalo.edu
   - ftp.csuc.cat
@@ -1106,7 +1112,6 @@ payload:
   - kambing.uu.sg
   - kartolo.sby.datautama.net.id
   - kde.c3sl.ufpr.br
-  - kde.cu.be
   - kde.ip-connect.vn.ua
   - kebo.pens.ac.id
   - kebo.vlsm.org
@@ -1119,9 +1124,11 @@ payload:
   - lidsol.fi-b.unam.mx
   - linorg.usp.br
   - linux-mirrors.fnal.gov
+  - linux.cs.nctu.edu.tw
   - linux.domainesia.com
   - linux.purple-cat.net
   - linux.yz.yamagata-u.ac.jp
+  - linux2.yz.yamagata-u.ac.jp
   - linuxsoft.cern.ch
   - lug.mines.edu
   - lzip.nongnu.org
@@ -1218,6 +1225,7 @@ payload:
   - mirror.datacenter.by
   - mirror.datacenter.mn
   - mirror.datamossa.io
+  - mirror.datapacket.com
   - mirror.datapipe.net
   - mirror.dc.uz
   - mirror.de.leaseweb.net
@@ -1225,6 +1233,7 @@ payload:
   - mirror.del.albony.in
   - mirror.dewabiz.com
   - mirror.digitaloceans.dev
+  - mirror.dimensiondata.com
   - mirror.djvg.sg
   - mirror.dkm.cz
   - mirror.docker.ru
@@ -1243,6 +1252,7 @@ payload:
   - mirror.enzu.com
   - mirror.esecuredata.com
   - mirror.estone.ca
+  - mirror.ethz.ch
   - mirror.eu-fr.kamatera.com
   - mirror.eu-lo.kamatera.com
   - mirror.eu.4psacloud.com
@@ -1408,6 +1418,7 @@ payload:
   - mirror.pregi.net
   - mirror.previder.nl
   - mirror.ps.kz
+  - mirror.quickhost.uk
   - mirror.raiolanetworks.com
   - mirror.rcg.sfu.ca
   - mirror.realcompute.io
@@ -1439,6 +1450,7 @@ payload:
   - mirror.soonkeat.sg
   - mirror.sov.uk.goscomb.net
   - mirror.squ.edu.om
+  - mirror.steadfast.net
   - mirror.stjschools.org
   - mirror.switch.ch
   - mirror.szerverem.hu
@@ -1553,7 +1565,6 @@ payload:
   - mirrors.concertpass.com
   - mirrors.coreix.net
   - mirrors.datapark.ro
-  - mirrors.dc.clear.net.ar
   - mirrors.de.sahilister.net
   - mirrors.edge.kernel.org
   - mirrors.egr.msu.edu
@@ -1613,6 +1624,7 @@ payload:
   - mirrors.sonic.net
   - mirrors.standaloneinstaller.com
   - mirrors.storpool.com
+  - mirrors.switch.ca
   - mirrors.teamcloud.am
   - mirrors.tino.org
   - mirrors.ubuntu.dimit.cloud
@@ -1668,6 +1680,7 @@ payload:
   - packages.linuxmint.com
   - packages.microsoft.com
   - packages.oth-regensburg.de
+  - packages.sury.org
   - packages.termux.dev
   - packages.virtfusion.net
   - packagespc.xboxlive.com
@@ -1854,6 +1867,7 @@ payload:
   - update.sleazyfork.org
   - updater.snipaste.com
   - updates-cdn.bravesoftware.com
+  - updates.64gr.am
   - updates.bravesoftware.com
   - updates.edovia.com
   - updates.istatmenus.app

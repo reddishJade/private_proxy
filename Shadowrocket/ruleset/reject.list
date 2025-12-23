@@ -1,5 +1,5 @@
-# 更新时间: 2025-12-22 20:18:58（北京时间）
-# 规则数量: 10082
+# 更新时间: 2026-01-04 08:53:35（北京时间）
+# 规则数量: 10089
 DOMAIN,118.89.204.198
 DOMAIN,1500020991.vodplayer.wxamedia.com
 DOMAIN,1500022744.vodplayer.wxamedia.com
@@ -136,6 +136,7 @@ DOMAIN,adstudio.spotify.com
 DOMAIN,adtago.s3.amazonaws.com
 DOMAIN,adtech.yahooinc.com
 DOMAIN,adtrack.quark.cn
+DOMAIN,adtracker.medproad.com
 DOMAIN,adv-api.shenshiads.com
 DOMAIN,adv.sec.intl.miui.com
 DOMAIN,adv.sec.miui.com
@@ -543,6 +544,7 @@ DOMAIN,masdkv6.3g.qq.com
 DOMAIN,mazu.m.qq.com
 DOMAIN,mbdlog.iqiyi.com
 DOMAIN,mcs.zijieapi.com
+DOMAIN,medproad.com
 DOMAIN,metrics.data.hicloud.com
 DOMAIN,metrics.icloud.com
 DOMAIN,metrics.mzstatic.com
@@ -669,6 +671,7 @@ DOMAIN,proxy.advp.apple.com
 DOMAIN,ps.map.baidu.com
 DOMAIN,public.gdtimg.com
 DOMAIN,q.i.gdt.qq.com
+DOMAIN,qcwx.medproad.com
 DOMAIN,qmlog.baertt.com
 DOMAIN,qn-cdnfile1pcdn.msstatic.com
 DOMAIN,qqdata.ab.qq.com
@@ -773,6 +776,7 @@ DOMAIN,sv-video.play.aiseet.atianqi.com
 DOMAIN,syh-imp.cdnjtzy.com
 DOMAIN,syh.zybang.com
 DOMAIN,szbdyd.com
+DOMAIN,t-adx.52qumao.com
 DOMAIN,t-dsp.pinduoduo.com
 DOMAIN,t.applovin.com
 DOMAIN,t.l.qq.com
@@ -2152,6 +2156,7 @@ DOMAIN-SUFFIX,adtest.theonion.com
 DOMAIN-SUFFIX,adthor.com
 DOMAIN-SUFFIX,adtrack.quark.cn
 DOMAIN-SUFFIX,adtrack.ucweb.com
+DOMAIN-SUFFIX,adtrafficquality.google
 DOMAIN-SUFFIX,adtrk.me
 DOMAIN-SUFFIX,adtrue.com
 DOMAIN-SUFFIX,adui.tg.meitu.com
@@ -2343,6 +2348,7 @@ DOMAIN-SUFFIX,an.yandex.ru
 DOMAIN-SUFFIX,ana.tatahn.com
 DOMAIN-SUFFIX,analy.qq.com
 DOMAIN-SUFFIX,analysys.cn
+DOMAIN-SUFFIX,analytics-alv.google.com
 DOMAIN-SUFFIX,analytics-data.io
 DOMAIN-SUFFIX,analytics.126.net
 DOMAIN-SUFFIX,analytics.163.com
@@ -4544,6 +4550,7 @@ DOMAIN-SUFFIX,fc-feed.cdn.bcebos.com
 DOMAIN-SUFFIX,fccxgjg.com
 DOMAIN-SUFFIX,fclick.baidu.com
 DOMAIN-SUFFIX,fclog.baidu.com
+DOMAIN-SUFFIX,fcmatch.google.com
 DOMAIN-SUFFIX,fcsass.org.cn
 DOMAIN-SUFFIX,fd.anzhi.com
 DOMAIN-SUFFIX,fd.qchannel03.cn

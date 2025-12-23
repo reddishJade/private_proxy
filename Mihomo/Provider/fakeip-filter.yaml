@@ -1,5 +1,5 @@
-# 更新时间: 2025-12-22 22:45:47（北京时间）
-# 规则数量: 99
+# 更新时间: 2026-01-04 08:53:21（北京时间）
+# 规则数量: 102
 payload:
   - +.126.net
   - +.3gppnetwork.org
@@ -21,6 +21,7 @@ payload:
   - +.gcloudsdk.com
   - +.home.arpa
   - +.invalid
+  - +.kk-rays.com
   - +.kuwo.cn
   - +.lan
   - +.linksys.com
@@ -41,7 +42,6 @@ payload:
   - +.ntp.org.cn
   - +.oray.com
   - +.orayimg.com
-  - +.ping.archlinux.org
   - +.pool.ntp.org
   - +.pub.3gppnetwork.org
   - +.router.asus.com
@@ -66,6 +66,7 @@ payload:
   - api.joox.com
   - aqqmusic.tc.qq.com
   - connect.rom.miui.com
+  - connectivity-check.ubuntu.com
   - connectivitycheck.platform.hicloud.com
   - connectivitycheck.platform.hihonorcloud.com
   - dl.stream.qqmusic.qq.com
@@ -84,8 +85,10 @@ payload:
   - music.taihe.com
   - musicapi.taihe.com
   - na.b.g-tun.com
+  - ping.archlinux.org
   - proxy.golang.org
   - ps.res.netease.com
+  - redirect.archlinux.org
   - shark007.net
   - songsearch.kugou.com
   - static.adtidy.org

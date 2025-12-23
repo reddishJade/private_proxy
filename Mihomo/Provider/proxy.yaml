@@ -1,5 +1,5 @@
-# 更新时间: 2025-12-22 22:46:05（北京时间）
-# 规则数量: 6936
+# 更新时间: 2026-01-04 08:53:25（北京时间）
+# 规则数量: 6967
 payload:
   - +.000webhost.com
   - +.030buy.com
@@ -267,6 +267,7 @@ payload:
   - +.aliengu.com
   - +.alive.bar
   - +.aljazeera.com
+  - +.aljazeera.net
   - +.alkasir.com
   - +.all4mom.org
   - +.allcoin.com
@@ -1057,6 +1058,7 @@ payload:
   - +.centurys.net
   - +.certificate-transparency.org
   - +.certificate.revocationcheck.com
+  - +.cf-ipfs.com
   - +.cfhks.org.hk
   - +.cfos.de
   - +.cfr.org
@@ -1226,8 +1228,12 @@ payload:
   - +.cloudflare.com
   - +.cloudflare.dev
   - +.cloudflareaccess.com
+  - +.cloudflareapps.com
+  - +.cloudflarepreview.com
   - +.cloudflareresolve.com
   - +.cloudflarestatus.com
+  - +.cloudflarestorage.com
+  - +.cloudflaretunnel.com
   - +.cloudfront.net
   - +.cloudfunctions.net
   - +.cloudgarage.jp
@@ -1498,7 +1504,6 @@ payload:
   - +.demo.unlock-music.dev
   - +.demosisto.hk
   - +.deno.com
-  - +.deno.dev
   - +.depositphotos.com
   - +.desc.se
   - +.desipro.de
@@ -1593,7 +1598,6 @@ payload:
   - +.docker.com
   - +.docker.io
   - +.dockerstatus.com
-  - +.docs.deno.com
   - +.docs.new
   - +.doctorvoice.org
   - +.documentingreality.com
@@ -2296,6 +2300,7 @@ payload:
   - +.gfw.press
   - +.gfw.report
   - +.gfwatch.org
+  - +.gfwbao.com
   - +.gg
   - +.ggpht.com
   - +.ggssl.com
@@ -2647,6 +2652,7 @@ payload:
   - +.gqhongkong.com
   - +.gr8domain.biz
   - +.gr8name.biz
+  - +.grafana.com
   - +.grammaly.com
   - +.grammarly.com
   - +.grammarly.io
@@ -3194,6 +3200,7 @@ payload:
   - +.ismprofessional.net
   - +.isohunt.com
   - +.israbox.com
+  - +.issues.chromium.org
   - +.issuu.com
   - +.istars.co.nz
   - +.istatmenus.app
@@ -3622,6 +3629,7 @@ payload:
   - +.looktoronto.com
   - +.lotsawahouse.org
   - +.lotuslight.org.tw
+  - +.lovart.ai
   - +.lovetvshow.com
   - +.lpsg.com
   - +.lrfz.com
@@ -4071,6 +4079,7 @@ payload:
   - +.nemesis2.qx.net
   - +.neo-miracle.com
   - +.neowin.net
+  - +.nephobox.com
   - +.nest.com
   - +.netalert.me
   - +.netbirds.com
@@ -4429,6 +4438,7 @@ payload:
   - +.padmanet.com
   - +.page.link
   - +.page2rss.com
+  - +.pages.dev
   - +.pagesix.com
   - +.paimon.moe
   - +.palacemoon.com
@@ -4484,6 +4494,7 @@ payload:
   - +.pdfexpert.com
   - +.pdproxy.com
   - +.pds.nasa.gov
+  - +.pdst.fm
   - +.pe
   - +.peace.ca
   - +.peacefire.org
@@ -4547,7 +4558,23 @@ payload:
   - +.pinimg.com
   - +.pinkrod.com
   - +.pinoy-n.com
+  - +.pinterest.at
+  - +.pinterest.ca
+  - +.pinterest.cl
+  - +.pinterest.co.uk
   - +.pinterest.com
+  - +.pinterest.com.au
+  - +.pinterest.com.mx
+  - +.pinterest.de
+  - +.pinterest.es
+  - +.pinterest.fr
+  - +.pinterest.ie
+  - +.pinterest.it
+  - +.pinterest.jp
+  - +.pinterest.nz
+  - +.pinterest.ph
+  - +.pinterest.pt
+  - +.pinterest.se
   - +.pioneer-worker.forums-free.com
   - +.pipii.tv
   - +.piraattilahti.org
@@ -4866,6 +4893,7 @@ payload:
   - +.redtubepremium.com
   - +.referer.us
   - +.reflectivecode.com
+  - +.regex101.com
   - +.reimu.net
   - +.relaxbbs.com
   - +.relay.com.tw
@@ -5383,6 +5411,7 @@ payload:
   - +.stboy.net
   - +.stc.com.sa
   - +.steamcommunity.com
+  - +.steamladder.com
   - +.steamstatic.com
   - +.steel-storm.com
   - +.steemit.com
@@ -5422,6 +5451,7 @@ payload:
   - +.strongvpn.com
   - +.strongwindpress.com
   - +.studentsforafreetibet.org
+  - +.studio
   - +.stumbleupon.com
   - +.stupidvideos.com
   - +.su
@@ -5893,6 +5923,7 @@ payload:
   - +.trustwallet.com
   - +.truthsocial.com
   - +.truveo.com
+  - +.trycloudflare.com
   - +.tryheart.jp
   - +.tsctv.net
   - +.tsdr.uspto.gov
@@ -6118,6 +6149,7 @@ payload:
   - +.untraceable.us
   - +.unwire.hk
   - +.uocn.org
+  - +.up.audio
   - +.upbit.com
   - +.upcitemdb.com
   - +.updates.tdesktop.com
@@ -6197,6 +6229,7 @@ payload:
   - +.van698.com
   - +.vanemu.cn
   - +.vanilla-jp.com
+  - +.vanityfair.com
   - +.vanpeople.com
   - +.vansky.com
   - +.vaticannews.va
@@ -6237,6 +6270,7 @@ payload:
   - +.video.aol.com
   - +.video.foxbusiness.com
   - +.videobam.com
+  - +.videodelivery.net
   - +.videodetective.com
   - +.videomega.tv
   - +.videomo.com
@@ -6932,8 +6966,5 @@ payload:
   - ees.elsevier.com
   - help.ubnt.com
   - news.ycombinator.com
-  - sglong.wechat.com
-  - sgminorshort.wechat.com
-  - sgshort.wechat.com
   - store.ui.com.cn
   - wego.here.com
