@@ -1,5 +1,5 @@
-# 更新时间: 2025-12-22 20:18:57（北京时间）
-# 规则数量: 7012
+# 更新时间: 2026-01-05 08:52:52（北京时间）
+# 规则数量: 7043
 DOMAIN,api.waqi.info
 DOMAIN,aqi.aqicn.org
 DOMAIN,ccmdl.adobe.com
@@ -8,9 +8,6 @@ DOMAIN,community.oneplus.com
 DOMAIN,ees.elsevier.com
 DOMAIN,help.ubnt.com
 DOMAIN,news.ycombinator.com
-DOMAIN,sglong.wechat.com
-DOMAIN,sgminorshort.wechat.com
-DOMAIN,sgshort.wechat.com
 DOMAIN,store.ui.com.cn
 DOMAIN,wego.here.com
 DOMAIN-KEYWORD,appledaily
@@ -295,6 +292,7 @@ DOMAIN-SUFFIX,alicejapan.co.jp
 DOMAIN-SUFFIX,aliengu.com
 DOMAIN-SUFFIX,alive.bar
 DOMAIN-SUFFIX,aljazeera.com
+DOMAIN-SUFFIX,aljazeera.net
 DOMAIN-SUFFIX,alkasir.com
 DOMAIN-SUFFIX,all4mom.org
 DOMAIN-SUFFIX,allcoin.com
@@ -1085,6 +1083,7 @@ DOMAIN-SUFFIX,centralnation.com
 DOMAIN-SUFFIX,centurys.net
 DOMAIN-SUFFIX,certificate-transparency.org
 DOMAIN-SUFFIX,certificate.revocationcheck.com
+DOMAIN-SUFFIX,cf-ipfs.com
 DOMAIN-SUFFIX,cfhks.org.hk
 DOMAIN-SUFFIX,cfos.de
 DOMAIN-SUFFIX,cfr.org
@@ -1254,8 +1253,12 @@ DOMAIN-SUFFIX,cloudflare-ipfs.com
 DOMAIN-SUFFIX,cloudflare.com
 DOMAIN-SUFFIX,cloudflare.dev
 DOMAIN-SUFFIX,cloudflareaccess.com
+DOMAIN-SUFFIX,cloudflareapps.com
+DOMAIN-SUFFIX,cloudflarepreview.com
 DOMAIN-SUFFIX,cloudflareresolve.com
 DOMAIN-SUFFIX,cloudflarestatus.com
+DOMAIN-SUFFIX,cloudflarestorage.com
+DOMAIN-SUFFIX,cloudflaretunnel.com
 DOMAIN-SUFFIX,cloudfront.net
 DOMAIN-SUFFIX,cloudfunctions.net
 DOMAIN-SUFFIX,cloudgarage.jp
@@ -1526,7 +1529,6 @@ DOMAIN-SUFFIX,demdex.net
 DOMAIN-SUFFIX,demo.unlock-music.dev
 DOMAIN-SUFFIX,demosisto.hk
 DOMAIN-SUFFIX,deno.com
-DOMAIN-SUFFIX,deno.dev
 DOMAIN-SUFFIX,depositphotos.com
 DOMAIN-SUFFIX,desc.se
 DOMAIN-SUFFIX,desipro.de
@@ -1621,7 +1623,6 @@ DOMAIN-SUFFIX,doc.new
 DOMAIN-SUFFIX,docker.com
 DOMAIN-SUFFIX,docker.io
 DOMAIN-SUFFIX,dockerstatus.com
-DOMAIN-SUFFIX,docs.deno.com
 DOMAIN-SUFFIX,docs.new
 DOMAIN-SUFFIX,doctorvoice.org
 DOMAIN-SUFFIX,documentingreality.com
@@ -2324,6 +2325,7 @@ DOMAIN-SUFFIX,gfsale.com
 DOMAIN-SUFFIX,gfw.press
 DOMAIN-SUFFIX,gfw.report
 DOMAIN-SUFFIX,gfwatch.org
+DOMAIN-SUFFIX,gfwbao.com
 DOMAIN-SUFFIX,gg
 DOMAIN-SUFFIX,ggpht.com
 DOMAIN-SUFFIX,ggssl.com
@@ -2675,6 +2677,7 @@ DOMAIN-SUFFIX,gov.tw
 DOMAIN-SUFFIX,gqhongkong.com
 DOMAIN-SUFFIX,gr8domain.biz
 DOMAIN-SUFFIX,gr8name.biz
+DOMAIN-SUFFIX,grafana.com
 DOMAIN-SUFFIX,grammaly.com
 DOMAIN-SUFFIX,grammarly.com
 DOMAIN-SUFFIX,grammarly.io
@@ -3222,6 +3225,7 @@ DOMAIN-SUFFIX,ismalltits.com
 DOMAIN-SUFFIX,ismprofessional.net
 DOMAIN-SUFFIX,isohunt.com
 DOMAIN-SUFFIX,israbox.com
+DOMAIN-SUFFIX,issues.chromium.org
 DOMAIN-SUFFIX,issuu.com
 DOMAIN-SUFFIX,istars.co.nz
 DOMAIN-SUFFIX,istatmenus.app
@@ -3650,6 +3654,7 @@ DOMAIN-SUFFIX,lookpic.com
 DOMAIN-SUFFIX,looktoronto.com
 DOMAIN-SUFFIX,lotsawahouse.org
 DOMAIN-SUFFIX,lotuslight.org.tw
+DOMAIN-SUFFIX,lovart.ai
 DOMAIN-SUFFIX,lovetvshow.com
 DOMAIN-SUFFIX,lpsg.com
 DOMAIN-SUFFIX,lrfz.com
@@ -4099,6 +4104,7 @@ DOMAIN-SUFFIX,nekoslovakia.net
 DOMAIN-SUFFIX,nemesis2.qx.net
 DOMAIN-SUFFIX,neo-miracle.com
 DOMAIN-SUFFIX,neowin.net
+DOMAIN-SUFFIX,nephobox.com
 DOMAIN-SUFFIX,nest.com
 DOMAIN-SUFFIX,netalert.me
 DOMAIN-SUFFIX,netbirds.com
@@ -4457,6 +4463,7 @@ DOMAIN-SUFFIX,paddleapi.com
 DOMAIN-SUFFIX,padmanet.com
 DOMAIN-SUFFIX,page.link
 DOMAIN-SUFFIX,page2rss.com
+DOMAIN-SUFFIX,pages.dev
 DOMAIN-SUFFIX,pagesix.com
 DOMAIN-SUFFIX,paimon.moe
 DOMAIN-SUFFIX,palacemoon.com
@@ -4512,6 +4519,7 @@ DOMAIN-SUFFIX,pdetails.com
 DOMAIN-SUFFIX,pdfexpert.com
 DOMAIN-SUFFIX,pdproxy.com
 DOMAIN-SUFFIX,pds.nasa.gov
+DOMAIN-SUFFIX,pdst.fm
 DOMAIN-SUFFIX,pe
 DOMAIN-SUFFIX,peace.ca
 DOMAIN-SUFFIX,peacefire.org
@@ -4575,7 +4583,23 @@ DOMAIN-SUFFIX,ping0.cc
 DOMAIN-SUFFIX,pinimg.com
 DOMAIN-SUFFIX,pinkrod.com
 DOMAIN-SUFFIX,pinoy-n.com
+DOMAIN-SUFFIX,pinterest.at
+DOMAIN-SUFFIX,pinterest.ca
+DOMAIN-SUFFIX,pinterest.cl
+DOMAIN-SUFFIX,pinterest.co.uk
 DOMAIN-SUFFIX,pinterest.com
+DOMAIN-SUFFIX,pinterest.com.au
+DOMAIN-SUFFIX,pinterest.com.mx
+DOMAIN-SUFFIX,pinterest.de
+DOMAIN-SUFFIX,pinterest.es
+DOMAIN-SUFFIX,pinterest.fr
+DOMAIN-SUFFIX,pinterest.ie
+DOMAIN-SUFFIX,pinterest.it
+DOMAIN-SUFFIX,pinterest.jp
+DOMAIN-SUFFIX,pinterest.nz
+DOMAIN-SUFFIX,pinterest.ph
+DOMAIN-SUFFIX,pinterest.pt
+DOMAIN-SUFFIX,pinterest.se
 DOMAIN-SUFFIX,pioneer-worker.forums-free.com
 DOMAIN-SUFFIX,pipii.tv
 DOMAIN-SUFFIX,piraattilahti.org
@@ -4894,6 +4918,7 @@ DOMAIN-SUFFIX,redtube.com
 DOMAIN-SUFFIX,redtubepremium.com
 DOMAIN-SUFFIX,referer.us
 DOMAIN-SUFFIX,reflectivecode.com
+DOMAIN-SUFFIX,regex101.com
 DOMAIN-SUFFIX,reimu.net
 DOMAIN-SUFFIX,relaxbbs.com
 DOMAIN-SUFFIX,relay.com.tw
@@ -5411,6 +5436,7 @@ DOMAIN-SUFFIX,statuspage.io
 DOMAIN-SUFFIX,stboy.net
 DOMAIN-SUFFIX,stc.com.sa
 DOMAIN-SUFFIX,steamcommunity.com
+DOMAIN-SUFFIX,steamladder.com
 DOMAIN-SUFFIX,steamstatic.com
 DOMAIN-SUFFIX,steel-storm.com
 DOMAIN-SUFFIX,steemit.com
@@ -5450,6 +5476,7 @@ DOMAIN-SUFFIX,strongleakstest.com
 DOMAIN-SUFFIX,strongvpn.com
 DOMAIN-SUFFIX,strongwindpress.com
 DOMAIN-SUFFIX,studentsforafreetibet.org
+DOMAIN-SUFFIX,studio
 DOMAIN-SUFFIX,stumbleupon.com
 DOMAIN-SUFFIX,stupidvideos.com
 DOMAIN-SUFFIX,su
@@ -5921,6 +5948,7 @@ DOMAIN-SUFFIX,trustpilot.net
 DOMAIN-SUFFIX,trustwallet.com
 DOMAIN-SUFFIX,truthsocial.com
 DOMAIN-SUFFIX,truveo.com
+DOMAIN-SUFFIX,trycloudflare.com
 DOMAIN-SUFFIX,tryheart.jp
 DOMAIN-SUFFIX,tsctv.net
 DOMAIN-SUFFIX,tsdr.uspto.gov
@@ -6146,6 +6174,7 @@ DOMAIN-SUFFIX,unstable.icu
 DOMAIN-SUFFIX,untraceable.us
 DOMAIN-SUFFIX,unwire.hk
 DOMAIN-SUFFIX,uocn.org
+DOMAIN-SUFFIX,up.audio
 DOMAIN-SUFFIX,upbit.com
 DOMAIN-SUFFIX,upcitemdb.com
 DOMAIN-SUFFIX,updates.tdesktop.com
@@ -6225,6 +6254,7 @@ DOMAIN-SUFFIX,van001.com
 DOMAIN-SUFFIX,van698.com
 DOMAIN-SUFFIX,vanemu.cn
 DOMAIN-SUFFIX,vanilla-jp.com
+DOMAIN-SUFFIX,vanityfair.com
 DOMAIN-SUFFIX,vanpeople.com
 DOMAIN-SUFFIX,vansky.com
 DOMAIN-SUFFIX,vaticannews.va
@@ -6265,6 +6295,7 @@ DOMAIN-SUFFIX,video.aol.co.uk
 DOMAIN-SUFFIX,video.aol.com
 DOMAIN-SUFFIX,video.foxbusiness.com
 DOMAIN-SUFFIX,videobam.com
+DOMAIN-SUFFIX,videodelivery.net
 DOMAIN-SUFFIX,videodetective.com
 DOMAIN-SUFFIX,videomega.tv
 DOMAIN-SUFFIX,videomo.com

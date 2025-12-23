@@ -1,5 +1,5 @@
-# 更新时间: 2025-12-22 20:18:57（北京时间）
-# 规则数量: 218
+# 更新时间: 2026-01-05 08:52:51（北京时间）
+# 规则数量: 217
 DOMAIN,b.c2r.ts.cdn.office.net
 DOMAIN,bg.v4.a.dl.ws.microsoft.com
 DOMAIN,bg4.v4.a.dl.ws.microsoft.com
@@ -130,7 +130,6 @@ DOMAIN-SUFFIX,fs.microsoft.com
 DOMAIN-SUFFIX,hdinsightservices.cn
 DOMAIN-SUFFIX,itacademy.download.prss.microsoft.com
 DOMAIN-SUFFIX,itacademyuat.download.prss.microsoft.com
-DOMAIN-SUFFIX,learn.microsoft.com
 DOMAIN-SUFFIX,lex.download.prss.microsoft.com
 DOMAIN-SUFFIX,lexuat.download.prss.microsoft.com
 DOMAIN-SUFFIX,lync.cn
