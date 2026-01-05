@@ -1,5 +1,5 @@
-# 更新时间: 2026-01-05 08:52:49（北京时间）
-# 规则数量: 464
+# 更新时间: 2026-01-08 08:47:20（北京时间）
+# 规则数量: 466
 DOMAIN,a1.mzstatic.com
 DOMAIN,a2.mzstatic.com
 DOMAIN,a3.mzstatic.com
@@ -443,6 +443,8 @@ DOMAIN-SUFFIX,swcdn.apple.com
 DOMAIN-SUFFIX,swcdn.g.aaplimg.com
 DOMAIN-SUFFIX,swdist.apple.com
 DOMAIN-SUFFIX,swdist.apple.com.akadns.net
+DOMAIN-SUFFIX,swiftui.cn
+DOMAIN-SUFFIX,swiftui.com.cn
 DOMAIN-SUFFIX,swscan-cdn.apple.com.akadns.net
 DOMAIN-SUFFIX,swscan.apple.com
 DOMAIN-SUFFIX,sylvan.apple.com

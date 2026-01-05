@@ -1,5 +1,5 @@
-# 更新时间: 2026-01-05 08:52:33（北京时间）
-# 规则数量: 4192
+# 更新时间: 2026-01-08 08:47:05（北京时间）
+# 规则数量: 4199
 payload:
   - +.1a-1791.com
   - +.1passwordusercontent.ca
@@ -1486,6 +1486,7 @@ payload:
   - before.good-apps.co
   - beta.eslint-react.xyz
   - bhl.scpwikicn.com
+  - biomejs.dev
   - blacklist.tampermonkey.net
   - blade-public-static.blade-group.com
   - blob.jortage.com
@@ -2230,6 +2231,7 @@ payload:
   - consumersite-assets.trustpilot.net
   - consumersiteimages.trustpilot.net
   - content-a.strava.com
+  - content-cdn.svc.ui.com
   - content-management-files.canva.com
   - content-prod-live.cert.starbucks.com
   - content.any.run
@@ -2621,6 +2623,7 @@ payload:
   - image.mux.com
   - image.nmb.best
   - image.p-c2-x.abema-tv.com
+  - image.pitchbook.com
   - image.prntscr.com
   - image.send.grammarly.com
   - image.ship.vercel.com
@@ -3017,6 +3020,8 @@ payload:
   - media-cdn.atlassian.com
   - media-cdn.comfy.social
   - media-cdn.epicgames.com
+  - media-cdn.factba.se
+  - media-cdn.rollcall.com
   - media-central.indianexpress.com
   - media-cms.ayoba.me
   - media-cms.onesignal.com
@@ -3042,6 +3047,7 @@ payload:
   - media.ettoday.net
   - media.evolv.ai
   - media.fc2.com
+  - media.fidoalliance.org
   - media.flaticon.com
   - media.fs.com
   - media.gamestop.com
@@ -3675,6 +3681,7 @@ payload:
   - static.comicbz.com
   - static.community.workday.com
   - static.convertio.co
+  - static.corespeed.io
   - static.corp.google.com
   - static.crunchyroll.com
   - static.crypto.com
@@ -4135,7 +4142,7 @@ payload:
   - webobjects2.cdw.com
   - webp.frostming.com
   - website-cdn.ipinfo.io
-  - website-media
+  - website-media.deel.com
   - website-prod.cache.wpscdn.com
   - webstatic.chargebee.com
   - widget.automizely.com

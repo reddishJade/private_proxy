@@ -1,5 +1,5 @@
-# 更新时间: 2026-01-05 08:52:32（北京时间）
-# 规则数量: 464
+# 更新时间: 2026-01-08 08:47:04（北京时间）
+# 规则数量: 466
 payload:
   - +.a1.mzstatic.com
   - +.a2.mzstatic.com
@@ -216,6 +216,8 @@ payload:
   - +.swcdn.g.aaplimg.com
   - +.swdist.apple.com
   - +.swdist.apple.com.akadns.net
+  - +.swiftui.cn
+  - +.swiftui.com.cn
   - +.swscan-cdn.apple.com.akadns.net
   - +.swscan.apple.com
   - +.sylvan.apple.com

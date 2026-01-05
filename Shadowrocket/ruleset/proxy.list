@@ -1,5 +1,5 @@
-# 更新时间: 2026-01-05 08:52:52（北京时间）
-# 规则数量: 7043
+# 更新时间: 2026-01-08 08:47:22（北京时间）
+# 规则数量: 7047
 DOMAIN,api.waqi.info
 DOMAIN,aqi.aqicn.org
 DOMAIN,ccmdl.adobe.com
@@ -256,6 +256,7 @@ DOMAIN-SUFFIX,agro.hk
 DOMAIN-SUFFIX,ai
 DOMAIN-SUFFIX,ai.binwang.me
 DOMAIN-SUFFIX,ai.dev
+DOMAIN-SUFFIX,ai.studio
 DOMAIN-SUFFIX,aicoin.com
 DOMAIN-SUFFIX,aimoon.com
 DOMAIN-SUFFIX,aiosearch.com
@@ -1494,6 +1495,7 @@ DOMAIN-SUFFIX,dawangidc.com
 DOMAIN-SUFFIX,daxa.cn
 DOMAIN-SUFFIX,daylife.com
 DOMAIN-SUFFIX,dayone.me
+DOMAIN-SUFFIX,dazn.com
 DOMAIN-SUFFIX,db.tt
 DOMAIN-SUFFIX,dbgjd.com
 DOMAIN-SUFFIX,dcard.tw
@@ -3225,7 +3227,6 @@ DOMAIN-SUFFIX,ismalltits.com
 DOMAIN-SUFFIX,ismprofessional.net
 DOMAIN-SUFFIX,isohunt.com
 DOMAIN-SUFFIX,israbox.com
-DOMAIN-SUFFIX,issues.chromium.org
 DOMAIN-SUFFIX,issuu.com
 DOMAIN-SUFFIX,istars.co.nz
 DOMAIN-SUFFIX,istatmenus.app
@@ -4387,6 +4388,8 @@ DOMAIN-SUFFIX,onmypc.org
 DOMAIN-SUFFIX,onthehunt.com
 DOMAIN-SUFFIX,ontrac.com
 DOMAIN-SUFFIX,oojj.de
+DOMAIN-SUFFIX,ooni.io
+DOMAIN-SUFFIX,ooni.org
 DOMAIN-SUFFIX,ooyala.com
 DOMAIN-SUFFIX,open.com.hk
 DOMAIN-SUFFIX,open.firstory.me
@@ -6704,6 +6707,7 @@ DOMAIN-SUFFIX,xbookcn.com
 DOMAIN-SUFFIX,xbooru.com
 DOMAIN-SUFFIX,xbtce.com
 DOMAIN-SUFFIX,xcafe.in
+DOMAIN-SUFFIX,xcancel.com
 DOMAIN-SUFFIX,xchina.co
 DOMAIN-SUFFIX,xcity.jp
 DOMAIN-SUFFIX,xclient.info

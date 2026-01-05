@@ -1,5 +1,5 @@
-# 更新时间: 2026-01-05 08:52:41（北京时间）
-# 规则数量: 6967
+# 更新时间: 2026-01-08 08:47:13（北京时间）
+# 规则数量: 6971
 payload:
   - +.000webhost.com
   - +.030buy.com
@@ -231,6 +231,7 @@ payload:
   - +.ai
   - +.ai.binwang.me
   - +.ai.dev
+  - +.ai.studio
   - +.aicoin.com
   - +.aimoon.com
   - +.aiosearch.com
@@ -1469,6 +1470,7 @@ payload:
   - +.daxa.cn
   - +.daylife.com
   - +.dayone.me
+  - +.dazn.com
   - +.db.tt
   - +.dbgjd.com
   - +.dcard.tw
@@ -3200,7 +3202,6 @@ payload:
   - +.ismprofessional.net
   - +.isohunt.com
   - +.israbox.com
-  - +.issues.chromium.org
   - +.issuu.com
   - +.istars.co.nz
   - +.istatmenus.app
@@ -4362,6 +4363,8 @@ payload:
   - +.onthehunt.com
   - +.ontrac.com
   - +.oojj.de
+  - +.ooni.io
+  - +.ooni.org
   - +.ooyala.com
   - +.open.com.hk
   - +.open.firstory.me
@@ -6679,6 +6682,7 @@ payload:
   - +.xbooru.com
   - +.xbtce.com
   - +.xcafe.in
+  - +.xcancel.com
   - +.xchina.co
   - +.xcity.jp
   - +.xclient.info
