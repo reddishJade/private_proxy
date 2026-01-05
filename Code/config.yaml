@@ -117,11 +117,6 @@
       url: "https://cdn.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/Special.yaml"
       format: yaml
       behavior: classical
-    DustinWin_trackerslist:
-      type: http
-      url: "https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/trackerslist.list"
-      format: text
-      behavior: domain
     DustinWin_applications:
       type: http
       url: "https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/applications.list"
@@ -137,9 +132,9 @@
       url: "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@refs/heads/meta/geo/geosite/category-ntp.yaml"
       format: yaml
       behavior: domain
-    meta_tracker:
+    meta_category-ntp@cn:
       type: http
-      url: "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@refs/heads/meta/geo/geosite/tracker.yaml"
+      url: "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@refs/heads/meta/geo/geosite/category-ntp@cn.yaml"
       format: yaml
       behavior: domain
 
