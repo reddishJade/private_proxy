@@ -1,5 +1,5 @@
-# 更新时间: 2026-01-08 08:47:08（北京时间）
-# 规则数量: 1887
+# 更新时间: 2026-01-10 20:15:56（北京时间）
+# 规则数量: 1888
 payload:
   - +.1fichier.com
   - +.1fichier.info
@@ -195,6 +195,7 @@ payload:
   - +.public.ecr.aws
   - +.pypi.org
   - +.pythonhosted.org
+  - +.r2.daocloud.vip
   - +.r2.dev
   - +.releases.hashicorp.com
   - +.repo.anaconda.com

@@ -1,5 +1,5 @@
-# 更新时间: 2026-01-08 08:47:13（北京时间）
-# 规则数量: 6971
+# 更新时间: 2026-01-10 20:16:00（北京时间）
+# 规则数量: 6970
 payload:
   - +.000webhost.com
   - +.030buy.com
@@ -164,7 +164,6 @@ payload:
   - +.abitno.linpie.com
   - +.ablwang.com
   - +.aboluowang.com
-  - +.about.gitlab.com
   - +.about.me
   - +.abpchina.org
   - +.abplive.com

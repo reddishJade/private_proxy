@@ -1,5 +1,5 @@
-# 更新时间: 2026-01-08 08:47:19（北京时间）
-# 规则数量: 127
+# 更新时间: 2026-01-10 20:16:06（北京时间）
+# 规则数量: 128
 DOMAIN,ai.google.dev
 DOMAIN,alkalicore-pa.clients6.google.com
 DOMAIN,alkalimakersuite-pa.clients6.google.com
@@ -97,6 +97,7 @@ DOMAIN-SUFFIX,jules.google
 DOMAIN-SUFFIX,jules.google.com
 DOMAIN-SUFFIX,kiro.dev
 DOMAIN-SUFFIX,labs.google
+DOMAIN-SUFFIX,labs.google.com
 DOMAIN-SUFFIX,makersuite.google.com
 DOMAIN-SUFFIX,marscode.com
 DOMAIN-SUFFIX,meta.ai

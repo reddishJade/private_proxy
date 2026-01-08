@@ -1,5 +1,5 @@
-# 更新时间: 2026-01-08 08:47:03（北京时间）
-# 规则数量: 126
+# 更新时间: 2026-01-10 20:15:53（北京时间）
+# 规则数量: 127
 payload:
   - +.ai.com
   - +.ai.studio
@@ -77,6 +77,7 @@ payload:
   - +.jules.google.com
   - +.kiro.dev
   - +.labs.google
+  - +.labs.google.com
   - +.makersuite.google.com
   - +.marscode.com
   - +.meta.ai

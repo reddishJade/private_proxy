@@ -1,5 +1,5 @@
-# 更新时间: 2026-01-08 08:47:09（北京时间）
-# 规则数量: 285
+# 更新时间: 2026-01-10 20:15:58（北京时间）
+# 规则数量: 286
 payload:
   - +.17roco.com
   - +.3304399.com
@@ -197,6 +197,7 @@ payload:
   - +.supercellcommunity.cn
   - +.supercellsupport.cn
   - +.syxlgame.com
+  - +.tapapks.com
   - +.tapimg.com
   - +.tapimg.net
   - +.taptap.cn
