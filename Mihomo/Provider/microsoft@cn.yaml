@@ -1,5 +1,5 @@
-# 更新时间: 2026-01-29 08:55:57（北京时间）
-# 规则数量: 217
+# 更新时间: 2026-02-21 08:55:33（北京时间）
+# 规则数量: 219
 payload:
   - +.21vbc.com
   - +.21vbluecloud.com
@@ -68,6 +68,7 @@ payload:
   - +.bing.com.cn
   - +.blueaggrestore.com
   - +.bluecloudprod.com
+  - +.browser.events.data.msn.cn
   - +.cbdstest.download.prss.microsoft.com
   - +.cegid-cloud.cn
   - +.chinacloud-mobile.cn
@@ -205,6 +206,7 @@ payload:
   - oemsoc.download.prss.microsoft.com
   - officecdn.microsoft.com
   - res-1.cdn.office.net
+  - res-2.cdn.office.net
   - res-h3.public.cdn.office.net
   - res.cdn.office.net
   - sdx.microsoft.com

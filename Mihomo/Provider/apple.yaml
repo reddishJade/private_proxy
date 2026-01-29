@@ -1,5 +1,5 @@
-# 更新时间: 2026-01-29 08:55:50（北京时间）
-# 规则数量: 1779
+# 更新时间: 2026-02-21 08:55:28（北京时间）
+# 规则数量: 1780
 payload:
   - +.100beatscheap.com
   - +.12diasdepresentesdeitunes.com
@@ -1554,6 +1554,7 @@ payload:
   - amp-api.apps.apple.com
   - amp-api.media.apple.com
   - amp-api.music.apple.com
+  - aod-ssl.itunes.apple.com
   - aod.itunes.apple.com
   - api-edge.apps.apple.com
   - app-site-association.cdn-apple.com
