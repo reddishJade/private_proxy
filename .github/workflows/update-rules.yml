@@ -1,0 +1,114 @@
+name: update rules
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python 3.10
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: |
+          pip install -r Code/requirements.txt
+
+      - name: Run mihomo script
+        run: |
+          cd Code/
+          python ./rule_merger.py ./config.yaml
+
+      - name: Convert YAML to MRS format
+        run: |
+          set -euo pipefail
+          shopt -s nullglob
+
+          # Make mihomo binary executable
+          chmod +x .github/bin/mihomo
+
+          # Convert all YAML files to MRS format
+          cd Mihomo/Provider
+          echo "Starting YAML to MRS conversion..."
+
+          for yaml_file in *.yaml; do
+            if [[ -f "$yaml_file" ]]; then
+              filename=$(basename "$yaml_file" .yaml)
+              echo "Converting $yaml_file to ${filename}.mrs"
+
+              if [[ "$filename" == *"@ip"* ]]; then
+                behavior="ipcidr"
+              else
+                behavior="domain"
+              fi
+
+              rm -f "${filename}.mrs"
+              ../../.github/bin/mihomo convert-ruleset "$behavior" yaml "$yaml_file" "${filename}.mrs"
+
+              if [[ ! -s "${filename}.mrs" ]]; then
+                echo "Error: ${filename}.mrs was not generated."
+                exit 1
+              fi
+
+              echo "? Successfully converted $yaml_file to ${filename}.mrs"
+            fi
+          done
+
+          echo "MRS conversion completed!"
+
+          yaml_count=$(ls -1 *.yaml 2>/dev/null | wc -l)
+          mrs_count=$(ls -1 *.mrs 2>/dev/null | wc -l)
+          echo "Conversion stats: $yaml_count YAML files -> $mrs_count MRS files"
+      - name: Check for rule changes
+        id: checker
+        run: python Code/core/checker.py Mihomo/Provider
+
+      - name: Run shadowrocket script
+        run: |
+          cd Code/
+          python ./rule_merger.py ./rocket.yaml
+
+      - name: Get current time
+        id: time
+        run: |
+          echo "TIME=$(TZ='Asia/Shanghai' date +'%Y-%m-%d %H:%M:%S')" >> $GITHUB_OUTPUT
+
+      - name: Check if last commit is from bot
+        id: last_commit
+        run: |
+          LAST_COMMIT_AUTHOR=$(git log -1 --pretty=format:'%an')
+          if [[ "$LAST_COMMIT_AUTHOR" == *"github-actions"* ]] || [[ "$LAST_COMMIT_AUTHOR" == *"reddishJade"* && $(git log -1 --pretty=format:'%s') == *"🚀 Update at"* ]]; then
+            echo "is_bot_commit=true" >> $GITHUB_OUTPUT
+          else
+            echo "is_bot_commit=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit Changes
+        if: steps.checker.outputs.has_changed == 'true'
+        id: commit
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 🚀 Update at ${{ steps.time.outputs.TIME }}
+          branch: main
+          skip_dirty_check: true
+          skip_fetch: true
+          push_options: "--force"
+          commit_options: "${{ steps.last_commit.outputs.is_bot_commit == 'true' && '--amend --no-edit' || '--allow-empty' }}"
+
+      - name: Delete Workflow Runs
+        uses: Mattraks/delete-workflow-runs@v2
+        with:
+          token: ${{ github.token }}
+          repository: ${{ github.repository }}
+          retain_days: 1
+          keep_minimum_runs: 1
+

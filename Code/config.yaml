@@ -1,0 +1,399 @@
+- path: output/ai@cn.yaml
+  format: yaml
+  behavior: domain
+  upstream:
+    meta_category_ai_cn:
+      type: http
+      url: "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/category-ai-cn.yaml"
+      format: yaml
+      behavior: domain
+    local_ai_cn:
+      type: file
+      path: "local/ai_cn.yaml"
+      format: yaml
+      behavior: domain
+
+- path: output/ai.yaml
+  format: yaml
+  behavior: domain
+  upstream:
+    dler_ai:
+      type: http
+      url: "https://cdn.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/AI%20Suite.yaml"
+      format: yaml
+      behavior: domain
+    meta_category_ai_!cn:
+      type: http
+      url: "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/category-ai-!cn.yaml"
+      format: yaml
+      behavior: domain
+    local_ai:
+      type: file
+      path: "local/ai.yaml"
+      format: yaml
+      behavior: domain
+
+- path: output/apple@cn.yaml
+  format: yaml
+  behavior: domain
+  upstream:
+    skk_apple_cn:
+      type: http
+      url: "https://ruleset.skk.moe/Clash/non_ip/apple_cn.txt"
+      format: txt
+      behavior: classical
+    skk_apple_cdn:
+      type: http
+      url: "https://ruleset.skk.moe/Clash/domainset/apple_cdn.txt"
+      format: txt
+      behavior: domain
+    skk_apple_cdn_non_ip:
+      type: http
+      url: "https://ruleset.skk.moe/Clash/non_ip/apple_cdn.txt"
+      format: txt
+      behavior: classical
+    DustinWin_apple_cn:
+      type: http
+      url: "https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/apple-cn.list"
+      format: text
+      behavior: domain
+    meta_apple_cn:
+      type: http
+      url: "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/apple-cn.yaml"
+      format: yaml
+      behavior: domain
+
+- path: output/apple.yaml
+  format: yaml
+  behavior: domain
+  upstream:
+    skk_apple_services:
+      type: http
+      url: "https://ruleset.skk.moe/Clash/non_ip/apple_services.txt"
+      format: txt
+      behavior: classical
+    meta_apple:
+      type: http
+      url: "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/apple.yaml"
+      format: yaml
+      behavior: domain
+
+- path: output/cdn.yaml
+  format: yaml
+  behavior: domain
+  upstream:
+    skk_cdn_domainset:
+      type: http
+      url: "https://ruleset.skk.moe/Clash/domainset/cdn.txt"
+      format: txt
+      behavior: domain
+    skk_cdn_non_ip:
+      type: http
+      url: "https://ruleset.skk.moe/Clash/non_ip/cdn.txt"
+      format: txt
+      behavior: classical
+
+- path: output/cdn@ip.yaml
+  format: yaml
+  behavior: ipcidr
+  upstream:
+    skk_cdn_ip:
+      type: http
+      url: "https://ruleset.skk.moe/Clash/ip/cdn.txt"
+      format: txt
+      behavior: ipcidr
+
+- path: output/direct.yaml
+  format: yaml
+  behavior: classical
+  upstream:
+    skk_direct:
+      type: http
+      url: "https://ruleset.skk.moe/Clash/non_ip/direct.txt"
+      format: txt
+      behavior: classical
+    # dler_specical:
+    #   type: http
+    #   url: "https://cdn.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/Special.yaml"
+    #   format: yaml
+    #   behavior: classical
+    meta_connectivity-check:
+      type: http
+      url: "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@refs/heads/meta/geo/geosite/connectivity-check.yaml"
+      format: yaml
+      behavior: domain
+
+- path: output/domestic.yaml
+  format: yaml
+  behavior: domain
+  upstream:
+    skk_domestic:
+      type: http
+      url: "https://ruleset.skk.moe/Clash/non_ip/domestic.txt"
+      format: txt
+      behavior: classical
+    dler_dom:
+      type: http
+      url: "https://cdn.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/Domestic.yaml"
+      format: yaml
+      behavior: classical
+
+- path: output/domestic@ip.yaml
+  format: yaml
+  behavior: ipcidr
+  upstream:
+    skk_china_ip:
+      type: http
+      url: "https://ruleset.skk.moe/Clash/ip/china_ip.txt"
+      format: txt
+      behavior: ipcidr
+    dler_dom_ip:
+      type: http
+      url: "https://cdn.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/Domestic%20IPs.yaml"
+      format: yaml
+      behavior: ipcidr
+    meta_cn_ip:
+      type: http
+      url: "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@refs/heads/meta/geo/geoip/cn.yaml"
+      format: yaml
+      behavior: ipcidr
+
+- path: output/download.yaml
+  format: yaml
+  behavior: domain
+  upstream:
+    skk_download_domainset:
+      type: http
+      url: "https://ruleset.skk.moe/Clash/domainset/download.txt"
+      format: txt
+      behavior: domain
+
+- path: output/download@ip.yaml
+  format: yaml
+  behavior: ipcidr
+  upstream:
+    skk_download_ip:
+      type: http
+      url: "https://ruleset.skk.moe/Clash/ip/download.txt"
+      format: txt
+      behavior: ipcidr
+
+- path: output/fakeip-filter.yaml
+  format: yaml
+  behavior: domain
+  upstream:
+    fake_ip_filter:
+      type: http
+      url: "https://cdn.jsdelivr.net/gh/juewuy/ShellCrash@dev/public/fake_ip_filter.list"
+      format: text
+      behavior: domain
+    DustinWin-fakeip-filter:
+      type: http
+      url: "https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/fakeip-filter.list"
+      format: txt
+      behavior: domain
+    meta_connectivity-check:
+      type: http
+      url: "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@refs/heads/meta/geo/geosite/connectivity-check.yaml"
+      format: yaml
+      behavior: domain
+
+- path: output/games@cn.yaml
+  format: yaml
+  behavior: domain
+  upstream:
+    DustinWin_games_cn:
+      type: http
+      url: "https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/games-cn.list"
+      format: text
+      behavior: domain
+
+- path: output/games.yaml
+  format: yaml
+  behavior: domain
+  upstream:
+    DustinWin_games:
+      type: http
+      url: "https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/games.list"
+      format: text
+      behavior: domain
+
+- path: output/games@ip.yaml
+  format: yaml
+  behavior: ipcidr
+  upstream:
+    DustinWin_games:
+      type: http
+      url: "https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/gamesip.list"
+      format: text
+      behavior: ipcidr
+
+- path: output/microsoft.yaml
+  format: yaml
+  behavior: domain
+  upstream:
+    Microsoft:
+      type: http
+      url: "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Microsoft/Microsoft.yaml"
+      format: yaml
+      behavior: classical
+    meta_microsoft:
+      type: http
+      url: "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/microsoft.yaml"
+      format: yaml
+      behavior: domain
+
+- path: output/microsoft@cn.yaml
+  format: yaml
+  behavior: domain
+  upstream:
+    DustinWin_microsoft_cn:
+      type: http
+      url: "https://cdn.jsdelivr.net/gh/DustinWin/ruleset_geodata@refs/heads/mihomo-ruleset/microsoft-cn.list"
+      format: text
+      behavior: domain
+    skk_microsoft_cdn:
+      type: http
+      url: "https://ruleset.skk.moe/Clash/non_ip/microsoft_cdn.txt"
+      format: txt
+      behavior: classical
+    meta_microsoft_cn:
+      type: http
+      url: "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/microsoft@cn.yaml"
+      format: yaml
+      behavior: domain
+
+- path: output/private.yaml
+  format: yaml
+  behavior: domain
+  upstream:
+    lan:
+      type: http
+      url: "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Lan/Lan.yaml"
+      format: yaml
+      behavior: classical
+    meta_private:
+      type: http
+      url: "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/private.yaml"
+      format: yaml
+      behavior: domain
+    DustinWin_private:
+      type: http
+      url: "https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/private.list"
+      format: txt
+      behavior: domain
+
+- path: output/private@ip.yaml
+  format: yaml
+  behavior: ipcidr
+  upstream:
+    lan_ip:
+      type: http
+      url: "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Lan/Lan.yaml"
+      format: yaml
+      behavior: classical
+    meta_private_ip:
+      type: http
+      url: "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geoip/private.yaml"
+      format: yaml
+      behavior: ipcidr
+
+- path: output/proxy.yaml
+  format: yaml
+  behavior: domain
+  upstream:
+    skk_global:
+      type: http
+      url: "https://ruleset.skk.moe/Clash/non_ip/global.txt"
+      format: txt
+      behavior: classical
+    dler_proxy:
+      type: http
+      url: "https://cdn.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/Proxy.yaml"
+      format: yaml
+      behavior: classical
+    gfw:
+      type: http
+      url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@refs/heads/meta/geo/geosite/gfw.yaml"
+      format: yaml
+      behavior: domain
+
+- path: output/reject.yaml
+  format: yaml
+  behavior: domain
+  upstream:
+    AWAvenue:
+      type: http
+      url: "https://cdn.uura.cn/AWAvenue/AWAvenue-Ads-Rule-Clash.yaml"
+      format: yaml
+      behavior: domain
+    BanAD:
+      type: http
+      url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list"
+      format: txt
+      behavior: domain
+    BanProgramAD:
+      type: http
+      url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list"
+      format: txt
+      behavior: classical
+    dler_ad:
+      type: http
+      url: "https://cdn.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/AdBlock.yaml"
+      format: yaml
+      behavior: classical
+    meta_ads:
+      type: http
+      url: "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/category-ads-all.yaml"
+      format: yaml
+      behavior: domain
+
+- path: output/reject@ip.yaml
+  format: yaml
+  behavior: ipcidr
+  upstream:
+    BanProgramAD:
+      type: http
+      url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list"
+      format: txt
+      behavior: classical
+    skk_reject_ip:
+      type: http
+      url: "https://ruleset.skk.moe/Clash/ip/reject.txt"
+      format: txt
+      behavior: ipcidr
+    dler_ad:
+      type: http
+      url: "https://cdn.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/AdBlock.yaml"
+      format: yaml
+      behavior: classical
+
+- path: output/streaming.yaml
+  format: yaml
+  behavior: domain
+  upstream:
+    skk_stream:
+      type: http
+      url: "https://ruleset.skk.moe/Clash/non_ip/stream.txt"
+      format: txt
+      behavior: classical
+
+- path: output/streaming@ip.yaml
+  format: yaml
+  behavior: ipcidr
+  upstream:
+    skk_stream_ip:
+      type: http
+      url: "https://ruleset.skk.moe/Clash/ip/stream.txt"
+      format: txt
+      behavior: ipcidr
+
+- path: output/telegram@ip.yaml
+  format: yaml
+  behavior: ipcidr
+  upstream:
+    skk_telegram_ip:
+      type: http
+      url: "https://ruleset.skk.moe/Clash/ip/telegram.txt"
+      format: txt
+      behavior: ipcidr

@@ -1,0 +1,174 @@
+rules:
+  - RULE-SET,private,DIRECT
+  - RULE-SET,reject,REJECT
+  - RULE-SET,cdn,CDN
+  - RULE-SET,ai@cn,DIRECT
+  - RULE-SET,ai,AIGC
+  - RULE-SET,streaming,Streaming
+  - RULE-SET,game@cn,DIRECT
+  - RULE-SET,game,Proxy
+  - RULE-SET,download,CDN
+  - RULE-SET,apple@cn,DIRECT
+  - RULE-SET,apple,Proxy
+  - RULE-SET,microsoft@cn,DIRECT
+  - RULE-SET,microsoft,Proxy
+  - RULE-SET,direct,DIRECT
+  - RULE-SET,domestic,DIRECT
+  - RULE-SET,proxy,Proxy
+
+  - RULE-SET,reject@ip,REJECT
+  - RULE-SET,private@ip,DIRECT,no-resolve
+  - RULE-SET,game@ip,Proxy
+  - RULE-SET,telegram@ip,Proxy
+  - RULE-SET,domestic@ip,DIRECT
+
+  - MATCH,Final
+
+rule-providers:
+  ai:
+    type: http
+    format: mrs
+    behavior: domain
+    interval: 43200
+    url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/ai.mrs
+    path: ./rules/ai.mrs
+  ai@cn:
+    type: http
+    format: mrs
+    behavior: domain
+    interval: 43200
+    url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/ai@cn.mrs
+    path: ./rules/ai@cn.mrs
+  apple:
+    type: http
+    format: mrs
+    behavior: domain
+    interval: 43200
+    url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/apple.mrs
+    path: ./rules/apple.mrs
+  apple@cn:
+    type: http
+    format: mrs
+    behavior: domain
+    interval: 43200
+    url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/apple@cn.mrs
+    path: ./rules/apple@cn.mrs
+  cdn:
+    type: http
+    format: mrs
+    behavior: domain
+    interval: 43200
+    url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/cdn.mrs
+    path: ./rules/cdn.mrs
+  direct:
+    type: http
+    format: mrs
+    behavior: domain
+    interval: 43200
+    url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/direct.mrs
+    path: ./rules/direct.mrs
+  domestic:
+    type: http
+    format: mrs
+    behavior: domain
+    interval: 43200
+    url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/domestic.mrs
+    path: ./rules/domestic.mrs
+  download:
+    type: http
+    format: mrs
+    behavior: domain
+    interval: 43200
+    url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/download.mrs
+    path: ./rules/download.mrs
+  game:
+    type: http
+    format: mrs
+    behavior: domain
+    interval: 43200
+    url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/games.mrs
+    path: ./rules/game.mrs
+  game@cn:
+    type: http
+    format: mrs
+    behavior: domain
+    interval: 43200
+    url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/games@cn.mrs
+    path: ./rules/game@cn.mrs
+  microsoft:
+    type: http
+    format: mrs
+    behavior: domain
+    interval: 43200
+    url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/microsoft.mrs
+    path: ./rules/microsoft.mrs
+  microsoft@cn:
+    type: http
+    format: mrs
+    behavior: domain
+    interval: 43200
+    url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/microsoft@cn.mrs
+    path: ./rules/microsoft@cn.mrs
+  private:
+    type: http
+    format: mrs
+    behavior: domain
+    interval: 43200
+    url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/private.mrs
+    path: ./rules/private.mrs
+  proxy:
+    type: http
+    format: mrs
+    behavior: domain
+    interval: 43200
+    url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/proxy.mrs
+    path: ./rules/proxy.mrs
+  reject:
+    type: http
+    format: mrs
+    behavior: domain
+    interval: 43200
+    url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/reject.mrs
+    path: ./rules/reject.mrs
+  streaming:
+    type: http
+    format: mrs
+    behavior: domain
+    interval: 43200
+    url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/streaming.mrs
+    path: ./rules/streaming.mrs
+  domestic@ip:
+    type: http
+    format: mrs
+    behavior: ipcidr
+    interval: 43200
+    url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/domestic@ip.mrs
+    path: ./rules/domestic@ip.mrs
+  game@ip:
+    type: http
+    format: mrs
+    behavior: ipcidr
+    interval: 43200
+    url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/games@ip.mrs
+    path: ./rules/game@ip.mrs
+  private@ip:
+    type: http
+    format: mrs
+    behavior: ipcidr
+    interval: 43200
+    url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/private@ip.mrs
+    path: ./rules/private@ip.mrs
+  reject@ip:
+    type: http
+    format: mrs
+    behavior: ipcidr
+    interval: 43200
+    url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/reject@ip.mrs
+    path: ./rules/reject@ip.mrs
+  telegram@ip:
+    type: http
+    format: mrs
+    behavior: ipcidr
+    interval: 43200
+    url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/telegram@ip.mrs
+    path: ./rules/telegram@ip.mrs
