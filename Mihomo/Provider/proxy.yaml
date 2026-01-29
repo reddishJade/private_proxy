@@ -1,5 +1,5 @@
-# 更新时间: 2026-01-29 08:55:58（北京时间）
-# 规则数量: 6979
+# 更新时间: 2026-02-08 09:15:13（北京时间）
+# 规则数量: 6879
 payload:
   - +.000webhost.com
   - +.030buy.com
@@ -161,7 +161,6 @@ payload:
   - +.abebooks.co.uk
   - +.abebooks.com
   - +.abematv.akamaized.net
-  - +.abitno.linpie.com
   - +.ablwang.com
   - +.aboluowang.com
   - +.about.gitlab.com
@@ -526,6 +525,7 @@ payload:
   - +.babylonbee.com
   - +.babynet.com.hk
   - +.backchina.com
+  - +.backend-v2.crixet.com
   - +.backpackers.com.tw
   - +.backtotiananmen.com
   - +.bad.news
@@ -568,6 +568,7 @@ payload:
   - +.bbc.co.uk
   - +.bbc.com
   - +.bbc.in
+  - +.bbc.pdn.tritondigital.com
   - +.bbcchinese.com
   - +.bbchat.tv
   - +.bbci.co.uk
@@ -583,7 +584,6 @@ payload:
   - +.bbs.huasing.org
   - +.bbs.junglobal.net
   - +.bbs.mikocon.com
-  - +.bbs.morbell.com
   - +.bbs.mychat.to
   - +.bbs.naixi.net
   - +.bbs.nyinfor.com
@@ -694,6 +694,7 @@ payload:
   - +.bitshare.com
   - +.bitsnoop.com
   - +.bitterwinter.org
+  - +.bittorrent.com
   - +.bitvise.com
   - +.bitz.ai
   - +.bizhat.com
@@ -727,7 +728,6 @@ payload:
   - +.blog.fuckgfw233.org
   - +.blog.jackjia.com
   - +.blog.jp
-  - +.blog.lester850.info
   - +.blog.martinoei.com
   - +.blog.pathtosharepoint.com
   - +.blog.pentalogic.net
@@ -1030,8 +1030,6 @@ payload:
   - +.cdn-telegram.org
   - +.cdn.angruo.com
   - +.cdn.arstechnica.net
-  - +.cdn.assets.lfpcontent.com
-  - +.cdn.helixstudios.net
   - +.cdn.jwplayer.com
   - +.cdn.printfriendly.com
   - +.cdn.seatguru.com
@@ -1479,6 +1477,7 @@ payload:
   - +.dbgjd.com
   - +.dcard.tw
   - +.dcmilitary.com
+  - +.dcs-spotify.megaphone.fm
   - +.ddc.com.tw
   - +.ddex.io
   - +.ddns.info
@@ -2072,7 +2071,6 @@ payload:
   - +.forms.new
   - +.forum.baby-kingdom.com
   - +.forum.cyberctm.com
-  - +.forum.mymaji.com
   - +.forum.palmislife.com
   - +.forum.slime.com.tw
   - +.forum.xinbao.de
@@ -2138,6 +2136,7 @@ payload:
   - +.freess.org
   - +.freessh.us
   - +.freetcp.com
+  - +.freeterabox.com
   - +.freetibet.net
   - +.freetibet.org
   - +.freetibetanheroes.org
@@ -2684,6 +2683,7 @@ payload:
   - +.grep.app
   - +.grindr.com
   - +.grok.com
+  - +.grokipedia.com
   - +.ground.news
   - +.gs
   - +.gs-discuss.com
@@ -2768,13 +2768,16 @@ payload:
   - +.hechaji.com
   - +.heeact.edu.tw
   - +.hegre-art.com
+  - +.helixstudios.net
   - +.helloandroid.com
   - +.helloqueer.com
   - +.hellouk.org
+  - +.help.byspotify.com
   - +.helpeachpeople.com
   - +.helpshift.com
   - +.helpster.de
   - +.helpzhuling.org
+  - +.hembed.com
   - +.hentai.to
   - +.hentaifox.com
   - +.hentaipaw.com
@@ -2873,7 +2876,6 @@ payload:
   - +.hkpeanut.com
   - +.hkptu.org
   - +.hkreporter.com
-  - +.hkreporter.loved.hk
   - +.hmoegirl.com
   - +.hmv.co.jp
   - +.hmvdigital.ca
@@ -3295,7 +3297,6 @@ payload:
   - +.jieshibaobao.com
   - +.jifangge.com
   - +.jigglegifs.com
-  - +.jihadintel.meforum.org
   - +.jihadology.net
   - +.jiji.com
   - +.jims.net
@@ -3466,32 +3467,21 @@ payload:
   - +.kyohk.net
   - +.kzaobao.com
   - +.kzeng.info
-  - +.la
-  - +.la-forum.org
   - +.lab.skk.moe
   - +.labiennale.org
   - +.laby.net
-  - +.ladbrokes.com
   - +.lagranepoca.com
   - +.lala.im
-  - +.lalulalu.com
   - +.lama.com.tw
   - +.lamayeshe.com
   - +.lamnia.co.uk
-  - +.lamrim.com
   - +.landofhope.tv
-  - +.lanterncn.cn
-  - +.lantosfoundation.org
-  - +.laod.cn
   - +.laogai.org
   - +.laogairesearch.org
-  - +.laomiu.com
-  - +.laoyang.info
   - +.laqingdan.net
   - +.larsgeorge.com
   - +.lastcombat.com
   - +.lastfm.es
-  - +.latelinenews.com
   - +.launchdarkly.com
   - +.lausan.hk
   - +.lbank.info
@@ -3503,20 +3493,13 @@ payload:
   - +.leancloud.com
   - +.lecloud.net
   - +.ledger.com
-  - +.leeao.com.cn
   - +.leetcode.com
-  - +.lefora.com
   - +.left21.hk
-  - +.legalporno.com
   - +.legra.ph
-  - +.legsjapan.com
-  - +.leisurecafe.ca
   - +.leisurepro.com
   - +.lematin.ch
-  - +.lemonde.fr
   - +.lenwhite.com
   - +.lesoir.be
-  - +.letou.com
   - +.letscorp.net
   - +.letsencrypt.org
   - +.lexica.art
@@ -3525,11 +3508,9 @@ payload:
   - +.lflinkup.net
   - +.lflinkup.org
   - +.lhakar.org
-  - +.lhasocialwork.org
   - +.li.taipei
   - +.liangyou.net
   - +.liangzhichuanmei.com
-  - +.lianyue.net
   - +.liaowangxizang.net
   - +.liberal.org.hk
   - +.libertysculpturepark.com
@@ -3550,7 +3531,6 @@ payload:
   - +.lihkg.com
   - +.like.com
   - +.lilaoshibushinilaoshi.com
-  - +.limiao.net
   - +.lin.ee
   - +.line-apps-beta.com
   - +.line-apps-rc.com
@@ -3568,39 +3548,29 @@ payload:
   - +.linemobile.com
   - +.linemyshop.com
   - +.lineshoppingseller.com
-  - +.linglingfa.com
   - +.lingq.com
   - +.lingualeo.com
   - +.lingvodics.com
   - +.link-o-rama.com
   - +.linkedin.com
-  - +.linkideo.com
   - +.linktr.ee
-  - +.linkuswell.com
   - +.linode.com
   - +.linux.do
   - +.linux.org.hk
-  - +.linuxtoy.org
-  - +.lionsroar.com
-  - +.lipuman.com
   - +.liquiditytp.com
   - +.liquidvpn.com
   - +.list-manage.com
   - +.listennotes.com
   - +.listentoyoutube.com
-  - +.listorious.com
   - +.lists.w3.org
   - +.liteapks.com
   - +.litenews.hk
   - +.lithium.com
   - +.littlehj.com
-  - +.liu-xiaobo.org
-  - +.liuhanyu.com
   - +.liuxiaobo.net
   - +.liuxiaotong.com
   - +.live-video.net
   - +.livecoin.net
-  - +.livedoor.jp
   - +.livefilestore.com
   - +.livejasmin.com
   - +.liveleak.com
@@ -3608,56 +3578,41 @@ payload:
   - +.livestream.com
   - +.livevideo.com
   - +.livingstream.com
-  - +.lizhizhuangbi.com
-  - +.lkcn.net
   - +.llnwd.net
   - +.lmarena.ai
-  - +.load.to
-  - +.lobsangwangyal.com
   - +.localazy.com
   - +.localbitcoins.com
   - +.localdomain.ws
   - +.localnetwork.uop
-  - +.localpresshk.com
   - +.lockestek.com
   - +.login.target.com
   - +.logmein.com
   - +.logos.com.hk
   - +.logto.io
   - +.lol
-  - +.londonchinese.ca
-  - +.longhair.hk
   - +.longmusic.com
   - +.longtermly.net
   - +.longtoes.com
   - +.lookpic.com
   - +.looktoronto.com
-  - +.lotsawahouse.org
-  - +.lotuslight.org.tw
   - +.lovart.ai
   - +.lovetvshow.com
   - +.lpsg.com
   - +.lrfz.com
   - +.lrip.org
   - +.lsd.org.hk
-  - +.lsforum.net
   - +.lsm.org
   - +.lsmchinese.org
   - +.lsmkorean.org
-  - +.lsmradio.com
-  - +.lsmwebcast.com
   - +.lsxszzg.com
   - +.lt.sntp.uk
   - +.ltn.com.tw
   - +.luckydesigner.space
   - +.luckymobile.ca
   - +.ludepress.com
-  - +.luke54.com
-  - +.luke54.org
   - +.lumendatabase.org
   - +.lupm.org
   - +.lushstories.com
-  - +.luxebc.com
   - +.lvhai.org
   - +.lvv2.com
   - +.ly
@@ -3673,7 +3628,6 @@ payload:
   - +.macid.co
   - +.macpaw.com
   - +.macromedia.com
-  - +.macrovpn.com
   - +.macrumors.com
   - +.macupdate.com
   - +.mad-ar.ch
@@ -3682,22 +3636,14 @@ payload:
   - +.madou.club
   - +.madrau.com
   - +.madthumbs.com
-  - +.mahabodhi.org
   - +.mahjongsoul.com
-  - +.maiio.net
-  - +.mail-archive.com
   - +.mailchimp.com
   - +.main-ecnpaper-economist.content.pugpig.com
   - +.maiplus.com
-  - +.maizhong.org
   - +.majsoul.union-game.com
   - +.makemymood.com
   - +.makerworld.com
-  - +.makkahnewspaper.com
-  - +.malaysiakini.com
   - +.malwarebytes.com
-  - +.mamingzhe.com
-  - +.manchukuo.net
   - +.mandiant.com
   - +.mangabz.com
   - +.mangafox.com
@@ -3707,27 +3653,18 @@ payload:
   - +.manhuabika.com
   - +.manhuagui.com
   - +.manhuaren.com
-  - +.maniash.com
-  - +.manicur4ik.ru
-  - +.mansion.com
-  - +.mansionpoker.com
   - +.manta.com
   - +.manyvoices.news
   - +.mapbox.com
-  - +.maplew.com
   - +.maptiler.com
   - +.marc.info
-  - +.marguerite.su
   - +.marketwatch.com
   - +.martau.com
   - +.martsangkagyuofficial.org
-  - +.maruta.be
-  - +.marxist.com
   - +.marxist.net
   - +.marxists.org
   - +.mash.to
   - +.mashable.com
-  - +.maskedip.com
   - +.mastodon.cloud
   - +.mastodon.host
   - +.mastodon.online
@@ -3744,14 +3681,10 @@ payload:
   - +.mattwilcox.net
   - +.maven.neoforged.net
   - +.maven.org
-  - +.maxing.jp
   - +.maxjav.com
-  - +.mayimayi.com
   - +.mayoclinic.org
   - +.mcadforums.com
   - +.mcaf.ee
-  - +.mcfog.com
-  - +.mcreasite.com
   - +.mcusercontent.com
   - +.md
   - +.md-t.org
@@ -3761,15 +3694,12 @@ payload:
   - +.meansys.com
   - +.medallia.com
   - +.media.nu.nl
-  - +.media.org.hk
   - +.mediachinese.com
   - +.mediafire.com
   - +.mediafreakcity.com
   - +.mediawiki.org
   - +.medium.com
-  - +.meetav.com
   - +.meetup.com
-  - +.mefeedia.com
   - +.mefound.com
   - +.mega.co.nz
   - +.mega.io
@@ -3780,11 +3710,8 @@ payload:
   - +.megurineluka.com
   - +.meizhong.blog
   - +.meizhong.report
-  - +.meltoday.com
   - +.memehk.com
   - +.memes.tw
-  - +.memri.org
-  - +.memrijttm.org
   - +.mercari.com
   - +.mercari.jp
   - +.mercatox.com
@@ -3794,7 +3721,6 @@ payload:
   - +.meridian-trust.org
   - +.meripet.com
   - +.merit-times.com.tw
-  - +.mesotw.com
   - +.messenger.com
   - +.meta.com
   - +.metacritic.com
@@ -3804,7 +3730,6 @@ payload:
   - +.metarthunter.com
   - +.meteorshowersonline.com
   - +.metro.taipei
-  - +.metrohk.com.hk
   - +.metrolife.ca
   - +.metroradio.com.hk
   - +.mewe.com
@@ -3814,11 +3739,8 @@ payload:
   - +.mgoon.com
   - +.mgstage.com
   - +.mh4u.org
-  - +.mhradio.org
   - +.micro.blog
   - +.microvpn.com
-  - +.middle-way.net
-  - +.mihr.com
   - +.mihua.org
   - +.mij.rip
   - +.mikanani.me
@@ -3826,10 +3748,6 @@ payload:
   - +.mikesoltys.com
   - +.mikrotik.com
   - +.mil
-  - +.milph.net
-  - +.milsurps.com
-  - +.mimiai.net
-  - +.mimivip.com
   - +.mindnode.com
   - +.mindrolling.org
   - +.minecraft-services.net
@@ -3851,8 +3769,6 @@ payload:
   - +.mingpaonews.com
   - +.mingpaony.com
   - +.mingpaosf.com
-  - +.mingpaotor.com
-  - +.mingpaovan.com
   - +.mingshengbao.com
   - +.minhhue.net
   - +.miniclip.com
@@ -3868,7 +3784,6 @@ payload:
   - +.missav.ws
   - +.missav123.com
   - +.misskey.io
-  - +.mist.vip
   - +.mitbbs.com
   - +.miuipolska.pl
   - +.mixcloud.com
@@ -3876,27 +3791,21 @@ payload:
   - +.mixero.com
   - +.mixi.jp
   - +.mixin.one
-  - +.mixpod.com
   - +.mixx.com
   - +.mizzmona.com
   - +.mji.rip
   - +.mjj.rip
   - +.mjlsh.usc.cuhk.edu.hk
   - +.mlc.ai
-  - +.mlcool.com
   - +.mlssoccer.com
   - +.mlzs.work
-  - +.mm-cg.com
   - +.mmaaxx.com
-  - +.mmmca.com
   - +.mn
-  - +.mnewstv.com
   - +.mo.nightlife141.com
   - +.mobatek.net
   - +.mobile01.com
   - +.mobileways.de
   - +.moby.to
-  - +.mobypicture.com
   - +.mod.io
   - +.modernchinastudies.org
   - +.modmyi.com
@@ -3973,36 +3882,22 @@ payload:
   - +.mx.hao123.com
   - +.mx981.com
   - +.my
-  - +.my-formosa.com
   - +.my-private-network.co.uk
-  - +.my-proxy.com
-  - +.my.mail.ru
   - +.my.opera.com
   - +.my.pcloud.com
   - +.my03.com
-  - +.myactimes.com
   - +.myanimelist.net
   - +.myanimeshelf.com
   - +.myaudiocast.com
-  - +.myav.com.tw
-  - +.mybbs.us
   - +.mybet.com
-  - +.myca168.com
-  - +.mycanadanow.com
-  - +.mychinanet.com
   - +.mychinanews.com
-  - +.mychinese.news
   - +.mycnnews.com
-  - +.mycould.com
   - +.mydad.info
   - +.myddns.com
   - +.mydnsleaktest.com
-  - +.myeasytv.com
   - +.myeclipseide.com
   - +.myfontastic.com
   - +.myfreecams.com
-  - +.myfreepaysite.com
-  - +.myfreshnet.com
   - +.myftp.info
   - +.myfutanari.com
   - +.myiphide.com
@@ -4021,10 +3916,8 @@ payload:
   - +.mypop3.net
   - +.mypop3.org
   - +.mypopescu.com
-  - +.myreadingmanga.info
   - +.mysecondarydns.com
   - +.myshare.url.com.tw
-  - +.mysinablog.com
   - +.mysite.verizon.net
   - +.myspace.com
   - +.myspacecdn.com
@@ -4198,7 +4091,6 @@ payload:
   - +.nj.com
   - +.njactb.org
   - +.njav.com
-  - +.nko.navy.mil
   - +.nl
   - +.nlfreevpn.com
   - +.nmsl.website
@@ -4403,6 +4295,7 @@ payload:
   - +.oricon.co.jp
   - +.orient-doll.com
   - +.orientaldaily.com.my
+  - +.orionbrowser.com
   - +.orkut.com
   - +.orn.jp
   - +.osfoora.com
@@ -5086,6 +4979,7 @@ payload:
   - +.seesmic.com
   - +.seevpn.com
   - +.seezone.net
+  - +.sef.org.tw
   - +.sehuatang.net
   - +.sehuatang.org
   - +.sejie.com
@@ -5198,6 +5092,7 @@ payload:
   - +.silkbook.com
   - +.silvergatebank.com
   - +.simbolostwitter.com
+  - +.simianx.ai
   - +.simp.ly
   - +.simplecd.me
   - +.simplecd.org
@@ -5539,6 +5434,7 @@ payload:
   - +.tagwalk.com
   - +.tahr.org.tw
   - +.tailfin.cc
+  - +.tails.net
   - +.tailwindcss.com
   - +.taipei
   - +.taipeisociety.org
@@ -6227,6 +6123,7 @@ payload:
   - +.uymaarip.com
   - +.v.gd
   - +.v2.help
+  - +.v2.hysteria.network
   - +.v2ex.co
   - +.v2ex.com
   - +.v2fly.org
@@ -6549,6 +6446,7 @@ payload:
   - +.wikipedia.com
   - +.wikipedia.org
   - +.wikiquote.org
+  - +.wikis.tw
   - +.wikisource.org
   - +.wikiunblocked.org
   - +.wikiversity.org
@@ -6644,6 +6542,7 @@ payload:
   - +.www.eastturkistan.net
   - +.www.gmiddle.com
   - +.www.gmiddle.net
+  - +.www.hoyolab.com
   - +.www.idlcoyote.com
   - +.www.klip.me
   - +.www.lib.virginia.edu
@@ -6813,6 +6712,7 @@ payload:
   - +.yesasia.com.hk
   - +.yespornplease.com
   - +.yeyeclub.com
+  - +.yfsp.tv
   - +.ygto.com
   - +.yhcw.net
   - +.yibada.com

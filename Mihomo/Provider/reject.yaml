@@ -1,5 +1,5 @@
-# 更新时间: 2026-01-29 08:55:59（北京时间）
-# 规则数量: 10033
+# 更新时间: 2026-02-08 09:15:14（北京时间）
+# 规则数量: 10048
 payload:
   - +.0.r.msn.com
   - +.000dn.com
@@ -1060,6 +1060,7 @@ payload:
   - +.adrunnr.com
   - +.ads-api.duolingo.com
   - +.ads-api.videojj.com
+  - +.ads-pixiv.net
   - +.ads-twitter.com
   - +.ads-union.jd.com
   - +.ads-uo.api.leiniao.com
@@ -1077,7 +1078,6 @@ payload:
   - +.ads.huantest.com
   - +.ads.linkedin.com
   - +.ads.music.126.net
-  - +.ads.pubmatic.com
   - +.ads.service.kugou.com
   - +.ads.sina.com
   - +.ads.sohu.com
@@ -1619,7 +1619,6 @@ payload:
   - +.assets.258pcf.com
   - +.assets.258ydh.com
   - +.assets.easou.com
-  - +.assets.growingio.com
   - +.assets.ps.easou.com
   - +.assp.sohu.com
   - +.asv.nuggad.net
@@ -2350,6 +2349,7 @@ payload:
   - +.click.cheshi-img.com
   - +.click.cheshi.com
   - +.click.dangdang.com
+  - +.click.gamersky.com
   - +.click.ganji.com
   - +.click.hd.sohu.com
   - +.click.hm.baidu.com
@@ -2819,6 +2819,7 @@ payload:
   - +.datacapture.serving-sys.com
   - +.datafastguru.info
   - +.datax.baidu.com
+  - +.datayi.cn
   - +.datouniao.com
   - +.dawwx.com
   - +.day66.com
@@ -3893,6 +3894,8 @@ payload:
   - +.gif.lu.sogoucdn.com
   - +.gimg.baidu.com
   - +.gimg.bitauto.com
+  - +.gio.ren
+  - +.giocdn.com
   - +.girlcc.cc
   - +.gj500.com
   - +.gjghy.com
@@ -3977,6 +3980,8 @@ payload:
   - +.gridsumdissector.cn
   - +.gridsumdissector.com
   - +.groupa.onlylady.com
+  - +.growin.cn
+  - +.growingio.cn
   - +.growingio.com
   - +.gs307.com
   - +.gso0.com
@@ -4275,6 +4280,7 @@ payload:
   - +.iadmatvideo.nosdn.127.net
   - +.iadmusicmat.music.126.net
   - +.iadmusicmatvideo.music.126.net
+  - +.iads.unity3d.com
   - +.iads.xinmin.cn
   - +.iadsdk.apple.com
   - +.ib.adnxs.co
@@ -4625,6 +4631,7 @@ payload:
   - +.j7182.hfxcsl.cn
   - +.ja.gamersky.com
   - +.ja1.gamersky.com
+  - +.ja2.gamersky.com
   - +.ja9377.com
   - +.jack.okkkk.com
   - +.jackaow.com
@@ -6626,6 +6633,7 @@ payload:
   - +.publicidad.net
   - +.publicidad.tv
   - +.publish.ad.youth.cn
+  - +.pubmatic.co.jp
   - +.pubmatic.com
   - +.pubnative.net
   - +.pubnub.com
@@ -7128,6 +7136,7 @@ payload:
   - +.same02.jrj.com.cn
   - +.same03.jrj.com.cn
   - +.sams.nikonimaging.com
+  - +.samsungads.com
   - +.sangxi.top
   - +.sanya1.com
   - +.sape.ru
@@ -8479,6 +8488,7 @@ payload:
   - +.wm.baidu.com
   - +.wm.lrswl.com
   - +.wm.mipcdn.com
+  - +.wmbd.gamersky.com
   - +.wmcdn.qtmojo.cn
   - +.wo.iuni.com.cn
   - +.wo685.com
@@ -9350,6 +9360,7 @@ payload:
   - bloodhound.spotify.com
   - books-analytics-events.apple.com
   - bootpreload.uve.weibo.com
+  - browser-intake-datadoghq.com
   - browser.events.data.msn.cn
   - browser.events.data.msn.com
   - browsercfg-drcn.cloud.dbankcloud.cn
@@ -9417,6 +9428,7 @@ payload:
   - de.tynt.com
   - diagnosis.ad.xiaomi.com
   - dig.bdurl.net
+  - disney.my.sentry.io
   - dlogs.bwton.com
   - dm.toutiao.com
   - domain.aishengji.com
@@ -9679,6 +9691,8 @@ payload:
   - nsclick.baidu.com
   - o-sdk.mediation.unity3d.com
   - o2o.api.xiaomi.com
+  - o33249.ingest.sentry.io
+  - o4504926511693824.ingest.sentry.io
   - offerwall.yandex.net
   - offnavi.map.baidu.com
   - ogads-pa.clients6.google.com
@@ -9824,6 +9838,7 @@ payload:
   - securemetrics.apple.com
   - securepubads.g.doubleclick.net
   - sensors-log.dongqiudi.com
+  - sentry.hetzner.company
   - sentry.music.163.com
   - service.changhong.upgrade2.huan.tv
   - service.vmos.cn
