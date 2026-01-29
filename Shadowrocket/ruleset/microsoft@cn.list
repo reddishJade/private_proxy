@@ -1,5 +1,5 @@
-# 更新时间: 2026-01-29 08:56:04（北京时间）
-# 规则数量: 217
+# 更新时间: 2026-02-15 09:03:03（北京时间）
+# 规则数量: 219
 DOMAIN,b.c2r.ts.cdn.office.net
 DOMAIN,bg.v4.a.dl.ws.microsoft.com
 DOMAIN,bg4.v4.a.dl.ws.microsoft.com
@@ -21,6 +21,7 @@ DOMAIN,myvs.download.prss.microsoft.com
 DOMAIN,oemsoc.download.prss.microsoft.com
 DOMAIN,officecdn.microsoft.com
 DOMAIN,res-1.cdn.office.net
+DOMAIN,res-2.cdn.office.net
 DOMAIN,res-h3.public.cdn.office.net
 DOMAIN,res.cdn.office.net
 DOMAIN,sdx.microsoft.com
@@ -101,6 +102,7 @@ DOMAIN-SUFFIX,b3itech.cn
 DOMAIN-SUFFIX,bing.com.cn
 DOMAIN-SUFFIX,blueaggrestore.com
 DOMAIN-SUFFIX,bluecloudprod.com
+DOMAIN-SUFFIX,browser.events.data.msn.cn
 DOMAIN-SUFFIX,cbdstest.download.prss.microsoft.com
 DOMAIN-SUFFIX,cegid-cloud.cn
 DOMAIN-SUFFIX,chinacloud-mobile.cn

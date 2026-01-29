@@ -1,12 +1,17 @@
-# 更新时间: 2026-01-29 08:55:56（北京时间）
-# 规则数量: 762
+# 更新时间: 2026-02-15 09:02:50（北京时间）
+# 规则数量: 807
 payload:
   - +.100classicbooks.com
   - +.2k.com
   - +.2kcoretech.online
+  - +.2kct.onl
   - +.2kgames.com
+  - +.2ksports.com
+  - +.2kweb.online
   - +.3lateral.com
   - +.ac-pocketcamp.com
+  - +.acesofthunder.net
+  - +.activematter.game
   - +.amiibo.com
   - +.anthemgame.com
   - +.anthemthegame.com
@@ -15,6 +20,7 @@ payload:
   - +.arma3.com
   - +.armaplatform.com
   - +.artstation.com
+  - +.artstorm.com
   - +.asobostudio.com
   - +.avatargarenanow-a.akamaihd.net
   - +.awayoutgame.com
@@ -88,9 +94,12 @@ payload:
   - +.commandandconquer.com
   - +.conquerwithcharacter.com
   - +.convrgencegame.com
+  - +.crossout.net
+  - +.crsed.net
   - +.crysis.jp
   - +.csgo.wmsj.cn
   - +.cubicmotion.com
+  - +.cubicodyssey.game
   - +.curseforge.com
   - +.cygames.co.jp
   - +.cygames.jp
@@ -165,6 +174,7 @@ payload:
   - +.embark.games
   - +.eneba.com
   - +.eneba.games
+  - +.enlisted.net
   - +.epicgames.com
   - +.epicgames.dev
   - +.epicgamescdn.com
@@ -193,6 +203,8 @@ payload:
   - +.frostbite.com
   - +.futpromos.com
   - +.futunited.com
+  - +.gaijin.net
+  - +.gaijinent.com
   - +.game-repack.site
   - +.game.maj-soul.com
   - +.gamedownloads-rockstargames-com.akamaized.net
@@ -323,6 +335,7 @@ payload:
   - +.mirrorsedge2d.com
   - +.mo.co
   - +.mobimon.com.tw
+  - +.modernwarships.com
   - +.modrinth.com
   - +.mojang.com
   - +.molesports.com
@@ -420,6 +433,7 @@ payload:
   - +.personaltrainermath.com
   - +.pinkcore.com
   - +.pinkcore.net
+  - +.pjsekai.sega.jp
   - +.planetminecraft.com
   - +.plantsvszombies2.com
   - +.play4free.com
@@ -535,6 +549,7 @@ payload:
   - +.robloxlabs.com
   - +.roborecall.com
   - +.rockstargames.com
+  - +.rockstarnorth.com
   - +.rowblocks.com
   - +.rowblox.com
   - +.rsg.sc
@@ -570,6 +585,7 @@ payload:
   - +.st.dl.bscstorage.net
   - +.st.dl.eccdnx.com
   - +.st.dl.pinyuncloud.com
+  - +.star-conflict.com
   - +.starcraft.com
   - +.starcraft2.com
   - +.starfox.com
@@ -678,6 +694,7 @@ payload:
   - +.wariolandshakeit.com
   - +.wariowarediy.com
   - +.warnerbrosgames.com
+  - +.warthunder.com
   - +.wbagora.com
   - +.wbgames.com
   - +.wbinsights.com
@@ -695,6 +712,7 @@ payload:
   - +.worldofwarcraft.com
   - +.wow.nosdn.127.net
   - +.wowchina.com
+  - +.wtmobile.com
   - +.xbox
   - +.xbox.co
   - +.xbox.com
@@ -727,6 +745,9 @@ payload:
   - +.yogify.com
   - +.yoshisnewisland.com
   - +.zenlesszonezero.com
+  - +.zynga.com
+  - +.zyngaplayersupport.com
+  - +.zyngapoker.com
   - a.ppy.sh
   - a4e8s8k3.map2.ssl.hwcdn.net
   - assets.ppy.sh
@@ -761,5 +782,29 @@ payload:
   - steamcloudsweden.blob.core.windows.net
   - steamcommunity-a.akamaihd.net.edgesuite.net
   - store-images.s-microsoft.com
+  - ubisoft.siteintercept.qualtrics.com
+  - ubistatic1-a.akamaihd.net
+  - ubistatic10-a.akamaihd.net
+  - ubistatic11-a.akamaihd.net
+  - ubistatic12-a.akamaihd.net
+  - ubistatic13-a.akamaihd.net
+  - ubistatic14-a.akamaihd.net
+  - ubistatic15-a.akamaihd.net
+  - ubistatic16-a.akamaihd.net
+  - ubistatic17-a.akamaihd.net
+  - ubistatic18-a.akamaihd.net
+  - ubistatic19-a.akamaihd.net
+  - ubistatic2-a.akamaihd.net
+  - ubistatic20-a.akamaihd.net
+  - ubistatic21-a.akamaihd.net
+  - ubistatic22-a.akamaihd.net
+  - ubistatic23-a.akamaihd.net
+  - ubistatic24-a.akamaihd.net
   - ubistatic3-a.akamaihd.net
+  - ubistatic4-a.akamaihd.net
+  - ubistatic5-a.akamaihd.net
+  - ubistatic6-a.akamaihd.net
+  - ubistatic7-a.akamaihd.net
+  - ubistatic8-a.akamaihd.net
+  - ubistatic9-a.akamaihd.net
   - wb-agora-hydra-file-storage-k1.s3.amazonaws.com
