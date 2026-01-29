@@ -1,5 +1,5 @@
-# 更新时间: 2026-01-29 08:55:56（北京时间）
-# 规则数量: 818
+# 更新时间: 2026-03-01 20:20:07（北京时间）
+# 规则数量: 819
 payload:
   - +.1drv.com
   - +.1drv.ms
@@ -793,6 +793,7 @@ payload:
   - officecdn-microsoft-com.akamaized.net
   - officecdn.microsoft.com
   - oneocsp.microsoft.com
+  - packages.microsoft.com
   - poshtestgallery.cloudapp.net
   - prodforza.blob.core.windows.net
   - psg-int-centralus.cloudapp.net

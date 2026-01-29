@@ -1,5 +1,5 @@
-# 更新时间: 2026-01-29 08:55:49（北京时间）
-# 规则数量: 141
+# 更新时间: 2026-03-01 20:20:01（北京时间）
+# 规则数量: 146
 payload:
   - +.ai.com
   - +.ai.studio
@@ -43,6 +43,7 @@ payload:
   - +.copilot.microsoft.com
   - +.coze.com
   - +.cp4.cloudflare.com
+  - +.crixet.com
   - +.cursor-cdn.com
   - +.cursor.com
   - +.cursor.sh
@@ -83,6 +84,8 @@ payload:
   - +.liveperson.net
   - +.lpsnmedia.net
   - +.makersuite.google.com
+  - +.manus.im
+  - +.manuscdn.com
   - +.marscode.com
   - +.meta.ai
   - +.microsoftonline.com
@@ -109,6 +112,7 @@ payload:
   - +.sora.com
   - +.trae.ai
   - +.turn.livekit.cloud
+  - +.windsurf.build
   - +.windsurf.com
   - +.x.ai
   - +.youmind.ai
@@ -136,6 +140,7 @@ payload:
   - openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
   - openaicom.imgix.net
   - openaicomproductionae4b.blob.core.windows.net
+  - ppl-ai-file-upload.s3.amazonaws.com
   - pplx-res.cloudinary.com
   - production-openaicom-storage.azureedge.net
   - servd-anthropic-website.b-cdn.net

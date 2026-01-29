@@ -1,5 +1,5 @@
-# 更新时间: 2026-01-29 08:56:02（北京时间）
-# 规则数量: 68
+# 更新时间: 2026-03-01 20:20:15（北京时间）
+# 规则数量: 70
 DOMAIN,ai.zhaomi.cn
 DOMAIN,cueme-api.quark.cn
 DOMAIN-SUFFIX,askdiandian.com
@@ -40,6 +40,7 @@ DOMAIN-SUFFIX,miaoyanai.com
 DOMAIN-SUFFIX,minimax.chat
 DOMAIN-SUFFIX,minimax.io
 DOMAIN-SUFFIX,minimaxi.com
+DOMAIN-SUFFIX,moonshot.ai
 DOMAIN-SUFFIX,moonshot.cn
 DOMAIN-SUFFIX,myparallelstory.com
 DOMAIN-SUFFIX,n.cn
@@ -68,3 +69,4 @@ DOMAIN-SUFFIX,yiyan.baidu.com
 DOMAIN-SUFFIX,yoma.cn
 DOMAIN-SUFFIX,z.ai
 DOMAIN-SUFFIX,zhipuai.cn
+DOMAIN-SUFFIX,zhipucn.com

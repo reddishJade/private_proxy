@@ -1,5 +1,5 @@
-# 更新时间: 2026-01-29 08:55:53（北京时间）
-# 规则数量: 1882
+# 更新时间: 2026-03-01 20:20:04（北京时间）
+# 规则数量: 1890
 payload:
   - +.1fichier.com
   - +.1fichier.info
@@ -594,6 +594,7 @@ payload:
   - ca.dyi.ng
   - cache.agilebits.com
   - cache.pack.google.com
+  - cas-bridge.xethub.hf.co
   - cdimage.kali.org
   - cdn-builds.paw.cloud
   - cdn-images.orbstack.dev
@@ -677,6 +678,7 @@ payload:
   - ctan.uib.no
   - ctldl.windowsupdate.com
   - d.myani.org
+  - d2.myani.org
   - dafi.inf.um.es
   - data.gameflare.com
   - deb-mir1.naitways.net
@@ -1112,6 +1114,7 @@ payload:
   - ir.ubuntu.sindad.cloud
   - iterm2.com
   - jing.rocks
+  - kali.cs.nycu.edu.tw
   - kambing.uu.sg
   - kartolo.sby.datautama.net.id
   - kde.c3sl.ufpr.br
@@ -1653,6 +1656,7 @@ payload:
   - mr.heru.id
   - msdl.microsoft.com
   - muug.ca
+  - mx-app-blob-prod.maxon.net
   - nobara-images.nobaraproject.org
   - npm.im
   - npm.jsr.io
@@ -1662,6 +1666,7 @@ payload:
   - onepluscommunityserver.com
   - opensource.nchc.org.tw
   - opensource.xtdv.net
+  - openvsx.eclipsecontent.org
   - opfiles.b-cdn.net
   - origin-a.akamaihd.net
   - os-cdn.virtfusion.net
@@ -1752,6 +1757,8 @@ payload:
   - rsync.yuki.net.uk
   - rubygems.org
   - ruleset.skk.moe
+  - s1.animeko.openani.org
+  - s2.animeko.openani.org
   - s3.teckids.org
   - searchcpan.org
   - security.debian.org
@@ -1867,6 +1874,7 @@ payload:
   - updates.edovia.com
   - updates.istatmenus.app
   - us.dyi.ng
+  - version.cyberduck.io
   - versioncheck-bg.addons.mozilla.org
   - versioncheck.addons.mozilla.org
   - vesta.informatik.rwth-aachen.de

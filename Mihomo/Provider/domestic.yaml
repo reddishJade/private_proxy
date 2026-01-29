@@ -1,5 +1,5 @@
-# 更新时间: 2026-01-29 08:55:51（北京时间）
-# 规则数量: 983
+# 更新时间: 2026-03-01 20:20:03（北京时间）
+# 规则数量: 1005
 payload:
   - +.10010.com
   - +.10086.cn
@@ -248,6 +248,7 @@ payload:
   - +.cmpassport.com
   - +.cmvideo.cn
   - +.cn
+  - +.cnb.cool
   - +.cnblogs.com
   - +.cnlang.org
   - +.cnnic.cn
@@ -264,12 +265,14 @@ payload:
   - +.cowcs.com
   - +.cowtransfer.com
   - +.coze.cn
+  - +.cqcbank.com
   - +.csdn.com
   - +.csdn.net
   - +.csdnimg.cn
   - +.ctfile.com
   - +.ctrip.com
   - +.cz88.net
+  - +.d-ctrip.com
   - +.dancf.com
   - +.dangdang.com
   - +.daocloud.io
@@ -282,6 +285,7 @@ payload:
   - +.dcarlive.com
   - +.dcarstatic.com
   - +.dcarvod.com
+  - +.dcloud.io
   - +.dct-cloud.com
   - +.dewu.com
   - +.dfcfw.com
@@ -300,6 +304,7 @@ payload:
   - +.dl.delivery.mp.microsoft.com
   - +.dl.eccdnx.com
   - +.dl.pinyuncloud.com
+  - +.dns.la
   - +.dnspod.cn
   - +.dnspod.com
   - +.dnsv1.com
@@ -315,6 +320,7 @@ payload:
   - +.douyin.com
   - +.douyincdn.com
   - +.douyinliving.com
+  - +.douyinpay.com
   - +.douyinpic.com
   - +.douyinstatic.com
   - +.douyinvod.com
@@ -328,6 +334,7 @@ payload:
   - +.duapp.com
   - +.duba.net
   - +.duokan.com
+  - +.duokanbox.com
   - +.duoshuo.com
   - +.dwz.cn
   - +.dxy.cn
@@ -380,6 +387,7 @@ payload:
   - +.gdtimg.com
   - +.geetest.com
   - +.geilicdn.com
+  - +.geovisearth.com
   - +.gifshow.com
   - +.gitcode.com
   - +.gitee.com
@@ -416,6 +424,7 @@ payload:
   - +.hihonor.com
   - +.hihonorcdn.com
   - +.hihonorcloud.com
+  - +.hisense.com
   - +.hitv.com
   - +.hjfile.cn
   - +.hkserversolution.com
@@ -423,6 +432,8 @@ payload:
   - +.hongxiu.com
   - +.honor.cn
   - +.honor.com
+  - +.huanqiu.com
+  - +.huanqiucdn.cn
   - +.huawei.cn
   - +.huawei.com
   - +.huaweistatic.com
@@ -543,9 +554,11 @@ payload:
   - +.liyuans.com
   - +.lizhi.io
   - +.ljcdn.com
+  - +.lkcoffee.com
   - +.localizecdn.com
   - +.lofter.com
   - +.lucifr.com
+  - +.luckincoffeecdn.com
   - +.ludashi.com
   - +.luojilab.com
   - +.luoo.net
@@ -582,6 +595,7 @@ payload:
   - +.mihoyo.com
   - +.mijia.tech
   - +.miot-spec.org
+  - +.mipay.com
   - +.miui.com
   - +.miwifi.com
   - +.miyoushe.com
@@ -602,6 +616,7 @@ payload:
   - +.mybank.cn
   - +.myoppo.com
   - +.myqcloud.com
+  - +.myssl.com
   - +.myunlu.com
   - +.myzaker.com
   - +.mzres.com
@@ -615,6 +630,7 @@ payload:
   - +.nfoservers.com
   - +.nga.cn
   - +.ngabbs.com
+  - +.niu.com
   - +.nlark.com
   - +.nmc.cn
   - +.npmmirror.com
@@ -625,6 +641,7 @@ payload:
   - +.officewebapps.cn
   - +.okr.com
   - +.oneplus.cn
+  - +.oneplus.net
   - +.oneplusbbs.com
   - +.onlinedown.com
   - +.openinstall.io
@@ -640,6 +657,7 @@ payload:
   - +.orayimg.com
   - +.org.cn
   - +.oschina.net
+  - +.osgeo.cn
   - +.ourbits.club
   - +.ourdvs.com
   - +.outlook.cn
@@ -709,6 +727,7 @@ payload:
   - +.qq.net
   - +.qqmail.com
   - +.qqurl.com
+  - +.quark.cn
   - +.qy.net
   - +.qyer.com
   - +.qyerstatic.com
@@ -808,6 +827,7 @@ payload:
   - +.tmall.com
   - +.tmzvps.com
   - +.tnkjmec.com
+  - +.tool.lu
   - +.totheglory.im
   - +.toutiao.com
   - +.toutiaocloud.com
@@ -849,6 +869,7 @@ payload:
   - +.wangsu.com
   - +.weather.bjango.com
   - +.weathercn.com
+  - +.webank.com
   - +.webok.net
   - +.webqxs.com
   - +.wechat.com
@@ -954,6 +975,7 @@ payload:
   - +.zjurl.cn
   - +.zmz002.com
   - +.zmzfile.com
+  - +.zol.com
   - +.zui.com
   - +.zuimeitianqi.com
   - +.zuoyebang.com

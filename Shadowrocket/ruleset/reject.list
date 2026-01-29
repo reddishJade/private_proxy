@@ -1,5 +1,5 @@
-# 更新时间: 2026-01-29 08:56:05（北京时间）
-# 规则数量: 10116
+# 更新时间: 2026-03-01 20:20:19（北京时间）
+# 规则数量: 10133
 DOMAIN,118.89.204.198
 DOMAIN,1500020991.vodplayer.wxamedia.com
 DOMAIN,1500022744.vodplayer.wxamedia.com
@@ -272,6 +272,7 @@ DOMAIN,bj.ad.track.66mobi.com
 DOMAIN,bloodhound.spotify.com
 DOMAIN,books-analytics-events.apple.com
 DOMAIN,bootpreload.uve.weibo.com
+DOMAIN,browser-intake-datadoghq.com
 DOMAIN,browser.events.data.msn.cn
 DOMAIN,browser.events.data.msn.com
 DOMAIN,browsercfg-drcn.cloud.dbankcloud.cn
@@ -339,6 +340,7 @@ DOMAIN,dc.sigmob.cn
 DOMAIN,de.tynt.com
 DOMAIN,diagnosis.ad.xiaomi.com
 DOMAIN,dig.bdurl.net
+DOMAIN,disney.my.sentry.io
 DOMAIN,dlogs.bwton.com
 DOMAIN,dm.toutiao.com
 DOMAIN,domain.aishengji.com
@@ -542,7 +544,6 @@ DOMAIN,m-adnet.hiaiabc.com
 DOMAIN,m.ad.zhangyue.com
 DOMAIN,m.atm.youku.com
 DOMAIN,m.shenshiads.com
-DOMAIN,m1.ad.10010.com
 DOMAIN,mapi.m.jd.com
 DOMAIN,masdkv6.3g.qq.com
 DOMAIN,mazu.m.qq.com
@@ -601,6 +602,8 @@ DOMAIN,notify.sec.miui.com
 DOMAIN,nsclick.baidu.com
 DOMAIN,o-sdk.mediation.unity3d.com
 DOMAIN,o2o.api.xiaomi.com
+DOMAIN,o33249.ingest.sentry.io
+DOMAIN,o4504926511693824.ingest.sentry.io
 DOMAIN,offerwall.yandex.net
 DOMAIN,offnavi.map.baidu.com
 DOMAIN,ogads-pa.clients6.google.com
@@ -746,6 +749,7 @@ DOMAIN,search5-search.ixigua.com
 DOMAIN,securemetrics.apple.com
 DOMAIN,securepubads.g.doubleclick.net
 DOMAIN,sensors-log.dongqiudi.com
+DOMAIN,sentry.hetzner.company
 DOMAIN,sentry.music.163.com
 DOMAIN,service.changhong.upgrade2.huan.tv
 DOMAIN,service.vmos.cn
@@ -2040,6 +2044,7 @@ DOMAIN-SUFFIX,adrs.sdo.com
 DOMAIN-SUFFIX,adrunnr.com
 DOMAIN-SUFFIX,ads-api.duolingo.com
 DOMAIN-SUFFIX,ads-api.videojj.com
+DOMAIN-SUFFIX,ads-pixiv.net
 DOMAIN-SUFFIX,ads-twitter.com
 DOMAIN-SUFFIX,ads-union.jd.com
 DOMAIN-SUFFIX,ads-uo.api.leiniao.com
@@ -2057,7 +2062,6 @@ DOMAIN-SUFFIX,ads.huan.tv
 DOMAIN-SUFFIX,ads.huantest.com
 DOMAIN-SUFFIX,ads.linkedin.com
 DOMAIN-SUFFIX,ads.music.126.net
-DOMAIN-SUFFIX,ads.pubmatic.com
 DOMAIN-SUFFIX,ads.service.kugou.com
 DOMAIN-SUFFIX,ads.sina.com
 DOMAIN-SUFFIX,ads.sohu.com
@@ -2599,7 +2603,6 @@ DOMAIN-SUFFIX,assets.2343sdxs.com
 DOMAIN-SUFFIX,assets.258pcf.com
 DOMAIN-SUFFIX,assets.258ydh.com
 DOMAIN-SUFFIX,assets.easou.com
-DOMAIN-SUFFIX,assets.growingio.com
 DOMAIN-SUFFIX,assets.ps.easou.com
 DOMAIN-SUFFIX,assp.sohu.com
 DOMAIN-SUFFIX,asv.nuggad.net
@@ -2873,6 +2876,7 @@ DOMAIN-SUFFIX,bigbos.top
 DOMAIN-SUFFIX,bigboy.eurogamer.net
 DOMAIN-SUFFIX,billionfocus.com
 DOMAIN-SUFFIX,binaryage-leechgate.herokuapp.com
+DOMAIN-SUFFIX,bingads.com
 DOMAIN-SUFFIX,bingdianhuanyuan.cn
 DOMAIN-SUFFIX,bingyinq.com
 DOMAIN-SUFFIX,biq.keefung-zs.com
@@ -3330,6 +3334,7 @@ DOMAIN-SUFFIX,click.bes.baidu.com
 DOMAIN-SUFFIX,click.cheshi-img.com
 DOMAIN-SUFFIX,click.cheshi.com
 DOMAIN-SUFFIX,click.dangdang.com
+DOMAIN-SUFFIX,click.gamersky.com
 DOMAIN-SUFFIX,click.ganji.com
 DOMAIN-SUFFIX,click.hd.sohu.com
 DOMAIN-SUFFIX,click.hm.baidu.com
@@ -3799,6 +3804,7 @@ DOMAIN-SUFFIX,databank.yoyi.com.cn
 DOMAIN-SUFFIX,datacapture.serving-sys.com
 DOMAIN-SUFFIX,datafastguru.info
 DOMAIN-SUFFIX,datax.baidu.com
+DOMAIN-SUFFIX,datayi.cn
 DOMAIN-SUFFIX,datouniao.com
 DOMAIN-SUFFIX,dawwx.com
 DOMAIN-SUFFIX,day66.com
@@ -4873,6 +4879,8 @@ DOMAIN-SUFFIX,gia.jd.com
 DOMAIN-SUFFIX,gif.lu.sogoucdn.com
 DOMAIN-SUFFIX,gimg.baidu.com
 DOMAIN-SUFFIX,gimg.bitauto.com
+DOMAIN-SUFFIX,gio.ren
+DOMAIN-SUFFIX,giocdn.com
 DOMAIN-SUFFIX,girlcc.cc
 DOMAIN-SUFFIX,gj500.com
 DOMAIN-SUFFIX,gjghy.com
@@ -4957,6 +4965,8 @@ DOMAIN-SUFFIX,gridsum.com
 DOMAIN-SUFFIX,gridsumdissector.cn
 DOMAIN-SUFFIX,gridsumdissector.com
 DOMAIN-SUFFIX,groupa.onlylady.com
+DOMAIN-SUFFIX,growin.cn
+DOMAIN-SUFFIX,growingio.cn
 DOMAIN-SUFFIX,growingio.com
 DOMAIN-SUFFIX,gs307.com
 DOMAIN-SUFFIX,gso0.com
@@ -5255,6 +5265,7 @@ DOMAIN-SUFFIX,iadmatapk.nosdn.127.net
 DOMAIN-SUFFIX,iadmatvideo.nosdn.127.net
 DOMAIN-SUFFIX,iadmusicmat.music.126.net
 DOMAIN-SUFFIX,iadmusicmatvideo.music.126.net
+DOMAIN-SUFFIX,iads.unity3d.com
 DOMAIN-SUFFIX,iads.xinmin.cn
 DOMAIN-SUFFIX,iadsdk.apple.com
 DOMAIN-SUFFIX,ib.adnxs.co
@@ -5605,6 +5616,7 @@ DOMAIN-SUFFIX,j520s.gzcl999.cn
 DOMAIN-SUFFIX,j7182.hfxcsl.cn
 DOMAIN-SUFFIX,ja.gamersky.com
 DOMAIN-SUFFIX,ja1.gamersky.com
+DOMAIN-SUFFIX,ja2.gamersky.com
 DOMAIN-SUFFIX,ja9377.com
 DOMAIN-SUFFIX,jack.okkkk.com
 DOMAIN-SUFFIX,jackaow.com
@@ -6143,6 +6155,8 @@ DOMAIN-SUFFIX,localytics.com
 DOMAIN-SUFFIX,location.ximalaya.com
 DOMAIN-SUFFIX,locdrop.query.yahoo.com
 DOMAIN-SUFFIX,log-dmp.suishenyun.cn
+DOMAIN-SUFFIX,log-upload-os.hoyoverse.com
+DOMAIN-SUFFIX,log-upload.mihoyo.com
 DOMAIN-SUFFIX,log.aliyuncs.com
 DOMAIN-SUFFIX,log.cs.pp.cn
 DOMAIN-SUFFIX,log.hunantv.com
@@ -7606,6 +7620,7 @@ DOMAIN-SUFFIX,public6.com
 DOMAIN-SUFFIX,publicidad.net
 DOMAIN-SUFFIX,publicidad.tv
 DOMAIN-SUFFIX,publish.ad.youth.cn
+DOMAIN-SUFFIX,pubmatic.co.jp
 DOMAIN-SUFFIX,pubmatic.com
 DOMAIN-SUFFIX,pubnative.net
 DOMAIN-SUFFIX,pubnub.com
@@ -8108,6 +8123,7 @@ DOMAIN-SUFFIX,same01.jrj.com.cn
 DOMAIN-SUFFIX,same02.jrj.com.cn
 DOMAIN-SUFFIX,same03.jrj.com.cn
 DOMAIN-SUFFIX,sams.nikonimaging.com
+DOMAIN-SUFFIX,samsungads.com
 DOMAIN-SUFFIX,sangxi.top
 DOMAIN-SUFFIX,sanya1.com
 DOMAIN-SUFFIX,sape.ru
@@ -9459,6 +9475,7 @@ DOMAIN-SUFFIX,wm.baidu.cn
 DOMAIN-SUFFIX,wm.baidu.com
 DOMAIN-SUFFIX,wm.lrswl.com
 DOMAIN-SUFFIX,wm.mipcdn.com
+DOMAIN-SUFFIX,wmbd.gamersky.com
 DOMAIN-SUFFIX,wmcdn.qtmojo.cn
 DOMAIN-SUFFIX,wo.iuni.com.cn
 DOMAIN-SUFFIX,wo685.com

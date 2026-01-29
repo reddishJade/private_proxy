@@ -1,5 +1,5 @@
-# 更新时间: 2026-01-29 08:56:04（北京时间）
-# 规则数量: 217
+# 更新时间: 2026-03-01 20:20:17（北京时间）
+# 规则数量: 222
 DOMAIN,b.c2r.ts.cdn.office.net
 DOMAIN,bg.v4.a.dl.ws.microsoft.com
 DOMAIN,bg4.v4.a.dl.ws.microsoft.com
@@ -21,6 +21,7 @@ DOMAIN,myvs.download.prss.microsoft.com
 DOMAIN,oemsoc.download.prss.microsoft.com
 DOMAIN,officecdn.microsoft.com
 DOMAIN,res-1.cdn.office.net
+DOMAIN,res-2.cdn.office.net
 DOMAIN,res-h3.public.cdn.office.net
 DOMAIN,res.cdn.office.net
 DOMAIN,sdx.microsoft.com
@@ -101,6 +102,7 @@ DOMAIN-SUFFIX,b3itech.cn
 DOMAIN-SUFFIX,bing.com.cn
 DOMAIN-SUFFIX,blueaggrestore.com
 DOMAIN-SUFFIX,bluecloudprod.com
+DOMAIN-SUFFIX,browser.events.data.msn.cn
 DOMAIN-SUFFIX,cbdstest.download.prss.microsoft.com
 DOMAIN-SUFFIX,cegid-cloud.cn
 DOMAIN-SUFFIX,chinacloud-mobile.cn
@@ -136,6 +138,7 @@ DOMAIN-SUFFIX,lync.cn
 DOMAIN-SUFFIX,management-azure-devices-provisioning.cn
 DOMAIN-SUFFIX,management-azure-devices.cn
 DOMAIN-SUFFIX,mbs.download.prss.microsoft.com
+DOMAIN-SUFFIX,mbsuat.download.prss.microsoft.com
 DOMAIN-SUFFIX,mcchcdn.com
 DOMAIN-SUFFIX,mgmt-azure-api.cn
 DOMAIN-SUFFIX,microsoft-smb.cn
@@ -172,8 +175,10 @@ DOMAIN-SUFFIX,msidlabpbmc.cn
 DOMAIN-SUFFIX,msn.cn
 DOMAIN-SUFFIX,mspil.cn
 DOMAIN-SUFFIX,msproduct.download.prss.microsoft.com
+DOMAIN-SUFFIX,msproductuat.download.prss.microsoft.com
 DOMAIN-SUFFIX,msra.cn
 DOMAIN-SUFFIX,myvs.download.prss.microsoft.com
+DOMAIN-SUFFIX,myvsuat.download.prss.microsoft.com
 DOMAIN-SUFFIX,o365cn.com
 DOMAIN-SUFFIX,o365files.cn
 DOMAIN-SUFFIX,oemsoc.download.prss.microsoft.com

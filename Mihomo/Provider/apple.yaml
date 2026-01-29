@@ -1,5 +1,5 @@
-# 更新时间: 2026-01-29 08:55:50（北京时间）
-# 规则数量: 1779
+# 更新时间: 2026-03-01 20:20:02（北京时间）
+# 规则数量: 1784
 payload:
   - +.100beatscheap.com
   - +.12diasdepresentesdeitunes.com
@@ -1549,11 +1549,13 @@ payload:
   - amp-api-edge-lb-cn.itunes-apple.com.akadns.net
   - amp-api-edge-lb.itunes-apple.com.akadns.net
   - amp-api-edge.apps.apple.com
+  - amp-api-edge.music.apple.com
   - amp-api-search-edge.apps.apple.com
   - amp-api-updates.apps.apple.com
   - amp-api.apps.apple.com
   - amp-api.media.apple.com
   - amp-api.music.apple.com
+  - aod-ssl.itunes.apple.com
   - aod.itunes.apple.com
   - api-edge.apps.apple.com
   - app-site-association.cdn-apple.com
@@ -1692,6 +1694,8 @@ payload:
   - misc-assets.itunes.apple.com
   - ml.cdn-apple.com
   - music.apple.com
+  - musicstatus.music.apple.com
+  - mvod.itunes.apple.com
   - myapp.itunes.apple.com
   - notary-submissions-prod.s3-accelerate.amazonaws.com
   - notary-submissions-prod.s3.us-west-2.amazonaws.com
@@ -1736,6 +1740,7 @@ payload:
   - shazam-insights.cdn-apple.com
   - smp-device-content.apple.com
   - sp.itunes.apple.com
+  - speedysub.music.apple.com
   - static.gc.apple.com
   - stocks-sparkline-lb.apple.com.akadns.net
   - stocks-sparkline.apple.com

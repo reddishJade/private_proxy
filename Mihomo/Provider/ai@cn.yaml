@@ -1,5 +1,5 @@
-# 更新时间: 2026-01-29 08:55:49（北京时间）
-# 规则数量: 68
+# 更新时间: 2026-03-01 20:20:01（北京时间）
+# 规则数量: 70
 payload:
   - +.askdiandian.com
   - +.baichuan-ai.com
@@ -39,6 +39,7 @@ payload:
   - +.minimax.chat
   - +.minimax.io
   - +.minimaxi.com
+  - +.moonshot.ai
   - +.moonshot.cn
   - +.myparallelstory.com
   - +.n.cn
@@ -67,5 +68,6 @@ payload:
   - +.yoma.cn
   - +.z.ai
   - +.zhipuai.cn
+  - +.zhipucn.com
   - ai.zhaomi.cn
   - cueme-api.quark.cn
