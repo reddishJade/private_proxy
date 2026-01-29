@@ -1,5 +1,5 @@
-# 更新时间: 2026-01-29 08:55:50（北京时间）
-# 规则数量: 425
+# 更新时间: 2026-03-04 08:56:56（北京时间）
+# 规则数量: 426
 payload:
   - +.a1.mzstatic.com
   - +.a2.mzstatic.com
@@ -126,6 +126,7 @@ payload:
   - +.icloud-apple.cn
   - +.icloud-cdn.icloud.com.akadns.net
   - +.icloud.cdn-apple.com
+  - +.icloud.cn
   - +.icloud.com.cn
   - +.icloud.net.cn
   - +.icloudapple.cn
