@@ -144,13 +144,6 @@ rule-providers:
     interval: 43200
     url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/domestic@ip.mrs
     path: ./rules/domestic@ip.mrs
-  game@ip:
-    type: http
-    format: mrs
-    behavior: ipcidr
-    interval: 43200
-    url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/games@ip.mrs
-    path: ./rules/game@ip.mrs
   private@ip:
     type: http
     format: mrs

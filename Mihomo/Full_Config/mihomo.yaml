@@ -149,7 +149,6 @@ rule-providers:
   streaming:      {<<: *md, url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/streaming.mrs,       path: ./rules/streaming.mrs}
 
   domestic@ip:    {<<: *mi, url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/domestic@ip.mrs,     path: ./rules/domestic@ip.mrs}
-  game@ip:        {<<: *mi, url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/games@ip.mrs,        path: ./rules/game@ip.mrs}
   private@ip:     {<<: *mi, url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/private@ip.mrs,      path: ./rules/private@ip.mrs}
   reject@ip:      {<<: *mi, url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/reject@ip.mrs,       path: ./rules/reject@ip.mrs}
   telegram@ip:    {<<: *mi, url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/telegram@ip.mrs,     path: ./rules/telegram@ip.mrs}
@@ -175,7 +174,6 @@ rules:
 
   - RULE-SET,reject@ip,REJECT
   - RULE-SET,private@ip,DIRECT,no-resolve
-  - RULE-SET,game@ip,Proxy
   - RULE-SET,telegram@ip,Proxy
   - RULE-SET,domestic@ip,DIRECT
 

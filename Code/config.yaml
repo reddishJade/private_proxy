@@ -218,16 +218,6 @@
       format: text
       behavior: domain
 
-- path: output/games@ip.yaml
-  format: yaml
-  behavior: ipcidr
-  upstream:
-    DustinWin_games:
-      type: http
-      url: "https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/gamesip.list"
-      format: text
-      behavior: ipcidr
-
 - path: output/microsoft.yaml
   format: yaml
   behavior: domain
