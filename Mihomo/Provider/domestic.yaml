@@ -1,5 +1,5 @@
-# 更新时间: 2026-03-04 08:57:01（北京时间）
-# 规则数量: 1005
+# 更新时间: 2026-04-05 09:10:31（北京时间）
+# 规则数量: 1006
 payload:
   - +.10010.com
   - +.10086.cn
@@ -235,6 +235,7 @@ payload:
   - +.cloudsigma.com
   - +.cloudxns.net
   - +.cls.cn
+  - +.cm.steampowered.com
   - +.cmbchina.cn
   - +.cmbchina.com
   - +.cmbimg.cn

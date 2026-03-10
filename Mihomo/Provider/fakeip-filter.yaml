@@ -1,5 +1,5 @@
-# 更新时间: 2026-03-04 08:57:04（北京时间）
-# 规则数量: 103
+# 更新时间: 2026-04-05 09:10:34（北京时间）
+# 规则数量: 106
 payload:
   - +.126.net
   - +.3gppnetwork.org
@@ -22,6 +22,8 @@ payload:
   - +.gcloudsdk.com
   - +.home.arpa
   - +.invalid
+  - +.ipv6check-http.steamserver.net
+  - +.ipv6check-udp.steamserver.net
   - +.kk-rays.com
   - +.kuwo.cn
   - +.lan
@@ -51,6 +53,7 @@ payload:
   - +.srv.nintendo.net
   - +.steamcontent.com
   - +.test
+  - +.test.steampowered.com
   - +.time.edu.cn
   - +.uu.163.com
   - +.wargaming.net
