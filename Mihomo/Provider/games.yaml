@@ -1,5 +1,5 @@
-# 更新时间: 2026-03-04 08:57:04（北京时间）
-# 规则数量: 815
+# 更新时间: 2026-03-29 09:09:28（北京时间）
+# 规则数量: 822
 payload:
   - +.100classicbooks.com
   - +.2k.com
@@ -87,6 +87,7 @@ payload:
   - +.cdp.cloud.unity3d.com
   - +.championshipseriesleague.com
   - +.chillingo.com
+  - +.chunkbase.com
   - +.clash.com
   - +.clashmini.com
   - +.clashofclans.com
@@ -327,6 +328,7 @@ payload:
   - +.minecraft-services.net
   - +.minecraft.net
   - +.minecraft.wiki
+  - +.minecraftforge.net
   - +.minecraftservices.com
   - +.minecraftshop.com
   - +.mirrorsedge.com
@@ -341,12 +343,14 @@ payload:
   - +.mojang.com
   - +.molesports.com
   - +.msgamestudios.com
+  - +.muvluv-girls-garden.com
   - +.mysims.com
   - +.mysimsracing.com
   - +.mythicentertainment.com
   - +.mythicentertainment.net
   - +.mythicgames.com
   - +.n0vadesktop.com
+  - +.namemc.com
   - +.needforspeed.com
   - +.needforspeedboost.com
   - +.needforspeeddriftkings.com
@@ -362,6 +366,7 @@ payload:
   - +.needforspeedtimeattack.com
   - +.needforspeedundergroundeast.com
   - +.nentindo.net
+  - +.neoforged.net
   - +.newsupermariobrosu.com
   - +.nexon.co.jp
   - +.nexon.com
@@ -423,6 +428,7 @@ payload:
   - +.offworldindustries.net
   - +.op.gg
   - +.opgg-static.akamaized.net
+  - +.optifine.net
   - +.origin-a.akamaihd.net
   - +.origin.com
   - +.origin.tv
@@ -583,6 +589,7 @@ payload:
   - +.spearhead.kr
   - +.speedhunters.com
   - +.speedrun.com
+  - +.spigotmc.org
   - +.splatoon2tournament.com
   - +.spore.com
   - +.spyjinx.com

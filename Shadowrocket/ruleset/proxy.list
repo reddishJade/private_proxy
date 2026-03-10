@@ -1,5 +1,5 @@
-# 更新时间: 2026-03-04 08:57:16（北京时间）
-# 规则数量: 5371
+# 更新时间: 2026-03-29 09:09:41（北京时间）
+# 规则数量: 5381
 DOMAIN,api.waqi.info
 DOMAIN,aqi.aqicn.org
 DOMAIN,ccmdl.adobe.com
@@ -125,6 +125,7 @@ DOMAIN-SUFFIX,a-normal-day.com
 DOMAIN-SUFFIX,a248.e.akamai.net
 DOMAIN-SUFFIX,aaa.com
 DOMAIN-SUFFIX,aamacau.com
+DOMAIN-SUFFIX,aave.com
 DOMAIN-SUFFIX,abc.com
 DOMAIN-SUFFIX,abc.net.au
 DOMAIN-SUFFIX,abc.xyz
@@ -935,6 +936,7 @@ DOMAIN-SUFFIX,chromercise.com
 DOMAIN-SUFFIX,chromestatus.com
 DOMAIN-SUFFIX,chromium.org
 DOMAIN-SUFFIX,ci-en.jp
+DOMAIN-SUFFIX,cia.gov
 DOMAIN-SUFFIX,cici.com
 DOMAIN-SUFFIX,ciciai.com
 DOMAIN-SUFFIX,circleci.com
@@ -1253,6 +1255,7 @@ DOMAIN-SUFFIX,dmm.co.jp
 DOMAIN-SUFFIX,dns-check.info
 DOMAIN-SUFFIX,dns-leak.com
 DOMAIN-SUFFIX,dns-oarc.net
+DOMAIN-SUFFIX,dns.cloudflare.com
 DOMAIN-SUFFIX,dns2go.com
 DOMAIN-SUFFIX,dnscheck.tools
 DOMAIN-SUFFIX,dnschecker.org
@@ -1293,6 +1296,7 @@ DOMAIN-SUFFIX,dowjones.com
 DOMAIN-SUFFIX,downdetector.com
 DOMAIN-SUFFIX,downdetectorapi.com
 DOMAIN-SUFFIX,download.aircrack-ng.org
+DOMAIN-SUFFIX,download.dappcdn.com
 DOMAIN-SUFFIX,dpool.top
 DOMAIN-SUFFIX,dpp.org.tw
 DOMAIN-SUFFIX,dpr.info
@@ -1962,6 +1966,7 @@ DOMAIN-SUFFIX,google.com.vn
 DOMAIN-SUFFIX,google.cv
 DOMAIN-SUFFIX,google.cz
 DOMAIN-SUFFIX,google.de
+DOMAIN-SUFFIX,google.dev
 DOMAIN-SUFFIX,google.dj
 DOMAIN-SUFFIX,google.dk
 DOMAIN-SUFFIX,google.dm
@@ -2457,6 +2462,7 @@ DOMAIN-SUFFIX,internetpopculture.com
 DOMAIN-SUFFIX,interseclab.org
 DOMAIN-SUFFIX,inthenameofconfuciusmovie.com
 DOMAIN-SUFFIX,intodns.com
+DOMAIN-SUFFIX,investing.com
 DOMAIN-SUFFIX,invidio.us
 DOMAIN-SUFFIX,inxian.com
 DOMAIN-SUFFIX,io.io
@@ -3299,6 +3305,7 @@ DOMAIN-SUFFIX,okayfreedom.com
 DOMAIN-SUFFIX,okcoin.com
 DOMAIN-SUFFIX,okex.com
 DOMAIN-SUFFIX,okk.tw
+DOMAIN-SUFFIX,oklink.com
 DOMAIN-SUFFIX,okpool.me
 DOMAIN-SUFFIX,okx.com
 DOMAIN-SUFFIX,old.honeynet.org
@@ -3938,6 +3945,7 @@ DOMAIN-SUFFIX,shenyunshop.com
 DOMAIN-SUFFIX,shenzhoufilm.com
 DOMAIN-SUFFIX,shenzhouzhengdao.org
 DOMAIN-SUFFIX,shiksha.com
+DOMAIN-SUFFIX,shitjournal.org
 DOMAIN-SUFFIX,shixiao.org
 DOMAIN-SUFFIX,shizhao.org
 DOMAIN-SUFFIX,shodan.io
@@ -5130,11 +5138,13 @@ DOMAIN-SUFFIX,xkcd.com
 DOMAIN-SUFFIX,xm.com
 DOMAIN-SUFFIX,xml-training-guide.com
 DOMAIN-SUFFIX,xn--11xs86f.icu
+DOMAIN-SUFFIX,xn--1jqvh729avzfcy2d8ummib.com
 DOMAIN-SUFFIX,xn--4gq171p.com
 DOMAIN-SUFFIX,xn--9iqy04a7fi01l.com
 DOMAIN-SUFFIX,xn--9pr62r24a.com
 DOMAIN-SUFFIX,xn--czq75pvv1aj5c.org
 DOMAIN-SUFFIX,xn--i2ru8q2qg.com
+DOMAIN-SUFFIX,xn--kcrv3utim32hx9f6qe.com
 DOMAIN-SUFFIX,xn--ngstr-lra8j.com
 DOMAIN-SUFFIX,xn--noss43i.com
 DOMAIN-SUFFIX,xn--oiq.cc

@@ -1,7 +1,8 @@
-# 更新时间: 2026-03-04 08:57:14（北京时间）
-# 规则数量: 70
+# 更新时间: 2026-03-29 09:09:38（北京时间）
+# 规则数量: 73
 DOMAIN,ai.zhaomi.cn
 DOMAIN,cueme-api.quark.cn
+DOMAIN-SUFFIX,aispeech.com
 DOMAIN-SUFFIX,askdiandian.com
 DOMAIN-SUFFIX,baichuan-ai.com
 DOMAIN-SUFFIX,bigmodel.cn
@@ -20,6 +21,8 @@ DOMAIN-SUFFIX,diandianlife.top
 DOMAIN-SUFFIX,doubao.com
 DOMAIN-SUFFIX,doubaocdn.com
 DOMAIN-SUFFIX,doudou.com
+DOMAIN-SUFFIX,dui.ai
+DOMAIN-SUFFIX,duiopen.com
 DOMAIN-SUFFIX,faxingbao.com
 DOMAIN-SUFFIX,hailuoai.com
 DOMAIN-SUFFIX,hi-butterfly.cn
