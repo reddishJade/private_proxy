@@ -1,5 +1,5 @@
-# 更新时间: 2026-03-04 08:57:03（北京时间）
-# 规则数量: 1890
+# 更新时间: 2026-03-15 09:06:54（北京时间）
+# 规则数量: 1895
 payload:
   - +.1fichier.com
   - +.1fichier.info
@@ -507,7 +507,6 @@ payload:
   - +.s3.us-west-2.amazonaws.com
   - +.software-download.microsoft.com
   - +.steamcontent.com
-  - +.steamserver.net
   - +.swupdate.chaos.com
   - +.swupdate.chaosgroup.com
   - +.swupdate.vray.com
@@ -600,6 +599,7 @@ payload:
   - cdn-images.orbstack.dev
   - cdn-patch.swtor.com
   - cdn-updates.orbstack.dev
+  - cdn.affonso.io
   - cdn.azul.com
   - cdn.cocoapods.org
   - cdn.cypress.io
@@ -615,6 +615,7 @@ payload:
   - cdn.powershellgallery.com
   - cdn.repo.cloudeka.id
   - cdn.ubuntu.repo.cloudeka.id
+  - cdn.vemetric.com
   - cdn.winget.microsoft.com
   - cdn.zoom.us
   - cdnorg.d.miui.com
@@ -848,6 +849,7 @@ payload:
   - download.tensorflow.google.com
   - download.todesktop.com
   - download.typora.io
+  - download.umbrel.com
   - download.visualstudio.microsoft.com
   - download.xbox.com
   - download2.epicgames.com
@@ -861,6 +863,7 @@ payload:
   - downloads.lemonsqueezy.com
   - downloads.majestic.com
   - downloads.openwrt.org
+  - downloads.portainer.io
   - downloads.raspberrypi.com
   - downloads.slack-edge.com
   - downloads.sourceforge.net
@@ -1719,6 +1722,7 @@ payload:
   - release.runcloud.io
   - releases.arc.net
   - releases.grapheneos.org
+  - releases.landrop.app
   - releases.obsidian.md
   - releases.stash.ws
   - releases.warp.dev
@@ -1796,6 +1800,7 @@ payload:
   - tug.org
   - tukaani.org
   - tux.rainside.sk
+  - typeless-static.com
   - u.keka.io
   - ubuntu-archive.interhost.co.il
   - ubuntu-archive.locaweb.com.br

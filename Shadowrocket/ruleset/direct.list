@@ -1,5 +1,5 @@
-# 更新时间: 2026-03-04 08:57:14（北京时间）
-# 规则数量: 229
+# 更新时间: 2026-03-15 09:07:06（北京时间）
+# 规则数量: 231
 DOMAIN,aterm.me
 DOMAIN,captive.apple.com
 DOMAIN,connect.rom.miui.com
@@ -16,6 +16,7 @@ DOMAIN,mobile.hotspot
 DOMAIN,ntt.setup
 DOMAIN,pi.hole
 DOMAIN,ping.archlinux.org
+DOMAIN,public.localsend.org
 DOMAIN,redirect.archlinux.org
 DOMAIN,repeater.asus.com
 DOMAIN,router.asus.com
@@ -130,6 +131,7 @@ DOMAIN-SUFFIX,jstor.org
 DOMAIN-SUFFIX,karagarga.in
 DOMAIN-SUFFIX,keepfrds.com
 DOMAIN-SUFFIX,lan
+DOMAIN-SUFFIX,lcdn-locator.apple.com
 DOMAIN-SUFFIX,leaguehd.com
 DOMAIN-SUFFIX,local
 DOMAIN-SUFFIX,localdomain

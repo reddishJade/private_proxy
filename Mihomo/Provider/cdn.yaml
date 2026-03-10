@@ -1,5 +1,5 @@
-# 更新时间: 2026-03-04 08:56:57（北京时间）
-# 规则数量: 4388
+# 更新时间: 2026-03-15 09:06:51（北京时间）
+# 规则数量: 4408
 payload:
   - +.1a-1791.com
   - +.1passwordusercontent.ca
@@ -375,6 +375,7 @@ payload:
   - +.fncstatic.com
   - +.fontawesome.com
   - +.fonts.com
+  - +.fonts.gsma.com
   - +.fonts.net
   - +.forbesimg.com
   - +.forgecdn.net
@@ -610,6 +611,7 @@ payload:
   - +.jsdelivr.net
   - +.jspm.dev
   - +.jspm.io
+  - +.jspm.org
   - +.jstatic.xyz
   - +.jw-cdn.org
   - +.jwpcdn.com
@@ -942,6 +944,7 @@ payload:
   - +.ssl-images-amazon.com
   - +.sstatic.net
   - +.stack.imgur.com
+  - +.stackassets.com
   - +.stackblitz.io
   - +.stapecdn.com
   - +.static-assets.photoshop.adobe.com
@@ -1163,6 +1166,7 @@ payload:
   - +.ziffstatic.com
   - +.ziglang.org
   - +.zippyshare.com
+  - +.zkcdn.net
   - +.zohocdn.com
   - +.zohostatic.com
   - +.zohostatic.eu
@@ -1281,6 +1285,7 @@ payload:
   - assets-growth-common.circleci.com
   - assets-next.matters.news
   - assets-next.mattersprotocol.io
+  - assets-proxy.anthropic.com
   - assets-s3-us-east-1.ceros.com
   - assets-themes.chess.com
   - assets-v2.i-scmp.com
@@ -1332,6 +1337,7 @@ payload:
   - assets.dify.ai
   - assets.dnsfilter.com
   - assets.documentcloud.org
+  - assets.driffle.com
   - assets.dub.co
   - assets.ecomm.ui.com
   - assets.embeddables.com
@@ -1418,6 +1424,7 @@ payload:
   - assets.raspberrypi.com
   - assets.redbullshop.com
   - assets.repair.org
+  - assets.reviews.io
   - assets.safing.io
   - assets.salesmartly.com
   - assets.scaleflex.com
@@ -1425,6 +1432,7 @@ payload:
   - assets.science.nasa.gov
   - assets.sendinblue.com
   - assets.shazam.com
+  - assets.shots.so
   - assets.slater.app
   - assets.sololearn.com
   - assets.speedvitals.com
@@ -1676,6 +1684,7 @@ payload:
   - cdn.adsninja.ca
   - cdn.affine.pro
   - cdn.aimerce.ai
+  - cdn.allkeyshop.com
   - cdn.amcharts.com
   - cdn.amgreatness.com
   - cdn.animenewsnetwork.com
@@ -1703,6 +1712,7 @@ payload:
   - cdn.blogarama.com
   - cdn.bogos.io
   - cdn.boldmethod.com
+  - cdn.boostcommerce.io
   - cdn.botframework.com
   - cdn.branch.io
   - cdn.brandfetch.io
@@ -1761,6 +1771,7 @@ payload:
   - cdn.decrypt.co
   - cdn.decrypt.day
   - cdn.delight-vr.com
+  - cdn.delve.co
   - cdn.designerapp.osi.office.net
   - cdn.designsystem.arm.com
   - cdn.deta.space
@@ -1801,6 +1812,7 @@ payload:
   - cdn.forms.office.net
   - cdn.fosstodon.org
   - cdn.fourthwall.com
+  - cdn.foxycart.com
   - cdn.freebiesupply.com
   - cdn.freecodecamp.org
   - cdn.freesound.org
@@ -1829,6 +1841,7 @@ payload:
   - cdn.hextom.com
   - cdn.highporn.net
   - cdn.hiive.space
+  - cdn.himetrica.com
   - cdn.hinative.com
   - cdn.hk01.com
   - cdn.hongkongcard.com
@@ -2352,6 +2365,7 @@ payload:
   - data.pendo.io
   - data.schemaapp.com
   - data.web.clickup.com
+  - data3.answerbase.com
   - david-dm.org
   - db.onlinewebfonts.com
   - dc-cdn.cdw.com
@@ -2455,6 +2469,7 @@ payload:
   - eu2.hamreus.com
   - eu3.hamreus.com
   - euc-widget.freshworks.com
+  - event-assets.gsma.com
   - event.ithome.com.tw
   - events-delivery.apple.com
   - events-live.apple.com
@@ -2473,6 +2488,7 @@ payload:
   - f002.backblazeb2.com
   - f003.backblazeb2.com
   - f004.backblazeb2.com
+  - fa.gsma.com
   - fast.appcues.com
   - fast.chameleon.io
   - fast.wistia.com
@@ -2567,6 +2583,7 @@ payload:
   - geojson.io
   - geoserveis.icgc.cat
   - gfx-data.news-engineering.aws.wapo.pub
+  - gibs-c.earthdata.nasa.gov
   - gitpkg-fork.vercel.sh
   - global-assets.fitch.group
   - global.divhunt.com
@@ -3057,7 +3074,6 @@ payload:
   - launcher.spot.im
   - launchercontent.mojang.com
   - lc.nssurge.com
-  - lcdn-locator.apple.com
   - learn-attachment.microsoft.com
   - learn.optimizely.com
   - lecontent.sololearn.com
@@ -3102,6 +3118,7 @@ payload:
   - mangaz-books.j-comi.jp
   - mangaz-static.j-comi.jp
   - mantisloader.mantis-awx.com
+  - map.adsbexchange.com
   - map.vesselfinder.net
   - maps.geoapify.com
   - maps.gstatic.com
@@ -3822,6 +3839,7 @@ payload:
   - static.crypto.com
   - static.deepl.com
   - static.doujins.com
+  - static.driffle.com
   - static.drtuber.com
   - static.dw.com
   - static.dzeninfra.ru
@@ -4332,6 +4350,7 @@ payload:
   - website-media.deel.com
   - website-prod.cache.wpscdn.com
   - webstatic.chargebee.com
+  - widget.allkeyshop.com
   - widget.automizely.com
   - widget.datablocks.se
   - widget.docsbot.ai
@@ -4340,6 +4359,7 @@ payload:
   - widget.gotolstoy.com
   - widget.intercom.io
   - widget.kapa.ai
+  - widget.reviews.io
   - widget.trustpilot.com
   - widget.usepylon.com
   - widget.user.com

@@ -1,5 +1,5 @@
-# 更新时间: 2026-03-04 08:56:55（北京时间）
-# 规则数量: 146
+# 更新时间: 2026-03-15 09:06:50（北京时间）
+# 规则数量: 151
 payload:
   - +.ai.com
   - +.ai.studio
@@ -26,10 +26,12 @@ payload:
   - +.cici.com
   - +.ciciai.com
   - +.ciciaicdn.com
+  - +.clau.de
   - +.claude.ai
   - +.claude.com
   - +.claudemcpclient.com
   - +.claudeusercontent.com
+  - +.clawhub.ai
   - +.clipdrop.co
   - +.codeium.com
   - +.codeiumdata.com
@@ -70,6 +72,7 @@ payload:
   - +.groq.com
   - +.gspe1-ssl.ls.apple.com
   - +.guzzoni.apple.com
+  - +.h2o.ai
   - +.hf.co
   - +.hf.space
   - +.host.livekit.cloud
@@ -82,6 +85,7 @@ payload:
   - +.labs.google
   - +.labs.google.com
   - +.liveperson.net
+  - +.lovart.ai
   - +.lpsnmedia.net
   - +.makersuite.google.com
   - +.manus.im
@@ -99,6 +103,7 @@ payload:
   - +.openai.com
   - +.openai.com.cdn.cloudflare.net
   - +.openart.ai
+  - +.openclaw.ai
   - +.openrouter.ai
   - +.oystermercury.top
   - +.perplexity.ai
