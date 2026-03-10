@@ -1,5 +1,5 @@
-# 更新时间: 2026-03-04 08:57:03（北京时间）
-# 规则数量: 1890
+# 更新时间: 2026-03-22 09:02:06（北京时间）
+# 规则数量: 1903
 payload:
   - +.1fichier.com
   - +.1fichier.info
@@ -71,6 +71,7 @@ payload:
   - +.file.io
   - +.filebin.net
   - +.files.1drv.com
+  - +.files.ghostty.org
   - +.finkmirrors.net
   - +.fnbuilds.services
   - +.freemirror.org
@@ -507,7 +508,6 @@ payload:
   - +.s3.us-west-2.amazonaws.com
   - +.software-download.microsoft.com
   - +.steamcontent.com
-  - +.steamserver.net
   - +.swupdate.chaos.com
   - +.swupdate.chaosgroup.com
   - +.swupdate.vray.com
@@ -571,6 +571,7 @@ payload:
   - archive.g4t1.pro
   - archive.kali.org
   - archive.linux.duke.edu
+  - archive.raspberrypi.com
   - artifacts.electronjs.org
   - assets-production.packagecloud.io
   - assets1.xboxlive.com
@@ -586,6 +587,7 @@ payload:
   - blzddist2-a.akamaihd.net
   - blzddist3-a.akamaihd.net
   - blzddistkr1-a.akamaihd.net
+  - boot.arcboxcdn.com
   - boot.netboot.xyz
   - builds.paranoidandroid.co
   - builds.parsec.app
@@ -600,6 +602,7 @@ payload:
   - cdn-images.orbstack.dev
   - cdn-patch.swtor.com
   - cdn-updates.orbstack.dev
+  - cdn.affonso.io
   - cdn.azul.com
   - cdn.cocoapods.org
   - cdn.cypress.io
@@ -615,6 +618,7 @@ payload:
   - cdn.powershellgallery.com
   - cdn.repo.cloudeka.id
   - cdn.ubuntu.repo.cloudeka.id
+  - cdn.vemetric.com
   - cdn.winget.microsoft.com
   - cdn.zoom.us
   - cdnorg.d.miui.com
@@ -660,6 +664,7 @@ payload:
   - cpan.uni-altai.ru
   - cpan.webdesk.ru
   - cpan.zbr.pt
+  - cr.yandex
   - crysys.hit.bme.hu
   - ctan.altspu.ru
   - ctan.crest.fr
@@ -771,6 +776,7 @@ payload:
   - dl.iina.io
   - dl.imobie.com
   - dl.l.google.com
+  - dl.min.io
   - dl.motrix.app
   - dl.nssurge.com
   - dl.nwjs.io
@@ -848,8 +854,10 @@ payload:
   - download.tensorflow.google.com
   - download.todesktop.com
   - download.typora.io
+  - download.umbrel.com
   - download.visualstudio.microsoft.com
   - download.xbox.com
+  - download01.logi.com
   - download2.epicgames.com
   - download3.epicgames.com
   - download4.epicgames.com
@@ -860,7 +868,9 @@ payload:
   - downloads.cursor.com
   - downloads.lemonsqueezy.com
   - downloads.majestic.com
+  - downloads.marketplace.jetbrains.com
   - downloads.openwrt.org
+  - downloads.portainer.io
   - downloads.raspberrypi.com
   - downloads.slack-edge.com
   - downloads.sourceforge.net
@@ -1143,6 +1153,7 @@ payload:
   - maven.google.com
   - maven.is-quite.gay
   - maven.neoforged.net
+  - mcr.microsoft.com
   - mediafilez.forgecdn.net
   - merlin.fit.vutbr.cz
   - meta.omaps.app
@@ -1719,6 +1730,7 @@ payload:
   - release.runcloud.io
   - releases.arc.net
   - releases.grapheneos.org
+  - releases.landrop.app
   - releases.obsidian.md
   - releases.stash.ws
   - releases.warp.dev
@@ -1796,6 +1808,7 @@ payload:
   - tug.org
   - tukaani.org
   - tux.rainside.sk
+  - typeless-static.com
   - u.keka.io
   - ubuntu-archive.interhost.co.il
   - ubuntu-archive.locaweb.com.br

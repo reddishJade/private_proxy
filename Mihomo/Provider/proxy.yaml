@@ -1,5 +1,5 @@
-# 更新时间: 2026-03-04 08:57:07（北京时间）
-# 规则数量: 5295
+# 更新时间: 2026-03-22 09:02:10（北京时间）
+# 规则数量: 5303
 payload:
   - +.000webhost.com
   - +.0rz.tw
@@ -100,6 +100,7 @@ payload:
   - +.a248.e.akamai.net
   - +.aaa.com
   - +.aamacau.com
+  - +.aave.com
   - +.abc.com
   - +.abc.net.au
   - +.abc.xyz
@@ -910,6 +911,7 @@ payload:
   - +.chromestatus.com
   - +.chromium.org
   - +.ci-en.jp
+  - +.cia.gov
   - +.cici.com
   - +.ciciai.com
   - +.circleci.com
@@ -1228,6 +1230,7 @@ payload:
   - +.dns-check.info
   - +.dns-leak.com
   - +.dns-oarc.net
+  - +.dns.cloudflare.com
   - +.dns2go.com
   - +.dnscheck.tools
   - +.dnschecker.org
@@ -1268,6 +1271,7 @@ payload:
   - +.downdetector.com
   - +.downdetectorapi.com
   - +.download.aircrack-ng.org
+  - +.download.dappcdn.com
   - +.dpool.top
   - +.dpp.org.tw
   - +.dpr.info
@@ -1937,6 +1941,7 @@ payload:
   - +.google.cv
   - +.google.cz
   - +.google.de
+  - +.google.dev
   - +.google.dj
   - +.google.dk
   - +.google.dm
@@ -2432,6 +2437,7 @@ payload:
   - +.interseclab.org
   - +.inthenameofconfuciusmovie.com
   - +.intodns.com
+  - +.investing.com
   - +.invidio.us
   - +.inxian.com
   - +.io.io
@@ -3274,6 +3280,7 @@ payload:
   - +.okcoin.com
   - +.okex.com
   - +.okk.tw
+  - +.oklink.com
   - +.okpool.me
   - +.okx.com
   - +.old.honeynet.org
@@ -3913,6 +3920,7 @@ payload:
   - +.shenzhoufilm.com
   - +.shenzhouzhengdao.org
   - +.shiksha.com
+  - +.shitjournal.org
   - +.shixiao.org
   - +.shizhao.org
   - +.shodan.io
