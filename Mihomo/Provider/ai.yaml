@@ -1,8 +1,10 @@
-# 更新时间: 2026-03-04 08:56:55（北京时间）
-# 规则数量: 146
+# 更新时间: 2026-04-26 20:34:51（北京时间）
+# 规则数量: 167
 payload:
+  - +.agentclientprotocol.com
   - +.ai.com
   - +.ai.studio
+  - +.aicode.googleapis.com
   - +.aida.googleapis.com
   - +.aisandbox-pa.googleapis.com
   - +.aistudio.google.com
@@ -26,10 +28,12 @@ payload:
   - +.cici.com
   - +.ciciai.com
   - +.ciciaicdn.com
+  - +.clau.de
   - +.claude.ai
   - +.claude.com
   - +.claudemcpclient.com
   - +.claudeusercontent.com
+  - +.clawhub.ai
   - +.clipdrop.co
   - +.codeium.com
   - +.codeiumdata.com
@@ -43,6 +47,7 @@ payload:
   - +.copilot.microsoft.com
   - +.coze.com
   - +.cp4.cloudflare.com
+  - +.crewai.com
   - +.crixet.com
   - +.cursor-cdn.com
   - +.cursor.com
@@ -58,6 +63,9 @@ payload:
   - +.duck.ai
   - +.elevenlabs.com
   - +.elevenlabs.io
+  - +.envato-static.com
+  - +.envato.com
+  - +.envatousercontent.com
   - +.gateway.ai.cloudflare.com
   - +.geller-pa.googleapis.com
   - +.gemini.google
@@ -70,6 +78,7 @@ payload:
   - +.groq.com
   - +.gspe1-ssl.ls.apple.com
   - +.guzzoni.apple.com
+  - +.h2o.ai
   - +.hf.co
   - +.hf.space
   - +.host.livekit.cloud
@@ -81,28 +90,36 @@ payload:
   - +.kiro.dev
   - +.labs.google
   - +.labs.google.com
+  - +.langchain.com
   - +.liveperson.net
+  - +.lmstudio.ai
+  - +.lovart.ai
   - +.lpsnmedia.net
   - +.makersuite.google.com
   - +.manus.im
   - +.manuscdn.com
   - +.marscode.com
   - +.meta.ai
+  - +.meta.com
   - +.microsoftonline.com
+  - +.minimax.io
   - +.mistral.ai
   - +.notebooklm.google
   - +.notebooklm.google.com
   - +.oaistatic.com
   - +.oaiusercontent.com
+  - +.ollama.com
   - +.opal.google
   - +.opal.google.com
   - +.openai.com
   - +.openai.com.cdn.cloudflare.net
   - +.openart.ai
+  - +.openclaw.ai
   - +.openrouter.ai
   - +.oystermercury.top
   - +.perplexity.ai
   - +.perplexity.com
+  - +.plannotator.ai
   - +.poe.com
   - +.poecdn.net
   - +.pplx.ai
@@ -110,7 +127,11 @@ payload:
   - +.robinfrontend-pa.googleapis.com
   - +.smoot.apple.com
   - +.sora.com
+  - +.spicywriter.com
+  - +.stitch.withgoogle.com
+  - +.themeforest.net
   - +.trae.ai
+  - +.traeapi.us
   - +.turn.livekit.cloud
   - +.windsurf.build
   - +.windsurf.com

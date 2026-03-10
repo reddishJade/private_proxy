@@ -1,13 +1,15 @@
-# 更新时间: 2026-03-04 08:56:55（北京时间）
-# 规则数量: 70
+# 更新时间: 2026-04-26 20:34:51（北京时间）
+# 规则数量: 80
 payload:
+  - +.aispeech.com
   - +.askdiandian.com
   - +.baichuan-ai.com
   - +.bigmodel.cn
-  - +.botvip.cn
   - +.butterfly-static.cn
   - +.butterflyai.cn
   - +.chatglm.cn
+  - +.clawhub-mirror.com
+  - +.codebuddy.cn
   - +.coze.cn
   - +.coze.site
   - +.cozebaas.cn
@@ -19,12 +21,16 @@ payload:
   - +.doubao.com
   - +.doubaocdn.com
   - +.doudou.com
+  - +.dui.ai
+  - +.duiopen.com
   - +.faxingbao.com
   - +.hailuoai.com
   - +.hi-butterfly.cn
   - +.hunyuan.tencent.com
   - +.kimi.com
   - +.liblib.art
+  - +.liblib.cloud
+  - +.liblib.tv
   - +.maoxiangai.com
   - +.marscode.cn
   - +.marscode.com.cn
@@ -52,6 +58,8 @@ payload:
   - +.qwenlm.ai
   - +.rwkv.cn
   - +.rwkv.com
+  - +.skillhub.cn
+  - +.tapnow.top
   - +.tcwqqdy.guru
   - +.tiangong.cn
   - +.tongyi.aliyun.com
@@ -66,7 +74,9 @@ payload:
   - +.xingyeai.com
   - +.yiyan.baidu.com
   - +.yoma.cn
+  - +.yuanqi.tencent.com
   - +.z.ai
+  - +.zhiexa.com
   - +.zhipuai.cn
   - +.zhipucn.com
   - ai.zhaomi.cn

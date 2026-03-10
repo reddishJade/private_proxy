@@ -1,5 +1,5 @@
-# 更新时间: 2026-03-04 08:57:07（北京时间）
-# 规则数量: 5295
+# 更新时间: 2026-04-26 20:34:55（北京时间）
+# 规则数量: 5310
 payload:
   - +.000webhost.com
   - +.0rz.tw
@@ -100,6 +100,7 @@ payload:
   - +.a248.e.akamai.net
   - +.aaa.com
   - +.aamacau.com
+  - +.aave.com
   - +.abc.com
   - +.abc.net.au
   - +.abc.xyz
@@ -201,6 +202,7 @@ payload:
   - +.allfinegirls.com
   - +.allinfa.com
   - +.allmovie.com
+  - +.alotporn.com
   - +.alternate-tools.com
   - +.altrec.com
   - +.alwaysdata.com
@@ -243,11 +245,10 @@ payload:
   - +.anilist.co
   - +.animes.garden
   - +.aniscartujo.com
-  - +.annas-archive.in
-  - +.annas-archive.li
+  - +.annas-archive.gd
+  - +.annas-archive.gl
   - +.annas-archive.org
-  - +.annas-archive.pm
-  - +.annas-archive.se
+  - +.annas-archive.pk
   - +.anobii.com
   - +.anonfiles.com
   - +.anonymouse.org
@@ -298,6 +299,7 @@ payload:
   - +.apnews.com
   - +.app.box.com
   - +.app.cloudcone.com
+  - +.app.element.io
   - +.app.smartmailcloud.com
   - +.appadvice.com
   - +.appbrain.com
@@ -344,6 +346,7 @@ payload:
   - +.asianfanfics.com
   - +.asiansexdiary.com
   - +.asiaone.com
+  - +.asiasociety.org
   - +.ask.com
   - +.askstudent.com
   - +.askubuntu.com
@@ -385,6 +388,7 @@ payload:
   - +.avg.com
   - +.avgle.com
   - +.avidemux.org
+  - +.avistaz.to
   - +.avmo.pw
   - +.avmoo.pw
   - +.avoision.com
@@ -469,6 +473,7 @@ payload:
   - +.beijing2022.art
   - +.beijingspring.com
   - +.bell.wiki
+  - +.bellingcat.com
   - +.berlinerbericht.de
   - +.berlintwitterwall.com
   - +.bestbuy.com
@@ -910,6 +915,7 @@ payload:
   - +.chromestatus.com
   - +.chromium.org
   - +.ci-en.jp
+  - +.cia.gov
   - +.cici.com
   - +.ciciai.com
   - +.circleci.com
@@ -1228,6 +1234,8 @@ payload:
   - +.dns-check.info
   - +.dns-leak.com
   - +.dns-oarc.net
+  - +.dns.cloudflare.com
+  - +.dns.sb
   - +.dns2go.com
   - +.dnscheck.tools
   - +.dnschecker.org
@@ -1246,6 +1254,7 @@ payload:
   - +.dockerstatus.com
   - +.docs.new
   - +.documentingreality.com
+  - +.doh.sb
   - +.dolc.de
   - +.dolf.org.hk
   - +.dongtaiwang.com
@@ -1253,6 +1262,7 @@ payload:
   - +.doom9.org
   - +.doosho.com
   - +.doourbest.org
+  - +.dot.sb
   - +.dotplane.com
   - +.dotsub.com
   - +.dotvpn.com
@@ -1267,7 +1277,7 @@ payload:
   - +.dowjones.com
   - +.downdetector.com
   - +.downdetectorapi.com
-  - +.download.aircrack-ng.org
+  - +.download.dappcdn.com
   - +.dpool.top
   - +.dpp.org.tw
   - +.dpr.info
@@ -1671,6 +1681,7 @@ payload:
   - +.gaoming.net
   - +.gaopi.net
   - +.garena.com
+  - +.garmin.com
   - +.gartlive.com
   - +.gartner.com
   - +.garudalinux.org
@@ -1937,6 +1948,7 @@ payload:
   - +.google.cv
   - +.google.cz
   - +.google.de
+  - +.google.dev
   - +.google.dj
   - +.google.dk
   - +.google.dm
@@ -2197,8 +2209,6 @@ payload:
   - +.hk.gradconnection.com
   - +.hk.jiepang.com
   - +.hk01.com
-  - +.hkacg.com
-  - +.hkacg.net
   - +.hkbookcity.com
   - +.hkchronicles.com
   - +.hkcnews.com
@@ -2430,8 +2440,10 @@ payload:
   - +.internetfreedom.org
   - +.internetpopculture.com
   - +.interseclab.org
+  - +.intervals.icu
   - +.inthenameofconfuciusmovie.com
   - +.intodns.com
+  - +.investing.com
   - +.invidio.us
   - +.inxian.com
   - +.io.io
@@ -2473,6 +2485,7 @@ payload:
   - +.ismaelan.com
   - +.ismprofessional.net
   - +.israbox.com
+  - +.issues.chromium.org
   - +.issuu.com
   - +.istatmenus.app
   - +.istockphoto.com
@@ -2661,6 +2674,7 @@ payload:
   - +.lamayeshe.com
   - +.lamnia.co.uk
   - +.landofhope.tv
+  - +.lantern.io
   - +.laogai.org
   - +.laogairesearch.org
   - +.laqingdan.net
@@ -2812,6 +2826,7 @@ payload:
   - +.madou.club
   - +.madrau.com
   - +.madthumbs.com
+  - +.magic.link
   - +.mahjongsoul.com
   - +.mailchimp.com
   - +.main-ecnpaper-economist.content.pugpig.com
@@ -2960,6 +2975,7 @@ payload:
   - +.missav.ws
   - +.missav123.com
   - +.misskey.io
+  - +.mistral.ai
   - +.mitbbs.com
   - +.miuipolska.pl
   - +.mixcloud.com
@@ -3040,7 +3056,6 @@ payload:
   - +.muzu.tv
   - +.mvg.jp
   - +.mx
-  - +.mx981.com
   - +.my
   - +.my-private-network.co.uk
   - +.my.pcloud.com
@@ -3274,6 +3289,7 @@ payload:
   - +.okcoin.com
   - +.okex.com
   - +.okk.tw
+  - +.oklink.com
   - +.okpool.me
   - +.okx.com
   - +.old.honeynet.org
@@ -3313,6 +3329,7 @@ payload:
   - +.ooyala.com
   - +.open.firstory.me
   - +.openai.com
+  - +.openart.ai
   - +.opencollective.com
   - +.opencritic.com
   - +.opendemocracy.net
@@ -3628,7 +3645,6 @@ payload:
   - +.putty.org
   - +.pximg.net
   - +.python.com.tw
-  - +.pytorch.org
   - +.qbittorrent.org
   - +.qgirl.com.tw
   - +.qi-gong.me
@@ -3686,6 +3702,7 @@ payload:
   - +.raw.githack.com
   - +.rawgit.com
   - +.rawgithub.com
+  - +.rawstory.com
   - +.rcam.target.com
   - +.rcinet.ca
   - +.rd.com
@@ -3704,6 +3721,7 @@ payload:
   - +.reason.com
   - +.recaptcha.net
   - +.recombee.com
+  - +.recordedfuture.com
   - +.recoveryversion.com.tw
   - +.red-lang.org
   - +.redbubble.com
@@ -3759,6 +3777,7 @@ payload:
   - +.rlwlw.com
   - +.rmbl.ws
   - +.ro
+  - +.roblox.com
   - +.roboflow.com
   - +.robustnessiskey.com
   - +.rocket-inc.net
@@ -3799,13 +3818,6 @@ payload:
   - +.s-cute.com
   - +.s.yimg.com
   - +.s3-ap-northeast-1.amazonaws.com
-  - +.s3-ap-northeast-2.amazonaws.com
-  - +.s3-ap-southeast-1.amazonaws.com
-  - +.s3-ap-southeast-2.amazonaws.com
-  - +.s3-eu-central-1.amazonaws.com
-  - +.s3.ap-northeast-2.amazonaws.com
-  - +.s3.eu-central-1.amazonaws.com
-  - +.s3.us-east-1.amazonaws.com
   - +.sa
   - +.sacks.com
   - +.sacom.hk
@@ -3830,6 +3842,7 @@ payload:
   - +.saveuighur.org
   - +.sb
   - +.sbme.me
+  - +.sbti.unun.dev
   - +.sc-cdn.net
   - +.scache.vzw.com
   - +.scache1.vzw.com
@@ -3913,6 +3926,7 @@ payload:
   - +.shenzhoufilm.com
   - +.shenzhouzhengdao.org
   - +.shiksha.com
+  - +.shitjournal.org
   - +.shixiao.org
   - +.shizhao.org
   - +.shodan.io
@@ -4039,7 +4053,6 @@ payload:
   - +.southnews.com.tw
   - +.southpark.cc.com
   - +.sowers.org.hk
-  - +.soylentnews.org
   - +.spaces.hightail.com
   - +.spacex.com
   - +.spankbang.com
@@ -4231,6 +4244,7 @@ payload:
   - +.tbssqh.org
   - +.teachparentstech.org
   - +.teamviewer.com
+  - +.techbang.com
   - +.techcrunch.com
   - +.technews.tw
   - +.technorati.com
@@ -4250,7 +4264,6 @@ payload:
   - +.telegram.org
   - +.telegram.space
   - +.telegramdownload.com
-  - +.telegraph.co.uk
   - +.telesco.pe
   - +.tellapart.com
   - +.temu.com
@@ -4314,6 +4327,7 @@ payload:
   - +.thewirechina.com
   - +.theync.com
   - +.thingiverse.com
+  - +.thinkchina.sg
   - +.thinkgeek.com
   - +.thinkingtaiwan.com
   - +.thinkwithgoogle.com
@@ -4833,7 +4847,6 @@ payload:
   - +.vrsmash.com
   - +.vsco.co
   - +.vtunnel.com
-  - +.vuku.cc
   - +.vultr.com
   - +.vultryhw.com
   - +.vxtwitter.com
@@ -4960,6 +4973,7 @@ payload:
   - +.wikiquote.org
   - +.wikis.tw
   - +.wikisource.org
+  - +.wikissl.com
   - +.wikiunblocked.org
   - +.wikiversity.org
   - +.wikivoyage.org
@@ -5099,17 +5113,18 @@ payload:
   - +.xinjiangpolicefiles.org
   - +.xinmiao.com.hk
   - +.xiti.com
-  - +.xjp.cc
   - +.xjtravelguide.com
   - +.xkcd.com
   - +.xm.com
   - +.xml-training-guide.com
   - +.xn--11xs86f.icu
+  - +.xn--1jqvh729avzfcy2d8ummib.com
   - +.xn--4gq171p.com
   - +.xn--9iqy04a7fi01l.com
   - +.xn--9pr62r24a.com
   - +.xn--czq75pvv1aj5c.org
   - +.xn--i2ru8q2qg.com
+  - +.xn--kcrv3utim32hx9f6qe.com
   - +.xn--ngstr-lra8j.com
   - +.xn--noss43i.com
   - +.xn--oiq.cc

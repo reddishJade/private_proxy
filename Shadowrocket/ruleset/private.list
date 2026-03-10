@@ -1,8 +1,9 @@
-# 更新时间: 2026-03-04 08:57:16（北京时间）
-# 规则数量: 159
+# 更新时间: 2026-04-26 20:35:02（北京时间）
+# 规则数量: 157
 DOMAIN,asusrouter.com
 DOMAIN,board.zash.run.place
 DOMAIN,instant.arubanetworks.com
+DOMAIN,local.adguard.org
 DOMAIN,metacubex.github.io
 DOMAIN,metacubexd.pages.dev
 DOMAIN,miwifi.com
@@ -14,10 +15,7 @@ DOMAIN,tplogin.cn
 DOMAIN,www.asusrouter.com
 DOMAIN,www.miwifi.com
 DOMAIN,www.routerlogin.com
-DOMAIN,yacd.haishan.me
 DOMAIN,yacd.metacubex.one
-DOMAIN-SUFFIX,0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa
-DOMAIN-SUFFIX,0.in-addr.arpa
 DOMAIN-SUFFIX,1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa
 DOMAIN-SUFFIX,10.in-addr.arpa
 DOMAIN-SUFFIX,100.100.in-addr.arpa
@@ -119,6 +117,7 @@ DOMAIN-SUFFIX,hiwifi.com
 DOMAIN-SUFFIX,home.arpa
 DOMAIN-SUFFIX,internal
 DOMAIN-SUFFIX,invalid
+DOMAIN-SUFFIX,kis.v2.scr.kaspersky-labs.com
 DOMAIN-SUFFIX,lan
 DOMAIN-SUFFIX,leike.cc
 DOMAIN-SUFFIX,local
@@ -135,7 +134,6 @@ DOMAIN-SUFFIX,router.ctc
 DOMAIN-SUFFIX,routerlogin.com
 DOMAIN-SUFFIX,tendawifi.com
 DOMAIN-SUFFIX,test
-DOMAIN-SUFFIX,test.steampowered.com
 DOMAIN-SUFFIX,tplinkwifi.net
 DOMAIN-SUFFIX,tplogin.cn
 DOMAIN-SUFFIX,ts.net

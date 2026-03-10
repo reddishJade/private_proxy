@@ -1,8 +1,6 @@
-# 更新时间: 2026-03-04 08:57:06（北京时间）
-# 规则数量: 141
+# 更新时间: 2026-04-26 20:34:54（北京时间）
+# 规则数量: 139
 payload:
-  - +.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa
-  - +.0.in-addr.arpa
   - +.1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa
   - +.10.in-addr.arpa
   - +.100.100.in-addr.arpa
@@ -104,6 +102,7 @@ payload:
   - +.home.arpa
   - +.internal
   - +.invalid
+  - +.kis.v2.scr.kaspersky-labs.com
   - +.lan
   - +.leike.cc
   - +.local
@@ -120,7 +119,6 @@ payload:
   - +.routerlogin.com
   - +.tendawifi.com
   - +.test
-  - +.test.steampowered.com
   - +.tplinkwifi.net
   - +.tplogin.cn
   - +.ts.net
@@ -129,6 +127,7 @@ payload:
   - asusrouter.com
   - board.zash.run.place
   - instant.arubanetworks.com
+  - local.adguard.org
   - metacubex.github.io
   - metacubexd.pages.dev
   - miwifi.com
@@ -140,5 +139,4 @@ payload:
   - www.asusrouter.com
   - www.miwifi.com
   - www.routerlogin.com
-  - yacd.haishan.me
   - yacd.metacubex.one

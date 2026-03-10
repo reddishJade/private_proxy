@@ -1,6 +1,7 @@
-# 更新时间: 2026-03-04 08:57:01（北京时间）
-# 规则数量: 229
+# 更新时间: 2026-04-26 20:34:52（北京时间）
+# 规则数量: 233
 payload:
+  - DOMAIN,127.skk.moe
   - DOMAIN,aterm.me
   - DOMAIN,captive.apple.com
   - DOMAIN,connect.rom.miui.com
@@ -17,6 +18,7 @@ payload:
   - DOMAIN,ntt.setup
   - DOMAIN,pi.hole
   - DOMAIN,ping.archlinux.org
+  - DOMAIN,public.localsend.org
   - DOMAIN,redirect.archlinux.org
   - DOMAIN,repeater.asus.com
   - DOMAIN,router.asus.com
@@ -32,8 +34,6 @@ payload:
   - DOMAIN-KEYWORD,wanfangdata
   - DOMAIN-KEYWORD,westlawchina
   - DOMAIN-SUFFIX,10.in-addr.arpa
-  - DOMAIN-SUFFIX,127.0.0.1.sslip.io
-  - DOMAIN-SUFFIX,127.atlas.skk.moe
   - DOMAIN-SUFFIX,16.172.in-addr.arpa
   - DOMAIN-SUFFIX,168.192.in-addr.arpa
   - DOMAIN-SUFFIX,17.172.in-addr.arpa
@@ -124,6 +124,8 @@ payload:
   - DOMAIN-SUFFIX,icetorrent.org
   - DOMAIN-SUFFIX,ieee.org
   - DOMAIN-SUFFIX,internal
+  - DOMAIN-SUFFIX,ipv6check-http.steamserver.net
+  - DOMAIN-SUFFIX,ipv6check-udp.steamserver.net
   - DOMAIN-SUFFIX,j99.info
   - DOMAIN-SUFFIX,joyhd.net
   - DOMAIN-SUFFIX,jpopsuki.eu
@@ -131,6 +133,7 @@ payload:
   - DOMAIN-SUFFIX,karagarga.in
   - DOMAIN-SUFFIX,keepfrds.com
   - DOMAIN-SUFFIX,lan
+  - DOMAIN-SUFFIX,lcdn-locator.apple.com
   - DOMAIN-SUFFIX,leaguehd.com
   - DOMAIN-SUFFIX,local
   - DOMAIN-SUFFIX,localdomain
@@ -179,6 +182,7 @@ payload:
   - DOMAIN-SUFFIX,springer.com
   - DOMAIN-SUFFIX,springernature.com
   - DOMAIN-SUFFIX,springsunday.net
+  - DOMAIN-SUFFIX,test.steampowered.com
   - DOMAIN-SUFFIX,tjupt.org
   - DOMAIN-SUFFIX,totheglory.im
   - DOMAIN-SUFFIX,tplinkap.net
