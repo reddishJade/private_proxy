@@ -1,5 +1,5 @@
-# 更新时间: 2026-04-27 09:20:48（北京时间）
-# 规则数量: 4460
+# 更新时间: 2026-05-14 09:51:19（北京时间）
+# 规则数量: 4472
 payload:
   - +.1a-1791.com
   - +.1passwordusercontent.ca
@@ -1034,12 +1034,14 @@ payload:
   - +.tile.openstreetmap.de
   - +.tile.openstreetmap.fr
   - +.tile.openstreetmap.org
+  - +.tile.opentopomap.org
   - +.tile.osm.ch
   - +.tile.osm.org
   - +.tile.osmz.ru
   - +.tile.stamen.com
   - +.tile.thunderforest.com
   - +.tiles-api.maps.komoot.net
+  - +.tiles.freemap.sk
   - +.tiles.mapbox.com
   - +.tiles.virtualearth.net
   - +.tindiemedia.com
@@ -1679,6 +1681,7 @@ payload:
   - cdn-stamplib.casetify.com
   - cdn-static-1.medium.com
   - cdn-static-push.porndig.com
+  - cdn-static.okendo.io
   - cdn-static.paw.cloud
   - cdn-static.talent.com
   - cdn-swell-assets.yotpo.com
@@ -1715,6 +1718,7 @@ payload:
   - cdn.announcekit.app
   - cdn.answeroverflow.com
   - cdn.app.fossa.com
+  - cdn.app.metorik.com
   - cdn.app.neononepay.com
   - cdn.apponic.com
   - cdn.aptoide.com
@@ -1927,6 +1931,7 @@ payload:
   - cdn.matterhorn.app
   - cdn.mcauto-images-production.sendgrid.net
   - cdn.mcr.ea.com
+  - cdn.mer.run
   - cdn.mercury.com
   - cdn.metadata.io
   - cdn.mewe.com
@@ -2069,6 +2074,7 @@ payload:
   - cdn.svgator.com
   - cdn.svgporn.com
   - cdn.syftdata.com
+  - cdn.tabarn.ap
   - cdn.tailwindcss.com
   - cdn.tatlerasia.com
   - cdn.techcommunity.microsoft.com
@@ -2105,6 +2111,7 @@ payload:
   - cdn.vector.co
   - cdn.verifypass.com
   - cdn.viafoura.net
+  - cdn.videy.co
   - cdn.vidyard.com
   - cdn.viglink.com
   - cdn.violet.vin
@@ -2600,6 +2607,7 @@ payload:
   - front-resource.fs.com
   - frontend-apps.workos.com
   - frontend-assets.supabase.com
+  - frontend-cdn.perplexity.ai
   - frontend.floatplane.com
   - fs.mingpao.com
   - fscdn.eppo.cloud
@@ -2614,6 +2622,7 @@ payload:
   - geoip-js.com
   - geojson.io
   - geoserveis.icgc.cat
+  - get-it-on.codeberg.org
   - gfx-data.news-engineering.aws.wapo.pub
   - gibs-c.earthdata.nasa.gov
   - gis.pinkbike.org
@@ -3159,6 +3168,7 @@ payload:
   - maps.gstatic.com
   - maps.wikimedia.org
   - maps.wplace.live
+  - mapserver.mapy.cz
   - maptile.osmand.net
   - marber-cdn.economist.com
   - marfeelexperimentsexperienceengine.mrf.io
@@ -3701,6 +3711,7 @@ payload:
   - share-assets.fe.garmin.com
   - share.chessbase.com
   - shell.cdn.office.net
+  - shields.rbtlog.dev
   - shots.codepen.io
   - showcase.abovemarket.com
   - sig.grumpybumpers.com
@@ -4201,7 +4212,6 @@ payload:
   - tile.loc.gov
   - tile.mtbmap.cz
   - tile.nextzen.org
-  - tile.opentopomap.org
   - tile.openweathermap.org
   - tile.osm.be
   - tile.osmand.net
@@ -4232,6 +4242,7 @@ payload:
   - tiles.openskimap.org
   - tiles.planet.com
   - tiles.stadiamaps.com
+  - tiles.strava.com
   - tiles.terria.io
   - tiles.versatiles.org
   - tiles.windy.com
@@ -4299,6 +4310,7 @@ payload:
   - upload.teftera.com
   - upload.wikimedia.org
   - uploads-cdn.omnicalculator.com
+  - uploads.bikeindex.org
   - uploads.codesandbox.io
   - uploads.guim.co.uk
   - uploads.linear.app

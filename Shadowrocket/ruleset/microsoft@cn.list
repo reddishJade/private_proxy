@@ -1,5 +1,5 @@
-# 更新时间: 2026-04-27 09:21:02（北京时间）
-# 规则数量: 222
+# 更新时间: 2026-05-14 09:51:42（北京时间）
+# 规则数量: 217
 DOMAIN,b.c2r.ts.cdn.office.net
 DOMAIN,bg.v4.a.dl.ws.microsoft.com
 DOMAIN,bg4.v4.a.dl.ws.microsoft.com
@@ -138,7 +138,6 @@ DOMAIN-SUFFIX,lync.cn
 DOMAIN-SUFFIX,management-azure-devices-provisioning.cn
 DOMAIN-SUFFIX,management-azure-devices.cn
 DOMAIN-SUFFIX,mbs.download.prss.microsoft.com
-DOMAIN-SUFFIX,mbsuat.download.prss.microsoft.com
 DOMAIN-SUFFIX,mcchcdn.com
 DOMAIN-SUFFIX,mgmt-azure-api.cn
 DOMAIN-SUFFIX,microsoft-smb.cn
@@ -175,10 +174,8 @@ DOMAIN-SUFFIX,msidlabpbmc.cn
 DOMAIN-SUFFIX,msn.cn
 DOMAIN-SUFFIX,mspil.cn
 DOMAIN-SUFFIX,msproduct.download.prss.microsoft.com
-DOMAIN-SUFFIX,msproductuat.download.prss.microsoft.com
 DOMAIN-SUFFIX,msra.cn
 DOMAIN-SUFFIX,myvs.download.prss.microsoft.com
-DOMAIN-SUFFIX,myvsuat.download.prss.microsoft.com
 DOMAIN-SUFFIX,o365cn.com
 DOMAIN-SUFFIX,o365files.cn
 DOMAIN-SUFFIX,oemsoc.download.prss.microsoft.com
@@ -219,6 +216,4 @@ DOMAIN-SUFFIX,vz.download.prss.microsoft.com
 DOMAIN-SUFFIX,windbg.download.prss.microsoft.com
 DOMAIN-SUFFIX,windowsazure.cn
 DOMAIN-SUFFIX,windowsazurestatus.cn
-DOMAIN-SUFFIX,wscont1.apps.microsoft.com
-DOMAIN-SUFFIX,wscont2.apps.microsoft.com
 DOMAIN-SUFFIX,xboxlive.cn

@@ -1,5 +1,5 @@
-# 更新时间: 2026-04-27 09:21:04（北京时间）
-# 规则数量: 10311
+# 更新时间: 2026-05-14 09:51:43（北京时间）
+# 规则数量: 10319
 DOMAIN,118.89.204.198
 DOMAIN,1500020991.vodplayer.wxamedia.com
 DOMAIN,1500022744.vodplayer.wxamedia.com
@@ -388,6 +388,8 @@ DOMAIN,conf.hpplay.cn
 DOMAIN,config.chsmarttv.com
 DOMAIN,config.inmobi.com
 DOMAIN,config.unityads.unity3d.com
+DOMAIN,copilot-telemetry-service.githubusercontent.com
+DOMAIN,copilot-telemetry.githubusercontent.com
 DOMAIN,cpc-service-square.aiclk.com
 DOMAIN,cpro.baidustatic.com
 DOMAIN,crash2.zhihu.com
@@ -843,6 +845,7 @@ DOMAIN,sentry-ng.g.smailru.net
 DOMAIN,sentry.dev-my.com
 DOMAIN,sentry.dev-my.games
 DOMAIN,sentry.hetzner.company
+DOMAIN,sentry.iptv.rt.ru
 DOMAIN,sentry.kontur.host
 DOMAIN,sentry.mindbox.ru
 DOMAIN,sentry.music.163.com
@@ -1619,6 +1622,7 @@ DOMAIN-SUFFIX,a.m.shuhuangge.org
 DOMAIN-SUFFIX,a.market.xiaomi.com
 DOMAIN-SUFFIX,a.mct01.com
 DOMAIN-SUFFIX,a.mjlnbx.cn
+DOMAIN-SUFFIX,a.mts.ru
 DOMAIN-SUFFIX,a.nanhuwang.com
 DOMAIN-SUFFIX,a.nowscore.com
 DOMAIN-SUFFIX,a.qiao024.com
@@ -3656,7 +3660,6 @@ DOMAIN-SUFFIX,coop.pop.baofeng.com
 DOMAIN-SUFFIX,cootek-dialer-download.oss-cn-hangzhou.aliyuncs.com
 DOMAIN-SUFFIX,cootek-file.cdn.cootekservice.com
 DOMAIN-SUFFIX,cop.my
-DOMAIN-SUFFIX,copilot-telemetry.githubusercontent.com
 DOMAIN-SUFFIX,coreldrawchina.com
 DOMAIN-SUFFIX,coremetrics.com
 DOMAIN-SUFFIX,corner.houyi.baofeng.net
@@ -6332,6 +6335,7 @@ DOMAIN-SUFFIX,log2.molitv.cn
 DOMAIN-SUFFIX,log2.sina.cn
 DOMAIN-SUFFIX,logger.baofeng.com
 DOMAIN-SUFFIX,logger.qingting.fm
+DOMAIN-SUFFIX,logger.qmai.cn
 DOMAIN-SUFFIX,logic.cpm.cm.kankan.com
 DOMAIN-SUFFIX,logonext.tv.kuyun.com
 DOMAIN-SUFFIX,logoshejishi.com
@@ -7326,6 +7330,7 @@ DOMAIN-SUFFIX,oascentral.sina.com
 DOMAIN-SUFFIX,oascentral.sina.com.hk
 DOMAIN-SUFFIX,oask.xulizui6.com
 DOMAIN-SUFFIX,obeyter.com
+DOMAIN-SUFFIX,obs.mts.ru
 DOMAIN-SUFFIX,oc.umeng.com
 DOMAIN-SUFFIX,ocbv0.baiyangzs.com
 DOMAIN-SUFFIX,oct.pocoiq.cn
@@ -9069,8 +9074,11 @@ DOMAIN-SUFFIX,tracker.xiaomixiaoai.com
 DOMAIN-SUFFIX,tracker.yhd.com
 DOMAIN-SUFFIX,trackersimulator.org
 DOMAIN-SUFFIX,tracking-server-prod-1.zenmxapps.com
+DOMAIN-SUFFIX,tracking.mcdonalds.com.cn
 DOMAIN-SUFFIX,tracking.miui.com
+DOMAIN-SUFFIX,trackingprd.hwwt8.com
 DOMAIN-SUFFIX,tracklog.58.com
+DOMAIN-SUFFIX,trackserver.shuxinyc.com
 DOMAIN-SUFFIX,tradeadexchange.com
 DOMAIN-SUFFIX,tradeccl.com
 DOMAIN-SUFFIX,traffic.uusee.com

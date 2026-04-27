@@ -1,5 +1,5 @@
-# 更新时间: 2026-04-27 09:20:55（北京时间）
-# 规则数量: 5310
+# 更新时间: 2026-05-14 09:51:23（北京时间）
+# 规则数量: 5336
 payload:
   - +.000webhost.com
   - +.0rz.tw
@@ -116,6 +116,7 @@ payload:
   - +.acast.com
   - +.accountkit.com
   - +.acevpn.com
+  - +.acg.mn
   - +.acg.rip
   - +.acg18.me
   - +.acgbox.org
@@ -665,6 +666,7 @@ payload:
   - +.books.com.tw
   - +.booktopia.com.au
   - +.bookwalker.com.tw
+  - +.boomplay.com
   - +.boomtrain.com
   - +.bootstrapcdn.com
   - +.borgenmagazine.com
@@ -996,6 +998,7 @@ payload:
   - +.cobinhood.com
   - +.cochina.org
   - +.cocoapods.org
+  - +.codeberg.org
   - +.codecov.io
   - +.codeforces.com
   - +.codeforces.org
@@ -1084,6 +1087,7 @@ payload:
   - +.ct.org.tw
   - +.ctinets.com
   - +.ctinews.com
+  - +.ctinsider.com
   - +.ctitv.com.tw
   - +.ctowc.org
   - +.cts.com.tw
@@ -1141,6 +1145,7 @@ payload:
   - +.dartlang.org
   - +.dashlane.com
   - +.data-vocabulary.org
+  - +.data18.com
   - +.daum.net
   - +.david-kilgour.com
   - +.dawangidc.com
@@ -1295,6 +1300,7 @@ payload:
   - +.drtuber.com
   - +.dscn.info
   - +.dstk.dk
+  - +.dt18.com
   - +.dtiblog.com
   - +.dtic.mil
   - +.dubox.com
@@ -1344,6 +1350,7 @@ payload:
   - +.edgecompute.app
   - +.edgekey.net
   - +.edgesuite.net
+  - +.edigest.hk
   - +.edns.ip-api.com
   - +.edu
   - +.edubridge.com
@@ -2203,6 +2210,7 @@ payload:
   - +.hitbtc.com
   - +.hitomi.la
   - +.hitun.io
+  - +.hive.blog
   - +.hiveon.net
   - +.hk
   - +.hk-pub.com
@@ -2413,6 +2421,7 @@ payload:
   - +.influxdata.com
   - +.info-graf.fr
   - +.infoq.com
+  - +.infosec.exchange
   - +.infura.io
   - +.ingress.com
   - +.inherit.live
@@ -2605,6 +2614,7 @@ payload:
   - +.kaotic.com
   - +.karayou.com
   - +.kat.cr
+  - +.kathmandupost.com
   - +.kawaiikawaii.jp
   - +.kawase.com
   - +.kb.monitorware.com
@@ -2696,6 +2706,7 @@ payload:
   - +.legra.ph
   - +.leisurepro.com
   - +.lematin.ch
+  - +.lemonde.fr
   - +.lenwhite.com
   - +.lesoir.be
   - +.letscorp.net
@@ -2710,6 +2721,7 @@ payload:
   - +.libertysculpturepark.com
   - +.libertytimes.com.tw
   - +.libgen.fun
+  - +.libgen.is
   - +.library-access.sk
   - +.library.usc.cuhk.edu.hk
   - +.libredd.it
@@ -2888,6 +2900,7 @@ payload:
   - +.mediachinese.com
   - +.mediafire.com
   - +.mediafreakcity.com
+  - +.mediamatters.org
   - +.mediawiki.org
   - +.medium.com
   - +.meee.com.tw
@@ -2987,6 +3000,7 @@ payload:
   - +.mizzmona.com
   - +.mji.rip
   - +.mjj.rip
+  - +.mjj.today
   - +.mjlsh.usc.cuhk.edu.hk
   - +.mlc.ai
   - +.mlssoccer.com
@@ -3050,6 +3064,7 @@ payload:
   - +.muku.tv
   - +.mullvad.net
   - +.multiply.com
+  - +.music.amazon.com
   - +.musixmatch.com
   - +.muzi.com
   - +.muzi.net
@@ -3150,10 +3165,12 @@ payload:
   - +.news24.com
   - +.newsancai.com
   - +.newsblur.com
+  - +.newshub.co.nz
   - +.newsmax.com
   - +.newstamago.com
   - +.newstapa.org
   - +.newstatesman.com
+  - +.newstimes.com
   - +.newsweek.com
   - +.newtalk.tw
   - +.newthuhole.com
@@ -3172,6 +3189,8 @@ payload:
   - +.nflximg.net
   - +.nflxso.net
   - +.nflxvideo.net
+  - +.nfsc.press
+  - +.nfscofficial.com
   - +.nftstorage.link
   - +.nga.mil
   - +.nhentai.com
@@ -3429,6 +3448,7 @@ payload:
   - +.pemulihan.or.id
   - +.pen.io
   - +.pendrivelinux.com
+  - +.penguin.com.au
   - +.pentoy.hk
   - +.peoplenews.tw
   - +.peopo.org
@@ -3804,6 +3824,7 @@ payload:
   - +.rti.tw
   - +.rtings.com
   - +.rtm.tnt-ea.com
+  - +.rts.ch
   - +.ru
   - +.rule34.xxx
   - +.rule34video.com
@@ -3844,9 +3865,6 @@ payload:
   - +.sbme.me
   - +.sbti.unun.dev
   - +.sc-cdn.net
-  - +.scache.vzw.com
-  - +.scache1.vzw.com
-  - +.scache2.vzw.com
   - +.scdn.co
   - +.schema.org
   - +.sciencedaily.com
@@ -3956,6 +3974,7 @@ payload:
   - +.simpleswap.io
   - +.simplex.chat
   - +.sina.com.hk
+  - +.sinchew.com.my
   - +.singaporepools.com.sg
   - +.singlelogin.se
   - +.singtao.com
@@ -4016,6 +4035,7 @@ payload:
   - +.sockslist.net
   - +.socrec.org
   - +.softether-download.com
+  - +.softether.co.jp
   - +.softether.org
   - +.softfamous.com
   - +.softonic.cn
@@ -4089,7 +4109,6 @@ payload:
   - +.squarespace.com
   - +.squirrelvpn.com
   - +.ss-link.com
-  - +.ss7.vzw.com
   - +.ssa.gov
   - +.ssglobal.co
   - +.ssl.webpack.de
@@ -4285,6 +4304,7 @@ payload:
   - +.tg.dev
   - +.tgstat.com
   - +.thaiheadlines.com
+  - +.the-sun.com
   - +.theatlantic.com
   - +.theatrum-belli.com
   - +.thebcomplex.com
@@ -4323,6 +4343,7 @@ payload:
   - +.thetibetpost.com
   - +.thetvdb.com
   - +.theverge.com
+  - +.theweek.com
   - +.thewgo.org
   - +.thewirechina.com
   - +.theync.com
@@ -4532,6 +4553,7 @@ payload:
   - +.tv.jtbc.joins.com
   - +.tvbanywhere.com
   - +.tvboxnow.com
+  - +.tvdy1.com
   - +.tvunetworks.com
   - +.tw
   - +.tw-blog.com
@@ -4637,6 +4659,7 @@ payload:
   - +.ultravpn.com
   - +.ultravpn.fr
   - +.ulyssesapp.com
+  - +.umap.openstreetmap.fr
   - +.umblr.com
   - +.unblock-us.com
   - +.unblock.cn.com
@@ -4671,6 +4694,7 @@ payload:
   - +.upmedia.mg
   - +.upornia.com
   - +.uproxy.org
+  - +.upsangel.com
   - +.uptimerobot.com
   - +.uptodown.com
   - +.upwork.com
@@ -4805,6 +4829,7 @@ payload:
   - +.vot.org
   - +.vovo2000.com
   - +.vox-cdn.com
+  - +.vox.com
   - +.voxer.com
   - +.vpl.bibliocommons.com
   - +.vpn.ac
@@ -5024,6 +5049,7 @@ payload:
   - +.workflow.is
   - +.workflowy.com
   - +.worldcat.org
+  - +.worldjournal.com
   - +.worldvpn.net
   - +.wow.com
   - +.wowgirls.com

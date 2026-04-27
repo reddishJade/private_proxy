@@ -1,5 +1,5 @@
-# 更新时间: 2026-04-27 09:21:01（北京时间）
-# 规则数量: 426
+# 更新时间: 2026-05-14 09:51:38（北京时间）
+# 规则数量: 430
 DOMAIN,a1.mzstatic.com
 DOMAIN,a2.mzstatic.com
 DOMAIN,a3.mzstatic.com
@@ -39,6 +39,7 @@ DOMAIN,cl1.apple.com
 DOMAIN,cl2-cdn.origin-apple.com.akadns.net
 DOMAIN,cl2-cn.apple.com
 DOMAIN,cl2.apple.com
+DOMAIN,cl2.apple.com.edgekey.net.globalredir.akadns.net
 DOMAIN,cl3-cdn.origin-apple.com.akadns.net
 DOMAIN,cl3.apple.com
 DOMAIN,cl4-cdn.origin-apple.com.akadns.net
@@ -67,6 +68,7 @@ DOMAIN,fides-pol.apple.com
 DOMAIN,gs-loc-cn.apple.com
 DOMAIN,gs-loc.apple.com
 DOMAIN,gsp10-ssl-cn.ls.apple.com
+DOMAIN,gsp11-cn.ls.apple.com
 DOMAIN,gsp12-cn.ls.apple.com
 DOMAIN,gsp13-cn.ls.apple.com
 DOMAIN,gsp4-cn.ls.apple.com
@@ -259,6 +261,7 @@ DOMAIN-SUFFIX,cl1-cdn.origin-apple.com.akadns.net
 DOMAIN-SUFFIX,cl1.apple.com
 DOMAIN-SUFFIX,cl2-cn.apple.com
 DOMAIN-SUFFIX,cl2.apple.com
+DOMAIN-SUFFIX,cl2.apple.com.edgekey.net.globalredir.akadns.net
 DOMAIN-SUFFIX,cl3-cdn.origin-apple.com.akadns.net
 DOMAIN-SUFFIX,cl3.apple.com
 DOMAIN-SUFFIX,cl4-cdn.origin-apple.com.akadns.net
@@ -288,6 +291,7 @@ DOMAIN-SUFFIX,faceshift.cn
 DOMAIN-SUFFIX,gs-loc-cn.apple.com
 DOMAIN-SUFFIX,gs-loc.apple.com
 DOMAIN-SUFFIX,gsp10-ssl-cn.ls.apple.com
+DOMAIN-SUFFIX,gsp11-cn.ls.apple.com
 DOMAIN-SUFFIX,gsp12-cn.ls.apple.com
 DOMAIN-SUFFIX,gsp13-cn.ls.apple.com
 DOMAIN-SUFFIX,gsp4-cn.ls.apple.com

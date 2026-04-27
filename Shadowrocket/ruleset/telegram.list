@@ -1,10 +1,10 @@
-# 更新时间: 2026-04-27 09:21:04（北京时间）
+# 更新时间: 2026-05-14 09:51:43（北京时间）
 # 规则数量: 17
 DOMAIN,7h1s_rul35et_i5_mad3_by_5ukk4w-ruleset.skk.moe
 IP-CIDR,139.59.210.98/32,no-resolve
 IP-CIDR,149.154.160.0/20,no-resolve
 IP-CIDR,185.76.151.0/24,no-resolve
-IP-CIDR,194.221.61.2/32,no-resolve
+IP-CIDR,194.221.250.50/32,no-resolve
 IP-CIDR,196.55.216.167/32,no-resolve
 IP-CIDR,91.105.192.0/23,no-resolve
 IP-CIDR,91.108.16.0/21,no-resolve

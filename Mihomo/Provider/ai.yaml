@@ -1,5 +1,5 @@
-# 更新时间: 2026-04-27 09:20:46（北京时间）
-# 规则数量: 167
+# 更新时间: 2026-05-14 09:51:18（北京时间）
+# 规则数量: 174
 payload:
   - +.agentclientprotocol.com
   - +.ai.com
@@ -11,6 +11,7 @@ payload:
   - +.anthropic.com
   - +.antigravity-unleash.goog
   - +.antigravity.google
+  - +.anythingllm.com
   - +.apis.google.com
   - +.apple-relay.apple.com
   - +.apple-relay.cloudflare.com
@@ -116,6 +117,7 @@ payload:
   - +.openart.ai
   - +.openclaw.ai
   - +.openrouter.ai
+  - +.openspec.dev
   - +.oystermercury.top
   - +.perplexity.ai
   - +.perplexity.com
@@ -151,7 +153,12 @@ payload:
   - chat.openai.com.cdn.cloudflare.net
   - cloudaicompanion.googleapis.com
   - cloudcode-pa.googleapis.com
+  - copilot-proxy.githubusercontent.com
+  - copilot-telemetry-service.githubusercontent.com
+  - copilot-telemetry.githubusercontent.com
+  - copilot-workspace.githubnext.com
   - copilot.microsoft.com
+  - copilotprodattachments.blob.core.windows.net
   - daily-cloudcode-pa.googleapis.com
   - gateway.ai.cloudflare.com
   - notebooklm-pa.googleapis.com

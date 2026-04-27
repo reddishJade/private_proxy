@@ -1,5 +1,5 @@
-# 更新时间: 2026-04-27 09:20:54（北京时间）
-# 规则数量: 222
+# 更新时间: 2026-05-14 09:51:22（北京时间）
+# 规则数量: 217
 payload:
   - +.21vbc.com
   - +.21vbluecloud.com
@@ -104,7 +104,6 @@ payload:
   - +.management-azure-devices-provisioning.cn
   - +.management-azure-devices.cn
   - +.mbs.download.prss.microsoft.com
-  - +.mbsuat.download.prss.microsoft.com
   - +.mcchcdn.com
   - +.mgmt-azure-api.cn
   - +.microsoft-smb.cn
@@ -141,10 +140,8 @@ payload:
   - +.msn.cn
   - +.mspil.cn
   - +.msproduct.download.prss.microsoft.com
-  - +.msproductuat.download.prss.microsoft.com
   - +.msra.cn
   - +.myvs.download.prss.microsoft.com
-  - +.myvsuat.download.prss.microsoft.com
   - +.o365cn.com
   - +.o365files.cn
   - +.oemsoc.download.prss.microsoft.com
@@ -185,8 +182,6 @@ payload:
   - +.windbg.download.prss.microsoft.com
   - +.windowsazure.cn
   - +.windowsazurestatus.cn
-  - +.wscont1.apps.microsoft.com
-  - +.wscont2.apps.microsoft.com
   - +.xboxlive.cn
   - b.c2r.ts.cdn.office.net
   - bg.v4.a.dl.ws.microsoft.com

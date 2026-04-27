@@ -1,5 +1,5 @@
-# 更新时间: 2026-04-27 09:20:51（北京时间）
-# 规则数量: 1917
+# 更新时间: 2026-05-14 09:51:21（北京时间）
+# 规则数量: 1938
 payload:
   - +.1fichier.com
   - +.1fichier.info
@@ -64,6 +64,7 @@ payload:
   - +.download.nvidia.com
   - +.download.prss.microsoft.com
   - +.dyn.riotcdn.net
+  - +.edge.kernel.org
   - +.egdownload.fastly-edge.com
   - +.epicgamescdn.com
   - +.fastly.docker.com
@@ -75,6 +76,7 @@ payload:
   - +.finkmirrors.net
   - +.fnbuilds.services
   - +.freemirror.org
+  - +.fsmg.org.nz
   - +.ftp-master.debian.org
   - +.ftp.debian.org
   - +.ftp2.de.debian.org
@@ -121,6 +123,7 @@ payload:
   - +.mirror.guzel.net.tr
   - +.mirror.homacloud.ai
   - +.mirror.intermax.nl
+  - +.mirror.ionos.com
   - +.mirror.iphh.net
   - +.mirror.iweb.ca
   - +.mirror.iweb.com
@@ -150,6 +153,8 @@ payload:
   - +.mirror.wearetriple.com
   - +.mirror.web4u.cz
   - +.mirror.zzunipark.com
+  - +.mirror1.gnc.am
+  - +.mirror2.gnc.am
   - +.mirrors.blix.com
   - +.mirrors.cicku.me
   - +.mirrors.clouvider.net
@@ -568,6 +573,7 @@ payload:
   - app-updates.agilebits.com
   - apt.tetaneutral.net
   - apt.xpipe.io
+  - archive-4.kali.org
   - archive.cs.uu.nl
   - archive.g4t1.pro
   - archive.kali.org
@@ -898,7 +904,6 @@ payload:
   - enterprise.proxmox.com
   - epicgames-download1.akamaized.net
   - espejito.fder.edu.uy
-  - eu.edge.kernel.org
   - extensionupdater.brave.com
   - f-droid.org
   - fastly-download.epicgames.com
@@ -969,6 +974,7 @@ payload:
   - ftp.fi.muni.cz
   - ftp.forthnet.gr
   - ftp.fr.debian.org
+  - ftp.free.fr
   - ftp.fu-berlin.de
   - ftp.funet.fi
   - ftp.gnome.org
@@ -1136,6 +1142,9 @@ payload:
   - iterm2.com
   - jing.rocks
   - kali.cs.nycu.edu.tw
+  - kali.darklab.sh
+  - kali.itsec.am
+  - kali.koyanet.lv
   - kambing.uu.sg
   - kartolo.sby.datautama.net.id
   - kde.c3sl.ufpr.br
@@ -1185,6 +1194,7 @@ payload:
   - mirror.a1.mk
   - mirror.aarnet.edu.au
   - mirror.accum.se
+  - mirror.africloud.com
   - mirror.aktkn.sg
   - mirror.alastyr.com
   - mirror.alwyzon.net
@@ -1239,6 +1249,7 @@ payload:
   - mirror.cs.odu.edu
   - mirror.csclub.uwaterloo.ca
   - mirror.cse.iitk.ac.in
+  - mirror.cspacehostings.com
   - mirror.cyberbits.asia
   - mirror.cyberbits.eu
   - mirror.cyberchains.org
@@ -1273,6 +1284,7 @@ payload:
   - mirror.elice.io
   - mirror.eliv.digital
   - mirror.enzu.com
+  - mirror.es.cdn-perfprod.com
   - mirror.esecuredata.com
   - mirror.estone.ca
   - mirror.ethz.ch
@@ -1289,9 +1301,9 @@ payload:
   - mirror.fi.ossplanet.net
   - mirror.fjordos.com
   - mirror.flo.c-f.ro
+  - mirror.fr.cdn-perfprod.com
   - mirror.freedif.org
   - mirror.freethought-internet.co.uk
-  - mirror.fsmg.org.nz
   - mirror.fst.kz
   - mirror.funkfreundelandshut.de
   - mirror.gi.co.id
@@ -1302,6 +1314,7 @@ payload:
   - mirror.group.one
   - mirror.gsl.icu
   - mirror.hashy0917.net
+  - mirror.hemino.net
   - mirror.hep.gg
   - mirror.hnd.cl
   - mirror.hoobly.com
@@ -1437,7 +1450,9 @@ payload:
   - mirror.positive-internet.com
   - mirror.pregi.net
   - mirror.previder.nl
+  - mirror.primelink.net.id
   - mirror.ps.kz
+  - mirror.pyratelan.org
   - mirror.quickhost.uk
   - mirror.raiolanetworks.com
   - mirror.rcg.sfu.ca
@@ -1512,6 +1527,7 @@ payload:
   - mirror.us-ny2.kamatera.com
   - mirror.us-sc.kamatera.com
   - mirror.us-tx.kamatera.com
+  - mirror.us.cdn-perfprod.com
   - mirror.us.leaseweb.net
   - mirror.us.mirhosting.net
   - mirror.us.oneandone.net
@@ -1529,8 +1545,10 @@ payload:
   - mirror.vorboss.net
   - mirror.vpgrp.io
   - mirror.vpsnet.com
+  - mirror.wane.kr
   - mirror.webtastix.net
   - mirror.webworld.ie
+  - mirror.wonchan.net
   - mirror.wtnet.de
   - mirror.xenyth.net
   - mirror.xeonbd.com
@@ -1558,6 +1576,8 @@ payload:
   - mirror1.totbb.net
   - mirror2.evolution-host.com
   - mirror2.infomaniak.com
+  - mirror2.keiminem.com
+  - mirror2.krfoss.org
   - mirror2.tuxinator.org
   - mirror4.twds.com.tw
   - mirror6.twds.com.tw
@@ -1587,7 +1607,6 @@ payload:
   - mirrors.coreix.net
   - mirrors.datapark.ro
   - mirrors.de.sahilister.net
-  - mirrors.edge.kernel.org
   - mirrors.egr.msu.edu
   - mirrors.esto.network
   - mirrors.evoluso.com
@@ -1899,6 +1918,7 @@ payload:
   - updates.bravesoftware.com
   - updates.edovia.com
   - updates.istatmenus.app
+  - updates.vibeisland.app
   - us.dyi.ng
   - version.cyberduck.io
   - versioncheck-bg.addons.mozilla.org
@@ -1916,5 +1936,6 @@ payload:
   - www.gutscheinrausch.de
   - www2.aomeisoftware.com
   - xenia.sote.hu
+  - xsrv.moratelindo.io
   - xvcf1.xboxlive.com
   - xvcf2.xboxlive.com

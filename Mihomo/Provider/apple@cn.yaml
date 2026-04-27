@@ -1,5 +1,5 @@
-# 更新时间: 2026-04-27 09:20:47（北京时间）
-# 规则数量: 426
+# 更新时间: 2026-05-14 09:51:18（北京时间）
+# 规则数量: 430
 payload:
   - +.a1.mzstatic.com
   - +.a2.mzstatic.com
@@ -73,6 +73,7 @@ payload:
   - +.cl1.apple.com
   - +.cl2-cn.apple.com
   - +.cl2.apple.com
+  - +.cl2.apple.com.edgekey.net.globalredir.akadns.net
   - +.cl3-cdn.origin-apple.com.akadns.net
   - +.cl3.apple.com
   - +.cl4-cdn.origin-apple.com.akadns.net
@@ -102,6 +103,7 @@ payload:
   - +.gs-loc-cn.apple.com
   - +.gs-loc.apple.com
   - +.gsp10-ssl-cn.ls.apple.com
+  - +.gsp11-cn.ls.apple.com
   - +.gsp12-cn.ls.apple.com
   - +.gsp13-cn.ls.apple.com
   - +.gsp4-cn.ls.apple.com
@@ -279,6 +281,7 @@ payload:
   - cl2-cdn.origin-apple.com.akadns.net
   - cl2-cn.apple.com
   - cl2.apple.com
+  - cl2.apple.com.edgekey.net.globalredir.akadns.net
   - cl3-cdn.origin-apple.com.akadns.net
   - cl3.apple.com
   - cl4-cdn.origin-apple.com.akadns.net
@@ -307,6 +310,7 @@ payload:
   - gs-loc-cn.apple.com
   - gs-loc.apple.com
   - gsp10-ssl-cn.ls.apple.com
+  - gsp11-cn.ls.apple.com
   - gsp12-cn.ls.apple.com
   - gsp13-cn.ls.apple.com
   - gsp4-cn.ls.apple.com

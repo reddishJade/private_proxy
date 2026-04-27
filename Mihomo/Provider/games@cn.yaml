@@ -1,5 +1,5 @@
-# 更新时间: 2026-04-27 09:20:52（北京时间）
-# 规则数量: 296
+# 更新时间: 2026-05-14 09:51:21（北京时间）
+# 规则数量: 299
 payload:
   - +.17roco.com
   - +.3304399.com
@@ -40,6 +40,7 @@ payload:
   - +.71acg.com
   - +.71acg.net
   - +.7k7k.com
+  - +.99jiasu.net
   - +.9game.cn
   - +.9xgame.com
   - +.abdf002.com
@@ -282,6 +283,8 @@ payload:
   - dl.delivery.mp.microsoft.com
   - dl.steam.clngaa.com
   - dl.steam.ksyna.com
+  - end-api.shallow.ink
+  - end.shallow.ink
   - epicgames-download1-1251447533.file.myqcloud.com
   - lv.queniujq.cn
   - st-bak.viv.wanwang.space

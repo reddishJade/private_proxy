@@ -1,5 +1,5 @@
-# 更新时间: 2026-04-27 09:20:47（北京时间）
-# 规则数量: 1785
+# 更新时间: 2026-05-14 09:51:18（北京时间）
+# 规则数量: 1786
 payload:
   - +.100beatscheap.com
   - +.12diasdepresentesdeitunes.com
@@ -1769,6 +1769,7 @@ payload:
   - tf-feedback.itunes.apple.com
   - tj-pod1-smp-device.apple.com
   - tv.applemusic.com
+  - universal-activity-service.itunes.apple.com
   - updates-http.cdn-apple.com
   - updates-http.cdn-apple.com.akadns.net
   - updates.cdn-apple.com

@@ -1,5 +1,5 @@
-# 更新时间: 2026-04-27 09:20:49（北京时间）
-# 规则数量: 1006
+# 更新时间: 2026-05-14 09:51:19（北京时间）
+# 规则数量: 1002
 payload:
   - +.10010.com
   - +.10086.cn
@@ -499,7 +499,6 @@ payload:
   - +.jianshu.io
   - +.jianshuapi.com
   - +.jiathis.com
-  - +.jiedaibao.gs
   - +.jiemian.com
   - +.jiguang.cn
   - +.jomodns.com
@@ -985,7 +984,6 @@ payload:
   - assets1.xboxlive.cn
   - assets2.xboxlive.cn
   - b23.tv
-  - cdn.lilyemby.com
   - cdnstatic.tencentcs.com
   - client.amplifi.com
   - cn.download.nvidia.com
@@ -1002,8 +1000,6 @@ payload:
   - media.cdn.queniuqe.com
   - ocsp.globalsign.com
   - ocsp2.globalsign.com
-  - smart.uhdnow.com
-  - tx.lilyemby.com
   - url.cn
   - www.intel.cn
   - www.layuicdn.com

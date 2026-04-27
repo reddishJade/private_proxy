@@ -1,5 +1,5 @@
-# 更新时间: 2026-04-27 09:20:58（北京时间）
-# 规则数量: 10228
+# 更新时间: 2026-05-14 09:51:24（北京时间）
+# 规则数量: 10236
 payload:
   - +.0.r.msn.com
   - +.000dn.com
@@ -511,6 +511,7 @@ payload:
   - +.a.market.xiaomi.com
   - +.a.mct01.com
   - +.a.mjlnbx.cn
+  - +.a.mts.ru
   - +.a.nanhuwang.com
   - +.a.nowscore.com
   - +.a.qiao024.com
@@ -2548,7 +2549,6 @@ payload:
   - +.cootek-dialer-download.oss-cn-hangzhou.aliyuncs.com
   - +.cootek-file.cdn.cootekservice.com
   - +.cop.my
-  - +.copilot-telemetry.githubusercontent.com
   - +.coreldrawchina.com
   - +.coremetrics.com
   - +.corner.houyi.baofeng.net
@@ -5224,6 +5224,7 @@ payload:
   - +.log2.sina.cn
   - +.logger.baofeng.com
   - +.logger.qingting.fm
+  - +.logger.qmai.cn
   - +.logic.cpm.cm.kankan.com
   - +.logonext.tv.kuyun.com
   - +.logoshejishi.com
@@ -6218,6 +6219,7 @@ payload:
   - +.oascentral.sina.com.hk
   - +.oask.xulizui6.com
   - +.obeyter.com
+  - +.obs.mts.ru
   - +.oc.umeng.com
   - +.ocbv0.baiyangzs.com
   - +.oct.pocoiq.cn
@@ -7961,8 +7963,11 @@ payload:
   - +.tracker.yhd.com
   - +.trackersimulator.org
   - +.tracking-server-prod-1.zenmxapps.com
+  - +.tracking.mcdonalds.com.cn
   - +.tracking.miui.com
+  - +.trackingprd.hwwt8.com
   - +.tracklog.58.com
+  - +.trackserver.shuxinyc.com
   - +.tradeadexchange.com
   - +.tradeccl.com
   - +.traffic.uusee.com
@@ -9533,6 +9538,8 @@ payload:
   - config.chsmarttv.com
   - config.inmobi.com
   - config.unityads.unity3d.com
+  - copilot-telemetry-service.githubusercontent.com
+  - copilot-telemetry.githubusercontent.com
   - cpc-service-square.aiclk.com
   - cpro.baidustatic.com
   - crash2.zhihu.com
@@ -9988,6 +9995,7 @@ payload:
   - sentry.dev-my.com
   - sentry.dev-my.games
   - sentry.hetzner.company
+  - sentry.iptv.rt.ru
   - sentry.kontur.host
   - sentry.mindbox.ru
   - sentry.music.163.com
