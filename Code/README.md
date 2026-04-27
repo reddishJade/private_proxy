@@ -11,8 +11,10 @@ src/python/
 │   ├── transformers.py           # 规则转换器模块
 │   ├── fetchers.py               # 规则获取器模块
 │   ├── processors.py             # 规则处理器模块
+│   ├── singbox.py                # sing-box 规则集转换模块
 │   └── merger.py                 # 规则合并器主模块
 ├── rule_merger_main.py           # 主入口文件
+├── singbox_converter.py          # sing-box source JSON 转换入口
 ├── utils.py                      # 实用工具模块
 ├── config_docs.py                # 配置文档和示例
 ├── config.yaml                   # 配置文件
@@ -42,6 +44,9 @@ python utils.py validate config.yaml
 
 # 创建示例配置
 python config_docs.py
+
+# 转换 Mihomo rule-provider YAML 为 sing-box source JSON
+python singbox_converter.py ../Mihomo/Provider/proxy.yaml ../SingBox/Source/proxy.json --behavior domain
 ```
 
 ## 📝 配置文件格式

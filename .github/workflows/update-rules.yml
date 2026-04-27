@@ -68,9 +68,62 @@ jobs:
           yaml_count=$(ls -1 *.yaml 2>/dev/null | wc -l)
           mrs_count=$(ls -1 *.mrs 2>/dev/null | wc -l)
           echo "Conversion stats: $yaml_count YAML files -> $mrs_count MRS files"
+
+      - name: Convert YAML to sing-box source JSON and SRS format
+        run: |
+          set -euo pipefail
+          shopt -s nullglob
+
+          chmod +x .github/bin/sing-box
+          .github/bin/sing-box version
+
+          mkdir -p SingBox/Source SingBox/RuleSet
+
+          echo "Starting YAML to sing-box JSON/SRS conversion..."
+
+          for yaml_file in Mihomo/Provider/*.yaml; do
+            filename=$(basename "$yaml_file" .yaml)
+            json_file="SingBox/Source/${filename}.json"
+            srs_file="SingBox/RuleSet/${filename}.srs"
+
+            if [[ "$filename" == *"@ip"* ]]; then
+              behavior="ipcidr"
+            else
+              behavior="domain"
+            fi
+
+            echo "Converting $yaml_file to $json_file and $srs_file"
+            python Code/singbox_converter.py "$yaml_file" "$json_file" --behavior "$behavior"
+
+            rm -f "$srs_file"
+            .github/bin/sing-box rule-set compile --output "$srs_file" "$json_file"
+
+            if [[ ! -s "$json_file" ]]; then
+              echo "Error: $json_file was not generated."
+              exit 1
+            fi
+
+            if [[ ! -s "$srs_file" ]]; then
+              echo "Error: $srs_file was not generated."
+              exit 1
+            fi
+          done
+
+          echo "sing-box conversion completed!"
+
       - name: Check for rule changes
         id: checker
         run: python Code/core/checker.py Mihomo/Provider
+
+      - name: Check generated sing-box changes
+        id: singbox_checker
+        run: |
+          set -euo pipefail
+          if [[ -n "$(git status --porcelain -- SingBox Code/singbox_converter.py Code/core/singbox.py Code/core/__init__.py Code/README.md .github/workflows/update-rules.yml)" ]]; then
+            echo "has_changed=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "has_changed=false" >> "$GITHUB_OUTPUT"
+          fi
 
       - name: Run shadowrocket script
         run: |
@@ -93,7 +146,7 @@ jobs:
           fi
 
       - name: Commit Changes
-        if: steps.checker.outputs.has_changed == 'true'
+        if: steps.checker.outputs.has_changed == 'true' || steps.singbox_checker.outputs.has_changed == 'true'
         id: commit
         uses: stefanzweifel/git-auto-commit-action@v5
         with:

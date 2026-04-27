@@ -7,6 +7,7 @@
 - transformers: 规则转换器
 - fetchers: 规则获取器
 - processors: 规则处理器
+- singbox: sing-box 规则集转换器
 - merger: 规则合并器主逻辑
 """
 
@@ -18,6 +19,7 @@ from .validators import RuleValidator
 from .transformers import RuleTransformer
 from .fetchers import RuleFetcher
 from .processors import RuleProcessor
+from .singbox import SingBoxRuleSetConverter
 from .merger import RulesMerger
 
 __all__ = [
@@ -27,5 +29,6 @@ __all__ = [
     "RuleTransformer",
     "RuleFetcher",
     "RuleProcessor",
+    "SingBoxRuleSetConverter",
     "RulesMerger",
 ]
