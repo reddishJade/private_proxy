@@ -1,5 +1,5 @@
-# 更新时间: 2026-05-14 09:51:43（北京时间）
-# 规则数量: 10319
+# 更新时间: 2026-05-18 09:56:08（北京时间）
+# 规则数量: 10320
 DOMAIN,118.89.204.198
 DOMAIN,1500020991.vodplayer.wxamedia.com
 DOMAIN,1500022744.vodplayer.wxamedia.com
@@ -2257,6 +2257,7 @@ DOMAIN-SUFFIX,adsfactor.net
 DOMAIN-SUFFIX,adsfile.bssdlbig.kugou.com
 DOMAIN-SUFFIX,adsfile.qq.com
 DOMAIN-SUFFIX,adsfs.oppomobile.com
+DOMAIN-SUFFIX,adsgram.ai
 DOMAIN-SUFFIX,adsgroup.qq.com
 DOMAIN-SUFFIX,adsh.m.taobao.com
 DOMAIN-SUFFIX,adshare.freedocast.com

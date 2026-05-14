@@ -1,5 +1,5 @@
-# 更新时间: 2026-05-14 09:51:19（北京时间）
-# 规则数量: 4472
+# 更新时间: 2026-05-18 09:55:43（北京时间）
+# 规则数量: 4479
 payload:
   - +.1a-1791.com
   - +.1passwordusercontent.ca
@@ -157,6 +157,7 @@ payload:
   - +.cdn.cookielaw.org
   - +.cdn.cwinfo.net
   - +.cdn.discordapp.com
+  - +.cdn.easyling.com
   - +.cdn.getfeedback.com
   - +.cdn.greenhouse.io
   - +.cdn.icann.org
@@ -1012,6 +1013,7 @@ payload:
   - +.szjal.cn
   - +.t8cdn.com
   - +.tacdn.com
+  - +.tags.f5.com
   - +.tapecontent.net
   - +.targetimg1.com
   - +.tauri.app
@@ -1258,6 +1260,7 @@ payload:
   - app-spm.com
   - app-static-prod.posthog.com
   - app-static.eu.posthog.com
+  - app-static.sendsafely.com
   - app-static.turtl.co
   - app.1password.com
   - app.backinstock.org
@@ -1830,6 +1833,7 @@ payload:
   - cdn.eu.contentful.com
   - cdn.european-alternatives.eu
   - cdn.evbstatic.com
+  - cdn.f5.com
   - cdn.faire.com
   - cdn.fastcomments.com
   - cdn.fasterthanli.me
@@ -2068,6 +2072,7 @@ payload:
   - cdn.stellarhosted.com
   - cdn.stonly.com
   - cdn.streamlabs.com
+  - cdn.studio.f5.com
   - cdn.substack.com
   - cdn.sunofbeaches.com
   - cdn.super.com
@@ -2690,6 +2695,7 @@ payload:
   - i.loli.best
   - i.magecdn.com
   - i.mediatek.com
+  - i.meee.com.tw
   - i.mij.rip
   - i.mt.lv
   - i.mydramalist.com
@@ -2912,6 +2918,7 @@ payload:
   - img.api.video
   - img.apk.cafe
   - img.applealmond.com
+  - img.appledb.dev
   - img.apponic.com
   - img.atlasobscura.com
   - img.atom.com

@@ -1,5 +1,5 @@
-# 更新时间: 2026-05-14 09:51:17（北京时间）
-# 规则数量: 99
+# 更新时间: 2026-05-18 09:55:42（北京时间）
+# 规则数量: 100
 payload:
   - +.aispeech.com
   - +.api-building.fun
@@ -46,6 +46,7 @@ payload:
   - +.liblib.art
   - +.liblib.cloud
   - +.liblib.tv
+  - +.linka2a.net
   - +.maoxiangai.com
   - +.marscode.cn
   - +.marscode.com.cn

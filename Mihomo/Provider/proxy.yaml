@@ -1,5 +1,5 @@
-# 更新时间: 2026-05-14 09:51:23（北京时间）
-# 规则数量: 5336
+# 更新时间: 2026-05-18 09:55:49（北京时间）
+# 规则数量: 5339
 payload:
   - +.000webhost.com
   - +.0rz.tw
@@ -904,6 +904,7 @@ payload:
   - +.chingcheong.com
   - +.chinman.net
   - +.chobit.cc
+  - +.chonglangtv.org
   - +.chrdnet.com
   - +.christianfreedom.org
   - +.christianstudy.com
@@ -3960,6 +3961,7 @@ payload:
   - +.shwchurch3.com
   - +.si
   - +.sidelinesnews.com
+  - +.sider.ai
   - +.signal.art
   - +.signal.org
   - +.signalusers.org
@@ -5290,6 +5292,7 @@ payload:
   - +.zh.pokerstrategy.com
   - +.zh.wikiquote.org
   - +.zhangtianliang.com
+  - +.zhangzhehan.net
   - +.zhanlve.org
   - +.zhao.1984.city
   - +.zhengjian.org

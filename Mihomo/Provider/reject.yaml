@@ -1,5 +1,5 @@
-# 更新时间: 2026-05-14 09:51:24（北京时间）
-# 规则数量: 10236
+# 更新时间: 2026-05-18 09:55:50（北京时间）
+# 规则数量: 10237
 payload:
   - +.0.r.msn.com
   - +.000dn.com
@@ -1146,6 +1146,7 @@ payload:
   - +.adsfile.bssdlbig.kugou.com
   - +.adsfile.qq.com
   - +.adsfs.oppomobile.com
+  - +.adsgram.ai
   - +.adsgroup.qq.com
   - +.adsh.m.taobao.com
   - +.adshare.freedocast.com

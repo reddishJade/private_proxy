@@ -1,5 +1,5 @@
-# 更新时间: 2026-05-14 09:51:42（北京时间）
-# 规则数量: 5412
+# 更新时间: 2026-05-18 09:56:07（北京时间）
+# 规则数量: 5415
 DOMAIN,api.waqi.info
 DOMAIN,aqi.aqicn.org
 DOMAIN,ccmdl.adobe.com
@@ -929,6 +929,7 @@ DOMAIN-SUFFIX,chineseupress.com
 DOMAIN-SUFFIX,chingcheong.com
 DOMAIN-SUFFIX,chinman.net
 DOMAIN-SUFFIX,chobit.cc
+DOMAIN-SUFFIX,chonglangtv.org
 DOMAIN-SUFFIX,chrdnet.com
 DOMAIN-SUFFIX,christianfreedom.org
 DOMAIN-SUFFIX,christianstudy.com
@@ -3985,6 +3986,7 @@ DOMAIN-SUFFIX,shwchurch.org
 DOMAIN-SUFFIX,shwchurch3.com
 DOMAIN-SUFFIX,si
 DOMAIN-SUFFIX,sidelinesnews.com
+DOMAIN-SUFFIX,sider.ai
 DOMAIN-SUFFIX,signal.art
 DOMAIN-SUFFIX,signal.org
 DOMAIN-SUFFIX,signalusers.org
@@ -5315,6 +5317,7 @@ DOMAIN-SUFFIX,zh.ecdm.wikia.com
 DOMAIN-SUFFIX,zh.pokerstrategy.com
 DOMAIN-SUFFIX,zh.wikiquote.org
 DOMAIN-SUFFIX,zhangtianliang.com
+DOMAIN-SUFFIX,zhangzhehan.net
 DOMAIN-SUFFIX,zhanlve.org
 DOMAIN-SUFFIX,zhao.1984.city
 DOMAIN-SUFFIX,zhengjian.org
