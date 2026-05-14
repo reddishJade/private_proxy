@@ -1,5 +1,5 @@
-# 更新时间: 2026-05-14 09:51:22（北京时间）
-# 规则数量: 217
+# 更新时间: 2026-05-28 09:43:10（北京时间）
+# 规则数量: 216
 payload:
   - +.21vbc.com
   - +.21vbluecloud.com
@@ -94,7 +94,6 @@ payload:
   - +.dreamsparkuat.download.prss.microsoft.com
   - +.dynamics.cn
   - +.engkoo.com
-  - +.fs.microsoft.com
   - +.hdinsightservices.cn
   - +.itacademy.download.prss.microsoft.com
   - +.itacademyuat.download.prss.microsoft.com

@@ -1,5 +1,5 @@
-# 更新时间: 2026-05-14 09:51:21（北京时间）
-# 规则数量: 299
+# 更新时间: 2026-05-28 09:43:09（北京时间）
+# 规则数量: 302
 payload:
   - +.17roco.com
   - +.3304399.com
@@ -202,6 +202,8 @@ payload:
   - +.scescdn.cn
   - +.scid.cn
   - +.scsentry.cn
+  - +.sdo.com
+  - +.shengqugames.com
   - +.shyxhy.com
   - +.skydweller.cn
   - +.sl916.com
@@ -272,6 +274,7 @@ payload:
   - +.zcjbgame.com
   - +.zhuoyou.com
   - +.zhuoyuegame.com
+  - +.zjshulong.com
   - assets1.xboxlive.cn
   - assets2.xboxlive.cn
   - blzdist-d3.necdn.leihuo.netease.com

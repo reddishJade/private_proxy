@@ -1,5 +1,5 @@
-# 更新时间: 2026-05-14 09:51:42（北京时间）
-# 规则数量: 5412
+# 更新时间: 2026-05-28 09:43:28（北京时间）
+# 规则数量: 5425
 DOMAIN,api.waqi.info
 DOMAIN,aqi.aqicn.org
 DOMAIN,ccmdl.adobe.com
@@ -61,6 +61,7 @@ DOMAIN-SUFFIX,2047.one
 DOMAIN-SUFFIX,2049bbs.xyz
 DOMAIN-SUFFIX,233abc.com
 DOMAIN-SUFFIX,24.com
+DOMAIN-SUFFIX,24hbook.com
 DOMAIN-SUFFIX,24hrs.ca
 DOMAIN-SUFFIX,2ch.sc
 DOMAIN-SUFFIX,2mdn.net
@@ -929,6 +930,7 @@ DOMAIN-SUFFIX,chineseupress.com
 DOMAIN-SUFFIX,chingcheong.com
 DOMAIN-SUFFIX,chinman.net
 DOMAIN-SUFFIX,chobit.cc
+DOMAIN-SUFFIX,chonglangtv.org
 DOMAIN-SUFFIX,chrdnet.com
 DOMAIN-SUFFIX,christianfreedom.org
 DOMAIN-SUFFIX,christianstudy.com
@@ -1468,6 +1470,7 @@ DOMAIN-SUFFIX,eyny.com
 DOMAIN-SUFFIX,f-droid.org
 DOMAIN-SUFFIX,f2pool.com
 DOMAIN-SUFFIX,f8.com
+DOMAIN-SUFFIX,f95zone.to
 DOMAIN-SUFFIX,fabric.io
 DOMAIN-SUFFIX,facebook.com
 DOMAIN-SUFFIX,facebook.de
@@ -1694,6 +1697,7 @@ DOMAIN-SUFFIX,fydeos.io
 DOMAIN-SUFFIX,fzlm.net
 DOMAIN-SUFFIX,g-area.org
 DOMAIN-SUFFIX,g-queen.com
+DOMAIN-SUFFIX,g.ai
 DOMAIN-SUFFIX,g.co
 DOMAIN-SUFFIX,g0v.social
 DOMAIN-SUFFIX,g2.com
@@ -2733,6 +2737,7 @@ DOMAIN-SUFFIX,leisurepro.com
 DOMAIN-SUFFIX,lematin.ch
 DOMAIN-SUFFIX,lemonde.fr
 DOMAIN-SUFFIX,lenwhite.com
+DOMAIN-SUFFIX,leonardo.ai
 DOMAIN-SUFFIX,lesoir.be
 DOMAIN-SUFFIX,letscorp.net
 DOMAIN-SUFFIX,letsencrypt.org
@@ -2892,6 +2897,7 @@ DOMAIN-SUFFIX,martau.com
 DOMAIN-SUFFIX,martsangkagyuofficial.org
 DOMAIN-SUFFIX,marxist.net
 DOMAIN-SUFFIX,marxists.org
+DOMAIN-SUFFIX,mas.to
 DOMAIN-SUFFIX,mash.to
 DOMAIN-SUFFIX,mashable.com
 DOMAIN-SUFFIX,mastodon.cloud
@@ -3072,6 +3078,7 @@ DOMAIN-SUFFIX,motherless.com
 DOMAIN-SUFFIX,movements.org
 DOMAIN-SUFFIX,moves-export.com
 DOMAIN-SUFFIX,moviefap.com
+DOMAIN-SUFFIX,mozilla.ai
 DOMAIN-SUFFIX,mozilla.com
 DOMAIN-SUFFIX,mozilla.org
 DOMAIN-SUFFIX,mp3buscador.com
@@ -3159,6 +3166,7 @@ DOMAIN-SUFFIX,ndr.de
 DOMAIN-SUFFIX,ndtv.com
 DOMAIN-SUFFIX,nekoslovakia.net
 DOMAIN-SUFFIX,neo-miracle.com
+DOMAIN-SUFFIX,neodb.social
 DOMAIN-SUFFIX,neowin.net
 DOMAIN-SUFFIX,nephobox.com
 DOMAIN-SUFFIX,nest.com
@@ -3738,6 +3746,7 @@ DOMAIN-SUFFIX,raindrop.io
 DOMAIN-SUFFIX,raizoji.or.jp
 DOMAIN-SUFFIX,rakuten.co.jp
 DOMAIN-SUFFIX,ramcity.com.au
+DOMAIN-SUFFIX,raphael.app
 DOMAIN-SUFFIX,rapidmoviez.com
 DOMAIN-SUFFIX,rapidvpn.com
 DOMAIN-SUFFIX,rarbgprx.org
@@ -3851,6 +3860,7 @@ DOMAIN-SUFFIX,rtings.com
 DOMAIN-SUFFIX,rtm.tnt-ea.com
 DOMAIN-SUFFIX,rts.ch
 DOMAIN-SUFFIX,ru
+DOMAIN-SUFFIX,rule34.us
 DOMAIN-SUFFIX,rule34.xxx
 DOMAIN-SUFFIX,rule34video.com
 DOMAIN-SUFFIX,rumble.com
@@ -3985,6 +3995,7 @@ DOMAIN-SUFFIX,shwchurch.org
 DOMAIN-SUFFIX,shwchurch3.com
 DOMAIN-SUFFIX,si
 DOMAIN-SUFFIX,sidelinesnews.com
+DOMAIN-SUFFIX,sider.ai
 DOMAIN-SUFFIX,signal.art
 DOMAIN-SUFFIX,signal.org
 DOMAIN-SUFFIX,signalusers.org
@@ -4085,6 +4096,7 @@ DOMAIN-SUFFIX,sorting-algorithms.com
 DOMAIN-SUFFIX,sos.org
 DOMAIN-SUFFIX,sosad.fun
 DOMAIN-SUFFIX,sosreader.com
+DOMAIN-SUFFIX,sotwe.com
 DOMAIN-SUFFIX,soubory.com
 DOMAIN-SUFFIX,soulcaliburhentai.net
 DOMAIN-SUFFIX,soundcloud.com
@@ -5315,6 +5327,7 @@ DOMAIN-SUFFIX,zh.ecdm.wikia.com
 DOMAIN-SUFFIX,zh.pokerstrategy.com
 DOMAIN-SUFFIX,zh.wikiquote.org
 DOMAIN-SUFFIX,zhangtianliang.com
+DOMAIN-SUFFIX,zhangzhehan.net
 DOMAIN-SUFFIX,zhanlve.org
 DOMAIN-SUFFIX,zhao.1984.city
 DOMAIN-SUFFIX,zhengjian.org

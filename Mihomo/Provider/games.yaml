@@ -1,5 +1,5 @@
-# 更新时间: 2026-05-14 09:51:22（北京时间）
-# 规则数量: 835
+# 更新时间: 2026-05-28 09:43:10（北京时间）
+# 规则数量: 855
 payload:
   - +.100classicbooks.com
   - +.2k.com
@@ -9,6 +9,7 @@ payload:
   - +.2ksports.com
   - +.2kweb.online
   - +.3lateral.com
+  - +.573.jp
   - +.ac-pocketcamp.com
   - +.acesofthunder.net
   - +.activematter.game
@@ -266,8 +267,24 @@ payload:
   - +.itch.zone
   - +.joinsquad.com
   - +.joyjoy.net
+  - +.kgisystems.com
   - +.kirbysepicyarn.com
   - +.kirbysuperstarultra.com
+  - +.kiwi.jp
+  - +.konami
+  - +.konami-igaming.online
+  - +.konami.co.jp
+  - +.konami.com
+  - +.konami.net
+  - +.konami.org
+  - +.konamicrossmedia.com
+  - +.konamigaming.com
+  - +.konamigaming.net
+  - +.konamigaming.online
+  - +.konamionline.com
+  - +.konamiopen.jp
+  - +.konamisportsclub.jp
+  - +.konamistyle.jp
   - +.kraftonde.com
   - +.kyurem.com
   - +.lb-cdn.maj-soul.com
@@ -516,6 +533,8 @@ payload:
   - +.reachthefinals.com
   - +.realityscan.com
   - +.renovacionxboxlive.com
+  - +.resella.jp
+  - +.resellablue.com
   - +.rgpub.io
   - +.riot-games.com
   - +.riot.com
@@ -773,6 +792,7 @@ payload:
   - +.yostar.co.jp
   - +.yostar.net
   - +.yostarplat.com
+  - +.yugioh-card.com
   - +.zenlesszonezero.com
   - +.zynga.com
   - +.zyngaplayersupport.com

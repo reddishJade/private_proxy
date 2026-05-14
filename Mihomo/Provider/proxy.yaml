@@ -1,5 +1,5 @@
-# 更新时间: 2026-05-14 09:51:23（北京时间）
-# 规则数量: 5336
+# 更新时间: 2026-05-28 09:43:11（北京时间）
+# 规则数量: 5349
 payload:
   - +.000webhost.com
   - +.0rz.tw
@@ -36,6 +36,7 @@ payload:
   - +.2049bbs.xyz
   - +.233abc.com
   - +.24.com
+  - +.24hbook.com
   - +.24hrs.ca
   - +.2ch.sc
   - +.2mdn.net
@@ -904,6 +905,7 @@ payload:
   - +.chingcheong.com
   - +.chinman.net
   - +.chobit.cc
+  - +.chonglangtv.org
   - +.chrdnet.com
   - +.christianfreedom.org
   - +.christianstudy.com
@@ -1443,6 +1445,7 @@ payload:
   - +.f-droid.org
   - +.f2pool.com
   - +.f8.com
+  - +.f95zone.to
   - +.fabric.io
   - +.facebook.com
   - +.facebook.de
@@ -1669,6 +1672,7 @@ payload:
   - +.fzlm.net
   - +.g-area.org
   - +.g-queen.com
+  - +.g.ai
   - +.g.co
   - +.g0v.social
   - +.g2.com
@@ -2708,6 +2712,7 @@ payload:
   - +.lematin.ch
   - +.lemonde.fr
   - +.lenwhite.com
+  - +.leonardo.ai
   - +.lesoir.be
   - +.letscorp.net
   - +.letsencrypt.org
@@ -2867,6 +2872,7 @@ payload:
   - +.martsangkagyuofficial.org
   - +.marxist.net
   - +.marxists.org
+  - +.mas.to
   - +.mash.to
   - +.mashable.com
   - +.mastodon.cloud
@@ -3047,6 +3053,7 @@ payload:
   - +.movements.org
   - +.moves-export.com
   - +.moviefap.com
+  - +.mozilla.ai
   - +.mozilla.com
   - +.mozilla.org
   - +.mp3buscador.com
@@ -3134,6 +3141,7 @@ payload:
   - +.ndtv.com
   - +.nekoslovakia.net
   - +.neo-miracle.com
+  - +.neodb.social
   - +.neowin.net
   - +.nephobox.com
   - +.nest.com
@@ -3713,6 +3721,7 @@ payload:
   - +.raizoji.or.jp
   - +.rakuten.co.jp
   - +.ramcity.com.au
+  - +.raphael.app
   - +.rapidmoviez.com
   - +.rapidvpn.com
   - +.rarbgprx.org
@@ -3826,6 +3835,7 @@ payload:
   - +.rtm.tnt-ea.com
   - +.rts.ch
   - +.ru
+  - +.rule34.us
   - +.rule34.xxx
   - +.rule34video.com
   - +.rumble.com
@@ -3960,6 +3970,7 @@ payload:
   - +.shwchurch3.com
   - +.si
   - +.sidelinesnews.com
+  - +.sider.ai
   - +.signal.art
   - +.signal.org
   - +.signalusers.org
@@ -4060,6 +4071,7 @@ payload:
   - +.sos.org
   - +.sosad.fun
   - +.sosreader.com
+  - +.sotwe.com
   - +.soubory.com
   - +.soulcaliburhentai.net
   - +.soundcloud.com
@@ -5290,6 +5302,7 @@ payload:
   - +.zh.pokerstrategy.com
   - +.zh.wikiquote.org
   - +.zhangtianliang.com
+  - +.zhangzhehan.net
   - +.zhanlve.org
   - +.zhao.1984.city
   - +.zhengjian.org

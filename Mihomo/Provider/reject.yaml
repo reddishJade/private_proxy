@@ -1,5 +1,5 @@
-# 更新时间: 2026-05-14 09:51:24（北京时间）
-# 规则数量: 10236
+# 更新时间: 2026-05-28 09:43:14（北京时间）
+# 规则数量: 10238
 payload:
   - +.0.r.msn.com
   - +.000dn.com
@@ -1146,6 +1146,7 @@ payload:
   - +.adsfile.bssdlbig.kugou.com
   - +.adsfile.qq.com
   - +.adsfs.oppomobile.com
+  - +.adsgram.ai
   - +.adsgroup.qq.com
   - +.adsh.m.taobao.com
   - +.adshare.freedocast.com
@@ -7947,6 +7948,7 @@ payload:
   - +.tpstelemetry.tencent.com
   - +.tpush.html5.qq.com
   - +.tqd.ntpddq.com
+  - +.trace-flow.ru
   - +.trace.qq.com
   - +.track-east.mobileadtrading.com
   - +.track.58.com
@@ -9296,6 +9298,7 @@ payload:
   - adsfilebssdlbig.ali.kugou.com
   - adsfileretry.service.kugou.com
   - adsfs-sdkconfig.heytapimage.com
+  - adsfs.heytapimage.com
   - adsfs.oppomobile.com
   - adslvfile.qq.com
   - adsmart.konka.com
@@ -9566,7 +9569,6 @@ payload:
   - doubleclick-cn.net
   - download.changhong.upgrade2.huan.tv
   - downloadxml.changhong.upgrade2.huan.tv
-  - drcn-weather.cloud.huawei.com
   - dsp-x.jd.com
   - dsp.fcbox.com
   - dualstack-logs.amap.com
