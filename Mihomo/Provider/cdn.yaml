@@ -1,5 +1,5 @@
-# 更新时间: 2026-05-28 09:43:05（北京时间）
-# 规则数量: 4484
+# 更新时间: 2026-06-08 23:19:38（北京时间）
+# 规则数量: 4493
 payload:
   - +.1a-1791.com
   - +.1passwordusercontent.ca
@@ -188,6 +188,7 @@ payload:
   - +.cdn.survey.medallia.com
   - +.cdn.turner.com
   - +.cdn.ubi.com
+  - +.cdn.workos.com
   - +.cdn1122.com
   - +.cdn2.hubspot.net
   - +.cdn2020.com
@@ -1429,6 +1430,7 @@ payload:
   - assets.onestore.ms
   - assets.ontrack.com
   - assets.openalternative.co
+  - assets.openlogi.org
   - assets.openshift.com
   - assets.openshift.net
   - assets.orz.uno
@@ -1537,6 +1539,7 @@ payload:
   - awsimgsrc.dmm.co.jp
   - axiecdn.axieinfinity.com
   - az700632.vo.msecnd.net
+  - b.manufact.com
   - b.peatio.com
   - b.sf-syn.com
   - b5x-sentry.1passwordservices.com
@@ -1835,6 +1838,7 @@ payload:
   - cdn.eu.contentful.com
   - cdn.european-alternatives.eu
   - cdn.evbstatic.com
+  - cdn.evgnet.com
   - cdn.f5.com
   - cdn.faire.com
   - cdn.fastcomments.com
@@ -1954,6 +1958,7 @@ payload:
   - cdn.myanimelist.net
   - cdn.myfonts.net
   - cdn.myfutanari.com
+  - cdn.myopenpass.com
   - cdn.myportfolio.com
   - cdn.nba.com
   - cdn.ndtv.com
@@ -2134,7 +2139,6 @@ payload:
   - cdn.wikiwiki.jp
   - cdn.windowsreport.com
   - cdn.wishpond.net
-  - cdn.workos.com
   - cdn.worldvectorlogo.com
   - cdn.writeas.net
   - cdn.xeiaso.net
@@ -3273,6 +3277,7 @@ payload:
   - media.themoviedb.org
   - media.theporndude.com
   - media.theresanaiforthat.com
+  - media.trakt.tv
   - media.user.com
   - media.webtoo.ls
   - media.wired.com
@@ -3402,6 +3407,7 @@ payload:
   - perf.hsforms.com
   - pg2dhpc3p5ec22g3.jkforum.net
   - pgw.udn.com.tw
+  - ph.langfuse.com
   - ph.northflank.com
   - ph.tryprofound.com
   - phishing.army
@@ -4320,11 +4326,13 @@ payload:
   - upload.movim.eu
   - upload.teftera.com
   - upload.wikimedia.org
+  - uploadcare.mwcglobalprofile.com
   - uploads-cdn.omnicalculator.com
   - uploads.bikeindex.org
   - uploads.codesandbox.io
   - uploads.guim.co.uk
   - uploads.linear.app
+  - uploads.pullfrog.com
   - uploads.sitepoint.com
   - upos-sz-mirroralibstar1.bilivideo.com
   - upos-sz-mirrorcosbstar1.bilivideo.com
@@ -4395,6 +4403,7 @@ payload:
   - wa1.aninoapps.com
   - wac-cdn.atlassian.com
   - waitlisted.co
+  - walter-r2.trakt.tv
   - wandi-6402.kxcdn.com
   - wcpstatic.microsoft.com
   - wctour-images.worldchess.com

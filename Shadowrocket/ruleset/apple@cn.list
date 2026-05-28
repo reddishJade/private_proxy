@@ -1,5 +1,5 @@
-# 更新时间: 2026-05-28 09:43:26（北京时间）
-# 规则数量: 413
+# 更新时间: 2026-06-08 23:20:40（北京时间）
+# 规则数量: 407
 DOMAIN,a1.mzstatic.com
 DOMAIN,a2.mzstatic.com
 DOMAIN,a3.mzstatic.com
@@ -90,8 +90,6 @@ DOMAIN,guzzoni-apple-com.v.aaplimg.com
 DOMAIN,guzzoni.apple.com
 DOMAIN,guzzoni.smoot.apple.com
 DOMAIN,iadsdk.apple.com
-DOMAIN,icloud-cdn.icloud.com.akadns.net
-DOMAIN,icloud.cdn-apple.com
 DOMAIN,images.apple.com.edgekey.net.globalredir.akadns.net
 DOMAIN,init-kt.apple.com
 DOMAIN,init-p01md-lb.push-apple.com.akadns.net
@@ -127,20 +125,16 @@ DOMAIN,mesu-china.apple.com.akadns.net
 DOMAIN,mesu.apple.com
 DOMAIN,ml.cdn-apple.com
 DOMAIN,music.apple.com
-DOMAIN,ocsp-lb.apple.com.akadns.net
 DOMAIN,ocsp.apple.com
-DOMAIN,ocsp2-lb.apple.com.akadns.net
 DOMAIN,ocsp2.apple.com
 DOMAIN,oscdn.apple.com
 DOMAIN,oscdn.origin-apple.com.akadns.net
 DOMAIN,osxapps.itunes.g.aaplimg.com
 DOMAIN,pancake.apple.com
-DOMAIN,pancake.cdn-apple.com.akadns.net
 DOMAIN,pba0.apple.com
 DOMAIN,probe.siri.apple.com
 DOMAIN,prod-support.apple-support.akadns.net
 DOMAIN,publicassets.cdn-apple.com
-DOMAIN,reserve-prime.apple.com
 DOMAIN,s.mzstatic.com
 DOMAIN,s1.mzstatic.com
 DOMAIN,s2.mzstatic.com

@@ -1,5 +1,5 @@
-# 更新时间: 2026-05-28 09:43:11（北京时间）
-# 规则数量: 5349
+# 更新时间: 2026-06-08 23:20:13（北京时间）
+# 规则数量: 5358
 payload:
   - +.000webhost.com
   - +.0rz.tw
@@ -340,6 +340,7 @@ payload:
   - +.artstation.com
   - +.arvanstorage.ir
   - +.arweave.org
+  - +.as.mr
   - +.asacp.org
   - +.ashemaletube.com
   - +.asiaharvest.org
@@ -433,6 +434,7 @@ payload:
   - +.bangdream.space
   - +.bangkokpost.com
   - +.bangumi.moe
+  - +.bangumi.tv
   - +.bangyoulater.com
   - +.bankmobilevibe.com
   - +.bannedbook.org
@@ -861,6 +863,7 @@ payload:
   - +.cherrysave.com
   - +.chess.com
   - +.chhongbi.org
+  - +.chii.in
   - +.china-mmm.net
   - +.china-review.com.ua
   - +.china-week.com
@@ -1282,6 +1285,7 @@ payload:
   - +.doujincafe.com
   - +.doujins.com
   - +.dowjones.com
+  - +.dowjones.io
   - +.downdetector.com
   - +.downdetectorapi.com
   - +.download.dappcdn.com
@@ -1715,6 +1719,7 @@ payload:
   - +.geekbench.com
   - +.gekikame.com
   - +.gelbooru.com
+  - +.gencraft.com
   - +.generated.photos
   - +.geni.us
   - +.genius.com
@@ -2198,6 +2203,7 @@ payload:
   - +.hicairo.com
   - +.hiccears.com
   - +.hidden-advent.org
+  - +.hiddify.com
   - +.hide.me
   - +.hideipvpn.com
   - +.hideman.net
@@ -3590,6 +3596,7 @@ payload:
   - +.poskotanews.com
   - +.post76.com
   - +.post852.com
+  - +.posthog.com
   - +.postmarkapp.com
   - +.posts.careerengine.us
   - +.potato.im
@@ -4045,7 +4052,6 @@ payload:
   - +.socks-proxy.net
   - +.sockslist.net
   - +.socrec.org
-  - +.softether-download.com
   - +.softether.co.jp
   - +.softether.org
   - +.softfamous.com
@@ -4211,6 +4217,7 @@ payload:
   - +.surge-activation.com
   - +.surge.run
   - +.surrenderat20.net
+  - +.suyingtv.com
   - +.swagbucks.com
   - +.swapspace.co
   - +.swissinfo.ch
@@ -4770,6 +4777,7 @@ payload:
   - +.vbstatic.co
   - +.vcf-online.org
   - +.vcfbuilder.org
+  - +.veed.io
   - +.vegas.williamhill.com
   - +.vegasred.com
   - +.venchina.com
@@ -5069,6 +5077,7 @@ payload:
   - +.wowporn.com
   - +.woyaolian.org
   - +.wp.com
+  - +.wplace.live
   - +.wpoforum.com
   - +.wr.pvp.net
   - +.writesonic.com

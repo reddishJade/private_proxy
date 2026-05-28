@@ -1,5 +1,5 @@
-# 更新时间: 2026-05-28 09:43:09（北京时间）
-# 规则数量: 302
+# 更新时间: 2026-06-08 23:19:52（北京时间）
+# 规则数量: 307
 payload:
   - +.17roco.com
   - +.3304399.com
@@ -46,6 +46,7 @@ payload:
   - +.abdf002.com
   - +.aki-game.com
   - +.akspeedy.com
+  - +.aligames.com
   - +.anticheatexpert.com
   - +.appeeres.com
   - +.arcaea.cn
@@ -128,10 +129,13 @@ payload:
   - +.ihykb.com
   - +.img4399.com
   - +.in.th
+  - +.jiaoyimao.cn
+  - +.jiaoyimao.com
   - +.jiasu.bohe.com
   - +.juequling.com
   - +.kk1.vip
   - +.kurogames.com
+  - +.kurogames.net
   - +.labycore.cn
   - +.langrenclub.com
   - +.ldmnq.com
@@ -139,6 +143,7 @@ payload:
   - +.leigod.cn
   - +.leigod.com
   - +.leigodjsq.com
+  - +.lingxigames.com
   - +.liuxing.com
   - +.longtugame.com
   - +.lorhf.com

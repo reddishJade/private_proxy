@@ -1,5 +1,5 @@
-# 更新时间: 2026-05-28 09:43:26（北京时间）
-# 规则数量: 179
+# 更新时间: 2026-06-08 23:20:40（北京时间）
+# 规则数量: 201
 DOMAIN,ai.google.dev
 DOMAIN,alkalicore-pa.clients6.google.com
 DOMAIN,alkalimakersuite-pa.clients6.google.com
@@ -8,6 +8,9 @@ DOMAIN,antigravity-unleash.goog
 DOMAIN,antigravity.googleapis.com
 DOMAIN,api.github.com
 DOMAIN,browser-intake-datadoghq.com
+DOMAIN,cdn.openaimerge.com
+DOMAIN,cdn.workos.com
+DOMAIN,challenges.cloudflare.com
 DOMAIN,chat.openai.com.cdn.cloudflare.net
 DOMAIN,cloudaicompanion.googleapis.com
 DOMAIN,cloudcode-pa.googleapis.com
@@ -18,9 +21,14 @@ DOMAIN,copilot-workspace.githubnext.com
 DOMAIN,copilot.microsoft.com
 DOMAIN,copilotprodattachments.blob.core.windows.net
 DOMAIN,daily-cloudcode-pa.googleapis.com
+DOMAIN,forwarder.workos.com
 DOMAIN,gateway.ai.cloudflare.com
+DOMAIN,humb.apple.com
+DOMAIN,images.workoscdn.com
+DOMAIN,js.stripe.com
 DOMAIN,notebooklm-pa.googleapis.com
 DOMAIN,notebooklm.googleapis.com
+DOMAIN,o207216.ingest.sentry.io
 DOMAIN,o33249.ingest.sentry.io
 DOMAIN,openaiapi-site.azureedge.net
 DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
@@ -29,10 +37,12 @@ DOMAIN,openaicomproductionae4b.blob.core.windows.net
 DOMAIN,ppl-ai-file-upload.s3.amazonaws.com
 DOMAIN,pplx-res.cloudinary.com
 DOMAIN,production-openaicom-storage.azureedge.net
+DOMAIN,rum.browser-intake-datadoghq.com
 DOMAIN,servd-anthropic-website.b-cdn.net
-DOMAIN,sora-cdn.oaistatic.com
+DOMAIN,setup.workos.com
 DOMAIN,waa-pa.clients6.google.com
 DOMAIN,webchannel-alkalimakersuite-pa.clients6.google.com
+DOMAIN,workos.imgix.net
 DOMAIN-KEYWORD,alkalimakersuite-pa.clients6.google.com
 DOMAIN-SUFFIX,agentclientprotocol.com
 DOMAIN-SUFFIX,ai.com
@@ -49,10 +59,10 @@ DOMAIN-SUFFIX,apis.google.com
 DOMAIN-SUFFIX,apple-relay.apple.com
 DOMAIN-SUFFIX,apple-relay.cloudflare.com
 DOMAIN-SUFFIX,apple-relay.fastly-edge.com
+DOMAIN-SUFFIX,arena.ai
 DOMAIN-SUFFIX,augment.com
 DOMAIN-SUFFIX,augmentcode.com
 DOMAIN-SUFFIX,bard.google.com
-DOMAIN-SUFFIX,cdn.oaistatic.com
 DOMAIN-SUFFIX,cerebras.ai
 DOMAIN-SUFFIX,chat.com
 DOMAIN-SUFFIX,chatgpt.com
@@ -66,6 +76,7 @@ DOMAIN-SUFFIX,clau.de
 DOMAIN-SUFFIX,claude.ai
 DOMAIN-SUFFIX,claude.com
 DOMAIN-SUFFIX,claudemcpclient.com
+DOMAIN-SUFFIX,claudemcpcontent.com
 DOMAIN-SUFFIX,claudeusercontent.com
 DOMAIN-SUFFIX,clawhub.ai
 DOMAIN-SUFFIX,clipdrop.co
@@ -83,6 +94,7 @@ DOMAIN-SUFFIX,coze.com
 DOMAIN-SUFFIX,cp4.cloudflare.com
 DOMAIN-SUFFIX,crewai.com
 DOMAIN-SUFFIX,crixet.com
+DOMAIN-SUFFIX,ct.sendgrid.net
 DOMAIN-SUFFIX,cursor-cdn.com
 DOMAIN-SUFFIX,cursor.com
 DOMAIN-SUFFIX,cursor.sh
@@ -100,6 +112,8 @@ DOMAIN-SUFFIX,elevenlabs.io
 DOMAIN-SUFFIX,envato-static.com
 DOMAIN-SUFFIX,envato.com
 DOMAIN-SUFFIX,envatousercontent.com
+DOMAIN-SUFFIX,featureassets.org
+DOMAIN-SUFFIX,featuregates.org
 DOMAIN-SUFFIX,gateway.ai.cloudflare.com
 DOMAIN-SUFFIX,geller-pa.googleapis.com
 DOMAIN-SUFFIX,gemini.google
@@ -118,6 +132,8 @@ DOMAIN-SUFFIX,hf.co
 DOMAIN-SUFFIX,hf.space
 DOMAIN-SUFFIX,host.livekit.cloud
 DOMAIN-SUFFIX,huggingface.co
+DOMAIN-SUFFIX,intercom.io
+DOMAIN-SUFFIX,intercomcdn.com
 DOMAIN-SUFFIX,jasper.ai
 DOMAIN-SUFFIX,jetbrains.ai
 DOMAIN-SUFFIX,jules.google
@@ -144,6 +160,7 @@ DOMAIN-SUFFIX,mozilla.ai
 DOMAIN-SUFFIX,notebooklm.google
 DOMAIN-SUFFIX,notebooklm.google.com
 DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,oaistatsig.com
 DOMAIN-SUFFIX,oaiusercontent.com
 DOMAIN-SUFFIX,ollama.com
 DOMAIN-SUFFIX,opal.google
@@ -162,10 +179,15 @@ DOMAIN-SUFFIX,poe.com
 DOMAIN-SUFFIX,poecdn.net
 DOMAIN-SUFFIX,pplx.ai
 DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
+DOMAIN-SUFFIX,prodregistryv2.org
+DOMAIN-SUFFIX,qoder.com
 DOMAIN-SUFFIX,robinfrontend-pa.googleapis.com
+DOMAIN-SUFFIX,sider.ai
 DOMAIN-SUFFIX,smoot.apple.com
 DOMAIN-SUFFIX,sora.com
 DOMAIN-SUFFIX,spicywriter.com
+DOMAIN-SUFFIX,statsig.com
+DOMAIN-SUFFIX,statsigapi.net
 DOMAIN-SUFFIX,stitch.withgoogle.com
 DOMAIN-SUFFIX,tapnow.ai
 DOMAIN-SUFFIX,themeforest.net

@@ -1,5 +1,5 @@
-# 更新时间: 2026-05-28 09:43:26（北京时间）
-# 规则数量: 102
+# 更新时间: 2026-06-08 23:20:40（北京时间）
+# 规则数量: 104
 DOMAIN,ai.zhaomi.cn
 DOMAIN,cueme-api.quark.cn
 DOMAIN-SUFFIX,aispeech.com
@@ -46,6 +46,7 @@ DOMAIN-SUFFIX,hi-butterfly.cn
 DOMAIN-SUFFIX,hunyuan.tencent.com
 DOMAIN-SUFFIX,instreet.com
 DOMAIN-SUFFIX,kimi.com
+DOMAIN-SUFFIX,klingai.com
 DOMAIN-SUFFIX,liblib.art
 DOMAIN-SUFFIX,liblib.cloud
 DOMAIN-SUFFIX,liblib.tv
@@ -97,6 +98,7 @@ DOMAIN-SUFFIX,xinghuo.xfyun.cn
 DOMAIN-SUFFIX,xingyeai.com
 DOMAIN-SUFFIX,yiyan.baidu.com
 DOMAIN-SUFFIX,yoma.cn
+DOMAIN-SUFFIX,yuanbao.tencent.com
 DOMAIN-SUFFIX,yuanqi.tencent.com
 DOMAIN-SUFFIX,z.ai
 DOMAIN-SUFFIX,zhiexa.com

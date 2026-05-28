@@ -1,5 +1,5 @@
-# 更新时间: 2026-05-28 09:43:08（北京时间）
-# 规则数量: 1942
+# 更新时间: 2026-06-08 23:19:51（北京时间）
+# 规则数量: 1945
 payload:
   - +.1fichier.com
   - +.1fichier.info
@@ -596,6 +596,7 @@ payload:
   - blzddist2-a.akamaihd.net
   - blzddist3-a.akamaihd.net
   - blzddistkr1-a.akamaihd.net
+  - bn.d.miui.com
   - boot.arcboxcdn.com
   - boot.netboot.xyz
   - builds.paranoidandroid.co
@@ -610,6 +611,7 @@ payload:
   - cdimage.ubuntu.com
   - cdn-builds.paw.cloud
   - cdn-images.orbstack.dev
+  - cdn-ota.azureedge.net
   - cdn-patch.swtor.com
   - cdn-updates.orbstack.dev
   - cdn.affonso.io
@@ -1496,6 +1498,7 @@ payload:
   - mirror.team-cymru.org
   - mirror.team-host.ru
   - mirror.techlabs.co.kr
+  - mirror.tejas101k.workers.dev
   - mirror.telepoint.bg
   - mirror.thunderhosting.cloud
   - mirror.timeweb.ru

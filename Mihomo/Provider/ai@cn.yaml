@@ -1,5 +1,5 @@
-# 更新时间: 2026-05-28 09:43:04（北京时间）
-# 规则数量: 102
+# 更新时间: 2026-06-08 23:19:35（北京时间）
+# 规则数量: 104
 payload:
   - +.aispeech.com
   - +.antafu.com
@@ -45,6 +45,7 @@ payload:
   - +.hunyuan.tencent.com
   - +.instreet.com
   - +.kimi.com
+  - +.klingai.com
   - +.liblib.art
   - +.liblib.cloud
   - +.liblib.tv
@@ -96,6 +97,7 @@ payload:
   - +.xingyeai.com
   - +.yiyan.baidu.com
   - +.yoma.cn
+  - +.yuanbao.tencent.com
   - +.yuanqi.tencent.com
   - +.z.ai
   - +.zhiexa.com

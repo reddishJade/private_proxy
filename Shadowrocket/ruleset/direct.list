@@ -1,19 +1,26 @@
-# 更新时间: 2026-05-28 09:43:27（北京时间）
-# 规则数量: 233
+# 更新时间: 2026-06-08 23:20:49（北京时间）
+# 规则数量: 244
 DOMAIN,127.skk.moe
 DOMAIN,aterm.me
 DOMAIN,captive.apple.com
+DOMAIN,conn1.oppomobile.com
+DOMAIN,conn2.oppomobile.com
 DOMAIN,connect.rom.miui.com
 DOMAIN,connectivity-check.ubuntu.com
+DOMAIN,connectivity.samsung.com.cn
+DOMAIN,connectivitycheck.gstatic.com
 DOMAIN,connectivitycheck.platform.hicloud.com
 DOMAIN,connectivitycheck.platform.hihonorcloud.com
 DOMAIN,console.gl-inet.com
+DOMAIN,edge-http.microsoft.com
 DOMAIN,homerouter.cpe
 DOMAIN,hotspot.cslwifi.com
 DOMAIN,injections.adguard.org
 DOMAIN,instant.arubanetworks.com
 DOMAIN,local.adguard.org
 DOMAIN,mobile.hotspot
+DOMAIN,networkcheck.kde.org
+DOMAIN,nmcheck.gnome.org
 DOMAIN,ntt.setup
 DOMAIN,pi.hole
 DOMAIN,ping.archlinux.org
@@ -23,6 +30,11 @@ DOMAIN,repeater.asus.com
 DOMAIN,router.asus.com
 DOMAIN,setmeup.arubanetworks.com
 DOMAIN,unifi
+DOMAIN,wifi.vivo.com.cn
+DOMAIN,www.google.com
+DOMAIN,www.gstatic.com
+DOMAIN,www.qualcomm.cn
+DOMAIN,www.qualcomm.com
 DOMAIN-KEYWORD,cnki.net
 DOMAIN-KEYWORD,deepdyve
 DOMAIN-KEYWORD,els-cdn
@@ -83,7 +95,6 @@ DOMAIN-SUFFIX,cinemaz.to
 DOMAIN-SUFFIX,classix-unlimited.co.uk
 DOMAIN-SUFFIX,comicat.org
 DOMAIN-SUFFIX,concertos.live
-DOMAIN-SUFFIX,connectivitycheck.gstatic.com
 DOMAIN-SUFFIX,cp.cloudflare.com
 DOMAIN-SUFFIX,detectportal.firefox.com
 DOMAIN-SUFFIX,dicmusic.club
@@ -131,6 +142,7 @@ DOMAIN-SUFFIX,jpopsuki.eu
 DOMAIN-SUFFIX,jstor.org
 DOMAIN-SUFFIX,karagarga.in
 DOMAIN-SUFFIX,keepfrds.com
+DOMAIN-SUFFIX,kuketz.de
 DOMAIN-SUFFIX,lan
 DOMAIN-SUFFIX,lcdn-locator.apple.com
 DOMAIN-SUFFIX,leaguehd.com
@@ -150,7 +162,6 @@ DOMAIN-SUFFIX,nature.com
 DOMAIN-SUFFIX,ncore.cc
 DOMAIN-SUFFIX,nebulance.io
 DOMAIN-SUFFIX,network-test.debian.org
-DOMAIN-SUFFIX,networkcheck.kde.org
 DOMAIN-SUFFIX,nicept.net
 DOMAIN-SUFFIX,npupt.com
 DOMAIN-SUFFIX,open.cd

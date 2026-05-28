@@ -1,5 +1,5 @@
-# 更新时间: 2026-05-28 09:43:28（北京时间）
-# 规则数量: 5425
+# 更新时间: 2026-06-08 23:21:03（北京时间）
+# 规则数量: 5434
 DOMAIN,api.waqi.info
 DOMAIN,aqi.aqicn.org
 DOMAIN,ccmdl.adobe.com
@@ -365,6 +365,7 @@ DOMAIN-SUFFIX,arte.tv
 DOMAIN-SUFFIX,artstation.com
 DOMAIN-SUFFIX,arvanstorage.ir
 DOMAIN-SUFFIX,arweave.org
+DOMAIN-SUFFIX,as.mr
 DOMAIN-SUFFIX,asacp.org
 DOMAIN-SUFFIX,ashemaletube.com
 DOMAIN-SUFFIX,asiaharvest.org
@@ -458,6 +459,7 @@ DOMAIN-SUFFIX,bangchen.net
 DOMAIN-SUFFIX,bangdream.space
 DOMAIN-SUFFIX,bangkokpost.com
 DOMAIN-SUFFIX,bangumi.moe
+DOMAIN-SUFFIX,bangumi.tv
 DOMAIN-SUFFIX,bangyoulater.com
 DOMAIN-SUFFIX,bankmobilevibe.com
 DOMAIN-SUFFIX,bannedbook.org
@@ -886,6 +888,7 @@ DOMAIN-SUFFIX,chenpokongvip.com
 DOMAIN-SUFFIX,cherrysave.com
 DOMAIN-SUFFIX,chess.com
 DOMAIN-SUFFIX,chhongbi.org
+DOMAIN-SUFFIX,chii.in
 DOMAIN-SUFFIX,china-mmm.net
 DOMAIN-SUFFIX,china-review.com.ua
 DOMAIN-SUFFIX,china-week.com
@@ -1307,6 +1310,7 @@ DOMAIN-SUFFIX,dougscripts.com
 DOMAIN-SUFFIX,doujincafe.com
 DOMAIN-SUFFIX,doujins.com
 DOMAIN-SUFFIX,dowjones.com
+DOMAIN-SUFFIX,dowjones.io
 DOMAIN-SUFFIX,downdetector.com
 DOMAIN-SUFFIX,downdetectorapi.com
 DOMAIN-SUFFIX,download.dappcdn.com
@@ -1740,6 +1744,7 @@ DOMAIN-SUFFIX,geek-art.net
 DOMAIN-SUFFIX,geekbench.com
 DOMAIN-SUFFIX,gekikame.com
 DOMAIN-SUFFIX,gelbooru.com
+DOMAIN-SUFFIX,gencraft.com
 DOMAIN-SUFFIX,generated.photos
 DOMAIN-SUFFIX,geni.us
 DOMAIN-SUFFIX,genius.com
@@ -2223,6 +2228,7 @@ DOMAIN-SUFFIX,heyuedi.com
 DOMAIN-SUFFIX,hicairo.com
 DOMAIN-SUFFIX,hiccears.com
 DOMAIN-SUFFIX,hidden-advent.org
+DOMAIN-SUFFIX,hiddify.com
 DOMAIN-SUFFIX,hide.me
 DOMAIN-SUFFIX,hideipvpn.com
 DOMAIN-SUFFIX,hideman.net
@@ -3615,6 +3621,7 @@ DOMAIN-SUFFIX,porntvblog.com
 DOMAIN-SUFFIX,poskotanews.com
 DOMAIN-SUFFIX,post76.com
 DOMAIN-SUFFIX,post852.com
+DOMAIN-SUFFIX,posthog.com
 DOMAIN-SUFFIX,postmarkapp.com
 DOMAIN-SUFFIX,posts.careerengine.us
 DOMAIN-SUFFIX,potato.im
@@ -4070,7 +4077,6 @@ DOMAIN-SUFFIX,socialblade.com
 DOMAIN-SUFFIX,socks-proxy.net
 DOMAIN-SUFFIX,sockslist.net
 DOMAIN-SUFFIX,socrec.org
-DOMAIN-SUFFIX,softether-download.com
 DOMAIN-SUFFIX,softether.co.jp
 DOMAIN-SUFFIX,softether.org
 DOMAIN-SUFFIX,softfamous.com
@@ -4236,6 +4242,7 @@ DOMAIN-SUFFIX,surfsharkdns.com
 DOMAIN-SUFFIX,surge-activation.com
 DOMAIN-SUFFIX,surge.run
 DOMAIN-SUFFIX,surrenderat20.net
+DOMAIN-SUFFIX,suyingtv.com
 DOMAIN-SUFFIX,swagbucks.com
 DOMAIN-SUFFIX,swapspace.co
 DOMAIN-SUFFIX,swissinfo.ch
@@ -4795,6 +4802,7 @@ DOMAIN-SUFFIX,vatn.org
 DOMAIN-SUFFIX,vbstatic.co
 DOMAIN-SUFFIX,vcf-online.org
 DOMAIN-SUFFIX,vcfbuilder.org
+DOMAIN-SUFFIX,veed.io
 DOMAIN-SUFFIX,vegas.williamhill.com
 DOMAIN-SUFFIX,vegasred.com
 DOMAIN-SUFFIX,venchina.com
@@ -5094,6 +5102,7 @@ DOMAIN-SUFFIX,wowhead.com
 DOMAIN-SUFFIX,wowporn.com
 DOMAIN-SUFFIX,woyaolian.org
 DOMAIN-SUFFIX,wp.com
+DOMAIN-SUFFIX,wplace.live
 DOMAIN-SUFFIX,wpoforum.com
 DOMAIN-SUFFIX,wr.pvp.net
 DOMAIN-SUFFIX,writesonic.com

@@ -1,5 +1,5 @@
-# 更新时间: 2026-05-28 09:43:05（北京时间）
-# 规则数量: 413
+# 更新时间: 2026-06-08 23:19:36（北京时间）
+# 规则数量: 407
 payload:
   - +.a1.mzstatic.com
   - +.a2.mzstatic.com
@@ -315,8 +315,6 @@ payload:
   - guzzoni.apple.com
   - guzzoni.smoot.apple.com
   - iadsdk.apple.com
-  - icloud-cdn.icloud.com.akadns.net
-  - icloud.cdn-apple.com
   - images.apple.com.edgekey.net.globalredir.akadns.net
   - init-kt.apple.com
   - init-p01md-lb.push-apple.com.akadns.net
@@ -352,20 +350,16 @@ payload:
   - mesu.apple.com
   - ml.cdn-apple.com
   - music.apple.com
-  - ocsp-lb.apple.com.akadns.net
   - ocsp.apple.com
-  - ocsp2-lb.apple.com.akadns.net
   - ocsp2.apple.com
   - oscdn.apple.com
   - oscdn.origin-apple.com.akadns.net
   - osxapps.itunes.g.aaplimg.com
   - pancake.apple.com
-  - pancake.cdn-apple.com.akadns.net
   - pba0.apple.com
   - probe.siri.apple.com
   - prod-support.apple-support.akadns.net
   - publicassets.cdn-apple.com
-  - reserve-prime.apple.com
   - s.mzstatic.com
   - s1.mzstatic.com
   - s2.mzstatic.com
