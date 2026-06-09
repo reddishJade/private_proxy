@@ -1,5 +1,5 @@
-# 更新时间: 2026-06-08 23:19:51（北京时间）
-# 规则数量: 117
+# 更新时间: 2026-06-11 10:09:37（北京时间）
+# 规则数量: 116
 payload:
   - +.126.net
   - +.3gppnetwork.org
@@ -112,7 +112,6 @@ payload:
   - time1.cloud.tencent.com
   - trackercdn.kugou.com
   - wifi.vivo.com.cn
-  - www.google.com
   - www.gstatic.com
   - www.qualcomm.cn
   - www.qualcomm.com

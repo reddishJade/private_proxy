@@ -1,5 +1,5 @@
-# 更新时间: 2026-06-08 23:19:51（北京时间）
-# 规则数量: 1945
+# 更新时间: 2026-06-11 10:09:36（北京时间）
+# 规则数量: 1947
 payload:
   - +.1fichier.com
   - +.1fichier.info
@@ -583,6 +583,7 @@ payload:
   - archlinux.nic.cz
   - artifacts.electronjs.org
   - assets-production.packagecloud.io
+  - assets.dataflare.app
   - assets1.xboxlive.com
   - assets2.xboxlive.com
   - aus5.mozilla.org
@@ -901,6 +902,7 @@ payload:
   - dw.uptodown.net
   - eclats.crans.org
   - edge.steam-dns.top.comcast.net
+  - edge.zerofs.link
   - edgedl.me.gvt1.com
   - edgeupdates.microsoft.com
   - elmirror.cl

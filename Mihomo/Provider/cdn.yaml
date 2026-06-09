@@ -1,5 +1,5 @@
-# 更新时间: 2026-06-08 23:19:38（北京时间）
-# 规则数量: 4493
+# 更新时间: 2026-06-11 10:09:34（北京时间）
+# 规则数量: 4500
 payload:
   - +.1a-1791.com
   - +.1passwordusercontent.ca
@@ -1014,6 +1014,7 @@ payload:
   - +.swiftypecdn.com
   - +.sxccdn.com
   - +.szjal.cn
+  - +.t-assets.net
   - +.t8cdn.com
   - +.tacdn.com
   - +.tags.f5.com
@@ -1477,6 +1478,7 @@ payload:
   - assets.time.com
   - assets.tokopedia.net
   - assets.toot.cafe
+  - assets.transfernow.net
   - assets.tvtropes.org
   - assets.twitch.tv
   - assets.unicorn.studio
@@ -1630,6 +1632,7 @@ payload:
   - canvas-lb.tubitv.com
   - cartodb-basemaps-a.global.ssl.fastly.net
   - cassette.sphdigital.com.sg
+  - catalogartifact.azureedge.net
   - categoriespages-cdn.trustpilot.net
   - cc-embed.adobe.com
   - cc.boyfriendtv.com
@@ -2386,6 +2389,7 @@ payload:
   - creator-image.javhd.com
   - crl.usertrust.com
   - crl.verisign.com
+  - crl3.digicert.com
   - crt.comodoca.com
   - crt.sectigo.com
   - crt.usertrust.com
@@ -3048,6 +3052,7 @@ payload:
   - imgfile.shop
   - imgix.setapp.com
   - imgopt.infoq.com
+  - imgproxy.flathub.org
   - imgproxy.fourthwall.com
   - imgrs.apkcombo.com
   - imgs.plurk.com
@@ -3312,6 +3317,7 @@ payload:
   - moodular.jotform.com
   - mosaic-blender.fxtwitter.com
   - mosaic.fxtwitter.com
+  - mozilla-ohttp.fastly-edge.com
   - mparticle.weather.com
   - mstdn-s3.o3o.studio
   - mta.newfold.com
@@ -4362,6 +4368,7 @@ payload:
   - v2.listenloop.com
   - v2uploads.zopim.io
   - vanilla-extract.style
+  - variations.brave.com
   - vbmspic.video.friday.tw
   - vcdn.anysex.com
   - vectorified.com

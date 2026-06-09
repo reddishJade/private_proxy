@@ -1,5 +1,5 @@
-# 更新时间: 2026-06-08 23:20:13（北京时间）
-# 规则数量: 5358
+# 更新时间: 2026-06-11 10:09:39（北京时间）
+# 规则数量: 5359
 payload:
   - +.000webhost.com
   - +.0rz.tw
@@ -1554,6 +1554,7 @@ payload:
   - +.fish.audio
   - +.fixupx.com
   - +.fixvx.com
+  - +.flathub.org
   - +.flecheinthepeche.fr
   - +.fleursdeslettres.com
   - +.flexclip.com

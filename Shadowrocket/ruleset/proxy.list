@@ -1,5 +1,5 @@
-# 更新时间: 2026-06-08 23:21:03（北京时间）
-# 规则数量: 5434
+# 更新时间: 2026-06-11 10:09:58（北京时间）
+# 规则数量: 5435
 DOMAIN,api.waqi.info
 DOMAIN,aqi.aqicn.org
 DOMAIN,ccmdl.adobe.com
@@ -1579,6 +1579,7 @@ DOMAIN-SUFFIX,firstrade.com
 DOMAIN-SUFFIX,fish.audio
 DOMAIN-SUFFIX,fixupx.com
 DOMAIN-SUFFIX,fixvx.com
+DOMAIN-SUFFIX,flathub.org
 DOMAIN-SUFFIX,flecheinthepeche.fr
 DOMAIN-SUFFIX,fleursdeslettres.com
 DOMAIN-SUFFIX,flexclip.com
