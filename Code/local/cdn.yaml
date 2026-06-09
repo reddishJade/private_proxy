@@ -1,4 +1,6 @@
 playload:
-  - release-assets.githubusercontent.com
   - dl.google.com
+  - edgedl.me.gvt1.com
+  - hf.co
+  - release-assets.githubusercontent.com
   - storage.googleapis.com

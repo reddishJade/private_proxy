@@ -117,11 +117,6 @@
     #   url: "https://cdn.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/Special.yaml"
     #   format: yaml
     #   behavior: classical
-    meta_connectivity-check:
-      type: http
-      url: "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@refs/heads/meta/geo/geosite/connectivity-check.yaml"
-      format: yaml
-      behavior: domain
 
 - path: output/domestic.yaml
   format: yaml
