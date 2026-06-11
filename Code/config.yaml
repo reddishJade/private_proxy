@@ -162,6 +162,12 @@
       url: "https://ruleset.skk.moe/Clash/domainset/download.txt"
       format: txt
       behavior: domain
+    local_download:
+      type: file
+      path: "local/download.yaml"
+      format: yaml
+      behavior: domain
+
 
 - path: output/download@ip.yaml
   format: yaml
