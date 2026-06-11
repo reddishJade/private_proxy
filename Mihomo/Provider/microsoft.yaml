@@ -1,5 +1,5 @@
-# 更新时间: 2026-06-11 10:09:37（北京时间）
-# 规则数量: 848
+# 更新时间: 2026-06-13 21:17:10（北京时间）
+# 规则数量: 849
 payload:
   - +.1drv.com
   - +.1drv.ms
@@ -249,6 +249,7 @@ payload:
   - +.gfx.ms
   - +.gh.io
   - +.ghcr.io
+  - +.ghe.com
   - +.gigjam.com
   - +.git.io
   - +.github.ai

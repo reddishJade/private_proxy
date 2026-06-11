@@ -1,5 +1,5 @@
-# 更新时间: 2026-06-11 10:09:37（北京时间）
-# 规则数量: 860
+# 更新时间: 2026-06-13 21:17:10（北京时间）
+# 规则数量: 862
 payload:
   - +.100classicbooks.com
   - +.2k.com
@@ -131,6 +131,7 @@ payload:
   - +.dodi-repacks.site
   - +.donkeykongcountryreturns.com
   - +.doom.com
+  - +.dota2.com
   - +.dragonage.com
   - +.dragonagekeep.com
   - +.dragonagemovie.com
@@ -721,6 +722,7 @@ payload:
   - +.uo.com
   - +.uoherald.com
   - +.uplay.com
+  - +.valve.net
   - +.valvesoftware.com
   - +.videos-rockstargames-com.akamaized.net
   - +.vigorgame.com

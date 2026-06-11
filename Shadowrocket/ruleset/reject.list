@@ -1,5 +1,5 @@
-# 更新时间: 2026-06-11 10:09:59（北京时间）
-# 规则数量: 10329
+# 更新时间: 2026-06-13 21:17:40（北京时间）
+# 规则数量: 10334
 DOMAIN,118.89.204.198
 DOMAIN,1500020991.vodplayer.wxamedia.com
 DOMAIN,1500022744.vodplayer.wxamedia.com
@@ -2516,6 +2516,7 @@ DOMAIN-SUFFIX,analytics-alv.google.com
 DOMAIN-SUFFIX,analytics-data.io
 DOMAIN-SUFFIX,analytics.126.net
 DOMAIN-SUFFIX,analytics.163.com
+DOMAIN-SUFFIX,analytics.cloud.unity3d.com
 DOMAIN-SUFFIX,analytics.facebook.com
 DOMAIN-SUFFIX,analytics.ganji.com
 DOMAIN-SUFFIX,analytics.query.yahoo.com
@@ -2624,6 +2625,7 @@ DOMAIN-SUFFIX,api.xk.miui.com
 DOMAIN-SUFFIX,api.y.igexin.com
 DOMAIN-SUFFIX,api.youxiaoad.com
 DOMAIN-SUFFIX,api.zol.com
+DOMAIN-SUFFIX,api2.amplitude.com
 DOMAIN-SUFFIX,api2.play.cn
 DOMAIN-SUFFIX,apihk.growingio.com
 DOMAIN-SUFFIX,apisoft.df0535.com
@@ -3408,6 +3410,7 @@ DOMAIN-SUFFIX,cdnmaster.com
 DOMAIN-SUFFIX,cdnny.com
 DOMAIN-SUFFIX,cdnpa.hyperpromote.com
 DOMAIN-SUFFIX,cdntest.a8tiyu.com
+DOMAIN-SUFFIX,cdp.cloud.unity3d.com
 DOMAIN-SUFFIX,cds.51y5.net
 DOMAIN-SUFFIX,cdsget.51y5.net
 DOMAIN-SUFFIX,cdyqc.com
@@ -3645,6 +3648,7 @@ DOMAIN-SUFFIX,config.ioam.de
 DOMAIN-SUFFIX,config.kuyun.com
 DOMAIN-SUFFIX,config.mobisage.cn
 DOMAIN-SUFFIX,config.push.sogou.com
+DOMAIN-SUFFIX,config.uca.cloud.unity3d.com
 DOMAIN-SUFFIX,config.unityads.unity3d.com
 DOMAIN-SUFFIX,config2.mparticle.com
 DOMAIN-SUFFIX,connect.summit.co.uk
@@ -4112,7 +4116,6 @@ DOMAIN-SUFFIX,dlpifu.com
 DOMAIN-SUFFIX,dlrijiaele.com
 DOMAIN-SUFFIX,dlsw.baidu.com
 DOMAIN-SUFFIX,dlsw.br.baidu.com
-DOMAIN-SUFFIX,dlswbr.baidu.com
 DOMAIN-SUFFIX,dlzjdesign.com
 DOMAIN-SUFFIX,dm.388g.cc
 DOMAIN-SUFFIX,dm.51okc.com
@@ -6926,7 +6929,6 @@ DOMAIN-SUFFIX,mhdufile.1391.com
 DOMAIN-SUFFIX,mhjk.1391.com
 DOMAIN-SUFFIX,mhuodong.elong.com
 DOMAIN-SUFFIX,miam4.cn
-DOMAIN-SUFFIX,miao.baidu.com
 DOMAIN-SUFFIX,miaobeichina.com
 DOMAIN-SUFFIX,miaowu.baidu.com
 DOMAIN-SUFFIX,miaozhen.com
@@ -7582,6 +7584,8 @@ DOMAIN-SUFFIX,pedailyu.com
 DOMAIN-SUFFIX,pee.cn
 DOMAIN-SUFFIX,pegasus.cmcm.com
 DOMAIN-SUFFIX,pei-ads.playboy.com
+DOMAIN-SUFFIX,perf-events.cloud.unity3d.com
+DOMAIN-SUFFIX,perf.cloud.unity3d.com
 DOMAIN-SUFFIX,pf-2.pchome.net
 DOMAIN-SUFFIX,pf.h5game.cn
 DOMAIN-SUFFIX,pf.pchome.net
@@ -7749,6 +7753,7 @@ DOMAIN-SUFFIX,pr00001.com
 DOMAIN-SUFFIX,practivate.adobe.com
 DOMAIN-SUFFIX,prc.rjje4.com
 DOMAIN-SUFFIX,prcappzone.intel.com
+DOMAIN-SUFFIX,prd-lender.cdp.internal.unity3d.com
 DOMAIN-SUFFIX,pre.api.tw06.xlmc.sandai.net
 DOMAIN-SUFFIX,pre.ra.icast.cn
 DOMAIN-SUFFIX,prerollads.ign.com

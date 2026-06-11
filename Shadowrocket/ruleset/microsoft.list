@@ -1,5 +1,5 @@
-# 更新时间: 2026-06-11 10:09:57（北京时间）
-# 规则数量: 854
+# 更新时间: 2026-06-13 21:17:38（北京时间）
+# 规则数量: 855
 DOMAIN,az764295.vo.msecnd.net
 DOMAIN,azure.microsoft.com
 DOMAIN,azuremarketplace.microsoft.com
@@ -347,6 +347,7 @@ DOMAIN-SUFFIX,getmicrosoftkey.com
 DOMAIN-SUFFIX,gfx.ms
 DOMAIN-SUFFIX,gh.io
 DOMAIN-SUFFIX,ghcr.io
+DOMAIN-SUFFIX,ghe.com
 DOMAIN-SUFFIX,gigjam.com
 DOMAIN-SUFFIX,git.io
 DOMAIN-SUFFIX,github.ai
