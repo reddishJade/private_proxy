@@ -1,9 +1,13 @@
-# 更新时间: 2026-06-11 10:09:37（北京时间）
-# 规则数量: 307
+# 更新时间: 2026-06-22 10:15:22（北京时间）
+# 规则数量: 321
 payload:
   - +.17roco.com
   - +.3304399.com
   - +.3304399.net
+  - +.37.com
+  - +.37.com.cn
+  - +.37wan.net
+  - +.37wanimg.com
   - +.3839.com
   - +.3839apk.com
   - +.3839app.com
@@ -44,7 +48,6 @@ payload:
   - +.9game.cn
   - +.9xgame.com
   - +.abdf002.com
-  - +.aki-game.com
   - +.akspeedy.com
   - +.aligames.com
   - +.anticheatexpert.com
@@ -68,11 +71,14 @@ payload:
   - +.brawlstars.cn
   - +.buke999.com
   - +.bx1k.com
+  - +.cbjq.com
   - +.ccspeed.cn
   - +.cdncl.net
+  - +.changyou.com
   - +.cm.steampowered.com
   - +.codm.com
   - +.cowlevel.net
+  - +.cy.com
   - +.dobest.com
   - +.edu4399.com
   - +.et-api.com
@@ -134,10 +140,9 @@ payload:
   - +.jiasu.bohe.com
   - +.juequling.com
   - +.kk1.vip
-  - +.kurogames.com
-  - +.kurogames.net
   - +.labycore.cn
   - +.langrenclub.com
+  - +.laohu.com
   - +.ldmnq.com
   - +.ledu.com
   - +.leigod.cn
@@ -185,6 +190,7 @@ payload:
   - +.oojsq.com
   - +.pdl.wow.battlenet.com.cn
   - +.phira.cn
+  - +.playcool.com
   - +.proximabeta.com
   - +.pubghelper.com
   - +.pubgno1.cn
@@ -208,6 +214,9 @@ payload:
   - +.scid.cn
   - +.scsentry.cn
   - +.sdo.com
+  - +.seasungames.cn
+  - +.seasungames.com
+  - +.seasunwbl.com
   - +.shengqugames.com
   - +.shyxhy.com
   - +.skydweller.cn
@@ -224,6 +233,7 @@ payload:
   - +.tcfmglobal.com
   - +.tencent-gcloud.com
   - +.tencentstart.com
+  - +.testplus.cn
   - +.texasholdemcup.cn
   - +.texasholdemcup.com
   - +.texasholdemcup.net
@@ -254,10 +264,14 @@ payload:
   - +.werepository.com.cn
   - +.winegame.net
   - +.wmsj.cn
+  - +.wmupd.com
   - +.wo1wan.com
   - +.xhlsgs.com
   - +.xinwuji.com
+  - +.xishanju.com
   - +.xn--owtw8cc49ajfl.cn
+  - +.xoyo.com
+  - +.xoyocdn.com
   - +.xunyou.com
   - +.xunyou.mobi
   - +.xxghh.biz

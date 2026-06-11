@@ -1,5 +1,5 @@
-# 更新时间: 2026-06-11 10:09:38（北京时间）
-# 规则数量: 139
+# 更新时间: 2026-06-22 10:15:24（北京时间）
+# 规则数量: 141
 payload:
   - +.1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa
   - +.10.in-addr.arpa
@@ -126,6 +126,7 @@ payload:
   - +.zte.home
   - asusrouter.com
   - board.zash.run.place
+  - dash.sing-box.app
   - instant.arubanetworks.com
   - local.adguard.org
   - metacubex.github.io
@@ -135,6 +136,7 @@ payload:
   - router.asus.com
   - routerlogin.com
   - setmeup.arubanetworks.com
+  - sing-box-dashboard.sagernet.org
   - tplogin.cn
   - www.asusrouter.com
   - www.miwifi.com

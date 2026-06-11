@@ -1,5 +1,5 @@
-# 更新时间: 2026-06-11 10:09:38（北京时间）
-# 规则数量: 216
+# 更新时间: 2026-06-22 10:15:24（北京时间）
+# 规则数量: 256
 payload:
   - +.21vbc.com
   - +.21vbluecloud.com
@@ -50,6 +50,7 @@ payload:
   - +.azure-dns-8.cn
   - +.azure-dns-9.cn
   - +.azure-dns.cn
+  - +.azure-mobile.cn
   - +.azure.cn
   - +.azurecr-test.cn
   - +.azurecr.cn
@@ -63,6 +64,7 @@ payload:
   - +.azuresandbox.cn
   - +.azurestackhub.download.prss.microsoft.com
   - +.azurestackhubuat.download.prss.microsoft.com
+  - +.b.c2r.ts.cdn.office.net
   - +.b2clogin.cn
   - +.b3itech.cn
   - +.bing.com.cn
@@ -83,7 +85,6 @@ payload:
   - +.collaborateppe.download.prss.microsoft.com
   - +.ctldl.windowsupdate.com
   - +.dcg.microsoft.com
-  - +.devblogs.microsoft.com
   - +.developer.microsoft.com
   - +.ditu.live.com
   - +.dl.delivery.mp.microsoft.com
@@ -94,6 +95,7 @@ payload:
   - +.dreamsparkuat.download.prss.microsoft.com
   - +.dynamics.cn
   - +.engkoo.com
+  - +.f.c2r.ts.cdn.office.net
   - +.hdinsightservices.cn
   - +.itacademy.download.prss.microsoft.com
   - +.itacademyuat.download.prss.microsoft.com
@@ -165,11 +167,18 @@ payload:
   - +.rsm.download.prss.microsoft.com
   - +.sdx.microsoft.com
   - +.sharepoint.cn
+  - +.shell.cdn.office.net
   - +.software.download.prss.microsoft.com
+  - +.sovcloud-mx.cn
+  - +.sovcloud-static.cn
+  - +.sovcloud-usercontent.cn
+  - +.sovcloud.cn
+  - +.statics.teams.cdn.office.net
   - +.storecorefulfillment.download.prss.microsoft.com
   - +.storeedge.microsoft.com
   - +.storeedgefd.dsx.mp.microsoft.com
   - +.surface.download.prss.microsoft.com
+  - +.surface.downloads.prss.microsoft.com
   - +.th.bing.com
   - +.trafficmanager.cn
   - +.trustcenter.cn
@@ -182,38 +191,69 @@ payload:
   - +.windowsazure.cn
   - +.windowsazurestatus.cn
   - +.xboxlive.cn
+  - azuremigrate.download.prss.microsoft.com
+  - azuremigratetest.download.prss.microsoft.com
+  - azurestackhub.download.prss.microsoft.com
+  - azurestackhubuat.download.prss.microsoft.com
   - b.c2r.ts.cdn.office.net
   - bg.v4.a.dl.ws.microsoft.com
   - bg4.v4.a.dl.ws.microsoft.com
   - bj1.api.bing.com
   - build.microsoft.com
+  - cbdstest.download.prss.microsoft.com
   - cdn.marketplaceimages.windowsphone.com
   - cn.windowssearch.com
+  - collaborate.download.prss.microsoft.com
+  - collaborateppe.download.prss.microsoft.com
   - ctldl.windowsupdate.com
   - devblogs.microsoft.com
   - developer.microsoft.com
   - docs.microsoft.com
   - download.microsoft.com
   - download.visualstudio.microsoft.com
+  - dreamspark.download.prss.microsoft.com
+  - dreamsparkuat.download.prss.microsoft.com
   - emoi-cncdn.bing.com
   - f.c2r.ts.cdn.office.net
   - fs.microsoft.com
+  - itacademy.download.prss.microsoft.com
+  - itacademyuat.download.prss.microsoft.com
   - learn.microsoft.com
+  - lex.download.prss.microsoft.com
+  - lexuat.download.prss.microsoft.com
+  - mbs.download.prss.microsoft.com
+  - mpnbenefits.download.prss.microsoft.com
+  - mpnbenefitsrtl.download.prss.microsoft.com
+  - mpnbenefitsrtluat.download.prss.microsoft.com
+  - msdn.download.prss.microsoft.com
+  - msdprod-ad.download.prss.microsoft.com
+  - msproduct.download.prss.microsoft.com
   - myvs.download.prss.microsoft.com
   - oemsoc.download.prss.microsoft.com
+  - oemsocuat.download.prss.microsoft.com
   - officecdn.microsoft.com
+  - officemkt.download.prss.microsoft.com
+  - officemktuat.download.prss.microsoft.com
+  - osrelease.download.prss.microsoft.com
   - res-1.cdn.office.net
   - res-2.cdn.office.net
   - res-h3.public.cdn.office.net
   - res.cdn.office.net
+  - rsm.download.prss.microsoft.com
   - sdx.microsoft.com
   - shell.cdn.office.net
   - software.download.prss.microsoft.com
   - statics.teams.cdn.office.net
+  - storecorefulfillment.download.prss.microsoft.com
+  - storeedge.microsoft.com
   - storeedgefd.dsx.mp.microsoft.com
+  - surface.download.prss.microsoft.com
   - surface.downloads.prss.microsoft.com
+  - vlportal.download.prss.microsoft.com
+  - volic.download.prss.microsoft.com
   - vscode.download.prss.microsoft.com
   - vz.download.prss.microsoft.com
+  - windbg.download.prss.microsoft.com
   - wscont1.apps.microsoft.com
   - wscont2.apps.microsoft.com
   - www.microsoft.com

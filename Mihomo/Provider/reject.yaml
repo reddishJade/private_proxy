@@ -1,5 +1,5 @@
-# 更新时间: 2026-06-11 10:09:42（北京时间）
-# 规则数量: 10246
+# 更新时间: 2026-06-22 10:15:28（北京时间）
+# 规则数量: 10247
 payload:
   - +.0.r.msn.com
   - +.000dn.com
@@ -1398,6 +1398,7 @@ payload:
   - +.analytics-data.io
   - +.analytics.126.net
   - +.analytics.163.com
+  - +.analytics.cloud.unity3d.com
   - +.analytics.facebook.com
   - +.analytics.ganji.com
   - +.analytics.query.yahoo.com
@@ -1506,6 +1507,7 @@ payload:
   - +.api.y.igexin.com
   - +.api.youxiaoad.com
   - +.api.zol.com
+  - +.api2.amplitude.com
   - +.api2.play.cn
   - +.apihk.growingio.com
   - +.apisoft.df0535.com
@@ -2290,6 +2292,7 @@ payload:
   - +.cdnny.com
   - +.cdnpa.hyperpromote.com
   - +.cdntest.a8tiyu.com
+  - +.cdp.cloud.unity3d.com
   - +.cds.51y5.net
   - +.cdsget.51y5.net
   - +.cdyqc.com
@@ -2527,6 +2530,7 @@ payload:
   - +.config.kuyun.com
   - +.config.mobisage.cn
   - +.config.push.sogou.com
+  - +.config.uca.cloud.unity3d.com
   - +.config.unityads.unity3d.com
   - +.config2.mparticle.com
   - +.connect.summit.co.uk
@@ -2994,7 +2998,6 @@ payload:
   - +.dlrijiaele.com
   - +.dlsw.baidu.com
   - +.dlsw.br.baidu.com
-  - +.dlswbr.baidu.com
   - +.dlzjdesign.com
   - +.dm.388g.cc
   - +.dm.51okc.com
@@ -5056,6 +5059,7 @@ payload:
   - +.kudifish.com
   - +.kuguopush.com
   - +.kumihua.com
+  - +.kurogames-ads.com
   - +.kuwoyy.com
   - +.kuyic.m.gxwztv.com
   - +.kuyun.com
@@ -5808,7 +5812,6 @@ payload:
   - +.mhjk.1391.com
   - +.mhuodong.elong.com
   - +.miam4.cn
-  - +.miao.baidu.com
   - +.miaobeichina.com
   - +.miaowu.baidu.com
   - +.miaozhen.com
@@ -6464,6 +6467,8 @@ payload:
   - +.pee.cn
   - +.pegasus.cmcm.com
   - +.pei-ads.playboy.com
+  - +.perf-events.cloud.unity3d.com
+  - +.perf.cloud.unity3d.com
   - +.pf-2.pchome.net
   - +.pf.h5game.cn
   - +.pf.pchome.net
@@ -6631,6 +6636,7 @@ payload:
   - +.practivate.adobe.com
   - +.prc.rjje4.com
   - +.prcappzone.intel.com
+  - +.prd-lender.cdp.internal.unity3d.com
   - +.pre.api.tw06.xlmc.sandai.net
   - +.pre.ra.icast.cn
   - +.prerollads.ign.com
@@ -7183,6 +7189,7 @@ payload:
   - +.same02.jrj.com.cn
   - +.same03.jrj.com.cn
   - +.sams.nikonimaging.com
+  - +.samsungadhub.com
   - +.samsungads.com
   - +.sangxi.top
   - +.sanya1.com
@@ -10094,23 +10101,17 @@ payload:
   - tmfmazu.m.qq.com
   - tmfsdk.m.qq.com
   - tmfsdktcpv4.m.qq.com
-  - tnc0-aliec2.zijieapi.com
-  - tnc0-alisc1.zijieapi.com
   - tnc0-bjlgy.zijieapi.com
   - tnc3-aliec1.toutiaoapi.com
   - tnc3-aliec2.bytedance.com
   - tnc3-aliec2.snssdk.com
   - tnc3-aliec2.toutiaoapi.com
-  - tnc3-aliec2.zijieapi.com
   - tnc3-alisc1.bytedance.com
   - tnc3-alisc1.snssdk.com
   - tnc3-alisc1.toutiaoapi.com
-  - tnc3-alisc1.zijieapi.com
-  - tnc3-alisc2.zijieapi.com
   - tnc3-bjlgy.bytedance.com
   - tnc3-bjlgy.snssdk.com
   - tnc3-bjlgy.toutiaoapi.com
-  - tnc3-bjlgy.zijieapi.com
   - toblog.ctobsnssdk.com
   - top-staging.mail.ru
   - tpa-hcdn.iqiyi.com

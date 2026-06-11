@@ -1,7 +1,8 @@
-# 更新时间: 2026-06-11 10:09:58（北京时间）
-# 规则数量: 157
+# 更新时间: 2026-06-22 10:15:43（北京时间）
+# 规则数量: 159
 DOMAIN,asusrouter.com
 DOMAIN,board.zash.run.place
+DOMAIN,dash.sing-box.app
 DOMAIN,instant.arubanetworks.com
 DOMAIN,local.adguard.org
 DOMAIN,metacubex.github.io
@@ -11,6 +12,7 @@ DOMAIN,oasisauth.h3c.com
 DOMAIN,router.asus.com
 DOMAIN,routerlogin.com
 DOMAIN,setmeup.arubanetworks.com
+DOMAIN,sing-box-dashboard.sagernet.org
 DOMAIN,tplogin.cn
 DOMAIN,www.asusrouter.com
 DOMAIN,www.miwifi.com

@@ -1,5 +1,5 @@
-# 更新时间: 2026-06-11 10:09:33（北京时间）
-# 规则数量: 104
+# 更新时间: 2026-06-22 10:15:17（北京时间）
+# 规则数量: 107
 payload:
   - +.aispeech.com
   - +.antafu.com
@@ -39,6 +39,7 @@ payload:
   - +.doudou.com
   - +.dui.ai
   - +.duiopen.com
+  - +.dumate.cn
   - +.faxingbao.com
   - +.hailuoai.com
   - +.hi-butterfly.cn
@@ -57,9 +58,11 @@ payload:
   - +.mcdemo.show
   - +.mchost.guru
   - +.mcprev.cn
+  - +.mcpworld.com
   - +.meta.law
   - +.metaso.cn
   - +.miaibox.com
+  - +.miaoda.cn
   - +.miaoyanai.com
   - +.minimax.chat
   - +.minimax.io

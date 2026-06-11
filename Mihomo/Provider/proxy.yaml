@@ -1,5 +1,5 @@
-# 更新时间: 2026-06-11 10:09:39（北京时间）
-# 规则数量: 5359
+# 更新时间: 2026-06-22 10:15:26（北京时间）
+# 规则数量: 5432
 payload:
   - +.000webhost.com
   - +.0rz.tw
@@ -20,6 +20,7 @@ payload:
   - +.18board.com
   - +.18comic.org
   - +.18comic.vip
+  - +.18mh.net
   - +.1984bbs.com
   - +.1991way.com
   - +.1anime.me
@@ -95,6 +96,7 @@ payload:
   - +.9cache.com
   - +.9gag.com
   - +.9news.com.au
+  - +.9oju31.launches.appsflyersdk.com
   - +.9to5mac.com
   - +.9to5toys.com
   - +.a-normal-day.com
@@ -115,6 +117,7 @@ payload:
   - +.abplive.com
   - +.ac
   - +.acast.com
+  - +.accountboy.com
   - +.accountkit.com
   - +.acevpn.com
   - +.acg.mn
@@ -270,6 +273,7 @@ payload:
   - +.aomedia.org
   - +.aomiwang.com
   - +.aoxvpn.com
+  - +.ap.org
   - +.apache.org
   - +.apartmentratings.com
   - +.apartments.com
@@ -280,6 +284,7 @@ payload:
   - +.api.ai
   - +.api.amplitude.com
   - +.api.mixpanel.com
+  - +.api.moomoobull.com
   - +.api.palworldgame.com
   - +.api.pureapk.com
   - +.api.recaptcha.net
@@ -515,6 +520,7 @@ payload:
   - +.bikac.xyz
   - +.bikaios.xyz
   - +.bild.de
+  - +.bilinovel.com
   - +.biliworld.com
   - +.binance.cc
   - +.binance.com
@@ -840,6 +846,7 @@ payload:
   - +.certificate.revocationcheck.com
   - +.cf-ipfs.com
   - +.cfr.org
+  - +.cg.play-analytics.com
   - +.cgdepot.org
   - +.ch
   - +.chalungu.cn
@@ -1668,7 +1675,36 @@ payload:
   - +.furbo.org
   - +.furinkan.com
   - +.furrybar.com
+  - +.futu.cn
+  - +.futu.com
+  - +.futu.link
+  - +.futu0.com
+  - +.futu1.com
+  - +.futu2.com
+  - +.futu3.com
+  - +.futu4.com
+  - +.futu5.com
+  - +.futu6.com
+  - +.futu7.com
+  - +.futu8.com
+  - +.futu9.com
+  - +.futuau.com
+  - +.futubull.cn
+  - +.futuchain.com
+  - +.futuesop.com
+  - +.futufin.com
+  - +.futuhk.com
+  - +.futuhk2.com
+  - +.futuhkapp.com
+  - +.futuhn.com
+  - +.futuholdings.com
+  - +.futuinc.com
+  - +.futuniuniu.com
+  - +.futunn.com
   - +.futuremessage.org
+  - +.futustatic.com
+  - +.fututrade.com
+  - +.fututrustee.com
   - +.fw.cm
   - +.fxcm-chinese.com
   - +.fxnetworks.com
@@ -2517,6 +2553,7 @@ payload:
   - +.itemfix.com
   - +.itgonglun.com
   - +.itiger.com
+  - +.itigerup.com
   - +.itshidden.com
   - +.itun.es
   - +.itweet.net
@@ -2698,6 +2735,7 @@ payload:
   - +.lantern.io
   - +.laogai.org
   - +.laogairesearch.org
+  - +.laohu8.com
   - +.laqingdan.net
   - +.larsgeorge.com
   - +.lastcombat.com
@@ -2705,6 +2743,8 @@ payload:
   - +.launchdarkly.com
   - +.lausan.hk
   - +.lbank.info
+  - +.lbctrl.com
+  - +.lbkrs.com
   - +.ldplayer.net
   - +.ldplayer.tw
   - +.le-vpn.com
@@ -2807,6 +2847,15 @@ payload:
   - +.logos.com.hk
   - +.logto.io
   - +.lol
+  - +.longbridge.cloud
+  - +.longbridge.com
+  - +.longbridge.global
+  - +.longbridge.hk
+  - +.longbridge.sg
+  - +.longbridgeapp.com
+  - +.longbridgehk.com
+  - +.longportapp.cn
+  - +.longportapp.com
   - +.longtermly.net
   - +.longtoes.com
   - +.lookpic.com
@@ -3047,6 +3096,8 @@ payload:
   - +.monster.com
   - +.moodyz.com
   - +.moomoo.com
+  - +.moomooequity.com
+  - +.moomootrustee.com
   - +.moon.fm
   - +.moonbbs.com
   - +.moonbingo.com
@@ -3363,6 +3414,9 @@ payload:
   - +.ooyala.com
   - +.open.firstory.me
   - +.openai.com
+  - +.openapi-quote.longbridge.cn
+  - +.openapi-trade.longbridge.cn
+  - +.openapi.longbridge.cn
   - +.openart.ai
   - +.opencollective.com
   - +.opencritic.com
@@ -3885,6 +3939,10 @@ payload:
   - +.sc-cdn.net
   - +.scdn.co
   - +.schema.org
+  - +.schwab.co.uk
+  - +.schwab.com
+  - +.schwab.com.cn
+  - +.schwab.com.hk
   - +.sciencedaily.com
   - +.sciencemag.org
   - +.scmp.com
@@ -3941,6 +3999,7 @@ payload:
   - +.sfshibao.com
   - +.sftuk.org
   - +.sg
+  - +.sgqt0j.launches.appsflyersdk.com
   - +.sh
   - +.shadeyouvpn.com
   - +.shadowsocks.be
@@ -3971,6 +4030,7 @@ payload:
   - +.shopee.tw
   - +.shopping.yahoo.co.jp
   - +.short.io
+  - +.shortconn.im.qcloud.com
   - +.showwe.tw
   - +.shutterstock.com
   - +.shw.io
@@ -4002,6 +4062,7 @@ payload:
   - +.sinoca.com
   - +.sinocast.com
   - +.sinoinsider.com
+  - +.sinyalee.com
   - +.sipml5.org
   - +.sis001.com
   - +.site.new
@@ -4434,6 +4495,12 @@ payload:
   - +.tibettimes.net
   - +.tibettruth.com
   - +.tibetwrites.org
+  - +.tigerbbs.cn
+  - +.tigerbbs.com
+  - +.tigerbrokers.com
+  - +.tigerbrokers.net
+  - +.tigerbrokers.nz
+  - +.tigerfintech.com
   - +.tigervpn.com
   - +.tiktok.com
   - +.tiktokcdn-eu.com
@@ -4516,6 +4583,7 @@ payload:
   - +.tpi.org.tw
   - +.tr
   - +.tracfone.com
+  - +.tradeup.com
   - +.tradingview.com
   - +.traffichaus.com
   - +.trakt.tv
@@ -4935,6 +5003,7 @@ payload:
   - +.waybig.com
   - +.waymo.com
   - +.waze.com
+  - +.wbrks.com
   - +.wd.bible
   - +.wdfiles.com
   - +.wealth.com.tw
@@ -5153,6 +5222,7 @@ payload:
   - +.xhlive.org
   - +.xianjian.tw
   - +.xiaohexie.com
+  - +.xiaohu8.com
   - +.xiaolan.me
   - +.xiaoma.org
   - +.xiaomi.eu
@@ -5178,6 +5248,7 @@ payload:
   - +.xn--oiq.cc
   - +.xn--p8j9a0d9c9a.xn--q9jyb4c
   - +.xn--u2u927b.com
+  - +.xn--vuqv2cf7wzyig79c.com
   - +.xnpool.com
   - +.xnxx.com
   - +.xpressunblock.com
@@ -5318,6 +5389,8 @@ payload:
   - +.zhengjian.org
   - +.zhengwunet.org
   - +.zhenxiang.biz
+  - +.zhijianfengyi.cn
+  - +.zhijianfengyi.com
   - +.zhizhu.top
   - +.zhongguo.ca
   - +.zhongguotese.net

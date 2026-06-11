@@ -1,5 +1,5 @@
-# 更新时间: 2026-06-11 10:09:37（北京时间）
-# 规则数量: 860
+# 更新时间: 2026-06-22 10:15:23（北京时间）
+# 规则数量: 869
 payload:
   - +.100classicbooks.com
   - +.2k.com
@@ -103,6 +103,7 @@ payload:
   - +.crossout.net
   - +.crsed.net
   - +.crysis.jp
+  - +.csgo.com.cn
   - +.cubicmotion.com
   - +.cubicodyssey.game
   - +.curseforge.com
@@ -131,6 +132,8 @@ payload:
   - +.dodi-repacks.site
   - +.donkeykongcountryreturns.com
   - +.doom.com
+  - +.dota2.com
+  - +.dota2.com.cn
   - +.dragonage.com
   - +.dragonagekeep.com
   - +.dragonagemovie.com
@@ -237,9 +240,11 @@ payload:
   - +.gloryofheracles.com
   - +.goblocks.com
   - +.goblox.com
+  - +.gog-services.com
   - +.gog-statics.com
   - +.gog.com
   - +.gog.qtlglb.com
+  - +.gogalaxy.com
   - +.gooblox.com
   - +.gpstatic.com
   - +.gstore.val.manlaxy.com
@@ -645,6 +650,7 @@ payload:
   - +.steamcdn-a.akamaihd.net
   - +.steamcommunity-a.akamaihd.net
   - +.steamcommunity.com
+  - +.steamconnecttest.com
   - +.steamcontent.tnkjmec.com
   - +.steamdb.info
   - +.steamdeck.com
@@ -721,6 +727,7 @@ payload:
   - +.uo.com
   - +.uoherald.com
   - +.uplay.com
+  - +.valve.net
   - +.valvesoftware.com
   - +.videos-rockstargames-com.akamaized.net
   - +.vigorgame.com
@@ -834,7 +841,9 @@ payload:
   - spectator.ppy.sh
   - steamcloudsweden.blob.core.windows.net
   - steamcommunity-a.akamaihd.net.edgesuite.net
+  - steamugcquincy.blob.core.windows.net
   - store-images.s-microsoft.com
+  - supercell.zendesk.com
   - ubisoft.siteintercept.qualtrics.com
   - ubistatic1-a.akamaihd.net
   - ubistatic10-a.akamaihd.net

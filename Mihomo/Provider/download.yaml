@@ -1,5 +1,5 @@
-# 更新时间: 2026-06-11 10:09:36（北京时间）
-# 规则数量: 1947
+# 更新时间: 2026-06-22 10:15:20（北京时间）
+# 规则数量: 1948
 payload:
   - +.1fichier.com
   - +.1fichier.info
@@ -17,6 +17,7 @@ payload:
   - +.cdimage.debian.org
   - +.cdn.blizzard.com
   - +.cdn.ea.com
+  - +.cdn.hf.co
   - +.cdn.nintendo.net
   - +.cdn.ubi.com
   - +.cdn77-storage.com

@@ -1,5 +1,5 @@
-# 更新时间: 2026-06-11 10:09:56（北京时间）
-# 规则数量: 407
+# 更新时间: 2026-06-22 10:15:41（北京时间）
+# 规则数量: 409
 DOMAIN,a1.mzstatic.com
 DOMAIN,a2.mzstatic.com
 DOMAIN,a3.mzstatic.com
@@ -120,6 +120,7 @@ DOMAIN,itunes-apple.com.akadns.net
 DOMAIN,itunes.apple.com
 DOMAIN,itunesconnect.apple.com
 DOMAIN,maps.apple.com
+DOMAIN,mensura.cdn-apple.com
 DOMAIN,mesu-cdn.apple.com.akadns.net
 DOMAIN,mesu-china.apple.com.akadns.net
 DOMAIN,mesu.apple.com
@@ -342,6 +343,7 @@ DOMAIN-SUFFIX,livephotos.cn
 DOMAIN-SUFFIX,livephotos.com.cn
 DOMAIN-SUFFIX,macbookair.cn
 DOMAIN-SUFFIX,macbookair.com.cn
+DOMAIN-SUFFIX,mensura.cdn-apple.com
 DOMAIN-SUFFIX,mesu-cdn.apple.com.akadns.net
 DOMAIN-SUFFIX,mesu-china.apple.com.akadns.net
 DOMAIN-SUFFIX,mesu.apple.com

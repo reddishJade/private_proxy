@@ -1,5 +1,5 @@
-# 更新时间: 2026-06-11 10:09:34（北京时间）
-# 规则数量: 407
+# 更新时间: 2026-06-22 10:15:17（北京时间）
+# 规则数量: 409
 payload:
   - +.a1.mzstatic.com
   - +.a2.mzstatic.com
@@ -160,6 +160,7 @@ payload:
   - +.livephotos.com.cn
   - +.macbookair.cn
   - +.macbookair.com.cn
+  - +.mensura.cdn-apple.com
   - +.mesu-cdn.apple.com.akadns.net
   - +.mesu-china.apple.com.akadns.net
   - +.mesu.apple.com
@@ -345,6 +346,7 @@ payload:
   - itunes.apple.com
   - itunesconnect.apple.com
   - maps.apple.com
+  - mensura.cdn-apple.com
   - mesu-cdn.apple.com.akadns.net
   - mesu-china.apple.com.akadns.net
   - mesu.apple.com
