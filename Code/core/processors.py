@@ -59,8 +59,12 @@ class RuleProcessor:
         Returns:
             str: 移除注释后的规则
         """
-        parts = re.split(r"\s+#", rule)
-        return parts[0].strip() if len(parts) > 1 else rule.strip()
+        idx = rule.find(" #")
+        if idx == -1:
+            idx = rule.find("\t#")
+        if idx != -1:
+            return rule[:idx].strip()
+        return rule.strip()
 
     def _is_dirty_content(self, content: str) -> bool:
         """

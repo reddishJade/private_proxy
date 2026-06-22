@@ -106,9 +106,10 @@ class RuleValidator:
                 if re.match(self.constants.ipv6_cidr_pattern, value)
                 else None
             )
+        elif rule_type == "DST-PORT" or rule_type == "SRC-PORT":
+            return original_rule if re.match(r"^\d+(-\d+)?$", value) else None
         else:
-            # 对于其他类型的规则，进行基本验证
-            return original_rule if value else None
+            return original_rule if value.strip() else None
 
     def is_valid_domain(self, domain: str) -> bool:
         """

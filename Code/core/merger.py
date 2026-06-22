@@ -5,6 +5,7 @@
 """
 
 import os
+import re
 from pathlib import Path
 import logging
 from datetime import datetime
@@ -135,8 +136,8 @@ class RulesMerger:
                         sort_keys=False,
                     )
 
-                    # 格式化YAML输出
-                    formatted_yaml = yaml_str.replace("\n-", "\n  -")
+                    # 格式化YAML输出（为列表项添加缩进）
+                    formatted_yaml = re.sub(r"\n- ", "\n  - ", yaml_str)
                     f.write(formatted_yaml)
 
             self.logger.info(
@@ -157,12 +158,9 @@ class RulesMerger:
             # 计算目标目录路径，默认是Mihomo/Provider
             provider_dir = self._get_provider_directory()
 
-            # 如果是 rocket.yaml，则把文件移动到 Shadowrocket/ruleset
             if self._config_filename == "rocket.yaml":
                 provider_dir = os.path.join(
-                    os.path.dirname(os.path.dirname(os.path.dirname(__file__))),
-                    "Shadowrocket",
-                    "ruleset",
+                    self._project_root(), "Shadowrocket", "ruleset"
                 )
             output_dir = self._get_output_directory()
 
@@ -179,6 +177,11 @@ class RulesMerger:
         except (OSError, IOError) as e:
             self.logger.error("移动规则文件失败: %s", str(e))
 
+    @staticmethod
+    def _project_root() -> str:
+        """返回项目根目录（merger.py → core/ → Code/ → 项目根）"""
+        return str(Path(__file__).resolve().parent.parent.parent)
+
     def _get_provider_directory(self) -> str:
         """
         获取Provider目录路径
@@ -186,12 +189,7 @@ class RulesMerger:
         Returns:
             str: Provider目录的绝对路径
         """
-        # 从 core/merger.py -> Code/core -> Code -> 根目录 -> Mihomo/Provider
-        return os.path.join(
-            os.path.dirname(os.path.dirname(os.path.dirname(__file__))),
-            "Mihomo",
-            "Provider",
-        )
+        return os.path.join(self._project_root(), "Mihomo", "Provider")
 
     def _get_output_directory(self) -> str:
         """
@@ -200,19 +198,14 @@ class RulesMerger:
         Returns:
             str: output目录的绝对路径
         """
-        # 从当前文件位置计算output目录：core/../output
-        return os.path.join(os.path.dirname(os.path.dirname(__file__)), "output")
+        return str(Path(__file__).resolve().parent.parent / "output")
 
     def get_target_provider_dir(self) -> str:
         """
         返回将要把生成文件迁移到的目标目录（Mihomo/Provider 或 Shadowrocket/ruleset）
         """
         if self._config_filename == "rocket.yaml":
-            return os.path.join(
-                os.path.dirname(os.path.dirname(os.path.dirname(__file__))),
-                "Shadowrocket",
-                "ruleset",
-            )
+            return os.path.join(self._project_root(), "Shadowrocket", "ruleset")
         return self._get_provider_directory()
 
     def _move_output_files(self, output_dir: str, provider_dir: str) -> None:

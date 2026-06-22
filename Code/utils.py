@@ -65,9 +65,9 @@ class RuleAnalyzer:
                     stats['rule_types'][rule_type] += 1
                     
                     # 统计域名和IP规则
-                    if rule_type in self.constants.RULE_TYPES.get('domain', set()):
+                    if rule_type in self.constants.rule_types.get('domain', set()):
                         stats['domains'] += 1
-                    elif rule_type in self.constants.RULE_TYPES.get('ipcidr', set()):
+                    elif rule_type in self.constants.rule_types.get('ipcidr', set()):
                         stats['ip_cidrs'] += 1
             else:
                 stats['invalid_rules'] += 1
