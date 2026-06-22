@@ -1,5 +1,5 @@
-# 更新时间: 2026-06-22 10:15:18（北京时间）
-# 规则数量: 4509
+# 更新时间: 2026-06-26 09:58:16（北京时间）
+# 规则数量: 4526
 payload:
   - +.1a-1791.com
   - +.1passwordusercontent.ca
@@ -188,6 +188,7 @@ payload:
   - +.cdn.survey.medallia.com
   - +.cdn.turner.com
   - +.cdn.ubi.com
+  - +.cdn.usestoryteller.com
   - +.cdn.workos.com
   - +.cdn1122.com
   - +.cdn2.hubspot.net
@@ -258,6 +259,7 @@ payload:
   - +.csp.withgoogle.com
   - +.ctfassets.net
   - +.cthd.icu
+  - +.cursor-cdn.com
   - +.customerioforms.com
   - +.customeriomail.com
   - +.cwwcdn.com
@@ -486,6 +488,7 @@ payload:
   - +.hydaelyn-25x-18.top
   - +.i-dont-care-about-cookies.eu
   - +.i.optimole.com
+  - +.i.posthog.com
   - +.ibytedtos.com
   - +.ibyteimg.com
   - +.icfcdn.com
@@ -1147,6 +1150,7 @@ payload:
   - +.wolongcdnm3u8.com
   - +.wolongzywcdn3.com
   - +.workers.dev
+  - +.workoscdn.com
   - +.wowmodels.com
   - +.wp.com
   - +.wpcomstaging.com
@@ -1440,6 +1444,7 @@ payload:
   - assets.orz.uno
   - assets.peatio.com
   - assets.pingie.com
+  - assets.pingone.com
   - assets.pixlee.com
   - assets.play.xbox.com
   - assets.plurk.com
@@ -1607,6 +1612,7 @@ payload:
   - c.speedtestcustom.com
   - c.start.me
   - c.tadst.com
+  - c.tenor.com
   - c1.newegg.com
   - c1.patreon.com
   - c10.patreon.com
@@ -1865,6 +1871,7 @@ payload:
   - cdn.freecodecamp.org
   - cdn.freesound.org
   - cdn.freshdesk.com
+  - cdn.fundraiseup.com
   - cdn.gamemonkey.org
   - cdn.gatherings.franchise.minecraft-services.net
   - cdn.gdl.gg
@@ -2175,6 +2182,7 @@ payload:
   - cdn1.dan.com
   - cdn1.edgedatg.com
   - cdn1.epicgames.com
+  - cdn1.espn.net
   - cdn1.ettoday.net
   - cdn1.hentaicity.com
   - cdn1.hotmoza.tv
@@ -2325,6 +2333,7 @@ payload:
   - cms.blavity.com
   - cms.mistral.ai
   - cms.myfonts.com
+  - cms.railway.com
   - cms.recordedfuture.com
   - cms.socialinsider.io
   - cms.therecord.media
@@ -2441,6 +2450,7 @@ payload:
   - devicons.railway.com
   - devnull.perfops.net
   - dh-site.b-cdn.net
+  - digitalhub.fifa.com
   - dims.apnews.com
   - disco-static.productessentials.app
   - disco.headliner.link
@@ -2448,6 +2458,7 @@ payload:
   - divhunt.b-cdn.net
   - dl.airdroid.com
   - dlassets-ssl.xboxlive.com
+  - dlstats.izzyondroid.org
   - do.featurebase.app
   - docs.brew.sh
   - docs.mrchromebox.tech
@@ -2491,6 +2502,7 @@ payload:
   - embed-v2.testimonial.to
   - embed.culturalspot.org
   - embed.getwally.net
+  - embed.lantern.io
   - embed.reddit.com
   - embed.runkit.com
   - embed.savvycal.com
@@ -2522,7 +2534,6 @@ payload:
   - eslint-react.xyz
   - eslint.org
   - eslint.style
-  - eu-assets.i.posthog.com
   - eu-images.contentstack.com
   - eu.cdnbye.com
   - eu.hamreus.com
@@ -2628,6 +2639,7 @@ payload:
   - frames-commandbar-prod.commandbar.com
   - freeshippingbar.herokuapp.com
   - front-resource.fs.com
+  - frontend-apps-multi-region.workos.com
   - frontend-apps.workos.com
   - frontend-assets.supabase.com
   - frontend-cdn.perplexity.ai
@@ -2974,6 +2986,7 @@ payload:
   - img.javynow.com
   - img.jsdelivr.com
   - img.kbhgames.com
+  - img.kemono.cr
   - img.logokit.com
   - img.ltyears.com
   - img.lvv2.com
@@ -3179,6 +3192,7 @@ payload:
   - lolstatic-a.akamaihd.net
   - lucide.dev
   - lumiere-a.akamaihd.net
+  - luminaire.railway.com
   - lzd-img-global.slatic.net
   - m-cdn.phonearena.com
   - m.porn3dx.com
@@ -3956,6 +3970,7 @@ payload:
   - static.frame.work
   - static.freedownloadmanager.org
   - static.freeimages.com
+  - static.fundraiseup.com
   - static.garmin.com
   - static.generated.photos
   - static.getbutton.io
@@ -4185,6 +4200,7 @@ payload:
   - store-images.microsoft.com
   - store-images.s-microsoft.com
   - stories.freepiklabs.com
+  - stories.usestoryteller.com
   - storybooks.fluentui.dev
   - stream.mux.com
   - streaming.split.io
@@ -4333,6 +4349,7 @@ payload:
   - ui.trailhead.com
   - uim.9uu22.com
   - unavatar.io
+  - unleash.codeium.com
   - unlimited-cdn.waifu2x.net
   - unsubscribe-imgs.leavemealone.com
   - uos-support-files.svc.ui.com
@@ -4351,7 +4368,6 @@ payload:
   - uploads.sitepoint.com
   - upos-sz-mirroralibstar1.bilivideo.com
   - upos-sz-mirrorcosbstar1.bilivideo.com
-  - us-assets.i.posthog.com
   - us-js.zonka.co
   - us.123rf.com
   - us.hamreus.com
@@ -4419,6 +4435,7 @@ payload:
   - wa1.aninoapps.com
   - wac-cdn.atlassian.com
   - waitlisted.co
+  - wall-ui-cdn.p.aws.economist.com
   - walter-r2.trakt.tv
   - wandi-6402.kxcdn.com
   - wcpstatic.microsoft.com

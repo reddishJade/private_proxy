@@ -1,5 +1,5 @@
-# 更新时间: 2026-06-22 10:15:17（北京时间）
-# 规则数量: 107
+# 更新时间: 2026-06-26 09:58:15（北京时间）
+# 规则数量: 105
 payload:
   - +.aispeech.com
   - +.antafu.com
@@ -64,8 +64,6 @@ payload:
   - +.miaibox.com
   - +.miaoda.cn
   - +.miaoyanai.com
-  - +.minimax.chat
-  - +.minimax.io
   - +.minimaxi.com
   - +.moonshot.ai
   - +.moonshot.cn

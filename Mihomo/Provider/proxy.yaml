@@ -1,5 +1,5 @@
-# 更新时间: 2026-06-22 10:15:26（北京时间）
-# 规则数量: 5432
+# 更新时间: 2026-06-26 09:58:23（北京时间）
+# 规则数量: 5435
 payload:
   - +.000webhost.com
   - +.0rz.tw
@@ -1068,12 +1068,14 @@ payload:
   - +.cpu-monkey.com
   - +.cpuid.com
   - +.cq99.us
+  - +.cr
   - +.crackle.com
   - +.crashlytics.com
   - +.crazypool.org
   - +.crazyshit.com
   - +.crbug.com
   - +.crchina.org
+  - +.creader.com
   - +.creaders.net
   - +.creativelab5.com
   - +.crisp.chat
@@ -1762,6 +1764,7 @@ payload:
   - +.genius.com
   - +.geph.io
   - +.get.app
+  - +.get.dappcdn.com
   - +.get.dev
   - +.get.how
   - +.get.page

@@ -1,5 +1,5 @@
-# 更新时间: 2026-06-22 10:15:20（北京时间）
-# 规则数量: 1948
+# 更新时间: 2026-06-26 09:58:18（北京时间）
+# 规则数量: 1956
 payload:
   - +.1fichier.com
   - +.1fichier.info
@@ -54,6 +54,7 @@ payload:
   - +.dl.elementary.io
   - +.dl.playstation.net
   - +.dl.sourceforge.net
+  - +.dl.twrp.me
   - +.dl.wireshark.org
   - +.dl2.discordapp.net
   - +.download.autodesk.com
@@ -520,6 +521,7 @@ payload:
   - +.swupdate.chaos.com
   - +.swupdate.chaosgroup.com
   - +.swupdate.vray.com
+  - +.t3.storageapi.dev
   - +.temp.sh
   - +.tmpfiles.org
   - +.ubuntu.csg.uzh.ch
@@ -573,6 +575,7 @@ payload:
   - apache.website-solution.net
   - api-updates.orbstack.dev
   - app-updates.agilebits.com
+  - apt.izzysoft.de
   - apt.tetaneutral.net
   - apt.xpipe.io
   - archive-4.kali.org
@@ -601,6 +604,7 @@ payload:
   - bn.d.miui.com
   - boot.arcboxcdn.com
   - boot.netboot.xyz
+  - builds.dotnet.microsoft.com
   - builds.paranoidandroid.co
   - builds.parsec.app
   - bzip.org
@@ -728,6 +732,7 @@ payload:
   - debian.dynamica.it
   - debian.ethz.ch
   - debian.grena.ge
+  - debian.griffo.io
   - debian.grn.cat
   - debian.inf.tu-dresden.de
   - debian.intergenia.de
@@ -794,6 +799,7 @@ payload:
   - dl.motrix.app
   - dl.nssurge.com
   - dl.nwjs.io
+  - dl.orangefox.download
   - dl.pstmn.io
   - dl.snipaste.com
   - dl.tailscale.com
@@ -1725,6 +1731,7 @@ payload:
   - ota.googlezip.net
   - packagecloud.io
   - packages-cf.termux.dev
+  - packages.codeberg.org
   - packages.hs-regensburg.de
   - packages.httpie.io
   - packages.linuxmint.com
@@ -1834,6 +1841,7 @@ payload:
   - steampipe-kr.akamaized.net
   - steampipe-partner.akamaized.net
   - steampipe.akamaized.net
+  - store.nethunter.com
   - store.setapp.com
   - store1.gofile.io
   - su.virtualbuddy.app

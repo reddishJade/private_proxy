@@ -1,5 +1,5 @@
-# 更新时间: 2026-06-22 10:15:18（北京时间）
-# 规则数量: 1002
+# 更新时间: 2026-06-26 09:58:17（北京时间）
+# 规则数量: 1006
 payload:
   - +.10010.com
   - +.10086.cn
@@ -981,6 +981,7 @@ payload:
   - +.zuoyebang.com
   - +.zybang.com
   - acg.tv
+  - app.viayoo.com
   - assets1.xboxlive.cn
   - assets2.xboxlive.cn
   - b23.tv
@@ -1000,6 +1001,9 @@ payload:
   - media.cdn.queniuqe.com
   - ocsp.globalsign.com
   - ocsp2.globalsign.com
+  - res.viayoo.com
   - url.cn
+  - viayoo.com
   - www.intel.cn
   - www.layuicdn.com
+  - www.viayoo.com

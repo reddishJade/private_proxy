@@ -1,5 +1,5 @@
-# 更新时间: 2026-06-22 10:15:28（北京时间）
-# 规则数量: 10247
+# 更新时间: 2026-06-26 09:58:24（北京时间）
+# 规则数量: 10249
 payload:
   - +.0.r.msn.com
   - +.000dn.com
@@ -4562,6 +4562,7 @@ payload:
   - +.inoprosport.su
   - +.insenz.com
   - +.inside.bitcomet.com
+  - +.insights-collector.gog.com
   - +.inskin.vo.llnwd.net
   - +.inst.360safe.com
   - +.instabug.com
@@ -8949,6 +8950,7 @@ payload:
   - +.yoo.yiiyoo.net
   - +.yooli.com
   - +.you1ad.com
+  - +.youdaoads.com
   - +.youfumei.com
   - +.youjia2016.com
   - +.youka.la

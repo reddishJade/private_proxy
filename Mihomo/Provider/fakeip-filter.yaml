@@ -1,5 +1,5 @@
-# 更新时间: 2026-06-22 10:15:22（北京时间）
-# 规则数量: 116
+# 更新时间: 2026-06-26 09:58:18（北京时间）
+# 规则数量: 112
 payload:
   - +.126.net
   - +.3gppnetwork.org
@@ -45,7 +45,6 @@ payload:
   - +.oray.com
   - +.orayimg.com
   - +.pool.ntp.org
-  - +.pub.3gppnetwork.org
   - +.router.asus.com
   - +.sandai.net
   - +.square-enix.com
@@ -88,8 +87,6 @@ payload:
   - localhost.sec.qq.com
   - mesu.apple.com
   - mobileoc.music.tc.qq.com
-  - music.163.com
-  - music.migu.cn
   - music.taihe.com
   - musicapi.taihe.com
   - na.b.g-tun.com
@@ -116,4 +113,3 @@ payload:
   - www.qualcomm.cn
   - www.qualcomm.com
   - xnotify.xboxlive.com
-  - y.qq.com

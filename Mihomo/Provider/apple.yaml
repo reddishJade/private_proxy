@@ -1,5 +1,5 @@
-# 更新时间: 2026-06-22 10:15:18（北京时间）
-# 规则数量: 1782
+# 更新时间: 2026-06-26 09:58:16（北京时间）
+# 规则数量: 1780
 payload:
   - +.100beatscheap.com
   - +.12diasdepresentesdeitunes.com
@@ -401,7 +401,6 @@ payload:
   - +.appmediagroup.com
   - +.appsto.re
   - +.appstore.co.id
-  - +.appstore.com
   - +.appstore.hk
   - +.appstore.my
   - +.appstore.ph
@@ -1396,7 +1395,6 @@ payload:
   - +.onlyiphone5case.com
   - +.onsalekey.com
   - +.onsaletrend.com
-  - +.organicfruitapps.com
   - +.outletbeatsshop.com
   - +.overapple.com
   - +.pascherbeatsmonster.com
@@ -1414,7 +1412,6 @@ payload:
   - +.promonsterbeatsbydre.com
   - +.prostudiobeatscybersale.com
   - +.pullstring.net
-  - +.push-apple.com.akadns.net
   - +.quatrowireless.com
   - +.quicktime.cc
   - +.quicktime.com
@@ -1689,6 +1686,7 @@ payload:
   - js-cdn.music.apple.com
   - km.support.apple.com
   - maps.apple.com
+  - mensura.cdn-apple.com
   - mesu-cdn.apple.com.akadns.net
   - mesu-china.apple.com.akadns.net
   - mesu.apple.com

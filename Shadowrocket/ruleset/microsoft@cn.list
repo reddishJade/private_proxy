@@ -1,33 +1,25 @@
-# 更新时间: 2026-06-22 10:15:42（北京时间）
-# 规则数量: 256
+# 更新时间: 2026-06-26 09:58:33（北京时间）
+# 规则数量: 243
 DOMAIN,azuremigrate.download.prss.microsoft.com
 DOMAIN,azuremigratetest.download.prss.microsoft.com
 DOMAIN,azurestackhub.download.prss.microsoft.com
 DOMAIN,azurestackhubuat.download.prss.microsoft.com
 DOMAIN,b.c2r.ts.cdn.office.net
-DOMAIN,bg.v4.a.dl.ws.microsoft.com
-DOMAIN,bg4.v4.a.dl.ws.microsoft.com
 DOMAIN,bj1.api.bing.com
-DOMAIN,build.microsoft.com
 DOMAIN,cbdstest.download.prss.microsoft.com
-DOMAIN,cdn.marketplaceimages.windowsphone.com
 DOMAIN,cn.windowssearch.com
 DOMAIN,collaborate.download.prss.microsoft.com
 DOMAIN,collaborateppe.download.prss.microsoft.com
 DOMAIN,ctldl.windowsupdate.com
-DOMAIN,devblogs.microsoft.com
 DOMAIN,developer.microsoft.com
-DOMAIN,docs.microsoft.com
 DOMAIN,download.microsoft.com
 DOMAIN,download.visualstudio.microsoft.com
 DOMAIN,dreamspark.download.prss.microsoft.com
 DOMAIN,dreamsparkuat.download.prss.microsoft.com
 DOMAIN,emoi-cncdn.bing.com
 DOMAIN,f.c2r.ts.cdn.office.net
-DOMAIN,fs.microsoft.com
 DOMAIN,itacademy.download.prss.microsoft.com
 DOMAIN,itacademyuat.download.prss.microsoft.com
-DOMAIN,learn.microsoft.com
 DOMAIN,lex.download.prss.microsoft.com
 DOMAIN,lexuat.download.prss.microsoft.com
 DOMAIN,mbs.download.prss.microsoft.com
@@ -63,9 +55,6 @@ DOMAIN,volic.download.prss.microsoft.com
 DOMAIN,vscode.download.prss.microsoft.com
 DOMAIN,vz.download.prss.microsoft.com
 DOMAIN,windbg.download.prss.microsoft.com
-DOMAIN,wscont1.apps.microsoft.com
-DOMAIN,wscont2.apps.microsoft.com
-DOMAIN,www.microsoft.com
 DOMAIN-SUFFIX,21vbc.com
 DOMAIN-SUFFIX,21vbluecloud.com
 DOMAIN-SUFFIX,21vbluecloud.net
@@ -135,7 +124,6 @@ DOMAIN-SUFFIX,b3itech.cn
 DOMAIN-SUFFIX,bing.com.cn
 DOMAIN-SUFFIX,blueaggrestore.com
 DOMAIN-SUFFIX,bluecloudprod.com
-DOMAIN-SUFFIX,browser.events.data.msn.cn
 DOMAIN-SUFFIX,cbdstest.download.prss.microsoft.com
 DOMAIN-SUFFIX,cegid-cloud.cn
 DOMAIN-SUFFIX,chinacloud-mobile.cn
@@ -247,7 +235,6 @@ DOMAIN-SUFFIX,surface.downloads.prss.microsoft.com
 DOMAIN-SUFFIX,th.bing.com
 DOMAIN-SUFFIX,trafficmanager.cn
 DOMAIN-SUFFIX,trustcenter.cn
-DOMAIN-SUFFIX,unity3dcloud.cn
 DOMAIN-SUFFIX,vlportal.download.prss.microsoft.com
 DOMAIN-SUFFIX,volic.download.prss.microsoft.com
 DOMAIN-SUFFIX,vscode.download.prss.microsoft.com

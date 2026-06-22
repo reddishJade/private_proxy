@@ -1,5 +1,5 @@
-# 更新时间: 2026-06-22 10:15:41（北京时间）
-# 规则数量: 1806
+# 更新时间: 2026-06-26 09:58:32（北京时间）
+# 规则数量: 1807
 DOMAIN,a1.mzstatic.com
 DOMAIN,a2.mzstatic.com
 DOMAIN,a3.mzstatic.com
@@ -154,6 +154,7 @@ DOMAIN,js-cdn.music.apple.com
 DOMAIN,km.support.apple.com
 DOMAIN,lookup-api.apple.com.edgekey.net
 DOMAIN,maps.apple.com
+DOMAIN,mensura.cdn-apple.com
 DOMAIN,mesu-cdn.apple.com.akadns.net
 DOMAIN,mesu-china.apple.com.akadns.net
 DOMAIN,mesu.apple.com
