@@ -1,5 +1,5 @@
-# 更新时间: 2026-06-26 09:58:15（北京时间）
-# 规则数量: 200
+# 更新时间: 2026-07-01 10:02:59（北京时间）
+# 规则数量: 201
 payload:
   - +.agentclientprotocol.com
   - +.ai.com
@@ -150,6 +150,7 @@ payload:
   - +.themeforest.net
   - +.trae.ai
   - +.traeapi.us
+  - +.tripo3d.ai
   - +.turn.livekit.cloud
   - +.windsurf.build
   - +.windsurf.com

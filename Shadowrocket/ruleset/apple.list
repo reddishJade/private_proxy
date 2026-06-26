@@ -1,5 +1,5 @@
-# 更新时间: 2026-06-26 09:58:32（北京时间）
-# 规则数量: 1807
+# 更新时间: 2026-07-01 10:03:16（北京时间）
+# 规则数量: 1808
 DOMAIN,a1.mzstatic.com
 DOMAIN,a2.mzstatic.com
 DOMAIN,a3.mzstatic.com
@@ -674,6 +674,7 @@ DOMAIN-SUFFIX,auricularemonsterbeats.com
 DOMAIN-SUFFIX,auricularesbeatsbaratosshop.com
 DOMAIN-SUFFIX,auricularesbeatsmarkt.com
 DOMAIN-SUFFIX,ausbeatsbydrdre.com
+DOMAIN-SUFFIX,axm-usercontent-apple.com
 DOMAIN-SUFFIX,bag-glasses1.com
 DOMAIN-SUFFIX,bandgirlz.com
 DOMAIN-SUFFIX,baxsound.com

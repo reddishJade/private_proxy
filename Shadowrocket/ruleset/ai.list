@@ -1,5 +1,5 @@
-# 更新时间: 2026-06-26 09:58:32（北京时间）
-# 规则数量: 201
+# 更新时间: 2026-07-01 10:03:16（北京时间）
+# 规则数量: 202
 DOMAIN,ai.google.dev
 DOMAIN,alkalicore-pa.clients6.google.com
 DOMAIN,alkalimakersuite-pa.clients6.google.com
@@ -193,6 +193,7 @@ DOMAIN-SUFFIX,tapnow.ai
 DOMAIN-SUFFIX,themeforest.net
 DOMAIN-SUFFIX,trae.ai
 DOMAIN-SUFFIX,traeapi.us
+DOMAIN-SUFFIX,tripo3d.ai
 DOMAIN-SUFFIX,turn.livekit.cloud
 DOMAIN-SUFFIX,windsurf.build
 DOMAIN-SUFFIX,windsurf.com

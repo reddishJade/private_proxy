@@ -1,5 +1,5 @@
-# 更新时间: 2026-06-26 09:58:18（北京时间）
-# 规则数量: 1956
+# 更新时间: 2026-07-01 10:03:02（北京时间）
+# 规则数量: 1962
 payload:
   - +.1fichier.com
   - +.1fichier.info
@@ -586,6 +586,7 @@ payload:
   - archive.raspberrypi.com
   - archlinux.nic.cz
   - artifacts.electronjs.org
+  - artifacts.nixos.org
   - assets-production.packagecloud.io
   - assets.dataflare.app
   - assets1.xboxlive.com
@@ -703,6 +704,7 @@ payload:
   - d.myani.org
   - d2.myani.org
   - dafi.inf.um.es
+  - data.caida.org
   - data.gameflare.com
   - deb-mir1.naitways.net
   - deb.bbxnet.sk
@@ -1741,6 +1743,7 @@ payload:
   - packages.termux.dev
   - packages.virtfusion.net
   - packagespc.xboxlive.com
+  - persistent.oaistatic.com
   - pf-cdn-content-prod.azureedge.net
   - piston-data.mojang.com
   - piston-meta.mojang.com
@@ -1838,6 +1841,8 @@ payload:
   - steam.eca.qtlglb.com
   - steam.naeu.qtlglb.com
   - steam.ru.qtlglb.com
+  - steamdeck-images.steamos.cloud
+  - steamdeck-packages.steamos.cloud
   - steampipe-kr.akamaized.net
   - steampipe-partner.akamaized.net
   - steampipe.akamaized.net
@@ -1936,6 +1941,7 @@ payload:
   - updates.devmate.com
   - updates.edovia.com
   - updates.istatmenus.app
+  - updates.openlogi.org
   - updates.vibeisland.app
   - us.dyi.ng
   - version.cyberduck.io

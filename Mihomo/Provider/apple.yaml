@@ -1,5 +1,5 @@
-# 更新时间: 2026-06-26 09:58:16（北京时间）
-# 规则数量: 1780
+# 更新时间: 2026-07-01 10:03:00（北京时间）
+# 规则数量: 1784
 payload:
   - +.100beatscheap.com
   - +.12diasdepresentesdeitunes.com
@@ -328,6 +328,7 @@ payload:
   - +.applereach.com
   - +.applereach.net
   - +.apples-msk.ru
+  - +.appleschoolcontent.com
   - +.applescreensavers.com
   - +.applescript.info
   - +.appleshare.info
@@ -408,6 +409,7 @@ payload:
   - +.appule.com
   - +.appye.com
   - +.apyle.com
+  - +.apzones.com
   - +.asto.re
   - +.aucheapbeats.com
   - +.audiobeatsau.com
@@ -417,6 +419,7 @@ payload:
   - +.auricularesbeatsbaratosshop.com
   - +.auricularesbeatsmarkt.com
   - +.ausbeatsbydrdre.com
+  - +.axm-usercontent-apple.com
   - +.bag-glasses1.com
   - +.bandgirlz.com
   - +.baxsound.com
@@ -991,6 +994,7 @@ payload:
   - +.ichat.co.in
   - +.icloud-apple.cn
   - +.icloud-content.com
+  - +.icloud-content.com.cn
   - +.icloud-isupport.com
   - +.icloud-sandbox.com
   - +.icloud.ch

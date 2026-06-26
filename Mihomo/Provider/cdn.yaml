@@ -1,5 +1,5 @@
-# 更新时间: 2026-06-26 09:58:16（北京时间）
-# 规则数量: 4526
+# 更新时间: 2026-07-01 10:03:00（北京时间）
+# 规则数量: 4535
 payload:
   - +.1a-1791.com
   - +.1passwordusercontent.ca
@@ -402,6 +402,7 @@ payload:
   - +.gamccdn.com
   - +.gamesgamescdn.com
   - +.gammacdn.com
+  - +.gannett-cdn.com
   - +.garmincdn.com
   - +.gateway.originprotocol.com
   - +.gateway.pinata.cloud
@@ -2137,6 +2138,7 @@ payload:
   - cdn.userway.org
   - cdn.v2ex.com
   - cdn.vector.co
+  - cdn.veeam.com
   - cdn.verifypass.com
   - cdn.viafoura.net
   - cdn.videy.co
@@ -2300,6 +2302,7 @@ payload:
   - cf.mhgui.com
   - cf.shopee.tw
   - cfvod.kaltura.com
+  - changelog-widget.canny.io
   - chart.googleapis.com
   - chat-assets.front.app
   - chat.digitalgenius.com
@@ -2366,6 +2369,7 @@ payload:
   - consent-manager.ft.com
   - consent-notice.ft.com
   - consent.dw.com
+  - consent.formula1.com
   - consentdeliveryfd.azurefd.net
   - consumersite-assets.trustpilot.net
   - consumersiteimages.trustpilot.net
@@ -2651,6 +2655,7 @@ payload:
   - g.newsweek.com
   - g1.nyt.com
   - gamemedia.armorgames.com
+  - gannett-cdn.ex.co
   - gdb.rferl.org
   - gdb.voanews.com
   - gearbox.imgix.com
@@ -3253,6 +3258,7 @@ payload:
   - media.fc2.com
   - media.fidoalliance.org
   - media.flaticon.com
+  - media.formula1.com
   - media.fs.com
   - media.gamestop.com
   - media.geeksforgeeks.org
@@ -3693,6 +3699,7 @@ payload:
   - safebrowsing.googleapis.com
   - sandpack-cdn-staging.blazingly.io
   - sandpack-cdn-v2.codesandbox.io
+  - sat.windy.com
   - sbl.onfastspring.com
   - scache.vzw.com
   - scache1.vzw.com
@@ -3965,6 +3972,7 @@ payload:
   - static.figma.com
   - static.filehorse.com
   - static.filestackapi.com
+  - static.formula1.com
   - static.foxbusiness.com
   - static.foxnews.com
   - static.frame.work
@@ -4477,6 +4485,7 @@ payload:
   - widget.kapa.ai
   - widget.prod.equally.ai
   - widget.reviews.io
+  - widget.rss.app
   - widget.trustpilot.com
   - widget.usepylon.com
   - widget.user.com

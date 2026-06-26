@@ -1,5 +1,5 @@
-# 更新时间: 2026-06-26 09:58:23（北京时间）
-# 规则数量: 5435
+# 更新时间: 2026-07-01 10:03:07（北京时间）
+# 规则数量: 5454
 payload:
   - +.000webhost.com
   - +.0rz.tw
@@ -178,6 +178,7 @@ payload:
   - +.airitilibrary.com
   - +.airtable.com
   - +.airtableusercontent.com
+  - +.airuniversity.af.edu
   - +.airvpn.org
   - +.ait.org.tw
   - +.aiweiweiblog.com
@@ -978,6 +979,7 @@ payload:
   - +.cloudfunctions.net
   - +.cloudgarage.jp
   - +.cloudmagic.com
+  - +.cloudns.net
   - +.club1069.com
   - +.clubhouse.com
   - +.clubhouseapi.com
@@ -1195,6 +1197,7 @@ payload:
   - +.deno.com
   - +.depositphotos.com
   - +.desc.se
+  - +.desec.io
   - +.desipro.de
   - +.deskconnect.com
   - +.desmos.com
@@ -1450,6 +1453,7 @@ payload:
   - +.expekt.com
   - +.explainthis.io
   - +.exploader.net
+  - +.expressnews.com
   - +.expressvpn.com
   - +.exrates.me
   - +.extmatrix.com
@@ -1739,6 +1743,7 @@ payload:
   - +.gartlive.com
   - +.gartner.com
   - +.garudalinux.org
+  - +.gate.com
   - +.gate.hockeyapp.net
   - +.gate.io
   - +.gatecoin.com
@@ -2167,6 +2172,7 @@ payload:
   - +.gtv1.org
   - +.gu-chu-sum.org
   - +.guaguass.com
+  - +.guangming.com.my
   - +.guishan.org
   - +.gumroad.com
   - +.gunsamerica.com
@@ -2281,6 +2287,7 @@ payload:
   - +.hkgpao.com
   - +.hklts.org.hk
   - +.hkmap.live
+  - +.hkong.hk
   - +.hkopentv.com
   - +.hkpeanut.com
   - +.hkreporter.com
@@ -2677,6 +2684,7 @@ payload:
   - +.kex.com
   - +.keycdn.com
   - +.keyhole.com
+  - +.kfor.com
   - +.kg
   - +.khatrimaza.org
   - +.kichiku-doujinko.com
@@ -3008,6 +3016,7 @@ payload:
   - +.mgoon.com
   - +.mgstage.com
   - +.mh4u.org
+  - +.mhwindow.org
   - +.micro.blog
   - +.microvpn.com
   - +.mihua.org
@@ -3505,6 +3514,7 @@ payload:
   - +.pbworks.com
   - +.pbxes.com
   - +.pbxes.org
+  - +.pcgamesn.com
   - +.pcgamestorrents.com
   - +.pcij.org
   - +.pct.org.tw
@@ -3526,6 +3536,7 @@ payload:
   - +.peopo.org
   - +.perfect-privacy.com
   - +.periscope.tv
+  - +.perma.cc
   - +.perplexity.ai
   - +.pewresearch.org
   - +.ph
@@ -3847,6 +3858,7 @@ payload:
   - +.replit.com
   - +.resilio.com
   - +.resistchina.org
+  - +.restofworld.org
   - +.returnyoutubedislike.com
   - +.returnyoutubedislikeapi.com
   - +.retweetrank.com
@@ -4156,6 +4168,7 @@ payload:
   - +.southnews.com.tw
   - +.southpark.cc.com
   - +.sowers.org.hk
+  - +.spaceforce.mil
   - +.spaces.hightail.com
   - +.spacex.com
   - +.spankbang.com
@@ -4274,6 +4287,7 @@ payload:
   - +.supervpn.net
   - +.superzooi.com
   - +.supjav.com
+  - +.supremecourt.gov
   - +.suprememastertv.com
   - +.surfeasy.com
   - +.surfeasy.com.au
@@ -4412,6 +4426,7 @@ payload:
   - +.thehindu.com
   - +.thehun.net
   - +.theinitium.com
+  - +.theintercept.com
   - +.themoviedb.org
   - +.thenewslens.com
   - +.thenewstack.io
@@ -4600,6 +4615,7 @@ payload:
   - +.tronscan.org
   - +.trouw.nl
   - +.trt.net.tr
+  - +.trtworld.com
   - +.truebuddha-md.org
   - +.trulyergonomic.com
   - +.trustasiassl.com
@@ -4708,6 +4724,7 @@ payload:
   - +.twitturly.com
   - +.twkan.com
   - +.twreporter.org
+  - +.twstalker.com
   - +.twt.tl
   - +.twtkr.com
   - +.twttr.com
@@ -4995,6 +5012,7 @@ payload:
   - +.warroom.org
   - +.waselpro.com
   - +.washingtonpost.com
+  - +.washingtontimes.com
   - +.watch
   - +.watchinese.com
   - +.watchmygf.net
@@ -5263,6 +5281,7 @@ payload:
   - +.xt.pub
   - +.xteko.com
   - +.xtube.com
+  - +.xuan.com.my
   - +.xuchao.net
   - +.xuchao.org
   - +.xuehua.us

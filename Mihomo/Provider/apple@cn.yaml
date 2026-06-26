@@ -1,5 +1,5 @@
-# 更新时间: 2026-06-26 09:58:16（北京时间）
-# 规则数量: 240
+# 更新时间: 2026-07-01 10:02:59（北京时间）
+# 规则数量: 241
 payload:
   - +.a1.mzstatic.com
   - +.a2.mzstatic.com
@@ -116,6 +116,7 @@ payload:
   - +.homepod.cn
   - +.iadsdk.apple.com
   - +.icloud-apple.cn
+  - +.icloud-content.com.cn
   - +.icloud.cn
   - +.icloud.com.cn
   - +.icloud.net.cn
