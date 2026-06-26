@@ -1,5 +1,5 @@
-# 更新时间: 2026-06-26 09:58:33（北京时间）
-# 规则数量: 159
+# 更新时间: 2026-07-24 09:18:41（北京时间）
+# 规则数量: 160
 DOMAIN,asusrouter.com
 DOMAIN,board.zash.run.place
 DOMAIN,dash.sing-box.app
@@ -18,6 +18,7 @@ DOMAIN,www.asusrouter.com
 DOMAIN,www.miwifi.com
 DOMAIN,www.routerlogin.com
 DOMAIN,yacd.metacubex.one
+DOMAIN,zephyruso.github.io
 DOMAIN-SUFFIX,1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa
 DOMAIN-SUFFIX,10.in-addr.arpa
 DOMAIN-SUFFIX,100.100.in-addr.arpa

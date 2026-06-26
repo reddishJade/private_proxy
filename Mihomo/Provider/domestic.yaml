@@ -1,5 +1,5 @@
-# 更新时间: 2026-06-26 09:58:17（北京时间）
-# 规则数量: 1006
+# 更新时间: 2026-07-24 09:18:15（北京时间）
+# 规则数量: 1008
 payload:
   - +.10010.com
   - +.10086.cn
@@ -81,6 +81,7 @@ payload:
   - +.abchina.com
   - +.abchina.com.cn
   - +.abercrombie.com
+  - +.ac.cn
   - +.acfun.cn
   - +.acfun.tv
   - +.acgvideo.com
@@ -555,6 +556,7 @@ payload:
   - +.lizhi.io
   - +.ljcdn.com
   - +.lkcoffee.com
+  - +.lltskb.com
   - +.localizecdn.com
   - +.lofter.com
   - +.lucifr.com

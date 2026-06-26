@@ -1,5 +1,5 @@
-# 更新时间: 2026-06-26 09:58:22（北京时间）
-# 规则数量: 138
+# 更新时间: 2026-07-24 09:18:21（北京时间）
+# 规则数量: 139
 payload:
   - +.1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa
   - +.10.in-addr.arpa
@@ -139,3 +139,4 @@ payload:
   - www.asusrouter.com
   - www.miwifi.com
   - yacd.metacubex.one
+  - zephyruso.github.io

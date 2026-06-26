@@ -1,9 +1,10 @@
-# 更新时间: 2026-06-26 09:58:15（北京时间）
-# 规则数量: 105
+# 更新时间: 2026-07-24 09:18:13（北京时间）
+# 规则数量: 112
 payload:
   - +.aispeech.com
   - +.antafu.com
   - +.antaq.com
+  - +.aorizon.cn
   - +.api-building.fun
   - +.askdiandian.com
   - +.baichuan-ai.com
@@ -42,10 +43,14 @@ payload:
   - +.dumate.cn
   - +.faxingbao.com
   - +.hailuoai.com
+  - +.happyhorse.cn
+  - +.happyshrimp.cn
   - +.hi-butterfly.cn
   - +.hunyuan.tencent.com
   - +.instreet.com
+  - +.kechuangai.com
   - +.kimi.com
+  - +.kling-ai.com
   - +.klingai.com
   - +.liblib.art
   - +.liblib.cloud
@@ -83,6 +88,7 @@ payload:
   - +.rwkv.com
   - +.safeskill.cn
   - +.skillhub.cn
+  - +.sleeplesshorizon.cn
   - +.tapnow.top
   - +.tcwqqdy.guru
   - +.tiangong.cn
@@ -100,6 +106,7 @@ payload:
   - +.yoma.cn
   - +.yuanbao.tencent.com
   - +.yuanqi.tencent.com
+  - +.yzsgo.com
   - +.z.ai
   - +.zhiexa.com
   - +.zhipuai.cn

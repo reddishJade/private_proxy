@@ -1,5 +1,5 @@
-# 更新时间: 2026-06-26 09:58:34（北京时间）
-# 规则数量: 10332
+# 更新时间: 2026-07-24 09:18:42（北京时间）
+# 规则数量: 10336
 DOMAIN,118.89.204.198
 DOMAIN,1500020991.vodplayer.wxamedia.com
 DOMAIN,1500022744.vodplayer.wxamedia.com
@@ -411,7 +411,6 @@ DOMAIN,datacollection.uve.weibo.com
 DOMAIN,dc.sigmob.cn
 DOMAIN,de.tynt.com
 DOMAIN,diagnosis.ad.xiaomi.com
-DOMAIN,dig.bdurl.net
 DOMAIN,disney.my.sentry.io
 DOMAIN,dlogs.bwton.com
 DOMAIN,dm.toutiao.com
@@ -632,7 +631,6 @@ DOMAIN,mbdlog.iqiyi.com
 DOMAIN,mc.yandex.com
 DOMAIN,mc.yandex.net
 DOMAIN,mc.yango.com
-DOMAIN,mcs.zijieapi.com
 DOMAIN,medproad.com
 DOMAIN,metrics.21-school.ru
 DOMAIN,metrics.data.hicloud.com
@@ -703,6 +701,7 @@ DOMAIN,open.kuaishouzt.com
 DOMAIN,open.kwaizt.com
 DOMAIN,open.snssdk.com
 DOMAIN,openadapi.fancydsp.com
+DOMAIN,openai.qualtrics.com
 DOMAIN,optimus-ads.amap.com
 DOMAIN,orbit.jd.com
 DOMAIN,oss.cdn.aiclk.com
@@ -4982,6 +4981,7 @@ DOMAIN-SUFFIX,geryi.com
 DOMAIN-SUFFIX,get.thefile.me
 DOMAIN-SUFFIX,get3.adobe.com
 DOMAIN-SUFFIX,getnormalizedurl.com
+DOMAIN-SUFFIX,getsentry.com
 DOMAIN-SUFFIX,getui.com
 DOMAIN-SUFFIX,gewuwen.com
 DOMAIN-SUFFIX,gf108.com
@@ -7788,6 +7788,7 @@ DOMAIN-SUFFIX,pub.betclick.com
 DOMAIN-SUFFIX,pub.chinadailyasia.com
 DOMAIN-SUFFIX,pub.funshion.com
 DOMAIN-SUFFIX,pub.mop.com
+DOMAIN-SUFFIX,pub.network
 DOMAIN-SUFFIX,pub.se.360.cn
 DOMAIN-SUFFIX,pub1.cope.es
 DOMAIN-SUFFIX,pubbirdf.com
@@ -8414,8 +8415,11 @@ DOMAIN-SUFFIX,selfie.snapmobileasia.net
 DOMAIN-SUFFIX,sell1.etlong.com
 DOMAIN-SUFFIX,sensors.umetrip.com.cn
 DOMAIN-SUFFIX,sensorsdata.ruguoapp.com
+DOMAIN-SUFFIX,sentry-cdn.com
 DOMAIN-SUFFIX,sentry.d.mi.com
 DOMAIN-SUFFIX,sentry.d.xiaomi.net
+DOMAIN-SUFFIX,sentry.dev
+DOMAIN-SUFFIX,sentry.io
 DOMAIN-SUFFIX,sentry.music.163.com
 DOMAIN-SUFFIX,serial.alcohol-soft.com
 DOMAIN-SUFFIX,serrano.hardwareheaven.com

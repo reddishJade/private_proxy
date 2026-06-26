@@ -1,5 +1,5 @@
-# 更新时间: 2026-06-26 09:58:21（北京时间）
-# 规则数量: 741
+# 更新时间: 2026-07-24 09:18:18（北京时间）
+# 规则数量: 746
 payload:
   - +.1drv.com
   - +.21vbc.com
@@ -50,6 +50,7 @@ payload:
   - +.aztask.cn
   - +.azure
   - +.azure-api.cn
+  - +.azure-api.net
   - +.azure-apihub.cn
   - +.azure-automation.cn
   - +.azure-connectedvehicles-stage.cn
@@ -98,6 +99,7 @@ payload:
   - +.azuredns-prd.org
   - +.azureedge-test.net
   - +.azureedge.net
+  - +.azureedge.us
   - +.azurefd.net
   - +.azurehdinsight.cn
   - +.azureiotcentral.com
@@ -113,6 +115,7 @@ payload:
   - +.azureserviceprofiler.com
   - +.azuresmartspaces.net
   - +.azurestackvalidation.com
+  - +.azurestaticapps.net
   - +.azurewebsites.net
   - +.b2clogin.cn
   - +.b3itech.cn
@@ -163,6 +166,8 @@ payload:
   - +.cn.mm.bing.net
   - +.codethemicrobit.com
   - +.collector.github.com
+  - +.copilot-stg.com
+  - +.copilot.com
   - +.cortanaanalytics.com
   - +.cortanaskills.com
   - +.cosmosdb.info

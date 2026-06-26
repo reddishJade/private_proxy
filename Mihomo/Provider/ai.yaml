@@ -1,5 +1,5 @@
-# 更新时间: 2026-06-26 09:58:15（北京时间）
-# 规则数量: 200
+# 更新时间: 2026-07-24 09:18:13（北京时间）
+# 规则数量: 208
 payload:
   - +.agentclientprotocol.com
   - +.ai.com
@@ -24,6 +24,7 @@ payload:
   - +.chat.com
   - +.chatgpt.com
   - +.chatgpt.livekit.cloud
+  - +.chatgpt.site
   - +.chorus.sh
   - +.chutes.ai
   - +.cici.com
@@ -46,6 +47,9 @@ payload:
   - +.comfy.org
   - +.comfyci.org
   - +.comfyregistry.org
+  - +.copilot-stg.com
+  - +.copilot.cloud.microsoft
+  - +.copilot.com
   - +.copilot.microsoft.com
   - +.coze.com
   - +.cp4.cloudflare.com
@@ -71,6 +75,7 @@ payload:
   - +.envatousercontent.com
   - +.featureassets.org
   - +.featuregates.org
+  - +.flow.google
   - +.gateway.ai.cloudflare.com
   - +.geller-pa.googleapis.com
   - +.gemini.google
@@ -150,6 +155,7 @@ payload:
   - +.themeforest.net
   - +.trae.ai
   - +.traeapi.us
+  - +.tripo3d.ai
   - +.turn.livekit.cloud
   - +.windsurf.build
   - +.windsurf.com
@@ -188,7 +194,9 @@ payload:
   - notebooklm.googleapis.com
   - o207216.ingest.sentry.io
   - o33249.ingest.sentry.io
+  - openai.qualtrics.com
   - openaiapi-site.azureedge.net
+  - openaiassets.blob.core.windows.net
   - openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
   - openaicom.imgix.net
   - openaicomproductionae4b.blob.core.windows.net

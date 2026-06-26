@@ -1,5 +1,5 @@
-# 更新时间: 2026-06-26 09:58:18（北京时间）
-# 规则数量: 1956
+# 更新时间: 2026-07-24 09:18:16（北京时间）
+# 规则数量: 1965
 payload:
   - +.1fichier.com
   - +.1fichier.info
@@ -395,6 +395,7 @@ payload:
   - +.s3-website.ap-southeast-5.amazonaws.com
   - +.s3-website.ca-central-1.amazonaws.com
   - +.s3-website.ca-west-1.amazonaws.com
+  - +.s3-website.cloud.ru
   - +.s3-website.dualstack.af-south-1.amazonaws.com
   - +.s3-website.dualstack.ap-northeast-1.amazonaws.com
   - +.s3-website.dualstack.ap-northeast-2.amazonaws.com
@@ -586,6 +587,7 @@ payload:
   - archive.raspberrypi.com
   - archlinux.nic.cz
   - artifacts.electronjs.org
+  - artifacts.nixos.org
   - assets-production.packagecloud.io
   - assets.dataflare.app
   - assets1.xboxlive.com
@@ -616,10 +618,14 @@ payload:
   - cdimage.kali.org
   - cdimage.ubuntu.com
   - cdn-builds.paw.cloud
+  - cdn-fi-1.comaps.app
   - cdn-images.orbstack.dev
-  - cdn-ota.azureedge.net
+  - cdn-nl1.organicmaps.app
   - cdn-patch.swtor.com
+  - cdn-uk1.organicmaps.app
   - cdn-updates.orbstack.dev
+  - cdn-us-1.comaps.app
+  - cdn-us-2.comaps.tech
   - cdn.affonso.io
   - cdn.azul.com
   - cdn.cocoapods.org
@@ -645,7 +651,6 @@ payload:
   - centos-stream.koyanet.lv
   - centos.anexia.at
   - centos.is
-  - centos.nic.cz
   - cesium.di.uminho.pt
   - charts.verdaccio.org
   - chnroutes2.cdn.skk.moe
@@ -655,6 +660,9 @@ payload:
   - cloudflare.f-droid.org
   - cloudfront.debian.net
   - codeload.github.com
+  - comaps-it1.unfoxo.it
+  - comaps.firewall-gateway.de
+  - comaps.openstreetmap.fr
   - componentupdater.brave.com
   - content-origin.steampowered.com
   - cpan-mirror.rbc.ru
@@ -703,6 +711,7 @@ payload:
   - d.myani.org
   - d2.myani.org
   - dafi.inf.um.es
+  - data.caida.org
   - data.gameflare.com
   - deb-mir1.naitways.net
   - deb.bbxnet.sk
@@ -775,6 +784,7 @@ payload:
   - debian.xtdv.net
   - dennou-k.gfd-dennou.org
   - depot-debian.univ-reunion.fr
+  - desktop.figma.com
   - desktop.parallels.com
   - desktop.wifiman.com
   - directory.fsf.org
@@ -844,7 +854,6 @@ payload:
   - download.docker.com
   - download.eassos.com
   - download.edovia.com
-  - download.fosshub.com
   - download.fydeos.io
   - download.garmin.com
   - download.geofabrik.de
@@ -1026,7 +1035,6 @@ payload:
   - ftp.lip6.fr
   - ftp.litnet.lt
   - ftp.lt.debian.org
-  - ftp.ludd.ltu.se
   - ftp.lug.ro
   - ftp.lysator.liu.se
   - ftp.man.poznan.pl
@@ -1178,9 +1186,9 @@ payload:
   - linux.yz.yamagata-u.ac.jp
   - linux2.yz.yamagata-u.ac.jp
   - linuxsoft.cern.ch
-  - lug.mines.edu
   - lzip.nongnu.org
   - mac-release-static.stash.ws
+  - mapgen-fi-1.comaps.app
   - maven.fabricmc.net
   - maven.google.com
   - maven.is-quite.gay
@@ -1229,7 +1237,6 @@ payload:
   - mirror.azvps.vn
   - mirror.bacloud.com
   - mirror.bahnhof.net
-  - mirror.battern.eu
   - mirror.bg.host.ag
   - mirror.bgp.rodeo
   - mirror.bharatdatacenter.com
@@ -1368,7 +1375,6 @@ payload:
   - mirror.it.ubc.ca
   - mirror.it4i.cz
   - mirror.its-tps.fr
-  - mirror.its.dal.ca
   - mirror.its.umich.edu
   - mirror.iway.ch
   - mirror.ixirhost.com
@@ -1381,7 +1387,6 @@ payload:
   - mirror.karneval.cz
   - mirror.katapult.io
   - mirror.keiminem.com
-  - mirror.kernel.ir
   - mirror.keystealth.org
   - mirror.kkg.berlin
   - mirror.kku.ac.th
@@ -1583,7 +1588,7 @@ payload:
   - mirror.yuki.net.uk
   - mirror.za.abantu.cloud
   - mirror.za.web4africa.net
-  - mirror1.hs-esslingen.de
+  - mirror1.hcgen.de
   - mirror1.infomaniak.com
   - mirror1.ku.ac.th
   - mirror1.sox.rs
@@ -1741,6 +1746,7 @@ payload:
   - packages.termux.dev
   - packages.virtfusion.net
   - packagespc.xboxlive.com
+  - persistent.oaistatic.com
   - pf-cdn-content-prod.azureedge.net
   - piston-data.mojang.com
   - piston-meta.mojang.com
@@ -1838,6 +1844,8 @@ payload:
   - steam.eca.qtlglb.com
   - steam.naeu.qtlglb.com
   - steam.ru.qtlglb.com
+  - steamdeck-images.steamos.cloud
+  - steamdeck-packages.steamos.cloud
   - steampipe-kr.akamaized.net
   - steampipe-partner.akamaized.net
   - steampipe.akamaized.net
@@ -1936,6 +1944,7 @@ payload:
   - updates.devmate.com
   - updates.edovia.com
   - updates.istatmenus.app
+  - updates.openlogi.org
   - updates.vibeisland.app
   - us.dyi.ng
   - version.cyberduck.io

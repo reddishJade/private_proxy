@@ -1,5 +1,5 @@
-# 更新时间: 2026-06-26 09:58:33（北京时间）
-# 规则数量: 882
+# 更新时间: 2026-07-24 09:18:40（北京时间）
+# 规则数量: 887
 DOMAIN,az764295.vo.msecnd.net
 DOMAIN,azure.microsoft.com
 DOMAIN,azuremarketplace.microsoft.com
@@ -176,6 +176,7 @@ DOMAIN-SUFFIX,aznbcontent.cn
 DOMAIN-SUFFIX,aztask.cn
 DOMAIN-SUFFIX,azure
 DOMAIN-SUFFIX,azure-api.cn
+DOMAIN-SUFFIX,azure-api.net
 DOMAIN-SUFFIX,azure-apihub.cn
 DOMAIN-SUFFIX,azure-apim.net
 DOMAIN-SUFFIX,azure-automation.cn
@@ -225,6 +226,7 @@ DOMAIN-SUFFIX,azuredns-prd.info
 DOMAIN-SUFFIX,azuredns-prd.org
 DOMAIN-SUFFIX,azureedge-test.net
 DOMAIN-SUFFIX,azureedge.net
+DOMAIN-SUFFIX,azureedge.us
 DOMAIN-SUFFIX,azurefd.net
 DOMAIN-SUFFIX,azurefd.us
 DOMAIN-SUFFIX,azurehdinsight.cn
@@ -242,6 +244,7 @@ DOMAIN-SUFFIX,azuresandbox.cn
 DOMAIN-SUFFIX,azureserviceprofiler.com
 DOMAIN-SUFFIX,azuresmartspaces.net
 DOMAIN-SUFFIX,azurestackvalidation.com
+DOMAIN-SUFFIX,azurestaticapps.net
 DOMAIN-SUFFIX,azurewebsites.net
 DOMAIN-SUFFIX,b.akamaiedge.net
 DOMAIN-SUFFIX,b2clogin.cn
@@ -312,6 +315,8 @@ DOMAIN-SUFFIX,cn.bing.net
 DOMAIN-SUFFIX,cn.mm.bing.net
 DOMAIN-SUFFIX,codethemicrobit.com
 DOMAIN-SUFFIX,collector.github.com
+DOMAIN-SUFFIX,copilot-stg.com
+DOMAIN-SUFFIX,copilot.com
 DOMAIN-SUFFIX,cortana.ai
 DOMAIN-SUFFIX,cortanaanalytics.com
 DOMAIN-SUFFIX,cortanaskills.com

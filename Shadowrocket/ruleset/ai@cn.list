@@ -1,10 +1,11 @@
-# 更新时间: 2026-06-26 09:58:32（北京时间）
-# 规则数量: 105
+# 更新时间: 2026-07-24 09:18:38（北京时间）
+# 规则数量: 112
 DOMAIN,ai.zhaomi.cn
 DOMAIN,cueme-api.quark.cn
 DOMAIN-SUFFIX,aispeech.com
 DOMAIN-SUFFIX,antafu.com
 DOMAIN-SUFFIX,antaq.com
+DOMAIN-SUFFIX,aorizon.cn
 DOMAIN-SUFFIX,api-building.fun
 DOMAIN-SUFFIX,askdiandian.com
 DOMAIN-SUFFIX,baichuan-ai.com
@@ -43,10 +44,14 @@ DOMAIN-SUFFIX,duiopen.com
 DOMAIN-SUFFIX,dumate.cn
 DOMAIN-SUFFIX,faxingbao.com
 DOMAIN-SUFFIX,hailuoai.com
+DOMAIN-SUFFIX,happyhorse.cn
+DOMAIN-SUFFIX,happyshrimp.cn
 DOMAIN-SUFFIX,hi-butterfly.cn
 DOMAIN-SUFFIX,hunyuan.tencent.com
 DOMAIN-SUFFIX,instreet.com
+DOMAIN-SUFFIX,kechuangai.com
 DOMAIN-SUFFIX,kimi.com
+DOMAIN-SUFFIX,kling-ai.com
 DOMAIN-SUFFIX,klingai.com
 DOMAIN-SUFFIX,liblib.art
 DOMAIN-SUFFIX,liblib.cloud
@@ -84,6 +89,7 @@ DOMAIN-SUFFIX,rwkv.cn
 DOMAIN-SUFFIX,rwkv.com
 DOMAIN-SUFFIX,safeskill.cn
 DOMAIN-SUFFIX,skillhub.cn
+DOMAIN-SUFFIX,sleeplesshorizon.cn
 DOMAIN-SUFFIX,tapnow.top
 DOMAIN-SUFFIX,tcwqqdy.guru
 DOMAIN-SUFFIX,tiangong.cn
@@ -101,6 +107,7 @@ DOMAIN-SUFFIX,yiyan.baidu.com
 DOMAIN-SUFFIX,yoma.cn
 DOMAIN-SUFFIX,yuanbao.tencent.com
 DOMAIN-SUFFIX,yuanqi.tencent.com
+DOMAIN-SUFFIX,yzsgo.com
 DOMAIN-SUFFIX,z.ai
 DOMAIN-SUFFIX,zhiexa.com
 DOMAIN-SUFFIX,zhipuai.cn

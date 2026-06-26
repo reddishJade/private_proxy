@@ -1,5 +1,5 @@
-# 更新时间: 2026-06-26 09:58:24（北京时间）
-# 规则数量: 10249
+# 更新时间: 2026-07-24 09:18:24（北京时间）
+# 规则数量: 10253
 payload:
   - +.0.r.msn.com
   - +.000dn.com
@@ -3870,6 +3870,7 @@ payload:
   - +.get.thefile.me
   - +.get3.adobe.com
   - +.getnormalizedurl.com
+  - +.getsentry.com
   - +.getui.com
   - +.gewuwen.com
   - +.gf108.com
@@ -6676,6 +6677,7 @@ payload:
   - +.pub.chinadailyasia.com
   - +.pub.funshion.com
   - +.pub.mop.com
+  - +.pub.network
   - +.pub.se.360.cn
   - +.pub1.cope.es
   - +.pubbirdf.com
@@ -7302,8 +7304,11 @@ payload:
   - +.sell1.etlong.com
   - +.sensors.umetrip.com.cn
   - +.sensorsdata.ruguoapp.com
+  - +.sentry-cdn.com
   - +.sentry.d.mi.com
   - +.sentry.d.xiaomi.net
+  - +.sentry.dev
+  - +.sentry.io
   - +.sentry.music.163.com
   - +.serial.alcohol-soft.com
   - +.serrano.hardwareheaven.com
@@ -9573,7 +9578,6 @@ payload:
   - dc.sigmob.cn
   - de.tynt.com
   - diagnosis.ad.xiaomi.com
-  - dig.bdurl.net
   - disney.my.sentry.io
   - dlogs.bwton.com
   - dm.toutiao.com
@@ -9794,7 +9798,6 @@ payload:
   - mc.yandex.com
   - mc.yandex.net
   - mc.yango.com
-  - mcs.zijieapi.com
   - medproad.com
   - metrics.21-school.ru
   - metrics.data.hicloud.com
@@ -9865,6 +9868,7 @@ payload:
   - open.kwaizt.com
   - open.snssdk.com
   - openadapi.fancydsp.com
+  - openai.qualtrics.com
   - optimus-ads.amap.com
   - orbit.jd.com
   - oss.cdn.aiclk.com

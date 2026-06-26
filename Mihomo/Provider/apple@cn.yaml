@@ -1,5 +1,5 @@
-# 更新时间: 2026-06-26 09:58:16（北京时间）
-# 规则数量: 240
+# 更新时间: 2026-07-24 09:18:14（北京时间）
+# 规则数量: 243
 payload:
   - +.a1.mzstatic.com
   - +.a2.mzstatic.com
@@ -116,6 +116,7 @@ payload:
   - +.homepod.cn
   - +.iadsdk.apple.com
   - +.icloud-apple.cn
+  - +.icloud-content.com.cn
   - +.icloud.cn
   - +.icloud.com.cn
   - +.icloud.net.cn
@@ -223,6 +224,7 @@ payload:
   - +.xn--fiqs8sxootzz.cn
   - +.xn--ohq11k7pl25iyo8a.cn
   - +.xp.apple.com
+  - amp-api.podcasts.apple.com
   - cdn-cn.apple-mapkit.com
   - certs-lb.apple.com.akadns.net
   - cl2-cdn.origin-apple.com.akadns.net
@@ -236,6 +238,7 @@ payload:
   - init.gc-lb.apple.com.akadns.net
   - init.gc.apple.com
   - maps.apple.com
+  - podcasts.apple.com
   - s1.mzstatic.com
   - s2.mzstatic.com
   - s3.mzstatic.com

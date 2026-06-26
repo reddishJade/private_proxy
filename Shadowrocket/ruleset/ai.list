@@ -1,5 +1,5 @@
-# 更新时间: 2026-06-26 09:58:32（北京时间）
-# 规则数量: 201
+# 更新时间: 2026-07-24 09:18:38（北京时间）
+# 规则数量: 209
 DOMAIN,ai.google.dev
 DOMAIN,alkalicore-pa.clients6.google.com
 DOMAIN,alkalimakersuite-pa.clients6.google.com
@@ -30,7 +30,9 @@ DOMAIN,notebooklm-pa.googleapis.com
 DOMAIN,notebooklm.googleapis.com
 DOMAIN,o207216.ingest.sentry.io
 DOMAIN,o33249.ingest.sentry.io
+DOMAIN,openai.qualtrics.com
 DOMAIN,openaiapi-site.azureedge.net
+DOMAIN,openaiassets.blob.core.windows.net
 DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
 DOMAIN,openaicom.imgix.net
 DOMAIN,openaicomproductionae4b.blob.core.windows.net
@@ -67,6 +69,7 @@ DOMAIN-SUFFIX,cerebras.ai
 DOMAIN-SUFFIX,chat.com
 DOMAIN-SUFFIX,chatgpt.com
 DOMAIN-SUFFIX,chatgpt.livekit.cloud
+DOMAIN-SUFFIX,chatgpt.site
 DOMAIN-SUFFIX,chorus.sh
 DOMAIN-SUFFIX,chutes.ai
 DOMAIN-SUFFIX,cici.com
@@ -89,6 +92,9 @@ DOMAIN-SUFFIX,cohere.com
 DOMAIN-SUFFIX,comfy.org
 DOMAIN-SUFFIX,comfyci.org
 DOMAIN-SUFFIX,comfyregistry.org
+DOMAIN-SUFFIX,copilot-stg.com
+DOMAIN-SUFFIX,copilot.cloud.microsoft
+DOMAIN-SUFFIX,copilot.com
 DOMAIN-SUFFIX,copilot.microsoft.com
 DOMAIN-SUFFIX,coze.com
 DOMAIN-SUFFIX,cp4.cloudflare.com
@@ -114,6 +120,7 @@ DOMAIN-SUFFIX,envato.com
 DOMAIN-SUFFIX,envatousercontent.com
 DOMAIN-SUFFIX,featureassets.org
 DOMAIN-SUFFIX,featuregates.org
+DOMAIN-SUFFIX,flow.google
 DOMAIN-SUFFIX,gateway.ai.cloudflare.com
 DOMAIN-SUFFIX,geller-pa.googleapis.com
 DOMAIN-SUFFIX,gemini.google
@@ -193,6 +200,7 @@ DOMAIN-SUFFIX,tapnow.ai
 DOMAIN-SUFFIX,themeforest.net
 DOMAIN-SUFFIX,trae.ai
 DOMAIN-SUFFIX,traeapi.us
+DOMAIN-SUFFIX,tripo3d.ai
 DOMAIN-SUFFIX,turn.livekit.cloud
 DOMAIN-SUFFIX,windsurf.build
 DOMAIN-SUFFIX,windsurf.com

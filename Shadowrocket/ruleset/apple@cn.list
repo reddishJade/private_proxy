@@ -1,5 +1,5 @@
-# 更新时间: 2026-06-26 09:58:32（北京时间）
-# 规则数量: 409
+# 更新时间: 2026-07-24 09:18:39（北京时间）
+# 规则数量: 412
 DOMAIN,a1.mzstatic.com
 DOMAIN,a2.mzstatic.com
 DOMAIN,a3.mzstatic.com
@@ -9,6 +9,7 @@ DOMAIN,adcdownload.apple.com
 DOMAIN,adcdownload.apple.com.akadns.net
 DOMAIN,amp-api-updates.apps.apple.com
 DOMAIN,amp-api.media.apple.com
+DOMAIN,amp-api.podcasts.apple.com
 DOMAIN,api.smoot.apple.cn
 DOMAIN,app-site-association.cdn-apple.com
 DOMAIN,appldnld.apple.com
@@ -133,6 +134,7 @@ DOMAIN,oscdn.origin-apple.com.akadns.net
 DOMAIN,osxapps.itunes.g.aaplimg.com
 DOMAIN,pancake.apple.com
 DOMAIN,pba0.apple.com
+DOMAIN,podcasts.apple.com
 DOMAIN,probe.siri.apple.com
 DOMAIN,prod-support.apple-support.akadns.net
 DOMAIN,publicassets.cdn-apple.com
@@ -302,6 +304,7 @@ DOMAIN-SUFFIX,guzzoni.smoot.apple.com
 DOMAIN-SUFFIX,homepod.cn
 DOMAIN-SUFFIX,iadsdk.apple.com
 DOMAIN-SUFFIX,icloud-apple.cn
+DOMAIN-SUFFIX,icloud-content.com.cn
 DOMAIN-SUFFIX,icloud.cn
 DOMAIN-SUFFIX,icloud.com.cn
 DOMAIN-SUFFIX,icloud.net.cn
