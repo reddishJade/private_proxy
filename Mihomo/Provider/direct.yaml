@@ -1,5 +1,5 @@
-# 更新时间: 2026-06-26 09:58:16（北京时间）
-# 规则数量: 216
+# 更新时间: 2026-08-17 08:27:06（北京时间）
+# 规则数量: 217
 payload:
   - DOMAIN,127.skk.moe
   - DOMAIN,aterm.me
@@ -75,6 +75,7 @@ payload:
   - DOMAIN-SUFFIX,cinematik.net
   - DOMAIN-SUFFIX,cinemaz.to
   - DOMAIN-SUFFIX,classix-unlimited.co.uk
+  - DOMAIN-SUFFIX,collegeboard.org
   - DOMAIN-SUFFIX,comicat.org
   - DOMAIN-SUFFIX,concertos.live
   - DOMAIN-SUFFIX,dicmusic.club

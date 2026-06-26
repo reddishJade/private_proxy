@@ -1,5 +1,5 @@
-# 更新时间: 2026-06-26 09:58:32（北京时间）
-# 规则数量: 243
+# 更新时间: 2026-08-17 08:27:27（北京时间）
+# 规则数量: 244
 DOMAIN,127.skk.moe
 DOMAIN,aterm.me
 DOMAIN,captive.apple.com
@@ -92,6 +92,7 @@ DOMAIN-SUFFIX,cinemageddon.net
 DOMAIN-SUFFIX,cinematik.net
 DOMAIN-SUFFIX,cinemaz.to
 DOMAIN-SUFFIX,classix-unlimited.co.uk
+DOMAIN-SUFFIX,collegeboard.org
 DOMAIN-SUFFIX,comicat.org
 DOMAIN-SUFFIX,concertos.live
 DOMAIN-SUFFIX,cp.cloudflare.com

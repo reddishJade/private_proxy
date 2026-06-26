@@ -1,5 +1,5 @@
-# 更新时间: 2026-06-26 09:58:24（北京时间）
-# 规则数量: 10249
+# 更新时间: 2026-08-17 08:27:15（北京时间）
+# 规则数量: 10242
 payload:
   - +.0.r.msn.com
   - +.000dn.com
@@ -907,6 +907,7 @@ payload:
   - +.addl.easetuner.com
   - +.adds.weatherology.com
   - +.addthis.com
+  - +.addthiscdn.com
   - +.addthisedge.com
   - +.adeaz.com
   - +.adeng.hpplay.cn
@@ -1521,6 +1522,7 @@ payload:
   - +.apns.ios.ijinshan.com
   - +.apoll.m.taobao.com
   - +.apollo.caixin.com
+  - +.app-ads-services.com
   - +.app-analytics-services-att.com
   - +.app-analytics-services.com
   - +.app-g.39.net
@@ -2226,7 +2228,6 @@ payload:
   - +.cdn.5bong.com
   - +.cdn.adsk2.co
   - +.cdn.adstract.com
-  - +.cdn.advertserve.com
   - +.cdn.aegins.com
   - +.cdn.aiclicash.com
   - +.cdn.app.kachapt.cn
@@ -2265,7 +2266,6 @@ payload:
   - +.cdn.newapi.com
   - +.cdn.optaim.com
   - +.cdn.outfit7.com
-  - +.cdn.pocoiq.cn
   - +.cdn.popcash.net
   - +.cdn.popmyads.com
   - +.cdn.puata.info
@@ -2668,6 +2668,7 @@ payload:
   - +.csad.cc
   - +.csbew.com
   - +.csi.gstatic.com
+  - +.csjplatform.com
   - +.csqiulong.com
   - +.cstm.baidu.com
   - +.cstoa.com
@@ -2823,7 +2824,6 @@ payload:
   - +.daoyoudao.com
   - +.dap.pagechoice.net
   - +.dart.clearchannel.com
-  - +.das-rpt-log.ucloud.cn
   - +.das.api.youku.com
   - +.das.mobile.youku.com
   - +.dashet.com
@@ -3870,6 +3870,7 @@ payload:
   - +.get.thefile.me
   - +.get3.adobe.com
   - +.getnormalizedurl.com
+  - +.getsentry.com
   - +.getui.com
   - +.gewuwen.com
   - +.gf108.com
@@ -6228,7 +6229,6 @@ payload:
   - +.obs.mts.ru
   - +.oc.umeng.com
   - +.ocbv0.baiyangzs.com
-  - +.oct.pocoiq.cn
   - +.odc.starwave.com
   - +.odin.goo.mx
   - +.officeme.cn
@@ -6382,6 +6382,7 @@ payload:
   - +.painiuimg.com
   - +.palmnews.sina.cn
   - +.panda.kdnet.net
+  - +.pangle.cn
   - +.pangolin-dsp-toutiao-b.com
   - +.pangolin-dsp-toutiao.com
   - +.pangolin-hl.snssdk.com
@@ -6676,6 +6677,7 @@ payload:
   - +.pub.chinadailyasia.com
   - +.pub.funshion.com
   - +.pub.mop.com
+  - +.pub.network
   - +.pub.se.360.cn
   - +.pub1.cope.es
   - +.pubbirdf.com
@@ -7302,8 +7304,11 @@ payload:
   - +.sell1.etlong.com
   - +.sensors.umetrip.com.cn
   - +.sensorsdata.ruguoapp.com
+  - +.sentry-cdn.com
   - +.sentry.d.mi.com
   - +.sentry.d.xiaomi.net
+  - +.sentry.dev
+  - +.sentry.io
   - +.sentry.music.163.com
   - +.serial.alcohol-soft.com
   - +.serrano.hardwareheaven.com
@@ -7603,7 +7608,6 @@ payload:
   - +.stat-y.xywy.com
   - +.stat-z.xywy.com
   - +.stat.360safe.com
-  - +.stat.chinaso.com
   - +.stat.funshion.com
   - +.stat.it168.com
   - +.stat.letv.com
@@ -9255,6 +9259,7 @@ payload:
   - ads-video-al.xhscdn.com
   - ads-video-qc.xhscdn.com
   - ads.95516.com
+  - ads.adfunlink.com
   - ads.auctions.yahoo.com
   - ads.cup.com.cn
   - ads.dahlmessenger.com
@@ -9329,6 +9334,7 @@ payload:
   - adtago.s3.amazonaws.com
   - adtech.yahooinc.com
   - adtrack.quark.cn
+  - adtracker.adfunlink.com
   - adtracker.medproad.com
   - adui.tg.meitu.com
   - adv-api.shenshiads.com
@@ -9573,7 +9579,6 @@ payload:
   - dc.sigmob.cn
   - de.tynt.com
   - diagnosis.ad.xiaomi.com
-  - dig.bdurl.net
   - disney.my.sentry.io
   - dlogs.bwton.com
   - dm.toutiao.com
@@ -9678,7 +9683,6 @@ payload:
   - image-ad.sm.cn
   - image.hpplay.cn
   - images.outbrainimg.com
-  - images.pinduoduo.com
   - imdns.hpplay.cn
   - img-c.heytapimage.com
   - img-x.jd.com
@@ -9794,7 +9798,6 @@ payload:
   - mc.yandex.com
   - mc.yandex.net
   - mc.yango.com
-  - mcs.zijieapi.com
   - medproad.com
   - metrics.21-school.ru
   - metrics.data.hicloud.com
@@ -9865,6 +9868,7 @@ payload:
   - open.kwaizt.com
   - open.snssdk.com
   - openadapi.fancydsp.com
+  - openai.qualtrics.com
   - optimus-ads.amap.com
   - orbit.jd.com
   - oss.cdn.aiclk.com
@@ -9905,16 +9909,6 @@ payload:
   - pglstatp-toutiao.com
   - pig.pupuapi.com
   - pin.hpplay.cn
-  - pinggai0.caixin.com
-  - pinggai1.caixin.com
-  - pinggai2.caixin.com
-  - pinggai3.caixin.com
-  - pinggai4.caixin.com
-  - pinggai5.caixin.com
-  - pinggai6.caixin.com
-  - pinggai7.caixin.com
-  - pinggai8.caixin.com
-  - pinggai9.caixin.com
   - pixel.rustore.ru
   - pixel.yandex.com
   - pixon.ads-pixiv.net
@@ -10242,7 +10236,6 @@ payload:
   - ykad-data.cp31.ott.cibntv.net
   - ykad-data.youku.com
   - ykad-gateway.youku.com
-  - youku-acs.m.taobao.com
   - yt-adp.nosdn.127.net
   - ytx-file.110route.cn
   - zeus.ad.xiaomi.com

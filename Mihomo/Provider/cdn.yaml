@@ -1,5 +1,5 @@
-# 更新时间: 2026-06-26 09:58:16（北京时间）
-# 规则数量: 4526
+# 更新时间: 2026-08-17 08:27:05（北京时间）
+# 规则数量: 4629
 payload:
   - +.1a-1791.com
   - +.1passwordusercontent.ca
@@ -33,6 +33,7 @@ payload:
   - +.adguardcdn.com
   - +.adobeccstatic.com
   - +.adtidy.org
+  - +.aexp-static.com
   - +.agechecker-northern-apps.com
   - +.agechecker.northern-apps.com
   - +.ahcdn.com
@@ -88,7 +89,9 @@ payload:
   - +.avximg.com
   - +.aweber-static.com
   - +.awsstatic.com
+  - +.awxcdn.com
   - +.ax1x.com
+  - +.axis-cdn.net
   - +.azurestaticapps.net
   - +.b2c-contenthub.com
   - +.badgen.net
@@ -125,6 +128,8 @@ payload:
   - +.bstarstatic.com
   - +.bstatic.com
   - +.bugly.qcloud.com
+  - +.buildkiteassets.com
+  - +.buildkiteusercontent.com
   - +.bundle.run
   - +.bundle.thimatic-apps.com
   - +.bunnycdn.com
@@ -190,6 +195,7 @@ payload:
   - +.cdn.ubi.com
   - +.cdn.usestoryteller.com
   - +.cdn.workos.com
+  - +.cdn.yandex.net
   - +.cdn1122.com
   - +.cdn2.hubspot.net
   - +.cdn2020.com
@@ -225,6 +231,7 @@ payload:
   - +.cloudatacdn.com
   - +.cloudflare-ipfs.com
   - +.cloudflare.ltd
+  - +.cloudflarestatus.com
   - +.cloudflarestream.com
   - +.cloudforfun.vip
   - +.cloudfront.net
@@ -269,6 +276,7 @@ payload:
   - +.datocms-assets.com
   - +.daumcdn.net
   - +.dc-telemetry.net
+  - +.dd-static.net
   - +.dditsadn.com
   - +.dditscdn.com
   - +.ddpic.info
@@ -288,6 +296,7 @@ payload:
   - +.disquscdn.com
   - +.divio-media.net
   - +.dlunar.net
+  - +.dm-static.com
   - +.dmcdn.net
   - +.dnvodcdn.me
   - +.docker.io
@@ -353,6 +362,7 @@ payload:
   - +.faceit-cdn.net
   - +.fakeimg.pl
   - +.fakestoreapi.com
+  - +.fast-sfc.com
   - +.fastlycdn.com
   - +.favicone.com
   - +.fbcdn.com
@@ -402,6 +412,7 @@ payload:
   - +.gamccdn.com
   - +.gamesgamescdn.com
   - +.gammacdn.com
+  - +.gannett-cdn.com
   - +.garmincdn.com
   - +.gateway.originprotocol.com
   - +.gateway.pinata.cloud
@@ -423,6 +434,7 @@ payload:
   - +.githack.com
   - +.github.io
   - +.githubassets.com
+  - +.githubstatus.com
   - +.githubusercontent.com
   - +.gitlab-static.net
   - +.gitlab.io
@@ -431,6 +443,7 @@ payload:
   - +.glass.adidas.com
   - +.glbimg.com
   - +.global-cdn.me
+  - +.gog-statics.com
   - +.gold-usergeneratedcontent.net
   - +.googleadservices.com
   - +.googleusercontent.com
@@ -527,6 +540,7 @@ payload:
   - +.img3.acsta.net
   - +.imgair.net
   - +.imgbox.com
+  - +.imgcdn8.com
   - +.imgikuncdn.com
   - +.imgikzy.com
   - +.imgimg.cc
@@ -534,6 +548,7 @@ payload:
   - +.imglink.win
   - +.imgmrplay.xyz
   - +.imgpng.xyz
+  - +.imgproxy.org
   - +.imgsmail.ru
   - +.imgtbl.com
   - +.imgtp.com
@@ -546,6 +561,7 @@ payload:
   - +.ingest.de.sentry.io
   - +.ingest.sentry.io
   - +.ingest.us.sentry.io
+  - +.insightcdn.net
   - +.instant.page
   - +.intercomassets.com
   - +.intercomcdn.com
@@ -674,6 +690,7 @@ payload:
   - +.macysassets.com
   - +.makeuseofimages.com
   - +.mangadex.network
+  - +.manuscdn.com
   - +.mapi.4kvm.net
   - +.marketing.aws.dev
   - +.mcusercontent.com
@@ -722,6 +739,7 @@ payload:
   - +.myshopapps.com
   - +.myspacecdn.com
   - +.myvideos.info
+  - +.navismithapis-cdn.com
   - +.nc-img.com
   - +.ndtvimg.com
   - +.nel.cloudflare.com
@@ -831,6 +849,7 @@ payload:
   - +.pressidiumcdn.com
   - +.prhcdn.com
   - +.privacy-gateway.cloudflare.com
+  - +.privacyguidesusercontent.com
   - +.prod-east.frontend.public.atl-paas.net
   - +.prod.public.atl-paas.net
   - +.project1content.com
@@ -950,9 +969,11 @@ payload:
   - +.snzypic.com
   - +.someonewhocares.org
   - +.sourceforge.io
+  - +.spaceship-cdn.com
   - +.splunkcloud.com
   - +.spreadshirtmedia.com
   - +.sqspcdn.com
+  - +.squarecdn.com
   - +.squarespace-cdn.com
   - +.srcdn.com
   - +.ss-cdn.com
@@ -1051,9 +1072,12 @@ payload:
   - +.tile.osmz.ru
   - +.tile.stamen.com
   - +.tile.thunderforest.com
+  - +.tile2.opencyclemap.org
+  - +.tile3.opencyclemap.org
   - +.tiles-api.maps.komoot.net
   - +.tiles.freemap.sk
   - +.tiles.mapbox.com
+  - +.tiles.openstreetmap.us
   - +.tiles.virtualearth.net
   - +.tindiemedia.com
   - +.tinifycdn.com
@@ -1202,6 +1226,7 @@ payload:
   - 3dna.nationbuilder.com
   - 4gtvimg2.4gtv.tv
   - a-cdn.anthropic.com
+  - a-tiles.locationiq.com
   - a.deviantart.net
   - a.fireside.fm
   - a.gawby.com
@@ -1283,6 +1308,7 @@ payload:
   - app.moegirl.tw
   - app.quotemedia.com
   - app.roboflow.com
+  - app.shop.pe
   - app.viral-loops.com
   - appassets.mvtdev.com
   - apps-static.route4me.com
@@ -1361,6 +1387,7 @@ payload:
   - assets.context.ly
   - assets.controld.com
   - assets.convertkit.com
+  - assets.create.roblox.com
   - assets.customer.io
   - assets.cyberghostvpn.com
   - assets.dev.to
@@ -1385,6 +1412,7 @@ payload:
   - assets.freespeechcoalition.com
   - assets.frontegg.com
   - assets.fxnetworks.com
+  - assets.game8.co
   - assets.garr.it
   - assets.gcore.pro
   - assets.geeksforgeeks.org
@@ -1453,12 +1481,14 @@ payload:
   - assets.porndig.com
   - assets.positional-bucket.com
   - assets.prowritingaid.com
+  - assets.pscp.tv
   - assets.queue-it.net
   - assets.quillbot.com
   - assets.raspberrypi.com
   - assets.redbullshop.com
   - assets.repair.org
   - assets.reviews.io
+  - assets.ryanair.com
   - assets.safing.io
   - assets.salesmartly.com
   - assets.scaleflex.com
@@ -1478,6 +1508,7 @@ payload:
   - assets.stickpng.com
   - assets.stigg.io
   - assets.streamlinehq.com
+  - assets.swiftkey.com
   - assets.swoogo.com
   - assets.tangled.network
   - assets.tatlerasia.com
@@ -1486,12 +1517,15 @@ payload:
   - assets.time.com
   - assets.tokopedia.net
   - assets.toot.cafe
+  - assets.trainingpeaks.com
   - assets.transfernow.net
   - assets.tvtropes.org
   - assets.twitch.tv
   - assets.unicorn.studio
   - assets.unifi-ai.com
+  - assets.unredacted.org
   - assets.upload.io
+  - assets.userstyles.org
   - assets.vantage.sh
   - assets.vercel.com
   - assets.video.yahoo.net
@@ -1502,6 +1536,7 @@ payload:
   - assets.vogue.com
   - assets.volvo.com
   - assets.vrchat.com
+  - assets.weather-forecast.com
   - assets.xboxservices.com
   - assets.xmind.net
   - assets.yande.re
@@ -1512,17 +1547,23 @@ payload:
   - assets.zpic.biz
   - assets0.headwayapp.co
   - assets1.lottiefiles.com
+  - assets10.freshdesk.com
   - assets10.lottiefiles.com
   - assets2.blubrry.com
   - assets2.canny.io
+  - assets2.freshdesk.com
   - assets2.lottiefiles.com
+  - assets3.freshdesk.com
   - assets3.lottiefiles.com
   - assets4.lottiefiles.com
   - assets4.mist-train-girls.com
+  - assets5.freshdesk.com
   - assets5.lottiefiles.com
   - assets6.lottiefiles.com
+  - assets7.freshdesk.com
   - assets7.lottiefiles.com
   - assets8.lottiefiles.com
+  - assets9.freshdesk.com
   - assets9.lottiefiles.com
   - assetscdn-wchat.eu.freshchat.com
   - assetscdn.jable.tv
@@ -1547,11 +1588,14 @@ payload:
   - avatars.plurk.com
   - avts.wmlabs.net
   - awsimgsrc.dmm.co.jp
+  - awsimgsrc.dmm.com
   - axiecdn.axieinfinity.com
   - az700632.vo.msecnd.net
+  - b-tiles.locationiq.com
   - b.manufact.com
   - b.peatio.com
   - b.sf-syn.com
+  - b2b-contenthub.com
   - b5x-sentry.1passwordservices.com
   - backinstock.useamp.com
   - badbits.dwebops.pub
@@ -1564,6 +1608,7 @@ payload:
   - banners.chessbase.com
   - barracuda-assets.zoovu.com
   - barracuda-cdn.zoovu.com
+  - basemap.beacondb.net
   - bcdn.alotporn.com
   - bcdn.starapps.studio
   - bcmedia.bitchute.com
@@ -1602,6 +1647,7 @@ payload:
   - busuanzi.ibruce.info
   - bytescale.mobbin.com
   - c-bin.b-cdn.net
+  - c-tiles.locationiq.com
   - c.1password.com
   - c.animaapp.com
   - c.fantia.jp
@@ -1620,7 +1666,6 @@ payload:
   - c13.patreon.com
   - c14.patreon.com
   - c16.patreon.com
-  - c17.patreon.com
   - c4.patreon.com
   - c5.patreon.com
   - c6.patreon.com
@@ -1636,7 +1681,9 @@ payload:
   - cache.hackedfreegames.com
   - cache.industry.siemens.com
   - cache.ip-api.com
+  - cache.mapcomplete.org
   - cache.omnicalculator.com
+  - cache.sgvafs.com
   - cached.rebuyengine.com
   - cafe.github.com
   - canny-assets.io
@@ -1656,12 +1703,14 @@ payload:
   - cdn-app.cart-bot.net
   - cdn-app.pathfactory.com
   - cdn-assets.circleci.com
+  - cdn-assets.hinative.com
   - cdn-avatars.huggingface.co
   - cdn-b.saashub.com
   - cdn-blocks.karte.io
   - cdn-bundler.nice-team.net
   - cdn-c.leavemealone.com
   - cdn-cf-east.streamable.com
+  - cdn-city.livere.com
   - cdn-client.medium.com
   - cdn-cms.tunein.com
   - cdn-dynmedia-1.microsoft.com
@@ -1693,6 +1742,7 @@ payload:
   - cdn-msp.jmcomic.me
   - cdn-node.diskpart.com
   - cdn-nsbus.ui.com
+  - cdn-o.suno.com
   - cdn-public-apis.moonlock.com
   - cdn-public.sociabble.com
   - cdn-raw.modrinth.com
@@ -1756,9 +1806,9 @@ payload:
   - cdn.beacondb.net
   - cdn.bfe.dev
   - cdn.bfldr.com
-  - cdn.bigcloud.click
   - cdn.birdie.so
   - cdn.bitmovin.com
+  - cdn.bitrix24.eu
   - cdn.blogarama.com
   - cdn.bogos.io
   - cdn.boldmethod.com
@@ -1777,11 +1827,14 @@ payload:
   - cdn.calibermind.com
   - cdn.cameo.com
   - cdn.camweara.com
+  - cdn.candid.org
   - cdn.candu.ai
   - cdn.candy.ai
   - cdn.casestudies.svc.ui.com
   - cdn.casetify.com
+  - cdn.catch.dmm.co.jp
   - cdn.cbd.int
+  - cdn.cds.dmm.co.jp
   - cdn.cfr.org
   - cdn.changelog.com
   - cdn.channel.io
@@ -1813,7 +1866,6 @@ payload:
   - cdn.cuty.io
   - cdn.cxense.com
   - cdn.daily.dev
-  - cdn.dap.dmm.co.jp
   - cdn.daradara.me
   - cdn.datacamp.com
   - cdn.datatables.net
@@ -1830,6 +1882,7 @@ payload:
   - cdn.devdojo.com
   - cdn.devolutions.net
   - cdn.dexscreener.com
+  - cdn.dictionary.com
   - cdn.dnsimple.com
   - cdn.docsbot.com
   - cdn.document360.io
@@ -1906,6 +1959,7 @@ payload:
   - cdn.icomoon.io
   - cdn.icon-icons.com
   - cdn.iconfinder.com
+  - cdn.id.life
   - cdn.imageengine.io
   - cdn.imago-images.com
   - cdn.img.ly
@@ -1935,7 +1989,6 @@ payload:
   - cdn.kinopio.club
   - cdn.kinsta.com
   - cdn.ko-fi.com
-  - cdn.koala.live
   - cdn.kobo.com
   - cdn.langshop.app
   - cdn.leandata.com
@@ -1956,6 +2009,7 @@ payload:
   - cdn.mathjax.org
   - cdn.matterhorn.app
   - cdn.mcauto-images-production.sendgrid.net
+  - cdn.mcp-use.com
   - cdn.mcr.ea.com
   - cdn.mer.run
   - cdn.mercury.com
@@ -2035,7 +2089,6 @@ payload:
   - cdn.readmoo.com
   - cdn.ready-market.com.tw
   - cdn.rebuyengine.com
-  - cdn.recovermycart.com
   - cdn.redhat.com
   - cdn.redoc.ly
   - cdn.redwap.xyz
@@ -2054,13 +2107,14 @@ payload:
   - cdn.sanity.io
   - cdn.sapphire.microsoftapp.net
   - cdn.sc.gl
+  - cdn.scalar.com
   - cdn.scaleflex.it
   - cdn.schemaapp.com
   - cdn.sciencecast.org
   - cdn.scpwiki.com
-  - cdn.scripts.wtwhmedia.com
   - cdn.search.brave.com
   - cdn.sedo.com
+  - cdn.seedance2.ai
   - cdn.segment.com
   - cdn.seline.so
   - cdn.seondf.com
@@ -2102,13 +2156,13 @@ payload:
   - cdn.svgator.com
   - cdn.svgporn.com
   - cdn.syftdata.com
-  - cdn.tabarn.ap
   - cdn.tailwindcss.com
   - cdn.tatlerasia.com
   - cdn.techcommunity.microsoft.com
   - cdn.termius.com
   - cdn.theatlantic.com
   - cdn.thenewstack.io
+  - cdn.theregister.com
   - cdn.thewirecutter.com
   - cdn.thingiverse.com
   - cdn.tiny.cloud
@@ -2125,7 +2179,6 @@ payload:
   - cdn.trustpilot.net
   - cdn.ttgtmedia.com
   - cdn.ttloli.com
-  - cdn.tuk.dev
   - cdn.tvpagewidgets.com
   - cdn.unrealengine.com
   - cdn.unwire.hk
@@ -2137,6 +2190,7 @@ payload:
   - cdn.userway.org
   - cdn.v2ex.com
   - cdn.vector.co
+  - cdn.veeam.com
   - cdn.verifypass.com
   - cdn.viafoura.net
   - cdn.videy.co
@@ -2166,7 +2220,6 @@ payload:
   - cdn.ywxi.net
   - cdn.zapier.com
   - cdn.zeabur.com
-  - cdn.zhujiwiki.com
   - cdn.zigpoll.com
   - cdn.zolplay.com
   - cdn0-i.techbang.com
@@ -2204,6 +2257,7 @@ payload:
   - cdn2.airdroid.com
   - cdn2.auth0.com
   - cdn2.bigcommerce.com
+  - cdn2.cameo.com
   - cdn2.dan.com
   - cdn2.downdetector.com
   - cdn2.edgedatg.com
@@ -2300,10 +2354,10 @@ payload:
   - cf.mhgui.com
   - cf.shopee.tw
   - cfvod.kaltura.com
+  - changelog-widget.canny.io
   - chart.googleapis.com
   - chat-assets.front.app
   - chat.digitalgenius.com
-  - chatwidgetmetrics-proxy.usepylon.com
   - checkout-sdk.bigcommerce.com
   - checkout.stripe.com
   - chunk-composing.canva.com
@@ -2347,9 +2401,11 @@ payload:
   - code.ionicframework.com
   - code.jquery.com
   - code.piano.io
+  - code.trygravity.ai
   - code.upscope.io
   - comm.res.easebar.com
   - common-header.nimg.jp
+  - community-cdn.openstreetmap.org
   - components.clever-cloud.com
   - components.cyclingfactory.be
   - components.justanswer.com
@@ -2361,11 +2417,14 @@ payload:
   - connect.facebook.net
   - connect.getflowbox.com
   - connect.nosto.com
+  - connectcache20.azureedge.net
   - connectivitycheck.android.com
   - connectivitycheck.gstatic.com
   - consent-manager.ft.com
   - consent-notice.ft.com
   - consent.dw.com
+  - consent.fmm.io
+  - consent.formula1.com
   - consentdeliveryfd.azurefd.net
   - consumersite-assets.trustpilot.net
   - consumersiteimages.trustpilot.net
@@ -2404,6 +2463,7 @@ payload:
   - crl.usertrust.com
   - crl.verisign.com
   - crl3.digicert.com
+  - crossborder-integration.global-e.com
   - crt.comodoca.com
   - crt.sectigo.com
   - crt.usertrust.com
@@ -2426,6 +2486,7 @@ payload:
   - data.cdn.siemens.com
   - data.jsdelivr.com
   - data.osmand.net
+  - data.peer.as
   - data.pendo.io
   - data.schemaapp.com
   - data.web.clickup.com
@@ -2459,12 +2520,12 @@ payload:
   - dl.airdroid.com
   - dlassets-ssl.xboxlive.com
   - dlstats.izzyondroid.org
+  - dmm-extension.com
   - do.featurebase.app
   - docs.brew.sh
   - docs.mrchromebox.tech
   - docs.rs
   - documenter-assets.pstmn.io
-  - domain.expiring-soon.xyz
   - doppler-config.cbsivideo.com
   - doujin-assets.dmm.co.jp
   - downloads.coindesk.com
@@ -2479,6 +2540,7 @@ payload:
   - e3.365dm.com
   - eaassets-a.akamaihd.net
   - easylist-downloads.adblockplus.org
+  - ebook-assets.dmm.co.jp
   - ecn.dev.virtualearth.net
   - ecommplugins-scripts.trustpilot.com
   - ecommplugins-trustboxsettings.trustpilot.com
@@ -2551,6 +2613,7 @@ payload:
   - events.split.io
   - events.tableplus.com
   - evt.24.com
+  - exbd.ex.co
   - experience-ap.piano.io
   - explorer-api.walletconnect.com
   - external-content.duckduckgo.com
@@ -2632,6 +2695,7 @@ payload:
   - fonts.svc.ui.com
   - fonts.twitter.com
   - fonts.upset.dev
+  - fonts.wd40.info
   - fonts.zapier.com
   - fonts1.unidays.world
   - forest-mt-s3.seekrtech.com
@@ -2651,6 +2715,8 @@ payload:
   - g.newsweek.com
   - g1.nyt.com
   - gamemedia.armorgames.com
+  - gamesapps-assets.ghub.logitechg.com
+  - gannett-cdn.ex.co
   - gdb.rferl.org
   - gdb.voanews.com
   - gearbox.imgix.com
@@ -2692,6 +2758,7 @@ payload:
   - himeko.iwara.tv
   - hips.hearstapps.com
   - hiveplayer-static.bamgrid.com
+  - hls-svod.itunes.apple.com
   - hls.hentaicity.com
   - home.integrate.com
   - hp.foxnews.com
@@ -2725,6 +2792,7 @@ payload:
   - i.jpg.dog
   - i.kickstarter.com
   - i.loli.best
+  - i.macsecurity.net
   - i.magecdn.com
   - i.mediatek.com
   - i.meee.com.tw
@@ -2736,6 +2804,7 @@ payload:
   - i.pcmag.com
   - i.rtings.com
   - i.servimg.com
+  - i.skiplagged.com
   - i.snap.as
   - i.typlog.com
   - i.vgy.me
@@ -2809,6 +2878,7 @@ payload:
   - image.telanganatoday.com
   - image.theblockbeats.info
   - image.thefly.com
+  - image.theregister.com
   - image.tmdb.org
   - image.vuukle.com
   - image.worthepenny.com
@@ -2854,9 +2924,9 @@ payload:
   - images.financemagnates.com
   - images.findagrave.com
   - images.flightradar24.com
-  - images.freeimages.com
   - images.g2crowd.com
   - images.github.media
+  - images.gog.com
   - images.hothardware.com
   - images.icon-icons.com
   - images.indianexpress.com
@@ -2871,6 +2941,7 @@ payload:
   - images.mobilism.org
   - images.moegoat.com
   - images.moovitapp.com
+  - images.motion.dev
   - images.nebula.tv
   - images.newrepublic.com
   - images.now-tv.com
@@ -2952,13 +3023,12 @@ payload:
   - img.applealmond.com
   - img.appledb.dev
   - img.apponic.com
+  - img.aso.fr
   - img.atlasobscura.com
   - img.atom.com
   - img.atwiki.jp
   - img.badgesize.io
   - img.biguz.net
-  - img.bttimg.com
-  - img.catwvod.xyz
   - img.clerk.com
   - img.community.ui.com
   - img.connatix.com
@@ -2990,15 +3060,20 @@ payload:
   - img.logokit.com
   - img.ltyears.com
   - img.lvv2.com
-  - img.m.mw
   - img.majors.im
   - img.manyse.com
-  - img.ml0987.com
   - img.moedog.org
   - img.moegirl.tw
   - img.moviefap.com
   - img.mresou.com
   - img.news.ebc.net.tw
+  - img.novipnoad.ca
+  - img.novipnoad.cc
+  - img.novipnoad.com
+  - img.novipnoad.net
+  - img.novipnoad.uk
+  - img.novipnoad.us
+  - img.novipnoad.xyz
   - img.noy.asia
   - img.olympics.com
   - img.openshop.com.hk
@@ -3008,7 +3083,6 @@ payload:
   - img.redbull.com
   - img.reg.ru
   - img.reimu.net
-  - img.represent.com
   - img.riskified.com
   - img.sflix.to
   - img.shoplineapp.com
@@ -3016,13 +3090,11 @@ payload:
   - img.sparemin.com
   - img.sparknotes.com
   - img.supjav.com
-  - img.telemetr.io
   - img.tg.cc
   - img.thingiverse.com
   - img.timero.xyz
   - img.toto.im
   - img.utdstc.com
-  - img.vim-cn.com
   - img.voguehk.com
   - img.washingtonpost.com
   - img.wikiwand.com
@@ -3040,7 +3112,6 @@ payload:
   - img1.yeggi.com
   - img1.yna.co.kr
   - img2.gelbooru.com
-  - img2.javdove.com
   - img2.javmost.com
   - img2.socialshopwave.com
   - img2.tnaflix.com
@@ -3071,10 +3142,12 @@ payload:
   - imgcn4.bgmbk.tv
   - imgcn5.bgmbk.tv
   - imgfile.shop
+  - imgix.datadoghq.com
   - imgix.setapp.com
   - imgopt.infoq.com
   - imgproxy.flathub.org
   - imgproxy.fourthwall.com
+  - imgproxy.windy.com
   - imgrs.apkcombo.com
   - imgs.plurk.com
   - imgs.search.brave.com
@@ -3082,6 +3155,7 @@ payload:
   - imgs.xkcd.com
   - imgs02.aventertainments.com
   - imgs3.hcaptcha.com
+  - imgsrc.dmm.com
   - imgsrv.crunchyroll.com
   - imgssl.constantcontact.com
   - import-cdn.default.com
@@ -3151,6 +3225,7 @@ payload:
   - jssocdn.indiatimes.com
   - kdata1.com
   - keyframe-cdn.abcnews.com
+  - kh.google.com
   - lain.bgm.tv
   - lastfm.freetls.fastly.net
   - latency-test.lab.skk.moe
@@ -3163,6 +3238,7 @@ payload:
   - learn.optimizely.com
   - lecontent.sololearn.com
   - ledger-wp-website-s3-prd.ledger.com
+  - legacy-us-images.foundryco.app
   - lf16-larkversion.larksuitecdn.com
   - lib.arvancloud.ir
   - libraries.hund.io
@@ -3200,14 +3276,17 @@ payload:
   - m3.gab.com
   - m3u8-0.c-spanvideo.org
   - m3u8.girigirilove.com
+  - magic.scalar.com
   - makerworld.bblmw.com
   - mangaz-books.j-comi.jp
   - mangaz-static.j-comi.jp
   - mantisloader.mantis-awx.com
   - map.adsbexchange.com
   - map.vesselfinder.net
+  - maps-api-cdn.meteoblue.com
   - maps.geoapify.com
   - maps.gstatic.com
+  - maps.hereapi.com
   - maps.wikimedia.org
   - maps.wplace.live
   - mapserver.mapy.cz
@@ -3253,7 +3332,9 @@ payload:
   - media.fc2.com
   - media.fidoalliance.org
   - media.flaticon.com
+  - media.formula1.com
   - media.fs.com
+  - media.games.dmm.co.jp
   - media.gamestop.com
   - media.geeksforgeeks.org
   - media.gettr.com
@@ -3306,6 +3387,7 @@ payload:
   - media.theresanaiforthat.com
   - media.trakt.tv
   - media.user.com
+  - media.wd40.asia
   - media.webtoo.ls
   - media.wired.com
   - media.yukimochi.jp
@@ -3351,7 +3433,6 @@ payload:
   - namedotcom-cdn.name.tools
   - nas2.d.tube
   - nav.yumenosora.co.jp
-  - navismithapis-cdn.com
   - nbcnewsdigital-static.nbcuni.com
   - nel.bgptools-agent-cf.com
   - nel.heroku.com
@@ -3370,6 +3451,7 @@ payload:
   - nightly.link
   - no-cache.hubspot.com
   - node.green
+  - node.windy.com
   - nodeassets.nbcnews.com
   - nodebox-runtime.codesandbox.io
   - nodei.co
@@ -3407,7 +3489,9 @@ payload:
   - ovp.itv.com
   - p-cdnstatic.svc.litv.tv
   - p-smith.com
+  - p.book.dmm.co.jp
   - p.depot.dev
+  - p.dmm.co.jp
   - p.inari.site
   - p.sda1.dev
   - p.typekit.net
@@ -3418,6 +3502,7 @@ payload:
   - pa1.aninoapps.com
   - pacdn.500px.org
   - packages.jetbrains.team
+  - panda.dmm.com
   - panel-production-libs.b-cdn.net
   - participants.evolv.ai
   - parts.blog.livedoor.jp
@@ -3438,6 +3523,7 @@ payload:
   - ph.langfuse.com
   - ph.northflank.com
   - ph.tryprofound.com
+  - pha-prx.ops.cloud.nx.app
   - phishing.army
   - photos5.appleinsider.com
   - pic-bstarstatic.akamaized.net
@@ -3460,6 +3546,7 @@ payload:
   - pics2.serviporno.com
   - pictures-cdn.porn.com
   - pim-media.intel.com
+  - pix.cds.dmm.co.jp
   - pixel-cdn.default.com
   - pixoraa.cc
   - pkg-cdn.jetbrains.team
@@ -3517,6 +3604,7 @@ payload:
   - prod-streaming-video-msn-com.akamaized.net
   - prod-video-cms-amp-microsoft-com.akamaized.net
   - prod.addictinggames.com
+  - prod.docsiteassets.roblox.com
   - prodamdnewsencoding.akamaized.net
   - production-cmp.isgprivacy.cbsi.com
   - profile-images.xing.com
@@ -3565,6 +3653,7 @@ payload:
   - raw.github.com
   - rawmarkdown.cloudflareaccess.org
   - rbds-static.redbull.com
+  - rdr.windy.com
   - reader.readmoo.com
   - rebound.postmarkapp.com
   - redircdn.com
@@ -3606,6 +3695,9 @@ payload:
   - rsi.grafana.com
   - rsms.me
   - rt.rtoaster.jp
+  - rt1.maphub.net
+  - rt2.maphub.net
+  - rt3.maphub.net
   - rtcg-access.bytevcloud.com
   - rts-static-prod.freshworksapi.com
   - rules.ac
@@ -3652,7 +3744,6 @@ payload:
   - s3-figma-force-client-reloads-production.figma.com
   - s3-figma-plugin-images-production-sig.figma.com
   - s3-symbol-logo.tradingview.com
-  - s3-zen.mds.yandex.net
   - s3.2233778.xyz
   - s3.aaaaa.io
   - s3.acg.mn
@@ -3662,7 +3753,6 @@ payload:
   - s3.coinmarketcap.com
   - s3.cointelegraph.com
   - s3.documentcloud.org
-  - s3.doujin.sh
   - s3.duellinksmeta.com
   - s3.dzeninfra.ru
   - s3.envato.com
@@ -3693,6 +3783,7 @@ payload:
   - safebrowsing.googleapis.com
   - sandpack-cdn-staging.blazingly.io
   - sandpack-cdn-v2.codesandbox.io
+  - sat.windy.com
   - sbl.onfastspring.com
   - scache.vzw.com
   - scache1.vzw.com
@@ -3771,6 +3862,7 @@ payload:
   - sites.super.so
   - skills-assets.pstmn.io
   - sm.ign.com
+  - sm.pcmag.com
   - sn-s3-cdn.angry.im
   - snippet.growsumo.com
   - snippet.maze.co
@@ -3798,6 +3890,7 @@ payload:
   - sr-cdn-1.shiprocket.in
   - ss7.vzw.com
   - ssl.gstatic.com
+  - sso-static.razer.com
   - st-eu.dynamicyield.com
   - st.agrd.eu
   - st.codeforces.com
@@ -3807,6 +3900,7 @@ payload:
   - st.transfer.it
   - st1.zoom.us
   - st2.zoom.us
+  - st3.depositphotos.com
   - st3.zoom.us
   - st6-20.vk.com
   - staging-pubfeed.linkby.com
@@ -3838,7 +3932,6 @@ payload:
   - static-cache.fboom.me
   - static-cache.k2s.cc
   - static-cdn.123rf.com
-  - static-cdn.bytegiftia.top
   - static-cdn.jtvnw.net
   - static-cdn.spot.im
   - static-cdn.usertesting.com
@@ -3965,11 +4058,11 @@ payload:
   - static.figma.com
   - static.filehorse.com
   - static.filestackapi.com
+  - static.formula1.com
   - static.foxbusiness.com
   - static.foxnews.com
   - static.frame.work
   - static.freedownloadmanager.org
-  - static.freeimages.com
   - static.fundraiseup.com
   - static.garmin.com
   - static.generated.photos
@@ -3977,6 +4070,7 @@ payload:
   - static.getpostman.com
   - static.gettyimages.com
   - static.giant-bicycles.com
+  - static.giffgaff.com
   - static.gigabyte.com
   - static.gitbook.com
   - static.gl-inet.com
@@ -4005,6 +4099,7 @@ payload:
   - static.iplocate.io
   - static.iris.informa.com
   - static.isitetv.com
+  - static.istockphoto.com
   - static.itch.io
   - static.iyf.tv
   - static.izanmei.icu
@@ -4021,10 +4116,12 @@ payload:
   - static.lingq.com
   - static.lwn.net
   - static.macupdate.com
+  - static.maphub.net
   - static.maxmind.com
   - static.mediafire.com
   - static.meiguo.com
   - static.mendeley.com
+  - static.meteoblue.com
   - static.missav.com
   - static.mocortech.com
   - static.moegoat.com
@@ -4032,6 +4129,7 @@ payload:
   - static.monotype.com
   - static.moomoo.com
   - static.moonpay.com
+  - static.mul-pay.jp
   - static.music.com
   - static.mypikpak.com
   - static.mysph.sph.com.sg
@@ -4049,6 +4147,7 @@ payload:
   - static.nyse.com
   - static.observablehq.com
   - static.oklink.com
+  - static.okx.cab
   - static.okx.com
   - static.olelive.com
   - static.onlinewebfonts.com
@@ -4174,6 +4273,8 @@ payload:
   - stats.setapp.com
   - stats.setapp.macpaw.dev
   - status.canarymail.io
+  - status.claude.com
+  - status.openai.com
   - status.ui.com
   - stbff.newfold.com
   - stc.utdstc.com
@@ -4268,16 +4369,15 @@ payload:
   - tile.skybrush.io
   - tile.waymarkedtrails.org
   - tile2.intervals.icu
-  - tile2.opencyclemap.org
   - tilecache.rainviewer.com
   - tiledbasemaps.arcgis.com
   - tilemaps.icgc.cat
   - tiles-a.koordinates.com
   - tiles-eu.stadiamaps.com
   - tiles.arcgis.com
-  - tiles.arcticconnect.ca
   - tiles.gsj.jp
   - tiles.immich.cloud
+  - tiles.locationiq.com
   - tiles.mapilion.com
   - tiles.mapillary.com
   - tiles.maps.eox.at
@@ -4294,6 +4394,7 @@ payload:
   - tiles.terria.io
   - tiles.versatiles.org
   - tiles.windy.com
+  - tiles.zoom.earth
   - tiles0.planet.com
   - tiles1.planet.com
   - tiles2.mapiful.com
@@ -4459,6 +4560,7 @@ payload:
   - webappassets.smartsheet.com
   - webassets.linear.app
   - webcdn.17app.co
+  - webdist.data.apnic.net
   - webfonts.zoho.com
   - webobjects2.cdw.com
   - webp.frostming.com
@@ -4477,6 +4579,7 @@ payload:
   - widget.kapa.ai
   - widget.prod.equally.ai
   - widget.reviews.io
+  - widget.rss.app
   - widget.trustpilot.com
   - widget.usepylon.com
   - widget.user.com

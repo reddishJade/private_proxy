@@ -1,5 +1,5 @@
-# 更新时间: 2026-06-26 09:58:15（北京时间）
-# 规则数量: 200
+# 更新时间: 2026-08-17 08:27:05（北京时间）
+# 规则数量: 219
 payload:
   - +.agentclientprotocol.com
   - +.ai.com
@@ -8,6 +8,7 @@ payload:
   - +.aida.googleapis.com
   - +.aisandbox-pa.googleapis.com
   - +.aistudio.google.com
+  - +.amp-api.apps.apple.com
   - +.anthropic.com
   - +.antigravity-unleash.goog
   - +.antigravity.google
@@ -16,6 +17,8 @@ payload:
   - +.apple-relay.apple.com
   - +.apple-relay.cloudflare.com
   - +.apple-relay.fastly-edge.com
+  - +.apple-relay.mask.apple-dns.net
+  - +.apps.mzstatic.com
   - +.arena.ai
   - +.augment.com
   - +.augmentcode.com
@@ -24,6 +27,7 @@ payload:
   - +.chat.com
   - +.chatgpt.com
   - +.chatgpt.livekit.cloud
+  - +.chatgpt.site
   - +.chorus.sh
   - +.chutes.ai
   - +.cici.com
@@ -46,6 +50,9 @@ payload:
   - +.comfy.org
   - +.comfyci.org
   - +.comfyregistry.org
+  - +.copilot-stg.com
+  - +.copilot.cloud.microsoft
+  - +.copilot.com
   - +.copilot.microsoft.com
   - +.coze.com
   - +.cp4.cloudflare.com
@@ -58,6 +65,8 @@ payload:
   - +.cursorapi.com
   - +.deepmind.com
   - +.deepmind.google
+  - +.deepwiki.com
+  - +.deepwiki.org
   - +.devin.ai
   - +.diabrowser.com
   - +.diabrowser.engineering
@@ -71,7 +80,9 @@ payload:
   - +.envatousercontent.com
   - +.featureassets.org
   - +.featuregates.org
+  - +.flow.google
   - +.gateway.ai.cloudflare.com
+  - +.gateway.icloud.com
   - +.geller-pa.googleapis.com
   - +.gemini.google
   - +.gemini.google.com
@@ -79,8 +90,11 @@ payload:
   - +.generativeai.google
   - +.generativelanguage.googleapis.com
   - +.githubcopilot.com
+  - +.grazie.ai
+  - +.grazie.aws.intellij.net
   - +.grok.com
   - +.grok.x.com
+  - +.grokipedia.com
   - +.groq.com
   - +.gspe1-ssl.ls.apple.com
   - +.guzzoni.apple.com
@@ -114,6 +128,7 @@ payload:
   - +.minimax.io
   - +.mistral.ai
   - +.mozilla.ai
+  - +.notebook.google.com
   - +.notebooklm.google
   - +.notebooklm.google.com
   - +.oaistatic.com
@@ -150,7 +165,9 @@ payload:
   - +.themeforest.net
   - +.trae.ai
   - +.traeapi.us
+  - +.tripo3d.ai
   - +.turn.livekit.cloud
+  - +.updates.cdn-apple.com
   - +.windsurf.build
   - +.windsurf.com
   - +.x.ai
@@ -188,7 +205,9 @@ payload:
   - notebooklm.googleapis.com
   - o207216.ingest.sentry.io
   - o33249.ingest.sentry.io
+  - openai.qualtrics.com
   - openaiapi-site.azureedge.net
+  - openaiassets.blob.core.windows.net
   - openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
   - openaicom.imgix.net
   - openaicomproductionae4b.blob.core.windows.net

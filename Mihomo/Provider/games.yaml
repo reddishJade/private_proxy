@@ -1,5 +1,5 @@
-# 更新时间: 2026-06-26 09:58:19（北京时间）
-# 规则数量: 869
+# 更新时间: 2026-08-17 08:27:09（北京时间）
+# 规则数量: 899
 payload:
   - +.100classicbooks.com
   - +.2k.com
@@ -13,6 +13,9 @@ payload:
   - +.ac-pocketcamp.com
   - +.acesofthunder.net
   - +.activematter.game
+  - +.activision.com
+  - +.activisionblizzard.com
+  - +.activisionblizzardmedia.com
   - +.amiibo.com
   - +.anthemgame.com
   - +.anthemthegame.com
@@ -21,6 +24,7 @@ payload:
   - +.arma3.com
   - +.armaplatform.com
   - +.artstation.com
+  - +.artstationmedia.com
   - +.artstorm.com
   - +.asobostudio.com
   - +.avatargarenanow-a.akamaihd.net
@@ -44,6 +48,7 @@ payload:
   - +.battleye.com
   - +.bejeweledstars.com
   - +.bejewled-stars.com
+  - +.benefitsforeveryworld.com
   - +.beth.games
   - +.bethesda.net
   - +.bethesdagamestudios.com
@@ -79,9 +84,15 @@ payload:
   - +.brawlstars.com
   - +.brawlstarsgame.com
   - +.callersbane.com
+  - +.callofduty.com
+  - +.callofdutyendowment.com
+  - +.callofdutyendowment.org
+  - +.callofdutyleague.com
+  - +.callofdutymobile.com
   - +.camelot-europe.com
   - +.camelotherald.com
   - +.camelotherald.net
+  - +.candycrush.com
   - +.capitalgames.com
   - +.capturingreality.com
   - +.cdngarenanow-a.akamaihd.net
@@ -100,6 +111,7 @@ payload:
   - +.commandandconquer.com
   - +.conquerwithcharacter.com
   - +.convrgencegame.com
+  - +.crashbandicoot.com
   - +.crossout.net
   - +.crsed.net
   - +.crysis.jp
@@ -116,9 +128,12 @@ payload:
   - +.dawngatechronicles.com
   - +.dayz.com
   - +.deadspacegame.com
+  - +.demonware.net
   - +.di.res.netease.com
+  - +.diablo.com
   - +.diablo3.com
   - +.diablo3.nosdn.127.net
+  - +.diablo4.com
   - +.diabloimmortal.com
   - +.dialga.com
   - +.dice.se
@@ -182,6 +197,7 @@ payload:
   - +.epicgames.dev
   - +.epicgamescdn.com
   - +.escapefromtarkov.com
+  - +.europeanwarzoneseries.com
   - +.excitebots.com
   - +.f3b7q2p3.ssl.hwcdn.net
   - +.fab.com
@@ -256,6 +272,7 @@ payload:
   - +.heroes.nos.netease.com
   - +.heroesofdragonage.com
   - +.heroesofthestorm.com
+  - +.highmoonstudios.com
   - +.historyofdota.com
   - +.historyofdota.net
   - +.historyofdota.org
@@ -269,16 +286,17 @@ payload:
   - +.hutpromos.com
   - +.hyprsense.com
   - +.industrialtoys.com
+  - +.infinityward.com
   - +.instituteofwar.org
   - +.itch.io
   - +.itch.zone
   - +.joinsquad.com
   - +.joyjoy.net
   - +.kgisystems.com
+  - +.king.com
   - +.kirbysepicyarn.com
   - +.kirbysuperstarultra.com
   - +.kiwi.jp
-  - +.konami
   - +.konami-igaming.online
   - +.konami.co.jp
   - +.konami.com
@@ -529,6 +547,7 @@ payload:
   - +.quixel.com
   - +.quixel.se
   - +.radgametools.com
+  - +.ravensoftware.com
   - +.rayark.download
   - +.rayark.net
   - +.rblx.co
@@ -594,6 +613,7 @@ payload:
   - +.rowblocks.com
   - +.rowblox.com
   - +.rpglogs.com
+  - +.rsg.ms
   - +.rsg.sc
   - +.rstatic.net
   - +.ruinedking.com
@@ -603,7 +623,9 @@ payload:
   - +.seaofsolitude.com
   - +.seeurlpcl.com
   - +.sekai.colorfulpalette.org
+  - +.sekirothegame.com
   - +.shadowcomplex.com
+  - +.sierragames.com
   - +.sih-db.com
   - +.sih.app
   - +.silicagame.com
@@ -611,9 +633,12 @@ payload:
   - +.simcity.com
   - +.skate2.com
   - +.sketchfab.com
+  - +.skylanders.com
+  - +.sledgehammergames.com
   - +.snk-corp.co.jp
   - +.snk-corp.info
   - +.snkplaymore.info
+  - +.solidstate.com
   - +.sony.com
   - +.sonyentertainmentnetwork.com
   - +.spearhead.kr
@@ -623,6 +648,7 @@ payload:
   - +.splatoon2tournament.com
   - +.spore.com
   - +.spyjinx.com
+  - +.spyrothedragon.com
   - +.squadbusters.com
   - +.ssx3.com
   - +.star-conflict.com
@@ -707,8 +733,11 @@ payload:
   - +.tiburon.com
   - +.titanfall.com
   - +.tnt-ea.com
+  - +.tonyhawk.com
+  - +.tonyhawkthegame.com
   - +.tracker.gg
   - +.tracker.network
+  - +.treyarch.com
   - +.twinmotion.com
   - +.ubi.com
   - +.ubisoft-orbit-savegames.s3.amazonaws.com
@@ -761,6 +790,7 @@ payload:
   - +.worldofwarcraft.com
   - +.worldofwarplanes.com
   - +.worldofwarships.com
+  - +.worldseriesofwarzone.com
   - +.wotblitz.com
   - +.wow.nosdn.127.net
   - +.wowchina.com
