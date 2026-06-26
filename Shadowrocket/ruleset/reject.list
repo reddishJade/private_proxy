@@ -1,5 +1,5 @@
-# 更新时间: 2026-06-26 09:58:34（北京时间）
-# 规则数量: 10332
+# 更新时间: 2026-08-08 20:19:19（北京时间）
+# 规则数量: 10325
 DOMAIN,118.89.204.198
 DOMAIN,1500020991.vodplayer.wxamedia.com
 DOMAIN,1500022744.vodplayer.wxamedia.com
@@ -93,6 +93,7 @@ DOMAIN,ads-sg.tiktok.com
 DOMAIN,ads-video-al.xhscdn.com
 DOMAIN,ads-video-qc.xhscdn.com
 DOMAIN,ads.95516.com
+DOMAIN,ads.adfunlink.com
 DOMAIN,ads.auctions.yahoo.com
 DOMAIN,ads.cup.com.cn
 DOMAIN,ads.dahlmessenger.com
@@ -167,6 +168,7 @@ DOMAIN,adstudio.spotify.com
 DOMAIN,adtago.s3.amazonaws.com
 DOMAIN,adtech.yahooinc.com
 DOMAIN,adtrack.quark.cn
+DOMAIN,adtracker.adfunlink.com
 DOMAIN,adtracker.medproad.com
 DOMAIN,adui.tg.meitu.com
 DOMAIN,adv-api.shenshiads.com
@@ -411,7 +413,6 @@ DOMAIN,datacollection.uve.weibo.com
 DOMAIN,dc.sigmob.cn
 DOMAIN,de.tynt.com
 DOMAIN,diagnosis.ad.xiaomi.com
-DOMAIN,dig.bdurl.net
 DOMAIN,disney.my.sentry.io
 DOMAIN,dlogs.bwton.com
 DOMAIN,dm.toutiao.com
@@ -516,7 +517,6 @@ DOMAIN,ii.gdt.qq.com
 DOMAIN,image-ad.sm.cn
 DOMAIN,image.hpplay.cn
 DOMAIN,images.outbrainimg.com
-DOMAIN,images.pinduoduo.com
 DOMAIN,imdns.hpplay.cn
 DOMAIN,img-c.heytapimage.com
 DOMAIN,img-x.jd.com
@@ -632,7 +632,6 @@ DOMAIN,mbdlog.iqiyi.com
 DOMAIN,mc.yandex.com
 DOMAIN,mc.yandex.net
 DOMAIN,mc.yango.com
-DOMAIN,mcs.zijieapi.com
 DOMAIN,medproad.com
 DOMAIN,metrics.21-school.ru
 DOMAIN,metrics.data.hicloud.com
@@ -703,6 +702,7 @@ DOMAIN,open.kuaishouzt.com
 DOMAIN,open.kwaizt.com
 DOMAIN,open.snssdk.com
 DOMAIN,openadapi.fancydsp.com
+DOMAIN,openai.qualtrics.com
 DOMAIN,optimus-ads.amap.com
 DOMAIN,orbit.jd.com
 DOMAIN,oss.cdn.aiclk.com
@@ -743,16 +743,6 @@ DOMAIN,pgdt.ugdtimg.com
 DOMAIN,pglstatp-toutiao.com
 DOMAIN,pig.pupuapi.com
 DOMAIN,pin.hpplay.cn
-DOMAIN,pinggai0.caixin.com
-DOMAIN,pinggai1.caixin.com
-DOMAIN,pinggai2.caixin.com
-DOMAIN,pinggai3.caixin.com
-DOMAIN,pinggai4.caixin.com
-DOMAIN,pinggai5.caixin.com
-DOMAIN,pinggai6.caixin.com
-DOMAIN,pinggai7.caixin.com
-DOMAIN,pinggai8.caixin.com
-DOMAIN,pinggai9.caixin.com
 DOMAIN,pixel.rustore.ru
 DOMAIN,pixel.yandex.com
 DOMAIN,pixon.ads-pixiv.net
@@ -1080,7 +1070,6 @@ DOMAIN,yk-ssp.ad.youku.com
 DOMAIN,ykad-data.cp31.ott.cibntv.net
 DOMAIN,ykad-data.youku.com
 DOMAIN,ykad-gateway.youku.com
-DOMAIN,youku-acs.m.taobao.com
 DOMAIN,yt-adp.nosdn.127.net
 DOMAIN,ytx-file.110route.cn
 DOMAIN,zeus.ad.xiaomi.com
@@ -2019,6 +2008,7 @@ DOMAIN-SUFFIX,addirector.vindicosuite.com
 DOMAIN-SUFFIX,addl.easetuner.com
 DOMAIN-SUFFIX,adds.weatherology.com
 DOMAIN-SUFFIX,addthis.com
+DOMAIN-SUFFIX,addthiscdn.com
 DOMAIN-SUFFIX,addthisedge.com
 DOMAIN-SUFFIX,adeaz.com
 DOMAIN-SUFFIX,adeng.hpplay.cn
@@ -2633,6 +2623,7 @@ DOMAIN-SUFFIX,apnmedia.ask.com
 DOMAIN-SUFFIX,apns.ios.ijinshan.com
 DOMAIN-SUFFIX,apoll.m.taobao.com
 DOMAIN-SUFFIX,apollo.caixin.com
+DOMAIN-SUFFIX,app-ads-services.com
 DOMAIN-SUFFIX,app-analytics-services-att.com
 DOMAIN-SUFFIX,app-analytics-services.com
 DOMAIN-SUFFIX,app-g.39.net
@@ -3338,7 +3329,6 @@ DOMAIN-SUFFIX,cdn.0i-i0.com
 DOMAIN-SUFFIX,cdn.5bong.com
 DOMAIN-SUFFIX,cdn.adsk2.co
 DOMAIN-SUFFIX,cdn.adstract.com
-DOMAIN-SUFFIX,cdn.advertserve.com
 DOMAIN-SUFFIX,cdn.aegins.com
 DOMAIN-SUFFIX,cdn.aiclicash.com
 DOMAIN-SUFFIX,cdn.app.kachapt.cn
@@ -3377,7 +3367,6 @@ DOMAIN-SUFFIX,cdn.ndapp.com
 DOMAIN-SUFFIX,cdn.newapi.com
 DOMAIN-SUFFIX,cdn.optaim.com
 DOMAIN-SUFFIX,cdn.outfit7.com
-DOMAIN-SUFFIX,cdn.pocoiq.cn
 DOMAIN-SUFFIX,cdn.popcash.net
 DOMAIN-SUFFIX,cdn.popmyads.com
 DOMAIN-SUFFIX,cdn.puata.info
@@ -3780,6 +3769,7 @@ DOMAIN-SUFFIX,cs.twcczhu.com
 DOMAIN-SUFFIX,csad.cc
 DOMAIN-SUFFIX,csbew.com
 DOMAIN-SUFFIX,csi.gstatic.com
+DOMAIN-SUFFIX,csjplatform.com
 DOMAIN-SUFFIX,csqiulong.com
 DOMAIN-SUFFIX,cstm.baidu.com
 DOMAIN-SUFFIX,cstoa.com
@@ -3935,7 +3925,6 @@ DOMAIN-SUFFIX,daohang.114so.cn
 DOMAIN-SUFFIX,daoyoudao.com
 DOMAIN-SUFFIX,dap.pagechoice.net
 DOMAIN-SUFFIX,dart.clearchannel.com
-DOMAIN-SUFFIX,das-rpt-log.ucloud.cn
 DOMAIN-SUFFIX,das.api.youku.com
 DOMAIN-SUFFIX,das.mobile.youku.com
 DOMAIN-SUFFIX,dashet.com
@@ -4982,6 +4971,7 @@ DOMAIN-SUFFIX,geryi.com
 DOMAIN-SUFFIX,get.thefile.me
 DOMAIN-SUFFIX,get3.adobe.com
 DOMAIN-SUFFIX,getnormalizedurl.com
+DOMAIN-SUFFIX,getsentry.com
 DOMAIN-SUFFIX,getui.com
 DOMAIN-SUFFIX,gewuwen.com
 DOMAIN-SUFFIX,gf108.com
@@ -7340,7 +7330,6 @@ DOMAIN-SUFFIX,obeyter.com
 DOMAIN-SUFFIX,obs.mts.ru
 DOMAIN-SUFFIX,oc.umeng.com
 DOMAIN-SUFFIX,ocbv0.baiyangzs.com
-DOMAIN-SUFFIX,oct.pocoiq.cn
 DOMAIN-SUFFIX,odc.starwave.com
 DOMAIN-SUFFIX,odin.goo.mx
 DOMAIN-SUFFIX,officeme.cn
@@ -7494,6 +7483,7 @@ DOMAIN-SUFFIX,paimgcdn.baidu.com
 DOMAIN-SUFFIX,painiuimg.com
 DOMAIN-SUFFIX,palmnews.sina.cn
 DOMAIN-SUFFIX,panda.kdnet.net
+DOMAIN-SUFFIX,pangle.cn
 DOMAIN-SUFFIX,pangolin-dsp-toutiao-b.com
 DOMAIN-SUFFIX,pangolin-dsp-toutiao.com
 DOMAIN-SUFFIX,pangolin-hl.snssdk.com
@@ -7788,6 +7778,7 @@ DOMAIN-SUFFIX,pub.betclick.com
 DOMAIN-SUFFIX,pub.chinadailyasia.com
 DOMAIN-SUFFIX,pub.funshion.com
 DOMAIN-SUFFIX,pub.mop.com
+DOMAIN-SUFFIX,pub.network
 DOMAIN-SUFFIX,pub.se.360.cn
 DOMAIN-SUFFIX,pub1.cope.es
 DOMAIN-SUFFIX,pubbirdf.com
@@ -8414,8 +8405,11 @@ DOMAIN-SUFFIX,selfie.snapmobileasia.net
 DOMAIN-SUFFIX,sell1.etlong.com
 DOMAIN-SUFFIX,sensors.umetrip.com.cn
 DOMAIN-SUFFIX,sensorsdata.ruguoapp.com
+DOMAIN-SUFFIX,sentry-cdn.com
 DOMAIN-SUFFIX,sentry.d.mi.com
 DOMAIN-SUFFIX,sentry.d.xiaomi.net
+DOMAIN-SUFFIX,sentry.dev
+DOMAIN-SUFFIX,sentry.io
 DOMAIN-SUFFIX,sentry.music.163.com
 DOMAIN-SUFFIX,serial.alcohol-soft.com
 DOMAIN-SUFFIX,serrano.hardwareheaven.com
@@ -8715,7 +8709,6 @@ DOMAIN-SUFFIX,startup.oupeng.com
 DOMAIN-SUFFIX,stat-y.xywy.com
 DOMAIN-SUFFIX,stat-z.xywy.com
 DOMAIN-SUFFIX,stat.360safe.com
-DOMAIN-SUFFIX,stat.chinaso.com
 DOMAIN-SUFFIX,stat.funshion.com
 DOMAIN-SUFFIX,stat.it168.com
 DOMAIN-SUFFIX,stat.letv.com
