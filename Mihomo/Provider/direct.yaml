@@ -1,5 +1,5 @@
-# 更新时间: 2026-08-17 08:27:06（北京时间）
-# 规则数量: 217
+# 更新时间: 2026-08-22 08:27:00（北京时间）
+# 规则数量: 253
 payload:
   - DOMAIN,127.skk.moe
   - DOMAIN,aterm.me
@@ -183,38 +183,74 @@ payload:
   - DOMAIN-SUFFIX,wiley.com
   - DOMAIN-SUFFIX,xunlei.com
   - PROCESS-NAME,BaiduNetdisk_mac
+  - PROCESS-NAME,BaiduNetdisk_mac.exe
   - PROCESS-NAME,BitComet
+  - PROCESS-NAME,BitComet.exe
   - PROCESS-NAME,ClashX
+  - PROCESS-NAME,ClashX.exe
   - PROCESS-NAME,DownloadService
+  - PROCESS-NAME,DownloadService.exe
   - PROCESS-NAME,Folx
+  - PROCESS-NAME,Folx.exe
   - PROCESS-NAME,LocalSend
+  - PROCESS-NAME,LocalSend.exe
   - PROCESS-NAME,Logi Options
   - PROCESS-NAME,Logi Options Daemon
+  - PROCESS-NAME,Logi Options Daemon.exe
+  - PROCESS-NAME,Logi Options.exe
   - PROCESS-NAME,NetTransport
+  - PROCESS-NAME,NetTransport.exe
   - PROCESS-NAME,SunloginClient_Desktop
+  - PROCESS-NAME,SunloginClient_Desktop.exe
   - PROCESS-NAME,SunloginClient_Helper
+  - PROCESS-NAME,SunloginClient_Helper.exe
   - PROCESS-NAME,Thunder
+  - PROCESS-NAME,Thunder.exe
   - PROCESS-NAME,ThunderVIP
+  - PROCESS-NAME,ThunderVIP.exe
   - PROCESS-NAME,Transmission
+  - PROCESS-NAME,Transmission.exe
   - PROCESS-NAME,UUBooster
+  - PROCESS-NAME,UUBooster.exe
   - PROCESS-NAME,WebTorrent
   - PROCESS-NAME,WebTorrent Helper
+  - PROCESS-NAME,WebTorrent Helper.exe
+  - PROCESS-NAME,WebTorrent.exe
   - PROCESS-NAME,amuled
+  - PROCESS-NAME,amuled.exe
   - PROCESS-NAME,aria2c
+  - PROCESS-NAME,aria2c.exe
   - PROCESS-NAME,clash
+  - PROCESS-NAME,clash.exe
   - PROCESS-NAME,cloudflared
+  - PROCESS-NAME,cloudflared.exe
   - PROCESS-NAME,fdm
+  - PROCESS-NAME,fdm.exe
   - PROCESS-NAME,parsecd
+  - PROCESS-NAME,parsecd.exe
   - PROCESS-NAME,privoxy
+  - PROCESS-NAME,privoxy.exe
   - PROCESS-NAME,qBittorrent
+  - PROCESS-NAME,qBittorrent.exe
   - PROCESS-NAME,qbittorrent*
+  - PROCESS-NAME,qbittorrent*.exe
   - PROCESS-NAME,qbittorrent-nox
+  - PROCESS-NAME,qbittorrent-nox.exe
   - PROCESS-NAME,ss-local
+  - PROCESS-NAME,ss-local.exe
   - PROCESS-NAME,tailscaled
+  - PROCESS-NAME,tailscaled.exe
   - PROCESS-NAME,transmission-daemon
+  - PROCESS-NAME,transmission-daemon.exe
   - PROCESS-NAME,transmission-qt
+  - PROCESS-NAME,transmission-qt.exe
   - PROCESS-NAME,trojan
   - PROCESS-NAME,trojan-go
+  - PROCESS-NAME,trojan-go.exe
+  - PROCESS-NAME,trojan.exe
   - PROCESS-NAME,uTorrent
+  - PROCESS-NAME,uTorrent.exe
   - PROCESS-NAME,v2ray
+  - PROCESS-NAME,v2ray.exe
   - PROCESS-NAME,xray
+  - PROCESS-NAME,xray.exe

@@ -1,5 +1,5 @@
-# 更新时间: 2026-08-17 08:27:12（北京时间）
-# 规则数量: 5469
+# 更新时间: 2026-08-22 08:27:06（北京时间）
+# 规则数量: 5474
 payload:
   - +.000webhost.com
   - +.0rz.tw
@@ -700,6 +700,7 @@ payload:
   - +.breakgfw.com
   - +.breakingtweets.com
   - +.breakwall.net
+  - +.briarproject.org
   - +.brill.com
   - +.brizzly.com
   - +.broadcom.com
@@ -864,6 +865,7 @@ payload:
   - +.chat.com
   - +.chat.lmsys.org
   - +.chatgpt.com
+  - +.chatgpt.site
   - +.chatpdf.com
   - +.chaturbate.com
   - +.checkgfw.com
@@ -2855,6 +2857,7 @@ payload:
   - +.livemint.com
   - +.livestream.com
   - +.livevideo.com
+  - +.livingatlas.arcgis.com
   - +.livingstream.com
   - +.llnwd.net
   - +.lmarena.ai
@@ -3400,6 +3403,7 @@ payload:
   - +.okpool.me
   - +.okx.com
   - +.old.honeynet.org
+  - +.oldmapsonline.org
   - +.olehdtv.com
   - +.olelive.com
   - +.olevod.com
@@ -3934,6 +3938,7 @@ payload:
   - +.s-cute.com
   - +.s.yimg.com
   - +.s3-ap-northeast-1.amazonaws.com
+  - +.s3.dualstack.us-west-2.amazonaws.com
   - +.sa
   - +.sacks.com
   - +.sacom.hk

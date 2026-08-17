@@ -1,4 +1,4 @@
-# 更新时间: 2026-08-17 08:27:05（北京时间）
+# 更新时间: 2026-08-22 08:27:00（北京时间）
 # 规则数量: 4629
 payload:
   - +.1a-1791.com
@@ -1463,7 +1463,6 @@ payload:
   - assets.northflank.com
   - assets.nxtrace.org
   - assets.nypost.com
-  - assets.onestore.ms
   - assets.ontrack.com
   - assets.openalternative.co
   - assets.openlogi.org
@@ -1849,7 +1848,6 @@ payload:
   - cdn.cnn.com
   - cdn.cnx-software.com
   - cdn.codeblackbelt.com
-  - cdn.commandbar.com
   - cdn.comparitech.com
   - cdn.concert.io
   - cdn.configcat.com
@@ -1931,6 +1929,7 @@ payload:
   - cdn.geekzone.co.nz
   - cdn.gethypervisual.com
   - cdn.getkoala.com
+  - cdn.getmerlin.in
   - cdn.gettr.com
   - cdn.ghostery.com
   - cdn.giftcardpro.app
@@ -1993,6 +1992,7 @@ payload:
   - cdn.langshop.app
   - cdn.leandata.com
   - cdn.lemonsqueezy.com
+  - cdn.leonardo.ai
   - cdn.lgrckt-in.com
   - cdn.libravatar.org
   - cdn.lihkg.com
@@ -2691,6 +2691,7 @@ payload:
   - fonts.gstatic.com
   - fonts.loox.io
   - fonts.mailerlite.com
+  - fonts.reown.com
   - fonts.sony.net
   - fonts.svc.ui.com
   - fonts.twitter.com
@@ -2700,7 +2701,6 @@ payload:
   - fonts1.unidays.world
   - forest-mt-s3.seekrtech.com
   - form-assets.mailchimp.com
-  - frames-commandbar-prod.commandbar.com
   - freeshippingbar.herokuapp.com
   - front-resource.fs.com
   - frontend-apps-multi-region.workos.com
@@ -3680,6 +3680,7 @@ payload:
   - resource.akashic.coe.nicovideo.jp
   - resource.fs.com
   - resource.logitech.com
+  - resource.logitechg.com
   - resource.tnlmediagene.com
   - resource.video.nimg.jp
   - resources-cache.prod.sketch.com
@@ -3745,10 +3746,10 @@ payload:
   - s3-figma-plugin-images-production-sig.figma.com
   - s3-symbol-logo.tradingview.com
   - s3.2233778.xyz
-  - s3.aaaaa.io
   - s3.acg.mn
   - s3.anilist.co
   - s3.arkjp.net
+  - s3.beta.coinmarketcap.com
   - s3.c.im
   - s3.coinmarketcap.com
   - s3.cointelegraph.com
@@ -3992,7 +3993,6 @@ payload:
   - static.assetlab.io
   - static.assets-stash.eet-china.com
   - static.axios.com
-  - static.bad.news
   - static.bangumi.moe
   - static.bbc.co.uk
   - static.bbci.co.uk

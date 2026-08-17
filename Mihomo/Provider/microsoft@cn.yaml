@@ -1,5 +1,5 @@
-# 更新时间: 2026-08-17 08:27:10（北京时间）
-# 规则数量: 190
+# 更新时间: 2026-08-22 08:27:05（北京时间）
+# 规则数量: 189
 payload:
   - +.21vbc.com
   - +.21vbluecloud.com
@@ -156,7 +156,6 @@ payload:
   - download.visualstudio.microsoft.com
   - dreamspark.download.prss.microsoft.com
   - dreamsparkuat.download.prss.microsoft.com
-  - emoi-cncdn.bing.com
   - f.c2r.ts.cdn.office.net
   - itacademy.download.prss.microsoft.com
   - itacademyuat.download.prss.microsoft.com

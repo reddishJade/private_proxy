@@ -1,5 +1,5 @@
-# 更新时间: 2026-08-17 08:27:29（北京时间）
-# 规则数量: 5545
+# 更新时间: 2026-08-22 08:27:24（北京时间）
+# 规则数量: 5550
 DOMAIN,api.waqi.info
 DOMAIN,aqi.aqicn.org
 DOMAIN,ccmdl.adobe.com
@@ -725,6 +725,7 @@ DOMAIN-SUFFIX,break.com
 DOMAIN-SUFFIX,breakgfw.com
 DOMAIN-SUFFIX,breakingtweets.com
 DOMAIN-SUFFIX,breakwall.net
+DOMAIN-SUFFIX,briarproject.org
 DOMAIN-SUFFIX,brill.com
 DOMAIN-SUFFIX,brizzly.com
 DOMAIN-SUFFIX,broadcom.com
@@ -889,6 +890,7 @@ DOMAIN-SUFFIX,character.ai
 DOMAIN-SUFFIX,chat.com
 DOMAIN-SUFFIX,chat.lmsys.org
 DOMAIN-SUFFIX,chatgpt.com
+DOMAIN-SUFFIX,chatgpt.site
 DOMAIN-SUFFIX,chatpdf.com
 DOMAIN-SUFFIX,chaturbate.com
 DOMAIN-SUFFIX,checkgfw.com
@@ -2880,6 +2882,7 @@ DOMAIN-SUFFIX,liveleak.com
 DOMAIN-SUFFIX,livemint.com
 DOMAIN-SUFFIX,livestream.com
 DOMAIN-SUFFIX,livevideo.com
+DOMAIN-SUFFIX,livingatlas.arcgis.com
 DOMAIN-SUFFIX,livingstream.com
 DOMAIN-SUFFIX,llnwd.net
 DOMAIN-SUFFIX,lmarena.ai
@@ -3425,6 +3428,7 @@ DOMAIN-SUFFIX,oklink.com
 DOMAIN-SUFFIX,okpool.me
 DOMAIN-SUFFIX,okx.com
 DOMAIN-SUFFIX,old.honeynet.org
+DOMAIN-SUFFIX,oldmapsonline.org
 DOMAIN-SUFFIX,olehdtv.com
 DOMAIN-SUFFIX,olelive.com
 DOMAIN-SUFFIX,olevod.com
@@ -3959,6 +3963,7 @@ DOMAIN-SUFFIX,rxhj.net
 DOMAIN-SUFFIX,s-cute.com
 DOMAIN-SUFFIX,s.yimg.com
 DOMAIN-SUFFIX,s3-ap-northeast-1.amazonaws.com
+DOMAIN-SUFFIX,s3.dualstack.us-west-2.amazonaws.com
 DOMAIN-SUFFIX,sa
 DOMAIN-SUFFIX,sacks.com
 DOMAIN-SUFFIX,sacom.hk
