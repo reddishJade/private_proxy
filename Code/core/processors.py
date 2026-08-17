@@ -110,6 +110,15 @@ class RuleProcessor:
             )
             if transformed_rule:
                 processed_rules.append(transformed_rule)
+
+                # PROCESS-NAME 通常使用不带扩展名的进程名，但 Windows
+                # 进程名包含 .exe。保留原规则的同时补充 Windows 变体，
+                # 这样同一份规则集可以兼容不同平台。
+                windows_process_rule = self._windows_process_name_variant(
+                    transformed_rule
+                )
+                if windows_process_rule:
+                    processed_rules.append(windows_process_rule)
             else:
                 # 如果转换失败，记录调试信息
                 self.logger.debug(
@@ -120,6 +129,20 @@ class RuleProcessor:
                 )
 
         return processed_rules
+
+    @staticmethod
+    def _windows_process_name_variant(rule: str) -> str:
+        """为 PROCESS-NAME 规则生成带 ``.exe`` 后缀的 Windows 变体。"""
+        parts = rule.split(",")
+        if len(parts) < 2 or parts[0].strip().upper() != "PROCESS-NAME":
+            return ""
+
+        process_name = parts[1].strip()
+        if not process_name or process_name.lower().endswith(".exe"):
+            return ""
+
+        parts[1] = f"{process_name}.exe"
+        return ",".join(parts)
 
     def deduplicate_and_sort(self, rules: List[str]) -> List[str]:
         """
