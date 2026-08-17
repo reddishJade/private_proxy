@@ -1,5 +1,5 @@
-# 更新时间: 2026-08-17 08:27:27（北京时间）
-# 规则数量: 220
+# 更新时间: 2026-08-27 13:15:05（北京时间）
+# 规则数量: 225
 DOMAIN,ai.google.dev
 DOMAIN,alkalicore-pa.clients6.google.com
 DOMAIN,alkalimakersuite-pa.clients6.google.com
@@ -63,7 +63,6 @@ DOMAIN-SUFFIX,apple-relay.apple.com
 DOMAIN-SUFFIX,apple-relay.cloudflare.com
 DOMAIN-SUFFIX,apple-relay.fastly-edge.com
 DOMAIN-SUFFIX,apple-relay.mask.apple-dns.net
-DOMAIN-SUFFIX,apps.mzstatic.com
 DOMAIN-SUFFIX,arena.ai
 DOMAIN-SUFFIX,augment.com
 DOMAIN-SUFFIX,augmentcode.com
@@ -117,6 +116,7 @@ DOMAIN-SUFFIX,diabrowser.com
 DOMAIN-SUFFIX,diabrowser.engineering
 DOMAIN-SUFFIX,dify.ai
 DOMAIN-SUFFIX,dola.com
+DOMAIN-SUFFIX,dreamgen.com
 DOMAIN-SUFFIX,duck.ai
 DOMAIN-SUFFIX,elevenlabs.com
 DOMAIN-SUFFIX,elevenlabs.io
@@ -154,6 +154,7 @@ DOMAIN-SUFFIX,jasper.ai
 DOMAIN-SUFFIX,jetbrains.ai
 DOMAIN-SUFFIX,jules.google
 DOMAIN-SUFFIX,jules.google.com
+DOMAIN-SUFFIX,kimi.ai
 DOMAIN-SUFFIX,kiro.dev
 DOMAIN-SUFFIX,labs.google
 DOMAIN-SUFFIX,labs.google.com
@@ -172,10 +173,13 @@ DOMAIN-SUFFIX,microsoftonline.com
 DOMAIN-SUFFIX,midjourney.com
 DOMAIN-SUFFIX,minimax.io
 DOMAIN-SUFFIX,mistral.ai
+DOMAIN-SUFFIX,moonshot.ai
 DOMAIN-SUFFIX,mozilla.ai
 DOMAIN-SUFFIX,notebook.google.com
 DOMAIN-SUFFIX,notebooklm.google
 DOMAIN-SUFFIX,notebooklm.google.com
+DOMAIN-SUFFIX,notegpt.io
+DOMAIN-SUFFIX,novelai.net
 DOMAIN-SUFFIX,oaistatic.com
 DOMAIN-SUFFIX,oaistatsig.com
 DOMAIN-SUFFIX,oaiusercontent.com
@@ -206,6 +210,7 @@ DOMAIN-SUFFIX,spicywriter.com
 DOMAIN-SUFFIX,statsig.com
 DOMAIN-SUFFIX,statsigapi.net
 DOMAIN-SUFFIX,stitch.withgoogle.com
+DOMAIN-SUFFIX,talkai.info
 DOMAIN-SUFFIX,tapnow.ai
 DOMAIN-SUFFIX,themeforest.net
 DOMAIN-SUFFIX,trae.ai

@@ -1,5 +1,5 @@
-# 更新时间: 2026-08-17 08:27:05（北京时间）
-# 规则数量: 219
+# 更新时间: 2026-08-27 13:14:43（北京时间）
+# 规则数量: 224
 payload:
   - +.agentclientprotocol.com
   - +.ai.com
@@ -18,7 +18,6 @@ payload:
   - +.apple-relay.cloudflare.com
   - +.apple-relay.fastly-edge.com
   - +.apple-relay.mask.apple-dns.net
-  - +.apps.mzstatic.com
   - +.arena.ai
   - +.augment.com
   - +.augmentcode.com
@@ -72,6 +71,7 @@ payload:
   - +.diabrowser.engineering
   - +.dify.ai
   - +.dola.com
+  - +.dreamgen.com
   - +.duck.ai
   - +.elevenlabs.com
   - +.elevenlabs.io
@@ -109,6 +109,7 @@ payload:
   - +.jetbrains.ai
   - +.jules.google
   - +.jules.google.com
+  - +.kimi.ai
   - +.kiro.dev
   - +.labs.google
   - +.labs.google.com
@@ -127,10 +128,13 @@ payload:
   - +.midjourney.com
   - +.minimax.io
   - +.mistral.ai
+  - +.moonshot.ai
   - +.mozilla.ai
   - +.notebook.google.com
   - +.notebooklm.google
   - +.notebooklm.google.com
+  - +.notegpt.io
+  - +.novelai.net
   - +.oaistatic.com
   - +.oaistatsig.com
   - +.oaiusercontent.com
@@ -161,6 +165,7 @@ payload:
   - +.statsig.com
   - +.statsigapi.net
   - +.stitch.withgoogle.com
+  - +.talkai.info
   - +.tapnow.ai
   - +.themeforest.net
   - +.trae.ai

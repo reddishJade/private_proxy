@@ -1,5 +1,5 @@
-# 更新时间: 2026-08-17 08:27:28（北京时间）
-# 规则数量: 888
+# 更新时间: 2026-08-27 13:15:08（北京时间）
+# 规则数量: 889
 DOMAIN,az764295.vo.msecnd.net
 DOMAIN,azure.microsoft.com
 DOMAIN,azuremarketplace.microsoft.com
@@ -28,7 +28,6 @@ DOMAIN,download.visualstudio.microsoft.com
 DOMAIN,dreamspark.download.prss.microsoft.com
 DOMAIN,dreamsparkuat.download.prss.microsoft.com
 DOMAIN,dtlgalleryint.cloudapp.net
-DOMAIN,emoi-cncdn.bing.com
 DOMAIN,f.c2r.ts.cdn.office.net
 DOMAIN,flightsimulator.azureedge.net
 DOMAIN,github-api.arkoselabs.com
@@ -887,4 +886,6 @@ DOMAIN-SUFFIX,xbx.lv
 DOMAIN-SUFFIX,yammer.com
 DOMAIN-SUFFIX,yammerusercontent.com
 PROCESS-NAME,OneDrive
+PROCESS-NAME,OneDrive.exe
 PROCESS-NAME,OneDriveUpdater
+PROCESS-NAME,OneDriveUpdater.exe

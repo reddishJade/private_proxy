@@ -1,4 +1,4 @@
-# 更新时间: 2026-08-17 08:27:05（北京时间）
+# 更新时间: 2026-08-27 13:14:43（北京时间）
 # 规则数量: 245
 payload:
   - +.a1.mzstatic.com
@@ -102,6 +102,7 @@ payload:
   - +.gsp4-cn.ls.apple.com.edgekey.net.globalredir.akadns.net
   - +.gsp5-cn.ls.apple.com
   - +.gsp85-cn-ssl.ls.apple.com
+  - +.gspe11-2-cn-ssl.ls.apple.com
   - +.gspe19-2-cn-ssl.ls-apple.com.akadns.net
   - +.gspe19-2-cn-ssl.ls.apple.com
   - +.gspe19-cn-ssl.ls.apple.com
@@ -232,7 +233,6 @@ payload:
   - crl-lb.apple.com.akadns.net
   - discussionschinese.apple.com
   - fides-pol.apple.com
-  - gspe11-2-cn-ssl.ls.apple.com
   - gspe12-cn-ssl.ls.apple.com
   - gspe85-cn-ssl.ls.apple.com
   - init.gc-lb.apple.com.akadns.net

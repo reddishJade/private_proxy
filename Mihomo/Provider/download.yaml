@@ -1,5 +1,5 @@
-# 更新时间: 2026-08-17 08:27:07（北京时间）
-# 规则数量: 1965
+# 更新时间: 2026-08-27 13:14:45（北京时间）
+# 规则数量: 1966
 payload:
   - +.1fichier.com
   - +.1fichier.info
@@ -631,6 +631,7 @@ payload:
   - cdn.azul.com
   - cdn.cocoapods.org
   - cdn.cypress.io
+  - cdn.dyn.com
   - cdn.electronic.us
   - cdn.evolution-x.org
   - cdn.fwupd.org

@@ -1,5 +1,5 @@
-# 更新时间: 2026-08-17 08:27:09（北京时间）
-# 规则数量: 747
+# 更新时间: 2026-08-27 13:14:48（北京时间）
+# 规则数量: 746
 payload:
   - +.1drv.com
   - +.21vbc.com
@@ -662,7 +662,6 @@ payload:
   - dreamspark.download.prss.microsoft.com
   - dreamsparkuat.download.prss.microsoft.com
   - dtlgalleryint.cloudapp.net
-  - emoi-cncdn.bing.com
   - f.c2r.ts.cdn.office.net
   - flightsimulator.azureedge.net
   - github-api.arkoselabs.com

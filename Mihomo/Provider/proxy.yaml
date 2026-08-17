@@ -1,5 +1,5 @@
-# 更新时间: 2026-08-17 08:27:12（北京时间）
-# 规则数量: 5469
+# 更新时间: 2026-08-27 13:14:53（北京时间）
+# 规则数量: 5480
 payload:
   - +.000webhost.com
   - +.0rz.tw
@@ -290,6 +290,7 @@ payload:
   - +.api.palworldgame.com
   - +.api.pureapk.com
   - +.api.recaptcha.net
+  - +.api.shuaiapi.com
   - +.api.steampowered.com
   - +.api.termius.com
   - +.api.tiktokv.com
@@ -700,6 +701,7 @@ payload:
   - +.breakgfw.com
   - +.breakingtweets.com
   - +.breakwall.net
+  - +.briarproject.org
   - +.brill.com
   - +.brizzly.com
   - +.broadcom.com
@@ -864,6 +866,7 @@ payload:
   - +.chat.com
   - +.chat.lmsys.org
   - +.chatgpt.com
+  - +.chatgpt.site
   - +.chatpdf.com
   - +.chaturbate.com
   - +.checkgfw.com
@@ -2272,6 +2275,7 @@ payload:
   - +.himemix.com
   - +.hindustantimes.com
   - +.hinet.net
+  - +.historylines.net
   - +.hitbtc.com
   - +.hitomi.la
   - +.hitun.io
@@ -2711,6 +2715,7 @@ payload:
   - +.kinokuniya.com
   - +.kisscos.net
   - +.kiwi.kz
+  - +.kiwix.org
   - +.kk-whys.co.jp
   - +.kkbox.com
   - +.kknews.cc
@@ -2855,6 +2860,7 @@ payload:
   - +.livemint.com
   - +.livestream.com
   - +.livevideo.com
+  - +.livingatlas.arcgis.com
   - +.livingstream.com
   - +.llnwd.net
   - +.lmarena.ai
@@ -2972,6 +2978,7 @@ payload:
   - +.mayoclinic.org
   - +.mcadforums.com
   - +.mcaf.ee
+  - +.mceindex.com
   - +.mcusercontent.com
   - +.md
   - +.md-t.org
@@ -3400,6 +3407,7 @@ payload:
   - +.okpool.me
   - +.okx.com
   - +.old.honeynet.org
+  - +.oldmapsonline.org
   - +.olehdtv.com
   - +.olelive.com
   - +.olevod.com
@@ -3934,6 +3942,7 @@ payload:
   - +.s-cute.com
   - +.s.yimg.com
   - +.s3-ap-northeast-1.amazonaws.com
+  - +.s3.dualstack.us-west-2.amazonaws.com
   - +.sa
   - +.sacks.com
   - +.sacom.hk
@@ -3957,6 +3966,7 @@ payload:
   - +.savetibetstore.org
   - +.saveuighur.org
   - +.sb
+  - +.sb.sb
   - +.sbme.me
   - +.sbti.unun.dev
   - +.sc-cdn.net
@@ -5233,6 +5243,7 @@ payload:
   - +.x.com
   - +.x.company
   - +.x3guide.com
+  - +.x86.fr
   - +.xanga.com
   - +.xbabe.com
   - +.xbookcn.com

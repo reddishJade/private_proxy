@@ -1,5 +1,5 @@
-# 更新时间: 2026-08-17 08:27:30（北京时间）
-# 规则数量: 306
+# 更新时间: 2026-08-27 13:15:10（北京时间）
+# 规则数量: 320
 DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com
 DOMAIN,4gtvfreepcvod-cds.cdn.hinet.net
 DOMAIN,7h15.ru1353t.1s.m4d3.by.5ukk4w.skk.moe
@@ -293,16 +293,30 @@ IP-CIDR6,2620:10c:7000::/44,no-resolve
 IP-CIDR6,2a00:86c0::/32,no-resolve
 IP-CIDR6,2a03:5640::/32,no-resolve
 PROCESS-NAME,com.amazon.avod.thirdpartyclient
+PROCESS-NAME,com.amazon.avod.thirdpartyclient.exe
 PROCESS-NAME,com.bstar.intl
+PROCESS-NAME,com.bstar.intl.exe
 PROCESS-NAME,com.hktve.viutv
+PROCESS-NAME,com.hktve.viutv.exe
 PROCESS-NAME,com.hulu.plus
+PROCESS-NAME,com.hulu.plus.exe
 PROCESS-NAME,com.linecorp.linetv
+PROCESS-NAME,com.linecorp.linetv.exe
 PROCESS-NAME,com.netflix.mediaclient
+PROCESS-NAME,com.netflix.mediaclient.exe
 PROCESS-NAME,com.tencent.ibg.joox
+PROCESS-NAME,com.tencent.ibg.joox.exe
 PROCESS-NAME,com.twgood.android
+PROCESS-NAME,com.twgood.android.exe
 PROCESS-NAME,com.viu.pad
+PROCESS-NAME,com.viu.pad.exe
 PROCESS-NAME,com.viu.phone
+PROCESS-NAME,com.viu.phone.exe
 PROCESS-NAME,com.vuclip.viu
+PROCESS-NAME,com.vuclip.viu.exe
 PROCESS-NAME,music
+PROCESS-NAME,music.exe
 PROCESS-NAME,tv
+PROCESS-NAME,tv.exe
 PROCESS-NAME,tv.twitch.android.app
+PROCESS-NAME,tv.twitch.android.app.exe
