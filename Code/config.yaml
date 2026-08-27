@@ -237,11 +237,6 @@
       url: "https://cdn.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/Proxy.yaml"
       format: yaml
       behavior: classical
-    gfw:
-      type: http
-      url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@refs/heads/meta/geo/geosite/gfw.yaml"
-      format: yaml
-      behavior: domain
 
 - path: output/reject.yaml
   format: yaml
