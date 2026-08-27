@@ -1,5 +1,5 @@
-# 更新时间: 2026-08-27 22:31:03（北京时间）
-# 规则数量: 11065
+# 更新时间: 2026-09-01 10:11:49（北京时间）
+# 规则数量: 11085
 DOMAIN,118.89.204.198
 DOMAIN,1500020991.vodplayer.wxamedia.com
 DOMAIN,1500022744.vodplayer.wxamedia.com
@@ -2544,11 +2544,16 @@ DOMAIN-SUFFIX,api-flow.flyme.cn
 DOMAIN-SUFFIX,api-flow.meizu.com
 DOMAIN-SUFFIX,api-game.meizu.com
 DOMAIN-SUFFIX,api-push.meizu.com
+DOMAIN-SUFFIX,api-secure.amplitude.com
+DOMAIN-SUFFIX,api-secure.eu.amplitude.com
 DOMAIN-SUFFIX,api-shoulei-ssl.xunlei.com
+DOMAIN-SUFFIX,api-sr.amplitude.com
+DOMAIN-SUFFIX,api-sr.eu.amplitude.com
 DOMAIN-SUFFIX,api-z.weidian.com
 DOMAIN-SUFFIX,api.0.0.0.0.cn
 DOMAIN-SUFFIX,api.adv.ott.cibntv.net
 DOMAIN-SUFFIX,api.ahjinshu.com
+DOMAIN-SUFFIX,api.amplitude.com
 DOMAIN-SUFFIX,api.android.dianru.com
 DOMAIN-SUFFIX,api.anti.wauee.com
 DOMAIN-SUFFIX,api.appodeal.com
@@ -2564,6 +2569,7 @@ DOMAIN-SUFFIX,api.dianru.com
 DOMAIN-SUFFIX,api.doumob.com
 DOMAIN-SUFFIX,api.dreamfull.cn
 DOMAIN-SUFFIX,api.dsp.yhd.com
+DOMAIN-SUFFIX,api.eu.amplitude.com
 DOMAIN-SUFFIX,api.exc.mob.com
 DOMAIN-SUFFIX,api.g1.junfull.com
 DOMAIN-SUFFIX,api.g2.junfull.com
@@ -2747,6 +2753,8 @@ DOMAIN-SUFFIX,assets.258pcf.com
 DOMAIN-SUFFIX,assets.258ydh.com
 DOMAIN-SUFFIX,assets.easou.com
 DOMAIN-SUFFIX,assets.ps.easou.com
+DOMAIN-SUFFIX,assistant-api.amplitude.com
+DOMAIN-SUFFIX,assistant-api.eu.amplitude.com
 DOMAIN-SUFFIX,assp.sohu.com
 DOMAIN-SUFFIX,asv.nuggad.net
 DOMAIN-SUFFIX,aswgbzsw.xingtangshuo.com
@@ -3332,6 +3340,7 @@ DOMAIN-SUFFIX,cdn.adsk2.co
 DOMAIN-SUFFIX,cdn.adstract.com
 DOMAIN-SUFFIX,cdn.aegins.com
 DOMAIN-SUFFIX,cdn.aiclicash.com
+DOMAIN-SUFFIX,cdn.amplitude.com
 DOMAIN-SUFFIX,cdn.app.kachapt.cn
 DOMAIN-SUFFIX,cdn.app.liuxingyul.cn
 DOMAIN-SUFFIX,cdn.at.atwola.com
@@ -3343,6 +3352,7 @@ DOMAIN-SUFFIX,cdn.districtm.io
 DOMAIN-SUFFIX,cdn.dragonstatic.com
 DOMAIN-SUFFIX,cdn.dsp.com
 DOMAIN-SUFFIX,cdn.earnify.com
+DOMAIN-SUFFIX,cdn.eu.amplitude.com
 DOMAIN-SUFFIX,cdn.fastclick.net
 DOMAIN-SUFFIX,cdn.hivps.xyz
 DOMAIN-SUFFIX,cdn.hyperpromote.com
@@ -4594,6 +4604,8 @@ DOMAIN-SUFFIX,ems.youku.com
 DOMAIN-SUFFIX,emss.zjhim.com
 DOMAIN-SUFFIX,en.shenyun.com
 DOMAIN-SUFFIX,en.shenyun.org
+DOMAIN-SUFFIX,engagement-static.amplitude.com
+DOMAIN-SUFFIX,engagement-static.eu.amplitude.com
 DOMAIN-SUFFIX,engine.lvehaisen.com
 DOMAIN-SUFFIX,engine.tuia.cn
 DOMAIN-SUFFIX,ent1.12584.cn
@@ -5118,6 +5130,8 @@ DOMAIN-SUFFIX,groupa.onlylady.com
 DOMAIN-SUFFIX,growin.cn
 DOMAIN-SUFFIX,growingio.cn
 DOMAIN-SUFFIX,growingio.com
+DOMAIN-SUFFIX,gs.amplitude.com
+DOMAIN-SUFFIX,gs.eu.amplitude.com
 DOMAIN-SUFFIX,gs307.com
 DOMAIN-SUFFIX,gso0.com
 DOMAIN-SUFFIX,gstat.bitauto.com
@@ -6190,6 +6204,8 @@ DOMAIN-SUFFIX,l.youku.com
 DOMAIN-SUFFIX,l1.soarfi.cn
 DOMAIN-SUFFIX,l2.soarfi.cn
 DOMAIN-SUFFIX,l9bdhcgihw.neihanw.com
+DOMAIN-SUFFIX,lab.amplitude.com
+DOMAIN-SUFFIX,lab.eu.amplitude.com
 DOMAIN-SUFFIX,labs.ra.icast.cn
 DOMAIN-SUFFIX,ladsp.com
 DOMAIN-SUFFIX,laigame7.com
@@ -8033,6 +8049,8 @@ DOMAIN-SUFFIX,redirect.simba.taobao.com
 DOMAIN-SUFFIX,redpaper-10006092.cos.myqcloud.com
 DOMAIN-SUFFIX,redvase.bravenet.com
 DOMAIN-SUFFIX,referrer.disqus.com
+DOMAIN-SUFFIX,regionconfig.amplitude.com
+DOMAIN-SUFFIX,regionconfig.eu.amplitude.com
 DOMAIN-SUFFIX,reke.at.sohu.com
 DOMAIN-SUFFIX,relap.io
 DOMAIN-SUFFIX,relap.mail.ru
@@ -8618,6 +8636,8 @@ DOMAIN-SUFFIX,sqd.jstdjq.com
 DOMAIN-SUFFIX,sqext.com
 DOMAIN-SUFFIX,sqtpks3.1391.com
 DOMAIN-SUFFIX,squarespace.evyy.net
+DOMAIN-SUFFIX,sr-client-cfg.amplitude.com
+DOMAIN-SUFFIX,sr-client-cfg.eu.amplitude.com
 DOMAIN-SUFFIX,src.duanxin520.com
 DOMAIN-SUFFIX,src.leju.com
 DOMAIN-SUFFIX,src.zf313.com

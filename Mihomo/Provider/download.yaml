@@ -1,5 +1,5 @@
-# 更新时间: 2026-08-27 13:14:45（北京时间）
-# 规则数量: 1966
+# 更新时间: 2026-09-01 10:11:25（北京时间）
+# 规则数量: 1967
 payload:
   - +.1fichier.com
   - +.1fichier.info
@@ -590,6 +590,7 @@ payload:
   - artifacts.electronjs.org
   - artifacts.nixos.org
   - assets-production.packagecloud.io
+  - assets-tcpviewer.proxyman.com
   - assets.dataflare.app
   - assets1.xboxlive.com
   - assets2.xboxlive.com

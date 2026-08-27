@@ -1,5 +1,5 @@
-# 更新时间: 2026-08-27 13:14:44（北京时间）
-# 规则数量: 4634
+# 更新时间: 2026-09-01 10:11:22（北京时间）
+# 规则数量: 4649
 payload:
   - +.1a-1791.com
   - +.1passwordusercontent.ca
@@ -421,6 +421,7 @@ payload:
   - +.gateway.serph.network
   - +.gauthstatic.com
   - +.gayzyimage.com
+  - +.gazzettaobjects.it
   - +.gcr.si
   - +.gdvid.info
   - +.gentcdn.com
@@ -887,6 +888,7 @@ payload:
   - +.raxcdn.com
   - +.raygun.io
   - +.rbxcdn.com
+  - +.rcsobjects.it
   - +.rdtcdn.com
   - +.react.dev
   - +.reactjs.org
@@ -894,6 +896,7 @@ payload:
   - +.reasoningtheory.net
   - +.rechargecdn.com
   - +.recharts.org
+  - +.reconvert-cdn.com
   - +.redcdn.net
   - +.redd.it
   - +.redditmedia.com
@@ -1830,6 +1833,7 @@ payload:
   - cdn.candid.org
   - cdn.candu.ai
   - cdn.candy.ai
+  - cdn.candycode.com
   - cdn.casestudies.svc.ui.com
   - cdn.casetify.com
   - cdn.catch.dmm.co.jp
@@ -2273,6 +2277,8 @@ payload:
   - cdn2.suno.ai
   - cdn2.sysgears.com
   - cdn2.techbang.com
+  - cdn2.telegram.space
+  - cdn2.telesco.pe
   - cdn2.ttloli.com
   - cdn2.tubeteen18.com
   - cdn2.turboviplay.cc
@@ -2285,6 +2291,8 @@ payload:
   - cdn3.onlyfans.com
   - cdn3.stamped.io
   - cdn3.sysgears.com
+  - cdn3.telegram.space
+  - cdn3.telesco.pe
   - cdn3.tubeteen18.com
   - cdn3.unrealengine.com
   - cdn4.bigcommerce.com
@@ -2368,6 +2376,7 @@ payload:
   - clara.iwara.tv
   - claritystatic.azureedge.net
   - clickup.marketlinc.com
+  - client-log-forwarder.1password.com
   - clientsdk.launchdarkly.com
   - clientstream.launchdarkly.com
   - clips-media-assets2.twitch.tv
@@ -2499,6 +2508,7 @@ payload:
   - dc-cdn.cdw.com
   - dd.blackhawknetwork.com
   - dd.dexscreener.com
+  - delivery.twentythree.com
   - demo.unified-streaming.com
   - demotiles.maplibre.org
   - denali-static.grammarly.com
@@ -2653,6 +2663,7 @@ payload:
   - file.zoom.us
   - file1.hkepc.net
   - files.armorgames.com
+  - files.blocktempo.ai
   - files.buildwithfern.com
   - files.gempages.net
   - files.iwara.tv
@@ -2855,6 +2866,7 @@ payload:
   - image-us.samsung.com
   - image.acg.lol
   - image.ap-mail.org
+  - image.blocktempo.com
   - image.civitai.com
   - image.cnbcfm.com
   - image.comicbz.com
@@ -4252,6 +4264,7 @@ payload:
   - static1.squarespace.com
   - static10.lottiefiles.com
   - static2.avg.com
+  - static2.giroditalia.it
   - static2.lottiefiles.com
   - static2.onlyfans.com
   - static2.sharepointonline.com
@@ -4513,6 +4526,7 @@ payload:
   - video.bsky.app
   - video.cdnbye.com
   - video.dailymail.co.uk
+  - video.giroditalia.it
   - video1.7mmtv.sx
   - video2.7mmtv.sx
   - video3.mingpao.com
@@ -4572,6 +4586,7 @@ payload:
   - website-cdn.ipinfo.io
   - website-media.deel.com
   - website-prod.cache.wpscdn.com
+  - websiteres.nmteam.xyz
   - webstatic.chargebee.com
   - widget.allkeyshop.com
   - widget.automizely.com

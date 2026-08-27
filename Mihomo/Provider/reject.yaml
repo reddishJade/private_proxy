@@ -1,5 +1,5 @@
-# 更新时间: 2026-08-27 13:14:56（北京时间）
-# 规则数量: 10241
+# 更新时间: 2026-09-01 10:11:33（北京时间）
+# 规则数量: 10261
 payload:
   - +.0.r.msn.com
   - +.000dn.com
@@ -1442,11 +1442,16 @@ payload:
   - +.api-flow.meizu.com
   - +.api-game.meizu.com
   - +.api-push.meizu.com
+  - +.api-secure.amplitude.com
+  - +.api-secure.eu.amplitude.com
   - +.api-shoulei-ssl.xunlei.com
+  - +.api-sr.amplitude.com
+  - +.api-sr.eu.amplitude.com
   - +.api-z.weidian.com
   - +.api.0.0.0.0.cn
   - +.api.adv.ott.cibntv.net
   - +.api.ahjinshu.com
+  - +.api.amplitude.com
   - +.api.android.dianru.com
   - +.api.anti.wauee.com
   - +.api.appodeal.com
@@ -1462,6 +1467,7 @@ payload:
   - +.api.doumob.com
   - +.api.dreamfull.cn
   - +.api.dsp.yhd.com
+  - +.api.eu.amplitude.com
   - +.api.exc.mob.com
   - +.api.g1.junfull.com
   - +.api.g2.junfull.com
@@ -1645,6 +1651,8 @@ payload:
   - +.assets.258ydh.com
   - +.assets.easou.com
   - +.assets.ps.easou.com
+  - +.assistant-api.amplitude.com
+  - +.assistant-api.eu.amplitude.com
   - +.assp.sohu.com
   - +.asv.nuggad.net
   - +.aswgbzsw.xingtangshuo.com
@@ -2230,6 +2238,7 @@ payload:
   - +.cdn.adstract.com
   - +.cdn.aegins.com
   - +.cdn.aiclicash.com
+  - +.cdn.amplitude.com
   - +.cdn.app.kachapt.cn
   - +.cdn.app.liuxingyul.cn
   - +.cdn.at.atwola.com
@@ -2241,6 +2250,7 @@ payload:
   - +.cdn.dragonstatic.com
   - +.cdn.dsp.com
   - +.cdn.earnify.com
+  - +.cdn.eu.amplitude.com
   - +.cdn.fastclick.net
   - +.cdn.hivps.xyz
   - +.cdn.hyperpromote.com
@@ -3492,6 +3502,8 @@ payload:
   - +.emss.zjhim.com
   - +.en.shenyun.com
   - +.en.shenyun.org
+  - +.engagement-static.amplitude.com
+  - +.engagement-static.eu.amplitude.com
   - +.engine.lvehaisen.com
   - +.engine.tuia.cn
   - +.ent1.12584.cn
@@ -4016,6 +4028,8 @@ payload:
   - +.growin.cn
   - +.growingio.cn
   - +.growingio.com
+  - +.gs.amplitude.com
+  - +.gs.eu.amplitude.com
   - +.gs307.com
   - +.gso0.com
   - +.gstat.bitauto.com
@@ -5088,6 +5102,8 @@ payload:
   - +.l1.soarfi.cn
   - +.l2.soarfi.cn
   - +.l9bdhcgihw.neihanw.com
+  - +.lab.amplitude.com
+  - +.lab.eu.amplitude.com
   - +.labs.ra.icast.cn
   - +.ladsp.com
   - +.laigame7.com
@@ -6931,6 +6947,8 @@ payload:
   - +.redpaper-10006092.cos.myqcloud.com
   - +.redvase.bravenet.com
   - +.referrer.disqus.com
+  - +.regionconfig.amplitude.com
+  - +.regionconfig.eu.amplitude.com
   - +.reke.at.sohu.com
   - +.relap.io
   - +.relap.mail.ru
@@ -7516,6 +7534,8 @@ payload:
   - +.sqext.com
   - +.sqtpks3.1391.com
   - +.squarespace.evyy.net
+  - +.sr-client-cfg.amplitude.com
+  - +.sr-client-cfg.eu.amplitude.com
   - +.src.duanxin520.com
   - +.src.leju.com
   - +.src.zf313.com

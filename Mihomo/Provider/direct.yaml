@@ -1,5 +1,5 @@
-# 更新时间: 2026-08-27 13:14:44（北京时间）
-# 规则数量: 253
+# 更新时间: 2026-09-01 10:11:22（北京时间）
+# 规则数量: 254
 payload:
   - DOMAIN,127.skk.moe
   - DOMAIN,aterm.me
@@ -10,6 +10,7 @@ payload:
   - DOMAIN,injections.adguard.org
   - DOMAIN,instant.arubanetworks.com
   - DOMAIN,local.adguard.org
+  - DOMAIN,mirrorlist.cdn.skk.moe
   - DOMAIN,mobile.hotspot
   - DOMAIN,ntt.setup
   - DOMAIN,pi.hole
