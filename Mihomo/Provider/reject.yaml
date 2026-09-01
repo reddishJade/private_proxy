@@ -1,5 +1,5 @@
-# 更新时间: 2026-09-01 10:11:33（北京时间）
-# 规则数量: 10261
+# 更新时间: 2026-09-19 22:53:25（北京时间）
+# 规则数量: 10310
 payload:
   - +.0.r.msn.com
   - +.000dn.com
@@ -1168,6 +1168,7 @@ payload:
   - +.adsmind.gdtimg.com
   - +.adsmogo.com
   - +.adsmogo.org
+  - +.adsmoloco.com
   - +.adsolution.imtt.qq.com
   - +.adsor.openrunner.com
   - +.adsp.xunlei.com
@@ -9196,9 +9197,11 @@ payload:
   - a0.app.xiaomi.com
   - aaid.umeng.com
   - abtest-ch.snssdk.com
+  - ad-api.4pyun.com
   - ad-cdn.qingting.fm
   - ad-channel.diwodiwo.xyz
   - ad-display.diwodiwo.xyz
+  - ad-files.4pyun.com
   - ad-scope.com
   - ad-scope.com.cn
   - ad-sdk-config.youdao.com
@@ -9212,13 +9215,16 @@ payload:
   - ad.cctv.com
   - ad.cyapi.cn
   - ad.doubleclick.net
+  - ad.duoduo.link
   - ad.gameley.com
   - ad.hpplay.cn
   - ad.iot.360.cn
   - ad.jia.360.cn
   - ad.life.360.cn
+  - ad.maoyan.com
   - ad.ozone.ru
   - ad.partner.gifshow.com
+  - ad.player.baidu.com
   - ad.qingting.fm
   - ad.qq.com
   - ad.richmob.cn
@@ -9227,21 +9233,24 @@ payload:
   - ad.tencentmusic.com
   - ad.toutiao.com
   - ad.v3mh.com
-  - ad.weibo.com
   - ad.winrar.com.cn
   - ad.ximalaya.com
   - ad.xunkids.com
   - ad.yixin.im
   - ad.zijieapi.com
   - ad4.mail.ru
+  - ad4.sina.com.cn
   - adapi.izuiyou.com
   - adapi.yynetwk.com
+  - adash-emas.cn-hangzhou.aliyuncs.com
   - adashbc.ut.taobao.com
   - adashx.m.taobao.com
   - adashxgc.ut.taobao.com
   - adblogger.vk.com
   - adblogger.vk.ru
+  - adbox.sina.com.cn
   - adc.hpplay.cn
+  - adcanvas.com
   - adcdn.hpplay.cn
   - adcdn.tencentmusic.com
   - adclick.g.doubleclick.net
@@ -9261,7 +9270,11 @@ payload:
   - adjust.com
   - adks.hpplay.cn
   - adlink-api.huan.tv
+  - adlog.vivo.com.cn
   - adm.funshion.com
+  - admarketing.yahoo.net
+  - admobile.top
+  - adreq.vivo.com.cn
   - ads-api-o.api.leiniao.com
   - ads-api.tiktok.com
   - ads-api.twitter.com
@@ -9275,6 +9288,7 @@ payload:
   - ads-media.wildberries.ru
   - ads-sdk-api.ranfenghd.com
   - ads-sg.tiktok.com
+  - ads-shopping.shouqianba.com
   - ads-video-al.xhscdn.com
   - ads-video-qc.xhscdn.com
   - ads.95516.com
@@ -9282,12 +9296,14 @@ payload:
   - ads.auctions.yahoo.com
   - ads.cup.com.cn
   - ads.dahlmessenger.com
+  - ads.finance.yahoo.com
   - ads.google.cn
   - ads.huan.tv
   - ads.huantest.com
   - ads.icloseli.cn
   - ads.icq.com
   - ads.inmobi.com
+  - ads.ishansong.com
   - ads.linkedin.com
   - ads.mozilla.org
   - ads.pinterest.com
@@ -9318,6 +9334,7 @@ payload:
   - adsapp.dahlmessenger.com
   - adsapp.stage.telega.info
   - adsapp.telega.info
+  - adscdn.baidu.com
   - adsdk.vivo.com.cn
   - adsdk.yandex.ru
   - adse.test.ximalaya.com
@@ -9342,9 +9359,12 @@ payload:
   - adsmind.gdtimg.com
   - adsmind.tc.qq.com
   - adsmind.ugdtimg.com
+  - adsmoloco.com
   - adsp.xunlei.com
+  - adspecs.yahoo.com
   - adstat.izuiyou.com
   - adstats.tencentmusic.com
+  - adstextview.qq.com
   - adstore-1252524079.file.myqcloud.com
   - adstore-index-1252524079.file.myqcloud.com
   - adstrategy.biz.weibo.com
@@ -9385,6 +9405,7 @@ payload:
   - adx-drcn.op.dbankcloud.cn
   - adx-open-service.youku.com
   - adx-os.anythinktech.com
+  - adx-os.bridgeoos.com
   - adx-saas.advlion.com
   - adx-strategy-api-cn.statisticslinks.com
   - adx.ads.heytapmobi.com
@@ -9393,7 +9414,9 @@ payload:
   - adx.sogaha.cn
   - adx.tuia.cn
   - adxlog-adnet.vivo.com.cn
+  - adxlog.vivo.com.cn
   - adxserver.ad.cmvideo.cn
+  - adxstatic.vivo.com.cn
   - aegis.qq.com
   - aem.dentsuchina.cn
   - afs.googlesyndication.com
@@ -9404,6 +9427,7 @@ payload:
   - ali-p2p-v2.pull.yximgs.com
   - alicoccdncnc-xn.inter.71edge.com
   - alicoccdnct-xn.inter.71edge.com
+  - alltbcsp2p.baidu.com
   - alog.umeng.com
   - alogus.umeng.com
   - als.baidu.com
@@ -9524,6 +9548,7 @@ payload:
   - bloodhound.spotify.com
   - books-analytics-events.apple.com
   - bootpreload.uve.weibo.com
+  - brandadsstatic.vivo.com.cn
   - browser-intake-datadoghq.com
   - browser.events.data.msn.cn
   - browser.events.data.msn.com
@@ -9574,6 +9599,7 @@ payload:
   - cnzz.com
   - collect.kugou.com
   - commdata.v.qq.com
+  - commercial.shouji.360.cn
   - conf.hpplay.cn
   - config.chsmarttv.com
   - config.inmobi.com
@@ -9607,6 +9633,7 @@ payload:
   - downloadxml.changhong.upgrade2.huan.tv
   - dsp-x.jd.com
   - dsp.fcbox.com
+  - dsplog-adnet.vivo.com.cn
   - dualstack-logs.amap.com
   - duclick.baidu.com
   - dxp.baidu.com
@@ -9624,6 +9651,7 @@ payload:
   - events-drcn.op.dbankcloud.cn
   - events.reddit.com
   - events.redditmedia.com
+  - eventv1.leidong.rayenergytech.com
   - fancyapi.com
   - fclog.baidu.com
   - feed-image.baidu.com
@@ -9659,6 +9687,8 @@ payload:
   - grs.hicloud.com
   - gslb.hpplay.cn
   - gvideo.qpic.cn
+  - gw5.push.mcp.weibo.cn
+  - gw6.push.mcp.weibo.cn
   - h-adashx.ut.taobao.com
   - h.trace.qq.com
   - h5.analytics.126.net
@@ -9679,6 +9709,8 @@ payload:
   - hugelog.fcbox.com
   - huichuan-mc.sm.cn
   - huichuan.sm.cn
+  - huodong.ios.shouji.360.cn
+  - huodong.weibo.cn
   - hw-ot-ad.a.yximgs.com
   - hw-p2p-pull.video-voip.com
   - hw-p2p.pull.yximgs.com
@@ -9690,12 +9722,13 @@ payload:
   - i.l.inmobicdn.net
   - iad.apple.com
   - iad.g.163.com
+  - iadcontent.apple.com
   - iadctest.qwapi.com
   - iadmat.nosdn.127.net
+  - iadmoo.apple.com
   - iadmusicmat.music.126.net
   - iadmusicmatvideo.music.126.net
   - iadsdk.apple.com
-  - iadworkbench.apple.com
   - ifacelog.iqiyi.com
   - ifs.tanx.com
   - ii.gdt.qq.com
@@ -9716,6 +9749,8 @@ payload:
   - incoming-telemetry.thunderbird.net
   - incoming.telemetry.mozilla.org
   - informer.yandex.ru
+  - init.supersonicads.com
+  - inner-hw.huazirc.com
   - ios.bugly.qq.com
   - iot-eu-logser.realme.com
   - iot-logser.realme.com
@@ -9738,6 +9773,7 @@ payload:
   - ks-p2p.pull.yximgs.com
   - ks.ferlytc.com
   - ks.pull.yximgs.com
+  - kwpush.kuwo.cn
   - l6.fancyapi.com
   - launcher.smart-tv.cn
   - launcherimg.smart-tv.cn
@@ -9795,19 +9831,23 @@ payload:
   - logbak.hicloud.com
   - logrcv.aiclk.com
   - logrcv.yunxish.com
+  - logs-bigdata.yeehaw.com.cn
   - logs.ads.vungle.com
   - logs.amap.com
   - logservice.hicloud.com
   - logservice1.hicloud.com
   - logtj.kugou.com
   - logupdate.avlyun.sec.miui.com
+  - logv2.ireader.com
   - logwebs.kugou.com
+  - lookup.api.bsb.baidu.com
   - loyalnost-adv.ozon.ru
   - luimg.baidu.com
   - m-adnet.hiaiabc.com
   - m.ad.zhangyue.com
   - m.atm.youku.com
   - m.shenshiads.com
+  - m1.ad.10010.com
   - mapi.m.jd.com
   - marketing-info.wildberries.ru
   - marketplace-sentry.wb.ru
@@ -9940,6 +9980,7 @@ payload:
   - pr.da.netease.com
   - prod-mediate-events.applovin.com
   - prodvizhenie-adv.ozon.ru
+  - prom-sdkv2.jysper.net
   - promotion-partner.kuaishou.com
   - proxy.advp.apple.com
   - ps.map.baidu.com
@@ -9958,6 +9999,8 @@ payload:
   - recommend-drcn.hms.dbankcloud.cn
   - reklama.mail.ru
   - report.ap.yandex-net.ru
+  - report.dxunion.cn
+  - report.tencentmusic.com
   - report.tv.kohesport.qq.com
   - res.hubcloud.com.cn
   - res1.applovin.com
@@ -9986,7 +10029,7 @@ payload:
   - s8t.teads.tv
   - saad.ms.zhangyue.net
   - saas.hpplay.cn
-  - safebrowsing.urlsec.gg.com
+  - safebrowsing.urlsec.qq.com
   - samsung-com.112.2o7.net
   - samsungads.com
   - saxysec.com
@@ -10141,8 +10184,10 @@ payload:
   - tracing-http.megamarket.tech
   - track.lc.quark.cn
   - track.uc.cn
+  - tracker-prd.aldi.com.cn
   - tracker.ai.xiaomi.com
   - tracker.gitee.com
+  - tracking-adnet.vivo.com.cn
   - tracking.miui.com
   - tracking.rus.miui.com
   - tuiguang.meitu.com
@@ -10168,8 +10213,10 @@ payload:
   - umengjmacs.m.taobao.com
   - umini.shujupie.com
   - union-mlog.bigda.com
+  - union-record.oss-cn-zhangjiakou.aliyuncs.com
   - union.baidu.cn
   - union.baidu.com
+  - unityads.unity3d.com
   - update.avlyun.sec.miui.com
   - update.lejiao.tv
   - update0.aiclk.com
@@ -10225,6 +10272,7 @@ payload:
   - wr.da.netease.com
   - ws-keyboard.shouji.sogou.com
   - ws.sj.qq.com
+  - ws.tapjoyads.com
   - wv.inner-active.mobi
   - wwads.cn
   - wxa.wxs.qq.com
@@ -10257,6 +10305,7 @@ payload:
   - ykad-gateway.youku.com
   - yt-adp.nosdn.127.net
   - ytx-file.110route.cn
+  - yumao.puata.info
   - zeus.ad.xiaomi.com
   - zhihu-analytics.zhihu.com
   - zhihu-web-analytics.zhihu.com
