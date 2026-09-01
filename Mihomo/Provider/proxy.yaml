@@ -1,5 +1,5 @@
-# 更新时间: 2026-09-01 10:11:30（北京时间）
-# 规则数量: 1735
+# 更新时间: 2026-09-15 10:01:21（北京时间）
+# 规则数量: 1736
 payload:
   - +.123av.com
   - +.123av.me
@@ -223,6 +223,7 @@ payload:
   - +.botanwang.com
   - +.box.com
   - +.box.net
+  - +.boxcloud.com
   - +.boxun.com
   - +.brave.com
   - +.broadcom.com

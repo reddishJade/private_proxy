@@ -1,5 +1,5 @@
-# 更新时间: 2026-09-01 10:11:22（北京时间）
-# 规则数量: 4649
+# 更新时间: 2026-09-15 10:01:15（北京时间）
+# 规则数量: 4664
 payload:
   - +.1a-1791.com
   - +.1passwordusercontent.ca
@@ -91,6 +91,7 @@ payload:
   - +.awsstatic.com
   - +.awxcdn.com
   - +.ax1x.com
+  - +.axiom-cdn.io
   - +.axis-cdn.net
   - +.azurestaticapps.net
   - +.b2c-contenthub.com
@@ -725,6 +726,7 @@ payload:
   - +.mobilius.top
   - +.monitor.azure.com
   - +.motherlessmedia.com
+  - +.mqcdn.com
   - +.msftauthimages.net
   - +.msftconnecttest.com
   - +.msftncsi.com
@@ -762,6 +764,7 @@ payload:
   - +.ninjastream.to
   - +.nitrocdn.com
   - +.nodecdn.net
+  - +.nodeimage.com
   - +.nodejs.org
   - +.nordcdn.com
   - +.notify.bugsnag.com
@@ -809,6 +812,7 @@ payload:
   - +.pcdn.co
   - +.permaweb.eu.org
   - +.permaweb.io
+  - +.pgimgs.com
   - +.pgl.yoyo.org
   - +.phncdn.com
   - +.photobucket.com
@@ -990,6 +994,7 @@ payload:
   - +.stapecdn.com
   - +.static-assets.photoshop.adobe.com
   - +.static-prod-web.miniclip.com
+  - +.static-upwork.com
   - +.static.amplience.net
   - +.static.chaosgroup.com
   - +.static.dash.cloudflare.com
@@ -1483,6 +1488,7 @@ payload:
   - assets.poool.fr
   - assets.porndig.com
   - assets.positional-bucket.com
+  - assets.production.linktr.ee
   - assets.prowritingaid.com
   - assets.pscp.tv
   - assets.queue-it.net
@@ -1507,7 +1513,6 @@ payload:
   - assets.squarewebsites.org
   - assets.st-note.com
   - assets.stash.com
-  - assets.static-upwork.com
   - assets.stickpng.com
   - assets.stigg.io
   - assets.streamlinehq.com
@@ -1967,6 +1972,7 @@ payload:
   - cdn.imageengine.io
   - cdn.imago-images.com
   - cdn.img.ly
+  - cdn.imgchest.com
   - cdn.infoq.com
   - cdn.insightmediagroup.io
   - cdn.inviter.co
@@ -2040,7 +2046,6 @@ payload:
   - cdn.networklessons.com
   - cdn.neverbounce.com
   - cdn.nfcube.com
-  - cdn.nodeimage.com
   - cdn.nolt.io
   - cdn.northropgrumman.com
   - cdn.now.gg
@@ -2161,6 +2166,7 @@ payload:
   - cdn.svgator.com
   - cdn.svgporn.com
   - cdn.syftdata.com
+  - cdn.system1.com
   - cdn.tailwindcss.com
   - cdn.tatlerasia.com
   - cdn.techcommunity.microsoft.com
@@ -2413,6 +2419,7 @@ payload:
   - code.piano.io
   - code.trygravity.ai
   - code.upscope.io
+  - coin-images.coingecko.com
   - comm.res.easebar.com
   - common-header.nimg.jp
   - community-cdn.openstreetmap.org
@@ -3249,6 +3256,7 @@ payload:
   - launcher-files.modrinth.com
   - launcher.spot.im
   - launchercontent.mojang.com
+  - layers.mapq.st
   - lc.nssurge.com
   - learn-attachment.microsoft.com
   - learn.optimizely.com
@@ -3705,6 +3713,7 @@ payload:
   - resources.chessbase.com
   - resources.digital-cloud.medallia.com
   - resources.help.salesforce.com
+  - resources.redbull.tv
   - resources.whatwg.org
   - rest.happierleads.com
   - reviews-badge.capterra.com
@@ -4104,6 +4113,7 @@ payload:
   - static.hotjar.com
   - static.hubspot.com
   - static.hugedomains.com
+  - static.idp.sph.com.sg
   - static.ietf.org
   - static.ifunny.co
   - static.incapsula.com
@@ -4123,6 +4133,7 @@ payload:
   - static.j51.net
   - static.javhd.com
   - static.jsbin.com
+  - static.jup.ag
   - static.k2s.cc
   - static.killedbygoogle.com
   - static.klaviyo.com
@@ -4367,10 +4378,12 @@ payload:
   - th.bing.com
   - themes.fourthwall.com
   - themes.hibootstrap.com
+  - thumb.wikimedia.org
   - thumbnail.missav.com
   - thumbnailer.mixcloud.com
   - thumbnails.applegamingwiki.com
   - thumbnails.cbsig.net
+  - thumbnails.padre.gg
   - thumbor.4gamers.com.tw
   - thumbor.forbes.com
   - thumbs.onlyfans.com
@@ -4459,6 +4472,7 @@ payload:
   - ubistatic2-a.akamaihd.net
   - ubistatic2-a.ubisoft.com
   - udata.namespace.so
+  - ugc.production.linktr.ee
   - uhf.microsoft.com
   - ui-cdn.digitalocean-ui.com
   - ui-cdn.digitalocean.com
@@ -4515,6 +4529,7 @@ payload:
   - variations.brave.com
   - vbmspic.video.friday.tw
   - vcdn.anysex.com
+  - vector.hereapi.com
   - vectorified.com
   - versionbadg.es
   - vetted.ai

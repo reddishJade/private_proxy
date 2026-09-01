@@ -1,5 +1,5 @@
-# 更新时间: 2026-09-01 10:11:49（北京时间）
-# 规则数量: 1811
+# 更新时间: 2026-09-15 10:01:38（北京时间）
+# 规则数量: 1812
 DOMAIN,api.waqi.info
 DOMAIN,aqi.aqicn.org
 DOMAIN,ccmdl.adobe.com
@@ -248,6 +248,7 @@ DOMAIN-SUFFIX,boomtrain.com
 DOMAIN-SUFFIX,botanwang.com
 DOMAIN-SUFFIX,box.com
 DOMAIN-SUFFIX,box.net
+DOMAIN-SUFFIX,boxcloud.com
 DOMAIN-SUFFIX,boxun.com
 DOMAIN-SUFFIX,brave.com
 DOMAIN-SUFFIX,broadcom.com

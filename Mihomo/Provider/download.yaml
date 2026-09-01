@@ -1,5 +1,5 @@
-# 更新时间: 2026-09-01 10:11:25（北京时间）
-# 规则数量: 1967
+# 更新时间: 2026-09-15 10:01:18（北京时间）
+# 规则数量: 1968
 payload:
   - +.1fichier.com
   - +.1fichier.info
@@ -804,6 +804,7 @@ payload:
   - dl.devmate.com
   - dl.flathub.org
   - dl.getaurora.dev
+  - dl.gl-inet.com
   - dl.google.com
   - dl.iina.io
   - dl.imobie.com
