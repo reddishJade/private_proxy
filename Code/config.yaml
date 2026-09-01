@@ -4,7 +4,7 @@
   upstream:
     meta_category_ai_cn:
       type: http
-      url: "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/category-ai-cn.yaml"
+      url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/category-ai-cn.yaml"
       format: yaml
       behavior: domain
 
@@ -14,12 +14,12 @@
   upstream:
     dler_ai:
       type: http
-      url: "https://cdn.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/AI%20Suite.yaml"
+      url: "https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/AI%20Suite.yaml"
       format: yaml
       behavior: domain
     meta_category_ai_!cn:
       type: http
-      url: "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/category-ai-!cn.yaml"
+      url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/category-ai-!cn.yaml"
       format: yaml
       behavior: domain
     local_ai:
@@ -44,7 +44,7 @@
   upstream:
     meta_apple:
       type: http
-      url: "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/apple.yaml"
+      url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/apple.yaml"
       format: yaml
       behavior: domain
 
@@ -84,7 +84,7 @@
       behavior: classical
     # dler_specical:
     #   type: http
-    #   url: "https://cdn.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/Special.yaml"
+    #   url: "https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Special.yaml"
     #   format: yaml
     #   behavior: classical
 
@@ -99,7 +99,7 @@
       behavior: classical
     dler_dom:
       type: http
-      url: "https://cdn.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/Domestic.yaml"
+      url: "https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Domestic.yaml"
       format: yaml
       behavior: classical
 
@@ -114,12 +114,12 @@
       behavior: ipcidr
     dler_dom_ip:
       type: http
-      url: "https://cdn.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/Domestic%20IPs.yaml"
+      url: "https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Domestic%20IPs.yaml"
       format: yaml
       behavior: ipcidr
     meta_cn_ip:
       type: http
-      url: "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@refs/heads/meta/geo/geoip/cn.yaml"
+      url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/cn.yaml"
       format: yaml
       behavior: ipcidr
 
@@ -159,7 +159,7 @@
       behavior: domain
     meta_connectivity-check:
       type: http
-      url: "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@refs/heads/meta/geo/geosite/connectivity-check.yaml"
+      url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/connectivity-check.yaml"
       format: yaml
       behavior: domain
 
@@ -189,7 +189,7 @@
   upstream:
     meta_microsoft:
       type: http
-      url: "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/microsoft.yaml"
+      url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/microsoft.yaml"
       format: yaml
       behavior: domain
 
@@ -199,7 +199,7 @@
   upstream:
     DustinWin_microsoft_cn:
       type: http
-      url: "https://cdn.jsdelivr.net/gh/DustinWin/ruleset_geodata@refs/heads/mihomo-ruleset/microsoft-cn.list"
+      url: "https://raw.githubusercontent.com/DustinWin/ruleset_geodata/mihomo-ruleset/microsoft-cn.list"
       format: text
       behavior: domain
 
@@ -219,7 +219,7 @@
   upstream:
     meta_private_ip:
       type: http
-      url: "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geoip/private.yaml"
+      url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/private.yaml"
       format: yaml
       behavior: ipcidr
 
@@ -234,7 +234,7 @@
       behavior: classical
     dler_proxy:
       type: http
-      url: "https://cdn.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/Proxy.yaml"
+      url: "https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Proxy.yaml"
       format: yaml
       behavior: classical
 
@@ -259,12 +259,12 @@
       behavior: classical
     dler_ad:
       type: http
-      url: "https://cdn.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/AdBlock.yaml"
+      url: "https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/AdBlock.yaml"
       format: yaml
       behavior: classical
     meta_ads:
       type: http
-      url: "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/category-ads-all.yaml"
+      url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/category-ads-all.yaml"
       format: yaml
       behavior: domain
 
@@ -284,7 +284,7 @@
       behavior: ipcidr
     dler_ad:
       type: http
-      url: "https://cdn.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/AdBlock.yaml"
+      url: "https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/AdBlock.yaml"
       format: yaml
       behavior: classical
 

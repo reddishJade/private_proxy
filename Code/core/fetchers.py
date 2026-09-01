@@ -5,6 +5,7 @@
 """
 
 import logging
+import time
 from typing import List
 
 import requests
@@ -19,6 +20,9 @@ class RuleFetcher:
 
     负责从不同来源（HTTP和本地文件）获取规则数据
     """
+
+    HTTP_MAX_RETRIES = 3
+    HTTP_RETRY_BASE_DELAY = 1
 
     def __init__(self):
         """初始化获取器"""
@@ -51,10 +55,31 @@ class RuleFetcher:
         Returns:
             List[str]: 获取到的规则列表
         """
-        try:
-            response = requests.get(url, timeout=30)
-            response.raise_for_status()
+        response = None
 
+        for attempt in range(self.HTTP_MAX_RETRIES + 1):
+            try:
+                response = requests.get(url, timeout=30)
+                response.raise_for_status()
+                break
+            except requests.RequestException as e:
+                if attempt == self.HTTP_MAX_RETRIES:
+                    self.logger.error("获取规则失败 %s: %s", url, str(e))
+                    raise RuntimeError(f"规则源获取失败: {url}: {e}") from e
+
+                retry_number = attempt + 1
+                delay = self.HTTP_RETRY_BASE_DELAY * (2**attempt)
+                self.logger.warning(
+                    "获取规则失败 %s，将在 %d 秒后进行第 %d/%d 次重试: %s",
+                    url,
+                    delay,
+                    retry_number,
+                    self.HTTP_MAX_RETRIES,
+                    str(e),
+                )
+                time.sleep(delay)
+
+        try:
             content_type = response.headers.get("content-type", "")
 
             # 判断是否为YAML格式
@@ -63,17 +88,18 @@ class RuleFetcher:
             )
 
             if is_yaml:
-                return self._parse_yaml_content(response.text, url)
+                rules = self._parse_yaml_content(response.text, url)
             else:
                 # 文本格式，按行分割
-                return response.text.splitlines()
-
-        except requests.RequestException as e:
-            self.logger.error("获取规则失败 %s: %s", url, str(e))
-            return []
+                rules = response.text.splitlines()
         except (yaml.YAMLError, UnicodeDecodeError, ValueError) as e:
             self.logger.error("处理规则失败 %s: %s", url, str(e), exc_info=True)
-            return []
+            raise RuntimeError(f"规则源获取失败: {url}: {e}") from e
+
+        if not any(isinstance(rule, str) and rule.strip() for rule in rules):
+            raise RuntimeError(f"规则源获取失败: {url}: 解析结果为空")
+
+        return rules
 
     def _is_yaml_format(
         self, file_format: str, content_type: str, url: str, text: str
