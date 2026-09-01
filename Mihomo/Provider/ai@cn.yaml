@@ -1,5 +1,5 @@
-# 更新时间: 2026-09-01 10:11:21（北京时间）
-# 规则数量: 113
+# 更新时间: 2026-09-05 22:03:00（北京时间）
+# 规则数量: 115
 payload:
   - +.aispeech.com
   - +.antafu.com
@@ -33,6 +33,7 @@ payload:
   - +.cueme.cn
   - +.dbbuilding.fun
   - +.deepseek.com
+  - +.deepseeksvc.com
   - +.diandianlife.top
   - +.doubao-dev.com
   - +.doubao.com
@@ -98,6 +99,7 @@ payload:
   - +.trae.cn
   - +.trae.com.cn
   - +.trae.guru
+  - +.workbuddy.cn
   - +.xiaoaiassist.com
   - +.xiaomimimo.com
   - +.xiezuocat.com

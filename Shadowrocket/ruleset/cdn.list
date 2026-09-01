@@ -1,5 +1,5 @@
-# 更新时间: 2026-09-01 10:11:47（北京时间）
-# 规则数量: 4731
+# 更新时间: 2026-09-05 22:03:27（北京时间）
+# 规则数量: 4738
 DOMAIN,0x0.st
 DOMAIN,3dna.nationbuilder.com
 DOMAIN,4gtvimg2.4gtv.tv
@@ -282,7 +282,6 @@ DOMAIN,assets.squarespace.com
 DOMAIN,assets.squarewebsites.org
 DOMAIN,assets.st-note.com
 DOMAIN,assets.stash.com
-DOMAIN,assets.static-upwork.com
 DOMAIN,assets.stickpng.com
 DOMAIN,assets.stigg.io
 DOMAIN,assets.streamlinehq.com
@@ -742,6 +741,7 @@ DOMAIN,cdn.id.life
 DOMAIN,cdn.imageengine.io
 DOMAIN,cdn.imago-images.com
 DOMAIN,cdn.img.ly
+DOMAIN,cdn.imgchest.com
 DOMAIN,cdn.infoq.com
 DOMAIN,cdn.insightmediagroup.io
 DOMAIN,cdn.inviter.co
@@ -815,7 +815,6 @@ DOMAIN,cdn.nerdschalk.com
 DOMAIN,cdn.networklessons.com
 DOMAIN,cdn.neverbounce.com
 DOMAIN,cdn.nfcube.com
-DOMAIN,cdn.nodeimage.com
 DOMAIN,cdn.nolt.io
 DOMAIN,cdn.northropgrumman.com
 DOMAIN,cdn.now.gg
@@ -936,6 +935,7 @@ DOMAIN,cdn.super.com
 DOMAIN,cdn.svgator.com
 DOMAIN,cdn.svgporn.com
 DOMAIN,cdn.syftdata.com
+DOMAIN,cdn.system1.com
 DOMAIN,cdn.tailwindcss.com
 DOMAIN,cdn.tatlerasia.com
 DOMAIN,cdn.techcommunity.microsoft.com
@@ -2024,6 +2024,7 @@ DOMAIN,latency-test.skk.moe
 DOMAIN,launcher-files.modrinth.com
 DOMAIN,launcher.spot.im
 DOMAIN,launchercontent.mojang.com
+DOMAIN,layers.mapq.st
 DOMAIN,lc.nssurge.com
 DOMAIN,learn-attachment.microsoft.com
 DOMAIN,learn.optimizely.com
@@ -2879,6 +2880,7 @@ DOMAIN,static.hosting.com
 DOMAIN,static.hotjar.com
 DOMAIN,static.hubspot.com
 DOMAIN,static.hugedomains.com
+DOMAIN,static.idp.sph.com.sg
 DOMAIN,static.ietf.org
 DOMAIN,static.ifunny.co
 DOMAIN,static.incapsula.com
@@ -3290,6 +3292,7 @@ DOMAIN,vanilla-extract.style
 DOMAIN,variations.brave.com
 DOMAIN,vbmspic.video.friday.tw
 DOMAIN,vcdn.anysex.com
+DOMAIN,vector.hereapi.com
 DOMAIN,vectorified.com
 DOMAIN,versionbadg.es
 DOMAIN,vetted.ai
@@ -4169,6 +4172,7 @@ DOMAIN-SUFFIX,mngbcn.com
 DOMAIN-SUFFIX,mobilius.top
 DOMAIN-SUFFIX,monitor.azure.com
 DOMAIN-SUFFIX,motherlessmedia.com
+DOMAIN-SUFFIX,mqcdn.com
 DOMAIN-SUFFIX,msftauthimages.net
 DOMAIN-SUFFIX,msftconnecttest.com
 DOMAIN-SUFFIX,msftncsi.com
@@ -4206,6 +4210,7 @@ DOMAIN-SUFFIX,nineyu.com
 DOMAIN-SUFFIX,ninjastream.to
 DOMAIN-SUFFIX,nitrocdn.com
 DOMAIN-SUFFIX,nodecdn.net
+DOMAIN-SUFFIX,nodeimage.com
 DOMAIN-SUFFIX,nodejs.org
 DOMAIN-SUFFIX,nordcdn.com
 DOMAIN-SUFFIX,notify.bugsnag.com
@@ -4253,6 +4258,7 @@ DOMAIN-SUFFIX,paypalobjects.com
 DOMAIN-SUFFIX,pcdn.co
 DOMAIN-SUFFIX,permaweb.eu.org
 DOMAIN-SUFFIX,permaweb.io
+DOMAIN-SUFFIX,pgimgs.com
 DOMAIN-SUFFIX,pgl.yoyo.org
 DOMAIN-SUFFIX,phncdn.com
 DOMAIN-SUFFIX,photobucket.com
@@ -4434,6 +4440,7 @@ DOMAIN-SUFFIX,stackblitz.io
 DOMAIN-SUFFIX,stapecdn.com
 DOMAIN-SUFFIX,static-assets.photoshop.adobe.com
 DOMAIN-SUFFIX,static-prod-web.miniclip.com
+DOMAIN-SUFFIX,static-upwork.com
 DOMAIN-SUFFIX,static.amplience.net
 DOMAIN-SUFFIX,static.chaosgroup.com
 DOMAIN-SUFFIX,static.dash.cloudflare.com
