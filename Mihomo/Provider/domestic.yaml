@@ -1,5 +1,5 @@
-# 更新时间: 2026-09-01 10:11:23（北京时间）
-# 规则数量: 1009
+# 更新时间: 2026-10-03 23:17:04（北京时间）
+# 规则数量: 1010
 payload:
   - +.10010.com
   - +.10086.cn
@@ -79,7 +79,6 @@ payload:
   - +.9game.cn
   - +.9xiu.com
   - +.abchina.com
-  - +.abchina.com.cn
   - +.abercrombie.com
   - +.ac.cn
   - +.acfun.cn
@@ -90,6 +89,7 @@ payload:
   - +.aiaa.org
   - +.aicdn.com
   - +.aicoinstorge.com
+  - +.aiqicha.com
   - +.air-matters.com
   - +.air-matters.io
   - +.aixifan.com
@@ -133,6 +133,7 @@ payload:
   - +.authing.cn
   - +.authing.co
   - +.autonavi.com
+  - +.aweray.com
   - +.awtmt.com
   - +.bababian.com
   - +.baidu.cn
@@ -177,6 +178,7 @@ payload:
   - +.boc.cn
   - +.bochk.com
   - +.bosszhipin.com
+  - +.broadcasthe.net
   - +.bulicdn2.com
   - +.byteacctimg.com
   - +.bytecdn.cn
@@ -200,7 +202,6 @@ payload:
   - +.camera360.com
   - +.camscanner.com
   - +.ccb.com
-  - +.ccb.com.cn
   - +.ccgslb.com
   - +.ccgslb.net
   - +.ccrgt.com
@@ -242,7 +243,6 @@ payload:
   - +.cmbchina.com
   - +.cmbimg.cn
   - +.cmbimg.com
-  - +.cmbt.cn
   - +.cmburl.cn
   - +.cmct.tv
   - +.cmfchina.com
@@ -386,7 +386,6 @@ payload:
   - +.gamersky.com
   - +.gaode.com
   - +.gaokao.cn
-  - +.garmin.cn
   - +.gdtimg.com
   - +.geetest.com
   - +.geilicdn.com
@@ -429,7 +428,6 @@ payload:
   - +.hihonorcloud.com
   - +.hisense.com
   - +.hitv.com
-  - +.hjfile.cn
   - +.hkserversolution.com
   - +.hollisterco.com
   - +.hongxiu.com
@@ -460,7 +458,6 @@ payload:
   - +.ibreader.com
   - +.ibuscloud.com
   - +.ibytedapm.com
-  - +.icbc.com.cn
   - +.icedropper.com
   - +.iciba.com
   - +.iconfont.cn
@@ -676,7 +673,6 @@ payload:
   - +.pinduoduo.com
   - +.pinduoduo.net
   - +.pingan.com
-  - +.pingan.com.cn
   - +.pingwest.com
   - +.pipix.com
   - +.pniao.com
@@ -736,10 +732,13 @@ payload:
   - +.qyerstatic.com
   - +.qzone.com
   - +.rarbg.to
+  - +.raylink.live
   - +.realme.com
   - +.realmebbs.com
   - +.realmemobile.com
   - +.redacted.ch
+  - +.rednotecdn.com
+  - +.rnote.com
   - +.roblox.cn
   - +.robloxdev.cn
   - +.ronghub.com
@@ -798,6 +797,7 @@ payload:
   - +.steamserver.net
   - +.suning.cn
   - +.suning.com
+  - +.sunlogin.net
   - +.symcd.com
   - +.szbdyd.com
   - +.t.cn
@@ -830,6 +830,7 @@ payload:
   - +.tmall.com
   - +.tmzvps.com
   - +.tnkjmec.com
+  - +.todesk.com
   - +.tool.lu
   - +.totheglory.im
   - +.toutiao.com
@@ -949,7 +950,6 @@ payload:
   - +.youzanyun.com
   - +.yqkk.link
   - +.ys7.com
-  - +.ysepay.cn
   - +.ysepay.com
   - +.yuanshen.com
   - +.yuewen.com
@@ -1005,6 +1005,7 @@ payload:
   - ocsp.globalsign.com
   - ocsp2.globalsign.com
   - res.viayoo.com
+  - time.xtracloud.net
   - url.cn
   - viayoo.com
   - www.intel.cn

@@ -1,5 +1,5 @@
-# 更新时间: 2026-09-01 10:11:30（北京时间）
-# 规则数量: 1735
+# 更新时间: 2026-10-03 23:17:08（北京时间）
+# 规则数量: 2003
 payload:
   - +.123av.com
   - +.123av.me
@@ -43,6 +43,7 @@ payload:
   - +.accountkit.com
   - +.activated.win
   - +.adblockplus.org
+  - +.addtodropbox.com
   - +.adguard-dns.io
   - +.adguard.com
   - +.adguard.org
@@ -51,6 +52,7 @@ payload:
   - +.adidas.com
   - +.adobe.com
   - +.adobedtm.com
+  - +.ads-twitter.com
   - +.aerisapi.com
   - +.aex.com
   - +.afraid.org
@@ -108,9 +110,11 @@ payload:
   - +.apkpure.com
   - +.apkpure.net
   - +.apnews.com
-  - +.app.smartmailcloud.com
   - +.appdownloader.net
-  - +.apple-dns.net
+  - +.appledaily.com
+  - +.appledaily.com.hk
+  - +.appledaily.com.tw
+  - +.appledaily.hk
   - +.appshopper.com
   - +.appspot.com
   - +.aptoide.com
@@ -213,6 +217,7 @@ payload:
   - +.blogjav.net
   - +.bloglovin.com
   - +.blogsmithmedia.com
+  - +.blogspot.com
   - +.blogspot.hk
   - +.bloomberg.cn
   - +.bloomberg.com
@@ -223,6 +228,7 @@ payload:
   - +.botanwang.com
   - +.box.com
   - +.box.net
+  - +.boxcloud.com
   - +.boxun.com
   - +.brave.com
   - +.broadcom.com
@@ -414,6 +420,23 @@ payload:
   - +.draw.io
   - +.dribbble.com
   - +.droidwin.com
+  - +.dropbox-dns.com
+  - +.dropbox.com
+  - +.dropbox.tech
+  - +.dropbox.zendesk.com
+  - +.dropboxapi.com
+  - +.dropboxbusiness.com
+  - +.dropboxcaptcha.com
+  - +.dropboxexperiment.com
+  - +.dropboxforum.com
+  - +.dropboxforums.com
+  - +.dropboxinsiders.com
+  - +.dropboxlegal.com
+  - +.dropboxmail.com
+  - +.dropboxpartners.com
+  - +.dropboxstatic.com
+  - +.dropboxteam.com
+  - +.dropboxusercontent.com
   - +.droplr.com
   - +.drtuber.com
   - +.duck.com
@@ -461,6 +484,11 @@ payload:
   - +.f-droid.org
   - +.f8.com
   - +.fabric.io
+  - +.facebook.com
+  - +.facebook.net
+  - +.facebook.org
+  - +.facebookbrand.com
+  - +.facebookmail.com
   - +.fanbox.cc
   - +.fandom.com
   - +.fastly-analytics.com
@@ -529,7 +557,6 @@ payload:
   - +.garena.com
   - +.garmin.com
   - +.gartner.com
-  - +.gate.hockeyapp.net
   - +.gate.io
   - +.gcld-line.com
   - +.gcr.io
@@ -542,6 +569,7 @@ payload:
   - +.get.how
   - +.getchu.com
   - +.getcloudapp.com
+  - +.getdropbox.com
   - +.getfoxyProxy.org
   - +.getlantern.org
   - +.getmdl.io
@@ -559,16 +587,23 @@ payload:
   - +.git.io
   - +.gitbook.com
   - +.gitbook.io
+  - +.github.ai
   - +.github.blog
+  - +.github.career
   - +.github.com
+  - +.github.community
   - +.github.dev
   - +.github.io
   - +.github.media
   - +.githubapp.com
   - +.githubassets.com
   - +.githubcopilot.com
+  - +.githubhackathon.com
+  - +.githubnext.com
   - +.githubpreview.dev
   - +.githubstatus.com
+  - +.githubsupport.com
+  - +.githubuniverse.com
   - +.githubusercontent.com
   - +.gitkraken.com
   - +.gitkraken.dev
@@ -598,6 +633,219 @@ payload:
   - +.goodreads.com
   - +.goog
   - +.googl.com
+  - +.google
+  - +.google-analytics.com
+  - +.google.ad
+  - +.google.ae
+  - +.google.al
+  - +.google.am
+  - +.google.as
+  - +.google.at
+  - +.google.az
+  - +.google.ba
+  - +.google.be
+  - +.google.bf
+  - +.google.bg
+  - +.google.bi
+  - +.google.bj
+  - +.google.bs
+  - +.google.bt
+  - +.google.by
+  - +.google.ca
+  - +.google.cat
+  - +.google.cd
+  - +.google.cf
+  - +.google.cg
+  - +.google.ch
+  - +.google.ci
+  - +.google.cl
+  - +.google.cm
+  - +.google.cn
+  - +.google.co.ao
+  - +.google.co.bw
+  - +.google.co.ck
+  - +.google.co.cr
+  - +.google.co.id
+  - +.google.co.il
+  - +.google.co.in
+  - +.google.co.jp
+  - +.google.co.ke
+  - +.google.co.kr
+  - +.google.co.ls
+  - +.google.co.ma
+  - +.google.co.mz
+  - +.google.co.nz
+  - +.google.co.th
+  - +.google.co.tz
+  - +.google.co.ug
+  - +.google.co.uk
+  - +.google.co.uz
+  - +.google.co.ve
+  - +.google.co.vi
+  - +.google.co.za
+  - +.google.co.zm
+  - +.google.co.zw
+  - +.google.com
+  - +.google.com.af
+  - +.google.com.ag
+  - +.google.com.ar
+  - +.google.com.au
+  - +.google.com.bd
+  - +.google.com.bh
+  - +.google.com.bn
+  - +.google.com.bo
+  - +.google.com.br
+  - +.google.com.bz
+  - +.google.com.co
+  - +.google.com.cu
+  - +.google.com.cy
+  - +.google.com.do
+  - +.google.com.ec
+  - +.google.com.eg
+  - +.google.com.et
+  - +.google.com.fj
+  - +.google.com.gh
+  - +.google.com.gi
+  - +.google.com.gt
+  - +.google.com.hk
+  - +.google.com.jm
+  - +.google.com.kh
+  - +.google.com.kw
+  - +.google.com.lb
+  - +.google.com.ly
+  - +.google.com.mm
+  - +.google.com.mt
+  - +.google.com.mx
+  - +.google.com.my
+  - +.google.com.na
+  - +.google.com.ng
+  - +.google.com.ni
+  - +.google.com.np
+  - +.google.com.om
+  - +.google.com.pa
+  - +.google.com.pe
+  - +.google.com.pg
+  - +.google.com.ph
+  - +.google.com.pk
+  - +.google.com.pr
+  - +.google.com.py
+  - +.google.com.qa
+  - +.google.com.sa
+  - +.google.com.sb
+  - +.google.com.sg
+  - +.google.com.sl
+  - +.google.com.sv
+  - +.google.com.tj
+  - +.google.com.tr
+  - +.google.com.tw
+  - +.google.com.ua
+  - +.google.com.uy
+  - +.google.com.vc
+  - +.google.com.vn
+  - +.google.cv
+  - +.google.cz
+  - +.google.de
+  - +.google.dev
+  - +.google.dj
+  - +.google.dk
+  - +.google.dm
+  - +.google.dz
+  - +.google.ee
+  - +.google.es
+  - +.google.fi
+  - +.google.fm
+  - +.google.fr
+  - +.google.ga
+  - +.google.ge
+  - +.google.gg
+  - +.google.gl
+  - +.google.gm
+  - +.google.gr
+  - +.google.gy
+  - +.google.hn
+  - +.google.hr
+  - +.google.ht
+  - +.google.hu
+  - +.google.ie
+  - +.google.im
+  - +.google.iq
+  - +.google.is
+  - +.google.it
+  - +.google.je
+  - +.google.jo
+  - +.google.kg
+  - +.google.ki
+  - +.google.kz
+  - +.google.la
+  - +.google.li
+  - +.google.lk
+  - +.google.lt
+  - +.google.lu
+  - +.google.lv
+  - +.google.md
+  - +.google.me
+  - +.google.mg
+  - +.google.mk
+  - +.google.ml
+  - +.google.mn
+  - +.google.mu
+  - +.google.mv
+  - +.google.mw
+  - +.google.ne
+  - +.google.net
+  - +.google.nl
+  - +.google.no
+  - +.google.nr
+  - +.google.nu
+  - +.google.org
+  - +.google.pl
+  - +.google.pn
+  - +.google.ps
+  - +.google.pt
+  - +.google.ro
+  - +.google.rs
+  - +.google.ru
+  - +.google.rw
+  - +.google.sc
+  - +.google.se
+  - +.google.sh
+  - +.google.si
+  - +.google.sk
+  - +.google.sm
+  - +.google.sn
+  - +.google.so
+  - +.google.sr
+  - +.google.st
+  - +.google.td
+  - +.google.tg
+  - +.google.tl
+  - +.google.tm
+  - +.google.tn
+  - +.google.to
+  - +.google.tt
+  - +.google.vu
+  - +.google.ws
+  - +.googleadservices.com
+  - +.googleapis.cn
+  - +.googleapis.com
+  - +.googleblog.com
+  - +.googlebot.com
+  - +.googlecode.com
+  - +.googledomains.com
+  - +.googleearth.com
+  - +.googlefiber.com
+  - +.googlefiber.net
+  - +.googlemail.com
+  - +.googlemaps.com
+  - +.googlephotos.com
+  - +.googlesource.com
+  - +.googlestore.com
+  - +.googlesyndication.com
+  - +.googletagmanager.com
+  - +.googletagservices.com
+  - +.googleusercontent.com
+  - +.googlevideo.com
+  - +.googlezip.net
   - +.gooogle.com
   - +.gosetsuden.jp
   - +.gov
@@ -1252,6 +1500,7 @@ payload:
   - +.sexinsex.net
   - +.sf.net
   - +.sfmcompile.club
+  - +.sfx.ms
   - +.sg
   - +.sh
   - +.shadowsocks.org
@@ -1380,6 +1629,9 @@ payload:
   - +.terabox.com
   - +.termius.com
   - +.tesco.com
+  - +.tesla.cn
+  - +.tesla.com
+  - +.teslamotors.com
   - +.textnow.com
   - +.textnow.me
   - +.tfbnw.net
@@ -1388,6 +1640,7 @@ payload:
   - +.theatlantic.com
   - +.thebobs.com
   - +.thefreelibrary.com
+  - +.thegithubshop.com
   - +.theguardian.com
   - +.theinitium.com
   - +.themoviedb.org
@@ -1425,6 +1678,7 @@ payload:
   - +.todoist.com
   - +.togetter.com
   - +.toggleable.com
+  - +.tokens.ci
   - +.tokto-motion.net
   - +.tokyocn.com
   - +.tokyomotion.net
@@ -1471,7 +1725,14 @@ payload:
   - +.twimg.com
   - +.twitch.tv
   - +.twitpic.com
+  - +.twitter.biz
   - +.twitter.com
+  - +.twitter.jp
+  - +.twittercommunity.com
+  - +.twitterflightschool.com
+  - +.twitterinc.com
+  - +.twitteroauth.com
+  - +.twitterstat.us
   - +.twitthat.com
   - +.twittpr.com
   - +.twtkr.com
@@ -1606,6 +1867,9 @@ payload:
   - +.westca.com
   - +.westpoint.edu
   - +.whatbrowser.org
+  - +.whatsapp.com
+  - +.whatsapp.net
+  - +.whatsappbrand.com
   - +.wheel-size.cn
   - +.whispersystems.org
   - +.whoer.cc
@@ -1629,6 +1893,7 @@ payload:
   - +.wikipedia.org
   - +.wikiquote.org
   - +.wikisource.org
+  - +.wikispecies.org
   - +.wikissl.com
   - +.wikiversity.org
   - +.wikivoyage.org
@@ -1638,6 +1903,7 @@ payload:
   - +.windy.com
   - +.wireguard.com
   - +.wireshark.org
+  - +.withgoogle.com
   - +.wix.com
   - +.wmflabs.org
   - +.wmfusercontent.org
@@ -1732,7 +1998,9 @@ payload:
   - cdp.cloud.unity3d.com
   - community.oneplus.com
   - ees.elsevier.com
+  - github-api.arkoselabs.com
   - help.ubnt.com
   - news.ycombinator.com
   - store.ui.com.cn
+  - testflight.apple.com
   - wego.here.com
