@@ -1,5 +1,5 @@
-# 更新时间: 2026-09-01 10:11:23（北京时间）
-# 规则数量: 1009
+# 更新时间: 2026-09-26 23:10:41（北京时间）
+# 规则数量: 1011
 payload:
   - +.10010.com
   - +.10086.cn
@@ -740,6 +740,8 @@ payload:
   - +.realmebbs.com
   - +.realmemobile.com
   - +.redacted.ch
+  - +.rednotecdn.com
+  - +.rnote.com
   - +.roblox.cn
   - +.robloxdev.cn
   - +.ronghub.com

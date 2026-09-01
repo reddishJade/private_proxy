@@ -1,5 +1,5 @@
-# 更新时间: 2026-09-01 10:11:48（北京时间）
-# 规则数量: 1979
+# 更新时间: 2026-09-26 23:11:04（北京时间）
+# 规则数量: 1981
 DOMAIN,7h15.ru1353t.1s.m4d3.by.5ukk4w.skk.moe
 DOMAIN,addins.deepl.com
 DOMAIN,alpha-gnu-org.ip-connect.vn.ua
@@ -269,6 +269,7 @@ DOMAIN,dl.cloudsmith.io
 DOMAIN,dl.devmate.com
 DOMAIN,dl.flathub.org
 DOMAIN,dl.getaurora.dev
+DOMAIN,dl.gl-inet.com
 DOMAIN,dl.google.com
 DOMAIN,dl.iina.io
 DOMAIN,dl.imobie.com
@@ -1272,6 +1273,7 @@ DOMAIN,repo.powerdns.com
 DOMAIN,repo.sleeping.town
 DOMAIN,repo.ugm.ac.id
 DOMAIN,repo.usk.ac.id
+DOMAIN,repo.xtom.com
 DOMAIN,repo1.maven.org
 DOMAIN,repo2.shinjiru.com
 DOMAIN,repos.del.extreme-ix.org

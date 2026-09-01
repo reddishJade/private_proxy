@@ -1,5 +1,5 @@
-# 更新时间: 2026-09-01 10:11:21（北京时间）
-# 规则数量: 224
+# 更新时间: 2026-09-26 23:10:40（北京时间）
+# 规则数量: 226
 payload:
   - +.agentclientprotocol.com
   - +.ai.com
@@ -81,6 +81,7 @@ payload:
   - +.featureassets.org
   - +.featuregates.org
   - +.flow.google
+  - +.flow.google.com
   - +.gateway.ai.cloudflare.com
   - +.gateway.icloud.com
   - +.geller-pa.googleapis.com
@@ -130,6 +131,7 @@ payload:
   - +.mistral.ai
   - +.moonshot.ai
   - +.mozilla.ai
+  - +.notebook.google
   - +.notebook.google.com
   - +.notebooklm.google
   - +.notebooklm.google.com

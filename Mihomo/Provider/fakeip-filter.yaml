@@ -1,5 +1,5 @@
-# 更新时间: 2026-09-01 10:11:26（北京时间）
-# 规则数量: 112
+# 更新时间: 2026-09-26 23:10:44（北京时间）
+# 规则数量: 113
 payload:
   - +.126.net
   - +.3gppnetwork.org
@@ -17,6 +17,7 @@ payload:
   - +.ff14.sdo.com
   - +.ffxiv.com
   - +.finalfantasyxiv.com
+  - +.firefox-portal-detection.com
   - +.gcloudcs.com
   - +.gcloudsdk.com
   - +.home.arpa
