@@ -2,9 +2,9 @@
   format: yaml
   behavior: domain
   upstream:
-    meta_category_ai_cn:
+    bett_category_ai_cn:
       type: http
-      url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/category-ai-cn.yaml"
+      url: "https://raw.githubusercontent.com/appshubcc/bett-rules/meta/geo/geosite/category-ai-cn.yaml"
       format: yaml
       behavior: domain
 
@@ -17,9 +17,9 @@
       url: "https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/AI%20Suite.yaml"
       format: yaml
       behavior: domain
-    meta_category_ai_!cn:
+    bett_category_ai_!cn:
       type: http
-      url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/category-ai-!cn.yaml"
+      url: "https://raw.githubusercontent.com/appshubcc/bett-rules/meta/geo/geosite/category-ai-!cn.yaml"
       format: yaml
       behavior: domain
     local_ai:
@@ -42,9 +42,9 @@
   format: yaml
   behavior: domain
   upstream:
-    meta_apple:
+    bett_apple:
       type: http
-      url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/apple.yaml"
+      url: "https://raw.githubusercontent.com/appshubcc/bett-rules/meta/geo/geosite/apple.yaml"
       format: yaml
       behavior: domain
 
@@ -117,9 +117,9 @@
       url: "https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Domestic%20IPs.yaml"
       format: yaml
       behavior: ipcidr
-    meta_cn_ip:
+    bett_cn_ip:
       type: http
-      url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/cn.yaml"
+      url: "https://raw.githubusercontent.com/appshubcc/bett-rules/meta/geo/geoip/cn.yaml"
       format: yaml
       behavior: ipcidr
 
@@ -157,9 +157,9 @@
       url: "https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/fakeip-filter.list"
       format: txt
       behavior: domain
-    meta_connectivity-check:
+    bett_connectivity-check:
       type: http
-      url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/connectivity-check.yaml"
+      url: "https://raw.githubusercontent.com/appshubcc/bett-rules/meta/geo/geosite/connectivity-check.yaml"
       format: yaml
       behavior: domain
 
@@ -187,9 +187,9 @@
   format: yaml
   behavior: domain
   upstream:
-    meta_microsoft:
+    bett_microsoft:
       type: http
-      url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/microsoft.yaml"
+      url: "https://raw.githubusercontent.com/appshubcc/bett-rules/meta/geo/geosite/microsoft.yaml"
       format: yaml
       behavior: domain
 
@@ -217,9 +217,9 @@
   format: yaml
   behavior: ipcidr
   upstream:
-    meta_private_ip:
+    bett_private_ip:
       type: http
-      url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/private.yaml"
+      url: "https://raw.githubusercontent.com/appshubcc/bett-rules/meta/geo/geoip/private.yaml"
       format: yaml
       behavior: ipcidr
 
@@ -262,9 +262,9 @@
       url: "https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/AdBlock.yaml"
       format: yaml
       behavior: classical
-    meta_ads:
+    bett_ads:
       type: http
-      url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/category-ads-all.yaml"
+      url: "https://raw.githubusercontent.com/appshubcc/bett-rules/meta/geo/geosite/category-ads-all.yaml"
       format: yaml
       behavior: domain
 
