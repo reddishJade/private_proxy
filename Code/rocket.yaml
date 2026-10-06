@@ -12,21 +12,31 @@
   format: txt
   behavior: classical
   upstream:
-    dler_ai:
+    # dler_ai:
+    #   type: http
+    #   url: "https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/AI%20Suite.yaml"
+    #   format: yaml
+    #   behavior: domain
+    bett_openai:
       type: http
-      url: "https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/AI%20Suite.yaml"
+      url: "https://raw.githubusercontent.com/appshubcc/bett-rules/meta/geo/geosite/openai.yaml"
       format: yaml
       behavior: domain
-    bett_category_ai_!cn:
+    bett_anthropic:
       type: http
-      url: "https://raw.githubusercontent.com/appshubcc/bett-rules/meta/geo/geosite/category-ai-!cn.yaml"
+      url: "https://raw.githubusercontent.com/appshubcc/bett-rules/meta/geo/geosite/anthropic.yaml"
       format: yaml
       behavior: domain
-    local_ai:
-      type: file
-      path: "local/ai.yaml"
+    bett_google_deepmind:
+      type: http
+      url: "https://raw.githubusercontent.com/appshubcc/bett-rules/meta/geo/geosite/google-deepmind.yaml"
       format: yaml
       behavior: domain
+    # local_ai:
+    #   type: file
+    #   path: "local/ai.yaml"
+    #   format: yaml
+    #   behavior: domain
 
 - path: output/apple@cn.list
   format: txt
@@ -37,15 +47,30 @@
       url: "https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/apple-cn.list"
       format: text
       behavior: domain
+    skk_apple_cn:
+      type: http
+      url: "https://ruleset.skk.moe/Clash/non_ip/apple_cn.txt"
+      format: txt
+      behavior: classical
 
 - path: output/apple.list
   format: txt
   behavior: classical
   upstream:
-    bett_apple:
+    # bett_apple:
+    #   type: http
+    #   url: "https://raw.githubusercontent.com/appshubcc/bett-rules/meta/geo/geosite/apple.yaml"
+    #   format: yaml
+    #   behavior: domain
+    skk_apple_services:
       type: http
-      url: "https://raw.githubusercontent.com/appshubcc/bett-rules/meta/geo/geosite/apple.yaml"
-      format: yaml
+      url: "https://ruleset.skk.moe/Clash/non_ip/apple_services.txt"
+      format: txt
+      behavior: classical
+    skk_apple_cdn:
+      type: http
+      url: "https://ruleset.skk.moe/Clash/domainset/apple_cdn.txt"
+      format: txt
       behavior: domain
 
 - path: output/cdn.list
@@ -123,25 +148,45 @@
       format: txt
       behavior: ipcidr
 
-- path: output/microsoft.list
+- path: output/google.list
   format: txt
   behavior: classical
   upstream:
     bett_microsoft:
       type: http
-      url: "https://raw.githubusercontent.com/appshubcc/bett-rules/meta/geo/geosite/microsoft.yaml"
-      format: yaml
-      behavior: domain
+      url: "https://gh-proxy.com/raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Google.list"
+      format: text
+      behavior: classical
+
+- path: output/microsoft.list
+  format: txt
+  behavior: classical
+  upstream:
+    # bett_microsoft:
+    #   type: http
+    #   url: "https://raw.githubusercontent.com/appshubcc/bett-rules/meta/geo/geosite/microsoft.yaml"
+    #   format: yaml
+    #   behavior: domain
+    ACL4SSR_microsoft:
+      type: http
+      url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Microsoft.list"
+      format: txt
+      behavior: classical
 
 - path: output/microsoft@cn.list
   format: txt
   behavior: classical
   upstream:
-    DustinWin_microsoft_cn:
+    # DustinWin_microsoft_cn:
+    #   type: http
+    #   url: "https://raw.githubusercontent.com/DustinWin/ruleset_geodata/mihomo-ruleset/microsoft-cn.list"
+    #   format: text
+    #   behavior: domain
+    skk_microsoft:
       type: http
-      url: "https://raw.githubusercontent.com/DustinWin/ruleset_geodata/mihomo-ruleset/microsoft-cn.list"
-      format: text
-      behavior: domain
+      url: "https://ruleset.skk.moe/Clash/non_ip/microsoft.txt"
+      format: txt
+      behavior: classical
 
 - path: output/private.list
   format: txt
@@ -202,6 +247,31 @@
       url: "https://raw.githubusercontent.com/appshubcc/bett-rules/meta/geo/geosite/category-ads-all.yaml"
       format: yaml
       behavior: domain
+    ConnersHua_advertising:
+      type: http
+      url: "https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/Reject/Advertising.list"
+      format: txt
+      behavior: classical
+    ConnersHua_malicious:
+      type: http
+      url: "https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/Reject/Malicious.list"
+      format: txt
+      behavior: classical
+    ConnersHua_tracking:
+      type: http
+      url: "https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/Reject/Tracking.list"
+      format: txt
+      behavior: classical
+    ACL4SSR_BanEasyListChina:
+      type: http
+      url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyListChina.list"
+      format: txt
+      behavior: classical
+    Repcz_reject:
+      type: http
+      url: "https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Custom/Reject.list"
+      format: txt
+      behavior: classical
     skk_reject_ip:
       type: http
       url: "https://ruleset.skk.moe/Clash/ip/reject.txt"
