@@ -1,5 +1,5 @@
-# 更新时间: 2026-10-06 11:26:55（北京时间）
-# 规则数量: 245
+# 更新时间: 2026-10-06 22:05:10（北京时间）
+# 规则数量: 251
 payload:
   - +.a1.mzstatic.com
   - +.a2.mzstatic.com
@@ -79,6 +79,9 @@ payload:
   - +.clientflow.apple.com
   - +.clientflow.apple.com.akadns.net
   - +.cn-smp-paymentservices.apple.com
+  - +.cn-ssl.ls.apple.com
+  - +.cn.apple.com
+  - +.cn.ls.apple.com
   - +.configuration.apple.com
   - +.configuration.apple.com.akadns.net
   - +.crl.apple.com
@@ -226,6 +229,8 @@ payload:
   - +.xn--ohq11k7pl25iyo8a.cn
   - +.xp.apple.com
   - amp-api.podcasts.apple.com
+  - api.smoot.apple.cn
+  - appleintelligencefeedback.care.apple.com
   - cdn-cn.apple-mapkit.com
   - certs-lb.apple.com.akadns.net
   - cl2-cdn.origin-apple.com.akadns.net
@@ -233,6 +238,7 @@ payload:
   - crl-lb.apple.com.akadns.net
   - discussionschinese.apple.com
   - fides-pol.apple.com
+  - gs-loc-cn.apple.com
   - gspe12-cn-ssl.ls.apple.com
   - gspe85-cn-ssl.ls.apple.com
   - init.gc-lb.apple.com.akadns.net

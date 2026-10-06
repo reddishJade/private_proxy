@@ -1,6 +1,8 @@
-# 更新时间: 2026-10-06 11:27:19（北京时间）
-# 规则数量: 245
+# 更新时间: 2026-10-06 22:05:26（北京时间）
+# 规则数量: 251
 DOMAIN,amp-api.podcasts.apple.com
+DOMAIN,api.smoot.apple.cn
+DOMAIN,appleintelligencefeedback.care.apple.com
 DOMAIN,cdn-cn.apple-mapkit.com
 DOMAIN,certs-lb.apple.com.akadns.net
 DOMAIN,cl2-cdn.origin-apple.com.akadns.net
@@ -8,6 +10,7 @@ DOMAIN,communities.apple.com
 DOMAIN,crl-lb.apple.com.akadns.net
 DOMAIN,discussionschinese.apple.com
 DOMAIN,fides-pol.apple.com
+DOMAIN,gs-loc-cn.apple.com
 DOMAIN,gspe12-cn-ssl.ls.apple.com
 DOMAIN,gspe85-cn-ssl.ls.apple.com
 DOMAIN,init.gc-lb.apple.com.akadns.net
@@ -99,6 +102,9 @@ DOMAIN-SUFFIX,cl5.apple.com
 DOMAIN-SUFFIX,clientflow.apple.com
 DOMAIN-SUFFIX,clientflow.apple.com.akadns.net
 DOMAIN-SUFFIX,cn-smp-paymentservices.apple.com
+DOMAIN-SUFFIX,cn-ssl.ls.apple.com
+DOMAIN-SUFFIX,cn.apple.com
+DOMAIN-SUFFIX,cn.ls.apple.com
 DOMAIN-SUFFIX,configuration.apple.com
 DOMAIN-SUFFIX,configuration.apple.com.akadns.net
 DOMAIN-SUFFIX,crl.apple.com

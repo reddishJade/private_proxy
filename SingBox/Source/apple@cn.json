@@ -3,6 +3,8 @@
     {
       "domain": [
         "amp-api.podcasts.apple.com",
+        "api.smoot.apple.cn",
+        "appleintelligencefeedback.care.apple.com",
         "cdn-cn.apple-mapkit.com",
         "certs-lb.apple.com.akadns.net",
         "cl2-cdn.origin-apple.com.akadns.net",
@@ -10,6 +12,7 @@
         "crl-lb.apple.com.akadns.net",
         "discussionschinese.apple.com",
         "fides-pol.apple.com",
+        "gs-loc-cn.apple.com",
         "gspe12-cn-ssl.ls.apple.com",
         "gspe85-cn-ssl.ls.apple.com",
         "init.gc-lb.apple.com.akadns.net",
@@ -103,6 +106,9 @@
         "clientflow.apple.com",
         "clientflow.apple.com.akadns.net",
         "cn-smp-paymentservices.apple.com",
+        "cn-ssl.ls.apple.com",
+        "cn.apple.com",
+        "cn.ls.apple.com",
         "configuration.apple.com",
         "configuration.apple.com.akadns.net",
         "crl.apple.com",
