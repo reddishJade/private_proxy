@@ -1,5 +1,5 @@
-# 更新时间: 2026-10-06 22:05:09（北京时间）
-# 规则数量: 77
+# 更新时间: 2026-10-08 02:00:10（北京时间）
+# 规则数量: 78
 payload:
   - +.ai.studio
   - +.aicode.googleapis.com
@@ -59,6 +59,7 @@ payload:
   - alkalicore-pa.clients6.google.com
   - alkalimakersuite-pa.clients6.google.com
   - antigravity-pa.googleapis.com
+  - antigravity-unleash.goog
   - antigravity.googleapis.com
   - browser-intake-datadoghq.com
   - cloudaicompanion.googleapis.com

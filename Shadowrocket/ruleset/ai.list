@@ -1,9 +1,10 @@
-# 更新时间: 2026-10-06 22:05:26（北京时间）
-# 规则数量: 77
+# 更新时间: 2026-10-08 02:00:38（北京时间）
+# 规则数量: 78
 DOMAIN,ai.google.dev
 DOMAIN,alkalicore-pa.clients6.google.com
 DOMAIN,alkalimakersuite-pa.clients6.google.com
 DOMAIN,antigravity-pa.googleapis.com
+DOMAIN,antigravity-unleash.goog
 DOMAIN,antigravity.googleapis.com
 DOMAIN,browser-intake-datadoghq.com
 DOMAIN,cloudaicompanion.googleapis.com

@@ -1,5 +1,5 @@
-# 更新时间: 2026-10-06 22:05:27（北京时间）
-# 规则数量: 10442
+# 更新时间: 2026-10-08 02:00:39（北京时间）
+# 规则数量: 10443
 DOMAIN,acg.tv
 DOMAIN,app.viayoo.com
 DOMAIN,assets1.xboxlive.cn
@@ -5732,6 +5732,7 @@ IP-CIDR,14.204.0.0/15
 IP-CIDR,14.204.0.0/15,no-resolve
 IP-CIDR,14.208.0.0/12
 IP-CIDR,14.208.0.0/12,no-resolve
+IP-CIDR,14.238.116.0/24
 IP-CIDR,14.241.232.0/21
 IP-CIDR,14.255.16.0/24
 IP-CIDR,14.255.238.0/24
