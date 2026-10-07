@@ -32,11 +32,11 @@
       url: "https://raw.githubusercontent.com/appshubcc/bett-rules/meta/geo/geosite/google-deepmind.yaml"
       format: yaml
       behavior: domain
-    # local_ai:
-    #   type: file
-    #   path: "local/ai.yaml"
-    #   format: yaml
-    #   behavior: domain
+    local_ai:
+      type: file
+      path: "local/ai.yaml"
+      format: yaml
+      behavior: domain
 
 - path: output/apple@cn.yaml
   format: yaml
@@ -57,21 +57,26 @@
   format: yaml
   behavior: domain
   upstream:
-    # bett_apple:
-    #   type: http
-    #   url: "https://raw.githubusercontent.com/appshubcc/bett-rules/meta/geo/geosite/apple.yaml"
-    #   format: yaml
-    #   behavior: domain
-    skk_apple_services:
+    bett_apple:
       type: http
-      url: "https://ruleset.skk.moe/Clash/non_ip/apple_services.txt"
-      format: txt
-      behavior: classical
-    skk_apple_cdn:
-      type: http
-      url: "https://ruleset.skk.moe/Clash/domainset/apple_cdn.txt"
-      format: txt
+      url: "https://raw.githubusercontent.com/appshubcc/bett-rules/meta/geo/geosite/apple.yaml"
+      format: yaml
       behavior: domain
+    # skk_apple_services:
+    #   type: http
+    #   url: "https://ruleset.skk.moe/Clash/non_ip/apple_services.txt"
+    #   format: txt
+    #   behavior: classical
+    # skk_apple_cdn:
+    #   type: http
+    #   url: "https://ruleset.skk.moe/Clash/domainset/apple_cdn.txt"
+    #   format: txt
+    #   behavior: domain
+    # ACL4SSR_apple:
+    #   type: http
+    #   url: "https://gh-proxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Apple.list"
+    #   format: txt
+    #   behavior: classical
 
 - path: output/cdn.yaml
   format: yaml
@@ -212,41 +217,41 @@
   format: yaml
   behavior: domain
   upstream:
-    bett_microsoft:
+    bett_google:
       type: http
-      url: "https://gh-proxy.com/raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Google.list"
-      format: text
-      behavior: classical
+      url: "https://raw.githubusercontent.com/appshubcc/bett-rules/meta/geo/geosite/google.yaml"
+      format: yaml
+      behavior: domain
 
 - path: output/microsoft.yaml
   format: yaml
   behavior: domain
   upstream:
-    # bett_microsoft:
-    #   type: http
-    #   url: "https://raw.githubusercontent.com/appshubcc/bett-rules/meta/geo/geosite/microsoft.yaml"
-    #   format: yaml
-    #   behavior: domain
-    ACL4SSR_microsoft:
+    bett_microsoft:
       type: http
-      url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Microsoft.list"
-      format: txt
-      behavior: classical
+      url: "https://raw.githubusercontent.com/appshubcc/bett-rules/meta/geo/geosite/microsoft.yaml"
+      format: yaml
+      behavior: domain
+    # skk_microsoft:
+    #   type: http
+    #   url: "https://ruleset.skk.moe/Clash/non_ip/microsoft.txt"
+    #   format: txt
+    #   behavior: classical
+    # ACL4SSR_microsoft:
+    #   type: http
+    #   url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Microsoft.list"
+    #   format: txt
+    #   behavior: classical
 
 - path: output/microsoft@cn.yaml
   format: yaml
   behavior: domain
   upstream:
-    # DustinWin_microsoft_cn:
-    #   type: http
-    #   url: "https://raw.githubusercontent.com/DustinWin/ruleset_geodata/mihomo-ruleset/microsoft-cn.list"
-    #   format: text
-    #   behavior: domain
-    skk_microsoft:
+    DustinWin_microsoft_cn:
       type: http
-      url: "https://ruleset.skk.moe/Clash/non_ip/microsoft.txt"
-      format: txt
-      behavior: classical
+      url: "https://raw.githubusercontent.com/DustinWin/ruleset_geodata/mihomo-ruleset/microsoft-cn.list"
+      format: text
+      behavior: domain
 
 - path: output/private.yaml
   format: yaml
