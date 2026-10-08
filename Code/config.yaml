@@ -12,11 +12,11 @@
   format: yaml
   behavior: domain
   upstream:
-    # dler_ai:
-    #   type: http
-    #   url: "https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/AI%20Suite.yaml"
-    #   format: yaml
-    #   behavior: domain
+    dler_ai:
+      type: http
+      url: "https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/AI%20Suite.yaml"
+      format: yaml
+      behavior: domain
     bett_openai:
       type: http
       url: "https://raw.githubusercontent.com/appshubcc/bett-rules/meta/geo/geosite/openai.yaml"
