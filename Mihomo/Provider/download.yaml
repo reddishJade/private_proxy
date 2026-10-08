@@ -1,5 +1,5 @@
-# 更新时间: 2026-10-08 02:00:14（北京时间）
-# 规则数量: 1971
+# 更新时间: 2026-10-09 11:14:47（北京时间）
+# 规则数量: 1972
 payload:
   - +.1fichier.com
   - +.1fichier.info
@@ -1786,6 +1786,7 @@ payload:
   - release.arcboxcdn.com
   - release.runcloud.io
   - releases.arc.net
+  - releases.claude.com
   - releases.grapheneos.org
   - releases.landrop.app
   - releases.obsidian.md

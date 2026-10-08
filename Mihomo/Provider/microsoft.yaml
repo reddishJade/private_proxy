@@ -1,5 +1,5 @@
-# 更新时间: 2026-10-08 02:00:15（北京时间）
-# 规则数量: 746
+# 更新时间: 2026-10-09 11:14:49（北京时间）
+# 规则数量: 747
 payload:
   - +.1drv.com
   - +.21vbc.com
@@ -149,6 +149,7 @@ payload:
   - +.browser.events.data.msn.cn
   - +.browser.events.data.msn.com
   - +.c-msedge.net
+  - +.cafe.github.com
   - +.callersbane.com
   - +.cegid-cloud.cn
   - +.centralvalidation.com

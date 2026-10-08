@@ -1,5 +1,5 @@
-# 更新时间: 2026-10-08 02:00:41（北京时间）
-# 规则数量: 16252
+# 更新时间: 2026-10-09 11:15:08（北京时间）
+# 规则数量: 16245
 DOMAIN,118.89.204.198
 DOMAIN,1500020991.vodplayer.wxamedia.com
 DOMAIN,1500022744.vodplayer.wxamedia.com
@@ -519,8 +519,6 @@ DOMAIN,conf.hpplay.cn
 DOMAIN,config.chsmarttv.com
 DOMAIN,config.inmobi.com
 DOMAIN,config.unityads.unity3d.com
-DOMAIN,copilot-telemetry-service.githubusercontent.com
-DOMAIN,copilot-telemetry.githubusercontent.com
 DOMAIN,counter.kingsoft.com
 DOMAIN,counter.ksosoft.com
 DOMAIN,cpc-service-square.aiclk.com
@@ -690,8 +688,6 @@ DOMAIN,impression.appsflyer.com
 DOMAIN,impservice.dictapp.youdao.com
 DOMAIN,impservice.youdao.com
 DOMAIN,in.treasuredata.com
-DOMAIN,incoming-telemetry.thunderbird.net
-DOMAIN,incoming.telemetry.mozilla.org
 DOMAIN,informer.yandex.ru
 DOMAIN,init.supersonicads.com
 DOMAIN,inner-hw.huazirc.com
@@ -5035,7 +5031,6 @@ DOMAIN-SUFFIX,cokudsvit.com
 DOMAIN-SUFFIX,col.hztags.net
 DOMAIN-SUFFIX,colkarneh.com
 DOMAIN-SUFFIX,collect.kugou.com
-DOMAIN-SUFFIX,collector.github.com
 DOMAIN-SUFFIX,collector.githubapp.com
 DOMAIN-SUFFIX,collector.viki.io
 DOMAIN-SUFFIX,collector.wasu.cn
@@ -7193,8 +7188,6 @@ DOMAIN-SUFFIX,grand.ele.me
 DOMAIN-SUFFIX,granteesixtes.com
 DOMAIN-SUFFIX,graph-fallback.instagram.com
 DOMAIN-SUFFIX,graph.instagram.com
-DOMAIN-SUFFIX,graph.whatsapp.com
-DOMAIN-SUFFIX,graph.whatsapp.net
 DOMAIN-SUFFIX,grarnuns.com
 DOMAIN-SUFFIX,graunutbpz.com
 DOMAIN-SUFFIX,green.erne.co

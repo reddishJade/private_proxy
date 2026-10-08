@@ -1,5 +1,5 @@
-# 更新时间: 2026-10-08 02:00:23（北京时间）
-# 规则数量: 15419
+# 更新时间: 2026-10-09 11:14:53（北京时间）
+# 规则数量: 15412
 payload:
   - +.000dn.com
   - +.001union.com
@@ -3670,7 +3670,6 @@ payload:
   - +.col.hztags.net
   - +.colkarneh.com
   - +.collect.kugou.com
-  - +.collector.github.com
   - +.collector.githubapp.com
   - +.collector.viki.io
   - +.collector.wasu.cn
@@ -5828,8 +5827,6 @@ payload:
   - +.granteesixtes.com
   - +.graph-fallback.instagram.com
   - +.graph.instagram.com
-  - +.graph.whatsapp.com
-  - +.graph.whatsapp.net
   - +.grarnuns.com
   - +.graunutbpz.com
   - +.green.erne.co
@@ -14603,8 +14600,6 @@ payload:
   - config.chsmarttv.com
   - config.inmobi.com
   - config.unityads.unity3d.com
-  - copilot-telemetry-service.githubusercontent.com
-  - copilot-telemetry.githubusercontent.com
   - counter.kingsoft.com
   - counter.ksosoft.com
   - cpc-service-square.aiclk.com
@@ -14774,8 +14769,6 @@ payload:
   - impservice.dictapp.youdao.com
   - impservice.youdao.com
   - in.treasuredata.com
-  - incoming-telemetry.thunderbird.net
-  - incoming.telemetry.mozilla.org
   - informer.yandex.ru
   - init.supersonicads.com
   - inner-hw.huazirc.com

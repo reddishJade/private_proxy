@@ -1,5 +1,5 @@
-# 更新时间: 2026-10-08 02:00:40（北京时间）
-# 规则数量: 746
+# 更新时间: 2026-10-09 11:15:06（北京时间）
+# 规则数量: 747
 DOMAIN,az764295.vo.msecnd.net
 DOMAIN,azure.microsoft.com
 DOMAIN,azuremarketplace.microsoft.com
@@ -261,6 +261,7 @@ DOMAIN-SUFFIX,breakdown.me
 DOMAIN-SUFFIX,browser.events.data.msn.cn
 DOMAIN-SUFFIX,browser.events.data.msn.com
 DOMAIN-SUFFIX,c-msedge.net
+DOMAIN-SUFFIX,cafe.github.com
 DOMAIN-SUFFIX,callersbane.com
 DOMAIN-SUFFIX,cegid-cloud.cn
 DOMAIN-SUFFIX,centralvalidation.com

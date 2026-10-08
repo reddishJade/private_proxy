@@ -1,5 +1,5 @@
-# 更新时间: 2026-10-08 02:00:17（北京时间）
-# 规则数量: 2003
+# 更新时间: 2026-10-09 11:14:50（北京时间）
+# 规则数量: 2006
 payload:
   - +.123av.com
   - +.123av.me
@@ -115,6 +115,7 @@ payload:
   - +.appledaily.com.hk
   - +.appledaily.com.tw
   - +.appledaily.hk
+  - +.approveit.today
   - +.appshopper.com
   - +.appspot.com
   - +.aptoide.com
@@ -1597,6 +1598,7 @@ payload:
   - +.surge-activation.com
   - +.surge.run
   - +.surrenderat20.net
+  - +.surveymonkey.com
   - +.sx
   - +.sydneytoday.com
   - +.symauth.com
@@ -1792,6 +1794,7 @@ payload:
   - +.vanityfair.com
   - +.vanpeople.com
   - +.vansky.com
+  - +.vanta.com
   - +.vbstatic.co
   - +.venchina.com
   - +.venturebeat.com

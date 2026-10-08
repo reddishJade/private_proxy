@@ -1,5 +1,5 @@
-# 更新时间: 2026-10-08 02:00:40（北京时间）
-# 规则数量: 2072
+# 更新时间: 2026-10-09 11:15:07（北京时间）
+# 规则数量: 2075
 DOMAIN,api.waqi.info
 DOMAIN,aqi.aqicn.org
 DOMAIN,ccmdl.adobe.com
@@ -135,6 +135,7 @@ DOMAIN-SUFFIX,appledaily.com
 DOMAIN-SUFFIX,appledaily.com.hk
 DOMAIN-SUFFIX,appledaily.com.tw
 DOMAIN-SUFFIX,appledaily.hk
+DOMAIN-SUFFIX,approveit.today
 DOMAIN-SUFFIX,appshopper.com
 DOMAIN-SUFFIX,appspot.com
 DOMAIN-SUFFIX,aptoide.com
@@ -1617,6 +1618,7 @@ DOMAIN-SUFFIX,surfsharkdns.com
 DOMAIN-SUFFIX,surge-activation.com
 DOMAIN-SUFFIX,surge.run
 DOMAIN-SUFFIX,surrenderat20.net
+DOMAIN-SUFFIX,surveymonkey.com
 DOMAIN-SUFFIX,sx
 DOMAIN-SUFFIX,sydneytoday.com
 DOMAIN-SUFFIX,symauth.com
@@ -1812,6 +1814,7 @@ DOMAIN-SUFFIX,van001.com
 DOMAIN-SUFFIX,vanityfair.com
 DOMAIN-SUFFIX,vanpeople.com
 DOMAIN-SUFFIX,vansky.com
+DOMAIN-SUFFIX,vanta.com
 DOMAIN-SUFFIX,vbstatic.co
 DOMAIN-SUFFIX,venchina.com
 DOMAIN-SUFFIX,venturebeat.com

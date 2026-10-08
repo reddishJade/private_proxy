@@ -1,5 +1,5 @@
-# 更新时间: 2026-10-08 02:00:40（北京时间）
-# 规则数量: 1983
+# 更新时间: 2026-10-09 11:15:06（北京时间）
+# 规则数量: 1984
 DOMAIN,7h15.ru1353t.1s.m4d3.by.5ukk4w.skk.moe
 DOMAIN,addins.deepl.com
 DOMAIN,alpha-gnu-org.ip-connect.vn.ua
@@ -1251,6 +1251,7 @@ DOMAIN,release-assets.githubusercontent.com
 DOMAIN,release.arcboxcdn.com
 DOMAIN,release.runcloud.io
 DOMAIN,releases.arc.net
+DOMAIN,releases.claude.com
 DOMAIN,releases.grapheneos.org
 DOMAIN,releases.landrop.app
 DOMAIN,releases.obsidian.md
