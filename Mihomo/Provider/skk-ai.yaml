@@ -1,5 +1,5 @@
-# 更新时间: 2026-10-09 16:24:51（北京时间）
-# 规则数量: 49
+# 更新时间: 2026-10-13 12:04:31（北京时间）
+# 规则数量: 52
 payload:
   - +.ai.com
   - +.aistudio.google.com
@@ -47,6 +47,9 @@ payload:
   - api.jetbrains.ai
   - daily-cloudcode-pa.googleapis.com
   - gateway.ai.cloudflare.com
+  - inference.codeium.com
   - jules.google.com
   - openrouter.ai
   - robinfrontend-pa.googleapis.com
+  - server.codeium.com
+  - server.self-serve.windsurf.com

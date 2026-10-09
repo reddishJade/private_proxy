@@ -1,5 +1,5 @@
-# 更新时间: 2026-10-09 16:25:36（北京时间）
-# 规则数量: 4770
+# 更新时间: 2026-10-13 12:05:51（北京时间）
+# 规则数量: 4771
 DOMAIN,0x0.st
 DOMAIN,3dna.nationbuilder.com
 DOMAIN,4gtvimg2.4gtv.tv
@@ -3207,6 +3207,7 @@ DOMAIN,tiles.maps.eox.at
 DOMAIN,tiles.maps.opensearch.org
 DOMAIN,tiles.mapterhorn.com
 DOMAIN,tiles.meteoguard.dtn.com
+DOMAIN,tiles.onemap.gov.sg
 DOMAIN,tiles.openfreemap.org
 DOMAIN,tiles.openrailwaymap.org
 DOMAIN,tiles.openseamap.org

@@ -1,5 +1,5 @@
-# 更新时间: 2026-10-09 16:25:11（北京时间）
-# 规则数量: 3420
+# 更新时间: 2026-10-13 12:05:06（北京时间）
+# 规则数量: 3424
 payload:
   - +.backend.librespeed.org
   - +.fast.com
@@ -319,6 +319,7 @@ payload:
   - hmb-tc.wsqm.telekom-dienste.de
   - hmc-speedtest.northstate.net
   - hoshiyomi.ratatoskr.org
+  - hoyalclub.synology.me
   - hs13.aratwifi.com.tr
   - hs14.aratwifi.com.tr
   - hv1.juce.ca
@@ -1343,6 +1344,7 @@ payload:
   - speedtest-sjc.acreto.net
   - speedtest-sjc.dish-wireless.com
   - speedtest-sjc.sectrify.com
+  - speedtest-sjdm.newworld.ph
   - speedtest-sossano.wifiweb.it
   - speedtest-srv-a.homeworks.org
   - speedtest-srv01.tut.net
@@ -2762,6 +2764,7 @@ payload:
   - speedtest4.point-broadband.com
   - speedtest4.vodafone.com.tr
   - speedtest5.fybercom.net
+  - speedtest5.mywnz.com
   - speedtest5.nmsurf.com
   - speedtest5.vodafone.com.tr
   - speedtest5.windtre.it
@@ -2994,6 +2997,7 @@ payload:
   - st-manisa-1.turksatkablo.com.tr
   - st-mersin-1.turksatkablo.com.tr
   - st-oma-1.binary.net
+  - st-ookla.zas.virtualiza.me
   - st-rockford.sumofiber.com
   - st-samsun-1.turksatkablo.com.tr
   - st-tekirdag-1.turksatkablo.com.tr

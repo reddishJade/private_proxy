@@ -1,5 +1,5 @@
-# 更新时间: 2026-10-09 16:24:52（北京时间）
-# 规则数量: 4687
+# 更新时间: 2026-10-13 12:04:34（北京时间）
+# 规则数量: 4688
 payload:
   - +.1a-1791.com
   - +.1passwordusercontent.ca
@@ -4437,6 +4437,7 @@ payload:
   - tiles.maps.opensearch.org
   - tiles.mapterhorn.com
   - tiles.meteoguard.dtn.com
+  - tiles.onemap.gov.sg
   - tiles.openfreemap.org
   - tiles.openrailwaymap.org
   - tiles.openseamap.org

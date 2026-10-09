@@ -1,0 +1,9 @@
+# 更新时间: 2026-10-13 12:05:40（北京时间）
+# 规则数量: 6
+payload:
+  - +.s.team
+  - +.steamcommunity.com
+  - +.steamgames.com
+  - +.steampowered.com
+  - +.steamstatic.com
+  - +.steamusercontent.com
