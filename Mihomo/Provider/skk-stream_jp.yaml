@@ -1,0 +1,28 @@
+# 更新时间: 2026-10-09 16:25:11（北京时间）
+# 规则数量: 25
+payload:
+  - +.abema-tv.com
+  - +.abema.io
+  - +.abema.tv
+  - +.ameba.jp
+  - +.amebame.com
+  - +.amebaownd.com
+  - +.amebaowndme.com
+  - +.ameblo.jp
+  - +.dmc.nico
+  - +.dmm-extension.com
+  - +.dmm.co.jp
+  - +.dmm.com
+  - +.dokusho-ojikan.jp
+  - +.happyon.jp
+  - +.hayabusa.dev
+  - +.hayabusa.io
+  - +.hayabusa.media
+  - +.hjholdings.jp
+  - +.hulu.jp
+  - +.location-plus.nhk.jp
+  - +.nicovideo.jp
+  - +.socdm.com
+  - +.tver.jp
+  - +.winticket.jp
+  - ds-linear-abematv.akamaized.net

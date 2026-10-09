@@ -1,0 +1,9 @@
+# 更新时间: 2026-10-09 16:25:11（北京时间）
+# 规则数量: 6
+payload:
+  - +.bbc.co.uk
+  - +.bbci.co.uk
+  - +.itv.com
+  - +.tvlicensing.co.uk
+  - bbc.mp-pxcdn.com
+  - itvpnpmobile-a.akamaihd.net

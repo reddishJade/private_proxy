@@ -1,0 +1,12 @@
+# 更新时间: 2026-10-09 16:24:51（北京时间）
+# 规则数量: 9
+payload:
+  - +.apple.com.cn
+  - +.cn-ssl.ls.apple.com
+  - +.cn.apple.com
+  - +.cn.ls.apple.com
+  - +.gspe19-cn-ssl.ls.apple.com
+  - +.icloud.com.cn
+  - api.smoot.apple.cn
+  - appleintelligencefeedback.care.apple.com
+  - gs-loc-cn.apple.com

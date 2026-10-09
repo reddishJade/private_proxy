@@ -1,0 +1,21 @@
+# 更新时间: 2026-10-09 16:24:53（北京时间）
+# 规则数量: 18
+payload:
+  - +.360buyimg.com
+  - +.ali-safety-video.acfun.cn
+  - +.alicdn.com
+  - +.alipayobjects.com
+  - +.biliimg.com
+  - +.hdslb.com
+  - +.music.126.net
+  - +.qhimg.com
+  - +.qhimgs.com
+  - +.qhres.com
+  - +.qhres2.com
+  - +.sinaimg.cn
+  - +.sinaimg.com
+  - +.tbcdn.cn
+  - +.tx-safety-video.acfun.cn
+  - +.zhimg.com
+  - registry.npmmirror.com
+  - time.xtracloud.net

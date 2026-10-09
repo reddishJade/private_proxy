@@ -1,0 +1,30 @@
+# 更新时间: 2026-10-09 16:25:00（北京时间）
+# 规则数量: 27
+payload:
+  - +.beacon.qq.com
+  - +.data.grammarly.com
+  - +.data.microsoft.com
+  - +.easytomessage.com
+  - +.f-log-assistant.grammarly.io
+  - +.f-log-extension.grammarly.io
+  - +.femetrics.grammarly.io
+  - +.femetrics.qagr.io
+  - +.geo2.adobe.com
+  - +.gepush.com
+  - +.getui.com
+  - +.getui.net
+  - +.in.applicationinsights.azure.com
+  - +.jpush.cn
+  - +.jpush.io
+  - +.null
+  - +.slackb.com
+  - +.telemetry.mozilla.org
+  - +.trace.qq.com
+  - +.tracking.intl.miui.com
+  - +.tracking.miui.com
+  - +.undefined
+  - data.bilibili.com
+  - dataflow.biliapi.com
+  - nom.telemetrydeck.com
+  - stat.youpin.mi.com
+  - stats.grafana.org

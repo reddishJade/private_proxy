@@ -1,0 +1,8 @@
+# 更新时间: 2026-10-09 16:25:11（北京时间）
+# 规则数量: 5
+payload:
+  - +.bilibili.tv
+  - +.biliintl.com
+  - apm-misaka.biliapi.net
+  - upos-bstar-mirrorakam.akamaized.net
+  - upos-bstar1-mirrorakam.akamaized.net

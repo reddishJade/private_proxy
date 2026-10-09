@@ -1,0 +1,17 @@
+# 更新时间: 2026-10-09 16:25:12（北京时间）
+# 规则数量: 14
+payload:
+  - +.cdn-telegram.org
+  - +.graph.org
+  - +.legra.ph
+  - +.t.me
+  - +.tdesktop.com
+  - +.telega.one
+  - +.telegra.ph
+  - +.telegram.dog
+  - +.telegram.me
+  - +.telegram.org
+  - +.telegram.space
+  - +.telesco.pe
+  - +.tg.dev
+  - +.tx.me

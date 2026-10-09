@@ -1,0 +1,19 @@
+# 更新时间: 2026-10-09 16:24:51（北京时间）
+# 规则数量: 16
+payload:
+  - +.aaplimg.com
+  - +.apple-cloudkit.com
+  - +.apple-dns.net
+  - +.apple-mapkit.com
+  - +.apple.co
+  - +.apple.com
+  - +.apple.news
+  - +.appsto.re
+  - +.appstore.com
+  - +.cdn-apple.com
+  - +.icloud-content.com
+  - +.icloud.com
+  - +.itunes.com
+  - +.me.com
+  - +.organicfruitapps.com
+  - +.push-apple.com.akadns.net
