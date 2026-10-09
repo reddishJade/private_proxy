@@ -12,11 +12,11 @@
   format: txt
   behavior: classical
   upstream:
-    dler_ai:
-      type: http
-      url: "https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/AI%20Suite.yaml"
-      format: yaml
-      behavior: classical
+    # dler_ai:
+    #   type: http
+    #   url: "https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/AI%20Suite.yaml"
+    #   format: yaml
+    #   behavior: classical
     bett_openai:
       type: http
       url: "https://raw.githubusercontent.com/appshubcc/bett-rules/meta/geo/geosite/openai.yaml"
@@ -27,16 +27,16 @@
       url: "https://raw.githubusercontent.com/appshubcc/bett-rules/meta/geo/geosite/anthropic.yaml"
       format: yaml
       behavior: domain
-    bett_google_deepmind:
-      type: http
-      url: "https://raw.githubusercontent.com/appshubcc/bett-rules/meta/geo/geosite/google-deepmind.yaml"
-      format: yaml
-      behavior: domain
-    local_ai:
-      type: file
-      path: "local/ai.yaml"
-      format: yaml
-      behavior: domain
+    # bett_google_deepmind:
+    #   type: http
+    #   url: "https://raw.githubusercontent.com/appshubcc/bett-rules/meta/geo/geosite/google-deepmind.yaml"
+    #   format: yaml
+    #   behavior: domain
+    # local_ai:
+    #   type: file
+    #   path: "local/ai.yaml"
+    #   format: yaml
+    #   behavior: domain
 
 - path: output/apple@cn.list
   format: txt
