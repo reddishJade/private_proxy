@@ -1,0 +1,6 @@
+# 更新时间: 2026-10-11 00:26:22（北京时间）
+# 规则数量: 3
+payload:
+  - +.apple.com.edgekey.net
+  - +.push-apple.com.akadns.net
+  - +.push.apple.com

@@ -1,0 +1,16 @@
+# 更新时间: 2026-10-11 00:26:27（北京时间）
+# 规则数量: 13
+payload:
+  - +.byteoversea.com
+  - +.ibytedtos.com
+  - +.ibyteimg.com
+  - +.ipstatp.com
+  - +.muscdn.com
+  - +.musical.ly
+  - +.sgpstatp.com
+  - +.snssdk.com
+  - +.tik-tokapi.com
+  - +.tiktok.com
+  - +.tiktokcdn.com
+  - +.tiktokv.com
+  - p16-tiktokcdn-com.akamaized.net

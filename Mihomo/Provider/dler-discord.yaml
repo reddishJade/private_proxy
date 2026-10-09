@@ -1,0 +1,12 @@
+# 更新时间: 2026-10-11 00:26:22（北京时间）
+# 规则数量: 9
+payload:
+  - +.dis.gd
+  - +.discord.com
+  - +.discord.gg
+  - +.discord.gift
+  - +.discord.media
+  - +.discordapp.com
+  - +.discordapp.net
+  - +.discordsays.com
+  - +.discordstatus.com

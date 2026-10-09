@@ -1,0 +1,10 @@
+# 更新时间: 2026-10-11 00:26:26（北京时间）
+# 规则数量: 7
+payload:
+  - +.fast.com
+  - +.ooklaserver.net
+  - +.speed.cloudflare.com
+  - +.speedtest.co
+  - +.speedtest.net
+  - +.speedtestcustom.com
+  - speed.dler.io

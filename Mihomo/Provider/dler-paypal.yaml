@@ -1,0 +1,5 @@
+# 更新时间: 2026-10-11 00:26:26（北京时间）
+# 规则数量: 2
+payload:
+  - +.paypal.com
+  - +.paypalobjects.com
