@@ -32,6 +32,10 @@ jobs:
         run: |
           python Code/skk_ruleset.py
 
+      - name: Generate Dler ruleset targets
+        run: |
+          python Code/dler_ruleset.py
+
       - name: Convert YAML to MRS format
         run: |
           set -euo pipefail
