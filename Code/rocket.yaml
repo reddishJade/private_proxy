@@ -12,21 +12,26 @@
   format: txt
   behavior: classical
   upstream:
-    # dler_ai:
+    dler_ai:
+      type: http
+      url: "https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/AI%20Suite.yaml"
+      format: yaml
+      behavior: domain
+    bett_category_ai:
+      type: http
+      url: "https://raw.githubusercontent.com/appshubcc/bett-rules/meta/geo/geosite/category-ai-!cn.yaml"
+      format: yaml
+      behavior: domain
+    # bett_openai:
     #   type: http
-    #   url: "https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/AI%20Suite.yaml"
+    #   url: "https://raw.githubusercontent.com/appshubcc/bett-rules/meta/geo/geosite/openai.yaml"
     #   format: yaml
-    #   behavior: classical
-    bett_openai:
-      type: http
-      url: "https://raw.githubusercontent.com/appshubcc/bett-rules/meta/geo/geosite/openai.yaml"
-      format: yaml
-      behavior: domain
-    bett_anthropic:
-      type: http
-      url: "https://raw.githubusercontent.com/appshubcc/bett-rules/meta/geo/geosite/anthropic.yaml"
-      format: yaml
-      behavior: domain
+    #   behavior: domain
+    # bett_anthropic:
+    #   type: http
+    #   url: "https://raw.githubusercontent.com/appshubcc/bett-rules/meta/geo/geosite/anthropic.yaml"
+    #   format: yaml
+    #   behavior: domain
     # bett_google_deepmind:
     #   type: http
     #   url: "https://raw.githubusercontent.com/appshubcc/bett-rules/meta/geo/geosite/google-deepmind.yaml"
