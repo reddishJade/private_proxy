@@ -1,5 +1,5 @@
-# 更新时间: 2026-10-13 12:05:50（北京时间）
-# 规则数量: 251
+# 更新时间: 2026-11-27 04:36:46（北京时间）
+# 规则数量: 254
 DOMAIN,amp-api.podcasts.apple.com
 DOMAIN,api.smoot.apple.cn
 DOMAIN,appleintelligencefeedback.care.apple.com
@@ -7,6 +7,7 @@ DOMAIN,cdn-cn.apple-mapkit.com
 DOMAIN,certs-lb.apple.com.akadns.net
 DOMAIN,cl2-cdn.origin-apple.com.akadns.net
 DOMAIN,communities.apple.com
+DOMAIN,configuration.ls.apple.com
 DOMAIN,crl-lb.apple.com.akadns.net
 DOMAIN,discussionschinese.apple.com
 DOMAIN,fides-pol.apple.com
@@ -22,6 +23,8 @@ DOMAIN,s2.mzstatic.com
 DOMAIN,s3.mzstatic.com
 DOMAIN,s4.mzstatic.com
 DOMAIN,s5.mzstatic.com
+DOMAIN,sh-pod1-smp-device.apple.com
+DOMAIN,sh-pod3-smp-device.apple.com
 DOMAIN,tj-pod2-smp-device.apple.com
 DOMAIN,tj-pod3-smp-device.apple.com
 DOMAIN-SUFFIX,a1.mzstatic.com
@@ -73,6 +76,7 @@ DOMAIN-SUFFIX,beats4.cn
 DOMAIN-SUFFIX,beatsbydre.com
 DOMAIN-SUFFIX,beatsbydre.com.cn
 DOMAIN-SUFFIX,beatsep.cn
+DOMAIN-SUFFIX,captive.apple.com
 DOMAIN-SUFFIX,cdn-cn1.apple-mapkit.com
 DOMAIN-SUFFIX,cdn-cn2.apple-mapkit.com
 DOMAIN-SUFFIX,cdn-cn3.apple-mapkit.com
@@ -144,7 +148,6 @@ DOMAIN-SUFFIX,homepod.cn
 DOMAIN-SUFFIX,iadsdk.apple.com
 DOMAIN-SUFFIX,icloud-apple.cn
 DOMAIN-SUFFIX,icloud-content.com.cn
-DOMAIN-SUFFIX,icloud.cn
 DOMAIN-SUFFIX,icloud.com.cn
 DOMAIN-SUFFIX,icloud.net.cn
 DOMAIN-SUFFIX,icloudapple.cn

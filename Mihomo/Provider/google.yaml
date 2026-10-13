@@ -1,5 +1,5 @@
-# 更新时间: 2026-10-13 12:04:24（北京时间）
-# 规则数量: 1075
+# 更新时间: 2026-11-27 04:35:46（北京时间）
+# 规则数量: 1079
 payload:
   - +.0emm.com
   - +.1e100.net
@@ -208,6 +208,7 @@ payload:
   - +.gateway.dev
   - +.gbiz
   - +.gcr.io
+  - +.gemma.ai
   - +.gerritcodereview.com
   - +.get.app
   - +.get.dev
@@ -863,6 +864,9 @@ payload:
   - app-measurement-cn.com
   - app-measurement.com
   - apps5.oingo.com
+  - appsgenaiserver-pa.clients.google.com
+  - appsgenaiserver-pa.clients6.google.com
+  - appsgenaiserver-pa.googleapis.com
   - avail.googleflights.net
   - beacons.gcp.gvt2.com
   - beacons.gvt2.com
