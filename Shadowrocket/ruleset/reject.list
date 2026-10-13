@@ -1,5 +1,5 @@
-# 更新时间: 2026-10-13 12:05:54（北京时间）
-# 规则数量: 16245
+# 更新时间: 2026-10-24 22:57:44（北京时间）
+# 规则数量: 16260
 DOMAIN,118.89.204.198
 DOMAIN,1500020991.vodplayer.wxamedia.com
 DOMAIN,1500022744.vodplayer.wxamedia.com
@@ -18,8 +18,10 @@ DOMAIN,ad-analysis.pconline.com.cn
 DOMAIN,ad-api.4pyun.com
 DOMAIN,ad-cdn.qingting.fm
 DOMAIN,ad-channel.diwodiwo.xyz
+DOMAIN,ad-cmp.hismarttv.com
 DOMAIN,ad-cn.jovcloud.com
 DOMAIN,ad-display.diwodiwo.xyz
+DOMAIN,ad-download.hismarttv.com
 DOMAIN,ad-files.4pyun.com
 DOMAIN,ad-mediation.tuanguwen.com
 DOMAIN,ad-scope.com
@@ -456,6 +458,7 @@ DOMAIN,bj-td-menta-01-callback.advlion.com
 DOMAIN,bj.ad.track.66mobi.com
 DOMAIN,bloodhound.spotify.com
 DOMAIN,books-analytics-events.apple.com
+DOMAIN,boost-cmp.hismarttv.com
 DOMAIN,bootpreload.uve.weibo.com
 DOMAIN,brandadsstatic.vivo.com.cn
 DOMAIN,browser-intake-datadoghq.com
@@ -585,6 +588,7 @@ DOMAIN,frontend-perf-service.e.kuaishou.com
 DOMAIN,fxgate.baidu.com
 DOMAIN,g-adnet.hiaiabc.com
 DOMAIN,g-staic.ganjingworld.com
+DOMAIN,g.cn.miaozhen.com
 DOMAIN,g.dtv.cn.miaozhen.com
 DOMAIN,g.fancyapi.com
 DOMAIN,g.koowo.com
@@ -682,6 +686,7 @@ DOMAIN,img2.360buyimg.com
 DOMAIN,imgad0.pcauto.com.cn
 DOMAIN,imgad0.pconline.com.cn
 DOMAIN,imgadpai.thepaper.cn
+DOMAIN,imp-cmp.hismarttv.com
 DOMAIN,impression-asia.chinaliftoff.io
 DOMAIN,impression-asia.liftoff.io
 DOMAIN,impression.appsflyer.com
@@ -740,6 +745,7 @@ DOMAIN,lives.l.aiseet.atianqi.com
 DOMAIN,lives.l.ott.video.qq.com
 DOMAIN,livewebbs2pcdn.msstatic.com
 DOMAIN,lm10111.jtrincc.cn
+DOMAIN,loading-cmp.hismarttv.com
 DOMAIN,log-api-mn.huxiu.com
 DOMAIN,log-api.huxiu.com
 DOMAIN,log-api.pangolin-sdk-toutiao-b.com
@@ -860,6 +866,7 @@ DOMAIN,ms.applvn.com
 DOMAIN,ms4.applovin.com
 DOMAIN,ms4.applvn.com
 DOMAIN,msdk.voiceads.cn
+DOMAIN,msg-cmp.hismarttv.com
 DOMAIN,msmp.abchina.com.cn
 DOMAIN,mssdk.volces.com
 DOMAIN,mssdk.zijieapi.com
@@ -880,6 +887,7 @@ DOMAIN,o-sdk.mediation.unity3d.com
 DOMAIN,o.clarity.ms
 DOMAIN,o2o.api.xiaomi.com
 DOMAIN,o33249.ingest.sentry.io
+DOMAIN,o33249.ingest.us.sentry.io
 DOMAIN,o4504926511693824.ingest.sentry.io
 DOMAIN,offerwall.yandex.net
 DOMAIN,offnavi.map.baidu.com
@@ -925,6 +933,7 @@ DOMAIN,pagead2.googleadservices.com
 DOMAIN,pagead2.googlesyndication.com
 DOMAIN,pangolin-sdk-toutiao-b.com
 DOMAIN,pangolin.snssdk.com
+DOMAIN,paster-cmp.hismarttv.com
 DOMAIN,pay.sboot.cn
 DOMAIN,pcdn.xmcdn.com
 DOMAIN,pcdn.yximgs.com
@@ -968,6 +977,7 @@ DOMAIN,r0.mradx.net
 DOMAIN,r1.mail.ru
 DOMAIN,rd.autohome.com.cn
 DOMAIN,rd.da.netease.com
+DOMAIN,recmd-cmp.hismarttv.com
 DOMAIN,recommend-drcn.hms.dbankcloud.cn
 DOMAIN,regist.fotoable.com
 DOMAIN,reklama.mail.ru
@@ -981,6 +991,7 @@ DOMAIN,res1.hubcloud.com.cn
 DOMAIN,res2.hubcloud.com.cn
 DOMAIN,res3.hubcloud.com.cn
 DOMAIN,resolve.umeng.com
+DOMAIN,resource-cmp.hismarttv.com
 DOMAIN,review.gdtimg.com
 DOMAIN,rich.kuwo.cn
 DOMAIN,richmanapi.jxedt.com
@@ -1243,6 +1254,7 @@ DOMAIN,v1.log.moji.com
 DOMAIN,v2-ad.video.yximgs.com
 DOMAIN,v2-api-channel-launcher.hismarttv.com
 DOMAIN,v2.gdt.qq.com
+DOMAIN,v2.reachmax.cn
 DOMAIN,v2mi.gdt.qq.com
 DOMAIN,v3-ad.video.yximgs.com
 DOMAIN,v3.gdt.qq.com
@@ -4349,6 +4361,7 @@ DOMAIN-SUFFIX,bootpreload.uve.weibo.com
 DOMAIN-SUFFIX,bootscritp.com
 DOMAIN-SUFFIX,borsendental.com
 DOMAIN-SUFFIX,bosiwangzi.cn
+DOMAIN-SUFFIX,bouncex.net
 DOMAIN-SUFFIX,box.anchorfree.net
 DOMAIN-SUFFIX,boxercrazy.org
 DOMAIN-SUFFIX,boxshows.com
@@ -14306,6 +14319,7 @@ DOMAIN-SUFFIX,wka8.com
 DOMAIN-SUFFIX,wkanc.51y5.net
 DOMAIN-SUFFIX,wkanc.com
 DOMAIN-SUFFIX,wkctj.baidu.com
+DOMAIN-SUFFIX,wknd.ai
 DOMAIN-SUFFIX,wkzvf2658.com
 DOMAIN-SUFFIX,wl.51taifu.com
 DOMAIN-SUFFIX,wl.eastlady.cn
@@ -16092,6 +16106,7 @@ IP-CIDR,50.112.124.170/32
 IP-CIDR,51.15.3.223/32
 IP-CIDR,51.178.76.105/32
 IP-CIDR,51.68.87.229/32
+IP-CIDR,51.77.227.97/32
 IP-CIDR,51.89.187.141/32
 IP-CIDR,51.91.211.94/32
 IP-CIDR,51.91.66.125/32

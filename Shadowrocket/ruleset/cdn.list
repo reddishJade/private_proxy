@@ -1,5 +1,5 @@
-# 更新时间: 2026-10-13 12:05:51（北京时间）
-# 规则数量: 4771
+# 更新时间: 2026-10-24 22:57:42（北京时间）
+# 规则数量: 4792
 DOMAIN,0x0.st
 DOMAIN,3dna.nationbuilder.com
 DOMAIN,4gtvimg2.4gtv.tv
@@ -121,7 +121,9 @@ DOMAIN,assets-next.matters.news
 DOMAIN,assets-next.mattersprotocol.io
 DOMAIN,assets-proxy.anthropic.com
 DOMAIN,assets-s3-us-east-1.ceros.com
+DOMAIN,assets-static.99.co
 DOMAIN,assets-themes.chess.com
+DOMAIN,assets-v2.99.co
 DOMAIN,assets-v2.i-scmp.com
 DOMAIN,assets-v2.super.so
 DOMAIN,assets-www.readspeaker.com
@@ -203,6 +205,7 @@ DOMAIN,assets.getpostman.com
 DOMAIN,assets.github.dev
 DOMAIN,assets.goat.com
 DOMAIN,assets.gorgias.help
+DOMAIN,assets.grab.com
 DOMAIN,assets.grammarly.com
 DOMAIN,assets.grooveapps.com
 DOMAIN,assets.guim.co.uk
@@ -860,6 +863,7 @@ DOMAIN,cdn.plu.mx
 DOMAIN,cdn.plus500.com
 DOMAIN,cdn.plyr.io
 DOMAIN,cdn.pricespider.com
+DOMAIN,cdn.priv.center
 DOMAIN,cdn.privacy-mgmt.com
 DOMAIN,cdn.privacy.com
 DOMAIN,cdn.privacy.paramount.com
@@ -1137,6 +1141,7 @@ DOMAIN,celebrities-small.porndig.com
 DOMAIN,certificates.godaddy.com
 DOMAIN,cf-assets.www.cloudflare.com
 DOMAIN,cf-images.ap-northeast-1.prod.boltdns.net
+DOMAIN,cf-images.ap-southeast-1.prod.boltdns.net
 DOMAIN,cf-images.us-east-1.prod.boltdns.net
 DOMAIN,cf.channel.io
 DOMAIN,cf.eip.telegraph.co.uk
@@ -1269,6 +1274,7 @@ DOMAIN,css.comicbz.com
 DOMAIN,css.createsend1.com
 DOMAIN,css.yymanhua.com
 DOMAIN,curl.se
+DOMAIN,customer-first-focus.b-cdn.net
 DOMAIN,cw-image-resizer.cwg.tw
 DOMAIN,cwsimages.ingramcontent.com
 DOMAIN,d.newsweek.com
@@ -1506,6 +1512,7 @@ DOMAIN,frontend-apps.workos.com
 DOMAIN,frontend-assets.supabase.com
 DOMAIN,frontend-cdn.perplexity.ai
 DOMAIN,frontend.floatplane.com
+DOMAIN,frontend2.locally.com
 DOMAIN,fs.mingpao.com
 DOMAIN,fscdn.eppo.cloud
 DOMAIN,fullstackopen.com
@@ -1729,6 +1736,7 @@ DOMAIN,images.g2crowd.com
 DOMAIN,images.github.media
 DOMAIN,images.gog.com
 DOMAIN,images.hibob.com
+DOMAIN,images.higgs.ai
 DOMAIN,images.hothardware.com
 DOMAIN,images.icon-icons.com
 DOMAIN,images.indianexpress.com
@@ -1737,6 +1745,7 @@ DOMAIN,images.kick.com
 DOMAIN,images.klipfolio.com
 DOMAIN,images.loox.io
 DOMAIN,images.macrumors.com
+DOMAIN,images.macworld.co.uk
 DOMAIN,images.mathworks.com
 DOMAIN,images.mattel.net
 DOMAIN,images.microcms-assets.io
@@ -2195,6 +2204,7 @@ DOMAIN,media.themoviedb.org
 DOMAIN,media.theporndude.com
 DOMAIN,media.theresanaiforthat.com
 DOMAIN,media.trakt.tv
+DOMAIN,media.trekbikes.com
 DOMAIN,media.user.com
 DOMAIN,media.wd40.asia
 DOMAIN,media.webtoo.ls
@@ -2213,6 +2223,7 @@ DOMAIN,megapx-assets.dcard.tw
 DOMAIN,melonbooks.akamaized.net
 DOMAIN,meteorclient.com
 DOMAIN,metrics.kapa.ai
+DOMAIN,metrics.manus.im
 DOMAIN,mgx-backend-cdn.metadl.com
 DOMAIN,micro.rubiconproject.com
 DOMAIN,mintlify.b-cdn.net
@@ -2236,6 +2247,7 @@ DOMAIN,mstdn-s3.o3o.studio
 DOMAIN,mta.newfold.com
 DOMAIN,mui.com
 DOMAIN,mwcm.nyt.com
+DOMAIN,mweb-cdn.karousell.com
 DOMAIN,mwf-service.akamaized.net
 DOMAIN,my-json-server.typicode.com
 DOMAIN,n.approveit.today
@@ -2344,6 +2356,7 @@ DOMAIN,pic.imge.cc
 DOMAIN,pic.macked.app
 DOMAIN,pic.onlinewebfonts.com
 DOMAIN,pic.skk.moe
+DOMAIN,pic2.99.co
 DOMAIN,piccdn.7mmtv.sx
 DOMAIN,pics.dmm.co.jp
 DOMAIN,pics.hentai.name
@@ -2611,6 +2624,7 @@ DOMAIN,screenshots.codesandbox.io
 DOMAIN,screenshots.debian.net
 DOMAIN,screenshots.downloadtorrentfile.com
 DOMAIN,screenshots.webflow.com
+DOMAIN,scribe-web-sdk.grab.com
 DOMAIN,script.custobar.com
 DOMAIN,scripts.dailymail.co.uk
 DOMAIN,scripts.scriptwrapper.com
@@ -2675,6 +2689,7 @@ DOMAIN,simplicity.trustpilot.com
 DOMAIN,sites.chase.com
 DOMAIN,sites.super.so
 DOMAIN,skills-assets.pstmn.io
+DOMAIN,sl3-cdn.karousell.com
 DOMAIN,sm.ign.com
 DOMAIN,sm.pcmag.com
 DOMAIN,sn-s3-cdn.angry.im
@@ -2772,6 +2787,7 @@ DOMAIN,static-media.fox.com
 DOMAIN,static-mh.content.disney.io
 DOMAIN,static-oforms.onlyoffice.com
 DOMAIN,static-overlay.ubisoft.com
+DOMAIN,static-page.tp-link.com
 DOMAIN,static-production.npmjs.com
 DOMAIN,static-r.kamihimeproject.net
 DOMAIN,static-r2.gear4music.com
@@ -3064,6 +3080,7 @@ DOMAIN,static1.e621.net
 DOMAIN,static1.lottiefiles.com
 DOMAIN,static1.smartbear.co
 DOMAIN,static1.squarespace.com
+DOMAIN,static1.straitstimes.com.sg
 DOMAIN,static10.lottiefiles.com
 DOMAIN,static2.avg.com
 DOMAIN,static2.giroditalia.it
@@ -3322,6 +3339,7 @@ DOMAIN,v2uploads.zopim.io
 DOMAIN,vanilla-extract.style
 DOMAIN,variations.brave.com
 DOMAIN,vbmspic.video.friday.tw
+DOMAIN,vcc-assets.8x8.com
 DOMAIN,vcdn.anysex.com
 DOMAIN,vector.hereapi.com
 DOMAIN,vectorified.com
@@ -4582,7 +4600,9 @@ DOMAIN-SUFFIX,tpucdn.com
 DOMAIN-SUFFIX,trackerslist.com
 DOMAIN-SUFFIX,trafficdeposit.com
 DOMAIN-SUFFIX,transcend-cdn.com
+DOMAIN-SUFFIX,travel-assets.com
 DOMAIN-SUFFIX,trustless-gateway.link
+DOMAIN-SUFFIX,trvl-media.com
 DOMAIN-SUFFIX,ttcache.com
 DOMAIN-SUFFIX,ttl.sh
 DOMAIN-SUFFIX,ttwstatic.com
@@ -4736,6 +4756,7 @@ DOMAIN-WILDCARD,cdn?-dl.pornhost.com
 DOMAIN-WILDCARD,cdn?.18girlssex.com
 DOMAIN-WILDCARD,cdn?.mikuclub.fun
 DOMAIN-WILDCARD,cdns.*.gigya.com
+DOMAIN-WILDCARD,cf-images.*.prod.boltdns.net
 DOMAIN-WILDCARD,chunk-*.mux.com
 DOMAIN-WILDCARD,fastly-*.allmovie.com
 DOMAIN-WILDCARD,file?.mikuclub.fun

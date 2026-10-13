@@ -1,5 +1,5 @@
-# 更新时间: 2026-10-13 12:05:53（北京时间）
-# 规则数量: 2075
+# 更新时间: 2026-10-24 22:57:43（北京时间）
+# 规则数量: 2082
 DOMAIN,api.waqi.info
 DOMAIN,aqi.aqicn.org
 DOMAIN,ccmdl.adobe.com
@@ -208,10 +208,12 @@ DOMAIN-SUFFIX,bg
 DOMAIN-SUFFIX,bgm.tv
 DOMAIN-SUFFIX,bgp.tools
 DOMAIN-SUFFIX,bibox.com
+DOMAIN-SUFFIX,bidobido.xyz
 DOMAIN-SUFFIX,bigsound.org
 DOMAIN-SUFFIX,bikaa.xyz
 DOMAIN-SUFFIX,bikac.xyz
 DOMAIN-SUFFIX,bikaios.xyz
+DOMAIN-SUFFIX,bikawebapp.com
 DOMAIN-SUFFIX,binance.cc
 DOMAIN-SUFFIX,binance.com
 DOMAIN-SUFFIX,binance.me
@@ -416,6 +418,7 @@ DOMAIN-SUFFIX,disq.us
 DOMAIN-SUFFIX,disqus.com
 DOMAIN-SUFFIX,disquscdn.com
 DOMAIN-SUFFIX,distrowatch.com
+DOMAIN-SUFFIX,diwodiwo.xyz
 DOMAIN-SUFFIX,dk
 DOMAIN-SUFFIX,dler.io
 DOMAIN-SUFFIX,dlsite.com
@@ -934,6 +937,7 @@ DOMAIN-SUFFIX,hsex.men
 DOMAIN-SUFFIX,hsforms.com
 DOMAIN-SUFFIX,hsforms.net
 DOMAIN-SUFFIX,html5rocks.com
+DOMAIN-SUFFIX,huakacomic.com
 DOMAIN-SUFFIX,hubspotlinksstarter.com
 DOMAIN-SUFFIX,hubspotstarter.net
 DOMAIN-SUFFIX,huffpost.com
@@ -1272,6 +1276,7 @@ DOMAIN-SUFFIX,noip.com
 DOMAIN-SUFFIX,nordvpn.com
 DOMAIN-SUFFIX,note.com
 DOMAIN-SUFFIX,notepad-plus-plus.org
+DOMAIN-SUFFIX,notion.com
 DOMAIN-SUFFIX,notion.site
 DOMAIN-SUFFIX,notion.so
 DOMAIN-SUFFIX,novafile.com
@@ -1354,6 +1359,7 @@ DOMAIN-SUFFIX,ph
 DOMAIN-SUFFIX,phncdn.com
 DOMAIN-SUFFIX,photoshop.adobe.com
 DOMAIN-SUFFIX,piaotian.net
+DOMAIN-SUFFIX,pica-id.com
 DOMAIN-SUFFIX,picacgp.com
 DOMAIN-SUFFIX,picacgy.com
 DOMAIN-SUFFIX,picacn.xyz
@@ -1691,6 +1697,7 @@ DOMAIN-SUFFIX,tinychat.com
 DOMAIN-SUFFIX,tinypic.com
 DOMAIN-SUFFIX,tinypng.com
 DOMAIN-SUFFIX,tinyurl.com
+DOMAIN-SUFFIX,tipatipa.xyz
 DOMAIN-SUFFIX,tktube.com
 DOMAIN-SUFFIX,tmagazine.com
 DOMAIN-SUFFIX,tmblr.co

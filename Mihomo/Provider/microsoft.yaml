@@ -1,5 +1,5 @@
-# 更新时间: 2026-10-13 12:04:24（北京时间）
-# 规则数量: 747
+# 更新时间: 2026-10-24 22:56:25（北京时间）
+# 规则数量: 744
 payload:
   - +.1drv.com
   - +.21vbc.com
@@ -20,7 +20,6 @@ payload:
   - +.applicationinsights.net
   - +.appserviceenvironment.cn
   - +.aria.ms
-  - +.asobostudio.com
   - +.asp.net
   - +.aspnetcdn.com
   - +.atom.io
@@ -195,7 +194,6 @@ payload:
   - +.exp-tas.com
   - +.fasttrackreadysupport.com
   - +.femalefounderscomp.com
-  - +.flightsimulator.com
   - +.flipwithsurface.com
   - +.fluidpreview.com
   - +.footprintdns.com
@@ -664,7 +662,6 @@ payload:
   - dreamsparkuat.download.prss.microsoft.com
   - dtlgalleryint.cloudapp.net
   - f.c2r.ts.cdn.office.net
-  - flightsimulator.azureedge.net
   - github-api.arkoselabs.com
   - github-cloud.s3.amazonaws.com
   - github-production-release-asset-2e65be.s3.amazonaws.com

@@ -1,5 +1,5 @@
-# 更新时间: 2026-10-13 12:04:25（北京时间）
-# 规则数量: 2006
+# 更新时间: 2026-10-24 22:56:27（北京时间）
+# 规则数量: 2013
 payload:
   - +.123av.com
   - +.123av.me
@@ -188,10 +188,12 @@ payload:
   - +.bgm.tv
   - +.bgp.tools
   - +.bibox.com
+  - +.bidobido.xyz
   - +.bigsound.org
   - +.bikaa.xyz
   - +.bikac.xyz
   - +.bikaios.xyz
+  - +.bikawebapp.com
   - +.binance.cc
   - +.binance.com
   - +.binance.me
@@ -396,6 +398,7 @@ payload:
   - +.disqus.com
   - +.disquscdn.com
   - +.distrowatch.com
+  - +.diwodiwo.xyz
   - +.dk
   - +.dler.io
   - +.dlsite.com
@@ -914,6 +917,7 @@ payload:
   - +.hsforms.com
   - +.hsforms.net
   - +.html5rocks.com
+  - +.huakacomic.com
   - +.hubspotlinksstarter.com
   - +.hubspotstarter.net
   - +.huffpost.com
@@ -1252,6 +1256,7 @@ payload:
   - +.nordvpn.com
   - +.note.com
   - +.notepad-plus-plus.org
+  - +.notion.com
   - +.notion.site
   - +.notion.so
   - +.novafile.com
@@ -1334,6 +1339,7 @@ payload:
   - +.phncdn.com
   - +.photoshop.adobe.com
   - +.piaotian.net
+  - +.pica-id.com
   - +.picacgp.com
   - +.picacgy.com
   - +.picacn.xyz
@@ -1671,6 +1677,7 @@ payload:
   - +.tinypic.com
   - +.tinypng.com
   - +.tinyurl.com
+  - +.tipatipa.xyz
   - +.tktube.com
   - +.tmagazine.com
   - +.tmblr.co

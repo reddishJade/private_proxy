@@ -1,5 +1,5 @@
-# 更新时间: 2026-10-13 12:05:06（北京时间）
-# 规则数量: 3424
+# 更新时间: 2026-10-24 22:56:54（北京时间）
+# 规则数量: 3446
 payload:
   - +.backend.librespeed.org
   - +.fast.com
@@ -225,6 +225,7 @@ payload:
   - de-fra2-lg1.level66.network
   - de-lg.h2.nexus
   - de-speedtest.digitalexample.com
+  - de.riospeed.com
   - de.st.spacecore.pro
   - debit.psrv.ch
   - dehradun.blueskynetwork.in
@@ -534,6 +535,8 @@ payload:
   - ookla-autazes.amazoniasat-isp.com.br
   - ookla-ber.evolushost.com
   - ookla-crw.wvnet.edu
+  - ookla-dc3.services.proxad.net
+  - ookla-dc5.services.proxad.net
   - ookla-dfw.gigsouth.com
   - ookla-estepona.aerioncloud.com
   - ookla-in.mercuryfiber.com
@@ -542,12 +545,14 @@ payload:
   - ookla-lax.extentit.com
   - ookla-london.briantbroadband.com
   - ookla-london01.tropicalgames.net
+  - ookla-lyo.services.proxad.net
   - ookla-mgw.wvnet.edu
   - ookla-mi.tech.tiscali.it
   - ookla-mi01.nexim.it
   - ookla-mia.gigsouth.com
   - ookla-mil.seeweb.it
   - ookla-mispeed.rackgenius.com
+  - ookla-mrs.services.proxad.net
   - ookla-rm.tech.tiscali.it
   - ookla-server.vim.web.tr
   - ookla-speedtest-central.hgconair.hgc.com.hk
@@ -562,10 +567,12 @@ payload:
   - ookla.a56.as6453.net
   - ookla.aeq.as6453.net
   - ookla.alcloud.com.br
+  - ookla.alida.it
   - ookla.amazoniasat-isp.com.br
   - ookla.ams.atharva.co.id
   - ookla.apuacom.it
   - ookla.araujotelecom.com.br
+  - ookla.argsment.com
   - ookla.as400442.net
   - ookla.b2.neptune.net.au
   - ookla.ber-01.testpub.telefonica.de
@@ -676,6 +683,7 @@ payload:
   - pauseq4vost1.datamossa.cloud
   - perf-01.ixn.as42689.net
   - perf.keyyo.net
+  - perf1.moji1.sapi.net
   - phc-speed.twmbroadband.com
   - phl01.screenshot.download
   - phlph0001speedtestserver02.wiline.com
@@ -687,6 +695,7 @@ payload:
   - poitiers3.d2m.c2d.liveservices.fr
   - postapps.com
   - prescott1.cabospeed.com
+  - pri-r450-speedtest.metrocomm.com
   - ptldme-speedtest-ookla-01.st.charter.com
   - purtel39.purtel.com
   - purtel70.purtel.com
@@ -694,6 +703,7 @@ payload:
   - qld-speedtest.spirit.com.au
   - qoeookla-mimi-01.sys.comcast.net
   - qoeookla-ncst-01.sys.comcast.net
+  - qoeookla-rmnd-01.sys.comcast.net
   - qspt.technofiber.net
   - radnc-speedtest-ookla-01.st.charter.com
   - ran-r450-speedtest.metrocomm.com
@@ -879,6 +889,7 @@ payload:
   - spd79.claro.com.br
   - spdel.pcpli.net
   - spdfra.cndd.net
+  - spdgnet.gnetserver.com.br
   - spdms.mytpn.net
   - spdms.twincher.ru
   - spdookla10g0201.noanet.net
@@ -1217,6 +1228,7 @@ payload:
   - speedtest-lax.perfectip.net
   - speedtest-ld8.mindthespeed.co.za
   - speedtest-ldn.voxtelecom.co.za
+  - speedtest-lenexa.resoundnetworks.com
   - speedtest-lhr-01.pdx.net.uk
   - speedtest-lil.one-elephant.org
   - speedtest-limestonecoast-sa.optusnet.com.au
@@ -1265,6 +1277,7 @@ payload:
   - speedtest-mumbai.scify.co.in
   - speedtest-naw.pr-link.at
   - speedtest-net-fra.dispaisy.systems
+  - speedtest-net.hyprnode.de
   - speedtest-net.mk.de
   - speedtest-net.xjtlu.edu.cn
   - speedtest-newcastle.optusnet.com.au
@@ -1716,6 +1729,7 @@ payload:
   - speedtest.fiberlink.com.pe
   - speedtest.fiberlink.net.ua
   - speedtest.fiberlinknetwork.net
+  - speedtest.fiberlinksolutionsltd.co.ke
   - speedtest.fiberlync.net
   - speedtest.fibernetics.ca
   - speedtest.fibernetwork.com.br
@@ -1850,6 +1864,7 @@ payload:
   - speedtest.informartelecom.com.br
   - speedtest.inforr.com.br
   - speedtest.infortec.net.br
+  - speedtest.infortectelecom.net.br
   - speedtest.infowest.com
   - speedtest.infraly.co
   - speedtest.infrawire.host
@@ -2131,6 +2146,7 @@ payload:
   - speedtest.okencore.com
   - speedtest.ollatelecom.com.br
   - speedtest.omegasul.com.br
+  - speedtest.onetouchexpress.com
   - speedtest.ontarionet.net
   - speedtest.oopaya.com
   - speedtest.opennetfortaleza.com.br
@@ -2338,6 +2354,7 @@ payload:
   - speedtest.swnnms.net
   - speedtest.sycmilaa.metronetinc.com
   - speedtest.syd.hawknetlabs.au
+  - speedtest.syd.managednetworks.com.au
   - speedtest.syd.mhn.cloud
   - speedtest.syd.netsg.net.au
   - speedtest.syd01.launtel.net.au
@@ -2403,6 +2420,7 @@ payload:
   - speedtest.twl-kom.de
   - speedtest.uania.cloud
   - speedtest.ubc.ca
+  - speedtest.ufinet.co.cr
   - speedtest.ufinetlatam.net
   - speedtest.uia.net
   - speedtest.undercorp.com.br
@@ -2690,6 +2708,7 @@ payload:
   - speedtest2.avatel.es
   - speedtest2.bitsandbyte.co.in
   - speedtest2.cfoc.tech
+  - speedtest2.co-fi.es
   - speedtest2.comvergence.com.au
   - speedtest2.datafex.com.tr
   - speedtest2.dg-sys.net
@@ -3204,6 +3223,7 @@ payload:
   - sunmobile.hkspeedtest.com
   - suntechspeedtest.com
   - sv-ookla.geolinks.com
+  - syd.speedtest.pttnz.net
   - sydgs2speed4.wireline.com.au
   - sydspeedtest.rackdog.com
   - sydspeedtest.solitary.net.au
@@ -3321,6 +3341,7 @@ payload:
   - tul-speedtest.onenet.net
   - turknet16.residential.tr
   - two.speed.airc.it
+  - tx.speedtest.openinfra.com
   - txdllsspeedtest01.mybluepeak.net
   - txg-speedtest.infinirc.com
   - ty-bgp-speedtest.nearoute.io
@@ -3420,6 +3441,7 @@ payload:
   - yjl-speed.twmbroadband.com
   - yk-netspeed.nwtel.ca
   - yms-speed.kbro.com.tw
+  - yyc-speedtest.xeronetworks.co.uk
   - yyc-speedtest.xplore.ca
   - yyc-speedtest02.xplore.ca
   - yyz-speedtest.xplore.ca

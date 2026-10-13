@@ -1,5 +1,5 @@
-# 更新时间: 2026-10-13 12:04:25（北京时间）
-# 规则数量: 139
+# 更新时间: 2026-10-24 22:56:26（北京时间）
+# 规则数量: 141
 payload:
   - +.1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa
   - +.10.in-addr.arpa
@@ -129,6 +129,8 @@ payload:
   - dash.sing-box.app
   - instant.arubanetworks.com
   - local.adguard.org
+  - localhost.weixin.qq.com
+  - localhost.work.weixin.qq.com
   - metacubex.github.io
   - metacubexd.pages.dev
   - miwifi.com

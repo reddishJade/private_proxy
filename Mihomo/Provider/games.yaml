@@ -1,5 +1,5 @@
-# 更新时间: 2026-10-13 12:04:23（北京时间）
-# 规则数量: 899
+# 更新时间: 2026-10-24 22:56:25（北京时间）
+# 规则数量: 906
 payload:
   - +.100classicbooks.com
   - +.2k.com
@@ -26,7 +26,6 @@ payload:
   - +.artstation.com
   - +.artstationmedia.com
   - +.artstorm.com
-  - +.asobostudio.com
   - +.avatargarenanow-a.akamaihd.net
   - +.awayoutgame.com
   - +.ayudanintendo.com
@@ -213,7 +212,6 @@ payload:
   - +.fireemblemawakening.com
   - +.firesidegatherings.com
   - +.fitgirl-repacks.site
-  - +.flightsimulator.com
   - +.flipnotestudio.com
   - +.forgecdn.net
   - +.fortnite-vod.akamaized.net
@@ -229,6 +227,7 @@ payload:
   - +.gaijinent.com
   - +.game-repack.site
   - +.game.maj-soul.com
+  - +.gamebanana.com
   - +.gamedownloads-rockstargames-com.akamaized.net
   - +.gamepass.com
   - +.gamesfirsthelsinki.com
@@ -546,6 +545,7 @@ payload:
   - +.quiltmc.org
   - +.quixel.com
   - +.quixel.se
+  - +.r2modman.com
   - +.radgametools.com
   - +.ravensoftware.com
   - +.rayark.download
@@ -683,6 +683,7 @@ payload:
   - +.steamgames.com
   - +.steaminventoryhelper.com
   - +.steammobile.akamaized.net
+  - +.steamos.cloud
   - +.steampipe-kr.akamaized.net
   - +.steampipe-partner.akamaized.net
   - +.steampipe.akamaized.net
@@ -729,6 +730,8 @@ payload:
   - +.thesimssocial.com
   - +.thetrackernetwork.com
   - +.thewonderful101.com
+  - +.thunderstore.io
+  - +.thunderstore.org
   - +.tiberiumalliances.com
   - +.tiburon.com
   - +.titanfall.com
@@ -789,12 +792,14 @@ payload:
   - +.worldoftanks.eu
   - +.worldofwarcraft.com
   - +.worldofwarplanes.com
+  - +.worldofwarships.asia
   - +.worldofwarships.com
   - +.worldseriesofwarzone.com
   - +.wotblitz.com
   - +.wow.nosdn.127.net
   - +.wowchina.com
   - +.wowsblitz.com
+  - +.wplace.live
   - +.wtmobile.com
   - +.xbox
   - +.xbox.co
@@ -845,12 +850,14 @@ payload:
   - c.ppy.sh
   - client.hikarifield.co.jp
   - d1unuk07s6td74.cloudfront.net
+  - d348twzf7a8p5.cloudfront.net
   - datarouter.apps.netherrealm.com
+  - devforum-uploads.s3.dualstack.us-east-2.amazonaws.com
   - dlgarenanow-a.akamaihd.net
   - download.hikarifield.co.jp
+  - doy2mn9upadnk.cloudfront.net
   - eaasserts-a.akamaihd.net
   - epicgames-download1.akamaized.net
-  - flightsimulator.azureedge.net
   - gog-cdn-lumen.secure2.footprint.net
   - gog-cdn.akamaized.net
   - gog.salesmanago.com

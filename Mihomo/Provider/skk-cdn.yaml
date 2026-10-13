@@ -1,5 +1,5 @@
-# 更新时间: 2026-10-13 12:04:34（北京时间）
-# 规则数量: 4688
+# 更新时间: 2026-10-24 22:56:31（北京时间）
+# 规则数量: 4708
 payload:
   - +.1a-1791.com
   - +.1passwordusercontent.ca
@@ -1104,7 +1104,9 @@ payload:
   - +.trackerslist.com
   - +.trafficdeposit.com
   - +.transcend-cdn.com
+  - +.travel-assets.com
   - +.trustless-gateway.link
+  - +.trvl-media.com
   - +.ttcache.com
   - +.ttl.sh
   - +.ttwstatic.com
@@ -1351,7 +1353,9 @@ payload:
   - assets-next.mattersprotocol.io
   - assets-proxy.anthropic.com
   - assets-s3-us-east-1.ceros.com
+  - assets-static.99.co
   - assets-themes.chess.com
+  - assets-v2.99.co
   - assets-v2.i-scmp.com
   - assets-v2.super.so
   - assets-www.readspeaker.com
@@ -1433,6 +1437,7 @@ payload:
   - assets.github.dev
   - assets.goat.com
   - assets.gorgias.help
+  - assets.grab.com
   - assets.grammarly.com
   - assets.grooveapps.com
   - assets.guim.co.uk
@@ -2090,6 +2095,7 @@ payload:
   - cdn.plus500.com
   - cdn.plyr.io
   - cdn.pricespider.com
+  - cdn.priv.center
   - cdn.privacy-mgmt.com
   - cdn.privacy.com
   - cdn.privacy.paramount.com
@@ -2367,6 +2373,7 @@ payload:
   - certificates.godaddy.com
   - cf-assets.www.cloudflare.com
   - cf-images.ap-northeast-1.prod.boltdns.net
+  - cf-images.ap-southeast-1.prod.boltdns.net
   - cf-images.us-east-1.prod.boltdns.net
   - cf.channel.io
   - cf.eip.telegraph.co.uk
@@ -2499,6 +2506,7 @@ payload:
   - css.createsend1.com
   - css.yymanhua.com
   - curl.se
+  - customer-first-focus.b-cdn.net
   - cw-image-resizer.cwg.tw
   - cwsimages.ingramcontent.com
   - d.newsweek.com
@@ -2736,6 +2744,7 @@ payload:
   - frontend-assets.supabase.com
   - frontend-cdn.perplexity.ai
   - frontend.floatplane.com
+  - frontend2.locally.com
   - fs.mingpao.com
   - fscdn.eppo.cloud
   - fullstackopen.com
@@ -2959,6 +2968,7 @@ payload:
   - images.github.media
   - images.gog.com
   - images.hibob.com
+  - images.higgs.ai
   - images.hothardware.com
   - images.icon-icons.com
   - images.indianexpress.com
@@ -2967,6 +2977,7 @@ payload:
   - images.klipfolio.com
   - images.loox.io
   - images.macrumors.com
+  - images.macworld.co.uk
   - images.mathworks.com
   - images.mattel.net
   - images.microcms-assets.io
@@ -3425,6 +3436,7 @@ payload:
   - media.theporndude.com
   - media.theresanaiforthat.com
   - media.trakt.tv
+  - media.trekbikes.com
   - media.user.com
   - media.wd40.asia
   - media.webtoo.ls
@@ -3443,6 +3455,7 @@ payload:
   - melonbooks.akamaized.net
   - meteorclient.com
   - metrics.kapa.ai
+  - metrics.manus.im
   - mgx-backend-cdn.metadl.com
   - micro.rubiconproject.com
   - mintlify.b-cdn.net
@@ -3466,6 +3479,7 @@ payload:
   - mta.newfold.com
   - mui.com
   - mwcm.nyt.com
+  - mweb-cdn.karousell.com
   - mwf-service.akamaized.net
   - my-json-server.typicode.com
   - n.approveit.today
@@ -3574,6 +3588,7 @@ payload:
   - pic.macked.app
   - pic.onlinewebfonts.com
   - pic.skk.moe
+  - pic2.99.co
   - piccdn.7mmtv.sx
   - pics.dmm.co.jp
   - pics.hentai.name
@@ -3841,6 +3856,7 @@ payload:
   - screenshots.debian.net
   - screenshots.downloadtorrentfile.com
   - screenshots.webflow.com
+  - scribe-web-sdk.grab.com
   - script.custobar.com
   - scripts.dailymail.co.uk
   - scripts.scriptwrapper.com
@@ -3905,6 +3921,7 @@ payload:
   - sites.chase.com
   - sites.super.so
   - skills-assets.pstmn.io
+  - sl3-cdn.karousell.com
   - sm.ign.com
   - sm.pcmag.com
   - sn-s3-cdn.angry.im
@@ -4002,6 +4019,7 @@ payload:
   - static-mh.content.disney.io
   - static-oforms.onlyoffice.com
   - static-overlay.ubisoft.com
+  - static-page.tp-link.com
   - static-production.npmjs.com
   - static-r.kamihimeproject.net
   - static-r2.gear4music.com
@@ -4294,6 +4312,7 @@ payload:
   - static1.lottiefiles.com
   - static1.smartbear.co
   - static1.squarespace.com
+  - static1.straitstimes.com.sg
   - static10.lottiefiles.com
   - static2.avg.com
   - static2.giroditalia.it
@@ -4552,6 +4571,7 @@ payload:
   - vanilla-extract.style
   - variations.brave.com
   - vbmspic.video.friday.tw
+  - vcc-assets.8x8.com
   - vcdn.anysex.com
   - vector.hereapi.com
   - vectorified.com

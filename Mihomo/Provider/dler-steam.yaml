@@ -1,9 +1,20 @@
-# 更新时间: 2026-10-13 12:05:40（北京时间）
-# 规则数量: 6
+# 更新时间: 2026-10-24 22:57:22（北京时间）
+# 规则数量: 17
 payload:
+  - +.dota2.com
   - +.s.team
+  - +.steam-api.com
+  - +.steam-chat.com
+  - +.steam.tv
   - +.steamcommunity.com
+  - +.steamconnecttest.com
+  - +.steamdeck.com
   - +.steamgames.com
   - +.steampowered.com
   - +.steamstatic.com
   - +.steamusercontent.com
+  - +.underlords.com
+  - +.valve.net
+  - +.valvesoftware.com
+  - steammobile.akamaized.net
+  - steampipe.akamaized.net

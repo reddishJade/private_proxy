@@ -1,5 +1,5 @@
-# 更新时间: 2026-10-13 12:04:38（北京时间）
-# 规则数量: 867
+# 更新时间: 2026-10-24 22:56:32（北京时间）
+# 规则数量: 868
 payload:
   - +.10010.com
   - +.10086.cn
@@ -113,6 +113,7 @@ payload:
   - +.aliyundrive.com
   - +.aliyundrive.net
   - +.amap.com
+  - +.amemv.com
   - +.anjuke.com
   - +.anticheatexpert.com
   - +.antpcdn.com

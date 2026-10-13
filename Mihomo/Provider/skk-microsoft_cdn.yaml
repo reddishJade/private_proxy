@@ -1,5 +1,5 @@
-# 更新时间: 2026-10-13 12:04:44（北京时间）
-# 规则数量: 51
+# 更新时间: 2026-10-24 22:56:34（北京时间）
+# 规则数量: 50
 payload:
   - +.azuremigrate.download.prss.microsoft.com
   - +.azuremigratetest.download.prss.microsoft.com
@@ -11,7 +11,6 @@ payload:
   - +.collaborateppe.download.prss.microsoft.com
   - +.ctldl.windowsupdate.com
   - +.dl.delivery.mp.microsoft.com
-  - +.download.microsoft.com
   - +.download.visualstudio.microsoft.com
   - +.download.windowsupdate.com
   - +.dreamspark.download.prss.microsoft.com

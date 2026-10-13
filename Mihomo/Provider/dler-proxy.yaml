@@ -1,5 +1,5 @@
-# 更新时间: 2026-10-13 12:05:39（北京时间）
-# 规则数量: 953
+# 更新时间: 2026-10-24 22:57:22（北京时间）
+# 规则数量: 965
 payload:
   - +.1e100.net
   - +.2mdn.net
@@ -57,6 +57,7 @@ payload:
   - +.arcgis.com
   - +.archive.is
   - +.archive.org
+  - +.archiveofourown.org
   - +.archives.gov
   - +.armorgames.com
   - +.aspnetcdn.com
@@ -76,7 +77,10 @@ payload:
   - +.bbtoystore.com
   - +.bet365.com
   - +.betvictor.com
+  - +.bidobido.xyz
   - +.bigsound.org
+  - +.bikaios.xyz
+  - +.bikawebapp.com
   - +.bintray.com
   - +.bit.com
   - +.bit.do
@@ -155,6 +159,7 @@ payload:
   - +.disq.us
   - +.disqus.com
   - +.disquscdn.com
+  - +.diwodiwo.xyz
   - +.dler.io
   - +.dnsimple.com
   - +.docker.com
@@ -182,6 +187,7 @@ payload:
   - +.duckduckgo.com
   - +.dueapp.com
   - +.dw.com
+  - +.e-hentai.org
   - +.easybib.com
   - +.economist.com
   - +.edgecastcdn.net
@@ -191,6 +197,7 @@ payload:
   - +.entrust.net
   - +.eurekavpt.com
   - +.evernote.com
+  - +.exhentai.org
   - +.extmatrix.com
   - +.eyny.com
   - +.fabric.io
@@ -500,6 +507,7 @@ payload:
   - +.hootsuite.com
   - +.howtoforge.com
   - +.html5rocks.com
+  - +.huakacomic.com
   - +.i-cable.com
   - +.iam.soy
   - +.icoco.com
@@ -568,6 +576,7 @@ payload:
   - +.macrumors.com
   - +.madewithcode.com
   - +.mangaup.jp
+  - +.manhuabika.com
   - +.manhuaren.com
   - +.marketwatch.com
   - +.mashable.com
@@ -632,6 +641,7 @@ payload:
   - +.pdfexpert.com
   - +.periscope.tv
   - +.piaotian.net
+  - +.pica-id.com
   - +.picacomic.com
   - +.picasaweb.com
   - +.picjs.xyz
@@ -763,6 +773,7 @@ payload:
   - +.tiny.cc
   - +.tinychat.com
   - +.tinypic.com
+  - +.tipatipa.xyz
   - +.tmblr.co
   - +.todoist.com
   - +.togetter.com
@@ -888,6 +899,7 @@ payload:
   - +.whatsapp.net
   - +.whatsappbrand.com
   - +.wheel-size.cn
+  - +.wikawika.xyz
   - +.wikibooks.org
   - +.wikidata.org
   - +.wikifunctions.org
