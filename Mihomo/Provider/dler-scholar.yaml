@@ -1,5 +1,5 @@
-# 更新时间: 2026-10-13 12:05:40（北京时间）
-# 规则数量: 74
+# 更新时间: 2026-11-07 11:23:23（北京时间）
+# 规则数量: 94
 payload:
   - +.acm.org
   - +.acs.org
@@ -7,6 +7,7 @@ payload:
   - +.ams.org
   - +.annualreviews.org
   - +.aps.org
+  - +.arxiv.org
   - +.ascelibrary.org
   - +.asm.org
   - +.asme.org
@@ -38,6 +39,19 @@ payload:
   - +.libguides.com
   - +.liebertpub.com
   - +.madsrevolution.net
+  - +.mathematica.com
+  - +.mathworks.cn
+  - +.mathworks.co.jp
+  - +.mathworks.co.kr
+  - +.mathworks.co.uk
+  - +.mathworks.com
+  - +.mathworks.com.au
+  - +.mathworks.de
+  - +.mathworks.fr
+  - +.mathworks.in
+  - +.mathworks.nl
+  - +.mathworks.se
+  - +.matlab.com
   - +.mdpi.com
   - +.mpg.de
   - +.myilibrary.com
@@ -73,5 +87,11 @@ payload:
   - +.webofknowledge.com
   - +.westlaw.com
   - +.wiley.com
+  - +.wolfram.co.uk
+  - +.wolfram.com
+  - +.wolframalpha.com
+  - +.wolframalpha.net
+  - +.wolframcdn.com
+  - +.wolframcloud.com
   - +.worldbank.org
   - +.worldscientific.com

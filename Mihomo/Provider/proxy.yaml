@@ -1,5 +1,5 @@
-# 更新时间: 2026-10-13 12:04:25（北京时间）
-# 规则数量: 2006
+# 更新时间: 2026-11-07 11:22:31（北京时间）
+# 规则数量: 2021
 payload:
   - +.123av.com
   - +.123av.me
@@ -188,10 +188,12 @@ payload:
   - +.bgm.tv
   - +.bgp.tools
   - +.bibox.com
+  - +.bidobido.xyz
   - +.bigsound.org
   - +.bikaa.xyz
   - +.bikac.xyz
   - +.bikaios.xyz
+  - +.bikawebapp.com
   - +.binance.cc
   - +.binance.com
   - +.binance.me
@@ -304,6 +306,7 @@ payload:
   - +.cloudgarage.jp
   - +.cloudmagic.com
   - +.cloudns.net
+  - +.cloudproxy.app
   - +.clubhouse.com
   - +.clubhouseapi.com
   - +.cmail19.com
@@ -396,6 +399,7 @@ payload:
   - +.disqus.com
   - +.disquscdn.com
   - +.distrowatch.com
+  - +.diwodiwo.xyz
   - +.dk
   - +.dler.io
   - +.dlsite.com
@@ -462,6 +466,7 @@ payload:
   - +.edu
   - +.ee
   - +.elasticbeanstalk.com
+  - +.element.io
   - +.elgoog.im
   - +.engadget.com
   - +.entrust.net
@@ -849,6 +854,7 @@ payload:
   - +.googlezip.net
   - +.gooogle.com
   - +.gosetsuden.jp
+  - +.gotinder.com
   - +.gov
   - +.gqhongkong.com
   - +.grafana.com
@@ -914,6 +920,7 @@ payload:
   - +.hsforms.com
   - +.hsforms.net
   - +.html5rocks.com
+  - +.huakacomic.com
   - +.hubspotlinksstarter.com
   - +.hubspotstarter.net
   - +.huffpost.com
@@ -1252,6 +1259,7 @@ payload:
   - +.nordvpn.com
   - +.note.com
   - +.notepad-plus-plus.org
+  - +.notion.com
   - +.notion.site
   - +.notion.so
   - +.novafile.com
@@ -1261,6 +1269,7 @@ payload:
   - +.npm.io
   - +.npmjs.com
   - +.npmjs.org
+  - +.npmx.dev
   - +.npr.org
   - +.nrk.no
   - +.nsfwr34.com
@@ -1334,6 +1343,7 @@ payload:
   - +.phncdn.com
   - +.photoshop.adobe.com
   - +.piaotian.net
+  - +.pica-id.com
   - +.picacgp.com
   - +.picacgy.com
   - +.picacn.xyz
@@ -1617,6 +1627,7 @@ payload:
   - +.talkboxapp.com
   - +.talkcc.com
   - +.talkonly.net
+  - +.tampermonkey.net
   - +.tapbots.com
   - +.tapbots.net
   - +.teamviewer.com
@@ -1664,6 +1675,7 @@ payload:
   - +.time.com
   - +.timeinc.net
   - +.tinder.com
+  - +.tindersparks.com
   - +.tindie.com
   - +.tineye.com
   - +.tiny.cc
@@ -1671,6 +1683,7 @@ payload:
   - +.tinypic.com
   - +.tinypng.com
   - +.tinyurl.com
+  - +.tipatipa.xyz
   - +.tktube.com
   - +.tmagazine.com
   - +.tmblr.co
@@ -1703,6 +1716,7 @@ payload:
   - +.travis-ci.com
   - +.travis-ci.org
   - +.trello.com
+  - +.trellocdn.com
   - +.trendsmap.com
   - +.tronscan.org
   - +.trulyergonomic.com
@@ -1796,6 +1810,7 @@ payload:
   - +.vansky.com
   - +.vanta.com
   - +.vbstatic.co
+  - +.vector.im
   - +.venchina.com
   - +.venturebeat.com
   - +.veoh.com

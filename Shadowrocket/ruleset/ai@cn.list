@@ -1,7 +1,8 @@
-# 更新时间: 2026-10-13 12:05:50（北京时间）
-# 规则数量: 115
+# 更新时间: 2026-11-07 11:23:36（北京时间）
+# 规则数量: 128
 DOMAIN,ai.zhaomi.cn
 DOMAIN,cueme-api.quark.cn
+DOMAIN-SUFFIX,ai-indeed.com
 DOMAIN-SUFFIX,aispeech.com
 DOMAIN-SUFFIX,antafu.com
 DOMAIN-SUFFIX,antaq.com
@@ -38,11 +39,15 @@ DOMAIN-SUFFIX,deepseeksvc.com
 DOMAIN-SUFFIX,diandianlife.top
 DOMAIN-SUFFIX,doubao-dev.com
 DOMAIN-SUFFIX,doubao.com
+DOMAIN-SUFFIX,doubaoapps.com
 DOMAIN-SUFFIX,doubaocdn.com
 DOMAIN-SUFFIX,doudou.com
 DOMAIN-SUFFIX,dui.ai
 DOMAIN-SUFFIX,duiopen.com
 DOMAIN-SUFFIX,dumate.cn
+DOMAIN-SUFFIX,favonis.cloud
+DOMAIN-SUFFIX,favonis.com
+DOMAIN-SUFFIX,favonis.space
 DOMAIN-SUFFIX,faxingbao.com
 DOMAIN-SUFFIX,hailuoai.com
 DOMAIN-SUFFIX,happyhorse.cn
@@ -50,6 +55,7 @@ DOMAIN-SUFFIX,happyshrimp.cn
 DOMAIN-SUFFIX,hi-butterfly.cn
 DOMAIN-SUFFIX,hunyuan.tencent.com
 DOMAIN-SUFFIX,instreet.com
+DOMAIN-SUFFIX,kakaxing.com
 DOMAIN-SUFFIX,kechuangai.com
 DOMAIN-SUFFIX,kimi.com
 DOMAIN-SUFFIX,kling-ai.com
@@ -89,6 +95,12 @@ DOMAIN-SUFFIX,qwenlm.ai
 DOMAIN-SUFFIX,rwkv.cn
 DOMAIN-SUFFIX,rwkv.com
 DOMAIN-SUFFIX,safeskill.cn
+DOMAIN-SUFFIX,senseaudio.cn
+DOMAIN-SUFFIX,senseavatar.com
+DOMAIN-SUFFIX,sensecore.cn
+DOMAIN-SUFFIX,sensefoundry.cn
+DOMAIN-SUFFIX,sensenova.cn
+DOMAIN-SUFFIX,sensetime.com
 DOMAIN-SUFFIX,shunjing.xin
 DOMAIN-SUFFIX,skillhub.cn
 DOMAIN-SUFFIX,sleeplesshorizon.cn
@@ -102,6 +114,7 @@ DOMAIN-SUFFIX,trae.com.cn
 DOMAIN-SUFFIX,trae.guru
 DOMAIN-SUFFIX,workbuddy.cn
 DOMAIN-SUFFIX,xiaoaiassist.com
+DOMAIN-SUFFIX,xiaohuanxiong.com
 DOMAIN-SUFFIX,xiaomimimo.com
 DOMAIN-SUFFIX,xiezuocat.com
 DOMAIN-SUFFIX,xinghuo.xfyun.cn

@@ -1,11 +1,12 @@
-# 更新时间: 2026-10-13 12:05:36（北京时间）
-# 规则数量: 16
+# 更新时间: 2026-11-07 11:23:20（北京时间）
+# 规则数量: 19
 payload:
   - +.aaplimg.com
   - +.apple-cloudkit.com
   - +.apple-dns.net
   - +.apple-livephotoskit.com
   - +.apple-mapkit.com
+  - +.apple-support.akadns.net
   - +.apple.co
   - +.apple.com
   - +.apple.com.akadns.net
@@ -15,5 +16,7 @@ payload:
   - +.icloud.com
   - +.icloud.com.akadns.net
   - +.itunes.com
+  - +.ls-apple.com.akadns.net
   - +.me.com
+  - +.me.com.akadns.net
   - +.mzstatic.com

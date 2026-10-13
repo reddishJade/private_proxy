@@ -1,5 +1,5 @@
-# 更新时间: 2026-10-13 12:04:38（北京时间）
-# 规则数量: 867
+# 更新时间: 2026-11-07 11:22:36（北京时间）
+# 规则数量: 869
 payload:
   - +.10010.com
   - +.10086.cn
@@ -113,6 +113,7 @@ payload:
   - +.aliyundrive.com
   - +.aliyundrive.net
   - +.amap.com
+  - +.amemv.com
   - +.anjuke.com
   - +.anticheatexpert.com
   - +.antpcdn.com
@@ -271,6 +272,7 @@ payload:
   - +.didistatic.com
   - +.digicert.cn
   - +.dingtalk.com
+  - +.dittocdn.com
   - +.dizzylab.net
   - +.dl.bscstorage.net
   - +.dl.delivery.mp.microsoft.com
