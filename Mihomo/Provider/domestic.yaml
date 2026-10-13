@@ -1,5 +1,5 @@
-# 更新时间: 2026-10-13 12:04:20（北京时间）
-# 规则数量: 1010
+# 更新时间: 2026-11-14 11:42:51（北京时间）
+# 规则数量: 1044
 payload:
   - +.10010.com
   - +.10086.cn
@@ -122,6 +122,7 @@ payload:
   - +.aliyundrive.net
   - +.alphassl.com
   - +.amap.com
+  - +.amemv.com
   - +.anjuke.com
   - +.anticheatexpert.com
   - +.antpcdn.com
@@ -187,7 +188,9 @@ payload:
   - +.bytedance.com
   - +.bytednsdoc.com
   - +.byteeffecttos.com
+  - +.bytegecko.com
   - +.bytegoofy.com
+  - +.bytehwm.com
   - +.byteimg.com
   - +.bytescm.com
   - +.bytetcc.com
@@ -236,7 +239,6 @@ payload:
   - +.clouddn.com
   - +.cloudglab.com
   - +.cloudsigma.com
-  - +.cloudxns.net
   - +.cls.cn
   - +.cm.steampowered.com
   - +.cmbchina.cn
@@ -290,6 +292,7 @@ payload:
   - +.dcarvod.com
   - +.dcloud.io
   - +.dct-cloud.com
+  - +.deepseek.com
   - +.dewu.com
   - +.dfcfw.com
   - +.dianping.com
@@ -302,6 +305,10 @@ payload:
   - +.digicert.cn
   - +.digicert.com
   - +.dingtalk.com
+  - +.dingtalk.net
+  - +.dingtalkapps.com
+  - +.dingtalkcloud.com
+  - +.dittocdn.com
   - +.dizzylab.net
   - +.dl.bscstorage.net
   - +.dl.delivery.mp.microsoft.com
@@ -322,6 +329,7 @@ payload:
   - +.doubao.com
   - +.douyin.com
   - +.douyincdn.com
+  - +.douyinfe.com
   - +.douyinliving.com
   - +.douyinpay.com
   - +.douyinpic.com
@@ -363,7 +371,10 @@ payload:
   - +.feiliao.com
   - +.feishu.cn
   - +.feishu.net
+  - +.feishuapp.com
   - +.feishucdn.com
+  - +.feishudoc.com
+  - +.feishuimg.com
   - +.feishupkg.com
   - +.feizhu.com
   - +.feng.com
@@ -441,7 +452,11 @@ payload:
   - +.hujiang.com
   - +.huolala.cn
   - +.huoshan.com
+  - +.huoshancdn.com
+  - +.huoshanimg.com
+  - +.huoshanlive.com
   - +.huoshanstatic.com
+  - +.huoshanvod.com
   - +.huoshanzhibo.com
   - +.hupu.com
   - +.huxiu.com
@@ -453,6 +468,7 @@ payload:
   - +.hwtrip.com
   - +.hwwt8.com
   - +.hxcdn.net
+  - +.hypercachenode.com
   - +.i4.cn
   - +.ialicdn.com
   - +.ibreader.com
@@ -464,11 +480,20 @@ payload:
   - +.icourse163.org
   - +.id6.com
   - +.id6.me
+  - +.idouyinliving.com
+  - +.idouyinpic.com
+  - +.idouyinstatic.com
+  - +.idouyinvod.com
   - +.idqqimg.com
   - +.iesdouyin.com
+  - +.iesdouyin.net
   - +.ifeng.com
   - +.ifengimg.com
   - +.igamecj.com
+  - +.ihuoshanimg.com
+  - +.ihuoshanlive.com
+  - +.ihuoshanstatic.com
+  - +.ihuoshanvod.com
   - +.images-amazon.com
   - +.img4me.com
   - +.infoq.cn
@@ -494,10 +519,10 @@ payload:
   - +.jdcdn.com
   - +.jdcloud.com
   - +.jdpay.com
+  - +.jianguoyun.com
   - +.jianshu.com
   - +.jianshu.io
   - +.jianshuapi.com
-  - +.jiathis.com
   - +.jiemian.com
   - +.jiguang.cn
   - +.jomodns.com
@@ -510,6 +535,7 @@ payload:
   - +.kdslife.com
   - +.keepcdn.com
   - +.kfcapp.cn
+  - +.kimi.com
   - +.kingsoft-office-service.com
   - +.kkmh.com
   - +.klook.com
@@ -665,6 +691,7 @@ payload:
   - +.passthepopcorn.me
   - +.pchome.net
   - +.pchpic.net
+  - +.pddcdn.com
   - +.pddpic.com
   - +.pddugc.com
   - +.peiluyou.com
@@ -731,7 +758,6 @@ payload:
   - +.qyer.com
   - +.qyerstatic.com
   - +.qzone.com
-  - +.rarbg.to
   - +.raylink.live
   - +.realme.com
   - +.realmebbs.com
@@ -752,12 +778,15 @@ payload:
   - +.sandai.net
   - +.sankuai.com
   - +.saxyit.com
+  - +.sdo.com
   - +.segmentfault.com
   - +.servicewechat.com
   - +.sevencdn.com
   - +.sf-express.com
   - +.sharepoint.cn
   - +.shifen.com
+  - +.shimo.im
+  - +.shimonote.com
   - +.shyhhema.com
   - +.sifou.com
   - +.sina.cn
@@ -789,7 +818,6 @@ payload:
   - +.soulapp.cn
   - +.speedtest.cn
   - +.sspai.com
-  - +.startssl.com
   - +.staticdn.net
   - +.steam.clngaa.com
   - +.steam.ksyna.com
@@ -798,7 +826,8 @@ payload:
   - +.suning.cn
   - +.suning.com
   - +.sunlogin.net
-  - +.symcd.com
+  - +.supercachenet.com
+  - +.supercachenode.com
   - +.szbdyd.com
   - +.t.cn
   - +.t3go.cn
@@ -840,8 +869,6 @@ payload:
   - +.toutiaopage.com
   - +.toutiaostatic.com
   - +.toutiaovod.com
-  - +.trello.com
-  - +.trellocdn.com
   - +.tripcdn.cn
   - +.ttmeiju.com
   - +.tudou.com
@@ -852,6 +879,7 @@ payload:
   - +.udache.com
   - +.udesk.cn
   - +.udqqimg.com
+  - +.ultracachenode.com
   - +.umengcloud.com
   - +.unionpay.com
   - +.upaiyun.com
@@ -866,6 +894,7 @@ payload:
   - +.vmallres.com
   - +.volccdn.com
   - +.volcengine.com
+  - +.volcengineapi.com
   - +.volces.com
   - +.volcvideo.com
   - +.wallstreetcn.com
@@ -898,12 +927,12 @@ payload:
   - +.wo.cn
   - +.wosms.cn
   - +.wps.cn
+  - +.wps.com
   - +.wpscdn.cn
   - +.wpscdn.com
   - +.wscn.net
   - +.wukong.com
   - +.x3322.net
-  - +.xdrig.com
   - +.xhostfire.com
   - +.xhscdn.com
   - +.xiachufang.com
@@ -940,6 +969,7 @@ payload:
   - +.yeah.net
   - +.yeepay.com
   - +.yhd.com
+  - +.yhgfb-cn-static.com
   - +.yicai.com
   - +.yinxiang.com
   - +.yitao.com
@@ -984,6 +1014,7 @@ payload:
   - +.zuoyebang.com
   - +.zybang.com
   - acg.tv
+  - app.jianguoyun.com
   - app.viayoo.com
   - assets1.xboxlive.cn
   - assets2.xboxlive.cn
@@ -991,6 +1022,7 @@ payload:
   - cdnstatic.tencentcs.com
   - client.amplifi.com
   - cn.download.nvidia.com
+  - comet.jianguoyun.com
   - config.ubnt.com
   - dl.ubnt.com
   - dns.pub
@@ -1004,9 +1036,11 @@ payload:
   - media.cdn.queniuqe.com
   - ocsp.globalsign.com
   - ocsp2.globalsign.com
+  - p-aweme-im-img-sign.bytedance.net
   - res.viayoo.com
   - time.xtracloud.net
   - url.cn
+  - v5-dy-o-abtest.zjcdn.com
   - viayoo.com
   - www.intel.cn
   - www.layuicdn.com

@@ -1,8 +1,9 @@
-# 更新时间: 2026-10-13 12:05:37（北京时间）
-# 规则数量: 265
+# 更新时间: 2026-11-14 11:43:33（北京时间）
+# 规则数量: 330
 payload:
   - +.10010.com
   - +.12306.com
+  - +.123pan.com
   - +.126.net
   - +.163.com
   - +.360.com
@@ -31,6 +32,7 @@ payload:
   - +.aliyuncs.com
   - +.alphassl.com
   - +.amap.com
+  - +.amemv.com
   - +.appshike.com
   - +.appstore.com
   - +.autonavi.com
@@ -43,6 +45,15 @@ payload:
   - +.beatsbydre.com
   - +.bochk.com
   - +.broadcasthe.net
+  - +.byted-static.com
+  - +.bytednsdoc.com
+  - +.bytegecko.com
+  - +.bytegoofy.com
+  - +.bytehwm.com
+  - +.byteimg.com
+  - +.bytescm.com
+  - +.bytetcc.com
+  - +.bytetos.com
   - +.caiyunapp.com
   - +.ccb.com
   - +.ccgslb.com
@@ -55,7 +66,6 @@ payload:
   - +.citicbank.com
   - +.clouddn.com
   - +.cloudsigma.com
-  - +.cloudxns.net
   - +.cmbchina.com
   - +.cmbimg.com
   - +.cmct.tv
@@ -65,11 +75,23 @@ payload:
   - +.coolapk.com
   - +.cz88.net
   - +.dct-cloud.com
+  - +.deepseek.com
   - +.didialift.com
   - +.digicert.com
+  - +.dingtalk.com
+  - +.dingtalk.net
+  - +.dingtalkapps.com
+  - +.dingtalkcloud.com
   - +.douban.com
   - +.doubanio.com
+  - +.doubao.com
   - +.douyin.com
+  - +.douyincdn.com
+  - +.douyinfe.com
+  - +.douyinliving.com
+  - +.douyinpic.com
+  - +.douyinstatic.com
+  - +.douyinvod.com
   - +.douyu.com
   - +.douyu.tv
   - +.douyutv.com
@@ -81,6 +103,10 @@ payload:
   - +.ecitic.net
   - +.eudic.net
   - +.ewqcxz.com
+  - +.feishuapp.com
+  - +.feishucdn.com
+  - +.feishudoc.com
+  - +.feishuimg.com
   - +.feng.com
   - +.fir.im
   - +.frdic.com
@@ -100,24 +126,44 @@ payload:
   - +.hollisterco.com
   - +.hongxiu.com
   - +.hujiang.com
+  - +.huoshancdn.com
+  - +.huoshanimg.com
+  - +.huoshanlive.com
+  - +.huoshanstatic.com
+  - +.huoshanvod.com
   - +.hxcdn.net
+  - +.hypercachenode.com
+  - +.ibytedapm.com
   - +.icedropper.com
   - +.iciba.com
+  - +.idouyinliving.com
+  - +.idouyinpic.com
+  - +.idouyinstatic.com
+  - +.idouyinvod.com
+  - +.iesdouyin.com
+  - +.iesdouyin.net
   - +.ifeng.com
   - +.ifengimg.com
+  - +.ihuoshanimg.com
+  - +.ihuoshanlive.com
+  - +.ihuoshanstatic.com
+  - +.ihuoshanvod.com
   - +.images-amazon.com
   - +.img4me.com
   - +.ipapark.com
   - +.ithome.com
   - +.ixdzs.com
+  - +.ixigua.com
+  - +.ixiguavideo.com
   - +.jd.com
   - +.jd.hk
+  - +.jianguoyun.com
   - +.jianshu.com
   - +.jianshu.io
   - +.jianshuapi.com
-  - +.jiathis.com
   - +.jomodns.com
   - +.jsboxbbs.com
+  - +.kimi.com
   - +.knewone.com
   - +.kuaidi100.com
   - +.kugou.com
@@ -150,6 +196,7 @@ payload:
   - +.netease.com
   - +.nfoservers.com
   - +.ngabbs.com
+  - +.nlark.com
   - +.nuomi.com
   - +.oray.com
   - +.oray.net
@@ -157,10 +204,14 @@ payload:
   - +.ourdvs.com
   - +.p4pfile.com
   - +.passthepopcorn.me
+  - +.pddcdn.com
+  - +.pddpic.com
   - +.pgyer.com
+  - +.pinduoduo.com
   - +.pingan.com
   - +.pniao.com
   - +.privatehd.to
+  - +.pstatp.com
   - +.qbox.me
   - +.qcc.com
   - +.qcloud.com
@@ -179,18 +230,21 @@ payload:
   - +.qq.net
   - +.qqmail.com
   - +.qqurl.com
-  - +.rarbg.to
   - +.raylink.live
   - +.redacted.ch
   - +.rednotecdn.com
   - +.rnote.com
   - +.rrmj.tv
   - +.ruguoapp.com
+  - +.sdo.com
   - +.servicewechat.com
   - +.sf-express.com
+  - +.shimo.im
+  - +.shimonote.com
   - +.sinaapp.com
   - +.sinaimg.com
   - +.smzdm.com
+  - +.snssdk.com
   - +.snwx.com
   - +.so.com
   - +.sogou.com
@@ -201,10 +255,10 @@ payload:
   - +.sonyentertainmentnetwork.com
   - +.soso.com
   - +.sspai.com
-  - +.startssl.com
   - +.suning.com
   - +.sunlogin.net
-  - +.symcd.com
+  - +.supercachenet.com
+  - +.supercachenode.com
   - +.taobao.com
   - +.tawk.link
   - +.tawk.to
@@ -216,15 +270,18 @@ payload:
   - +.tmzvps.com
   - +.todesk.com
   - +.totheglory.im
-  - +.trello.com
-  - +.trellocdn.com
+  - +.toutiao.com
   - +.ttmeiju.com
   - +.tudou.com
   - +.udache.com
+  - +.ultracachenode.com
   - +.umengcloud.com
   - +.upaiyun.com
   - +.upyun.com
   - +.uxengine.net
+  - +.volcengine.com
+  - +.volcengineapi.com
+  - +.volces.com
   - +.wandoujia.com
   - +.weather.bjango.com
   - +.webqxs.com
@@ -234,9 +291,11 @@ payload:
   - +.weiphone.com
   - +.weiphone.net
   - +.weixinbridge.com
+  - +.weiyun.com
   - +.werewolf.53site.com
   - +.wkcdn.com
-  - +.xdrig.com
+  - +.wps.com
+  - +.wpscdn.com
   - +.xhostfire.com
   - +.xhscdn.com
   - +.xiaohongshu.com
@@ -249,20 +308,26 @@ payload:
   - +.xmcdn.com
   - +.xslb.net
   - +.yach.me
+  - +.yangkeduo.com
   - +.yeepay.com
   - +.yhd.com
+  - +.yhgfb-cn-static.com
   - +.yinxiang.com
   - +.yixia.com
   - +.ykimg.com
   - +.youdao.com
   - +.ysepay.com
   - +.yunjiasu-cdn.net
+  - +.yuque.com
   - +.zealer.com
   - +.zgslb.net
   - +.zhihu.com
   - +.zhimg.com
+  - +.zijieapi.com
   - +.zimuzu.tv
   - +.zmz002.com
   - +.zmzfile.com
   - client.amplifi.com
   - ip.bjango.com
+  - p-aweme-im-img-sign.bytedance.net
+  - v5-dy-o-abtest.zjcdn.com

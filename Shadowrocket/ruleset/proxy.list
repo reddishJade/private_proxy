@@ -1,5 +1,5 @@
-# 更新时间: 2026-10-13 12:05:53（北京时间）
-# 规则数量: 2075
+# 更新时间: 2026-11-14 11:43:47（北京时间）
+# 规则数量: 2090
 DOMAIN,api.waqi.info
 DOMAIN,aqi.aqicn.org
 DOMAIN,ccmdl.adobe.com
@@ -208,10 +208,12 @@ DOMAIN-SUFFIX,bg
 DOMAIN-SUFFIX,bgm.tv
 DOMAIN-SUFFIX,bgp.tools
 DOMAIN-SUFFIX,bibox.com
+DOMAIN-SUFFIX,bidobido.xyz
 DOMAIN-SUFFIX,bigsound.org
 DOMAIN-SUFFIX,bikaa.xyz
 DOMAIN-SUFFIX,bikac.xyz
 DOMAIN-SUFFIX,bikaios.xyz
+DOMAIN-SUFFIX,bikawebapp.com
 DOMAIN-SUFFIX,binance.cc
 DOMAIN-SUFFIX,binance.com
 DOMAIN-SUFFIX,binance.me
@@ -324,6 +326,7 @@ DOMAIN-SUFFIX,cloudfunctions.net
 DOMAIN-SUFFIX,cloudgarage.jp
 DOMAIN-SUFFIX,cloudmagic.com
 DOMAIN-SUFFIX,cloudns.net
+DOMAIN-SUFFIX,cloudproxy.app
 DOMAIN-SUFFIX,clubhouse.com
 DOMAIN-SUFFIX,clubhouseapi.com
 DOMAIN-SUFFIX,cmail19.com
@@ -416,6 +419,7 @@ DOMAIN-SUFFIX,disq.us
 DOMAIN-SUFFIX,disqus.com
 DOMAIN-SUFFIX,disquscdn.com
 DOMAIN-SUFFIX,distrowatch.com
+DOMAIN-SUFFIX,diwodiwo.xyz
 DOMAIN-SUFFIX,dk
 DOMAIN-SUFFIX,dler.io
 DOMAIN-SUFFIX,dlsite.com
@@ -482,6 +486,7 @@ DOMAIN-SUFFIX,edns.ip-api.com
 DOMAIN-SUFFIX,edu
 DOMAIN-SUFFIX,ee
 DOMAIN-SUFFIX,elasticbeanstalk.com
+DOMAIN-SUFFIX,element.io
 DOMAIN-SUFFIX,elgoog.im
 DOMAIN-SUFFIX,engadget.com
 DOMAIN-SUFFIX,entrust.net
@@ -869,6 +874,7 @@ DOMAIN-SUFFIX,googlevideo.com
 DOMAIN-SUFFIX,googlezip.net
 DOMAIN-SUFFIX,gooogle.com
 DOMAIN-SUFFIX,gosetsuden.jp
+DOMAIN-SUFFIX,gotinder.com
 DOMAIN-SUFFIX,gov
 DOMAIN-SUFFIX,gqhongkong.com
 DOMAIN-SUFFIX,grafana.com
@@ -934,6 +940,7 @@ DOMAIN-SUFFIX,hsex.men
 DOMAIN-SUFFIX,hsforms.com
 DOMAIN-SUFFIX,hsforms.net
 DOMAIN-SUFFIX,html5rocks.com
+DOMAIN-SUFFIX,huakacomic.com
 DOMAIN-SUFFIX,hubspotlinksstarter.com
 DOMAIN-SUFFIX,hubspotstarter.net
 DOMAIN-SUFFIX,huffpost.com
@@ -1272,6 +1279,7 @@ DOMAIN-SUFFIX,noip.com
 DOMAIN-SUFFIX,nordvpn.com
 DOMAIN-SUFFIX,note.com
 DOMAIN-SUFFIX,notepad-plus-plus.org
+DOMAIN-SUFFIX,notion.com
 DOMAIN-SUFFIX,notion.site
 DOMAIN-SUFFIX,notion.so
 DOMAIN-SUFFIX,novafile.com
@@ -1281,6 +1289,7 @@ DOMAIN-SUFFIX,npm.im
 DOMAIN-SUFFIX,npm.io
 DOMAIN-SUFFIX,npmjs.com
 DOMAIN-SUFFIX,npmjs.org
+DOMAIN-SUFFIX,npmx.dev
 DOMAIN-SUFFIX,npr.org
 DOMAIN-SUFFIX,nrk.no
 DOMAIN-SUFFIX,nsfwr34.com
@@ -1354,6 +1363,7 @@ DOMAIN-SUFFIX,ph
 DOMAIN-SUFFIX,phncdn.com
 DOMAIN-SUFFIX,photoshop.adobe.com
 DOMAIN-SUFFIX,piaotian.net
+DOMAIN-SUFFIX,pica-id.com
 DOMAIN-SUFFIX,picacgp.com
 DOMAIN-SUFFIX,picacgy.com
 DOMAIN-SUFFIX,picacn.xyz
@@ -1637,6 +1647,7 @@ DOMAIN-SUFFIX,talk853.com
 DOMAIN-SUFFIX,talkboxapp.com
 DOMAIN-SUFFIX,talkcc.com
 DOMAIN-SUFFIX,talkonly.net
+DOMAIN-SUFFIX,tampermonkey.net
 DOMAIN-SUFFIX,tapbots.com
 DOMAIN-SUFFIX,tapbots.net
 DOMAIN-SUFFIX,teamviewer.com
@@ -1684,6 +1695,7 @@ DOMAIN-SUFFIX,tiltbrush.com
 DOMAIN-SUFFIX,time.com
 DOMAIN-SUFFIX,timeinc.net
 DOMAIN-SUFFIX,tinder.com
+DOMAIN-SUFFIX,tindersparks.com
 DOMAIN-SUFFIX,tindie.com
 DOMAIN-SUFFIX,tineye.com
 DOMAIN-SUFFIX,tiny.cc
@@ -1691,6 +1703,7 @@ DOMAIN-SUFFIX,tinychat.com
 DOMAIN-SUFFIX,tinypic.com
 DOMAIN-SUFFIX,tinypng.com
 DOMAIN-SUFFIX,tinyurl.com
+DOMAIN-SUFFIX,tipatipa.xyz
 DOMAIN-SUFFIX,tktube.com
 DOMAIN-SUFFIX,tmagazine.com
 DOMAIN-SUFFIX,tmblr.co
@@ -1723,6 +1736,7 @@ DOMAIN-SUFFIX,transparency.org
 DOMAIN-SUFFIX,travis-ci.com
 DOMAIN-SUFFIX,travis-ci.org
 DOMAIN-SUFFIX,trello.com
+DOMAIN-SUFFIX,trellocdn.com
 DOMAIN-SUFFIX,trendsmap.com
 DOMAIN-SUFFIX,tronscan.org
 DOMAIN-SUFFIX,trulyergonomic.com
@@ -1816,6 +1830,7 @@ DOMAIN-SUFFIX,vanpeople.com
 DOMAIN-SUFFIX,vansky.com
 DOMAIN-SUFFIX,vanta.com
 DOMAIN-SUFFIX,vbstatic.co
+DOMAIN-SUFFIX,vector.im
 DOMAIN-SUFFIX,venchina.com
 DOMAIN-SUFFIX,venturebeat.com
 DOMAIN-SUFFIX,veoh.com

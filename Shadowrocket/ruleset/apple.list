@@ -1,5 +1,5 @@
-# 更新时间: 2026-10-13 12:05:51（北京时间）
-# 规则数量: 1790
+# 更新时间: 2026-11-14 11:43:46（北京时间）
+# 规则数量: 1792
 DOMAIN,a1.mzstatic.com
 DOMAIN,a2.mzstatic.com
 DOMAIN,a3.mzstatic.com
@@ -183,6 +183,7 @@ DOMAIN,probe.siri.apple.com
 DOMAIN,prod-support.apple-support.akadns.net
 DOMAIN,publicassets.cdn-apple.com
 DOMAIN,push-apple.com.akadns.net
+DOMAIN,radio.itunes.apple.com
 DOMAIN,s.mzstatic.com
 DOMAIN,s1.mzstatic.com
 DOMAIN,s2.mzstatic.com
@@ -197,7 +198,9 @@ DOMAIN,seed-swallow.siri.apple.com
 DOMAIN,seed.siri.apple.com
 DOMAIN,sequoia.apple.com
 DOMAIN,sf-api-token-service.itunes.apple.com
+DOMAIN,sh-pod1-smp-device.apple.com
 DOMAIN,sh-pod2-smp-device.apple.com
+DOMAIN,sh-pod3-smp-device.apple.com
 DOMAIN,shazam-insights.cdn-apple.com
 DOMAIN,smp-device-content.apple.com
 DOMAIN,sp.itunes.apple.com
@@ -1247,7 +1250,6 @@ DOMAIN-SUFFIX,icloud-content.com.cn
 DOMAIN-SUFFIX,icloud-isupport.com
 DOMAIN-SUFFIX,icloud-sandbox.com
 DOMAIN-SUFFIX,icloud.ch
-DOMAIN-SUFFIX,icloud.cn
 DOMAIN-SUFFIX,icloud.com
 DOMAIN-SUFFIX,icloud.com.cn
 DOMAIN-SUFFIX,icloud.de

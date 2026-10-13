@@ -1,5 +1,5 @@
-# 更新时间: 2026-10-13 12:04:38（北京时间）
-# 规则数量: 18
+# 更新时间: 2026-11-14 11:42:58（北京时间）
+# 规则数量: 20
 payload:
   - +.360buyimg.com
   - +.ali-safety-video.acfun.cn
@@ -17,5 +17,7 @@ payload:
   - +.tbcdn.cn
   - +.tx-safety-video.acfun.cn
   - +.zhimg.com
+  - app.jianguoyun.com
+  - comet.jianguoyun.com
   - registry.npmmirror.com
   - time.xtracloud.net

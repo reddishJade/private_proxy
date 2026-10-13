@@ -1,5 +1,5 @@
-# 更新时间: 2026-10-13 12:05:39（北京时间）
-# 规则数量: 572
+# 更新时间: 2026-11-14 11:43:35（北京时间）
+# 规则数量: 573
 payload:
   - +.1drv.com
   - +.1drv.ms
@@ -524,6 +524,7 @@ payload:
   - +.visualstudio.net
   - +.vsallin.net
   - +.vsassets.io
+  - +.vscode-cdn.net
   - +.vscode-unpkg.net
   - +.vscode-webview.net
   - +.vscode.dev

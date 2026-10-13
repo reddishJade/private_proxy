@@ -1,6 +1,7 @@
-# 更新时间: 2026-10-13 12:04:53（北京时间）
-# 规则数量: 27
+# 更新时间: 2026-11-14 11:43:05（北京时间）
+# 规则数量: 30
 payload:
+  - +.amplitude.com
   - +.beacon.qq.com
   - +.data.grammarly.com
   - +.data.microsoft.com
@@ -13,6 +14,7 @@ payload:
   - +.gepush.com
   - +.getui.com
   - +.getui.net
+  - +.gnar.grammarly.com
   - +.in.applicationinsights.azure.com
   - +.jpush.cn
   - +.jpush.io
@@ -23,6 +25,7 @@ payload:
   - +.tracking.intl.miui.com
   - +.tracking.miui.com
   - +.undefined
+  - api.segment.io
   - data.bilibili.com
   - dataflow.biliapi.com
   - nom.telemetrydeck.com

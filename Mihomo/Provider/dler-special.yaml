@@ -1,13 +1,19 @@
-# 更新时间: 2026-10-13 12:05:40（北京时间）
-# 规则数量: 85
+# 更新时间: 2026-11-14 11:43:35（北京时间）
+# 规则数量: 98
 payload:
+  - +.3gppnetwork.org
+  - +.alipay.hk
+  - +.alipayhk.com
+  - +.antbank.hk
   - +.app-measurement.com
   - +.appstoreconnect.apple.com
   - +.audiences.me
   - +.auth.com
   - +.awesome-hd.me
+  - +.bank.za.group
   - +.broadcasthe.net
   - +.chdbits.co
+  - +.citibank.com.hk
   - +.classix-unlimited.co.uk
   - +.cn-ssl.ls.apple.com
   - +.cn.ls.apple.com
@@ -17,8 +23,12 @@ payload:
   - +.empornium.me
   - +.gazellegames.net
   - +.gspe19-cn-ssl.ls.apple.com
+  - +.hangseng.com
+  - +.hangseng.com.hk
   - +.hdchina.org
   - +.hdsky.me
+  - +.hsbc.com.hk
+  - +.hsbc.hk
   - +.icetorrent.org
   - +.itunesconnect.apple.com
   - +.jpopsuki.eu
@@ -36,6 +46,7 @@ payload:
   - +.sandai.net
   - +.solarcity.com
   - +.springsunday.net
+  - +.standardchartered.com.hk
   - +.steamchina.com
   - +.steamcontent.com
   - +.steamserver.net
@@ -48,7 +59,9 @@ payload:
   - +.tjupt.org
   - +.totheglory.im
   - +.ts.la
+  - +.ts.net
   - +.xunlei.com
+  - +.zabank.com
   - aod.itunes.apple.com
   - api.smoot.apple.cn
   - appldnld.apple.com

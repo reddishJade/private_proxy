@@ -1,6 +1,7 @@
-# 更新时间: 2026-10-13 12:04:17（北京时间）
-# 规则数量: 115
+# 更新时间: 2026-11-14 11:42:49（北京时间）
+# 规则数量: 129
 payload:
+  - +.ai-indeed.com
   - +.aispeech.com
   - +.antafu.com
   - +.antaq.com
@@ -37,11 +38,15 @@ payload:
   - +.diandianlife.top
   - +.doubao-dev.com
   - +.doubao.com
+  - +.doubaoapps.com
   - +.doubaocdn.com
   - +.doudou.com
   - +.dui.ai
   - +.duiopen.com
   - +.dumate.cn
+  - +.favonis.cloud
+  - +.favonis.com
+  - +.favonis.space
   - +.faxingbao.com
   - +.hailuoai.com
   - +.happyhorse.cn
@@ -49,6 +54,7 @@ payload:
   - +.hi-butterfly.cn
   - +.hunyuan.tencent.com
   - +.instreet.com
+  - +.kakaxing.com
   - +.kechuangai.com
   - +.kimi.com
   - +.kling-ai.com
@@ -75,6 +81,7 @@ payload:
   - +.myparallelstory.com
   - +.n.cn
   - +.namiso.com
+  - +.nia-teams.com
   - +.obriccloud.com
   - +.obricclouddw.com
   - +.oceancloudapi.com
@@ -88,6 +95,12 @@ payload:
   - +.rwkv.cn
   - +.rwkv.com
   - +.safeskill.cn
+  - +.senseaudio.cn
+  - +.senseavatar.com
+  - +.sensecore.cn
+  - +.sensefoundry.cn
+  - +.sensenova.cn
+  - +.sensetime.com
   - +.shunjing.xin
   - +.skillhub.cn
   - +.sleeplesshorizon.cn
@@ -101,6 +114,7 @@ payload:
   - +.trae.guru
   - +.workbuddy.cn
   - +.xiaoaiassist.com
+  - +.xiaohuanxiong.com
   - +.xiaomimimo.com
   - +.xiezuocat.com
   - +.xinghuo.xfyun.cn
