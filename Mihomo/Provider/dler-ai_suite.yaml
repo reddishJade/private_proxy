@@ -1,5 +1,5 @@
-# 更新时间: 2026-10-13 12:05:35（北京时间）
-# 规则数量: 136
+# 更新时间: 2026-10-31 10:53:43（北京时间）
+# 规则数量: 169
 payload:
   - +.aisandbox-pa.googleapis.com
   - +.aistudio.google.com
@@ -42,6 +42,9 @@ payload:
   - +.generativeai.google
   - +.generativelanguage.googleapis.com
   - +.githubcopilot.com
+  - +.grok.com
+  - +.grokipedia.com
+  - +.grokusercontent.com
   - +.groq.com
   - +.intercom.io
   - +.intercomcdn.com
@@ -53,6 +56,7 @@ payload:
   - +.makersuite.google.com
   - +.meta.ai
   - +.mistral.ai
+  - +.muse.ai
   - +.notebook.google
   - +.notebook.google.com
   - +.notebooklm.cloud.google.com
@@ -77,12 +81,16 @@ payload:
   - +.traeapi.us
   - +.udify.app
   - +.windsurf.com
+  - +.x.ai
   - +.zed.dev
   - account.jetbrains.com
   - accounts.spacex.ai
-  - accounts.x.ai
   - ai.google.dev
   - aida.googleapis.com
+  - aiplatform.eu.rep.googleapis.com
+  - aiplatform.googleapis.com
+  - aiplatform.mtls.googleapis.com
+  - aiplatform.us.rep.googleapis.com
   - alkalicore-pa.clients6.google.com
   - alkalimakersuite-pa.clients6.google.com
   - anysphere-binaries.s3.us-east-1.amazonaws.com
@@ -95,45 +103,70 @@ payload:
   - apple-relay.cloudflare.com
   - apple-relay.fastly-edge.com
   - apple-relay.mask.apple-dns.net
-  - auth.grok.com
-  - auth.grokipedia.com
-  - auth.grokusercontent.com
-  - auth.x.ai
+  - businessaicode.eu.rep.googleapis.com
+  - businessaicode.googleapis.com
+  - businessaicode.mtls.googleapis.com
+  - businessaicode.us.rep.googleapis.com
   - cdn.openaimerge.com
   - cdn.workos.com
   - challenges.cloudflare.com
   - chat.openai.com.cdn.cloudflare.net
   - cloudcode-pa.googleapis.com
+  - content-autofill.googleapis.com
   - copilot-proxy.githubusercontent.com
   - copilot-reports.github.com
   - copilot-telemetry.githubusercontent.com
   - cp4.cloudflare.com
+  - csp.withgoogle.com
   - daily-cloudcode-pa.googleapis.com
   - daily-cloudcode-pa.sandbox.googleapis.com
   - default.exp-tas.com
+  - discoveryengine.googleapis.com
+  - discoveryengine.mtls.googleapis.com
+  - encrypted-tbn0.gstatic.com
+  - encrypted-tbn1.gstatic.com
+  - encrypted-tbn2.gstatic.com
+  - encrypted-tbn3.gstatic.com
+  - eu-discoveryengine.googleapis.com
+  - eu-discoveryengine.mtls.googleapis.com
+  - fonts.googleapis.com
+  - fonts.gstatic.com
   - forwarder.workos.com
   - gateway.ai.cloudflare.com
   - gspe1-ssl.ls.apple.com
   - humb.apple.com
   - images.workoscdn.com
+  - jnn-pa.googleapis.com
   - js.stripe.com
   - jules.googleapis.com
   - labs.google
+  - lh3.google.com
+  - lh3.googleusercontent.com
+  - lh5.googleusercontent.com
   - login.live.com
   - login.microsoftonline.com
+  - maps.googleapis.com
+  - maps.gstatic.com
   - o207216.ingest.sentry.io
   - o33249.ingest.sentry.io
   - oauth.account.jetbrains.com
+  - ogs.google.com
   - openaiapi-site.azureedge.net
   - openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
   - openaicomproductionae4b.blob.core.windows.net
+  - optimizationguide-pa.googleapis.com
   - origin-tracker.githubusercontent.com
+  - play.google.com
   - production-openaicom-storage.azureedge.net
   - q.eu-central-1.amazonaws.com
   - q.us-east-1.amazonaws.com
   - rum.browser-intake-datadoghq.com
   - setup.workos.com
+  - ssl.gstatic.com
+  - streetviewpixels-pa.googleapis.com
   - trae-api-sg.mchost.guru
   - trae-api-us.mchost.guru
+  - us-discoveryengine.googleapis.com
+  - us-discoveryengine.mtls.googleapis.com
   - waa-pa.clients6.google.com
   - workos.imgix.net

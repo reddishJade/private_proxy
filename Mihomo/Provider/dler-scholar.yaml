@@ -1,5 +1,5 @@
-# 更新时间: 2026-10-13 12:05:40（北京时间）
-# 规则数量: 74
+# 更新时间: 2026-10-31 10:53:46（北京时间）
+# 规则数量: 75
 payload:
   - +.acm.org
   - +.acs.org
@@ -7,6 +7,7 @@ payload:
   - +.ams.org
   - +.annualreviews.org
   - +.aps.org
+  - +.arxiv.org
   - +.ascelibrary.org
   - +.asm.org
   - +.asme.org

@@ -1,5 +1,5 @@
-# 更新时间: 2026-10-13 12:05:50（北京时间）
-# 规则数量: 251
+# 更新时间: 2026-10-31 10:54:03（北京时间）
+# 规则数量: 252
 DOMAIN,amp-api.podcasts.apple.com
 DOMAIN,api.smoot.apple.cn
 DOMAIN,appleintelligencefeedback.care.apple.com
@@ -22,6 +22,8 @@ DOMAIN,s2.mzstatic.com
 DOMAIN,s3.mzstatic.com
 DOMAIN,s4.mzstatic.com
 DOMAIN,s5.mzstatic.com
+DOMAIN,sh-pod1-smp-device.apple.com
+DOMAIN,sh-pod3-smp-device.apple.com
 DOMAIN,tj-pod2-smp-device.apple.com
 DOMAIN,tj-pod3-smp-device.apple.com
 DOMAIN-SUFFIX,a1.mzstatic.com
@@ -144,7 +146,6 @@ DOMAIN-SUFFIX,homepod.cn
 DOMAIN-SUFFIX,iadsdk.apple.com
 DOMAIN-SUFFIX,icloud-apple.cn
 DOMAIN-SUFFIX,icloud-content.com.cn
-DOMAIN-SUFFIX,icloud.cn
 DOMAIN-SUFFIX,icloud.com.cn
 DOMAIN-SUFFIX,icloud.net.cn
 DOMAIN-SUFFIX,icloudapple.cn

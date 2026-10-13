@@ -1,5 +1,5 @@
-# 更新时间: 2026-10-13 12:04:18（北京时间）
-# 规则数量: 251
+# 更新时间: 2026-10-31 10:52:55（北京时间）
+# 规则数量: 252
 payload:
   - +.a1.mzstatic.com
   - +.a2.mzstatic.com
@@ -121,7 +121,6 @@ payload:
   - +.iadsdk.apple.com
   - +.icloud-apple.cn
   - +.icloud-content.com.cn
-  - +.icloud.cn
   - +.icloud.com.cn
   - +.icloud.net.cn
   - +.icloudapple.cn
@@ -250,5 +249,7 @@ payload:
   - s3.mzstatic.com
   - s4.mzstatic.com
   - s5.mzstatic.com
+  - sh-pod1-smp-device.apple.com
+  - sh-pod3-smp-device.apple.com
   - tj-pod2-smp-device.apple.com
   - tj-pod3-smp-device.apple.com

@@ -1,5 +1,5 @@
-# 更新时间: 2026-10-13 12:04:23（北京时间）
-# 规则数量: 344
+# 更新时间: 2026-10-31 10:52:58（北京时间）
+# 规则数量: 343
 payload:
   - +.17173.com
   - +.17173cdn.com
@@ -110,7 +110,6 @@ payload:
   - +.gclouddolphin.com
   - +.gcloudsdk.com
   - +.gcloudsvcs.com
-  - +.gdtimg.com
   - +.ggkuai.com
   - +.gijsq.com
   - +.golink.com

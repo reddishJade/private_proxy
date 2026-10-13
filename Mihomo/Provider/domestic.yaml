@@ -1,5 +1,5 @@
-# 更新时间: 2026-10-13 12:04:20（北京时间）
-# 规则数量: 1010
+# 更新时间: 2026-10-31 10:52:56（北京时间）
+# 规则数量: 1035
 payload:
   - +.10010.com
   - +.10086.cn
@@ -122,6 +122,7 @@ payload:
   - +.aliyundrive.net
   - +.alphassl.com
   - +.amap.com
+  - +.amemv.com
   - +.anjuke.com
   - +.anticheatexpert.com
   - +.antpcdn.com
@@ -187,7 +188,9 @@ payload:
   - +.bytedance.com
   - +.bytednsdoc.com
   - +.byteeffecttos.com
+  - +.bytegecko.com
   - +.bytegoofy.com
+  - +.bytehwm.com
   - +.byteimg.com
   - +.bytescm.com
   - +.bytetcc.com
@@ -322,6 +325,7 @@ payload:
   - +.doubao.com
   - +.douyin.com
   - +.douyincdn.com
+  - +.douyinfe.com
   - +.douyinliving.com
   - +.douyinpay.com
   - +.douyinpic.com
@@ -441,7 +445,11 @@ payload:
   - +.hujiang.com
   - +.huolala.cn
   - +.huoshan.com
+  - +.huoshancdn.com
+  - +.huoshanimg.com
+  - +.huoshanlive.com
   - +.huoshanstatic.com
+  - +.huoshanvod.com
   - +.huoshanzhibo.com
   - +.hupu.com
   - +.huxiu.com
@@ -453,6 +461,7 @@ payload:
   - +.hwtrip.com
   - +.hwwt8.com
   - +.hxcdn.net
+  - +.hypercachenode.com
   - +.i4.cn
   - +.ialicdn.com
   - +.ibreader.com
@@ -464,11 +473,20 @@ payload:
   - +.icourse163.org
   - +.id6.com
   - +.id6.me
+  - +.idouyinliving.com
+  - +.idouyinpic.com
+  - +.idouyinstatic.com
+  - +.idouyinvod.com
   - +.idqqimg.com
   - +.iesdouyin.com
+  - +.iesdouyin.net
   - +.ifeng.com
   - +.ifengimg.com
   - +.igamecj.com
+  - +.ihuoshanimg.com
+  - +.ihuoshanlive.com
+  - +.ihuoshanstatic.com
+  - +.ihuoshanvod.com
   - +.images-amazon.com
   - +.img4me.com
   - +.infoq.cn
@@ -798,6 +816,8 @@ payload:
   - +.suning.cn
   - +.suning.com
   - +.sunlogin.net
+  - +.supercachenet.com
+  - +.supercachenode.com
   - +.symcd.com
   - +.szbdyd.com
   - +.t.cn
@@ -852,6 +872,7 @@ payload:
   - +.udache.com
   - +.udesk.cn
   - +.udqqimg.com
+  - +.ultracachenode.com
   - +.umengcloud.com
   - +.unionpay.com
   - +.upaiyun.com
@@ -866,6 +887,7 @@ payload:
   - +.vmallres.com
   - +.volccdn.com
   - +.volcengine.com
+  - +.volcengineapi.com
   - +.volces.com
   - +.volcvideo.com
   - +.wallstreetcn.com
@@ -940,6 +962,7 @@ payload:
   - +.yeah.net
   - +.yeepay.com
   - +.yhd.com
+  - +.yhgfb-cn-static.com
   - +.yicai.com
   - +.yinxiang.com
   - +.yitao.com
@@ -1004,9 +1027,11 @@ payload:
   - media.cdn.queniuqe.com
   - ocsp.globalsign.com
   - ocsp2.globalsign.com
+  - p-aweme-im-img-sign.bytedance.net
   - res.viayoo.com
   - time.xtracloud.net
   - url.cn
+  - v5-dy-o-abtest.zjcdn.com
   - viayoo.com
   - www.intel.cn
   - www.layuicdn.com

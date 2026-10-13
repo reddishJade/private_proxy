@@ -1,5 +1,5 @@
-# 更新时间: 2026-10-13 12:04:22（北京时间）
-# 规则数量: 1972
+# 更新时间: 2026-10-31 10:52:57（北京时间）
+# 规则数量: 1969
 payload:
   - +.1fichier.com
   - +.1fichier.info
@@ -1091,7 +1091,6 @@ payload:
   - ftp.tc.edu.tw
   - ftp.ticklers.org
   - ftp.tku.edu.tw
-  - ftp.tsukuba.wide.ad.jp
   - ftp.tu-chemnitz.de
   - ftp.tu-graz.ac.at
   - ftp.tu-ilmenau.de
@@ -1212,7 +1211,6 @@ payload:
   - mirror-hk.koddos.net
   - mirror-mk.interspace.com
   - mirror.01link.hk
-  - mirror.0x.sg
   - mirror.0x626b.com
   - mirror.23m.com
   - mirror.23media.de
@@ -1421,7 +1419,6 @@ payload:
   - mirror.macomnet.net
   - mirror.maeen.sa
   - mirror.mangohost.net
-  - mirror.marcusn.net
   - mirror.marwan.ma
   - mirror.math.princeton.edu
   - mirror.math.ucdavis.edu
@@ -1779,6 +1776,7 @@ payload:
   - registry-cdn.wapm.io
   - registry.bower.io
   - registry.fedoraproject.org
+  - registry.gitlab.com
   - registry.npmjs.com
   - registry.npmjs.org
   - registry.terraform.io
@@ -1968,7 +1966,6 @@ payload:
   - www.gnupg.org
   - www.gtlib.gatech.edu
   - www.gutscheinrausch.de
-  - www2.aomeisoftware.com
   - xenia.sote.hu
   - xsrv.moratelindo.io
   - xvcf1.xboxlive.com

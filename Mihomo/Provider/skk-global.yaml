@@ -1,5 +1,5 @@
-# 更新时间: 2026-10-13 12:04:41（北京时间）
-# 规则数量: 1264
+# 更新时间: 2026-10-31 10:53:06（北京时间）
+# 规则数量: 1266
 payload:
   - +.123av.com
   - +.123av.me
@@ -765,6 +765,7 @@ payload:
   - +.nordvpn.com
   - +.note.com
   - +.notepad-plus-plus.org
+  - +.notion.com
   - +.notion.site
   - +.notion.so
   - +.now.com
@@ -773,6 +774,7 @@ payload:
   - +.npm.io
   - +.npmjs.com
   - +.npmjs.org
+  - +.npmx.dev
   - +.npr.org
   - +.nsfwr34.com
   - +.nssurge.com

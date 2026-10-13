@@ -1,5 +1,5 @@
-# 更新时间: 2026-10-13 12:05:34（北京时间）
-# 规则数量: 7155
+# 更新时间: 2026-10-31 10:53:42（北京时间）
+# 规则数量: 7157
 payload:
   - +.000dn.com
   - +.001union.com
@@ -1541,6 +1541,7 @@ payload:
   - +.bobo.163.com
   - +.borsendental.com
   - +.bosiwangzi.cn
+  - +.bouncex.net
   - +.box.anchorfree.net
   - +.boxercrazy.org
   - +.boxshows.com
@@ -6607,6 +6608,7 @@ payload:
   - +.wjguc.com
   - +.wka8.com
   - +.wkanc.com
+  - +.wknd.ai
   - +.wl.51taifu.com
   - +.wl.eastlady.cn
   - +.wlkpa.cn

@@ -1,5 +1,5 @@
-# 更新时间: 2026-10-13 12:05:53（北京时间）
-# 规则数量: 1075
+# 更新时间: 2026-10-31 10:54:04（北京时间）
+# 规则数量: 1078
 DOMAIN,2mdn-cn.net
 DOMAIN,2mdn.net
 DOMAIN,admob-cn.com
@@ -23,6 +23,9 @@ DOMAIN,app-analytics-services.com
 DOMAIN,app-measurement-cn.com
 DOMAIN,app-measurement.com
 DOMAIN,apps5.oingo.com
+DOMAIN,appsgenaiserver-pa.clients.google.com
+DOMAIN,appsgenaiserver-pa.clients6.google.com
+DOMAIN,appsgenaiserver-pa.googleapis.com
 DOMAIN,avail.googleflights.net
 DOMAIN,beacons.gcp.gvt2.com
 DOMAIN,beacons.gvt2.com

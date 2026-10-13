@@ -1,5 +1,5 @@
-# 更新时间: 2026-10-13 12:04:17（北京时间）
-# 规则数量: 115
+# 更新时间: 2026-10-31 10:52:55（北京时间）
+# 规则数量: 119
 payload:
   - +.aispeech.com
   - +.antafu.com
@@ -42,6 +42,9 @@ payload:
   - +.dui.ai
   - +.duiopen.com
   - +.dumate.cn
+  - +.favonis.cloud
+  - +.favonis.com
+  - +.favonis.space
   - +.faxingbao.com
   - +.hailuoai.com
   - +.happyhorse.cn
@@ -49,6 +52,7 @@ payload:
   - +.hi-butterfly.cn
   - +.hunyuan.tencent.com
   - +.instreet.com
+  - +.kakaxing.com
   - +.kechuangai.com
   - +.kimi.com
   - +.kling-ai.com

@@ -1,5 +1,5 @@
-# 更新时间: 2026-10-13 12:05:37（北京时间）
-# 规则数量: 265
+# 更新时间: 2026-10-31 10:53:44（北京时间）
+# 规则数量: 313
 payload:
   - +.10010.com
   - +.12306.com
@@ -31,6 +31,7 @@ payload:
   - +.aliyuncs.com
   - +.alphassl.com
   - +.amap.com
+  - +.amemv.com
   - +.appshike.com
   - +.appstore.com
   - +.autonavi.com
@@ -43,6 +44,15 @@ payload:
   - +.beatsbydre.com
   - +.bochk.com
   - +.broadcasthe.net
+  - +.byted-static.com
+  - +.bytednsdoc.com
+  - +.bytegecko.com
+  - +.bytegoofy.com
+  - +.bytehwm.com
+  - +.byteimg.com
+  - +.bytescm.com
+  - +.bytetcc.com
+  - +.bytetos.com
   - +.caiyunapp.com
   - +.ccb.com
   - +.ccgslb.com
@@ -70,6 +80,12 @@ payload:
   - +.douban.com
   - +.doubanio.com
   - +.douyin.com
+  - +.douyincdn.com
+  - +.douyinfe.com
+  - +.douyinliving.com
+  - +.douyinpic.com
+  - +.douyinstatic.com
+  - +.douyinvod.com
   - +.douyu.com
   - +.douyu.tv
   - +.douyutv.com
@@ -100,16 +116,35 @@ payload:
   - +.hollisterco.com
   - +.hongxiu.com
   - +.hujiang.com
+  - +.huoshancdn.com
+  - +.huoshanimg.com
+  - +.huoshanlive.com
+  - +.huoshanstatic.com
+  - +.huoshanvod.com
   - +.hxcdn.net
+  - +.hypercachenode.com
+  - +.ibytedapm.com
   - +.icedropper.com
   - +.iciba.com
+  - +.idouyinliving.com
+  - +.idouyinpic.com
+  - +.idouyinstatic.com
+  - +.idouyinvod.com
+  - +.iesdouyin.com
+  - +.iesdouyin.net
   - +.ifeng.com
   - +.ifengimg.com
+  - +.ihuoshanimg.com
+  - +.ihuoshanlive.com
+  - +.ihuoshanstatic.com
+  - +.ihuoshanvod.com
   - +.images-amazon.com
   - +.img4me.com
   - +.ipapark.com
   - +.ithome.com
   - +.ixdzs.com
+  - +.ixigua.com
+  - +.ixiguavideo.com
   - +.jd.com
   - +.jd.hk
   - +.jianshu.com
@@ -161,6 +196,7 @@ payload:
   - +.pingan.com
   - +.pniao.com
   - +.privatehd.to
+  - +.pstatp.com
   - +.qbox.me
   - +.qcc.com
   - +.qcloud.com
@@ -191,6 +227,7 @@ payload:
   - +.sinaapp.com
   - +.sinaimg.com
   - +.smzdm.com
+  - +.snssdk.com
   - +.snwx.com
   - +.so.com
   - +.sogou.com
@@ -204,6 +241,8 @@ payload:
   - +.startssl.com
   - +.suning.com
   - +.sunlogin.net
+  - +.supercachenet.com
+  - +.supercachenode.com
   - +.symcd.com
   - +.taobao.com
   - +.tawk.link
@@ -216,15 +255,20 @@ payload:
   - +.tmzvps.com
   - +.todesk.com
   - +.totheglory.im
+  - +.toutiao.com
   - +.trello.com
   - +.trellocdn.com
   - +.ttmeiju.com
   - +.tudou.com
   - +.udache.com
+  - +.ultracachenode.com
   - +.umengcloud.com
   - +.upaiyun.com
   - +.upyun.com
   - +.uxengine.net
+  - +.volcengine.com
+  - +.volcengineapi.com
+  - +.volces.com
   - +.wandoujia.com
   - +.weather.bjango.com
   - +.webqxs.com
@@ -251,6 +295,7 @@ payload:
   - +.yach.me
   - +.yeepay.com
   - +.yhd.com
+  - +.yhgfb-cn-static.com
   - +.yinxiang.com
   - +.yixia.com
   - +.ykimg.com
@@ -261,8 +306,11 @@ payload:
   - +.zgslb.net
   - +.zhihu.com
   - +.zhimg.com
+  - +.zijieapi.com
   - +.zimuzu.tv
   - +.zmz002.com
   - +.zmzfile.com
   - client.amplifi.com
   - ip.bjango.com
+  - p-aweme-im-img-sign.bytedance.net
+  - v5-dy-o-abtest.zjcdn.com

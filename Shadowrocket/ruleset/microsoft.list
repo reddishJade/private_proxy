@@ -1,5 +1,5 @@
-# 更新时间: 2026-10-13 12:05:53（北京时间）
-# 规则数量: 747
+# 更新时间: 2026-10-31 10:54:04（北京时间）
+# 规则数量: 751
 DOMAIN,az764295.vo.msecnd.net
 DOMAIN,azure.microsoft.com
 DOMAIN,azuremarketplace.microsoft.com
@@ -21,6 +21,8 @@ DOMAIN,copilot-workspace.githubnext.com
 DOMAIN,copilotprodattachments.blob.core.windows.net
 DOMAIN,crl.microsoft.com
 DOMAIN,ctldl.windowsupdate.com
+DOMAIN,dc.applicationinsights.azure.com
+DOMAIN,dc.services.visualstudio.com
 DOMAIN,default.exp-tas.com
 DOMAIN,developer.microsoft.com
 DOMAIN,download.microsoft.com
@@ -29,7 +31,6 @@ DOMAIN,dreamspark.download.prss.microsoft.com
 DOMAIN,dreamsparkuat.download.prss.microsoft.com
 DOMAIN,dtlgalleryint.cloudapp.net
 DOMAIN,f.c2r.ts.cdn.office.net
-DOMAIN,flightsimulator.azureedge.net
 DOMAIN,github-api.arkoselabs.com
 DOMAIN,github-cloud.s3.amazonaws.com
 DOMAIN,github-production-release-asset-2e65be.s3.amazonaws.com
@@ -43,6 +44,7 @@ DOMAIN,itacademy.download.prss.microsoft.com
 DOMAIN,itacademyuat.download.prss.microsoft.com
 DOMAIN,lex.download.prss.microsoft.com
 DOMAIN,lexuat.download.prss.microsoft.com
+DOMAIN,live.applicationinsights.azure.com
 DOMAIN,location.microsoft.com
 DOMAIN,mbs.download.prss.microsoft.com
 DOMAIN,mpnbenefits.download.prss.microsoft.com
@@ -90,6 +92,7 @@ DOMAIN,psg-int-centralus.cloudapp.net
 DOMAIN,psg-int-eastus.cloudapp.net
 DOMAIN,rink.hockeyapp.net
 DOMAIN,rsm.download.prss.microsoft.com
+DOMAIN,rt.services.visualstudio.com
 DOMAIN,sdx.microsoft.com
 DOMAIN,shell.cdn.office.net
 DOMAIN,software.download.prss.microsoft.com
@@ -132,7 +135,6 @@ DOMAIN-SUFFIX,applicationinsights.io
 DOMAIN-SUFFIX,applicationinsights.net
 DOMAIN-SUFFIX,appserviceenvironment.cn
 DOMAIN-SUFFIX,aria.ms
-DOMAIN-SUFFIX,asobostudio.com
 DOMAIN-SUFFIX,asp.net
 DOMAIN-SUFFIX,aspnetcdn.com
 DOMAIN-SUFFIX,atom.io
@@ -247,6 +249,7 @@ DOMAIN-SUFFIX,bingapis.com
 DOMAIN-SUFFIX,bingapistatistics.com
 DOMAIN-SUFFIX,bingparachute.com
 DOMAIN-SUFFIX,bingsandbox.com
+DOMAIN-SUFFIX,bingstatic.com
 DOMAIN-SUFFIX,bingvisualsearch.com
 DOMAIN-SUFFIX,bingworld.com
 DOMAIN-SUFFIX,blazor.net
@@ -288,6 +291,7 @@ DOMAIN-SUFFIX,cosmosdb.net
 DOMAIN-SUFFIX,crmdynint-gcc.com
 DOMAIN-SUFFIX,crmdynint.com
 DOMAIN-SUFFIX,crossborderexpansion.com
+DOMAIN-SUFFIX,data.microsoft.com
 DOMAIN-SUFFIX,dcg.microsoft.com
 DOMAIN-SUFFIX,dependabot.com
 DOMAIN-SUFFIX,devopsassessment.net
@@ -307,7 +311,6 @@ DOMAIN-SUFFIX,engkoo.com
 DOMAIN-SUFFIX,exp-tas.com
 DOMAIN-SUFFIX,fasttrackreadysupport.com
 DOMAIN-SUFFIX,femalefounderscomp.com
-DOMAIN-SUFFIX,flightsimulator.com
 DOMAIN-SUFFIX,flipwithsurface.com
 DOMAIN-SUFFIX,fluidpreview.com
 DOMAIN-SUFFIX,footprintdns.com
@@ -360,6 +363,7 @@ DOMAIN-SUFFIX,ie11.com
 DOMAIN-SUFFIX,ie8.co
 DOMAIN-SUFFIX,ie9.com
 DOMAIN-SUFFIX,imaginecup.pl
+DOMAIN-SUFFIX,in.applicationinsights.azure.com
 DOMAIN-SUFFIX,ingads.com
 DOMAIN-SUFFIX,insiderdevtour.com
 DOMAIN-SUFFIX,internetexplorer.co
@@ -547,6 +551,7 @@ DOMAIN-SUFFIX,msftconnecttest.com
 DOMAIN-SUFFIX,msfteducation.ca
 DOMAIN-SUFFIX,msftncsi.com
 DOMAIN-SUFFIX,msftnet.org
+DOMAIN-SUFFIX,msftstatic.com
 DOMAIN-SUFFIX,msgamesresearch.com
 DOMAIN-SUFFIX,msgamestudios.com
 DOMAIN-SUFFIX,mshome.net
@@ -596,9 +601,7 @@ DOMAIN-SUFFIX,office365love.com
 DOMAIN-SUFFIX,office365tw.com
 DOMAIN-SUFFIX,officeplus.cn
 DOMAIN-SUFFIX,officewebapps.cn
-DOMAIN-SUFFIX,onedrive
 DOMAIN-SUFFIX,onedrive.com
-DOMAIN-SUFFIX,onedriveupdater
 DOMAIN-SUFFIX,onenote.com
 DOMAIN-SUFFIX,onenote.net
 DOMAIN-SUFFIX,onestore.ms
@@ -673,6 +676,7 @@ DOMAIN-SUFFIX,sysinternals.com
 DOMAIN-SUFFIX,t-msedge.net
 DOMAIN-SUFFIX,tailwindtraders.com
 DOMAIN-SUFFIX,techhub.ms
+DOMAIN-SUFFIX,telemetry.microsoft.com
 DOMAIN-SUFFIX,tellmewhygame.com
 DOMAIN-SUFFIX,tfsallin.net
 DOMAIN-SUFFIX,th.bing.com

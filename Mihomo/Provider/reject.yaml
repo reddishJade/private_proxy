@@ -1,5 +1,5 @@
-# 更新时间: 2026-10-13 12:04:28（北京时间）
-# 规则数量: 15411
+# 更新时间: 2026-10-31 10:53:00（北京时间）
+# 规则数量: 15419
 payload:
   - +.000dn.com
   - +.001union.com
@@ -2101,7 +2101,6 @@ payload:
   - +.ali-ad.a.yximgs.com
   - +.ali-p2p-v2.pull.yximgs.com
   - +.alienskins.cn
-  - +.alimama.alicdn.com
   - +.alime-pic.oss-cn-hangzhou.aliyuncs.com
   - +.alipay.dajiadou6.com
   - +.alipaylog.com
@@ -2988,6 +2987,7 @@ payload:
   - +.bootscritp.com
   - +.borsendental.com
   - +.bosiwangzi.cn
+  - +.bouncex.net
   - +.box.anchorfree.net
   - +.boxercrazy.org
   - +.boxshows.com
@@ -5550,6 +5550,7 @@ payload:
   - +.gdskywings.com
   - +.gdsqwy.org
   - +.gdt.qq.com
+  - +.gdtimg.com
   - +.gdvghaowyw.com
   - +.gdyjs.com
   - +.gdyn.cnn.com
@@ -7076,7 +7077,6 @@ payload:
   - +.jrpt.jrptweb.org
   - +.jrq39d1r8.com
   - +.js-1.pchome.net
-  - +.js-agent.newrelic.com
   - +.js-apac-ss.ysm.yahoo.com
   - +.js.05sun.com
   - +.js.133u.com
@@ -7729,7 +7729,6 @@ payload:
   - +.log.sina.cn
   - +.log.snssdk.com
   - +.log.stat.kugou.com
-  - +.log.tagtic.cn
   - +.log.tbs.qq.com
   - +.log.umsns.com
   - +.log.umtrack.com
@@ -9719,7 +9718,6 @@ payload:
   - +.ping.weiduofan.com
   - +.pingbi.diudou.com
   - +.pingdom.net
-  - +.pingjs.qq.com
   - +.pingma.qq.com
   - +.pingshetrip.com
   - +.pingtcss.qq.com
@@ -10910,7 +10908,6 @@ payload:
   - +.sezvc.com
   - +.sf16-static.i18n-pglstatp.com
   - +.sf3-fe-tos.pglstatp-toutiao.com
-  - +.sf3-ttcdn-tos.pstatp.com
   - +.sfile.top
   - +.sfloushi.com
   - +.sftz4zyqd.com
@@ -12945,6 +12942,7 @@ payload:
   - +.wkanc.51y5.net
   - +.wkanc.com
   - +.wkctj.baidu.com
+  - +.wknd.ai
   - +.wkzvf2658.com
   - +.wl.51taifu.com
   - +.wl.eastlady.cn
@@ -13424,7 +13422,6 @@ payload:
   - +.xxxa.aikeapp.com
   - +.xxxx68xxxx.com
   - +.xxyzwtsylw.com
-  - +.xy-log.tagtic.cn
   - +.xy.com
   - +.xy.shijialianzuishuai.com
   - +.xy7elite.com
@@ -14098,8 +14095,10 @@ payload:
   - ad-api.4pyun.com
   - ad-cdn.qingting.fm
   - ad-channel.diwodiwo.xyz
+  - ad-cmp.hismarttv.com
   - ad-cn.jovcloud.com
   - ad-display.diwodiwo.xyz
+  - ad-download.hismarttv.com
   - ad-files.4pyun.com
   - ad-mediation.tuanguwen.com
   - ad-scope.com
@@ -14421,7 +14420,6 @@ payload:
   - analytics-api.samsunghealthcn.com
   - analytics-stage.wildberries.ru
   - analytics.adjust.cn
-  - analytics.google.com
   - analytics.mobile.yandex.net
   - analytics.oceanengine.com
   - analytics.pinterest.com
@@ -14536,6 +14534,7 @@ payload:
   - bj.ad.track.66mobi.com
   - bloodhound.spotify.com
   - books-analytics-events.apple.com
+  - boost-cmp.hismarttv.com
   - bootpreload.uve.weibo.com
   - brandadsstatic.vivo.com.cn
   - browser-intake-datadoghq.com
@@ -14665,6 +14664,7 @@ payload:
   - fxgate.baidu.com
   - g-adnet.hiaiabc.com
   - g-staic.ganjingworld.com
+  - g.cn.miaozhen.com
   - g.dtv.cn.miaozhen.com
   - g.fancyapi.com
   - g.koowo.com
@@ -14762,6 +14762,7 @@ payload:
   - imgad0.pcauto.com.cn
   - imgad0.pconline.com.cn
   - imgadpai.thepaper.cn
+  - imp-cmp.hismarttv.com
   - impression-asia.chinaliftoff.io
   - impression-asia.liftoff.io
   - impression.appsflyer.com
@@ -14820,6 +14821,7 @@ payload:
   - lives.l.ott.video.qq.com
   - livewebbs2pcdn.msstatic.com
   - lm10111.jtrincc.cn
+  - loading-cmp.hismarttv.com
   - log-api-mn.huxiu.com
   - log-api.huxiu.com
   - log-api.pangolin-sdk-toutiao-b.com
@@ -14940,6 +14942,7 @@ payload:
   - ms4.applovin.com
   - ms4.applvn.com
   - msdk.voiceads.cn
+  - msg-cmp.hismarttv.com
   - msmp.abchina.com.cn
   - mssdk.volces.com
   - mssdk.zijieapi.com
@@ -14960,6 +14963,7 @@ payload:
   - o.clarity.ms
   - o2o.api.xiaomi.com
   - o33249.ingest.sentry.io
+  - o33249.ingest.us.sentry.io
   - o4504926511693824.ingest.sentry.io
   - offerwall.yandex.net
   - offnavi.map.baidu.com
@@ -15005,6 +15009,7 @@ payload:
   - pagead2.googlesyndication.com
   - pangolin-sdk-toutiao-b.com
   - pangolin.snssdk.com
+  - paster-cmp.hismarttv.com
   - pay.sboot.cn
   - pcdn.xmcdn.com
   - pcdn.yximgs.com
@@ -15048,6 +15053,7 @@ payload:
   - r1.mail.ru
   - rd.autohome.com.cn
   - rd.da.netease.com
+  - recmd-cmp.hismarttv.com
   - recommend-drcn.hms.dbankcloud.cn
   - regist.fotoable.com
   - reklama.mail.ru
@@ -15061,6 +15067,7 @@ payload:
   - res2.hubcloud.com.cn
   - res3.hubcloud.com.cn
   - resolve.umeng.com
+  - resource-cmp.hismarttv.com
   - review.gdtimg.com
   - rich.kuwo.cn
   - richmanapi.jxedt.com
@@ -15323,6 +15330,7 @@ payload:
   - v2-ad.video.yximgs.com
   - v2-api-channel-launcher.hismarttv.com
   - v2.gdt.qq.com
+  - v2.reachmax.cn
   - v2mi.gdt.qq.com
   - v3-ad.video.yximgs.com
   - v3.gdt.qq.com

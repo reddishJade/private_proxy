@@ -1,5 +1,5 @@
-# 更新时间: 2026-10-13 12:05:52（北京时间）
-# 规则数量: 1984
+# 更新时间: 2026-10-31 10:54:04（北京时间）
+# 规则数量: 1981
 DOMAIN,7h15.ru1353t.1s.m4d3.by.5ukk4w.skk.moe
 DOMAIN,addins.deepl.com
 DOMAIN,alpha-gnu-org.ip-connect.vn.ua
@@ -556,7 +556,6 @@ DOMAIN,ftp.task.gda.pl
 DOMAIN,ftp.tc.edu.tw
 DOMAIN,ftp.ticklers.org
 DOMAIN,ftp.tku.edu.tw
-DOMAIN,ftp.tsukuba.wide.ad.jp
 DOMAIN,ftp.tu-chemnitz.de
 DOMAIN,ftp.tu-graz.ac.at
 DOMAIN,ftp.tu-ilmenau.de
@@ -677,7 +676,6 @@ DOMAIN,mirror-gw.elastis.id
 DOMAIN,mirror-hk.koddos.net
 DOMAIN,mirror-mk.interspace.com
 DOMAIN,mirror.01link.hk
-DOMAIN,mirror.0x.sg
 DOMAIN,mirror.0x626b.com
 DOMAIN,mirror.23m.com
 DOMAIN,mirror.23media.de
@@ -886,7 +884,6 @@ DOMAIN,mirror.lyrahosting.com
 DOMAIN,mirror.macomnet.net
 DOMAIN,mirror.maeen.sa
 DOMAIN,mirror.mangohost.net
-DOMAIN,mirror.marcusn.net
 DOMAIN,mirror.marwan.ma
 DOMAIN,mirror.math.princeton.edu
 DOMAIN,mirror.math.ucdavis.edu
@@ -1244,6 +1241,7 @@ DOMAIN,registry-1.docker.io
 DOMAIN,registry-cdn.wapm.io
 DOMAIN,registry.bower.io
 DOMAIN,registry.fedoraproject.org
+DOMAIN,registry.gitlab.com
 DOMAIN,registry.npmjs.com
 DOMAIN,registry.npmjs.org
 DOMAIN,registry.terraform.io
@@ -1433,7 +1431,6 @@ DOMAIN,www.gnu.org
 DOMAIN,www.gnupg.org
 DOMAIN,www.gtlib.gatech.edu
 DOMAIN,www.gutscheinrausch.de
-DOMAIN,www2.aomeisoftware.com
 DOMAIN,xenia.sote.hu
 DOMAIN,xsrv.moratelindo.io
 DOMAIN,xvcf1.xboxlive.com

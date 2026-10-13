@@ -1,5 +1,5 @@
-# 更新时间: 2026-10-13 12:04:18（北京时间）
-# 规则数量: 1790
+# 更新时间: 2026-10-31 10:52:55（北京时间）
+# 规则数量: 1791
 payload:
   - +.100beatscheap.com
   - +.12diasdepresentesdeitunes.com
@@ -999,7 +999,6 @@ payload:
   - +.icloud-isupport.com
   - +.icloud-sandbox.com
   - +.icloud.ch
-  - +.icloud.cn
   - +.icloud.com
   - +.icloud.com.cn
   - +.icloud.de
@@ -1739,7 +1738,9 @@ payload:
   - seed.siri.apple.com
   - sequoia.apple.com
   - sf-api-token-service.itunes.apple.com
+  - sh-pod1-smp-device.apple.com
   - sh-pod2-smp-device.apple.com
+  - sh-pod3-smp-device.apple.com
   - shazam-insights.cdn-apple.com
   - smp-device-content.apple.com
   - sp.itunes.apple.com
