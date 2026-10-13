@@ -1,5 +1,5 @@
-# 更新时间: 2026-10-13 12:05:41（北京时间）
-# 规则数量: 13
+# 更新时间: 2026-10-17 22:30:34（北京时间）
+# 规则数量: 12
 payload:
   - +.byteoversea.com
   - +.ibytedtos.com
@@ -8,7 +8,6 @@ payload:
   - +.muscdn.com
   - +.musical.ly
   - +.sgpstatp.com
-  - +.snssdk.com
   - +.tik-tokapi.com
   - +.tiktok.com
   - +.tiktokcdn.com

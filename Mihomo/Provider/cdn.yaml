@@ -1,5 +1,5 @@
-# 更新时间: 2026-10-13 12:04:19（北京时间）
-# 规则数量: 4688
+# 更新时间: 2026-10-17 22:29:45（北京时间）
+# 规则数量: 4694
 payload:
   - +.1a-1791.com
   - +.1passwordusercontent.ca
@@ -2090,6 +2090,7 @@ payload:
   - cdn.plus500.com
   - cdn.plyr.io
   - cdn.pricespider.com
+  - cdn.priv.center
   - cdn.privacy-mgmt.com
   - cdn.privacy.com
   - cdn.privacy.paramount.com
@@ -2499,6 +2500,7 @@ payload:
   - css.createsend1.com
   - css.yymanhua.com
   - curl.se
+  - customer-first-focus.b-cdn.net
   - cw-image-resizer.cwg.tw
   - cwsimages.ingramcontent.com
   - d.newsweek.com
@@ -2959,6 +2961,7 @@ payload:
   - images.github.media
   - images.gog.com
   - images.hibob.com
+  - images.higgs.ai
   - images.hothardware.com
   - images.icon-icons.com
   - images.indianexpress.com
@@ -2967,6 +2970,7 @@ payload:
   - images.klipfolio.com
   - images.loox.io
   - images.macrumors.com
+  - images.macworld.co.uk
   - images.mathworks.com
   - images.mattel.net
   - images.microcms-assets.io
@@ -3466,6 +3470,7 @@ payload:
   - mta.newfold.com
   - mui.com
   - mwcm.nyt.com
+  - mweb-cdn.karousell.com
   - mwf-service.akamaized.net
   - my-json-server.typicode.com
   - n.approveit.today
@@ -3905,6 +3910,7 @@ payload:
   - sites.chase.com
   - sites.super.so
   - skills-assets.pstmn.io
+  - sl3-cdn.karousell.com
   - sm.ign.com
   - sm.pcmag.com
   - sn-s3-cdn.angry.im

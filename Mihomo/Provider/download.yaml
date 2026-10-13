@@ -1,5 +1,5 @@
-# 更新时间: 2026-10-13 12:04:22（北京时间）
-# 规则数量: 1972
+# 更新时间: 2026-10-17 22:29:47（北京时间）
+# 规则数量: 1973
 payload:
   - +.1fichier.com
   - +.1fichier.info
@@ -1790,6 +1790,7 @@ payload:
   - releases.grapheneos.org
   - releases.landrop.app
   - releases.obsidian.md
+  - releases.openai.com
   - releases.stash.ws
   - releases.warp.dev
   - releases.whatpulse.org

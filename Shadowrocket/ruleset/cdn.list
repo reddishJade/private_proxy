@@ -1,5 +1,5 @@
-# 更新时间: 2026-10-13 12:05:51（北京时间）
-# 规则数量: 4771
+# 更新时间: 2026-10-17 22:30:42（北京时间）
+# 规则数量: 4777
 DOMAIN,0x0.st
 DOMAIN,3dna.nationbuilder.com
 DOMAIN,4gtvimg2.4gtv.tv
@@ -860,6 +860,7 @@ DOMAIN,cdn.plu.mx
 DOMAIN,cdn.plus500.com
 DOMAIN,cdn.plyr.io
 DOMAIN,cdn.pricespider.com
+DOMAIN,cdn.priv.center
 DOMAIN,cdn.privacy-mgmt.com
 DOMAIN,cdn.privacy.com
 DOMAIN,cdn.privacy.paramount.com
@@ -1269,6 +1270,7 @@ DOMAIN,css.comicbz.com
 DOMAIN,css.createsend1.com
 DOMAIN,css.yymanhua.com
 DOMAIN,curl.se
+DOMAIN,customer-first-focus.b-cdn.net
 DOMAIN,cw-image-resizer.cwg.tw
 DOMAIN,cwsimages.ingramcontent.com
 DOMAIN,d.newsweek.com
@@ -1729,6 +1731,7 @@ DOMAIN,images.g2crowd.com
 DOMAIN,images.github.media
 DOMAIN,images.gog.com
 DOMAIN,images.hibob.com
+DOMAIN,images.higgs.ai
 DOMAIN,images.hothardware.com
 DOMAIN,images.icon-icons.com
 DOMAIN,images.indianexpress.com
@@ -1737,6 +1740,7 @@ DOMAIN,images.kick.com
 DOMAIN,images.klipfolio.com
 DOMAIN,images.loox.io
 DOMAIN,images.macrumors.com
+DOMAIN,images.macworld.co.uk
 DOMAIN,images.mathworks.com
 DOMAIN,images.mattel.net
 DOMAIN,images.microcms-assets.io
@@ -2236,6 +2240,7 @@ DOMAIN,mstdn-s3.o3o.studio
 DOMAIN,mta.newfold.com
 DOMAIN,mui.com
 DOMAIN,mwcm.nyt.com
+DOMAIN,mweb-cdn.karousell.com
 DOMAIN,mwf-service.akamaized.net
 DOMAIN,my-json-server.typicode.com
 DOMAIN,n.approveit.today
@@ -2675,6 +2680,7 @@ DOMAIN,simplicity.trustpilot.com
 DOMAIN,sites.chase.com
 DOMAIN,sites.super.so
 DOMAIN,skills-assets.pstmn.io
+DOMAIN,sl3-cdn.karousell.com
 DOMAIN,sm.ign.com
 DOMAIN,sm.pcmag.com
 DOMAIN,sn-s3-cdn.angry.im

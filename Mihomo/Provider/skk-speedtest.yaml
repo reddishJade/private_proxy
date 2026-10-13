@@ -1,5 +1,5 @@
-# 更新时间: 2026-10-13 12:05:06（北京时间）
-# 规则数量: 3424
+# 更新时间: 2026-10-17 22:30:12（北京时间）
+# 规则数量: 3430
 payload:
   - +.backend.librespeed.org
   - +.fast.com
@@ -566,6 +566,7 @@ payload:
   - ookla.ams.atharva.co.id
   - ookla.apuacom.it
   - ookla.araujotelecom.com.br
+  - ookla.argsment.com
   - ookla.as400442.net
   - ookla.b2.neptune.net.au
   - ookla.ber-01.testpub.telefonica.de
@@ -687,6 +688,7 @@ payload:
   - poitiers3.d2m.c2d.liveservices.fr
   - postapps.com
   - prescott1.cabospeed.com
+  - pri-r450-speedtest.metrocomm.com
   - ptldme-speedtest-ookla-01.st.charter.com
   - purtel39.purtel.com
   - purtel70.purtel.com
@@ -1716,6 +1718,7 @@ payload:
   - speedtest.fiberlink.com.pe
   - speedtest.fiberlink.net.ua
   - speedtest.fiberlinknetwork.net
+  - speedtest.fiberlinksolutionsltd.co.ke
   - speedtest.fiberlync.net
   - speedtest.fibernetics.ca
   - speedtest.fibernetwork.com.br
@@ -1850,6 +1853,7 @@ payload:
   - speedtest.informartelecom.com.br
   - speedtest.inforr.com.br
   - speedtest.infortec.net.br
+  - speedtest.infortectelecom.net.br
   - speedtest.infowest.com
   - speedtest.infraly.co
   - speedtest.infrawire.host
@@ -2403,6 +2407,7 @@ payload:
   - speedtest.twl-kom.de
   - speedtest.uania.cloud
   - speedtest.ubc.ca
+  - speedtest.ufinet.co.cr
   - speedtest.ufinetlatam.net
   - speedtest.uia.net
   - speedtest.undercorp.com.br
@@ -2690,6 +2695,7 @@ payload:
   - speedtest2.avatel.es
   - speedtest2.bitsandbyte.co.in
   - speedtest2.cfoc.tech
+  - speedtest2.co-fi.es
   - speedtest2.comvergence.com.au
   - speedtest2.datafex.com.tr
   - speedtest2.dg-sys.net
