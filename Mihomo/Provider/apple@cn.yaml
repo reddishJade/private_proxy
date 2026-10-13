@@ -1,5 +1,5 @@
-# 更新时间: 2026-10-13 12:04:18（北京时间）
-# 规则数量: 251
+# 更新时间: 2026-11-21 12:25:01（北京时间）
+# 规则数量: 254
 payload:
   - +.a1.mzstatic.com
   - +.a2.mzstatic.com
@@ -50,6 +50,7 @@ payload:
   - +.beatsbydre.com
   - +.beatsbydre.com.cn
   - +.beatsep.cn
+  - +.captive.apple.com
   - +.cdn-cn1.apple-mapkit.com
   - +.cdn-cn2.apple-mapkit.com
   - +.cdn-cn3.apple-mapkit.com
@@ -121,7 +122,6 @@ payload:
   - +.iadsdk.apple.com
   - +.icloud-apple.cn
   - +.icloud-content.com.cn
-  - +.icloud.cn
   - +.icloud.com.cn
   - +.icloud.net.cn
   - +.icloudapple.cn
@@ -235,6 +235,7 @@ payload:
   - certs-lb.apple.com.akadns.net
   - cl2-cdn.origin-apple.com.akadns.net
   - communities.apple.com
+  - configuration.ls.apple.com
   - crl-lb.apple.com.akadns.net
   - discussionschinese.apple.com
   - fides-pol.apple.com
@@ -250,5 +251,7 @@ payload:
   - s3.mzstatic.com
   - s4.mzstatic.com
   - s5.mzstatic.com
+  - sh-pod1-smp-device.apple.com
+  - sh-pod3-smp-device.apple.com
   - tj-pod2-smp-device.apple.com
   - tj-pod3-smp-device.apple.com

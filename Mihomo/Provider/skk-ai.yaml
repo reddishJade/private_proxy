@@ -1,5 +1,5 @@
-# 更新时间: 2026-10-13 12:04:31（北京时间）
-# 规则数量: 52
+# 更新时间: 2026-11-21 12:25:08（北京时间）
+# 规则数量: 57
 payload:
   - +.ai.com
   - +.aistudio.google.com
@@ -38,6 +38,7 @@ payload:
   - +.sora.com
   - +.x.ai
   - ai.google.dev
+  - aicode.googleapis.com
   - aida.googleapis.com
   - aisandbox-pa.googleapis.com
   - alkalicore-pa.clients6.google.com
@@ -45,7 +46,11 @@ payload:
   - antigravity.google
   - api.github.com
   - api.jetbrains.ai
+  - bridge.claudeusercontent.com
+  - claude.site
+  - cloud.zed.dev
   - daily-cloudcode-pa.googleapis.com
+  - daily-cloudcode-pa.sandbox.googleapis.com
   - gateway.ai.cloudflare.com
   - inference.codeium.com
   - jules.google.com
