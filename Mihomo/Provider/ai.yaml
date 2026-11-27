@@ -1,7 +1,8 @@
-# 更新时间: 2026-11-27 04:35:42（北京时间）
-# 规则数量: 311
+# 更新时间: 2026-11-28 13:06:45（北京时间）
+# 规则数量: 327
 payload:
   - +.agentclientprotocol.com
+  - +.ai.com
   - +.ai.studio
   - +.aicode.googleapis.com
   - +.aida.googleapis.com
@@ -105,6 +106,7 @@ payload:
   - +.eu-discoveryengine.mtls.googleapis.com
   - +.flow.google
   - +.flow.google.com
+  - +.g.ai
   - +.gateway.ai.cloudflare.com
   - +.geller-pa.googleapis.com
   - +.gemini.google
@@ -217,14 +219,19 @@ payload:
   - account.jetbrains.com
   - accounts.spacex.ai
   - ai.google.dev
+  - aicode.googleapis.com
   - aida.googleapis.com
+  - aisandbox-pa.googleapis.com
   - alkalicore-pa.clients6.google.com
   - alkalimakersuite-pa.clients6.google.com
   - antigravity-pa.googleapis.com
+  - antigravity-unleash.goog
+  - antigravity.google
   - antigravity.googleapis.com
   - anysphere-binaries.s3.us-east-1.amazonaws.com
   - api.app.prod.grazie.aws.intellij.net
   - api.github.com
+  - api.jetbrains.ai
   - api.jetbrains.cloud
   - apis.google.com
   - appcatalyst.pa.googleapis.com
@@ -235,11 +242,14 @@ payload:
   - appsgenaiserver-pa.clients.google.com
   - appsgenaiserver-pa.clients6.google.com
   - appsgenaiserver-pa.googleapis.com
+  - bridge.claudeusercontent.com
   - browser-intake-datadoghq.com
   - cdn.openaimerge.com
   - cdn.workos.com
   - challenges.cloudflare.com
   - chat.openai.com.cdn.cloudflare.net
+  - claude.site
+  - cloud.zed.dev
   - cloudaicompanion.googleapis.com
   - cloudcode-pa.googleapis.com
   - content-autofill.googleapis.com
@@ -252,6 +262,7 @@ payload:
   - cp4.cloudflare.com
   - csp.withgoogle.com
   - daily-cloudcode-pa.googleapis.com
+  - daily-cloudcode-pa.sandbox.googleapis.com
   - default.exp-tas.com
   - encrypted-tbn0.gstatic.com
   - encrypted-tbn1.gstatic.com
@@ -270,6 +281,7 @@ payload:
   - images.workoscdn.com
   - jnn-pa.googleapis.com
   - js.stripe.com
+  - jules.google.com
   - jules.googleapis.com
   - labs.google
   - lh3.google.com
@@ -293,6 +305,7 @@ payload:
   - openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
   - openaicom.imgix.net
   - openaicomproductionae4b.blob.core.windows.net
+  - openrouter.ai
   - optimizationguide-pa.googleapis.com
   - origin-tracker.githubusercontent.com
   - play.google.com
@@ -302,8 +315,11 @@ payload:
   - production-openaicom-storage.azureedge.net
   - q.eu-central-1.amazonaws.com
   - q.us-east-1.amazonaws.com
+  - robinfrontend-pa.googleapis.com
   - rum.browser-intake-datadoghq.com
   - servd-anthropic-website.b-cdn.net
+  - server.codeium.com
+  - server.self-serve.windsurf.com
   - setup.workos.com
   - ssl.gstatic.com
   - streetviewpixels-pa.googleapis.com

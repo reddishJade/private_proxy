@@ -1,5 +1,5 @@
-# 更新时间: 2026-11-27 04:36:12（北京时间）
-# 规则数量: 3507
+# 更新时间: 2026-11-28 13:07:24（北京时间）
+# 规则数量: 3512
 payload:
   - +.backend.librespeed.org
   - +.fast.com
@@ -139,6 +139,7 @@ payload:
   - alzenspeedtest.duckdns.org
   - ams-eq6-tptest1.31173.se
   - ams-speedtest.isp.htb.systems
+  - ams.speedtest.rustbanned.net
   - amsspeed.sharktech.net
   - amsterdam.getstreamhosting.com
   - ant1speedtest.turktelekom.com.tr
@@ -555,6 +556,7 @@ payload:
   - ookla-lax.extentit.com
   - ookla-london.briantbroadband.com
   - ookla-london01.tropicalgames.net
+  - ookla-london3.tropicalhosting.net
   - ookla-lyo.services.proxad.net
   - ookla-mgw.wvnet.edu
   - ookla-mi.tech.tiscali.it
@@ -656,6 +658,7 @@ payload:
   - ookla.soc.atharva.co.id
   - ookla.speedking.in
   - ookla.speedtest.cnix.cn
+  - ookla.speedtest.freethought-internet.co.uk
   - ookla.surnet.com.tr
   - ookla.svw.as6453.net
   - ookla.sy1.neptune.net.au
@@ -1391,6 +1394,7 @@ payload:
   - speedtest-sjc.sectrify.com
   - speedtest-sjdm.newworld.ph
   - speedtest-sossano.wifiweb.it
+  - speedtest-spo.fibranort.com.br
   - speedtest-srv-a.homeworks.org
   - speedtest-srv01.tut.net
   - speedtest-stf.megafon.ru
@@ -1443,6 +1447,7 @@ payload:
   - speedtest-zl-1.zoominternet.net
   - speedtest.0dayhost.com
   - speedtest.100g.macarne.com
+  - speedtest.10gtelecomindia.com
   - speedtest.139play.com
   - speedtest.15.com.tw
   - speedtest.23m.com

@@ -1,5 +1,5 @@
-# 更新时间: 2026-11-27 04:35:46（北京时间）
-# 规则数量: 755
+# 更新时间: 2026-11-28 13:06:50（北京时间）
+# 规则数量: 756
 payload:
   - +.1drv.com
   - +.21vbc.com
@@ -636,6 +636,7 @@ payload:
   - +.xboxstudios.com
   - +.xbx.lv
   - +.yammer.com
+  - aurora-customization-usw2.lithium.com
   - az764295.vo.msecnd.net
   - azure.microsoft.com
   - azuremarketplace.microsoft.com

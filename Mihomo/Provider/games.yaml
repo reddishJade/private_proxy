@@ -1,5 +1,5 @@
-# 更新时间: 2026-11-27 04:35:46（北京时间）
-# 规则数量: 921
+# 更新时间: 2026-11-28 13:06:49（北京时间）
+# 规则数量: 922
 payload:
   - +.100classicbooks.com
   - +.2k.com
@@ -211,6 +211,7 @@ payload:
   - +.faceit-cdn.net
   - +.faceit.com
   - +.fanatical.com
+  - +.fce.gg
   - +.fflogs.com
   - +.ficgs.com
   - +.fifastreet.com

@@ -1,5 +1,5 @@
-# 更新时间: 2026-11-27 04:35:47（北京时间）
-# 规则数量: 141
+# 更新时间: 2026-11-28 13:06:50（北京时间）
+# 规则数量: 159
 payload:
   - +.1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa
   - +.10.in-addr.arpa
@@ -95,11 +95,14 @@ payload:
   - +.99.100.in-addr.arpa
   - +.a.e.f.ip6.arpa
   - +.acl4.ssr
+  - +.asusrouter.com
   - +.b.e.f.ip6.arpa
   - +.d.f.ip6.arpa
   - +.example
   - +.hiwifi.com
+  - +.home
   - +.home.arpa
+  - +.huaweimobilewifi.com
   - +.internal
   - +.invalid
   - +.kis.v2.scr.kaspersky-labs.com
@@ -115,18 +118,28 @@ payload:
   - +.peiluyou.com
   - +.phicomm.me
   - +.plex.direct
+  - +.router
   - +.router.ctc
   - +.routerlogin.com
+  - +.routerlogin.net
   - +.tendawifi.com
   - +.test
+  - +.tplinkap.net
+  - +.tplinkmodem.net
+  - +.tplinkplclogin.net
+  - +.tplinkrepeater.net
   - +.tplinkwifi.net
   - +.tplogin.cn
   - +.ts.net
+  - +.ui.direct
   - +.wifi.cmcc
   - +.zte.home
   - asusrouter.com
+  - aterm.me
   - board.zash.run.place
+  - console.gl-inet.com
   - dash.sing-box.app
+  - homerouter.cpe
   - instant.arubanetworks.com
   - local.adguard.org
   - localhost.weixin.qq.com
@@ -134,10 +147,15 @@ payload:
   - metacubex.github.io
   - metacubexd.pages.dev
   - miwifi.com
+  - mobile.hotspot
+  - ntt.setup
   - oasisauth.h3c.com
+  - pi.hole
+  - repeater.asus.com
   - router.asus.com
   - setmeup.arubanetworks.com
   - sing-box-dashboard.sagernet.org
+  - unifi
   - www.asusrouter.com
   - www.miwifi.com
   - yacd.metacubex.one

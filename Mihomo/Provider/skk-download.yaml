@@ -1,5 +1,5 @@
-# 更新时间: 2026-11-27 04:35:54（北京时间）
-# 规则数量: 1969
+# 更新时间: 2026-11-28 13:07:03（北京时间）
+# 规则数量: 1964
 payload:
   - +.1fichier.com
   - +.1fichier.info
@@ -681,7 +681,6 @@ payload:
   - cpan.lagoon.nc
   - cpan.lnx.sk
   - cpan.metacpan.org
-  - cpan.mines-albi.fr
   - cpan.mmgdesigns.com.ar
   - cpan.pair.com
   - cpan.pesat.net.id
@@ -1031,7 +1030,6 @@ payload:
   - ftp.kddlabs.co.jp
   - ftp.klid.dk
   - ftp.kr.freebsd.org
-  - ftp.ktug.org
   - ftp.lanet.kr
   - ftp.leg.uct.ac.za
   - ftp.linux.cz
@@ -1405,7 +1403,6 @@ payload:
   - mirror.lchost.net
   - mirror.leitecastro.com
   - mirror.level66.network
-  - mirror.library.ucy.ac.cy
   - mirror.limda.net
   - mirror.linkdata.com
   - mirror.linux-ia64.org
@@ -1436,7 +1433,6 @@ payload:
   - mirror.neftm.ru
   - mirror.neolabs.kz
   - mirror.netcologne.de
-  - mirror.netcologne.de.org
   - mirror.netone.nl
   - mirror.netsite.dk
   - mirror.netspace.net.au
@@ -1517,7 +1513,6 @@ payload:
   - mirror.techlabs.co.kr
   - mirror.tejas101k.workers.dev
   - mirror.telepoint.bg
-  - mirror.thunderhosting.cloud
   - mirror.timeweb.ru
   - mirror.tngnet.com
   - mirror.tochlab.net
