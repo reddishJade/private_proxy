@@ -12,6 +12,11 @@
   format: yaml
   behavior: domain
   upstream:
+    skk_ai:
+      type: http
+      url: "https://ruleset.skk.moe/Clash/non_ip/ai.txt"
+      format: txt
+      behavior: classical
     dler_ai:
       type: http
       url: "https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/AI%20Suite.yaml"
@@ -252,6 +257,11 @@
   format: yaml
   behavior: domain
   upstream:
+    skk_microsoft_cdn:
+      type: http
+      url: "https://ruleset.skk.moe/Clash/non_ip/microsoft_cdn.txt"
+      format: txt
+      behavior: classical
     DustinWin_microsoft_cn:
       type: http
       url: "https://raw.githubusercontent.com/DustinWin/ruleset_geodata/mihomo-ruleset/microsoft-cn.list"
@@ -262,6 +272,11 @@
   format: yaml
   behavior: domain
   upstream:
+    skk_lan:
+      type: http
+      url: "https://ruleset.skk.moe/Clash/non_ip/lan.txt"
+      format: txt
+      behavior: classical
     DustinWin_private:
       type: http
       url: "https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/private.list"
@@ -297,6 +312,21 @@
   format: yaml
   behavior: domain
   upstream:
+    skk_reject_domainset:
+      type: http
+      url: "https://ruleset.skk.moe/Clash/domainset/reject.txt"
+      format: txt
+      behavior: domain
+    skk_reject_no_drop:
+      type: http
+      url: "https://ruleset.skk.moe/Clash/non_ip/reject-no-drop.txt"
+      format: txt
+      behavior: classical
+    skk_reject_non_ip:
+      type: http
+      url: "https://ruleset.skk.moe/Clash/non_ip/reject.txt"
+      format: txt
+      behavior: classical
     AWAvenue:
       type: http
       url: "https://cdn.uura.cn/AWAvenue/AWAvenue-Ads-Rule-Clash.yaml"

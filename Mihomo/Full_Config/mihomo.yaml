@@ -1,4 +1,3 @@
-#========= 锚点定义 ==========#
 provider:     &pr {type: http, interval: 43200, health-check: {enable: true, url: "https://cp.cloudflare.com", interval: 300}}
 proxy:        &p  {type: select, proxies: [Select, Direct, HongKong, TaiWan, Japan, Singapore, USA]}
 groups:       &g  {type: select, proxies: [HongKong, TaiWan, Japan, Singapore, USA]}
@@ -9,77 +8,95 @@ mrs_i:        &mi {type: http, format: mrs, behavior: ipcidr, interval: 43200}
 proxy_direct: &pd {type: select, proxies: [Proxy, Direct]}
 direct_proxy: &dp {type: select, proxies: [Direct, Proxy]}
 
-# ======= 订阅配置 =======
 proxy-providers:
-  # 订阅链接一
   provider1:
     <<: *pr
-    url: ""                               # 必选：填入机场订阅链接
-    # filter: "(?i)港|hk|hongkong"        # 可选：使用关键词或正则表达式筛选节点
-    # exclude-filter: "(?i)测试"          # 可选：排除匹配的节点
-    # override: {
-    #   additional-prefix: "[provider1]"  # 可选：为节点名添加前缀
-    # }
-    path: ./proxies/provider1.yaml        # 可选：填入节点文件保存路径
-  # 订阅链接二
-  # provider2: {
-  #   <<: *pr,
-  #   url: "",
-  #   path: ./proxies/provider2.yaml
-  # }
+    url: "" # 填写代理订阅链接
+    path: ./proxies/provider1.yaml
 
-  # 默认在分组内使用全部订阅：
-  # include-all-providers: true
-  # 如有特殊需求可以在分组内使用指定订阅：
-  # use:
-  #   - provider1
-  #   - provider2
-  # 或在锚点处修改：
-  # use:  &u {type: select,   use: [Provider1, Provider2] }
+mode: rule
+log-level: info
+ipv6: false
+allow-lan: true
+mixed-port: 7890
 
-# ======= 基础设置 =======
-mode: rule                        # 运行模式
-log-level: info                   # 日志级别
-ipv6: false                       # IPV6 开关
-allow-lan: true                   # 允许局域网连接
-mixed-port: 7890                  # 混合端口
+unified-delay: true
+tcp-concurrent: true
+keep-alive-idle: 600
+keep-alive-interval: 30
+find-process-mode: strict
 
-# ======= 外部控制 =======
-# external-ui: ui                     # UI 路径
-# external-ui-name: xd                # UI 下载目录
-# external-controller: 127.0.0.1:9090 # 外部控制器监听地址
-# external-ui-url: "https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-pages.zip" # UI 下载地址
-
-# ======= 连接优化 =======
-unified-delay: true               # 统一延迟显示
-tcp-concurrent: true              # TCP 并发
-keep-alive-idle: 600              # TCP Keep Alive 空闲时间
-keep-alive-interval: 30           # TCP Keep Alive 间隔时间
-find-process-mode: strict         # 进程匹配模式
-global-client-fingerprint: chrome # 全局客户端指纹
-
-# ======= 缓存配置 =======
 profile:
-  store-selected: true # 缓存策略组选择
-  # store-fake-ip: true # 缓存 Fake-IP 映射
+  store-selected: true
+  store-fake-ip: true
 
-# ======= DNS 设置 =======
+hosts:
+  dns.alidns.com: [223.5.5.5, 223.6.6.6]
+  doh.pub: [1.12.12.12, 120.53.53.53]
+  dns.google: [8.8.8.8, 8.8.4.4]
+  dns11.quad9.net: [9.9.9.11, 149.112.112.11]
+
 dns:
-  enable: true                          # 启用 DNS 服务
-  ipv6: false                           # IPv6 解析开关
-  listen: :53                           # DNS 监听地址
-  prefer-h3: true                       # 优先使用 HTTP/3 DNS
+  enable: true
+  ipv6: false
+  listen: :53
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
-  fake-ip-filter: ["geosite:connectivity-check", "rule-set:private", 'rule-set:fakeip-filter']
-  nameserver:                           # 默认域名解析服务器
-    - https://doh.pub/dns-query
-    - https://dns.alidns.com/dns-query
+  fake-ip-filter-mode: rule
+  fake-ip-filter:
+    - RULE-SET,connectivity-check,real-ip
+    - RULE-SET,private,real-ip
+    - RULE-SET,reject-drop,fake-ip
+    - RULE-SET,reject,real-ip
+    - RULE-SET,fakeip-filter,real-ip
 
-# ======= 域名嗅探 =======
+    - RULE-SET,speedtest,fake-ip
+
+    - RULE-SET,ai@cn,real-ip
+    - RULE-SET,google@cn,real-ip
+    - RULE-SET,microsoft@cn,real-ip
+    - RULE-SET,game@cn,real-ip
+
+    - RULE-SET,ai,fake-ip
+    - RULE-SET,streaming,fake-ip
+    - RULE-SET,telegram,fake-ip
+    - RULE-SET,game,fake-ip
+
+    - RULE-SET,apple@cn,real-ip
+    - RULE-SET,apple-services,real-ip
+    - RULE-SET,neteasemusic,real-ip
+
+    - RULE-SET,download,fake-ip
+    - RULE-SET,cdn,fake-ip
+    - RULE-SET,apple,fake-ip
+    - RULE-SET,microsoft,fake-ip
+
+    - RULE-SET,direct,real-ip
+    - RULE-SET,proxy,fake-ip
+    - RULE-SET,domestic,real-ip
+    - MATCH,fake-ip
+  respect-rules: true
+  nameserver:
+    - 'https://dns.google/dns-query#Proxy'
+    - 'https://dns11.quad9.net/dns-query#Proxy'
+  proxy-server-nameserver:
+    - 'https://dns.alidns.com/dns-query#DIRECT'
+    - 'https://doh.pub/dns-query#DIRECT'
+  direct-nameserver:
+    - 'https://dns.alidns.com/dns-query#DIRECT'
+    - 'https://doh.pub/dns-query#DIRECT'
+  direct-nameserver-follow-policy: true
+  nameserver-policy:
+    'rule-set:connectivity-check,private': [system]
+    'rule-set:reject': [rcode://success]
+    'rule-set:ai@cn,apple@cn,apple-services,google@cn,microsoft@cn,game@cn,neteasemusic,direct,domestic':
+      - 'https://dns.alidns.com/dns-query#DIRECT'
+      - 'https://doh.pub/dns-query#DIRECT'
+
 sniffer:
-  enable: true  # 启用域名嗅探
-  sniff:        # 嗅探规则
+  enable: true
+  parse-pure-ip: true
+  sniff:
     HTTP:
       ports: [80, 8080-8880]
       override-destination: true
@@ -87,33 +104,31 @@ sniffer:
       ports: [443, 8443]
     QUIC:
       ports: [443, 8443]
-  skip-domain:  # 跳过嗅探的域名
+  skip-domain:
+    - "Mijia Cloud"
     - "dlg.io.mi.com"
     - "+.push.apple.com"
 
-# ======= TUN 配置 =======
 tun:
-  enable: true                # 启用 TUN 模式
-  stack: mixed                # 协议栈模式
-  dns-hijack:                 # DNS 劫持
+  enable: true
+  stack: mixed
+  dns-hijack:
     - any:53
     - tcp://any:53
-  auto-route: true            # 自动设置全局路由
-  auto-redirect: true         # 自动重定向流量
-  auto-detect-interface: true # 自动选择出口网卡
+  auto-route: true
+  auto-redirect: true
+  auto-detect-interface: true
 
-# ======= 代理配置 =======
 proxies:
   - {name: Direct, type: direct, udp: true}
 
-# ======= 代理组配置 =======
 proxy-groups:
   - {name: Proxy,      <<: *p,  icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Proxy.png}
   - {name: Select,     <<: *u,  icon: https://fastly.jsdelivr.net/gh/shindgewongxj/WHATSINStash@master/icon/select.png}
   - {name: Final,      <<: *pd, icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Final.png}
   - {name: Apple,      <<: *dp, icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Apple.png}
   - {name: Microsoft,  <<: *dp, icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Microsoft.png}
-  - {name: AIGC,       <<: *g, icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/AI.png}
+  - {name: AI,         <<: *g, icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/AI.png}
   - {name: Game,       <<: *g, icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Game.png}
   - {name: Streaming,  <<: *g, icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/YouTube.png}
   - {name: Telegram,   <<: *g, icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Telegram.png}
@@ -129,52 +144,91 @@ proxy-groups:
   - {name: Singapore,  <<: *r,  filter: "(?i)新|狮|sg|Singapore",   icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Singapore.png}
   - {name: USA,        <<: *r,  filter: "(?i)美|us|United States",  icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/United_States.png}
 
-# ======= 规则集合配置 =======
 rule-providers:
   ai:             {<<: *md, url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/ai.mrs,              path: ./rules/ai.mrs}
   ai@cn:          {<<: *md, url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/ai@cn.mrs,           path: ./rules/ai@cn.mrs}
+  ai@ip:               {<<: *mi, url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/skk-ai@ip.mrs, path: ./rules/ai@ip.mrs}
   apple:          {<<: *md, url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/apple.mrs,           path: ./rules/apple.mrs}
+  apple-services:      {<<: *md, url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/skk-apple_services.mrs, path: ./rules/apple-services.mrs}
   apple@cn:       {<<: *md, url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/apple@cn.mrs,        path: ./rules/apple@cn.mrs}
   cdn:            {<<: *md, url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/cdn.mrs,             path: ./rules/cdn.mrs}
-  direct:         {<<: *md, url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/direct.mrs,          path: ./rules/direct.mrs}
+  cdn@ip:              {<<: *mi, url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/cdn@ip.mrs, path: ./rules/cdn@ip.mrs}
+  connectivity-check:  {<<: *md, url: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/connectivity-check.mrs, path: ./rules/connectivity-check.mrs}
+  direct:         {type: http, format: yaml, behavior: classical, interval: 43200, url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/direct.yaml,          path: ./rules/direct.yaml}
   domestic:       {<<: *md, url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/domestic.mrs,        path: ./rules/domestic.mrs}
+  domestic@ip:    {<<: *mi, url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/domestic@ip.mrs,     path: ./rules/domestic@ip.mrs}
   download:       {<<: *md, url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/download.mrs,        path: ./rules/download.mrs}
+  download@ip:         {<<: *mi, url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/download@ip.mrs, path: ./rules/download@ip.mrs}
+  fakeip-filter:       {<<: *md, url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/fakeip-filter.mrs, path: ./rules/fakeip-filter.mrs}
   game:           {<<: *md, url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/games.mrs,           path: ./rules/game.mrs}
   game@cn:        {<<: *md, url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/games@cn.mrs,        path: ./rules/game@cn.mrs}
+  game@ip:             {<<: *mi, url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/games@ip.mrs, path: ./rules/game@ip.mrs}
+  google@cn:           {<<: *md, url: https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/google-cn.mrs, path: ./rules/google@cn.mrs}
   microsoft:      {<<: *md, url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/microsoft.mrs,       path: ./rules/microsoft.mrs}
   microsoft@cn:   {<<: *md, url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/microsoft@cn.mrs,    path: ./rules/microsoft@cn.mrs}
+  neteasemusic:        {<<: *md, url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/skk-neteasemusic.mrs, path: ./rules/neteasemusic.mrs}
+  neteasemusic@ip:     {<<: *mi, url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/skk-neteasemusic@ip.mrs, path: ./rules/neteasemusic@ip.mrs}
   private:        {<<: *md, url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/private.mrs,         path: ./rules/private.mrs}
+  private@ip:     {<<: *mi, url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/private@ip.mrs,      path: ./rules/private@ip.mrs}
   proxy:          {<<: *md, url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/proxy.mrs,           path: ./rules/proxy.mrs}
   reject:         {<<: *md, url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/reject.mrs,          path: ./rules/reject.mrs}
-  streaming:      {<<: *md, url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/streaming.mrs,       path: ./rules/streaming.mrs}
-
-  domestic@ip:    {<<: *mi, url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/domestic@ip.mrs,     path: ./rules/domestic@ip.mrs}
-  private@ip:     {<<: *mi, url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/private@ip.mrs,      path: ./rules/private@ip.mrs}
+  reject-drop:         {<<: *md, url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/skk-reject-drop.mrs, path: ./rules/reject-drop.mrs}
   reject@ip:      {<<: *mi, url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/reject@ip.mrs,       path: ./rules/reject@ip.mrs}
+  speedtest:           {<<: *md, url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/skk-speedtest.mrs, path: ./rules/speedtest.mrs}
+  streaming:      {<<: *md, url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/streaming.mrs,       path: ./rules/streaming.mrs}
+  streaming@ip:        {<<: *mi, url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/streaming@ip.mrs, path: ./rules/streaming@ip.mrs}
+  telegram:            {<<: *md, url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/skk-telegram.mrs, path: ./rules/telegram.mrs}
   telegram@ip:    {<<: *mi, url: https://raw.githubusercontent.com/reddishJade/private_proxy/refs/heads/main/Mihomo/Provider/telegram@ip.mrs,     path: ./rules/telegram@ip.mrs}
 
-# ======= 分流规则 =======
 rules:
-  - RULE-SET,private,DIRECT
-  - RULE-SET,reject,REJECT
-  - RULE-SET,cdn,CDN
-  - RULE-SET,ai@cn,DIRECT
-  - RULE-SET,ai,AIGC
-  - RULE-SET,streaming,Streaming
-  - RULE-SET,game@cn,DIRECT
-  - RULE-SET,game,Proxy
-  - RULE-SET,download,CDN
-  - RULE-SET,apple@cn,DIRECT
-  - RULE-SET,apple,Proxy
-  - RULE-SET,microsoft@cn,DIRECT
-  - RULE-SET,microsoft,Proxy
-  - RULE-SET,direct,DIRECT
-  - RULE-SET,domestic,DIRECT
-  - RULE-SET,proxy,Proxy
+  - AND,((NETWORK,UDP),(DST-PORT,443)),REJECT-DROP
+  - AND,((NETWORK,UDP),(DST-PORT,3478/19302)),REJECT-DROP
+  - DST-PORT,853,REJECT
 
-  - RULE-SET,reject@ip,REJECT
+  - AND,((RULE-SET,connectivity-check),(DST-PORT,80)),DIRECT
+  - RULE-SET,private,DIRECT
+  - RULE-SET,reject-drop,REJECT-DROP
+  - RULE-SET,reject,REJECT
+
+  - RULE-SET,speedtest,Proxy
+
+  - RULE-SET,ai@cn,DIRECT
+  - RULE-SET,google@cn,DIRECT
+  - RULE-SET,microsoft@cn,DIRECT
+  - RULE-SET,game@cn,DIRECT
+
+  - RULE-SET,ai,AI
+  - RULE-SET,streaming,Streaming
+  - RULE-SET,telegram,Proxy
+  - RULE-SET,game,Proxy
+
+  - RULE-SET,apple@cn,DIRECT
+  - RULE-SET,apple-services,DIRECT
+  - RULE-SET,neteasemusic,DIRECT
+
+  - RULE-SET,download,CDN
+  - RULE-SET,cdn,CDN
+  - RULE-SET,apple,Proxy
+  - RULE-SET,microsoft,Proxy
+
+  - RULE-SET,direct,DIRECT
+  - RULE-SET,proxy,Proxy
+  - RULE-SET,domestic,DIRECT
+
+  - IP-CIDR,127.0.0.0/8,REJECT
+  - IP-CIDR,0.0.0.0/32,REJECT,no-resolve
+  - IP-CIDR6,::1/128,REJECT,no-resolve
+  - IP-CIDR6,::/128,REJECT,no-resolve
+
   - RULE-SET,private@ip,DIRECT,no-resolve
-  - RULE-SET,telegram@ip,Proxy
+  - RULE-SET,reject@ip,REJECT,no-resolve
+  - RULE-SET,ai@ip,AI,no-resolve
+  - RULE-SET,streaming@ip,Streaming,no-resolve
+  - RULE-SET,telegram@ip,Proxy,no-resolve
+  - RULE-SET,game@ip,Proxy,no-resolve
+  - RULE-SET,neteasemusic@ip,DIRECT,no-resolve
+  - RULE-SET,download@ip,CDN,no-resolve
+  - RULE-SET,cdn@ip,CDN,no-resolve
   - RULE-SET,domestic@ip,DIRECT
 
   - MATCH,Final
