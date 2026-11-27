@@ -14,9 +14,12 @@ import logging
 import re
 import sys
 from dataclasses import dataclass
-from pathlib import Path
+from io import BytesIO
+from pathlib import Path, PurePosixPath
 from tempfile import NamedTemporaryFile
 from typing import Dict, Iterable, List
+from urllib.parse import quote
+from zipfile import ZipFile
 
 import requests
 import yaml
@@ -27,6 +30,8 @@ PROJECT_ROOT = CODE_DIR.parent
 DEFAULT_API_URL = (
     "https://api.github.com/repos/dler-io/Rules/contents/Clash/Provider?ref=main"
 )
+DEFAULT_ARCHIVE_URL = "https://codeload.github.com/dler-io/Rules/zip/refs/heads/main"
+DEFAULT_RAW_URL = "https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider"
 OUTPUT_PREFIX = "dler-"
 
 logger = logging.getLogger("dler_ruleset")
@@ -42,6 +47,29 @@ def _safe_name(filename: str) -> str:
     stem = Path(filename).stem.strip().lower()
     stem = re.sub(r"[^a-z0-9_.-]+", "_", stem)
     return stem.strip("._") or "unnamed"
+
+
+def discover_archive_entries() -> List[CatalogEntry]:
+    """Discover providers without using the rate-limited GitHub REST API."""
+
+    response = requests.get(DEFAULT_ARCHIVE_URL, timeout=30)
+    response.raise_for_status()
+
+    entries: Dict[str, CatalogEntry] = {}
+    with ZipFile(BytesIO(response.content)) as archive:
+        for member in archive.infolist():
+            path = PurePosixPath(member.filename)
+            if member.is_dir() or path.parts[1:-1] != ("Clash", "Provider"):
+                continue
+            if path.suffix.lower() not in {".yaml", ".yml"}:
+                continue
+
+            name = _safe_name(path.name)
+            entries[name] = CatalogEntry(
+                name=name, url=f"{DEFAULT_RAW_URL}/{quote(path.name)}"
+            )
+
+    return sorted(entries.values(), key=lambda item: item.name)
 
 
 def discover_entries(api_url: str = DEFAULT_API_URL) -> List[CatalogEntry]:
@@ -170,7 +198,7 @@ def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
         description="Generate Mihomo rule providers for dler-io/Rules"
     )
-    parser.add_argument("--api-url", default=DEFAULT_API_URL, help="Dler provider API URL")
+    parser.add_argument("--api-url", help="Use a custom Dler provider API URL")
     parser.add_argument(
         "--dry-run",
         action="store_true",
@@ -182,7 +210,7 @@ def parse_args() -> argparse.Namespace:
 def main() -> None:
     logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
     args = parse_args()
-    entries = discover_entries(args.api_url)
+    entries = discover_entries(args.api_url) if args.api_url else discover_archive_entries()
     configs = build_merger_config(entries, CODE_DIR / "output")
     logger.info(
         "Discovered %d Dler Clash providers and %d split targets",
