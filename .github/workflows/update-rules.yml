@@ -81,11 +81,6 @@ jobs:
         id: checker
         run: python Code/core/checker.py Mihomo/Provider
 
-      - name: Run shadowrocket script
-        run: |
-          cd Code/
-          python ./rule_merger.py ./rocket.yaml
-
       - name: Get current time
         id: time
         run: |

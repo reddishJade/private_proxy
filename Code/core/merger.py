@@ -38,9 +38,6 @@ class RulesMerger:
         self.logger = logging.getLogger(__name__)
         self.fetcher = RuleFetcher()
         self.processor = RuleProcessor()
-        # store the config path and filename so we can choose target directories later
-        self._config_path = config_path
-        self._config_filename = Path(config_path).name.lower()
 
     def _load_config(self, path: str) -> dict:
         """
@@ -155,13 +152,7 @@ class RulesMerger:
         这个方法会将生成的规则文件从临时output目录移动到最终的Provider目录
         """
         try:
-            # 计算目标目录路径，默认是Mihomo/Provider
             provider_dir = self._get_provider_directory()
-
-            if self._config_filename == "rocket.yaml":
-                provider_dir = os.path.join(
-                    self._project_root(), "Shadowrocket", "ruleset"
-                )
             output_dir = self._get_output_directory()
 
             os.makedirs(provider_dir, exist_ok=True)
@@ -201,11 +192,7 @@ class RulesMerger:
         return str(Path(__file__).resolve().parent.parent / "output")
 
     def get_target_provider_dir(self) -> str:
-        """
-        返回将要把生成文件迁移到的目标目录（Mihomo/Provider 或 Shadowrocket/ruleset）
-        """
-        if self._config_filename == "rocket.yaml":
-            return os.path.join(self._project_root(), "Shadowrocket", "ruleset")
+        """返回生成文件的目标目录。"""
         return self._get_provider_directory()
 
     def _move_output_files(self, output_dir: str, provider_dir: str) -> None:
@@ -226,8 +213,6 @@ class RulesMerger:
                     if os.path.exists(dst_path):
                         os.remove(dst_path)
                     os.rename(src_path, dst_path)
-                    # 显示实际的目标目录
-                    # provider_dir 可能是 Mihomo/Provider 或 Shadowrocket/ruleset
                     self.logger.info("已移动规则文件: %s 到 %s", filename, provider_dir)
                 except (OSError, IOError) as e:
                     self.logger.error("移动文件 %s 失败: %s", filename, str(e))
